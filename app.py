@@ -755,7 +755,9 @@ def _apply_sqlite_snl(df: pd.DataFrame) -> pd.DataFrame:
 df = _load()
 
 if df.empty:
-    st.warning("No data yet. Click **🔄 Refresh Now** to fetch for the first time.")
+    st.info(f"⏳ First data build for {config.MARKET_NAME} is running in GitHub Actions "
+            "(up to ~2 h for large markets). The app updates automatically when it lands — "
+            "check back soon.")
     st.stop()
 
 # ── SNL overlay: fill missing spg_ fields from live Snowflake
