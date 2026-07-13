@@ -1,0 +1,1162 @@
+{
+ "market": "cn",
+ "built": "2026-07-13",
+ "n": 165,
+ "companies": [
+  {
+   "ticker": "000060.SZ",
+   "name": "Zhongjin Lingnan Nonfemet",
+   "commodity": "Zinc",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "000408.SZ",
+   "name": "Cangge Mining",
+   "commodity": "Lithium",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "000426.SZ",
+   "name": "XINGYE SILVER & TIN",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000506.SZ",
+   "name": "ZJIG",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000552.SZ",
+   "name": "GANSU EC",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000603.SZ",
+   "name": "Shengda Resources",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "000612.SZ",
+   "name": "JZWF AL",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000629.SZ",
+   "name": "PGVT",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000630.SZ",
+   "name": "Tongling Nonferrous Metals",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "000655.SZ",
+   "name": "JINLING MINING",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000657.SZ",
+   "name": "Zhongwu Gaoxin Materials",
+   "commodity": "Tungsten",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "000688.SZ",
+   "name": "GUOCHENG MINING",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000711.SZ",
+   "name": "KINGLAND TECHNOLOGY",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000723.SZ",
+   "name": "MEIJIN ENERGY",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000737.SZ",
+   "name": "NORTH COPPER",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000751.SZ",
+   "name": "HLD ZINC",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000758.SZ",
+   "name": "NFC",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000762.SZ",
+   "name": "TMD",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000792.SZ",
+   "name": "Qinghai Salt Lake Industry",
+   "commodity": "Lithium",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "000795.SZ",
+   "name": "INNUOVO",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000807.SZ",
+   "name": "Yunnan Aluminium",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "000831.SZ",
+   "name": "China Minmetals Rare Earth",
+   "commodity": "Rare Earth",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "000878.SZ",
+   "name": "Yunnan Copper",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "000933.SZ",
+   "name": "SHENHUO CO.LTD",
+   "commodity": "Aluminum",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000937.SZ",
+   "name": "JZEG",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000960.SZ",
+   "name": "Yunnan Tin Company",
+   "commodity": "Tin",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "000962.SZ",
+   "name": "OTIC",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000969.SZ",
+   "name": "AT & M",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "000975.SZ",
+   "name": "Shanjin International Gold",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "000983.SZ",
+   "name": "XSCE",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "001257.SZ",
+   "name": "SLMG",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "001280.SZ",
+   "name": "China National Uranium",
+   "commodity": "Uranium",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "001337.SZ",
+   "name": "SC GOLD",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "001400.SZ",
+   "name": "Giansun Technology",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002101.SZ",
+   "name": "GUANGDONG HONGTU",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002114.SZ",
+   "name": "LPXD",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002128.SZ",
+   "name": "Huolinhe Opencut Coal",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "002149.SZ",
+   "name": "WMM",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002155.SZ",
+   "name": "Hunan Gold Corporation",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "002160.SZ",
+   "name": "ALCHA",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002171.SZ",
+   "name": "TRUCHUM",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002182.SZ",
+   "name": "BAOWU MAGNESIUM",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002203.SZ",
+   "name": "HAILIANG CO.,LTD.",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002237.SZ",
+   "name": "Hengbang Stock",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "002333.SZ",
+   "name": "LPSK",
+   "commodity": "Aluminum",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002378.SZ",
+   "name": "Zhangyuan Tungsten Industry",
+   "commodity": "Tungsten",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "002379.SZ",
+   "name": "HONGQIAO HOLDINGS",
+   "commodity": "Aluminum",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002428.SZ",
+   "name": "YUNNAN GERMANIUM",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002460.SZ",
+   "name": "Ganfeng Lithium Group",
+   "commodity": "Lithium",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "002466.SZ",
+   "name": "Tianqi Lithium",
+   "commodity": "Lithium",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "002497.SZ",
+   "name": "YAHUA GROUP",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002501.SZ",
+   "name": "LIYUAN",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002532.SZ",
+   "name": "TIANSHAN ALUMINUM",
+   "commodity": "Aluminum",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002540.SZ",
+   "name": "APALT",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002547.SZ",
+   "name": "CXJG",
+   "commodity": "Aluminum",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002578.SZ",
+   "name": "MINFA ALUMINIUM",
+   "commodity": "Aluminum",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002716.SZ",
+   "name": "HUNAN SILVER",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002738.SZ",
+   "name": "Sinomine Resource Group",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "002824.SZ",
+   "name": "HOSHION",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002842.SZ",
+   "name": "XLWY",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002978.SZ",
+   "name": "ANGF",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002988.SZ",
+   "name": "HAOMEI",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "002996.SZ",
+   "name": "SHUNBO ALU",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "003038.SZ",
+   "name": "XINBO",
+   "commodity": "Aluminum",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "300337.SZ",
+   "name": "YINBANG CLAD",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "300428.SZ",
+   "name": "LZJT",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "300489.SZ",
+   "name": "OPTICS TECH",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "300618.SZ",
+   "name": "HANRUI COBALT",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "300697.SZ",
+   "name": "DGHJ",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "300828.SZ",
+   "name": "RUIXIN TECH",
+   "commodity": "Aluminum",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "300930.SZ",
+   "name": "YITONG NEW MATERIALS",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "301026.SZ",
+   "name": "HOOTECH",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "301219.SZ",
+   "name": "TENGYUAN COBALT",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "301511.SZ",
+   "name": "DEFU TECH",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "301613.SZ",
+   "name": "Alnera",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600098.SS",
+   "name": "GUANGZHOU DEVELOPMENT GROUP INC",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600111.SS",
+   "name": "China Northern Rare Earth",
+   "commodity": "Rare Earth",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600121.SS",
+   "name": "ZHENGZHOU COAL INDUSTRY & ELECT",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600123.SS",
+   "name": "Shanxi Lanhua Sci-Tech",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600157.SS",
+   "name": "WINTIME ENERGY GROUP CO LTD",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600172.SS",
+   "name": "HENAN HUANGHE WHIRLWIND CO. LTD",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600188.SS",
+   "name": "Yankuang Energy Group",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600219.SS",
+   "name": "SHANDONG NANSHAN ALUMINUM CO LT",
+   "commodity": "Aluminum",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600255.SS",
+   "name": "ANHUI XINKE NEW MATERIALS CO LT",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600259.SS",
+   "name": "Guangsheng Nonferrous",
+   "commodity": "Rare Earth",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600301.SS",
+   "name": "GUANGXI HUAXI NONFERROUS METAL",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600331.SS",
+   "name": "SICHUAN HONGDA CHEMICAL INDUSTR",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600338.SS",
+   "name": "Xizang Zhufeng Resources",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600348.SS",
+   "name": "SHAN XI HUA YANG GROUP NEW ENER",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600361.SS",
+   "name": "INNV NEW MATERIAL TECH CO LTD",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600362.SS",
+   "name": "Jiangxi Copper",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600392.SS",
+   "name": "Shenghe Resources Holding",
+   "commodity": "Rare Earth",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600395.SS",
+   "name": "Guizhou Panjiang Coal",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600397.SS",
+   "name": "JIANGXI TUNGSTEN RARE & PRECIOU",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600403.SS",
+   "name": "HENAN DAYOU ENERGY CO LTD",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600408.SS",
+   "name": "SHANXI ANTAI GROUP",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600456.SS",
+   "name": "BAOJI TITANIUM INDUSTRY CO",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600459.SS",
+   "name": "SINO-PLATINUM METALS CO",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600489.SS",
+   "name": "Zhongjin Gold Corp.",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600490.SS",
+   "name": "PENGXIN INTERNATIONAL MINING CO",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600497.SS",
+   "name": "Yunnan Chihong Zinc & Germanium",
+   "commodity": "Zinc",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600508.SS",
+   "name": "SHANGHAI DATUN ENERGY RESOURCES",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600531.SS",
+   "name": "HENAN YUGANG GOLD & LEAD",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600546.SS",
+   "name": "SHANXI COAL INTERNATIONAL ENERG",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600547.SS",
+   "name": "Shandong Gold Mining",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600549.SS",
+   "name": "Xiamen Tungsten",
+   "commodity": "Tungsten",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600595.SS",
+   "name": "HENAN ZHONGFU INDUSTRIAL CO LTD",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600711.SS",
+   "name": "Chengtun Mining Group",
+   "commodity": "Nickel",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600714.SS",
+   "name": "QINGHAI JINRUI MINERAL DEVELOPM",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600740.SS",
+   "name": "Shanxi Coking Co.",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600753.SS",
+   "name": "FUJIAN HAIQIN ENERGY GROUP CO L",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600768.SS",
+   "name": "NINGBO FUBANG JINGYE GROUP CO",
+   "commodity": "Aluminum",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600792.SS",
+   "name": "YUNNAN COAL AND ENERGY CO. LTD.",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600888.SS",
+   "name": "XINJIANG JOINWORLD CO",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600925.SS",
+   "name": "JIANGSU XUKUANG ENERGY CO LTD",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600961.SS",
+   "name": "ZHUZHOU SMELTER GROUP CO. LTD.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600971.SS",
+   "name": "ANHUI HENGYUAN COAL INDUSTRY&EL",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600980.SS",
+   "name": "BGRIMM TECHNOLOGY CO LTD",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "600985.SS",
+   "name": "Huaibei Mining Holdings",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600988.SS",
+   "name": "Chifeng Jilong Gold",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "600997.SS",
+   "name": "KAILUAN ENERGY CHEMICAL CO. LTD",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601001.SS",
+   "name": "JINNENG HOLDING SHANXI COAL IND",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601011.SS",
+   "name": "BAOTAILONG NEW MATERIALS CO LTD",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601015.SS",
+   "name": "Shaanxi Heimao Coking",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601020.SS",
+   "name": "Tibet Huayu Mining",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601061.SS",
+   "name": "CITIC METAL CO LTD",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601069.SS",
+   "name": "WESTERN REGION GOLD CO LTD",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601088.SS",
+   "name": "China Shenhua Energy",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601101.SS",
+   "name": "BEIJING HAOHUA ENERGY RESOURCE",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601121.SS",
+   "name": "XINJIANG BAODI MINING CO LTD",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601137.SS",
+   "name": "NINGBO BOWAY ALLOY MATERIAL CO",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601168.SS",
+   "name": "Western Mining",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601212.SS",
+   "name": "Baiyin Nonferrous Group",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601225.SS",
+   "name": "Shaanxi Coal Industry",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601388.SS",
+   "name": "YECHIU METAL RECYCLING (CHINA)",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601600.SS",
+   "name": "Aluminum Corp of China (Chalco)",
+   "commodity": "Aluminum",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601609.SS",
+   "name": "NINGBO JINTIAN COPPER GROUP CO",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601666.SS",
+   "name": "Pingdingshan Tianan Coal",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601677.SS",
+   "name": "HENAN MINGTAI AL INDUSTRIAL CO",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601699.SS",
+   "name": "SHANXI LU'AN ENV.ENERGY DEV.CO.",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601702.SS",
+   "name": "SHANGHAI HUAFON ALUMINIUM CORPO",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "601898.SS",
+   "name": "China Coal Energy",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601899.SS",
+   "name": "Zijin Mining Group",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601918.SS",
+   "name": "China Coal Xinji Energy",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601958.SS",
+   "name": "Jinduicheng Molybdenum",
+   "commodity": "Molybdenum",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "601969.SS",
+   "name": "Hainan Mining",
+   "commodity": "Iron Ore",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "603071.SS",
+   "name": "ZJMI ENVIRONMENTAL ENERGY CO LT",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "603124.SS",
+   "name": "JIANGXI JIANGNAN NEW MATERIAL T",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "603132.SS",
+   "name": "Jinhui Mining Incorporation",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "603271.SS",
+   "name": "YONG JIE NEW MATERIAL CO LTD",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "603399.SS",
+   "name": "JINZHOU YONGSHAN LITHIUM CO LTD",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "603505.SS",
+   "name": "CHINA KINGS RESOURCES GROUP CO",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "603799.SS",
+   "name": "Zhejiang Huayou Cobalt",
+   "commodity": "Nickel",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "603876.SS",
+   "name": "JIANGSU DINGSHENG NEW MATERIAL",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "603937.SS",
+   "name": "JIANGSU LIDAO NEW MATERIAL CO L",
+   "commodity": "Aluminum",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "603978.SS",
+   "name": "SHENZHENSUNXING LIGHT ALLOYS MA",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "603979.SS",
+   "name": "JCHX MINING MANAGEMENT CO LTD",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "603993.SS",
+   "name": "CMOC Group (A-Share)",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "605086.SS",
+   "name": "LONGYAN KAOLIN CLAY CO LTD",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "688102.SS",
+   "name": "SHAANXI SIRUI ADVANCED MATERIAL",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "688231.SS",
+   "name": "JIANGSU LONGDA SUPERALLOY CO LT",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "688388.SS",
+   "name": "GUANGDONG JIA YUAN TECHNOLOGY S",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "688750.SS",
+   "name": "HUNAN XIANGTOU GOLDSKY TITANIUM",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "688811.SS",
+   "name": "GRINM METAL COMPOSITES BEIJING",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "900948.SS",
+   "name": "INNER MONGOLIA YITAI COAL",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  }
+ ]
+}

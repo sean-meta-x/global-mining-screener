@@ -1,0 +1,553 @@
+{
+ "market": "hk",
+ "built": "2026-07-13",
+ "n": 78,
+ "companies": [
+  {
+   "ticker": "0061.HK",
+   "name": "GREEN LEADER",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0065.HK",
+   "name": "GRAND OCEAN AR",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0098.HK",
+   "name": "XINGFA ALUM",
+   "commodity": "Aluminum",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0166.HK",
+   "name": "NEW TIMES CORP",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0276.HK",
+   "name": "MONGOLIA ENERGY",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0340.HK",
+   "name": "TONGGUAN GOLD",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0358.HK",
+   "name": "Jiangxi Copper",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "0486.HK",
+   "name": "RUSAL",
+   "commodity": "Aluminum",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0505.HK",
+   "name": "XINGYE ALLOY",
+   "commodity": "Copper",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0521.HK",
+   "name": "CWT INT'L",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0601.HK",
+   "name": "REMT",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0621.HK",
+   "name": "TAUNG GOLD",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0637.HK",
+   "name": "LEE KEE",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0639.HK",
+   "name": "Shougang Fushan Resources",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "0645.HK",
+   "name": "ARES ASIA",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0661.HK",
+   "name": "CDAYENONFER",
+   "commodity": "Copper",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0769.HK",
+   "name": "China Rare Earth Holdings",
+   "commodity": "Rare Earth",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "0815.HK",
+   "name": "China Silver Group",
+   "commodity": "Silver",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "0866.HK",
+   "name": "CHINA QINFA",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "0975.HK",
+   "name": "Mongolian Mining",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1029.HK",
+   "name": "IRC Limited",
+   "commodity": "Iron Ore",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1051.HK",
+   "name": "G-Resources Group",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1088.HK",
+   "name": "China Shenhua Energy",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1091.HK",
+   "name": "SOUTH MANGANESE",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "1164.HK",
+   "name": "CGN Mining",
+   "commodity": "Uranium",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1171.HK",
+   "name": "Yankuang Energy Group",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1182.HK",
+   "name": "SUCCESS DRAGON",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "1205.HK",
+   "name": "CITIC Resources Holdings",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1208.HK",
+   "name": "MMG Limited",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1229.HK",
+   "name": "NAN NAN RES",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "1258.HK",
+   "name": "China Nonferrous Metal Mining",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1277.HK",
+   "name": "KINETIC DEV",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "1303.HK",
+   "name": "HUILI RES",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "1378.HK",
+   "name": "China Hongqiao Group",
+   "commodity": "Aluminum",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1380.HK",
+   "name": "CHI KINGSTONE",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "1393.HK",
+   "name": "Hidili Industry",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1712.HK",
+   "name": "DRAGON MINING",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "1733.HK",
+   "name": "E-COMMODITIES",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "1738.HK",
+   "name": "FS ANTHRACITE",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "1772.HK",
+   "name": "Ganfeng Lithium",
+   "commodity": "Lithium",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1787.HK",
+   "name": "Shandong Gold Mining",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1818.HK",
+   "name": "Zhaojin Mining Industry",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "1878.HK",
+   "name": "SOUTHGOBI",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "1898.HK",
+   "name": "China Coal Energy",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "2078.HK",
+   "name": "PANASIALUM",
+   "commodity": "Aluminum",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "2099.HK",
+   "name": "China Gold International Resources",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "2237.HK",
+   "name": "CHINA GRAPHITE",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "2245.HK",
+   "name": "LYGEND RESOURCE",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "2259.HK",
+   "name": "Zijin Gold International",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "2302.HK",
+   "name": "CNNC INT'L",
+   "commodity": "Uranium",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "2326.HK",
+   "name": "NPE HOLDINGS",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "2362.HK",
+   "name": "Jinchuan Group Intl Resources",
+   "commodity": "Nickel",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "2489.HK",
+   "name": "Jihai Gold (Persistence Gold)",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "2600.HK",
+   "name": "Aluminum Corp of China (Chalco)",
+   "commodity": "Aluminum",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "2610.HK",
+   "name": "NANSHAN AL INTL",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "2623.HK",
+   "name": "HK GOLD IND-500",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "2693.HK",
+   "name": "JINYAN KAOLIN",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "2788.HK",
+   "name": "CHUANGXIN IND",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "2798.HK",
+   "name": "PER ENERGY",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "2899.HK",
+   "name": "Zijin Mining Group",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "3330.HK",
+   "name": "Lingbao Gold Group",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "3636.HK",
+   "name": "JINXUN RESOURCE",
+   "commodity": "Copper",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "3668.HK",
+   "name": "YANCOAL AUS",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "3788.HK",
+   "name": "Hanking Gold Mining",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "3833.HK",
+   "name": "XINXIN MINING",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "3858.HK",
+   "name": "JIAXIN INTL RES",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "3939.HK",
+   "name": "Wanguo Gold Group",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "3993.HK",
+   "name": "CMOC Group",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "6128.HK",
+   "name": "GRAPHEX GROUP",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "6228.HK",
+   "name": "MERDEKAGOLD-DRS",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "6693.HK",
+   "name": "CHIFENG GOLD",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "6885.HK",
+   "name": "JINMA ENERGY",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "8028.HK",
+   "name": "TIMELESS",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "8095.HK",
+   "name": "BEIDA JADE BIRD",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "8203.HK",
+   "name": "KAISUN HOLDINGS",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "8250.HK",
+   "name": "DU DU HLDGS",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "8299.HK",
+   "name": "GT GOLD",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "9696.HK",
+   "name": "Tianqi Lithium",
+   "commodity": "Lithium",
+   "stage": "Major Producer",
+   "src": "curated"
+  }
+ ]
+}

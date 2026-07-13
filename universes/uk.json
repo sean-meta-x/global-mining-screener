@@ -1,0 +1,1085 @@
+{
+ "market": "uk",
+ "built": "2026-07-13",
+ "n": 154,
+ "companies": [
+  {
+   "ticker": "0ICU.L",
+   "name": "DRDGOLD LTD DRDGOLD ADR REPRESE",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "1SN.L",
+   "name": "FIRST TIN PLC ORD GBP0.001",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "80M.L",
+   "name": "80 MILE PLC ORD 0.01P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AAL.L",
+   "name": "Anglo American Plc",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AAU.L",
+   "name": "Ariana Resources Plc",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AAZ.L",
+   "name": "ANGLO ASIAN MINING PLC ORD 1P",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ACG.L",
+   "name": "ACG METALS LIMITED CLS A ORD NP",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AFP.L",
+   "name": "AFRICAN PIONEER PLC ORD NPV",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AKN.L",
+   "name": "Arkadian Strategic Metals Plc",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ALL.L",
+   "name": "Atlantic Lithium Limited",
+   "commodity": "Lithium",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ALTN.L",
+   "name": "ALTYNGOLD PLC ORD 10P",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AMG.L",
+   "name": "ATLAS METALS GROUP PLC ORD 1P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AMGO.L",
+   "name": "AMIGO RESOURCES PLC ORD 0.25P",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AMRQ.L",
+   "name": "AMAROQ LTD. COM SHS NPV (DI)",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ANTO.L",
+   "name": "Antofagasta Plc",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ARCM.L",
+   "name": "ARC MINERALS LIMITED ORDS NPV (",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ARK.L",
+   "name": "ARKLE RESOURCES PLC ORD EUR0.00",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ARS.L",
+   "name": "ASIAMET RESOURCES LIMITED COM S",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ATM.L",
+   "name": "ANDRADA MINING LIMITED ORD NPV",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ATN.L",
+   "name": "ATERIAN PLC ORD 10P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ATYM.L",
+   "name": "Atalaya Mining Plc",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AURA.L",
+   "name": "AURA ENERGY LIMITED ORD NPV (DI",
+   "commodity": "Uranium",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AYM.L",
+   "name": "ANGLESEY MINING PLC ORD 1P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BEM.L",
+   "name": "BEOWULF MINING PLC ORD 5P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BHL.L",
+   "name": "BRADDA HEAD LITHIUM LIMITED ORD",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BHP.L",
+   "name": "BHP Group Limited",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "BKY.L",
+   "name": "Berkeley Energia Limited",
+   "commodity": "Uranium",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "BMIN.L",
+   "name": "BOTSWANA MINERALS PLC ORD 0.25P",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BMV.L",
+   "name": "BLUEBIRD MINING VENTURES LTD OR",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BRES.L",
+   "name": "BLENCOWE RESOURCES PLC ORD 0.5P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BZT.L",
+   "name": "BEZANT RESOURCES PLC ORD 0.002P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CAML.L",
+   "name": "Central Asia Metals Plc",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "CAPD.L",
+   "name": "CAPITAL LIMITED COMM SHS USD0.0",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CDL.L",
+   "name": "CLOUDBREAK DISCOVERY PLC ORD 0.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CEY.L",
+   "name": "Centamin Plc",
+   "commodity": "Gold",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "CGNR.L",
+   "name": "CONROY GOLD & NATURAL RESOURCES",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CGO.L",
+   "name": "CONTANGO HOLDINGS PLC ORD 1P",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CHF.L",
+   "name": "CHESTERFIELD RESOURCES PLC ORD",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CLA.L",
+   "name": "CELSIUS RESOURCES LIMITED ORD N",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CMCL.L",
+   "name": "Caledonia Mining Corporation",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "CMET.L",
+   "name": "CAPITAL METALS PLC ORD 0.2P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CMRS.L",
+   "name": "CRITICAL MINERAL RESOURCES PLC",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "COBR.L",
+   "name": "COBRA RESOURCES PLC ORD 1P",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CORA.L",
+   "name": "CORA GOLD LIMITED ORD NPV (DI)",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CRTM.L",
+   "name": "CRITICAL METALS PLC ORD GBP0.00",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CTL.L",
+   "name": "CLEANTECH LITHIUM PLC ORD GBP0.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ECOR.L",
+   "name": "Ecora Royalties Plc",
+   "commodity": "Diversified",
+   "stage": "Royalty/Streaming",
+   "src": "curated"
+  },
+  {
+   "ticker": "ECR.L",
+   "name": "ECR MINERALS PLC ORD 0.001P",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "EDV.L",
+   "name": "Endeavour Mining Plc",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "EEE.L",
+   "name": "EMPIRE METALS LIMITED ORD NPV (",
+   "commodity": "PGM",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "EMH.L",
+   "name": "EUROPEAN METALS HOLDINGS LIMITE",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "EST.L",
+   "name": "EAST STAR RESOURCES PLC ORD GBP",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "EUA.L",
+   "name": "Eurasia Mining Plc",
+   "commodity": "PGM",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "FAR.L",
+   "name": "FERRO-ALLOY RESOURCES LIMITED O",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FCM.L",
+   "name": "FIRST CLASS METALS PLC ORD GBP0",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FDR.L",
+   "name": "FIRST DEVELOPMENT RESOURCES PLC",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FMET.L",
+   "name": "FULCRUM METALS PLC ORD 1P",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FOX.L",
+   "name": "FOCUS XPLORE PLC ORD GBP0.0001",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FRES.L",
+   "name": "Fresnillo Plc",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "FRG.L",
+   "name": "FIRERING STRATEGIC MINERALS PLC",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FXPO.L",
+   "name": "Ferrexpo Plc",
+   "commodity": "Iron Ore",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GAL.L",
+   "name": "GALANTAS GOLD CORPORATION COM S",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GCM.L",
+   "name": "GCM RESOURCES PLC ORD 1P",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GDP.L",
+   "name": "GOLDPLAT PLC ORD 1P",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GEM.L",
+   "name": "GEMFIELDS GROUP LIMITED ORD USD",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GEMD.L",
+   "name": "Gem Diamonds Limited",
+   "commodity": "Diamonds",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GEMR.L",
+   "name": "GEM RESOURCES PLC ORD 0.01P",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GEX.L",
+   "name": "GEORGINA ENERGY PLC ORD 1P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GFM.L",
+   "name": "GRIFFIN MINING LIMITED ORD $0.0",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GGP.L",
+   "name": "Greatland Gold Plc",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GLEN.L",
+   "name": "Glencore Plc",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GLR.L",
+   "name": "GALILEO RESOURCES PLC ORD 0.1P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GMET.L",
+   "name": "GUARDIAN METAL RESOURCES PLC OR",
+   "commodity": "PGM",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GRL.L",
+   "name": "GOLDSTONE RESOURCES LIMITED ORD",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GROC.L",
+   "name": "GREENROC STRATEGIC MATERIALS PL",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GRX.L",
+   "name": "GREENX METALS LIMITED ORD NPV (",
+   "commodity": "Copper",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GSCU.L",
+   "name": "GREAT SOUTHERN COPPER PLC ORD G",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GWMO.L",
+   "name": "GREAT WESTERN MINING CORPORATIO",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "HALO.L",
+   "name": "HALO MINERALS PLC ORD GBP0.001",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "HAMA.L",
+   "name": "HAMAK STRATEGY LIMITED ORD NPV",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "HEX.L",
+   "name": "HELIX EXPLORATION PLC ORD GBP0.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "HOC.L",
+   "name": "Hochschild Mining Plc",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "HREE.L",
+   "name": "HARENA RARE EARTHS PLC ORD 0.5P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "HZM.L",
+   "name": "Horizonte Minerals Plc",
+   "commodity": "Nickel",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "IMC.L",
+   "name": "IMC EXPLORATION GROUP PLC ORD E",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "IRON.L",
+   "name": "IRONVELD PLC ORD 0.01P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "JAN.L",
+   "name": "JANGADA MINES PLC ORD GBP0.0004",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "JLP.L",
+   "name": "JUBILEE METALS GROUP PLC ORD 1P",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "KAV.L",
+   "name": "KAVANGO RESOURCES PLC ORD 0.1P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "KDNC.L",
+   "name": "CADENCE MINERALS PLC ORD 1P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "KDR.L",
+   "name": "KARELIAN DIAMOND RESOURCES PLC",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "KEFI.L",
+   "name": "KEFI GOLD AND COPPER PLC ORD 0.",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "KEN.L",
+   "name": "KENDRICK RESOURCES PLC ORD GBP0",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "KMR.L",
+   "name": "Kenmare Resources Plc",
+   "commodity": "Mineral Sands",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "KOD.L",
+   "name": "KODAL MINERALS PLC ORD 0.03125P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "KP2.L",
+   "name": "KORE POTASH PLC ORD USD0.001",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "LEX.L",
+   "name": "LEXINGTON GOLD LTD COM SHS USD0",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "LND.L",
+   "name": "LANDORE RESOURCES LIMITED ORD N",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MET1.L",
+   "name": "METALS ONE PLC ORD GBP0.001",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MKA.L",
+   "name": "MKANGO RESOURCES LTD CMN SHS NP",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MNO.L",
+   "name": "MERIDIAN MINING PLC ORD EUR0.01",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MTL.L",
+   "name": "METALS EXPLORATION PLC ORD GBP0",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NEO.L",
+   "name": "NEO ENERGY METALS PLC ORD GBP0.",
+   "commodity": "Uranium",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NFM.L",
+   "name": "NEW FRONTIER MINERALS LIMITED O",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NTVO.L",
+   "name": "NATIVO RESOURCES PLC ORD 0.15P",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "OMI.L",
+   "name": "OROSUR MINING INC COM SHS NPV",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ORCP.L",
+   "name": "ORACLE POWER PLC ORD 0.001P",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ORR.L",
+   "name": "ORIOLE RESOURCES PLC ORD 0.1P",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "PAF.L",
+   "name": "Pan African Resources Plc",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "PALM.L",
+   "name": "PANTHER METALS PLC ORD NPV",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "PAT.L",
+   "name": "PANTHERA RESOURCES PLC ORD 1P",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "PDL.L",
+   "name": "Petra Diamonds Limited",
+   "commodity": "Diamonds",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "PLSR.L",
+   "name": "PULSAR HELIUM INC. COM SHS NPV",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "POW.L",
+   "name": "POWER METAL RESOURCES PLC ORD 2",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "PRE.L",
+   "name": "PENSANA PLC",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "PREM.L",
+   "name": "PREMIER AFRICAN MINERALS LIMITE",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "PXC.L",
+   "name": "PHOENIX COPPER LIMITED ORD NPV",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "RBW.L",
+   "name": "RAINBOW RARE EARTHS LIMITED ORD",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "RIO.L",
+   "name": "Rio Tinto Group",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "RMR.L",
+   "name": "ROME RESOURCES PLC ORD 0.1P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ROCK.L",
+   "name": "ROCKFIRE RESOURCES PLC ORD 0.1P",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "RRR.L",
+   "name": "RED ROCK RESOURCES PLC ORD 0.01",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "RSG.L",
+   "name": "Resolute Mining Limited",
+   "commodity": "Gold",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "S32.L",
+   "name": "SOUTH32 LIMITED ORD NPV (DI)",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SAV.L",
+   "name": "SAVANNAH RESOURCES PLC ORD 1P",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SKA.L",
+   "name": "SHUKA MINERALS PLC ORD 1P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SLP.L",
+   "name": "Sylvania Platinum Limited",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SML.L",
+   "name": "STRATEGIC MINERALS PLC ORD 0.1P",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SRB.L",
+   "name": "Serabi Gold Plc",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SRES.L",
+   "name": "SUNRISE RESOURCES PLC ORD 0.001",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SRVL.L",
+   "name": "SERVAL RESOURCES PLC ORD GBP0.0",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SVML.L",
+   "name": "SOVEREIGN METALS LIMITED ORD NP",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SWT.L",
+   "name": "SWITCH METALS PLC ORD GBP0.0085",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TERA.L",
+   "name": "NeoTerra Group Plc",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TGA.L",
+   "name": "THUNGELA RESOURCES LIMITED ORD",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TGR.L",
+   "name": "TOTAL GRAPHITE PLC ORD GBP 0.01",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "THR.L",
+   "name": "THOR ENERGY PLC ORD GBP0.001",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "THS.L",
+   "name": "THARISA PLC ORD USD0.001 (DI)",
+   "commodity": "PGM",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "THX.L",
+   "name": "Thor Explorations Ltd",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "TIN.L",
+   "name": "Cornish Metals Plc",
+   "commodity": "Copper",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "TKO.L",
+   "name": "TASEKO MINES LIMITED COM SHS NP",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TLM.L",
+   "name": "TALISMAN METALS PLC EUR0.02 (CD",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TM1.L",
+   "name": "TECHNOLOGY MINERALS PLC ORD GBP",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TUN.L",
+   "name": "TUNGSTEN WEST PLC ORD GBP0.01",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TYM.L",
+   "name": "TERTIARY MINERALS PLC ORD 0.01P",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "UFO.L",
+   "name": "ALIEN METALS LIMITED COM SHS NP",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "UMR.L",
+   "name": "UNICORN MINERAL RESOURCES PLC O",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "URU.L",
+   "name": "URU METALS LIMITED ORD NPV (DI)",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "VALT.L",
+   "name": "VALTERRA PLATINUM LIMITED ORD Z",
+   "commodity": "PGM",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "WPM.L",
+   "name": "WHEATON PRECIOUS METALS CORP. C",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "WSBN.L",
+   "name": "WISHBONE GOLD PLC ORD 0.1P (DI)",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "XTR.L",
+   "name": "XTRACT RESOURCES PLC ORD 0.02P",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "YCA.L",
+   "name": "YELLOW CAKE PLC ORD GBP0.01",
+   "commodity": "Uranium",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ZNWD.L",
+   "name": "ZINNWALD LITHIUM PLC ORD GBP0.0",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  }
+ ]
+}

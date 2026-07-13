@@ -1,0 +1,26 @@
+# Secrets — NEVER commit (contains Snowflake credentials)
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# SQLite runtime artifacts (main .db IS committed on purpose)
+*.db-wal
+*.db-shm
+*.db-journal
+# Empty stray file
+mining_screener.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/
+
+# Internal build notes
+BUILD_PLAN.md

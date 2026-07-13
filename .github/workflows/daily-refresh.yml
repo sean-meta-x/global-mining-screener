@@ -1,0 +1,65 @@
+name: Daily data refresh
+
+on:
+  schedule:
+    # 21:30 UTC — after US close; Asia/Europe markets closed hours earlier
+    - cron: "30 21 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      max-parallel: 2          # be gentle on Yahoo rate limits
+      fail-fast: false
+      matrix:
+        market: [ca, us, uk, za, id, hk, cn]
+    env:
+      MARKET: ${{ matrix.market }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daily refresh (${{ matrix.market }})
+        run: |
+          python - <<'PYEOF'
+          import logging, sqlite3, os
+          logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+          from scheduler.jobs import run_daily_refresh
+          run_daily_refresh()
+          import config
+          conn = sqlite3.connect(config.DB_PATH)
+          conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
+          conn.close()
+          PYEOF
+
+      - name: Commit updated database
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add screener_${{ matrix.market }}.db
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore(${{ matrix.market }}): daily data refresh ($(date -u +%Y-%m-%d))"
+            # retry push in case parallel matrix jobs race
+            for i in 1 2 3 4 5; do
+              git push && break
+              git pull --rebase && sleep $((i * 5))
+            done
+          fi

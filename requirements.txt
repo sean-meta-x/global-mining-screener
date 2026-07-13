@@ -1,0 +1,31 @@
+# Pinned from the working local environment (Python 3.12)
+streamlit==1.56.0
+# Required because .streamlit/config.toml sets server.useStarlette=true
+starlette==1.0.0
+uvicorn==0.44.0
+websockets==16.0
+itsdangerous==2.2.0
+python-multipart==0.0.27
+httpx==0.28.1
+pandas==2.3.3
+numpy==2.4.4
+plotly==6.7.0
+SQLAlchemy==2.0.49
+APScheduler==3.11.2
+pytz==2026.1.post1
+python-dotenv==1.2.2
+requests==2.33.1
+beautifulsoup4==4.14.3
+lxml==6.0.4
+html5lib==1.1
+yfinance==0.2.38
+ta==0.11.0
+reportlab==4.4.10
+PyYAML==6.0.3
+# Charts: plotly trendline="ols" needs statsmodels; Excel export needs openpyxl
+statsmodels==0.14.6
+scipy==1.17.1
+openpyxl==3.1.5
+XlsxWriter==3.2.9
+# Optional — only needed when USE_SNOWFLAKE=true (imported lazily):
+# snowflake-connector-python==4.4.0

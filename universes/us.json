@@ -1,0 +1,1925 @@
+{
+ "market": "us",
+ "built": "2026-07-13",
+ "n": 274,
+ "companies": [
+  {
+   "ticker": "AA",
+   "name": "Alcoa Corporation",
+   "commodity": "Aluminum",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AABB",
+   "name": "Asia Broadband, Inc.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AAUC",
+   "name": "Allied Gold Corporation",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ABNAF",
+   "name": "Aben Gold Corp.",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ACRG",
+   "name": "American Clean Resources Group",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ACRL",
+   "name": "Atacama Resources International",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AEC",
+   "name": "Anfield Energy Inc.",
+   "commodity": "Uranium",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AEM",
+   "name": "Agnico Eagle Mines",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AG",
+   "name": "First Majestic Silver Corp",
+   "commodity": "Silver",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AGI",
+   "name": "Alamos Gold Inc",
+   "commodity": "Gold",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AGRTF",
+   "name": "Bullfrog Gold Corporation",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ALB",
+   "name": "Albemarle Corporation",
+   "commodity": "Lithium",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ALM",
+   "name": "Almonty Industries Inc.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ALOY",
+   "name": "REalloys Inc.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AMKBY",
+   "name": "Anglo American Platinum Ltd",
+   "commodity": "PGM",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AMLM",
+   "name": "American Lithium Minerals, Inc.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AMNP",
+   "name": "American Sierra Gold Corp.",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AMR",
+   "name": "Alpha Metallurgical Resources",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ARAAF",
+   "name": "Aclara Resources Inc.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ARCH",
+   "name": "Arch Resources Inc",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AREC",
+   "name": "American Resources Corporation",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ARIS",
+   "name": "Aris Mining Corporation",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ARLP",
+   "name": "Alliance Resource Partners",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ASM",
+   "name": "Avino Silver & Gold Mines",
+   "commodity": "Silver",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ATCMF",
+   "name": "Atico Mining Corp",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ATCX",
+   "name": "Atlas Critical Minerals Corpora",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ATLX",
+   "name": "Atlas Lithium Corporation",
+   "commodity": "Lithium",
+   "stage": "Explorer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AU",
+   "name": "AngloGold Ashanti",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AUGO",
+   "name": "Aura Minerals Inc.",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AUMC",
+   "name": "AURYN Mining Corporation",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AUMN",
+   "name": "Golden Minerals Company",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AUST",
+   "name": "Austin Gold Corp.",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AYA",
+   "name": "Aya Gold & Silver Inc.",
+   "commodity": "Silver",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "B",
+   "name": "Barrick Mining Corporation",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BGL",
+   "name": "Blue Gold Limited",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BGLWW",
+   "name": "Blue Gold Limited Warrant",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BHP",
+   "name": "BHP Group Limited",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "BKIRF",
+   "name": "Black Iron Inc.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BKTPF",
+   "name": "Cruz Battery Metals Corp.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BLLYF",
+   "name": "80 MILE PLC",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BLTH",
+   "name": "American Battery Materials Inc.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BMM",
+   "name": "Blue Moon Metals Inc.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BMXI",
+   "name": "Brookmount Explorations, Inc.",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BSAI",
+   "name": "BluSky AI, Inc.",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BTG",
+   "name": "B2Gold Corp",
+   "commodity": "Gold",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "BTU",
+   "name": "Peabody Energy Corporation",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "BVN",
+   "name": "Buenaventura Mining Company Inc",
+   "commodity": "PGM",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BYRG",
+   "name": "Buyer Group International, Inc.",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CAEN",
+   "name": "California-Engels Mining Co.",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CAMZF",
+   "name": "Camino Minerals Corp.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CAXPF",
+   "name": "District Copper Corp.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CCJ",
+   "name": "Cameco Corporation",
+   "commodity": "Uranium",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "CDE",
+   "name": "Coeur Mining Inc",
+   "commodity": "Silver",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "CEIX",
+   "name": "CONSOL Energy Inc",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "CENX",
+   "name": "Century Aluminum Company",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "CEXYF",
+   "name": "Copper One Resources Corp.",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CFTN",
+   "name": "Clifton Mining Co.",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CGAU",
+   "name": "Centerra Gold Inc.",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CGLD",
+   "name": "Buscar Company",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CHNR",
+   "name": "China Natural Resources, Inc.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CLF",
+   "name": "Cleveland-Cliffs Inc",
+   "commodity": "Iron Ore",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "CLRSF",
+   "name": "CASTILE RES LTD.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CMCL",
+   "name": "Caledonia Mining Corporation Pl",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CMP",
+   "name": "Compass Minerals Intl Inc",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CNL",
+   "name": "Collective Mining Ltd.",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CNR",
+   "name": "Core Natural Resources, Inc.",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "COPR",
+   "name": "Idaho Copper Corporation",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CPORF",
+   "name": "CULPEO MINERALS LIMITED",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CRML",
+   "name": "Critical Metals Corp.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CRMLW",
+   "name": "Critical Metals Corp. Warrants",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CSRNF",
+   "name": "Canstar Resources Inc.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CSTM",
+   "name": "Constellium SE",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CTGO",
+   "name": "Contango Silver & Gold Inc.",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CUAI",
+   "name": "Copper Intelligence Inc.",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "DC",
+   "name": "Dakota Gold Corp.",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "DNN",
+   "name": "Denison Mines Corp",
+   "commodity": "Uranium",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "DRD",
+   "name": "DRDGOLD Limited",
+   "commodity": "Gold",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "EGO",
+   "name": "Eldorado Gold Corporation",
+   "commodity": "Gold",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ELBM",
+   "name": "Electra Battery Materials Corpo",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ELE",
+   "name": "Elemental Royalty Corporation",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ELVR",
+   "name": "Elevra Lithium Limited - Americ",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "EMAT",
+   "name": "Evolution Metals & Technologies",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "EQX",
+   "name": "Equinox Gold Corp.",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ERO",
+   "name": "Ero Copper Corp",
+   "commodity": "Copper",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "EU",
+   "name": "enCore Energy Corp",
+   "commodity": "Uranium",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "EXK",
+   "name": "Endeavour Silver Corp",
+   "commodity": "Silver",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "FCX",
+   "name": "Freeport-McMoRan Inc",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "FLOD",
+   "name": "Flowery Gold Mines Co. of Nevad",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FMST",
+   "name": "Foremost Clean Energy Ltd.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FMSTW",
+   "name": "Foremost Lithium Resource & Tec",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FNUC",
+   "name": "Frontier Nuclear and Minerals I",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FNV",
+   "name": "Franco-Nevada Corporation",
+   "commodity": "Gold",
+   "stage": "Royalty/Streaming",
+   "src": "curated"
+  },
+  {
+   "ticker": "FQVLF",
+   "name": "First Quantum Minerals Ltd",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "FSM",
+   "name": "Fortuna Silver Mines Inc",
+   "commodity": "Silver",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "FTCO",
+   "name": "Fortitude Gold Corp",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "FURY",
+   "name": "Fury Gold Mines Limited",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FYIRF",
+   "name": "FYI RESOURCES LTD",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GAU",
+   "name": "Galiano Gold Inc.",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GFI",
+   "name": "Gold Fields Limited",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GJST",
+   "name": "GEO JS Tech Group Corp.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GLARF",
+   "name": "US1 Critical Minerals Limited",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GLDG",
+   "name": "GoldMining Inc",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GLNCY",
+   "name": "Glencore PLC",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GMTL",
+   "name": "Guardian Metal Resources PLC",
+   "commodity": "PGM",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GOLD",
+   "name": "Barrick Gold Corporation",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GORO",
+   "name": "Gold Resource Corp",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GRML",
+   "name": "Greenland Mines Ltd",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GRO",
+   "name": "Brazil Potash Corp.",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GROY",
+   "name": "Gold Royalty Corp",
+   "commodity": "Gold",
+   "stage": "Royalty/Streaming",
+   "src": "curated"
+  },
+  {
+   "ticker": "GSM",
+   "name": "Ferroglobe PLC",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "HAMRF",
+   "name": "SILVER HAMMER MNG CORP.",
+   "commodity": "Silver",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "HBM",
+   "name": "Hudbay Minerals Inc",
+   "commodity": "Copper",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "HCC",
+   "name": "Warrior Met Coal Inc",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "HIRU",
+   "name": "Hiru Corp.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "HL",
+   "name": "Hecla Mining Company",
+   "commodity": "Silver",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "HMY",
+   "name": "Harmony Gold Mining",
+   "commodity": "Gold",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "HNRG",
+   "name": "Hallador Energy Company",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "HSLV",
+   "name": "Highlander Silver Corp.",
+   "commodity": "Silver",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "HYMC",
+   "name": "Hycroft Mining Holding Corporat",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "IAG",
+   "name": "IAMGOLD Corporation",
+   "commodity": "Gold",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "IAUX",
+   "name": "i-80 Gold Corp",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ICL",
+   "name": "ICL Group Ltd",
+   "commodity": "Potash",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "IDR",
+   "name": "Idaho Strategic Resources, Inc.",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "IE",
+   "name": "Ivanhoe Electric Inc.",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "IMPUY",
+   "name": "Impala Platinum Holdings Ltd",
+   "commodity": "PGM",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "IONR",
+   "name": "ioneer Ltd",
+   "commodity": "Lithium",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "IPI",
+   "name": "Intrepid Potash Inc",
+   "commodity": "Potash",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "IPX",
+   "name": "IperionX Limited",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ISOU",
+   "name": "IsoEnergy Ltd.",
+   "commodity": "Uranium",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ITRG",
+   "name": "Integra Resources Corp.",
+   "commodity": "PGM",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "JAGU",
+   "name": "Jaguar Uranium Corp.",
+   "commodity": "Uranium",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "JSHG",
+   "name": "Joshua Gold Resources, Inc. New",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "KALU",
+   "name": "Kaiser Aluminum Corporation",
+   "commodity": "Aluminum",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "KGC",
+   "name": "Kinross Gold Corporation",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "KLGDF",
+   "name": "Kalo Gold Corp.",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "KNXFF",
+   "name": "VAULT STRATEGIC MINING CORP",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "LAAC",
+   "name": "Lithium Americas (Argentina)",
+   "commodity": "Lithium",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "LAC",
+   "name": "Lithium Americas Corp",
+   "commodity": "Lithium",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "LAR",
+   "name": "Lithium Argentina AG",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "LEU",
+   "name": "Centrus Energy Corp.",
+   "commodity": "Uranium",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "LGO",
+   "name": "Largo Inc.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "LINMF",
+   "name": "LINEAR MINERALS CORP.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "LMEFF",
+   "name": "Laurion Mineral Exploration Inc",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "LODE",
+   "name": "Comstock Inc",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "curated"
+  },
+  {
+   "ticker": "LUNMF",
+   "name": "Lundin Mining Corporation",
+   "commodity": "Copper",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "LYSCF",
+   "name": "Lynas Rare Earths Ltd",
+   "commodity": "Rare Earths",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "LZM",
+   "name": "Lifezone Metals Limited",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MAGE",
+   "name": "Magellan Copper and Gold Corp.",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MAKO",
+   "name": "Mako Mining Corp",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MAXXF",
+   "name": "Max Power Mining Corp",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MEDAF",
+   "name": "Medaro Mining Corp.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "METC",
+   "name": "Ramaco Resources Inc",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "METCB",
+   "name": "Ramaco Resources, Inc.",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MINE",
+   "name": "Mayfair Gold Corp.",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MOS",
+   "name": "The Mosaic Company",
+   "commodity": "Potash",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "MP",
+   "name": "MP Materials Corp",
+   "commodity": "Rare Earths",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "MTA",
+   "name": "Metalla Royalty & Streaming Ltd",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MTAL",
+   "name": "Metals Acquisition Ltd",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "MTRN",
+   "name": "Materion Corporation",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MUX",
+   "name": "McEwen Inc.",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NAK",
+   "name": "Northern Dynasty Minerals",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "NALG",
+   "name": "North America Lithium and Gold",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NAMM",
+   "name": "Namib Minerals",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NAMMW",
+   "name": "Namib Minerals Warrants",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NATBF",
+   "name": "NATBRIDGE RES LTD",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NB",
+   "name": "NioCorp Developments Ltd",
+   "commodity": "Rare Earths",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "NBRI",
+   "name": "North Bay Resources, Inc.",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NC",
+   "name": "NACCO Industries, Inc.",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NEM",
+   "name": "Newmont Corporation",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "NEWP",
+   "name": "New Pacific Metals Corp.",
+   "commodity": "Silver",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NEXA",
+   "name": "Nexa Resources S.A.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NEXM",
+   "name": "NexMetals Mining Corp.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NFGC",
+   "name": "New Found Gold Corp",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NG",
+   "name": "Novagold Resources Inc.",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NGD",
+   "name": "New Gold Inc",
+   "commodity": "Gold",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "NGLOY",
+   "name": "Anglo American PLC",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "NHAWF",
+   "name": "North Arrow Minerals, Inc.",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NICM",
+   "name": "Nicola Mining Inc.",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NIOBW",
+   "name": "NioCorp Developments Ltd. Warra",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NKOSF",
+   "name": "Labrador Gold Corp.",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NMG",
+   "name": "Nouveau Monde Graphite Inc.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NOVN",
+   "name": "Novagold Resources Inc",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "NRP",
+   "name": "Natural Resource Partners LP Li",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NTR",
+   "name": "Nutrien Ltd",
+   "commodity": "Potash",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "NUCL",
+   "name": "Eagle Nuclear Energy Corp.",
+   "commodity": "Uranium",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NVA",
+   "name": "Nova Minerals Corp",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NWPG",
+   "name": "Newport Gold, Inc.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NXE",
+   "name": "NexGen Energy Ltd",
+   "commodity": "Uranium",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ODV",
+   "name": "Osisko Development Corp.",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ODVWZ",
+   "name": "Osisko Development Corp. Warran",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "OGC",
+   "name": "OceanaGold Corporation",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "OICT",
+   "name": "Oicintra, Inc.",
+   "commodity": "PGM",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "OMEX",
+   "name": "Odyssey Marine Exploration, Inc",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "OR",
+   "name": "Osisko Gold Royalties Ltd",
+   "commodity": "Gold",
+   "stage": "Royalty/Streaming",
+   "src": "curated"
+  },
+  {
+   "ticker": "ORLA",
+   "name": "Orla Mining Ltd.",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "OSCI",
+   "name": "Osceola Gold, Inc.",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "OTMCF",
+   "name": "OTMCF",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "PAAS",
+   "name": "Pan American Silver Corp",
+   "commodity": "Silver",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "PDIV",
+   "name": "Premier Development & Investmen",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "PLG",
+   "name": "Platinum Group Metals Ltd.",
+   "commodity": "PGM",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "PPTA",
+   "name": "Perpetua Resources Corp",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "PTM",
+   "name": "Platinum Group Metals Ltd",
+   "commodity": "PGM",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "PZG",
+   "name": "Paramount Gold Nevada Corp.",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "REA",
+   "name": "Rare Earths Americas, Inc.",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "REE",
+   "name": "Rare Element Resources Ltd",
+   "commodity": "Rare Earths",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "REVFF",
+   "name": "REV Exploration Corp.",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "RGLD",
+   "name": "Royal Gold Inc",
+   "commodity": "Gold",
+   "stage": "Royalty/Streaming",
+   "src": "curated"
+  },
+  {
+   "ticker": "RIO",
+   "name": "Rio Tinto Group",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "RITE",
+   "name": "MineralRite Corporation",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ROYIF",
+   "name": "ROYALTIES INC.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "RREE",
+   "name": "ResourceTec Corporation",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "RYOOF",
+   "name": "Rio Silver, Inc.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SA",
+   "name": "Seabridge Gold Inc",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SAMMF",
+   "name": "SAMA RES INC / RESSOURCES SAMA",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SAND",
+   "name": "Sandstorm Gold Royalties",
+   "commodity": "Gold",
+   "stage": "Royalty/Streaming",
+   "src": "curated"
+  },
+  {
+   "ticker": "SBGL",
+   "name": "Sibanye Stillwater Ltd",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SBMT",
+   "name": "Silver Bow Mining Corp.",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SBSW",
+   "name": "D/B/A Sibanye-Stillwater Limite",
+   "commodity": "PGM",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SCCO",
+   "name": "Southern Copper Corporation",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SCZM",
+   "name": "Santacruz Silver Mining Ltd.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SDRC",
+   "name": "Sidney Resources Corp.",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SGML",
+   "name": "Sigma Lithium Corporation",
+   "commodity": "Lithium",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SILS",
+   "name": "Silver Scott Mines, Inc.",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SIND",
+   "name": "Sinda Ltd.",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SKE",
+   "name": "Skeena Resources Limited",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SLI",
+   "name": "Standard Lithium Ltd",
+   "commodity": "Lithium",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SLMLF",
+   "name": "APEX RESOURCES INC",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SLSR",
+   "name": "Solaris Resources Inc.",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SNNAF",
+   "name": "SIENNA RESOURCES INC",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SPMTF",
+   "name": "ADELAYDE EXPL INC.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SQM",
+   "name": "Sociedad Quimica y Minera",
+   "commodity": "Lithium",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SRCAF",
+   "name": "Stria Lithium, Inc.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SSMR",
+   "name": "Sunshine Silver Mining & Refini",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SSRM",
+   "name": "SSR Mining Inc",
+   "commodity": "Gold",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SVM",
+   "name": "Silvercorp Metals Inc",
+   "commodity": "Silver",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SXC",
+   "name": "SunCoke Energy, Inc.",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TECK",
+   "name": "Teck Resources Limited",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "TFPM",
+   "name": "Triple Flag Precious Metals",
+   "commodity": "Gold",
+   "stage": "Royalty/Streaming",
+   "src": "curated"
+  },
+  {
+   "ticker": "TGB",
+   "name": "Trekor Metals Limited",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "THM",
+   "name": "International Tower Hill Mines,",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "THORF",
+   "name": "THOR ENERGY PLC.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TII",
+   "name": "Titan Mining Corporation",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TLOFF",
+   "name": "Talon Metals Corp.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TMC",
+   "name": "The Metals Company Inc",
+   "commodity": "Nickel",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "TMCR",
+   "name": "The Metals Royalty Company Inc.",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TMCWW",
+   "name": "TMC the metals company Inc. Warrants",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TMQ",
+   "name": "Trilogy Metals Inc",
+   "commodity": "Copper",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "TOMXF",
+   "name": "Trinity One Metals Ltd.",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TRX",
+   "name": "Tanzanian Gold Corporation",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "curated"
+  },
+  {
+   "ticker": "UAMY",
+   "name": "United States Antimony Corporat",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "UARI",
+   "name": "Uranium American Resources Inc.",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "UEC",
+   "name": "Uranium Energy Corp",
+   "commodity": "Uranium",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "URG",
+   "name": "Ur-Energy Inc",
+   "commodity": "Uranium",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "UROY",
+   "name": "Uranium Royalty Corp",
+   "commodity": "Uranium",
+   "stage": "Royalty/Streaming",
+   "src": "curated"
+  },
+  {
+   "ticker": "USAR",
+   "name": "USA Rare Earth, Inc.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "USAS",
+   "name": "Americas Gold and Silver",
+   "commodity": "Silver",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "USAU",
+   "name": "U.S. Gold Corp.",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "USGO",
+   "name": "US Gold Corp",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "curated"
+  },
+  {
+   "ticker": "UUUFF",
+   "name": "Uranium One Mining Corp.",
+   "commodity": "Uranium",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "UUUU",
+   "name": "Energy Fuels Inc",
+   "commodity": "Uranium",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "VALE",
+   "name": "Vale SA",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "VGZ",
+   "name": "Vista Gold Corp",
+   "commodity": "Gold",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "VKALF",
+   "name": "Viking Mines Limited",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "VMET",
+   "name": "Versamet Royalties Corporation",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "VMSXF",
+   "name": "Nine Mile Metals Ltd.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "VOXR",
+   "name": "Vox Royalty Corp.",
+   "commodity": "PGM",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "VZLA",
+   "name": "Vizsla Silver Corp.",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "WCUFF",
+   "name": "World Copper Ltd.",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "WPM",
+   "name": "Wheaton Precious Metals",
+   "commodity": "Gold",
+   "stage": "Royalty/Streaming",
+   "src": "curated"
+  },
+  {
+   "ticker": "WRN",
+   "name": "Western Copper and Gold",
+   "commodity": "Copper",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "WWR",
+   "name": "Westwater Resources, Inc.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "XCPT",
+   "name": "XCana Petroleum Corp.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "XPL",
+   "name": "Solitario Resources Corp.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "XTPT",
+   "name": "Xtra Energy Corp.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  }
+ ]
+}

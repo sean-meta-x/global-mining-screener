@@ -1,0 +1,19 @@
+# NOTE: port/address are set in serve.py for local runs (8502).
+# Do not pin them here — Streamlit Cloud requires the default port (8501).
+[server]
+headless = true
+useStarlette = true
+fileWatcherType = "auto"
+
+[theme]
+base = "light"
+primaryColor = "#1a3a5c"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f7fa"
+textColor = "#172033"
+
+[browser]
+gatherUsageStats = false
+
+[logger]
+level = "info"

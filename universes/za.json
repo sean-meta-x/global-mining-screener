@@ -1,0 +1,259 @@
+{
+ "market": "za",
+ "built": "2026-07-13",
+ "n": 36,
+ "companies": [
+  {
+   "ticker": "AFT.JO",
+   "name": "Afrimat Limited",
+   "commodity": "Iron Ore",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "AGL.JO",
+   "name": "Anglo American Plc",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ANG.JO",
+   "name": "AngloGold Ashanti",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "APH.JO",
+   "name": "Alphamin Resources Corp",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ARI.JO",
+   "name": "African Rainbow Minerals",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "BHG.JO",
+   "name": "BHP Group Limited",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "CPR.JO",
+   "name": "Copper 360 Limited",
+   "commodity": "Copper",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "DRD.JO",
+   "name": "DRDGOLD Limited",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "EPS.JO",
+   "name": "Eastern Platinum Ltd",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "name": "Europa Metals Limited",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "EXX.JO",
+   "name": "Exxaro Resources",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GFI.JO",
+   "name": "Gold Fields Limited",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GLN.JO",
+   "name": "Glencore Plc",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "GML.JO",
+   "name": "Gemfields Group Limited",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "HAR.JO",
+   "name": "Harmony Gold Mining",
+   "commodity": "Gold",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "IMP.JO",
+   "name": "Impala Platinum",
+   "commodity": "PGM",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "JBL.JO",
+   "name": "Jubilee Metals Group",
+   "commodity": "Base Metals",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "KIO.JO",
+   "name": "Kumba Iron Ore",
+   "commodity": "Iron Ore",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "KP2.JO",
+   "name": "Kore Potash plc",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MCZ.JO",
+   "name": "MC Mining",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "curated"
+  },
+  {
+   "ticker": "MRF.JO",
+   "name": "Merafe Resources",
+   "commodity": "Chrome",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "MTU.JO",
+   "name": "Mantengu Limited",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NPH.JO",
+   "name": "Northam Platinum",
+   "commodity": "PGM",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ORN.JO",
+   "name": "Orion Minerals Limited",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "PAN.JO",
+   "name": "Pan African Resources",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "RNG.JO",
+   "name": "Randgold & Expl Co Ltd",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "S32.JO",
+   "name": "South32 Limited",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SDL.JO",
+   "name": "Southern Palladium Ltd",
+   "commodity": "PGM",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SKA.JO",
+   "name": "Shuka Minerals Plc",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SLG.JO",
+   "name": "Salungano Group Limited",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SSW.JO",
+   "name": "Sibanye-Stillwater",
+   "commodity": "PGM",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "TGA.JO",
+   "name": "Thungela Resources",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "THA.JO",
+   "name": "Tharisa plc",
+   "commodity": "PGM",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TKG.JO",
+   "name": "Tharisa Plc",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "VAL.JO",
+   "name": "Valterra Platinum Ltd",
+   "commodity": "PGM",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "WEZ.JO",
+   "name": "Wesizwe Platinum",
+   "commodity": "PGM",
+   "stage": "Developer",
+   "src": "curated"
+  }
+ ]
+}

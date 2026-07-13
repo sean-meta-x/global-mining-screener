@@ -1,0 +1,399 @@
+{
+ "market": "id",
+ "built": "2026-07-13",
+ "n": 56,
+ "companies": [
+  {
+   "ticker": "AADI.JK",
+   "name": "Adaro Andalan Indonesia",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "name": "ABM Investama",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ADMR.JK",
+   "name": "Alamtri Minerals Indonesia Tbk.",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ADRO.JK",
+   "name": "Alamtri Resources Indonesia",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ALKA.JK",
+   "name": "Alakasa Industrindo Tbk",
+   "commodity": "Aluminum",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "AMMN.JK",
+   "name": "Amman Mineral Internasional",
+   "commodity": "Copper",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ANTM.JK",
+   "name": "Aneka Tambang (Antam)",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "ARCI.JK",
+   "name": "Archi Indonesia Tbk.",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ARII.JK",
+   "name": "Atlas Resources Tbk.",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "BRMS.JK",
+   "name": "Bumi Resources Minerals",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "BSSR.JK",
+   "name": "Baramulti Suksessarana",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "BUMI.JK",
+   "name": "Bumi Resources",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "BYAN.JK",
+   "name": "Bayan Resources",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "CITA.JK",
+   "name": "Cita Mineral Investindo",
+   "commodity": "Bauxite",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "CUAN.JK",
+   "name": "Petrindo Jaya Kreasi",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "DAAZ.JK",
+   "name": "Daaz Bara Lestari Tbk.",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "DEWA.JK",
+   "name": "Darma Henwa Tbk",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "DKFT.JK",
+   "name": "Central Omega Resources Tbk.",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "DOID.JK",
+   "name": "Buma Internasional Grup",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "DSSA.JK",
+   "name": "Dian Swastatika Sentosa Tbk",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "DWGL.JK",
+   "name": "Dwi Guna Laksana Tbk.",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "EMAS.JK",
+   "name": "Merdeka Gold Resources Tbk.",
+   "commodity": "Gold",
+   "stage": "Major Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "FIRE.JK",
+   "name": "Alfa Energi Investama Tbk.",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "GEMS.JK",
+   "name": "Golden Energy Mines",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "name": "Harum Energy",
+   "commodity": "Coal",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "IATA.JK",
+   "name": "Karya Pacific Energy Tbk.",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "IFSH.JK",
+   "name": "Ifishdeco Tbk.",
+   "commodity": "Diversified",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "INAI.JK",
+   "name": "Indal Aluminium Industry Tbk",
+   "commodity": "Aluminum",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "INCO.JK",
+   "name": "Vale Indonesia",
+   "commodity": "Nickel",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "INDY.JK",
+   "name": "Indika Energy Tbk",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ITMA.JK",
+   "name": "Sumber Energi Andalan Tbk.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "ITMG.JK",
+   "name": "Indo Tambangraya Megah",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "KKGI.JK",
+   "name": "Resource Alam Indonesia",
+   "commodity": "Coal",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "MBAP.JK",
+   "name": "Mitrabara Adiperdana",
+   "commodity": "Coal",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "MBMA.JK",
+   "name": "Merdeka Battery Materials Tbk.",
+   "commodity": "PGM",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "name": "Prima Andalan Mandiri",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "MDKA.JK",
+   "name": "Merdeka Copper Gold",
+   "commodity": "Copper",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "MINE.JK",
+   "name": "Sinar Terang Mandiri Tbk.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "MITI.JK",
+   "name": "Mitra Investindo",
+   "commodity": "Tin",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "MYOH.JK",
+   "name": "Samindo Resources",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "name": "Trimegah Bangun Persada",
+   "commodity": "Nickel",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "NICE.JK",
+   "name": "Adhi Kartiko Pratama Tbk.",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "NICL.JK",
+   "name": "PAM Mineral",
+   "commodity": "Tin",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "name": "J Resources Asia Pasifik",
+   "commodity": "Gold",
+   "stage": "Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "PTBA.JK",
+   "name": "Bukit Asam (Persero)",
+   "commodity": "Coal",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "PTRO.JK",
+   "name": "Petrosea Tbk",
+   "commodity": "Diversified",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "RMKE.JK",
+   "name": "RMK Energy Tbk.",
+   "commodity": "Coal",
+   "stage": "Producer",
+   "src": "screen"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "name": "Royaltama Mulia Kontraktorindo",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SGER.JK",
+   "name": "Sumber Global Energy Tbk.",
+   "commodity": "Coal",
+   "stage": "Developer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SMGA.JK",
+   "name": "Sumber Mineral Global Abadi Tbk",
+   "commodity": "Diversified",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "SMMT.JK",
+   "name": "Golden Eagle Energy",
+   "commodity": "Coal",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "SQMI.JK",
+   "name": "Wilton Makmur Indonesia Tbk.",
+   "commodity": "Gold",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "TINS.JK",
+   "name": "TIMAH (Persero)",
+   "commodity": "Tin",
+   "stage": "Major Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "TOBA.JK",
+   "name": "TBS Energi Utama",
+   "commodity": "Coal",
+   "stage": "Mid-tier Producer",
+   "src": "curated"
+  },
+  {
+   "ticker": "UNIQ.JK",
+   "name": "Ulima Nitra Tbk.",
+   "commodity": "Coal",
+   "stage": "Explorer",
+   "src": "screen"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "name": "United Tractors Tbk",
+   "commodity": "Diversified",
+   "stage": "Major Producer",
+   "src": "screen"
+  }
+ ]
+}
