@@ -192,12 +192,93 @@ _INFO_FIELDS = [
 ]
 
 
+# ── Quote-currency normalization ───────────────────────────────────────────────
+# LSE quotes in pence (GBp) and JSE in ZAR cents (ZAc). Yahoo returns price-level
+# fields in the subunit but book value, marketCap and enterpriseValue in the major
+# unit, so its priceToBook comes back exactly 100x too high. Separately, financial-
+# statement fields arrive in financialCurrency (e.g. USD for Glencore/South32),
+# which corrupts EV/EBITDA, P/CF etc. when the quote currency differs.
+_SUBUNIT_CURRENCIES = {"GBp": ("GBP", 100.0), "ZAc": ("ZAR", 100.0)}
+
+# Fields quoted in the exchange's (sub)unit
+_PRICE_LEVEL_FIELDS = (
+    "regularMarketPrice", "fiftyTwoWeekHigh", "fiftyTwoWeekLow", "dividendRate",
+    "targetMeanPrice", "targetHighPrice", "targetLowPrice", "targetMedianPrice",
+)
+
+# Absolute financial-statement fields reported in financialCurrency
+_FINANCIAL_FIELDS = (
+    "ebitda", "totalRevenue", "totalCash", "totalDebt",
+    "operatingCashflow", "freeCashflow",
+)
+
+_FX_CACHE: dict[str, float | None] = {}
+
+
+def _fx_rate(from_cur: str, to_cur: str) -> float | None:
+    """Spot FX rate from Yahoo (e.g. USDZAR=X). Cached per pair per run."""
+    if from_cur == to_cur:
+        return 1.0
+    pair = f"{from_cur}{to_cur}"
+    if pair not in _FX_CACHE:
+        raw = get_info(f"{pair}=X").get("regularMarketPrice")
+        try:
+            _FX_CACHE[pair] = float(raw) if raw else None
+        except (TypeError, ValueError):
+            _FX_CACHE[pair] = None
+        if _FX_CACHE[pair] is None:
+            log.warning(f"[fx] No rate for {pair} — financials left unconverted")
+    return _FX_CACHE[pair]
+
+
+def _normalize_currency(info: dict) -> dict:
+    """
+    Return a copy of *info* with every monetary field in the quote's major currency.
+
+    1. Subunit quotes (GBp / ZAc): price-level fields and Yahoo's priceToBook
+       (subunit price ÷ major-unit book value) are divided by 100; the currency
+       label is upgraded to GBP / ZAR. marketCap and enterpriseValue are already
+       major-unit and stay untouched.
+    2. financialCurrency ≠ quote currency (e.g. USD reporters on LSE/JSE):
+       statement absolutes are FX-converted so ratios vs marketCap/EV are
+       consistent. On FX failure the fields are left as-is (logged).
+    """
+    out = dict(info)
+
+    cur = out.get("currency")
+    if cur in _SUBUNIT_CURRENCIES:
+        major, factor = _SUBUNIT_CURRENCIES[cur]
+        for field in _PRICE_LEVEL_FIELDS + ("priceToBook",):
+            val = out.get(field)
+            if val is not None:
+                try:
+                    out[field] = float(val) / factor
+                except (TypeError, ValueError):
+                    pass
+        out["currency"] = major
+        cur = major
+
+    fin_cur = out.get("financialCurrency")
+    if cur and fin_cur and fin_cur != cur:
+        rate = _fx_rate(fin_cur, cur)
+        if rate:
+            for field in _FINANCIAL_FIELDS:
+                val = out.get(field)
+                if val is not None:
+                    try:
+                        out[field] = float(val) * rate
+                    except (TypeError, ValueError):
+                        pass
+    return out
+
+
 def _fetch_info_batch(tickers: list[str]) -> dict[str, dict]:
     """Fetch quoteSummary info for each ticker, one at a time."""
     results = {}
     for tk in tickers:
         info = get_info(tk)
         if info:
+            info = _normalize_currency(info)
             results[tk] = {k: info.get(k) for k in _INFO_FIELDS}
         else:
             log.warning(f"[info] {tk}: no data")
@@ -781,6 +862,7 @@ def fetch_all(tickers: list[str]) -> pd.DataFrame:
     Returns a DataFrame indexed by ticker with all available fields.
     """
     log.info(f"Fetching {len(tickers)} tickers ...")
+    _FX_CACHE.clear()   # re-fetch FX rates each run (long-lived scheduler process)
 
     log.info("  Fetching live commodity spot prices ...")
     fetch_spot_prices()
