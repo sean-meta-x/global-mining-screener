@@ -15,6 +15,64 @@ from data.database import init_db, upsert_snapshot, upsert_commodity_prices
 
 log = logging.getLogger(__name__)
 
+# Stale-price (trading halt / no-trade proxy) penalty
+STALE_PRICE_LOOKBACK = 5                    # distinct snapshot dates with frozen price
+STALE_SCORE_CAP      = 40.0
+STALE_GRADE          = "⏸️ Stale/Halted"
+
+
+def apply_stale_price_penalty(snap_date) -> list[str]:
+    """Cap scores for tickers whose price is frozen across recent snapshots.
+
+    A price identical across the STALE_PRICE_LOOKBACK most recent snapshot
+    dates is treated as a proxy for a trading halt / zero liquidity (e.g.
+    a suspended stock scoring 85 on a frozen price): the frozen price
+    silently inflates momentum ("stopped falling" != "stabilised") and
+    stale-balance-sheet sub-scores. Runs as DB post-processing — like the
+    micro-cap floor — because it needs multi-day history that
+    compute_scores(), which only ever sees a single day's DataFrame,
+    cannot access.
+
+    Cold start: tickers with fewer than STALE_PRICE_LOOKBACK snapshots are
+    never penalised (HAVING COUNT(*) = lookback requires a full window).
+    Returns the list of penalised tickers for `snap_date`.
+    """
+    from sqlalchemy import bindparam, text
+    from data.database import _engine
+
+    with _engine().begin() as conn:
+        # (ticker, snap_date) is UNIQUE, so row_number over snap_date DESC
+        # walks distinct dates. NULL prices break the streak via COUNT(price).
+        rows = conn.execute(text("""
+            SELECT ticker FROM (
+                SELECT ticker, price,
+                       ROW_NUMBER() OVER (PARTITION BY ticker
+                                          ORDER BY snap_date DESC) AS rn
+                FROM stock_snapshots
+            )
+            WHERE rn <= :lookback
+            GROUP BY ticker
+            HAVING COUNT(*) = :lookback
+               AND COUNT(price) = :lookback
+               AND MIN(price) = MAX(price)
+        """), {"lookback": STALE_PRICE_LOOKBACK}).fetchall()
+        stale_tickers = [r[0] for r in rows]
+        if not stale_tickers:
+            return []
+
+        conn.execute(
+            text("""
+                UPDATE stock_snapshots
+                SET score_composite = MIN(score_composite, :cap),
+                    grade = :grade
+                WHERE snap_date = :d
+                  AND ticker IN :tickers
+            """).bindparams(bindparam("tickers", expanding=True)),
+            {"cap": STALE_SCORE_CAP, "grade": STALE_GRADE,
+             "d": str(snap_date), "tickers": stale_tickers},
+        )
+    return stale_tickers
+
 
 def refine_stages(raw_df: pd.DataFrame, meta: dict[str, dict]) -> None:
     """
@@ -87,6 +145,12 @@ def run_daily_refresh():
             """), {"d": str(date.today())})
             if _r.rowcount:
                 log.info(f"  Micro-cap floor applied to {_r.rowcount} rows.")
+
+        # Stale-price penalty: price frozen across last N snapshots = halt proxy
+        _stale = apply_stale_price_penalty(date.today())
+        if _stale:
+            log.info(f"  Stale-price penalty applied to {len(_stale)} "
+                     f"tickers: {', '.join(_stale)}")
 
         log.info(f"Daily refresh complete. {len(scored)} stocks saved.")
     except Exception as e:

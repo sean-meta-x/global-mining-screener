@@ -129,7 +129,9 @@ from data.database import (
     save_filter_preset, load_filter_presets, delete_filter_preset,
     add_transaction, get_transactions, delete_transaction,
 )
-from scheduler.jobs import run_daily_refresh, start_scheduler
+from scheduler.jobs import (
+    run_daily_refresh, start_scheduler, STALE_GRADE, STALE_SCORE_CAP,
+)
 import config
 from auth import check_auth, current_user, logout
 
@@ -1273,7 +1275,8 @@ with st.sidebar:
     min_score = st.slider("Min Composite Score", 0, 100, _def_score, 5, key="flt_score")
 
     # Grade filter
-    all_grades = ["🟢 Strong Buy", "🔵 Buy", "🟡 Watch", "🟠 Neutral", "🔴 Avoid"]
+    all_grades = ["🟢 Strong Buy", "🔵 Buy", "🟡 Watch", "🟠 Neutral", "🔴 Avoid",
+                  STALE_GRADE]
     _def_grades = st.session_state.pop("flt_grades", all_grades)
     _def_grades = [g for g in _def_grades if g in all_grades] or all_grades
     sel_grades = st.multiselect("Grade", all_grades, default=_def_grades, key="flt_grades")
@@ -1425,6 +1428,10 @@ with st.sidebar:
 
     total_w = w_val + w_hlt + w_mom + w_min + w_com + w_stg
     if total_w > 0:
+        # Remember DB-level stale/halted flags before grade gets recomputed
+        _stale_mask = (df["grade"].astype(str).str.contains("Stale", na=False)
+                       if "grade" in df.columns
+                       else pd.Series(False, index=df.index))
         mining_s = df["score_mining"].fillna(50) if "score_mining" in df.columns else pd.Series(50, index=df.index)
         df["score_composite"] = (
             df["score_valuation"] * w_val / total_w +
@@ -1442,6 +1449,12 @@ with st.sidebar:
             if s >= 30: return "🟠 Neutral"
             return "🔴 Avoid"
         df["grade"] = df["score_composite"].apply(_regrade)
+        # Re-apply stale-price penalty — the DB-level cap must survive the
+        # weight-slider recompute above (frozen halted price ≠ real signal)
+        df.loc[_stale_mask, "score_composite"] = (
+            df.loc[_stale_mask, "score_composite"].clip(upper=STALE_SCORE_CAP)
+        )
+        df.loc[_stale_mask, "grade"] = STALE_GRADE
 
 # ── Apply filters ──────────────────────────────────────────────────────────────
 _debug_steps: list[tuple[str, int]] = [("DB total", len(df))]
