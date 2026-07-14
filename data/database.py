@@ -127,6 +127,7 @@ class StockSnapshot(Base):
     dividend_yield  = Column(Float)   # Trailing dividend yield % (Yahoo Finance)
     return_1m       = Column(Float)   # 1-month price return %  (≈ 21 trading days)
     return_3m       = Column(Float)   # 3-month price return %  (≈ 63 trading days)
+    avg_turnover    = Column(Float)   # ~20-day avg daily traded value (local ccy; avg volume × price)
 
     # Analyst consensus (Yahoo Finance)
     analyst_target_mean   = Column(Float)   # Consensus mean price target
@@ -189,6 +190,8 @@ def init_db():
         "ALTER TABLE stock_snapshots ADD COLUMN peer_rank FLOAT",
         "ALTER TABLE stock_snapshots ADD COLUMN peer_n FLOAT",
         "ALTER TABLE stock_snapshots ADD COLUMN peer_pct FLOAT",
+        # Liquidity: avg daily traded value (read by AU repo's risk _adv_dollars)
+        "ALTER TABLE stock_snapshots ADD COLUMN avg_turnover FLOAT",
     ]
     with _engine().begin() as conn:
         for sql in _migrations:
@@ -461,6 +464,7 @@ def upsert_snapshot(df: pd.DataFrame, snap_date: date | None = None):
             "spg_reserve_life":           _g(row, "spg_reserve_life"),
             "return_1m":        _g(row, "return_1m"),
             "return_3m":        _g(row, "return_3m"),
+            "avg_turnover":     _g(row, "avg_turnover"),
             # Dividend yield: Yahoo returns as decimal (0.034 = 3.4%) → store as pct
             "dividend_yield": (
                 round(float(row.get("dividendYield", None) or
@@ -508,7 +512,7 @@ def upsert_snapshot(df: pd.DataFrame, snap_date: date | None = None):
                  spg_production_oz,spg_production_t,spg_production_lb,
                  spg_realized_price_oz,spg_realized_price_t,spg_realized_price_lb,
                  spg_contained_reserves_oz,spg_contained_reserves_lb,spg_reserve_life,
-                 dividend_yield,return_1m,return_3m,
+                 dividend_yield,return_1m,return_3m,avg_turnover,
                  analyst_target_mean,analyst_target_high,analyst_target_low,
                  analyst_count,analyst_rec_key,analyst_rec_mean,
                  return_on_equity,operating_margins,gross_margins,profit_margins,
@@ -530,7 +534,7 @@ def upsert_snapshot(df: pd.DataFrame, snap_date: date | None = None):
                  :spg_production_oz,:spg_production_t,:spg_production_lb,
                  :spg_realized_price_oz,:spg_realized_price_t,:spg_realized_price_lb,
                  :spg_contained_reserves_oz,:spg_contained_reserves_lb,:spg_reserve_life,
-                 :dividend_yield,:return_1m,:return_3m,
+                 :dividend_yield,:return_1m,:return_3m,:avg_turnover,
                  :analyst_target_mean,:analyst_target_high,:analyst_target_low,
                  :analyst_count,:analyst_rec_key,:analyst_rec_mean,
                  :return_on_equity,:operating_margins,:gross_margins,:profit_margins,

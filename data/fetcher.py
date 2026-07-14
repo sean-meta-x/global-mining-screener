@@ -181,7 +181,7 @@ _INFO_FIELDS = [
     "debtToEquity", "currentRatio", "returnOnEquity", "returnOnAssets",
     "grossMargins", "operatingMargins", "profitMargins",
     "fiftyTwoWeekHigh", "fiftyTwoWeekLow", "regularMarketPrice",
-    "averageVolume", "sharesOutstanding",
+    "averageVolume", "averageDailyVolume10Day", "sharesOutstanding",
     "shortRatio", "beta",
     "dividendYield", "dividendRate", "trailingAnnualDividendYield",
     "currency", "exchange", "sector", "industry",
@@ -910,6 +910,17 @@ def fetch_all(tickers: list[str]) -> pd.DataFrame:
         row.update(info)
         row.update(tech)
         row.update({f"spg_{k}": v for k, v in merged_spg.items()})
+
+        # Avg daily traded value (major local ccy — price already normalized from
+        # GBp/ZAc) from fields already in quoteSummary; zero extra requests.
+        # Read cross-market by the AU repo's risk agent liquidity check.
+        _vol = info.get("averageDailyVolume10Day") or info.get("averageVolume")
+        _px  = info.get("regularMarketPrice")
+        try:
+            row["avg_turnover"] = round(float(_vol) * float(_px), 0) if _vol and _px else None
+        except (TypeError, ValueError):
+            row["avg_turnover"] = None
+
         rows.append(row)
 
     df = pd.DataFrame(rows).set_index("ticker")
