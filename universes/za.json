@@ -1,7 +1,7 @@
 {
  "market": "za",
  "built": "2026-07-13",
- "n": 36,
+ "n": 35,
  "companies": [
   {
    "ticker": "AFT.JO",
@@ -233,13 +233,6 @@
    "commodity": "PGM",
    "stage": "Developer",
    "src": "screen"
-  },
-  {
-   "ticker": "TKG.JO",
-   "name": "Tharisa Plc",
-   "commodity": "PGM",
-   "stage": "Producer",
-   "src": "curated"
   },
   {
    "ticker": "VAL.JO",
