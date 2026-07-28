@@ -17,46 +17,81 @@ log = logging.getLogger(__name__)
 
 # Stale-price (trading halt / no-trade proxy) penalty
 STALE_PRICE_LOOKBACK = 5                    # distinct snapshot dates with frozen price
+STALE_HARD_LOOKBACK  = 10                   # frozen this long = stale, volume or not
+STALE_TURNOVER_FLOOR = 10_000.0             # avg daily traded value (local ccy)
 STALE_SCORE_CAP      = 40.0
 STALE_GRADE          = "⏸️ Stale/Halted"
 
 
+def _frozen_tickers(conn, lookback: int) -> set[str]:
+    """Tickers whose price is identical across the last `lookback` snapshots."""
+    from sqlalchemy import text
+
+    # (ticker, snap_date) is UNIQUE, so row_number over snap_date DESC walks
+    # distinct dates. NULL prices break the streak via COUNT(price). Cold
+    # start: fewer than `lookback` snapshots never qualifies (COUNT(*) check).
+    rows = conn.execute(text("""
+        SELECT ticker FROM (
+            SELECT ticker, price,
+                   ROW_NUMBER() OVER (PARTITION BY ticker
+                                      ORDER BY snap_date DESC) AS rn
+            FROM stock_snapshots
+        )
+        WHERE rn <= :lookback
+        GROUP BY ticker
+        HAVING COUNT(*) = :lookback
+           AND COUNT(price) = :lookback
+           AND MIN(price) = MAX(price)
+    """), {"lookback": lookback}).fetchall()
+    return {r[0] for r in rows}
+
+
 def apply_stale_price_penalty(snap_date) -> list[str]:
-    """Cap scores for tickers whose price is frozen across recent snapshots.
+    """Cap scores for tickers that are frozen AND show no trading.
 
-    A price identical across the STALE_PRICE_LOOKBACK most recent snapshot
-    dates is treated as a proxy for a trading halt / zero liquidity (e.g.
-    a suspended stock scoring 85 on a frozen price): the frozen price
-    silently inflates momentum ("stopped falling" != "stabilised") and
-    stale-balance-sheet sub-scores. Runs as DB post-processing — like the
-    micro-cap floor — because it needs multi-day history that
-    compute_scores(), which only ever sees a single day's DataFrame,
-    cannot access.
+    A frozen price alone is not a halt: low-priced names quantised to coarse
+    ticks close flat for a week while trading normally — the AU station's
+    price-only rule flagged 62/420 names including an A$162M producer that was
+    simply flat (#87). A real halt starves the 10-day average volume toward
+    zero within days. So:
 
-    Cold start: tickers with fewer than STALE_PRICE_LOOKBACK snapshots are
-    never penalised (HAVING COUNT(*) = lookback requires a full window).
-    Returns the list of penalised tickers for `snap_date`.
+      frozen >= STALE_PRICE_LOOKBACK  AND  avg_turnover missing or < floor  -> stale
+      frozen >= STALE_HARD_LOOKBACK                                         -> stale
+                (two weeks flat is damning even if the volume field lies —
+                 Yahoo's averageVolume fallback is a 3-month figure that stays
+                 fat for weeks into a suspension)
+
+    Note the floor is in LOCAL currency: 10k IDR ≈ nothing, 10k GBP is real
+    money. It is deliberately loose — its job is telling "trading, just flat"
+    from "no trade at all", not measuring liquidity; the hard rule backstops it.
+
+    Runs as DB post-processing — like the micro-cap floor — because it needs
+    multi-day history that compute_scores(), which only ever sees a single
+    day's DataFrame, cannot access. Returns the penalised tickers.
     """
     from sqlalchemy import bindparam, text
     from data.database import _engine
 
     with _engine().begin() as conn:
-        # (ticker, snap_date) is UNIQUE, so row_number over snap_date DESC
-        # walks distinct dates. NULL prices break the streak via COUNT(price).
-        rows = conn.execute(text("""
-            SELECT ticker FROM (
-                SELECT ticker, price,
-                       ROW_NUMBER() OVER (PARTITION BY ticker
-                                          ORDER BY snap_date DESC) AS rn
-                FROM stock_snapshots
-            )
-            WHERE rn <= :lookback
-            GROUP BY ticker
-            HAVING COUNT(*) = :lookback
-               AND COUNT(price) = :lookback
-               AND MIN(price) = MAX(price)
-        """), {"lookback": STALE_PRICE_LOOKBACK}).fetchall()
-        stale_tickers = [r[0] for r in rows]
+        frozen = _frozen_tickers(conn, STALE_PRICE_LOOKBACK)
+        if not frozen:
+            return []
+        frozen_long = _frozen_tickers(conn, STALE_HARD_LOOKBACK)
+
+        turnover = dict(conn.execute(
+            text("""
+                SELECT ticker, avg_turnover FROM stock_snapshots
+                WHERE snap_date = :d AND ticker IN :tickers
+            """).bindparams(bindparam("tickers", expanding=True)),
+            {"d": str(snap_date), "tickers": sorted(frozen)},
+        ).fetchall())
+
+        stale_tickers = sorted(
+            t for t in frozen
+            if t in frozen_long
+            or turnover.get(t) is None
+            or float(turnover[t]) < STALE_TURNOVER_FLOOR
+        )
         if not stale_tickers:
             return []
 
@@ -72,6 +107,59 @@ def apply_stale_price_penalty(snap_date) -> list[str]:
              "d": str(snap_date), "tickers": stale_tickers},
         )
     return stale_tickers
+
+
+# Price scale-break quarantine (#104). Distinct from the stale penalty: that
+# one catches a price that stops MOVING, this one a price that jumps MAGNITUDE
+# (rand/cent flips ~100x, un-adjusted consolidations ~500x). The 12-month scan
+# that motivated this found 16 live breaks, mostly in these global stations:
+# BSAI x522, CUAI x198, CPR.JO, WEZ.JO, NEO ...
+SCALE_BREAK_RATIO   = 5.0        # adjacent-snapshot ratio beyond this = unit change
+SCALE_BREAK_GRADE   = "⚠️ Scale-break"
+SCALE_BREAK_CAP     = 40.0
+SCALE_BREAK_RESCAN_DAYS = 365
+
+
+def apply_scale_break_quarantine(rescan_days: int = SCALE_BREAK_RESCAN_DAYS) -> list[tuple]:
+    """Mark snapshot rows whose price jumped a magnitude vs the previous snapshot.
+
+    Quarantine, not repair: the row's grade becomes ⚠️ Scale-break and its
+    composite is capped so ranked consumers (radar, nominations, race, sweep)
+    drop it. Prices are left as recorded — rewriting history would corrupt
+    race attribution, and "we recorded what Yahoo said, and it was broken"
+    is itself the honest record. Idempotent: re-marking an already-marked row
+    is a no-op, so the daily trailing-12-month sweep IS the retro-fix.
+
+    Returns [(ticker, snap_date, ratio), ...] quarantined in this run.
+    """
+    from sqlalchemy import text
+    from data.database import _engine
+
+    with _engine().begin() as conn:
+        rows = conn.execute(text("""
+            SELECT ticker, snap_date, price,
+                   LAG(price) OVER (PARTITION BY ticker ORDER BY snap_date) AS prev
+            FROM stock_snapshots
+            WHERE snap_date >= date('now', :window)
+        """), {"window": f"-{rescan_days} day"}).fetchall()
+
+        breaks = []
+        for ticker, day, price, prev in rows:
+            if not price or not prev:
+                continue
+            ratio = float(price) / float(prev)
+            if ratio > SCALE_BREAK_RATIO or ratio < 1 / SCALE_BREAK_RATIO:
+                breaks.append((ticker, day, round(ratio, 2)))
+
+        for ticker, day, _ in breaks:
+            conn.execute(text("""
+                UPDATE stock_snapshots
+                SET score_composite = MIN(score_composite, :cap),
+                    grade = :grade
+                WHERE ticker = :t AND snap_date = :d
+            """), {"cap": SCALE_BREAK_CAP, "grade": SCALE_BREAK_GRADE,
+                   "t": ticker, "d": day})
+    return breaks
 
 
 def refine_stages(raw_df: pd.DataFrame, meta: dict[str, dict]) -> None:
@@ -151,6 +239,13 @@ def run_daily_refresh():
         if _stale:
             log.info(f"  Stale-price penalty applied to {len(_stale)} "
                      f"tickers: {', '.join(_stale)}")
+
+        # Scale-break quarantine (#104): price jumped a magnitude vs previous
+        # snapshot = unit change, not a return. Trailing sweep is idempotent.
+        _breaks = apply_scale_break_quarantine()
+        if _breaks:
+            log.info(f"  Scale-break quarantine: {len(_breaks)} rows — "
+                     + ", ".join(f"{t} {d} x{r}" for t, d, r in _breaks[:8]))
 
         log.info(f"Daily refresh complete. {len(scored)} stocks saved.")
     except Exception as e:
