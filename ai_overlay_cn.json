@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-10T07:39Z",
+ "generated_at": "2026-08-10T23:00Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "002101.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型铝企，动量偏弱但无重大负面信息"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史治理问题频发，逆市下跌显示资金回避"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "央企铝业龙头，动量强劲，估值合理"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝业主力，月涨25%动量充足，暂无治理风险"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭月涨仅0.1%，行业结构性衰退压力显现"
+   "ai_adjust": -1,
+   "ai_note": "央企效率偏低，短期涨幅较大需警惕回调"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南山铝业产业链完整，动量良好"
+   "ai_note": "民营铝企龙头，产业链完整，暂无明显风险"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤电铝一体化布局，基本面稳健"
   },
   {
    "ticker": "603071.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭，环保政策趋严增加运营不确定性"
-  },
-  {
-   "ticker": "301219.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "次新股钴业，上市时间短业绩验证不足"
-  },
-  {
-   "ticker": "600546.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "山西煤炭中型企业，动量稳健"
+   "ai_adjust": -1,
+   "ai_note": "中小煤企环保合规压力较大，估值吸引力有限"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "山西国资煤企，历史治理瑕疵需持续关注"
   },
   {
    "ticker": "600740.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小市值焦煤企业，行业下行期抗风险能力弱"
+   "ai_note": "焦化煤需求结构性下行，长期前景承压"
   },
   {
-   "ticker": "601898.SS",
+   "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企煤炭龙头，分红稳定，防御属性强"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中孚实业历史存在治理争议和关联交易风险"
+   "ai_note": "月涨幅偏高但基本面尚可，暂无重大隐患"
   },
   {
    "ticker": "601699.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "潞安环能大型煤企，动量正常"
+   "ai_note": "大型煤企经营稳健，估值合理"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "央企大市值标的弹性有限，涨幅或已充分"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史财务状况不佳，债务风险仍需警惕"
+  },
+  {
+   "ticker": "301219.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "钴价波动剧烈，次新股流动性与治理风险并存"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "云铝股份水电铝优势突出，动量强劲"
+   "ai_note": "水电铝成本优势明显，月涨幅合理"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "债务重组历史，资产负债率高企，治理风险突出"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中煤能源子公司，经营相对稳健"
+  },
+  {
+   "ticker": "600098.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "地方国资多元化企业，煤炭非核心主业"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "焦作万方小市值铝企，流动性风险需关注"
+   "ai_note": "曾面临财务困境，反弹后估值修复空间有限"
   },
   {
-   "ticker": "600157.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "永泰能源煤炭板块，动量平稳"
-  },
-  {
-   "ticker": "002978.SZ",
+   "ticker": "002532.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "安孚科技业务多元化但主营不清晰，透明度低"
-  },
-  {
-   "ticker": "600508.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大屯能源小市值煤炭，资源接续存隐忧"
+   "ai_note": "月涨幅近25%短期过热，追高风险较大"
   },
   {
    "ticker": "000983.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "西山煤电大型煤企，动量正常"
+   "ai_note": "山西焦煤龙头，基本面扎实，估值合理"
   },
   {
-   "ticker": "600098.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "广州发展煤炭占比下降，转型方向不明"
-  },
-  {
-   "ticker": "002532.SZ",
+   "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "天山铝业月涨27%动量极强，短期或有回调"
+   "ai_note": "大型露天煤矿成本优势突出，经营稳健"
   }
  ]
 }
