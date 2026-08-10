@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T07:33Z",
+ "generated_at": "2026-08-10T22:43Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值极小，流动性与治理风险高，量化评分偏高存疑。"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "亚斯特拉旗下优质设备商，治理稳健，估值合理。"
+   "ai_note": "微型市值流动性差，无新闻支撑涨幅，警惕操纵风险"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小型煤矿企业，治理记录一般，需关注股权稀释风险。"
+   "ai_adjust": -3,
+   "ai_note": "历史关联交易与治理问题频发，量化模型难以捕捉"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "Astra集团旗下治理优良，重型设备龙头地位稳固"
+  },
+  {
+   "ticker": "DKFT.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型矿企信息透明度一般，无突出催化或风险"
+  },
+  {
+   "ticker": "UNIQ.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "极小市值煤炭股，涨幅异常且无基本面新闻支撑"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金矿储量存疑，历史上有运营和治理问题，涨幅过快。"
-  },
-  {
-   "ticker": "DKFT.JK",
-   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "中小型矿企，治理历史有瑕疵，短期涨幅较大需警惕。"
-  },
-  {
-   "ticker": "UNIQ.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅三千亿印尼盾，微型股流动性极差，治理风险高。"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤企，集团背景尚可，运营稳定，无明显风险。"
-  },
-  {
-   "ticker": "IFSH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "近一月跌近14%，存在运营及治理隐患，需回避。"
+   "ai_note": "月涨近27%无新闻驱动，疑似资金炒作需警惕回调"
   },
   {
    "ticker": "KKGI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "关联方交易频繁，治理记录较差，存在潜在稀释风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型煤炭生产商，运营稳定但缺乏显著催化剂"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "管理层信誉良好，煤炭资产质量优，分红稳定"
+  },
+  {
+   "ticker": "FIRE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "多次更名微型股，治理记录差，典型炒作标的"
   },
   {
    "ticker": "TINS.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "国企效率低下且锡价波动大，治理折价持续存在"
+  },
+  {
+   "ticker": "ARII.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国有锡企，治理尚可但效率偏低，锡价上涨受益。"
+   "ai_note": "中小型煤炭企业，无突出风险也无明确催化"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "国有煤矿龙头，治理稳健，分红慷慨，估值合理。"
+   "ai_note": "国企煤炭龙头分红慷慨，但治理效率受限"
   },
   {
-   "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅一千六百亿印尼盾，微型股风险极高，建议回避。"
-  },
-  {
-   "ticker": "DAAZ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "上市时间较短，业绩记录有限，需关注治理与稀释。"
+   "ticker": "ITMG.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "Banpu旗下治理规范，高股息蓝筹煤炭标的"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "与Adaro关联，治理较好，运营稳健，无明显风险。"
-  },
-  {
-   "ticker": "ITMG.JK",
-   "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "Banpu旗下优质煤企，治理良好，分红稳定。"
+   "ai_note": "月涨17%表现强劲但无新闻验证，需观察持续性"
   },
   {
    "ticker": "MCOL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "Barito Pacific旗下，运营尚可但集团治理存一定隐忧。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型煤炭生产商运营平稳，无显著异常信号"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "镍HPAL龙头，扩产激进，股权稀释与资本开支风险大。"
-  },
-  {
-   "ticker": "ARII.JK",
-   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小型煤企，历史上有治理问题，流动性偏低。"
-  },
-  {
-   "ticker": "ANTM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国有多元矿企，治理一般但体量庞大，受益金属价格。"
+   "ai_note": "镍价受印尼过剩供应压制，月涨17%或透支预期"
   },
   {
    "ticker": "BSSR.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "家族煤炭企业治理尚可，运营稳健但缺乏催化"
+  },
+  {
+   "ticker": "IFSH.JK",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "Barito Pacific旗下煤企，运营稳定但集团治理有隐忧。"
+   "ai_adjust": -2,
+   "ai_note": "多元化小型矿企信息不透明，难以验证基本面"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "月跌15.8%微型股，无新闻解释暴跌或涉经营危机"
+  },
+  {
+   "ticker": "DAAZ.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月涨16%但量化分仅54，涨幅与基本面背离明显"
   }
  ]
 }
