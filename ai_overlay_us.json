@@ -1,0 +1,127 @@
+{
+ "generated_at": "2026-08-10T07:21Z",
+ "model": "qwen3.7-plus",
+ "market": "us",
+ "items": [
+  {
+   "ticker": "GRML",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型PGM勘探股流动性差且无新闻，警惕稀释风险。"
+  },
+  {
+   "ticker": "FNUC",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "核能概念微型勘探股名称具炒作嫌疑，缺乏实质进展。"
+  },
+  {
+   "ticker": "JAGU",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿微型勘探股表现平庸，缺乏实质性催化剂。"
+  },
+  {
+   "ticker": "WWR",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "无新闻支撑下暴涨六成，疑似资金炒作，谨防均值回归。"
+  },
+  {
+   "ticker": "UROY",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "大型铀矿流媒体公司，受益于铀价牛市，基本面稳健。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "黄金生产商受益于金价上涨，业绩确定性较强。"
+  },
+  {
+   "ticker": "RITE",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值不足两千万的PGM勘探股，面临极高的稀释与退市风险。"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "权证类资产杠杆过高且面临到期归零风险，极度危险。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "虽有顶级项目但锂价低迷，开发周期长且资金压力大。"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "稀土开发商长期面临融资与审批难题，执行风险极高。"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "钾矿开发阶段现金流消耗大，需关注大宗商品周期波动。"
+  },
+  {
+   "ticker": "ELBM",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "电池材料微型勘探股缺乏行业风口，短期难有超额收益。"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型清洁能源勘探股流动性枯竭，无新闻支撑易阴跌。"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "中型银矿生产商，受益于贵金属牛市，盈利弹性大。"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂矿开发项目屡遇审批与融资延迟，下行风险较大。"
+  },
+  {
+   "ticker": "FMSTW",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "权证资产风险极高，正股下跌时极易面临价值归零。"
+  },
+  {
+   "ticker": "EU",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿生产商基本面尚可，但近期表现略落后于同行。"
+  },
+  {
+   "ticker": "GAU",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "中型金矿生产商，金价上行周期中具备良好业绩弹性。"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭生产商面临长期结构性衰退与ESG融资限制。"
+  },
+  {
+   "ticker": "GLDG",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "黄金勘探组合优质，但尚未投产，需关注金价持续性。"
+  }
+ ]
+}

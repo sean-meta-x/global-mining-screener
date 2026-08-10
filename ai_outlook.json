@@ -1,0 +1,66 @@
+{
+ "generated_at": "2026-08-10T07:03Z",
+ "model": "qwen3.7-plus",
+ "outlook": {
+  "Gold": {
+   "multiplier": 1.15,
+   "note": "Central bank accumulation and anticipated rate cuts underpin prices."
+  },
+  "Silver": {
+   "multiplier": 1.1,
+   "note": "Strong photovoltaic demand and tight physical inventories."
+  },
+  "Copper": {
+   "multiplier": 1.1,
+   "note": "Mine supply disruptions and green energy transition offset macro headwinds."
+  },
+  "Uranium": {
+   "multiplier": 1.2,
+   "note": "Structural primary supply deficit and global nuclear renaissance."
+  },
+  "Lithium": {
+   "multiplier": 0.85,
+   "note": "Near-term market oversupply and moderating EV battery demand."
+  },
+  "Nickel": {
+   "multiplier": 0.9,
+   "note": "Persistent Indonesian supply surplus weighing on market balance."
+  },
+  "Zinc": {
+   "multiplier": 1.05,
+   "note": "Mine supply constraints and tight smelter treatment charges."
+  },
+  "Iron Ore": {
+   "multiplier": 0.85,
+   "note": "Weak Chinese property sector and softening domestic steel demand."
+  },
+  "Coal": {
+   "multiplier": 0.95,
+   "note": "Ample global thermal coal inventories and peak demand concerns."
+  },
+  "Rare Earths": {
+   "multiplier": 1.1,
+   "note": "Strategic supply constraints and steady EV motor demand."
+  },
+  "Manganese": {
+   "multiplier": 1.0,
+   "note": "Balanced global supply and steady steel sector demand."
+  },
+  "PGM": {
+   "multiplier": 1.05,
+   "note": "Tight South African power supply and steady auto catalyst demand."
+  },
+  "Potash": {
+   "multiplier": 1.0,
+   "note": "Normalized global supply chains and steady agricultural demand."
+  },
+  "Aluminum": {
+   "multiplier": 1.15,
+   "note": "Chinese production capacity caps and strong renewable energy demand."
+  },
+  "Diversified": {
+   "multiplier": 1.0,
+   "note": "Broad sector exposure balances specific commodity macro risks."
+  }
+ }
+}

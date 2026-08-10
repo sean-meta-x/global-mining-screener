@@ -189,12 +189,41 @@ def refine_stages(raw_df: pd.DataFrame, meta: dict[str, dict]) -> None:
         log.info(f"  Stage refinement: {n} screen-sourced tickers updated.")
 
 
+def apply_ai_outlook() -> None:
+    """
+    Apply the AI-generated commodity outlook (ai_outlook.json, written daily
+    by scripts/ai_overlay.py) on top of the static config multipliers.
+    Values are clamped to [0.7, 1.3]; missing/stale file → static config wins.
+    """
+    import json
+    from pathlib import Path
+    import config as _cfg
+
+    path = Path(__file__).resolve().parent.parent / "ai_outlook.json"
+    if not path.exists():
+        return
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        n = 0
+        for comm, item in payload.get("outlook", {}).items():
+            if comm in _cfg.COMMODITY_OUTLOOK:
+                mult = float(item["multiplier"])
+                _cfg.COMMODITY_OUTLOOK[comm] = min(1.3, max(0.7, mult))
+                n += 1
+        if n:
+            log.info(f"  AI commodity outlook applied ({n} commodities, "
+                     f"generated {payload.get('generated_at', '?')})")
+    except Exception as e:                                    # noqa: BLE001
+        log.warning(f"  AI outlook skipped: {e}")
+
+
 def run_daily_refresh():
     """Full pipeline: fetch → score → persist."""
     log.info("-" * 60)
     log.info("Daily refresh started")
     try:
         init_db()
+        apply_ai_outlook()
         tickers = get_tickers()
         meta    = get_ticker_meta()
 

@@ -1008,6 +1008,36 @@ if "price_to_book" in df.columns:
 else:
     df["pb_peer_upside"] = np.nan
 
+# ── AI overlay (qualitative layer, written daily by scripts/ai_overlay.py) ────
+_AI_OUTLOOK: dict | None = None
+_AI_REVIEW:  dict | None = None
+try:
+    import json as _ai_json
+    _p = os.path.join(os.path.dirname(__file__), "ai_outlook.json")
+    if os.path.exists(_p):
+        _AI_OUTLOOK = _ai_json.load(open(_p, encoding="utf-8"))
+    _p = os.path.join(os.path.dirname(__file__), f"ai_overlay_{config.MARKET}.json")
+    if os.path.exists(_p):
+        _AI_REVIEW = _ai_json.load(open(_p, encoding="utf-8"))
+except Exception:
+    _AI_OUTLOOK = _AI_REVIEW = None
+
+df["ai_adjust"] = 0.0
+df["ai_view"]   = None
+df["ai_note"]   = None
+if _AI_REVIEW:
+    _ai_map = {it["ticker"]: it for it in _AI_REVIEW.get("items", [])}
+    for _i, _row in df.iterrows():
+        _it = _ai_map.get(str(_row.get("ticker", _i)))
+        if _it:
+            df.at[_i, "ai_adjust"] = float(_it.get("ai_adjust", 0))
+            df.at[_i, "ai_view"]   = _it.get("ai_view")
+            df.at[_i, "ai_note"]   = _it.get("ai_note")
+# AI-adjusted score: quant composite + bounded AI adjustment
+df["score_ai"] = (df["score_composite"] + df["ai_adjust"]).clip(0, 100)
+
+_AI_VIEW_EMOJI = {"bullish": "🟢", "neutral": "⚪", "caution": "🟠", "red_flag": "🔴"}
+
 # ── Universe rank & peer rank ───────────────────────────────────────────────────
 # Rank within the full universe (1 = highest score). Used as a quick context
 # metric in the screener table — lower rank = better opportunity in the universe.
@@ -1284,7 +1314,7 @@ with st.sidebar:
     st.divider()
     st.markdown("**Sort by**")
     _sort_options = [
-        "score_composite", "score_valuation", "score_health",
+        "score_ai", "score_composite", "score_valuation", "score_health",
         "score_momentum", "score_mining",
         "analyst_upside", "return_3m", "return_1m",
         "spg_p_nav", "spg_aisc_margin", "spg_reserves_m",
@@ -1292,7 +1322,7 @@ with st.sidebar:
         "price_to_book", "ev_ebitda", "rsi",
         "wk52_position", "market_cap",
     ]
-    _def_sort = st.session_state.pop("flt_sort", "score_composite")
+    _def_sort = st.session_state.pop("flt_sort", "score_ai" if _AI_REVIEW else "score_composite")
     _sort_idx = _sort_options.index(_def_sort) if _def_sort in _sort_options else 0
     sort_col = st.selectbox(
         "Column", _sort_options, index=_sort_idx, key="flt_sort",
@@ -1612,10 +1642,43 @@ with tab_today:
             st.markdown(_mover_html, unsafe_allow_html=True)
 
 
+    # ── AI overlay panels ──────────────────────────────────────────────────────
+    if _AI_REVIEW or _AI_OUTLOOK:
+        _ai_when = (_AI_REVIEW or _AI_OUTLOOK).get("generated_at", "")
+        _ai_model = (_AI_REVIEW or _AI_OUTLOOK).get("model", "")
+        if _AI_REVIEW:
+            _ai_items = _AI_REVIEW.get("items", [])
+            _n_flags = sum(1 for i in _ai_items if i.get("ai_view") in ("caution", "red_flag"))
+            with st.expander(
+                f"🤖 AI Review — top {len(_ai_items)} candidates checked · "
+                f"{_n_flags} flagged · {_ai_when}", expanded=False):
+                st.caption(f"Model: {_ai_model} · adjustment bounded ±10 on the quant score · "
+                           "quant score is never overwritten, only annotated.")
+                for _it in sorted(_ai_items, key=lambda x: x.get("ai_adjust", 0)):
+                    _em = _AI_VIEW_EMOJI.get(_it.get("ai_view"), "⚪")
+                    _adj = _it.get("ai_adjust", 0)
+                    st.markdown(
+                        f"{_em} **{_it['ticker']}**  "
+                        f"<span style='color:{'#dc2626' if _adj < 0 else '#16a34a' if _adj > 0 else '#5b6b7f'};"
+                        f"font-weight:700'>{_adj:+d}</span>  "
+                        f"<span style='color:#5b6b7f;font-size:13px'>{_it.get('ai_note','')}</span>",
+                        unsafe_allow_html=True)
+        if _AI_OUTLOOK:
+            with st.expander(f"🤖 AI Commodity Outlook — {_AI_OUTLOOK.get('generated_at','')}",
+                             expanded=False):
+                st.caption("Daily multipliers (0.7–1.3) applied to the 5% commodity factor.")
+                for _cm, _o in sorted(_AI_OUTLOOK.get("outlook", {}).items()):
+                    _m = _o.get("multiplier", 1.0)
+                    _c = "#16a34a" if _m > 1.02 else "#dc2626" if _m < 0.98 else "#5b6b7f"
+                    st.markdown(
+                        f"**{_cm}** <span style='color:{_c};font-weight:700'>{_m:.2f}</span> "
+                        f"<span style='color:#5b6b7f;font-size:13px'>{_o.get('note','')}</span>",
+                        unsafe_allow_html=True)
+
     # ── Top Opportunities callout ──────────────────────────────────────────────
-    _top_ops = filtered[filtered["grade"] == "🟢 Strong Buy"].nlargest(6, "score_composite")
+    _top_ops = filtered[filtered["grade"] == "🟢 Strong Buy"].nlargest(6, "score_ai")
     if _top_ops.empty:
-        _top_ops = filtered[filtered["grade"] == "🔵 Buy"].nlargest(6, "score_composite")
+        _top_ops = filtered[filtered["grade"] == "🔵 Buy"].nlargest(6, "score_ai")
 
     if not _top_ops.empty:
         st.markdown("#### 🏆 Top Opportunities")
@@ -1641,7 +1704,12 @@ with tab_today:
             _op_an_ct    = int(_op_an_ct) if pd.notna(_op_an_ct) else None
             _mcap_fmt  = (f"${_op_mcap/1e9:.1f}B" if _op_mcap and _op_mcap >= 1e9
                           else f"${_op_mcap/1e6:.0f}M" if _op_mcap else "—")
+            _op_ai_note = getattr(_op, "ai_note", None)
+            _op_ai_view = getattr(_op, "ai_view", None)
+            _op_ai_adj  = getattr(_op, "ai_adjust", 0) or 0
             _kpis = [f"Score <b>{_op_score:.0f}/100</b>"]
+            if _op_ai_adj:
+                _kpis.append(f"🤖 <b>{_op_ai_adj:+.0f}</b>")
             if _op_upside and _op_upside > 0:
                 _kpis.append(f"<b>↑{_op_upside:+.0f}% to NAV</b>")
             elif _op_pnav:
@@ -1672,7 +1740,9 @@ with tab_today:
                     f"<div class='opp-kpis'>{'&nbsp;&nbsp;·&nbsp;&nbsp;'.join(_kpis)}</div>"
                     f"<div class='opp-foot'>Mkt Cap {_mcap_fmt}"
                     f"{f'&nbsp;&nbsp;·&nbsp;&nbsp;${_op_price:.3f}' if _op_price else ''}</div>"
-                    f"</div>",
+                    + (f"<div class='opp-foot'>🤖 {_AI_VIEW_EMOJI.get(_op_ai_view, chr(0x26AA))} "
+                       f"{_op_ai_note}</div>" if _op_ai_note else "")
+                    + f"</div>",
                     unsafe_allow_html=True,
                 )
         st.markdown("<br>", unsafe_allow_html=True)
@@ -1863,6 +1933,8 @@ with tab_table:
         "price":            "Price",
         "market_cap":       "Mkt Cap (M)",
         "score_composite":    "Score",
+        "score_ai":           "🤖 AI Score",
+        "ai_note":            "🤖 AI Note",
         "univ_rank":          "# Rank",
         "peer_rank_display":  "Peer Rank",
         "score_delta":        "Δ Score",
@@ -1937,7 +2009,7 @@ with tab_table:
     _always_show  = {"Grade", "Company", "Commodity", "Stage", "Score"}
     _default_cols = [
         "Grade", "Company", "Commodity", "Stage", "Price", "Mkt Cap (M)",
-        "Score", "# Rank", "Peer Rank", "Δ Score", "1M Ret%",
+        "Score", "🤖 AI Score", "🤖 AI Note", "# Rank", "Peer Rank", "Δ Score", "1M Ret%",
         "⛏️ Mining",          # Mining sub-score (AISC + reserves + P/NAV)
         "AISC Margin%",       # (Spot − AISC) / Spot — true profitability
         "Ore Grade",          # Primary grade g/t (Au/Ag) or % (Cu/Ni/U3O8/…)
@@ -2028,7 +2100,7 @@ with tab_table:
         if rank <= 3: return "color: #94a3b8; font-weight:600"
         return ""
 
-    _score_cols  = [c for c in ["Score", "Valuation", "Health", "Momentum", "⛏️ Mining"] if c in tbl.columns]
+    _score_cols  = [c for c in ["Score", "🤖 AI Score", "Valuation", "Health", "Momentum", "⛏️ Mining"] if c in tbl.columns]
     _delta_cols  = ["Δ Score"]           if "Δ Score"           in tbl.columns else []
     _rsi_cols    = ["RSI"]               if "RSI"               in tbl.columns else []
     _ret_cols    = [c for c in ["1M Ret%", "3M Ret%"]         if c in tbl.columns]
@@ -2048,6 +2120,7 @@ with tab_table:
         "Price":             "{:.3f}",
         "Mkt Cap (M)":       "{:,.0f}",
         "Score":             "{:.1f}",
+        "🤖 AI Score":       "{:.1f}",
         "Δ Score":           lambda x: f"{x:+.1f}" if pd.notna(x) else "—",
         "1M Ret%":           lambda x: f"{x:+.1f}%" if pd.notna(x) else "—",
         "3M Ret%":           lambda x: f"{x:+.1f}%" if pd.notna(x) else "—",

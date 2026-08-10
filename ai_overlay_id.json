@@ -1,0 +1,127 @@
+{
+ "generated_at": "2026-08-10T07:33Z",
+ "model": "qwen3.7-plus",
+ "market": "id",
+ "items": [
+  {
+   "ticker": "MINE.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值极小，流动性与治理风险高，量化评分偏高存疑。"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "亚斯特拉旗下优质设备商，治理稳健，估值合理。"
+  },
+  {
+   "ticker": "MYOH.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小型煤矿企业，治理记录一般，需关注股权稀释风险。"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金矿储量存疑，历史上有运营和治理问题，涨幅过快。"
+  },
+  {
+   "ticker": "DKFT.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中小型矿企，治理历史有瑕疵，短期涨幅较大需警惕。"
+  },
+  {
+   "ticker": "UNIQ.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值仅三千亿印尼盾，微型股流动性极差，治理风险高。"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型煤企，集团背景尚可，运营稳定，无明显风险。"
+  },
+  {
+   "ticker": "IFSH.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "近一月跌近14%，存在运营及治理隐患，需回避。"
+  },
+  {
+   "ticker": "KKGI.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "关联方交易频繁，治理记录较差，存在潜在稀释风险。"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "国有锡企，治理尚可但效率偏低，锡价上涨受益。"
+  },
+  {
+   "ticker": "PTBA.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "国有煤矿龙头，治理稳健，分红慷慨，估值合理。"
+  },
+  {
+   "ticker": "FIRE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值仅一千六百亿印尼盾，微型股风险极高，建议回避。"
+  },
+  {
+   "ticker": "DAAZ.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "上市时间较短，业绩记录有限，需关注治理与稀释。"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "与Adaro关联，治理较好，运营稳健，无明显风险。"
+  },
+  {
+   "ticker": "ITMG.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "Banpu旗下优质煤企，治理良好，分红稳定。"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "Barito Pacific旗下，运营尚可但集团治理存一定隐忧。"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "镍HPAL龙头，扩产激进，股权稀释与资本开支风险大。"
+  },
+  {
+   "ticker": "ARII.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小型煤企，历史上有治理问题，流动性偏低。"
+  },
+  {
+   "ticker": "ANTM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "国有多元矿企，治理一般但体量庞大，受益金属价格。"
+  },
+  {
+   "ticker": "BSSR.JK",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "Barito Pacific旗下煤企，运营稳定但集团治理有隐忧。"
+  }
+ ]
+}

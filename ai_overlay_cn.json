@@ -1,0 +1,127 @@
+{
+ "generated_at": "2026-08-10T07:39Z",
+ "model": "qwen3.7-plus",
+ "market": "cn",
+ "items": [
+  {
+   "ticker": "002101.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型铝企，动量偏弱但无重大负面信息"
+  },
+  {
+   "ticker": "601600.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "央企铝业龙头，动量强劲，估值合理"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝业主力，月涨25%动量充足，暂无治理风险"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭月涨仅0.1%，行业结构性衰退压力显现"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "南山铝业产业链完整，动量良好"
+  },
+  {
+   "ticker": "603071.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值煤炭，环保政策趋严增加运营不确定性"
+  },
+  {
+   "ticker": "301219.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "次新股钴业，上市时间短业绩验证不足"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "山西煤炭中型企业，动量稳健"
+  },
+  {
+   "ticker": "600740.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值焦煤企业，行业下行期抗风险能力弱"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "央企煤炭龙头，分红稳定，防御属性强"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中孚实业历史存在治理争议和关联交易风险"
+  },
+  {
+   "ticker": "601699.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "潞安环能大型煤企，动量正常"
+  },
+  {
+   "ticker": "000807.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "云铝股份水电铝优势突出，动量强劲"
+  },
+  {
+   "ticker": "000612.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "焦作万方小市值铝企，流动性风险需关注"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "永泰能源煤炭板块，动量平稳"
+  },
+  {
+   "ticker": "002978.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "安孚科技业务多元化但主营不清晰，透明度低"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "大屯能源小市值煤炭，资源接续存隐忧"
+  },
+  {
+   "ticker": "000983.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "西山煤电大型煤企，动量正常"
+  },
+  {
+   "ticker": "600098.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "广州发展煤炭占比下降，转型方向不明"
+  },
+  {
+   "ticker": "002532.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "天山铝业月涨27%动量极强，短期或有回调"
+  }
+ ]
+}

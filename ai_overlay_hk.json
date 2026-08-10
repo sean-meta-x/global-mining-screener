@@ -1,0 +1,127 @@
+{
+ "generated_at": "2026-08-10T07:36Z",
+ "model": "qwen3.7-plus",
+ "market": "hk",
+ "items": [
+  {
+   "ticker": "2693.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值偏小且流动性差，缺乏催化剂，需警惕阴跌风险。"
+  },
+  {
+   "ticker": "8250.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "创业板微盘股，存在极高的壳资源炒作与股权稀释风险。"
+  },
+  {
+   "ticker": "1303.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭小盘股，基本面缺乏亮点，流动性与估值双杀。"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "股价短期暴涨但无实质利好，疑似资金炒作或庄股拉升。"
+  },
+  {
+   "ticker": "0637.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值极小且业务庞杂，需防范大股东掏空与流动性枯竭风险。"
+  },
+  {
+   "ticker": "0166.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "历史重组频繁且基本面薄弱，存在潜在的供股稀释隐患。"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅六千万的仙股，极易被资金操纵，建议直接规避。"
+  },
+  {
+   "ticker": "1182.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "典型港股老壳股，金矿资产质量存疑，公司治理风险极高。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微盘煤炭股，业绩波动大且分红意愿低，缺乏安全边际。"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "次新金矿股短期涨幅过大，透支预期且需警惕获利盘砸盘。"
+  },
+  {
+   "ticker": "0505.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铜合金业务受宏观周期影响大，估值合理但缺乏向上弹性。"
+  },
+  {
+   "ticker": "0621.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "海外金矿开发者，常年面临融资困难与非洲地缘政治风险。"
+  },
+  {
+   "ticker": "1091.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "虽有国企背景但历史财务表现平庸，需关注实际产能利用率。"
+  },
+  {
+   "ticker": "2610.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝业中盘股近期受铝价反弹带动，但需警惕行业产能过剩隐患。"
+  },
+  {
+   "ticker": "8095.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "创业板老股，业务转型未见实质成效，流动性折价明显。"
+  },
+  {
+   "ticker": "2302.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "中核系铀矿平台治理规范且具战略价值，但业绩释放较慢。"
+  },
+  {
+   "ticker": "6885.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "煤炭微盘股抗风险能力弱，需防范潜在债务违约及退市风险。"
+  },
+  {
+   "ticker": "0276.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值不足一亿的边缘化仙股，基本面极差，纯属资金博弈。"
+  },
+  {
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型铝业央企治理完善且分红稳定，但缺乏超额收益弹性。"
+  },
+  {
+   "ticker": "2078.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铝业微盘股盈利能力薄弱，极易受大股东关联交易及掏空影响。"
+  }
+ ]
+}

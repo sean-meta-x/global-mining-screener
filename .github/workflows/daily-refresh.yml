@@ -14,7 +14,41 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # ── Stage 0: AI commodity outlook (one global call, applied by every market) ──
+  outlook:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: AI commodity outlook
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+        run: python scripts/ai_overlay.py outlook || true
+
+      - name: Commit outlook
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ai_outlook.json || true
+          if git diff --cached --quiet; then
+            echo "No outlook changes."
+          else
+            git commit -m "chore(ai): daily commodity outlook ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+  # ── Stage 1: per-market refresh + AI review ──────────────────────────────────
   refresh:
+    needs: outlook
     runs-on: ubuntu-latest
     timeout-minutes: 180
     strategy:
@@ -48,11 +82,17 @@ jobs:
           conn.close()
           PYEOF
 
-      - name: Commit updated database
+      - name: AI review of top candidates (${{ matrix.market }})
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+        run: python scripts/ai_overlay.py review --market ${{ matrix.market }} || true
+
+      - name: Commit updated database + AI overlay
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add screener_${{ matrix.market }}.db
+          git add ai_overlay_${{ matrix.market }}.json || true
           if git diff --cached --quiet; then
             echo "No data changes."
           else

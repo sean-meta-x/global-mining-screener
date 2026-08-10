@@ -1,0 +1,127 @@
+{
+ "generated_at": "2026-08-10T07:19Z",
+ "model": "qwen3.7-plus",
+ "market": "ca",
+ "items": [
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "量化高分但无新闻且大跌，流动性差谨防阴跌。"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "CSE微型矿企无新闻支撑，暴跌或隐含稀释风险。"
+  },
+  {
+   "ticker": "TT.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铂族金属勘探无实质进展，无量阴跌需警惕资金流出。"
+  },
+  {
+   "ticker": "MANU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "名称与板块严重不符且暴跌，数据异常或存重大隐患。"
+  },
+  {
+   "ticker": "LECR.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "缺乏新闻催化且持续下跌，微盘股流动性风险极高。"
+  },
+  {
+   "ticker": "CPAU.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "黄金勘探无新进展，股价疲软反映市场对项目存疑。"
+  },
+  {
+   "ticker": "NVO.TO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "管理层历史有过度宣传前科，需警惕治理与稀释风险。"
+  },
+  {
+   "ticker": "HLU.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿勘探缺乏新闻，股价低迷且流动性不足。"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "作为生产商近期无重大新闻，基本面平稳维持中性。"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "名称与板块数据错乱，且近期大跌，存在严重数据风险。"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "虽有反弹但缺乏实质新闻支撑，维持中性观望。"
+  },
+  {
+   "ticker": "CRE.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂矿项目无新进展，股价回调反映资金撤离。"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "市值较大且近期有反弹，但无新闻支撑，维持中性。"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "黄金勘探无实质利好，股价横盘反映市场关注度低。"
+  },
+  {
+   "ticker": "CAF.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "缺乏新闻且股价低迷，微盘股需防范流动性枯竭。"
+  },
+  {
+   "ticker": "STND.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿勘探无新进展，股价下跌且缺乏流动性。"
+  },
+  {
+   "ticker": "BTR.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "黄金开发项目无新闻，股价下跌或反映资金担忧。"
+  },
+  {
+   "ticker": "WM.TO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "虽为开发商但无新闻催化，股价回调需警惕稀释。"
+  },
+  {
+   "ticker": "SXTY.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "CSE微盘股无新闻却异常拉升，警惕庄家拉高出货。"
+  },
+  {
+   "ticker": "DEFN.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "名称与板块完全不符，数据错误且需警惕基本面风险。"
+  }
+ ]
+}

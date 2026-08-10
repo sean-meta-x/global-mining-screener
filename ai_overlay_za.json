@@ -1,0 +1,127 @@
+{
+ "generated_at": "2026-08-10T07:29Z",
+ "model": "qwen3.7-plus",
+ "market": "za",
+ "items": [
+  {
+   "ticker": "KIO.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铁矿石价格受中国需求压制，高股息难掩周期下行风险。"
+  },
+  {
+   "ticker": "THA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铂钯价格持续低迷，基本面承压且缺乏短期催化剂。"
+  },
+  {
+   "ticker": "JBL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "非洲项目运营复杂，历史上有稀释和治理瑕疵风险。"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型勘探股单月暴跌且无利好，高度怀疑融资稀释或钻探失败。"
+  },
+  {
+   "ticker": "WEZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "历史治理劣迹斑斑，项目推进屡次受挫，典型老千股特征。"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "极小市值且近期大幅下挫，流动性差且存在极高融资稀释风险。"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "彩色宝石需求受宏观消费疲软影响，莫桑比克地缘风险犹存。"
+  },
+  {
+   "ticker": "MRF.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铬铁业务盈利能力偏弱，高度依赖嘉能可合资且现金流紧张。"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "锡价强势反弹且Bisie矿山产量稳定，基本面具备向上弹性。"
+  },
+  {
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "动力煤面临长期ESG排斥与需求萎缩，高股息难掩资产贬值风险。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "津巴布韦微型煤企单月暴涨，流动性极差且具典型炒壳特征。"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭资产占比仍高，能源转型期估值受压制，表现或趋于平庸。"
+  },
+  {
+   "ticker": "PAN.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "尾矿项目持续贡献低成本现金流，金价上行期业绩弹性极佳。"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "资产组合优质但公司治理结构复杂，政治关联带来隐性折价。"
+  },
+  {
+   "ticker": "DRD.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "尾矿回收业务利润率薄，对人工和电力成本上升极为敏感。"
+  },
+  {
+   "ticker": "SKA.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型勘探股缺乏实质进展，流动性枯竭且存在持续融资风险。"
+  },
+  {
+   "ticker": "KP2.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "刚果钾矿项目推进严重滞后，长期面临资金缺口与股权稀释。"
+  },
+  {
+   "ticker": "AFT.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "建材与铁矿石业务协同良好，管理层优秀，具备稳健增长逻辑。"
+  },
+  {
+   "ticker": "CPR.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "前期铜矿单月暴涨多受情绪炒作驱动，缺乏实际产量与现金流支撑。"
+  },
+  {
+   "ticker": "ANG.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "产量增长预期已部分兑现，但海外高成本矿区仍压制整体利润率。"
+  }
+ ]
+}
