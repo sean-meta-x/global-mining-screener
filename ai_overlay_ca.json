@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T07:19Z",
+ "generated_at": "2026-08-10T23:28Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "AVL.TO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "量化高分但无新闻且大跌，流动性差谨防阴跌。"
+   "ai_note": "微盘股单月暴跌44%无任何消息，疑似稀释或流动性枯竭"
+  },
+  {
+   "ticker": "MRZL.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "极小市值勘探公司零新闻催化，流动性风险显著"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "CSE微型矿企无新闻支撑，暴跌或隐含稀释风险。"
+   "ai_adjust": -2,
+   "ai_note": "微型铜矿勘探股无消息面支撑，持续下行趋势明显"
   },
   {
-   "ticker": "TT.V",
+   "ticker": "MJS.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铂族金属勘探无实质进展，无量阴跌需警惕资金流出。"
-  },
-  {
-   "ticker": "MANU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "名称与板块严重不符且暴跌，数据异常或存重大隐患。"
+   "ai_note": "标称生产商却零新闻，需警惕停产或治理问题"
   },
   {
    "ticker": "LECR.CN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "缺乏新闻催化且持续下跌，微盘股流动性风险极高。"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金勘探无新进展，股价疲软反映市场对项目存疑。"
-  },
-  {
-   "ticker": "NVO.TO",
-   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "管理层历史有过度宣传前科，需警惕治理与稀释风险。"
+   "ai_note": "千万级PGM勘探股无消息，下行风险大"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿勘探缺乏新闻，股价低迷且流动性不足。"
+   "ai_adjust": -2,
+   "ai_note": "铀矿勘探长期无实质进展，资金持续消耗风险高"
   },
   {
-   "ticker": "MJS.V",
+   "ticker": "CAF.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "作为生产商近期无重大新闻，基本面平稳维持中性。"
+   "ai_adjust": -1,
+   "ai_note": "小型金矿勘探股表现平淡，缺乏明确催化剂"
+  },
+  {
+   "ticker": "CPAU.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值金矿股月跌17%无消息，警惕隐性稀释"
   },
   {
    "ticker": "STUD.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "名称与板块数据错乱，且近期大跌，存在严重数据风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "行业分类错误标金矿实为铀矿，底层数据质量存疑"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "虽有反弹但缺乏实质新闻支撑，维持中性观望。"
-  },
-  {
-   "ticker": "CRE.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂矿项目无新进展，股价回调反映资金撤离。"
+   "ai_adjust": -1,
+   "ai_note": "月涨10%但Monument历史运营和治理劣迹较多"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "市值较大且近期有反弹，但无新闻支撑，维持中性。"
+   "ai_adjust": 1,
+   "ai_note": "较大市值且有Seguela金矿产出支撑，但分类有误"
   },
   {
    "ticker": "VIO.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金勘探无实质利好，股价横盘反映市场关注度低。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "表现平淡无催化，缺乏可验证的进展消息"
   },
   {
-   "ticker": "CAF.V",
+   "ticker": "TT.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "缺乏新闻且股价低迷，微盘股需防范流动性枯竭。"
-  },
-  {
-   "ticker": "STND.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿勘探无新进展，股价下跌且缺乏流动性。"
+   "ai_adjust": -2,
+   "ai_note": "微型PGM勘探股流动性差，无消息面支撑"
   },
   {
    "ticker": "BTR.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金开发项目无新闻，股价下跌或反映资金担忧。"
+   "ai_adjust": -2,
+   "ai_note": "月跌18%的开发阶段公司，资金压力需重点关注"
   },
   {
-   "ticker": "WM.TO",
+   "ticker": "IBAT.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "虽为开发商但无新闻催化，股价回调需警惕稀释。"
+   "ai_note": "电池金属热度消退，小盘股下行压力持续加大"
   },
   {
    "ticker": "SXTY.CN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "CSE微盘股无新闻却异常拉升，警惕庄家拉高出货。"
+   "ai_adjust": -3,
+   "ai_note": "千万级微型股月涨15%却零新闻，疑似炒作拉升"
+  },
+  {
+   "ticker": "CC.CN",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "极小市值无消息面，流动性风险突出"
+  },
+  {
+   "ticker": "CAMB.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "V板勘探公司市值3.5亿却零新闻，高度可疑需回避"
+  },
+  {
+   "ticker": "NVO.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Novo历史治理问题多，Egina项目反复延迟令人担忧"
   },
   {
    "ticker": "DEFN.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "名称与板块完全不符，数据错误且需警惕基本面风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "行业分类错误标金矿实为稀土，数据可靠性存疑"
   }
  ]
 }
