@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-10T23:00Z",
+ "generated_at": "2026-08-11T23:06Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
+   "ticker": "601600.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中铝为大型国企，成本偏高但近期铝价走强支撑，无明显治理风险"
+  },
+  {
    "ticker": "002101.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "历史治理问题频发，逆市下跌显示资金回避"
-  },
-  {
-   "ticker": "601600.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "央企效率偏低，短期涨幅较大需警惕回调"
-  },
-  {
-   "ticker": "600219.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "民营铝企龙头，产业链完整，暂无明显风险"
+   "ai_note": "量化评分尚可但一月回报为负，小市值流动性有限，关注下行风险"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤电铝一体化布局，基本面稳健"
+   "ai_note": "神火股份煤电铝一体化布局合理，近期涨幅较大但基本面尚可"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "南山铝业历史上存在关联交易问题，治理风险需持续关注"
   },
   {
    "ticker": "603071.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中小煤企环保合规压力较大，估值吸引力有限"
+   "ai_adjust": 0,
+   "ai_note": "浙能电力煤电业务稳定，小市值标的无重大异常信号"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "山西国资煤企，历史治理瑕疵需持续关注"
-  },
-  {
-   "ticker": "600740.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "焦化煤需求结构性下行，长期前景承压"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "月涨幅偏高但基本面尚可，暂无重大隐患"
-  },
-  {
-   "ticker": "601699.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤企经营稳健，估值合理"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "央企大市值标的弹性有限，涨幅或已充分"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史财务状况不佳，债务风险仍需警惕"
+   "ai_note": "晋能控股山西煤业为国企，经营稳定无明显治理瑕疵"
   },
   {
    "ticker": "301219.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "钴价波动剧烈，次新股流动性与治理风险并存"
+   "ai_note": "腾远钴业受新能源周期波动影响大，钴价不确定性较高"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "山煤国际为山西国企，煤炭主业稳健，无显著负面信号"
+  },
+  {
+   "ticker": "601699.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "潞安环能为大型煤企，分红稳定，基本面扎实"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "水电铝成本优势明显，月涨幅合理"
+   "ai_note": "云铝股份水电铝成本优势明显，但云南限电风险需留意"
+  },
+  {
+   "ticker": "600740.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "山西焦化为中小型煤焦企业，经营平稳无突出风险"
   },
   {
    "ticker": "600595.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "债务重组历史，资产负债率高企，治理风险突出"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "中孚实业资产负债率偏高，历史上有财务压力记录"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中煤能源为大型央企，高股息防御属性强，治理规范"
+  },
+  {
+   "ticker": "000612.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "焦作万方为中型铝企，规模有限但经营正常无重大瑕疵"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "永泰能源历史上存在治理争议和债务问题，需警惕"
+  },
+  {
+   "ticker": "600098.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "广州发展集团为地方国企多元化经营，风险可控"
   },
   {
    "ticker": "600508.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中煤能源子公司，经营相对稳健"
-  },
-  {
-   "ticker": "600098.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "地方国资多元化企业，煤炭非核心主业"
-  },
-  {
-   "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "曾面临财务困境，反弹后估值修复空间有限"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月涨幅近25%短期过热，追高风险较大"
-  },
-  {
-   "ticker": "000983.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "山西焦煤龙头，基本面扎实，估值合理"
+   "ai_note": "上海大屯能源为中煤子公司，经营稳健无异常"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型露天煤矿成本优势突出，经营稳健"
+   "ai_note": "霍林河露天煤业为国企，露天开采成本优势明显"
+  },
+  {
+   "ticker": "002532.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "天山铝业一月涨幅近24%，短期过热需警惕回调风险"
+  },
+  {
+   "ticker": "002978.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "广西南方铝 diversified布局，经营平稳无重大风险信号"
   }
  ]
 }
