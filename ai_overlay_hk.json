@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-10T22:49Z",
+ "generated_at": "2026-08-11T22:55Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "8250.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅三千万且无新闻，典型港股仙股，存在极高治理与稀释风险。"
-  },
-  {
    "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值偏小且流动性差，量化模型难以捕捉港股小盘股的流动性折价风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "无新闻无催化，流动性一般，维持中性。"
   },
   {
    "ticker": "1303.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小盘煤炭股，近期逆势下跌且无新闻，需警惕基本面恶化或资金出逃。"
+   "ai_adjust": -3,
+   "ai_note": "一月跌幅逾13%且无利好支撑，需警惕基本面恶化。"
   },
   {
-   "ticker": "1738.HK",
+   "ticker": "0637.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "市值偏小、成交清淡，缺乏明确催化剂。"
+  },
+  {
+   "ticker": "1712.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值不足七千万且单月暴跌近三成，流动性枯竭，极大概率是庄股崩盘。"
+   "ai_note": "一月暴涨73%但零新闻，高度疑似炒庄或流动性陷阱。"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "老牌壳股，历史上多次合股供股，量化模型无法识别其长期的股权稀释风险。"
+   "ai_adjust": -2,
+   "ai_note": "公司历史有老千股嫌疑，微涨缺乏基本面支撑。"
   },
   {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "利记集团市值极小，业务边缘化，缺乏机构关注，存在较高的流动性风险。"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "单月暴涨超八成却无任何新闻支撑，高度疑似资金操纵或庄家拉高出货。"
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值极小且涨幅异常，无新闻配合，庄股特征明显。"
   },
   {
    "ticker": "1182.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "成功控股为典型老千股，长期依赖合股与供股吸血，量化高分属严重误判。"
+   "ai_adjust": -7,
+   "ai_note": "长期仙股，近期大跌17%，无实质业务支撑。"
   },
   {
-   "ticker": "0276.HK",
+   "ticker": "1738.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "蒙古能源为老牌问题股，历史治理记录恶劣，需防范潜在的财务或合规黑天鹅。"
+   "ai_adjust": -3,
+   "ai_note": "市值不足8亿港元，流动性风险高，需折价。"
   },
   {
    "ticker": "2610.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南山铝业国际市值较大且为正规企业，基本面与铝价挂钩，无明显治理瑕疵。"
+   "ai_note": "南山铝业国际，母公司背景稳定，估值合理。"
+  },
+  {
+   "ticker": "0276.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "蒙古能源历史遗留问题多，治理风险持续存在。"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "汤加黄金海外资产运营存在地缘风险，且历史上曾有过融资与治理争议。"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "次新黄金股单月暴涨逾三成且无消息面配合，典型庄股炒作特征，极易暴跌。"
+   "ai_adjust": -3,
+   "ai_note": "开发阶段金矿，南非资产政治与融资风险较高。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中国铝业为大型国企，受宏观周期驱动，治理规范，量化分数合理反映其现状。"
+   "ai_note": "中铝为央企龙头，估值受压但安全边际尚可。"
+  },
+  {
+   "ticker": "0505.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "兴发合金业务稳定，无突出催化亦无明显风险。"
   },
   {
    "ticker": "1091.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南方锰业具国企背景，主业清晰，无明显的股权稀释或治理违规等隐性风险。"
+   "ai_note": "南方锰业受电池金属需求支撑，基本面平稳。"
   },
   {
-   "ticker": "1229.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅一亿出头却单月暴涨近四成，无新闻支撑，属极高风险的庄股操纵。"
+   "ticker": "2489.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": " Persistence Gold涨幅较大，需确认是否为业绩驱动。"
+  },
+  {
+   "ticker": "2302.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "中核国际受益铀价上行周期，核电需求明确。"
+  },
+  {
+   "ticker": "0815.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中国白银集团一月涨36%但无新闻，需防回调。"
   },
   {
    "ticker": "2078.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "亚太铝业市值极小且近期无量暴涨，缺乏基本面支撑，高度疑似资金炒作。"
-  },
-  {
-   "ticker": "6885.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金马能源市值适中，主业为煤化工，无明显的负面新闻或治理红旗。"
+   "ai_note": "番禺铝业规模较小，跟随铝价波动，无独立催化。"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "兴发铝业为正常制造业企业，估值与业绩匹配，无量化模型遗漏的重大风险。"
+   "ai_note": "兴发铝业主营铝型材，业绩平稳，估值中性。"
   },
   {
-   "ticker": "1878.HK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "南戈壁曾深陷债务与治理危机，虽近期有所重组，但历史信用瑕疵仍需警惕。"
-  },
-  {
-   "ticker": "2302.HK",
+   "ticker": "6885.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中核国际具央企背景，铀矿业务具备战略价值，治理规范，无明显隐性风险。"
+   "ai_note": "金马能源为焦化企业，煤价波动影响有限。"
   }
  ]
 }
