@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T22:38Z",
+ "generated_at": "2026-08-11T22:44Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铁矿基本面稳健，分红丰厚，无明显治理或稀释风险。"
+   "ai_note": "铁矿业受限于南非铁路物流瓶颈及中国需求疲软。"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属生产商，南非运营面临电力成本压力，但管理尚可。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铂族金属价格持续低迷，基本面缺乏上行催化剂。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "尾矿处理业务资本开支大，历史上存在增发稀释和治理争议。"
-  },
-  {
-   "ticker": "WEZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微盘PGM开发商，流动性极差，历史上有频繁增发稀释劣迹。"
+   "ai_adjust": -4,
+   "ai_note": "公司历史上有过度推销和复杂股权结构的稀释风险。"
   },
   {
    "ticker": "EUZ.JO",
    "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型勘探股流动性极差，面临极高的融资稀释风险。"
+  },
+  {
+   "ticker": "WEZ.JO",
+   "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "微型勘探公司无营收，高度依赖外部融资，稀释风险极大。"
+   "ai_note": "历史治理恶劣且曾长期停牌，财务与合规风险极高。"
   },
   {
    "ticker": "MTU.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "小市值煤炭及多元化公司，历史交易复杂，存在治理与流动性隐患。"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "纯动力煤资产面临极高ESG淘汰风险，量化模型易高估其长期现金流。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值极小且近期暴跌，存在严重的流动性与退市风险。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "彩色宝石生产商（非PGM），近年治理改善，基本面平稳无炒作。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "有色宝石巨头，但海外矿区曾面临社区与合规争议。"
   },
   {
-   "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铬铁生产商财务状况长期偏弱，面临一定的流动性与债务压力。"
+   "ticker": "TGA.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭现金牛但面临长期ESG撤资压力，估值已合理。"
   },
   {
    "ticker": "APH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "高品位锡矿生产商，成本优势显著，基本面扎实，具备上行潜力。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "锡价支撑业绩，但前期涨幅已透支部分量化得分。"
+  },
+  {
+   "ticker": "MRF.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铬铁业务依赖嘉能可合资，盈利稳定但缺乏爆发力。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型煤炭股短期暴涨属资金炒作，流动性差且缺乏长期基本面支撑。"
+   "ai_adjust": -5,
+   "ai_note": "微型煤炭股近期异常暴涨，需警惕庄家拉高出货风险。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "多元化煤炭巨头，虽管理优于同行，但仍受长期ESG转型风险压制。"
-  },
-  {
-   "ticker": "PAN.JO",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南非深部金矿受当地电力与劳工风险制约，金价上涨已部分计价。"
+   "ai_note": "煤炭主业现金流充沛，但长期转型压力限制估值上限。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化矿业巨头，治理良好，但近期受铁矿石及锰价下跌拖累。"
+   "ai_note": "资产组合优质，但复杂的交叉持股结构折价难以消除。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金尾矿回收商，受金价利好，但面临资源品位下降及南非运营风险。"
+   "ai_note": "尾矿回收现金流稳定，但面临矿石品位下降的长期风险。"
   },
   {
    "ticker": "KP2.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "刚果(金)钾肥开发项目进度屡次拖延，资金需求大，存在稀释风险。"
+   "ai_adjust": -4,
+   "ai_note": "钾矿开发资本开支巨大，刚果基建与审批风险极高。"
+  },
+  {
+   "ticker": "GFI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "黄金量价齐升，产量指引稳健，具备较强上涨动能。"
+  },
+  {
+   "ticker": "CPR.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型铜矿勘探股短期暴涨近四成，存在典型炒作特征。"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "建材与铁矿生产商，管理层优秀，但受南非宏观基建需求疲软影响。"
+   "ai_note": "建筑与铁矿双轮驱动，但受南非宏观经济拖累表现平平。"
   },
   {
-   "ticker": "CPR.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型铜矿股短期暴涨近40%，典型微盘资金炒作，极易暴跌。"
+   "ticker": "PAN.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金产量增长良好，但深部开采成本上升侵蚀利润空间。"
   },
   {
    "ticker": "ANG.JO",
    "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "全球化黄金巨头，产量增长明确，量化模型可能低估了其金价弹性。"
-  },
-  {
-   "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "全球化黄金巨头，资产质量优良，量化分数偏低或存在均值回归机会。"
+   "ai_adjust": 3,
+   "ai_note": "金价创新高叠加产量回升，基本面与资金面形成共振。"
   }
  ]
 }
