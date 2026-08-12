@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11T22:30Z",
+ "generated_at": "2026-08-12T22:28Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "GRML",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "格陵兰政治与环保审批风险极高，微盘股流动性差。"
+   "ai_note": "格陵兰采矿政策风险高，微盘股易遭稀释与炒作。"
   },
   {
    "ticker": "WWR",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "无实质利好下短期暴涨超36%，疑似庄家拉高出货或炒作。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "典型微盘探矿股，流动性差且存在较高炒作与稀释风险。"
   },
   {
    "ticker": "FNUC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿股无新闻却异常上涨，需警惕流动性陷阱与炒作。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "核能微盘股概念炒作嫌疑大，基本面薄弱且极易稀释。"
   },
   {
    "ticker": "UROY",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀royalties业务优质，大涨属行业贝塔释放，估值合理。"
+   "ai_note": "铀矿特许权使用费模式较稳健，但需警惕铀价周期波动。"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铀矿勘探股流动性枯竭风险高，需防范定向增发。"
+   "ai_adjust": -3,
+   "ai_note": "铀矿微盘勘探股，钻探风险高且面临持续融资稀释。"
   },
   {
-   "ticker": "RITE",
+   "ticker": "NB",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅千万且单月暴跌近30%，极大概率遭遇增发稀释或钻探失败。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦矿区存在潜在政策与汇兑风险，抵消部分涨幅。"
+   "ai_adjust": -8,
+   "ai_note": "镍铌钪项目拖延数十年，资本开支巨大且融资与许可风险极高。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "关键矿种审批屡遭环保组织阻击，项目延期风险压制估值。"
+   "ai_note": "锂矿项目面临美国林业局许可审批延迟及项目融资不确定性。"
   },
   {
-   "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极小市值锂矿股大幅下挫，警惕资金链断裂及股权稀释风险。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "虽获关键许可，但巨额资本开支与融资稀释风险仍需时间消化。"
-  },
-  {
-   "ticker": "NB",
+   "ticker": "CMCL",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "公司历史上存在过度营销与融资困难问题，需警惕概念炒作。"
+   "ai_note": "津巴布韦矿区面临政策与电力风险，地缘政治溢价被量化忽略。"
   },
   {
    "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "巴西钾矿项目基本面尚可，但海外开发执行风险不容忽视。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "亚马逊钾矿项目面临严苛的环保许可审批及原住民社区阻力。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "塞拉皮达项目面临原住民诉讼及巨额资本开支，许可风险极高。"
   },
   {
    "ticker": "ELBM",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "电池金属微型股流动性溢价低，需关注后续项目融资进度。"
-  },
-  {
-   "ticker": "NC",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭资产面临长期ESG压制与结构性衰退，反弹空间有限。"
+   "ai_note": "电池材料微盘股现金消耗快，在电动车需求放缓下面临稀释风险。"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "权证类资产流动性极差且带有高杠杆，不适合常规股票配置。"
+   "ai_note": "认股权证具有时间衰减与极高流动性风险，不适合量化模型直接定价。"
   },
   {
-   "ticker": "FSM",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "银金产量稳步增长且成本可控，贵金属牛市下具备双击潜力。"
+   "ticker": "FMST",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "极微盘清洁能源股，业务转型频繁且存在严重的股权稀释风险。"
   },
   {
-   "ticker": "GAU",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "加纳矿区运营平稳，金价上涨带来利润弹性，但缺乏爆发催化。"
+   "ticker": "NC",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭生产商面临长期需求结构性衰退及ESG限制带来的流动性折价。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿股流动性匮乏，业绩波动大且易受管理层不当操作影响。"
+   "ai_adjust": -4,
+   "ai_note": "微盘金矿生产商往往隐藏较高的维持性资本开支与潜在环境负债。"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型银金矿企基本面尚可，但需关注通胀导致的矿山运营成本上升。"
   },
   {
    "ticker": "GLDG",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "资产组合优质但纯勘探阶段无现金流，股价受金价情绪驱动。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "黄金勘探股历史稀释严重，且核心项目多处于早期，落地风险高。"
   },
   {
    "ticker": "DRD",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南非尾矿回收成本较低，但需警惕南非电力短缺与地缘政策风险。"
+  },
+  {
+   "ticker": "TMCWW",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "深海采矿面临极大的国际环保阻力与监管许可不确定性，权证风险极高。"
+  },
+  {
+   "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南非尾矿回收受限于当地电力与政策环境，估值长期受压。"
+   "ai_adjust": -3,
+   "ai_note": "多元化微盘勘探股缺乏核心高品位项目，面临持续融资与稀释风险。"
   }
  ]
 }
