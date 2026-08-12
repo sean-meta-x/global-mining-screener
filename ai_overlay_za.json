@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-11T22:44Z",
+ "generated_at": "2026-08-12T22:42Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿业受限于南非铁路物流瓶颈及中国需求疲软。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Transnet铁路物流瓶颈持续制约产量，量化模型未反映此运营风险"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂族金属价格持续低迷，基本面缺乏上行催化剂。"
+   "ai_adjust": -2,
+   "ai_note": "铂钯价格受电动车替代效应长期承压，结构性需求风险被低估"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "公司历史上有过度推销和复杂股权结构的稀释风险。"
+   "ai_adjust": -5,
+   "ai_note": "公司有频繁增发稀释和激进推广历史，治理风险显著"
   },
   {
-   "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型勘探股流动性极差，面临极高的融资稀释风险。"
-  },
-  {
-   "ticker": "WEZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "历史治理恶劣且曾长期停牌，财务与合规风险极高。"
+   "ticker": "MRF.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月涨20%缺乏基本面支撑，小盘铬矿股存炒作嫌疑"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值极小且近期暴跌，存在严重的流动性与退市风险。"
+   "ai_note": "市值仅6800万且月跌23%，流动性极差，基本面堪忧"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值不足4000万的勘探公司月跌27%，近乎壳股特征"
+  },
+  {
+   "ticker": "WEZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "长期开发停滞、反复融资稀释，管理层信誉存疑"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "有色宝石巨头，但海外矿区曾面临社区与合规争议。"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭现金牛但面临长期ESG撤资压力，估值已合理。"
+   "ai_adjust": -3,
+   "ai_note": "莫桑比克矿区面临资源民族主义与安全风险"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锡价支撑业绩，但前期涨幅已透支部分量化得分。"
+   "ai_adjust": -2,
+   "ai_note": "刚果(金)运营虽有锡价支撑，但司法管辖区风险不容忽视"
   },
   {
-   "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬铁业务依赖嘉能可合资，盈利稳定但缺乏爆发力。"
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "动力煤面临ESG结构性衰退，长期需求下行压力大"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型煤炭股近期异常暴涨，需警惕庄家拉高出货风险。"
+   "ai_adjust": -4,
+   "ai_note": "小盘煤企月涨25%无实质利好，疑似炒作拉升"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭主业现金流充沛，但长期转型压力限制估值上限。"
+   "ai_adjust": -1,
+   "ai_note": "业务相对多元但煤炭ESG逆风仍存，整体风险可控"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小盘铂矿股月涨18%缺乏新闻催化，存推广嫌疑"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "资产组合优质，但复杂的交叉持股结构折价难以消除。"
+   "ai_note": "Motsepe团队管理稳健、业务多元，治理风险较低"
   },
   {
    "ticker": "DRD.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "尾矿回收现金流稳定，但面临矿石品位下降的长期风险。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "低成本尾矿金企受益于金价上涨，运营风险较低"
   },
   {
    "ticker": "KP2.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "钾矿开发资本开支巨大，刚果基建与审批风险极高。"
-  },
-  {
-   "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "黄金量价齐升，产量指引稳健，具备较强上涨动能。"
-  },
-  {
-   "ticker": "CPR.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型铜矿勘探股短期暴涨近四成，存在典型炒作特征。"
+   "ai_note": "刚果(布)钾矿项目执行风险高，开发周期漫长"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "建筑与铁矿双轮驱动，但受南非宏观经济拖累表现平平。"
+   "ai_note": "建材与铁矿业务稳健，无明显治理或运营风险"
   },
   {
-   "ticker": "PAN.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金产量增长良好，但深部开采成本上升侵蚀利润空间。"
+   "ticker": "GFI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "金矿龙头受益于金价牛市，产量增长路径清晰"
   },
   {
    "ticker": "ANG.JO",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "金价创新高叠加产量回升，基本面与资金面形成共振。"
+   "ai_adjust": 2,
+   "ai_note": "全球头部金企充分受益于金价上行，估值仍合理"
+  },
+  {
+   "ticker": "CPR.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "勘探公司月涨44%无任何新闻，典型炒作拉升特征"
   }
  ]
 }
