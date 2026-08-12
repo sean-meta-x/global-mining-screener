@@ -1,66 +1,66 @@
 {
- "generated_at": "2026-08-11T22:13Z",
+ "generated_at": "2026-08-12T22:11Z",
  "model": "qwen3.7-plus",
  "outlook": {
   "Gold": {
    "multiplier": 1.15,
-   "note": "Central bank buying and geopolitical hedging support prices despite high real rates"
+   "note": "Central bank accumulation and geopolitical safe-haven demand support elevated momentum."
   },
   "Silver": {
    "multiplier": 1.18,
-   "note": "Strong industrial solar demand combined with precious metal monetary premium"
+   "note": "Robust photovoltaic industrial demand and structural inventory deficits drive outperformance."
   },
   "Copper": {
    "multiplier": 1.12,
-   "note": "Structural supply deficits and grid modernization demand outpace mine growth"
+   "note": "Tight concentrate markets and grid electrification demand outpace constrained mine supply."
   },
   "Uranium": {
-   "multiplier": 1.15,
-   "note": "Primary supply deficits and renewed global nuclear build-out support long-term contracting"
+   "multiplier": 1.1,
+   "note": "Structural primary supply deficit and global nuclear restarts support long-term contract pricing."
   },
   "Lithium": {
    "multiplier": 0.85,
-   "note": "Persistent oversupply from new projects outweighs near-term EV demand growth"
+   "note": "Near-term oversupply from new global projects coincides with a normalization in EV growth rates."
   },
   "Nickel": {
-   "multiplier": 0.9,
-   "note": "Indonesian supply growth continues to outstrip stainless and battery demand"
+   "multiplier": 0.88,
+   "note": "Surging Indonesian supply growth outpaces sluggish stainless steel and battery sector demand."
   },
   "Zinc": {
-   "multiplier": 1.08,
-   "note": "Tight treatment charges and smelter curtailments offset weak galvanized steel demand"
+   "multiplier": 1.05,
+   "note": "Low treatment charges and European smelter curtailments tighten refined metal availability."
   },
   "Iron Ore": {
-   "multiplier": 0.85,
-   "note": "Ongoing structural weakness in Chinese real estate suppresses steelmaking demand"
+   "multiplier": 0.92,
+   "note": "Persistent weakness in Chinese real estate starts caps steel demand despite infrastructure stimulus."
   },
   "Coal": {
-   "multiplier": 0.95,
-   "note": "Thermal demand destruction from energy transition offsets supply tightness in seaborne markets"
+   "multiplier": 0.9,
+   "note": "Ample global thermal coal inventories and European demand destruction offset seaborne tightness."
   },
   "Rare Earths": {
-   "multiplier": 1.05,
-   "note": "Geopolitical supply chain risks and export controls offset near-term EV motor demand softness"
+   "multiplier": 1.0,
+   "note": "Opaque pricing and export controls balance against steady EV motor and wind turbine demand."
   },
   "Manganese": {
-   "multiplier": 1.0,
-   "note": "Stable steel industry demand balances against nascent but unproven battery-grade supply"
+   "multiplier": 1.02,
+   "note": "South African rail and port logistics bottlenecks tighten seaborne supply for global steelmakers."
   },
   "PGM": {
-   "multiplier": 0.92,
-   "note": "Substitution in auto-catalysts and weak ICE production volumes pressure palladium and platinum"
+   "multiplier": 0.95,
+   "note": "Declining internal combustion engine sales weigh on auto-catalyst demand despite hydrogen upside."
   },
   "Potash": {
    "multiplier": 1.0,
-   "note": "Steady global agricultural application rates balance normalized supply from Eastern Europe"
+   "note": "Steady global agricultural application rates balance with normalized supply from Eastern Europe."
   },
   "Aluminum": {
    "multiplier": 1.1,
-   "note": "Chinese production capacity caps and green energy premium support primary metal prices"
+   "note": "Chinese capacity caps and rising green-energy demand tighten primary metal market balances."
   },
   "Diversified": {
    "multiplier": 1.05,
-   "note": "Heavy weighting in copper and gold offsets iron ore and metallurgical coal headwinds"
+   "note": "Balanced exposure to resilient precious metals and tight base metals offsets iron ore weakness."
   }
  }
 }
