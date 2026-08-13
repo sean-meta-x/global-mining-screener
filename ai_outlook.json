@@ -1,66 +1,66 @@
 {
- "generated_at": "2026-08-12T22:11Z",
+ "generated_at": "2026-08-13T22:12Z",
  "model": "qwen3.7-plus",
  "outlook": {
   "Gold": {
    "multiplier": 1.15,
-   "note": "Central bank accumulation and geopolitical safe-haven demand support elevated momentum."
+   "note": "Strong central bank demand and rate cut expectations support further upside."
   },
   "Silver": {
-   "multiplier": 1.18,
-   "note": "Robust photovoltaic industrial demand and structural inventory deficits drive outperformance."
+   "multiplier": 1.2,
+   "note": "Dual industrial and monetary demand driving outperformance versus gold."
   },
   "Copper": {
-   "multiplier": 1.12,
-   "note": "Tight concentrate markets and grid electrification demand outpace constrained mine supply."
+   "multiplier": 1.15,
+   "note": "Structural supply deficits and energy transition demand outweigh near-term macro headwinds."
   },
   "Uranium": {
-   "multiplier": 1.1,
-   "note": "Structural primary supply deficit and global nuclear restarts support long-term contract pricing."
+   "multiplier": 1.2,
+   "note": "Structural supply deficit and renewed global nuclear capacity additions support prices."
   },
   "Lithium": {
    "multiplier": 0.85,
-   "note": "Near-term oversupply from new global projects coincides with a normalization in EV growth rates."
+   "note": "Persistent oversupply from new mine ramps outweighs steady EV demand growth."
   },
   "Nickel": {
-   "multiplier": 0.88,
-   "note": "Surging Indonesian supply growth outpaces sluggish stainless steel and battery sector demand."
+   "multiplier": 0.85,
+   "note": "Massive Indonesian supply growth continues to swamp the market despite EV battery demand."
   },
   "Zinc": {
-   "multiplier": 1.05,
-   "note": "Low treatment charges and European smelter curtailments tighten refined metal availability."
+   "multiplier": 1.1,
+   "note": "Tight concentrate markets and smelter production cuts are supporting refined prices."
   },
   "Iron Ore": {
-   "multiplier": 0.92,
-   "note": "Persistent weakness in Chinese real estate starts caps steel demand despite infrastructure stimulus."
+   "multiplier": 0.9,
+   "note": "Ongoing weakness in China's property sector limits upside despite infrastructure stimulus."
   },
   "Coal": {
-   "multiplier": 0.9,
-   "note": "Ample global thermal coal inventories and European demand destruction offset seaborne tightness."
+   "multiplier": 0.95,
+   "note": "Structural decline in thermal demand offsets resilient metallurgical coal markets."
   },
   "Rare Earths": {
-   "multiplier": 1.0,
-   "note": "Opaque pricing and export controls balance against steady EV motor and wind turbine demand."
+   "multiplier": 1.1,
+   "note": "Geopolitical supply risks and export controls create a premium for non-Chinese supply."
   },
   "Manganese": {
-   "multiplier": 1.02,
-   "note": "South African rail and port logistics bottlenecks tighten seaborne supply for global steelmakers."
+   "multiplier": 1.0,
+   "note": "Stable steelmaking demand balances ample supply from South Africa and Gabon."
   },
   "PGM": {
    "multiplier": 0.95,
-   "note": "Declining internal combustion engine sales weigh on auto-catalyst demand despite hydrogen upside."
+   "note": "Substitution by battery EVs pressures long-term auto catalyst demand despite supply constraints."
   },
   "Potash": {
-   "multiplier": 1.0,
-   "note": "Steady global agricultural application rates balance with normalized supply from Eastern Europe."
+   "multiplier": 1.05,
+   "note": "Stable global agricultural application rates support prices after the post-war normalization."
   },
   "Aluminum": {
-   "multiplier": 1.1,
-   "note": "Chinese capacity caps and rising green-energy demand tighten primary metal market balances."
+   "multiplier": 1.15,
+   "note": "Chinese capacity caps and strong solar and EV demand tighten the supply-demand balance."
   },
   "Diversified": {
    "multiplier": 1.05,
-   "note": "Balanced exposure to resilient precious metals and tight base metals offsets iron ore weakness."
+   "note": "Broad commodity basket provides balanced exposure to base metal deficits and iron ore stability."
   }
  }
 }
