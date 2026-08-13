@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-12T22:53Z",
+ "generated_at": "2026-08-13T22:59Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1303.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "无消息暴跌24%，警惕隐性利空或流动性陷阱。"
+   "ai_adjust": -3,
+   "ai_note": "微盘煤炭股流动性差且治理存疑，量化未计入壳股风险。"
+  },
+  {
+   "ticker": "0166.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "典型仙股特征，业务杂乱且市值极低，存在高度治理与退市风险。"
   },
   {
    "ticker": "0637.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小市值多元化公司，缺乏催化剂，表现平淡。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值不足两亿且交易极度清淡，流动性折价风险未被量化模型捕捉。"
   },
   {
    "ticker": "1182.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "成功国际历史治理问题频出，无消息暴跌需高度警惕。"
+   "ai_note": "频繁更名与业务重组的壳股特征，金价上涨未能掩盖其底层治理风险。"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "短期暴涨67%存在资金炒作嫌疑，警惕高位配股稀释及获利盘抛压。"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值突然拉升14%，无基本面支撑，防炒作。"
+   "ai_note": "微盘股短期异常拉升缺乏基本面支撑，需防范庄家拉高出货风险。"
   },
   {
-   "ticker": "0166.HK",
+   "ticker": "2610.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "股价横盘无波动，小市值缺乏市场关注度。"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "单月暴涨73%无任何消息，高度疑似庄家拉高出货。"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "开发阶段金矿，南非司法管辖与政治风险较高。"
+   "ai_adjust": -2,
+   "ai_note": "港股铝加工板块估值长期受压，且与母公司存在潜在关联交易折价。"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "市值仅1.3亿却涨17%，典型小盘股炒作特征。"
+   "ai_note": "市值仅一亿出头的微盘煤炭股，流动性枯竭且基本面边缘化。"
   },
   {
-   "ticker": "2610.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大市值铝业股，涨幅合理，基本面相对稳健。"
+   "ticker": "0621.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "南非金矿面临严重的电力短缺与政策风险，且历史上频发稀释性配股。"
   },
   {
-   "ticker": "1091.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南方锰业走势平稳，无显著风险或催化因素。"
-  },
-  {
-   "ticker": "0276.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "蒙古能源面临蒙古国政策与汇率双重 jurisdiction 风险。"
-  },
-  {
-   "ticker": "1738.HK",
+   "ticker": "0815.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "市值不足1亿港元，流动性极差，交易风险高。"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无消息暴涨30%，需警惕短期获利回吐风险。"
-  },
-  {
-   "ticker": "0505.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "兴业合金小幅回调，铜价波动影响有限。"
+   "ai_note": "历史债务压力大且资产负债表脆弱，近期反弹需警惕债务重组后遗症。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中铝为大型央企，估值合理，防御性较好。"
+   "ai_note": "大型央企基本面稳健，量化低分主要受周期见顶预期影响，无额外风险。"
   },
   {
-   "ticker": "0815.HK",
+   "ticker": "1091.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锰系材料面临产能过剩与需求波动，估值受压但无重大治理瑕疵。"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "具备极强成本优势与高股息，量化模型可能低估了其周期底部的盈利韧性。"
+  },
+  {
+   "ticker": "1208.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "中国白银单月涨23%无消息，追高风险较大。"
+   "ai_note": "核心矿山常受秘鲁社区抗议堵路影响，停产风险是量化模型难以定价的隐患。"
   },
   {
-   "ticker": "6885.HK",
+   "ticker": "0276.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "典型业务停滞的仙股，缺乏实质经营，存在极高退市与老千股风险。"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "市值不足一亿且短期暴涨，典型老千股拉高特征，面临极高流动性风险。"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小盘金矿股短期暴涨缺乏基本面支撑，需警惕资金炒作后的剧烈回调。"
+  },
+  {
+   "ticker": "0098.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小市值煤炭股走势平稳，无明显异常信号。"
+   "ai_adjust": -2,
+   "ai_note": "深度绑定房地产产业链，受地产下行拖累需求疲软，估值缺乏向上弹性。"
   },
   {
-   "ticker": "8095.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "北大青鸟小幅回调，多元化业务缺乏亮点。"
-  },
-  {
-   "ticker": "2302.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "铀矿概念受全球核能复苏支撑，中期逻辑通顺。"
-  },
-  {
-   "ticker": "2078.HK",
+   "ticker": "0505.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值铝业股涨14%，流动性与持续性需关注。"
+   "ai_note": "小盘金属股流动性较差，且受大宗商品价格波动直接冲击，抗风险能力弱。"
+  },
+  {
+   "ticker": "1878.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "历史上曾现审计争议且高度依赖中蒙边境通关效率，地缘与政策风险高。"
   }
  ]
 }
