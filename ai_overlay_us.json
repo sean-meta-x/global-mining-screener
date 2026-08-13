@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-12T22:28Z",
+ "generated_at": "2026-08-13T22:28Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "GRML",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "格陵兰采矿政策风险高，微盘股易遭稀释与炒作。"
+   "ai_adjust": -4,
+   "ai_note": "格陵兰微型PGM勘探，许可和环境审批风险极高，无新闻支撑涨幅"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "典型微盘探矿股，流动性差且存在较高炒作与稀释风险。"
+   "ai_adjust": -3,
+   "ai_note": "月涨33%却无任何新闻，微型勘探股疑似炒作推动"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "核能微盘股概念炒作嫌疑大，基本面薄弱且极易稀释。"
+   "ai_note": "公司名称和实体无法验证，疑似壳公司或推广标的"
   },
   {
    "ticker": "UROY",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿特许权使用费模式较稳健，但需警惕铀价周期波动。"
+   "ai_adjust": -1,
+   "ai_note": "铀版税公司结构稳健，但月涨47.5%短期过热"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铀矿微盘勘探股，钻探风险高且面临持续融资稀释。"
-  },
-  {
-   "ticker": "NB",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "镍铌钪项目拖延数十年，资本开支巨大且融资与许可风险极高。"
+   "ai_note": "微型铀勘探股，流动性差且无新闻催化"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂价低迷叠加Rhyolite Ridge项目需大量资金，下行风险大"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂矿项目面临美国林业局许可审批延迟及项目融资不确定性。"
+   "ai_note": "NioCorp历史稀释严重，Elk Creek项目距投产仍遥远"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦矿区面临政策与电力风险，地缘政治溢价被量化忽略。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "津巴布韦Blanket金矿受益于金价，但管辖风险不可忽视"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "亚马逊钾矿项目面临严苛的环保许可审批及原住民社区阻力。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "塞拉皮达项目面临原住民诉讼及巨额资本开支，许可风险极高。"
-  },
-  {
-   "ticker": "ELBM",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "电池材料微盘股现金消耗快，在电动车需求放缓下面临稀释风险。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "认股权证具有时间衰减与极高流动性风险，不适合量化模型直接定价。"
+   "ai_note": "钾肥市场疲软，Autazes项目资金紧张"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "极微盘清洁能源股，业务转型频繁且存在严重的股权稀释风险。"
+   "ai_note": "微型股暴跌24%，市值仅2100万，流动性极差"
   },
   {
-   "ticker": "NC",
+   "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭生产商面临长期需求结构性衰退及ESG限制带来的流动性折价。"
+   "ai_adjust": -2,
+   "ai_note": "Thacker Pass项目面临持续原住民法律诉讼和许可延迟"
   },
   {
-   "ticker": "NAMM",
+   "ticker": "ELBM",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "电池材料小型勘探，波动正常但缺乏明确催化剂"
+  },
+  {
+   "ticker": "NAMMW",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微盘金矿生产商往往隐藏较高的维持性资本开支与潜在环境负债。"
+   "ai_note": "权证工具存在时间衰减和杠杆风险，不适合长期持有"
+  },
+  {
+   "ticker": "RITE",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值仅1100万且暴跌25%，高度可疑的微型壳股"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型银金矿企基本面尚可，但需关注通胀导致的矿山运营成本上升。"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金勘探股历史稀释严重，且核心项目多处于早期，落地风险高。"
-  },
-  {
-   "ticker": "DRD",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非尾矿回收成本较低，但需警惕南非电力短缺与地缘政策风险。"
-  },
-  {
-   "ticker": "TMCWW",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "深海采矿面临极大的国际环保阻力与监管许可不确定性，权证风险极高。"
+   "ai_note": "中型银矿生产商运营稳健，涨幅与贵金属走势一致"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小型多元勘探股，无新闻且缺乏明确项目催化"
+  },
+  {
+   "ticker": "FMSTW",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "FMST关联权证，底层资产疲弱且权证有时间衰减"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭生产商处于结构性衰退行业，长期需求下行"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "多元化微盘勘探股缺乏核心高品位项目，面临持续融资与稀释风险。"
+   "ai_note": "小型金矿生产商市值仅7300万，流动性和运营规模存疑"
+  },
+  {
+   "ticker": "EU",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铀ISR生产商运营真实，但近期跑输铀板块同行"
   }
  ]
 }
