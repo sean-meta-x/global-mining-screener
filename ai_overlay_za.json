@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-12T22:42Z",
+ "generated_at": "2026-08-13T22:47Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Transnet铁路物流瓶颈持续制约产量，量化模型未反映此运营风险"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铁矿石价格承压但基本面稳健，无异常信号"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铂钯价格受电动车替代效应长期承压，结构性需求风险被低估"
-  },
-  {
-   "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "公司有频繁增发稀释和激进推广历史，治理风险显著"
-  },
-  {
-   "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月涨20%缺乏基本面支撑，小盘铬矿股存炒作嫌疑"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "PGM市场持续过剩，行业逆风未充分反映"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值仅6800万且月跌23%，流动性极差，基本面堪忧"
+   "ai_note": "市值仅6800万且单月暴跌30%，无消息披露，流动性极差"
+  },
+  {
+   "ticker": "JBL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "公司历来有激进推广记录，需警惕稀释风险"
+  },
+  {
+   "ticker": "MRF.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铬铁板块波动大，月涨16%无消息支撑存疑"
   },
   {
    "ticker": "EUZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值不足4000万的勘探公司月跌27%，近乎壳股特征"
+   "ai_adjust": -9,
+   "ai_note": "市值仅3500万月涨40%无任何消息，典型微盘炒作特征"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "长期开发停滞、反复融资稀释，管理层信誉存疑"
+   "ai_adjust": -7,
+   "ai_note": "公司有严重治理和财务危机历史，曾进入商业救援"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "莫桑比克矿区面临资源民族主义与安全风险"
+   "ai_adjust": -2,
+   "ai_note": "有色宝石行业透明度低，公司治理存历史隐忧"
+  },
+  {
+   "ticker": "TGA.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭资产面临长期ESG折价，结构性风险"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "刚果(金)运营虽有锡价支撑，但司法管辖区风险不容忽视"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "动力煤面临ESG结构性衰退，长期需求下行压力大"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小盘煤企月涨25%无实质利好，疑似炒作拉升"
+   "ai_adjust": 0,
+   "ai_note": "锡矿运营稳健，估值合理无明显风险"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "业务相对多元但煤炭ESG逆风仍存，整体风险可控"
+   "ai_note": "煤炭业务ESG压力持续，但短期现金流尚可"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值不足4亿月涨44%零消息，高度疑似拉高出货"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小盘铂矿股月涨18%缺乏新闻催化，存推广嫌疑"
+   "ai_note": "小市值PGM股月涨19%无消息，需警惕流动性陷阱"
   },
   {
    "ticker": "ARI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Motsepe团队管理稳健、业务多元，治理风险较低"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "Motsepe关联交易历史引发治理折价担忧"
   },
   {
    "ticker": "DRD.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "低成本尾矿金企受益于金价上涨，运营风险较低"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "尾矿金运营稳定，金价上涨直接受益"
+  },
+  {
+   "ticker": "PAN.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金生产商表现强劲，基本面支撑涨幅"
   },
   {
    "ticker": "KP2.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "刚果(布)钾矿项目执行风险高，开发周期漫长"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "钾肥开发阶段项目，融资和执行风险犹存"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "建材与铁矿业务稳健，无明显治理或运营风险"
+   "ai_note": "业务多元且稳健，无异常信号"
   },
   {
    "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "金矿龙头受益于金价牛市，产量增长路径清晰"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型金矿商运营良好，金价上行期受益"
   },
   {
    "ticker": "ANG.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "全球头部金企充分受益于金价上行，估值仍合理"
-  },
-  {
-   "ticker": "CPR.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "勘探公司月涨44%无任何新闻，典型炒作拉升特征"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金矿龙头涨幅合理，基本面与金价共振"
   }
  ]
 }
