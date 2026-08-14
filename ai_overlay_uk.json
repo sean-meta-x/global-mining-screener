@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T22:39Z",
+ "generated_at": "2026-08-14T22:17Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "THX.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "塞古拉金矿已投产，但科特迪瓦地缘与社区风险需持续警惕。"
+   "ai_note": "塞古拉金矿已投产，但科特迪瓦存在一定地缘政治风险。"
   },
   {
    "ticker": "MET1.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值且持续烧钱，缺乏近期催化剂，股权稀释风险极高。"
-  },
-  {
-   "ticker": "UFO.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "公司常借概念炒作，微型市值伴随极高宣传风险与资金断裂隐患。"
+   "ai_adjust": -3,
+   "ai_note": "极小市值勘探公司，无实质进展且存在较高稀释风险。"
   },
   {
    "ticker": "CAPD.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "流动性极差且业务边缘化，缺乏明确矿业催化剂。"
+  },
+  {
+   "ticker": "UFO.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "极小市值且常被炒作，勘探阶段无现金流支撑。"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "实为铀现货基金而非矿企，受铀价直接驱动。"
+  },
+  {
+   "ticker": "CAML.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "加纳金矿运营稳健且分红良好，但规模较小且缺乏高弹性增长。"
+   "ai_note": "资产老化且依赖单一矿山，但分红稳定。"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "钻石需求疲软叠加历史债务包袱，威廉姆森矿复产仍存疑。"
+   "ai_note": "债务高企且核心矿山停产，基本面持续恶化。"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "巴西帕利托金矿运营稳定，但属地风险与微小规模限制了估值溢价。"
+   "ai_adjust": 0,
+   "ai_note": "巴西小型金矿，产量有限但成本控制较好。"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿概念炒作较多，微型市值下频繁增发融资导致股东权益易被稀释。"
-  },
-  {
-   "ticker": "CAML.L",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "巴尔干半岛资产现金流充沛且分红慷慨，估值具备较强安全边际。"
+   "ai_adjust": -2,
+   "ai_note": "铀矿勘探小盘股，高度依赖铀价情绪与融资。"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "津巴布韦地缘风险极高，近期大涨需警惕回调。"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "津巴布韦属地政策风险极高，虽近期分红丰厚但需警惕资本管制。"
-  },
-  {
-   "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "纯铀现货持仓标的，流动性极佳，直接受益于铀价长牛周期。"
-  },
-  {
-   "ticker": "GCM.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "孟加拉国煤矿项目因政府禁运出口实质搁浅，治理与合规风险极高。"
+   "ai_note": "南非电力危机与铂族金属价格低迷双重承压。"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南非运营面临电力与政策双重压力，频繁并购带来较高的执行风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "南非运营面临电力与物流瓶颈，估值偏低。"
   },
   {
    "ticker": "80M.L",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "股价单月暴跌近四成，微型勘探公司面临严重的资金链断裂风险。"
+   "ai_note": "股价单月暴跌近四成，疑似勘探不及预期或融资。"
   },
   {
-   "ticker": "THS.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非铂族金属矿运营稳健，但受限于属地风险与铂钯价格疲软。"
-  },
-  {
-   "ticker": "KDNC.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "本质为矿业投资控股壳，底层资产流动性差且存在较高的折价风险。"
+   "ticker": "GCM.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "核心项目受阻多年且公司治理饱受争议。"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "马里地缘政治极度动荡，布古尼锂矿开发面临严重的许可与安全风险。"
-  },
-  {
-   "ticker": "CTL.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂价暴跌重创微型勘探股，智利项目推进缓慢且面临持续融资压力。"
+   "ai_note": "马里地缘政治风险剧增，锂矿开发前景堪忧。"
   },
   {
    "ticker": "GEM.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史上屡遭治理与合规丑闻困扰，有色宝石需求疲软压制估值。"
+   "ai_adjust": -2,
+   "ai_note": "彩色宝石需求疲软，且非洲运营存在政策风险。"
   },
   {
    "ticker": "TGA.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "动力煤资产现金流尚可，但面临长期的结构性需求衰退与南非风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "动力煤面临ESG撤资，且受南非物流严重制约。"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "尾矿回收业务现金流稳定，但南非属地风险与资源品位下降是长期隐患。"
+   "ai_adjust": 0,
+   "ai_note": "尾矿回收现金流好，但受南非宏观环境拖累。"
+  },
+  {
+   "ticker": "KAV.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "早期勘探阶段，资金消耗快且缺乏短期催化剂。"
+  },
+  {
+   "ticker": "KMR.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "莫桑比克运营稳定，但钛铁矿价格处于周期底部。"
   }
  ]
 }
