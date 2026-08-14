@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-13T22:47Z",
+ "generated_at": "2026-08-14T22:22Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿石价格承压但基本面稳健，无异常信号"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Transnet铁路物流危机严重制约产量，量化模型难以充分定价"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "PGM市场持续过剩，行业逆风未充分反映"
+   "ai_adjust": 0,
+   "ai_note": "PGM价格低迷已知，无额外隐藏风险"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅6800万且单月暴跌30%，无消息披露，流动性极差"
+   "ai_adjust": -6,
+   "ai_note": "微型市值单月暴跌30%，流动性极差且疑似基本面恶化"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "公司历来有激进推广记录，需警惕稀释风险"
+   "ai_note": "历史上有激进融资摊薄和推广炒作记录"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铬铁板块波动大，月涨16%无消息支撑存疑"
-  },
-  {
-   "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "市值仅3500万月涨40%无任何消息，典型微盘炒作特征"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铬价波动属已知风险，与Glencore合作关系稳定"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "公司有严重治理和财务危机历史，曾进入商业救援"
+   "ai_adjust": -6,
+   "ai_note": "Bakubung项目长期延误，治理问题频发，至今未投产"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型市值勘探股单月暴涨40%，典型拉高出货特征"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭ESG撤资压力已知，现金流尚可"
+  },
+  {
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "从英美资源剥离的不良热煤资产，ESG风险持续"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "有色宝石行业透明度低，公司治理存历史隐忧"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "煤炭资产面临长期ESG折价，结构性风险"
+   "ai_note": "行业分类存疑，无新闻支撑的20%涨幅需警惕"
   },
   {
    "ticker": "APH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锡矿运营稳健，估值合理无明显风险"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭业务ESG压力持续，但短期现金流尚可"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "刚果金矿区管辖风险重大，量化模型常低估此风险"
   },
   {
    "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值不足4亿月涨44%零消息，高度疑似拉高出货"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型煤炭股流动性差，涨幅异常需防推广陷阱"
   },
   {
-   "ticker": "EPS.JO",
+   "ticker": "SKA.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值PGM股月涨19%无消息，需警惕流动性陷阱"
+   "ai_note": "微型勘探股市值仅六千万，流动性近乎为零"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "Motsepe关联交易历史引发治理折价担忧"
-  },
-  {
-   "ticker": "DRD.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "尾矿金运营稳定，金价上涨直接受益"
+   "ai_adjust": -3,
+   "ai_note": "Motsepe家族关联交易引发治理担忧"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金生产商表现强劲，基本面支撑涨幅"
+   "ai_note": "运营稳健，金价利好已基本反映在股价中"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "历史财务状况不佳，PGM价格疲软下承压"
+  },
+  {
+   "ticker": "DRD.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "尾矿处理商风险较低但上行空间有限"
+  },
+  {
+   "ticker": "GFI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "全球头部金矿商，金价新高下量化评分明显偏低"
   },
   {
    "ticker": "KP2.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钾肥开发阶段项目，融资和执行风险犹存"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "钾矿项目反复延误多年，融资困难长期未解决"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "业务多元且稳健，无异常信号"
-  },
-  {
-   "ticker": "GFI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型金矿商运营良好，金价上行期受益"
-  },
-  {
-   "ticker": "ANG.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿龙头涨幅合理，基本面与金价共振"
+   "ai_note": "管理层可靠，建材业务稳定，铁矿敞口有限"
   }
  ]
 }
