@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-13T23:29Z",
+ "generated_at": "2026-08-14T23:08Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "AVL.TO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "一月暴跌逾三成无任何消息，疑似稀释或推广退潮"
-  },
-  {
    "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅千万且暴跌三成，高度疑似融资稀释"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型市值无新闻，流动性风险高"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值勘探股温和下跌，流动性风险需警惕"
+   "ai_adjust": -3,
+   "ai_note": "微型市值无消息，下跌趋势明显"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "行业标注与公司名称矛盾，疑似壳公司"
   },
   {
    "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "生产商市值近亿走势平稳，暂无明显异常"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "标注为生产商却零新闻，运营存疑"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大市值走势平稳，基本面相对扎实"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "跌幅超四分之一无新闻，恐有未披露利空"
+   "ai_note": "较大型矿企走势平稳，暂无明显风险"
   },
   {
    "ticker": "LECR.CN",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "极小市值PGM勘探股持续走弱，稀释风险高"
+   "ai_note": "微型市值无新闻，流动性堪忧"
+  },
+  {
+   "ticker": "CAMB.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "三亿市值勘探公司零新闻，高度可疑"
+  },
+  {
+   "ticker": "IBAT.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值无消息，持续下跌需警惕"
+  },
+  {
+   "ticker": "HUNT.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "零涨幅零新闻，疑似僵尸股"
+  },
+  {
+   "ticker": "JG.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "真实公司但大幅下跌无消息，需关注"
+  },
+  {
+   "ticker": "CAF.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "名称含投资却为勘探商，疑似壳公司"
+  },
+  {
+   "ticker": "SR.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型市值无新闻，下行趋势明显"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "真实矿企近期表现强劲，可适度关注"
+  },
+  {
+   "ticker": "SLV.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "大涨近三成却零新闻，疑似炒作拉升"
+  },
+  {
+   "ticker": "TT.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型市值无消息，流动性风险高"
+  },
+  {
+   "ticker": "OCEN.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "名称含投资且市值极小，疑似壳公司"
+  },
+  {
+   "ticker": "CCCM.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中等市值无新闻，下跌趋势需警惕"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "温和上涨但无催化剂确认，保持中性观察"
+   "ai_note": "走势偏强但零新闻，基本面待验证"
   },
   {
-   "ticker": "MMY.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "生产商走势偏强但缺乏明确催化剂确认"
-  },
-  {
-   "ticker": "CAMB.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大市值小幅回调，暂无明确风险信号"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值金矿勘探股下跌逾一成，警惕融资"
-  },
-  {
-   "ticker": "LIFT.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "开发商近两成跌幅异常，需排查许可或资金问题"
-  },
-  {
-   "ticker": "IBAT.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池金属勘探股大跌近两成，推广退潮迹象"
-  },
-  {
-   "ticker": "SXTY.CN",
+   "ticker": "YRB.TO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "千万市值微涨或为推广驱动，基本面存疑"
+   "ai_note": "小市值无消息，阴跌走势需警惕"
   },
   {
-   "ticker": "JG.V",
+   "ticker": "AVL.TO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "开发商一月跌近三成无消息，治理或资金堪忧"
-  },
-  {
-   "ticker": "NVO.TO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小市值勘探股横盘，缺乏催化剂但风险可控"
-  },
-  {
-   "ticker": "CAF.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "极小市值横盘无消息，流动性及治理风险犹存"
-  },
-  {
-   "ticker": "OCEN.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "千万市值上涨疑为推广，持续性存疑"
-  },
-  {
-   "ticker": "SLV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值暴涨近三成无新闻，高度疑似炒作"
-  },
-  {
-   "ticker": "TT.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "极小市值PGM勘探股走弱，稀释风险需关注"
+   "ai_adjust": -8,
+   "ai_note": "市值47亿严重异常，数据或存在重大错误"
   }
  ]
 }
