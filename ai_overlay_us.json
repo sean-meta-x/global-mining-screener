@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-13T22:28Z",
+ "generated_at": "2026-08-14T22:07Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "GRML",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "格陵兰微型PGM勘探，许可和环境审批风险极高，无新闻支撑涨幅"
-  },
-  {
    "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月涨33%却无任何新闻，微型勘探股疑似炒作推动"
+   "ai_note": "微型市值且无新闻，流动性风险高，需警惕稀释。"
   },
   {
-   "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "公司名称和实体无法验证，疑似壳公司或推广标的"
-  },
-  {
-   "ticker": "UROY",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀版税公司结构稳健，但月涨47.5%短期过热"
+   "ticker": "GRML",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "格陵兰PGM勘探面临严峻许可与基础设施风险。"
   },
   {
    "ticker": "JAGU",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀勘探股，流动性差且无新闻催化"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "早期铀矿勘探，无新闻，维持中性观察。"
   },
   {
-   "ticker": "IONR",
+   "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂价低迷叠加Rhyolite Ridge项目需大量资金，下行风险大"
+   "ai_adjust": -2,
+   "ai_note": "名称泛化且无实质新闻，需防范炒作型壳公司。"
+  },
+  {
+   "ticker": "UROY",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "铀版税模式无运营风险，受益铀价上涨逻辑清晰。"
   },
   {
    "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "NioCorp历史稀释严重，Elk Creek项目距投产仍遥远"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "NioCorp长期陷于融资与许可困境，执行力存疑。"
   },
   {
    "ticker": "CMCL",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "津巴布韦Blanket金矿受益于金价，但管辖风险不可忽视"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "钾肥市场疲软，Autazes项目资金紧张"
+   "ai_adjust": 0,
+   "ai_note": "津巴布韦金矿运营稳定但地缘政治风险溢价持续。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "微型股暴跌24%，市值仅2100万，流动性极差"
+   "ai_note": "一月暴跌超两成且无新闻，警惕融资失败或稀释。"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "Thacker Pass项目面临持续原住民法律诉讼和许可延迟"
+   "ai_note": "Thacker Pass项目资本开支巨大，融资稀释风险高。"
   },
   {
-   "ticker": "ELBM",
+   "ticker": "GRO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "电池材料小型勘探，波动正常但缺乏明确催化剂"
+   "ai_adjust": 0,
+   "ai_note": "巴西钾矿开发进度平稳，维持中性。"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "权证工具存在时间衰减和杠杆风险，不适合长期持有"
+   "ai_adjust": -2,
+   "ai_note": "权证流动性极差，价格发现功能弱，建议规避。"
   },
   {
-   "ticker": "RITE",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅1100万且暴跌25%，高度可疑的微型壳股"
+   "ticker": "EU",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿ISR生产稳定，但扩产进度需持续跟踪。"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型银矿生产商运营稳健，涨幅与贵金属走势一致"
-  },
-  {
-   "ticker": "NEXM",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小型多元勘探股，无新闻且缺乏明确项目催化"
-  },
-  {
-   "ticker": "FMSTW",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "FMST关联权证，底层资产疲弱且权证有时间衰减"
+   "ai_note": "中型银矿商运营正常，金价支撑业绩。"
   },
   {
    "ticker": "NC",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "煤炭生产商处于结构性衰退行业，长期需求下行"
+   "ai_note": "煤炭资产面临长期需求衰退，估值承压。"
+  },
+  {
+   "ticker": "FMSTW",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "与FMST同源，权证流动性枯竭，极高风险。"
+  },
+  {
+   "ticker": "BLLYF",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "一月暴跌近四成，极可能存在未披露的利空。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小型金矿生产商市值仅7300万，流动性和运营规模存疑"
+   "ai_adjust": -2,
+   "ai_note": "纳米布金矿市值偏小，流动性与运营风险并存。"
   },
   {
-   "ticker": "EU",
+   "ticker": "GLDG",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀ISR生产商运营真实，但近期跑输铀板块同行"
+   "ai_adjust": 0,
+   "ai_note": "资产组合尚可，但勘探阶段缺乏短期催化剂。"
+  },
+  {
+   "ticker": "DRD",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "尾矿处理模式成本低，但南非风险溢价持续。"
+  },
+  {
+   "ticker": "LGO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "钒价波动大且市值偏小，盈利持续性存疑。"
   }
  ]
 }
