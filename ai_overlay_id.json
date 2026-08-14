@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T22:52Z",
+ "generated_at": "2026-08-14T22:28Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型矿企治理与流动性风险偏高"
+   "ai_note": "小市值无新闻，流动性风险需警惕"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值极小的煤炭股，流动性和治理风险突出"
+   "ai_note": "极小市值煤炭股，无新闻支撑存疑"
   },
   {
    "ticker": "UNTR.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Astra集团优质资产，近期大跌或超卖"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "大盘股月跌13.6%无新闻，需排查基本面"
+  },
+  {
+   "ticker": "IFSH.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月跌11%无新闻解释，基本面或存隐忧"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小型综合矿企走势平稳无异常信号"
-  },
-  {
-   "ticker": "IFSH.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小型矿企表现平稳无显著催化或风险"
+   "ai_adjust": -1,
+   "ai_note": "小幅下跌无新闻，中性观望"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "小型煤炭生产商无显著新闻或催化"
+   "ai_note": "小幅上涨无新闻，中性"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月涨逾20%无新闻支撑，需警惕资金炒作"
+   "ai_adjust": -3,
+   "ai_note": "月涨16%无新闻，黄金股或有炒作嫌疑"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "市值不足两千亿印尼盾，微型煤炭股风险极高"
+   "ai_note": "市值仅1590亿印尼盾，极小盘操纵风险高"
   },
   {
    "ticker": "KKGI.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤炭企业走势平稳无异常"
+   "ai_adjust": -1,
+   "ai_note": "中小市值持平，无新闻中性"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭生产商运营稳定无异常信号"
-  },
-  {
-   "ticker": "TINS.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "国有锡业龙头受益于全球锡价上行"
+   "ai_note": "中型煤炭股小幅上涨，中性"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国有煤炭龙头高股息防御性强估值合理"
+   "ai_note": "国企煤炭龙头，小幅回调中性"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大盘股微跌无新闻，中性"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "国企锡业龙头月涨9%，基本面或有改善"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭企业近期反弹但无明确催化"
+   "ai_note": "月涨8%无新闻，动量尚可中性"
   },
   {
    "ticker": "NCKL.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "Harita集团镍业龙头基本面扎实"
-  },
-  {
-   "ticker": "MCOL.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤炭生产商走势平稳无异常"
-  },
-  {
-   "ticker": "ANTM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国有综合矿业巨头走势平稳无异常"
-  },
-  {
-   "ticker": "ARII.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小型煤炭股市值偏低需关注流动性"
+   "ai_adjust": 1,
+   "ai_note": "镍业龙头月涨10%，新能源需求支撑"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "月跌近两成且无任何新闻或存基本面恶化"
+   "ai_note": "极小市值月跌18%无新闻，治理风险高"
   },
   {
-   "ticker": "DAAZ.JK",
+   "ticker": "ARII.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月涨逾14%无新闻支撑小市值疑似炒作"
+   "ai_adjust": -1,
+   "ai_note": "小市值煤炭股上涨，无新闻存疑"
   },
   {
-   "ticker": "NICL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锡业生产商月跌近10%无新闻或隐含利空"
+   "ticker": "ANTM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "国企多元化矿业龙头，表现平稳中性"
+  },
+  {
+   "ticker": "DWGL.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "月暴涨59%无任何新闻，典型拉高出货特征"
+  },
+  {
+   "ticker": "BSSR.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型煤炭股小幅上涨，中性"
   }
  ]
 }
