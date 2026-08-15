@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-14T22:28Z",
+ "generated_at": "2026-08-15T22:23Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值无新闻，流动性风险需警惕"
+   "ai_adjust": -3,
+   "ai_note": "微盘股流动性差，存在潜在治理与炒作风险。"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "极小市值煤炭股，无新闻支撑存疑"
+   "ai_adjust": -2,
+   "ai_note": "小市值煤炭股，需警惕流动性溢价与治理瑕疵。"
   },
   {
    "ticker": "UNTR.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大盘股月跌13.6%无新闻，需排查基本面"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "阿斯特拉集团旗下蓝筹，治理优良，量化评分偏低。"
   },
   {
    "ticker": "IFSH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌11%无新闻解释，基本面或存隐忧"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "业务多元但结构略显复杂，维持中性观察。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小幅下跌无新闻，中性观望"
+   "ai_adjust": 0,
+   "ai_note": "中型多元化矿企，基本面平稳，无显著异常。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "小幅上涨无新闻，中性"
+   "ai_note": "煤炭生产商，业绩随煤价波动，暂无特殊催化。"
   },
   {
    "ticker": "PSAB.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月涨16%无新闻，黄金股或有炒作嫌疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "典型印尼妖股，炒作痕迹重，治理风险极高。"
   },
   {
    "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅1590亿印尼盾，极小盘操纵风险高"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "极小市值煤炭股，流动性枯竭且易受资金操纵。"
   },
   {
    "ticker": "KKGI.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中小市值持平，无新闻中性"
+   "ai_adjust": 0,
+   "ai_note": "中型煤企，股东背景尚可，基本面中规中矩。"
   },
   {
    "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤炭股小幅上涨，中性"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "治理规范的中型煤企，盈利与分红预期较好。"
   },
   {
    "ticker": "PTBA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企煤炭龙头，小幅回调中性"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大盘股微跌无新闻，中性"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "国企煤炭龙头，高股息且治理稳健，估值具吸引力。"
   },
   {
    "ticker": "TINS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国企锡业龙头月涨9%，基本面或有改善"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "锡业国企，虽为龙头但历史上有过合规与治理风波。"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "背靠大型矿业集团，煤炭产能释放稳健，治理佳。"
   },
   {
    "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "月涨8%无新闻，动量尚可中性"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "煤矿运营与设备租赁双轮驱动，治理与财务稳健。"
   },
   {
    "ticker": "NCKL.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "镍业主力，RKEF产能释放顺利，基本面扎实。"
+  },
+  {
+   "ticker": "ARII.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "镍业龙头月涨10%，新能源需求支撑"
+   "ai_adjust": 0,
+   "ai_note": "传统煤炭生产商，体量中等，缺乏显著超额催化。"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "极小市值月跌18%无新闻，治理风险高"
-  },
-  {
-   "ticker": "ARII.JK",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "小市值煤炭股上涨，无新闻存疑"
+   "ai_note": "小市值煤炭股，近期暴跌且流动性差，警惕基本面恶化。"
   },
   {
    "ticker": "ANTM.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企多元化矿业龙头，表现平稳中性"
+   "ai_adjust": 1,
+   "ai_note": "综合矿业国企，镍金业务有潜力，但体制略显僵化。"
+  },
+  {
+   "ticker": "RMKE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "小市值煤炭股，近期大幅下挫，存在资金出逃与治理隐患。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月暴涨59%无任何新闻，典型拉高出货特征"
-  },
-  {
-   "ticker": "BSSR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤炭股小幅上涨，中性"
+   "ai_adjust": -10,
+   "ai_note": "无基本面支撑下月涨超50%，典型炒壳妖股，极度危险。"
   }
  ]
 }
