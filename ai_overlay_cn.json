@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T22:45Z",
+ "generated_at": "2026-08-15T22:41Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝业龙头，基本面稳健，无显著隐性风险。"
+   "ai_note": "大型国企铝企，无重大风险信号，维持中性。"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铝压铸业务受下游车企价格战压制，小市值流动性一般。"
+   "ai_note": "近期跌幅异常，历史治理存疑，需警惕。"
   },
   {
    "ticker": "600219.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "短期涨幅较大存在回调压力，但高端铝材转型逻辑顺畅。"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "民营铝龙头产业链完整，动量强劲可适度乐观。"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "传统动力煤国企，业绩与分红相对稳定，无突出隐性风险。"
+   "ai_note": "煤炭长期转型压力，无额外催化剂。"
   },
   {
    "ticker": "000933.SZ",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "煤铝双主业成本优势显著，盈利确定性强于纯铝企。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤电铝多元化布局稳健，无突出风险。"
   },
   {
    "ticker": "000807.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "依赖水电铝，需警惕云南枯水期限电减产的季节性风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "水电铝绿色优势明显，ESG加分。"
   },
   {
    "ticker": "603071.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭贸易业务毛利率偏低，盈利弹性弱于纯煤炭开采企业。"
+   "ai_adjust": 0,
+   "ai_note": "小市值煤炭企业，流动性一般，中性。"
   },
   {
    "ticker": "301219.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "钴价持续低迷，且海外矿山面临一定地缘与供应链风险。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "钴为电池关键金属，EV需求提供上行催化。"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史治理瑕疵需警惕，产能转移后成本优势有待验证。"
+   "ai_adjust": -3,
+   "ai_note": "历史财务及治理问题较多，建议回避。"
   },
   {
    "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "股权结构曾较复杂，小市值铝企抗风险能力相对较弱。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中小铝企，无显著亮点或风险。"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "动力煤长协比例高，业绩稳健且具备高股息防御属性。"
+   "ai_note": "山西煤炭稳健运营，无特殊事件。"
   },
   {
    "ticker": "600740.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "下游钢铁需求疲软，焦化环节利润持续受上下游挤压。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "焦煤需求相对稳定，中性看待。"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "短期涨幅较大存在技术性回调压力，但高股息底座坚实。"
+   "ai_adjust": 1,
+   "ai_note": "大型煤炭国企高分红，动量佳可小幅加分。"
   },
   {
    "ticker": "600157.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -3,
-   "ai_note": "曾有债务违约历史，市场对其公司治理与信用仍存折价。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭中期无特殊催化，中性。"
   },
   {
    "ticker": "002532.SZ",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "新疆自备电厂优势显著，吨铝成本处于行业绝对低位。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "新疆低成本铝产能，中性。"
   },
   {
    "ticker": "601699.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "喷吹煤价格弹性较好，长协与市场煤比例适中。"
-  },
-  {
-   "ticker": "600508.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "部分矿井面临资源枯竭，产能接续与转型存在一定压力。"
-  },
-  {
-   "ticker": "002128.SZ",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "蒙东煤炭成本极低，且新能源转型提供额外估值溢价。"
+   "ai_note": "山西煤炭强势股，无额外风险。"
   },
   {
    "ticker": "002978.SZ",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "下游钛白粉需求复苏缓慢，钛精矿价格短期承压。"
+   "ai_adjust": -2,
+   "ai_note": "公司治理及推广历史存疑，需谨慎。"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中煤子公司运营稳定，中性。"
+  },
+  {
+   "ticker": "002128.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型露天煤矿，无特殊事件。"
   },
   {
    "ticker": "600098.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "综合能源公用事业属性较强，煤炭业务盈利弹性相对较弱。"
+   "ai_adjust": 0,
+   "ai_note": "多元化集团煤业务平稳，无催化。"
   }
  ]
 }
