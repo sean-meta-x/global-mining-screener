@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-14T22:22Z",
+ "generated_at": "2026-08-15T22:18Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Transnet铁路物流危机严重制约产量，量化模型难以充分定价"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铁矿石价格波动及南非物流瓶颈制约短期表现。"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "PGM价格低迷已知，无额外隐藏风险"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铂族金属价格持续低迷，公司基本面显著承压。"
+  },
+  {
+   "ticker": "MRF.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "股票流动性较差且存在潜在的治理折价风险。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型市值单月暴跌30%，流动性极差且疑似基本面恶化"
+   "ai_adjust": -8,
+   "ai_note": "市值极小且近期暴跌，存在严重流动性与稀释风险。"
+  },
+  {
+   "ticker": "WEZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "长期财务困境且屡有稀释与项目停滞的黑历史。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "历史上有激进融资摊薄和推广炒作记录"
-  },
-  {
-   "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬价波动属已知风险，与Glencore合作关系稳定"
-  },
-  {
-   "ticker": "WEZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "Bakubung项目长期延误，治理问题频发，至今未投产"
-  },
-  {
-   "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型市值勘探股单月暴涨40%，典型拉高出货特征"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭ESG撤资压力已知，现金流尚可"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "从英美资源剥离的不良热煤资产，ESG风险持续"
+   "ai_note": "频繁增发稀释股东权益，需警惕管理层的 promoter 行为。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "行业分类存疑，无新闻支撑的20%涨幅需警惕"
+   "ai_note": "彩色宝石需求疲软，且需关注公司历史治理瑕疵。"
   },
   {
-   "ticker": "APH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "刚果金矿区管辖风险重大，量化模型常低估此风险"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型煤炭股流动性差，涨幅异常需防推广陷阱"
-  },
-  {
-   "ticker": "SKA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型勘探股市值仅六千万，流动性近乎为零"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Motsepe家族关联交易引发治理担忧"
-  },
-  {
-   "ticker": "PAN.JO",
+   "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "运营稳健，金价利好已基本反映在股价中"
+   "ai_adjust": -1,
+   "ai_note": "煤炭资产现金流好但面临长期的ESG退出压力。"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史财务状况不佳，PGM价格疲软下承压"
+   "ai_adjust": -3,
+   "ai_note": "盈利能力薄弱，在铂族金属低迷环境下生存艰难。"
   },
   {
-   "ticker": "DRD.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "尾矿处理商风险较低但上行空间有限"
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "纯动力煤资产面临严峻的ESG撤资与融资风险。"
   },
   {
-   "ticker": "GFI.JO",
+   "ticker": "APH.JO",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "全球头部金矿商，金价新高下量化评分明显偏低"
+   "ai_note": "核心锡矿品位高且扩产带来强劲的自由现金流。"
+  },
+  {
+   "ticker": "SKA.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型勘探股无实质产出，面临极高的资金断裂风险。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值微小且近期异常暴涨，疑似资金炒作或逼空。"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "资产组合优质，但复杂的控股结构需关注治理风险。"
   },
   {
    "ticker": "KP2.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "钾矿项目反复延误多年，融资困难长期未解决"
+   "ai_note": "刚果钾矿项目面临严峻的基建与审批延期风险。"
+  },
+  {
+   "ticker": "PAN.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "金价上涨受益明显，但深部开采成本压力犹存。"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "管理层可靠，建材业务稳定，铁矿敞口有限"
+   "ai_note": "建材与铁矿双轮驱动基本面稳健，但受宏观周期影响。"
+  },
+  {
+   "ticker": "DRD.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "尾矿回收成本低，金价高位下盈利弹性较大。"
+  },
+  {
+   "ticker": "GFI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "全球化资产组合稳健，但短期涨幅较大需防回调。"
+  },
+  {
+   "ticker": "CPR.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "勘探股短期暴涨缺乏基本面支撑，需高度警惕炒作。"
   }
  ]
 }
