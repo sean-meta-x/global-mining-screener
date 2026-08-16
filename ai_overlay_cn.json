@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-15T22:41Z",
+ "generated_at": "2026-08-16T22:36Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，无重大风险信号，维持中性。"
+   "ai_note": "大型国企铝企，动量稳健，无异常信号"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "近期跌幅异常，历史治理存疑，需警惕。"
+   "ai_note": "小市值且一月跌7.5%，流动性与基本面存疑"
   },
   {
    "ticker": "600219.SS",
-   "ai_view": "neutral",
+   "ai_view": "bullish",
    "ai_adjust": 1,
-   "ai_note": "民营铝龙头产业链完整，动量强劲可适度乐观。"
+   "ai_note": "大型铝企月涨15.6%动量强劲，值得关注"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭长期转型压力，无额外催化剂。"
+   "ai_note": "山西煤炭中坚企业，表现平稳无亮点"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤电铝多元化布局稳健，无突出风险。"
+   "ai_note": "大型铝企走势正常，量化评分合理"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "水电铝绿色优势明显，ESG加分。"
+   "ai_adjust": 0,
+   "ai_note": "大市值铝企波动小，无显著催化或风险"
   },
   {
    "ticker": "603071.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小市值煤炭企业，流动性一般，中性。"
+   "ai_adjust": -1,
+   "ai_note": "小市值煤炭股月涨仅0.5%，缺乏动能"
   },
   {
    "ticker": "301219.SZ",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "钴为电池关键金属，EV需求提供上行催化。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "钴业次新股月涨7.3%动量尚可"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史财务及治理问题较多，建议回避。"
+   "ai_adjust": -1,
+   "ai_note": "中孚实业历史治理问题较多需警惕"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中小铝企，无显著亮点或风险。"
+   "ai_note": "焦作万方铝企走势平稳无异常"
   },
   {
    "ticker": "600546.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "山西煤炭稳健运营，无特殊事件。"
+   "ai_view": "bullish",
+   "ai_adjust": 1,
+   "ai_note": "山西煤炭国际月涨8.6%动量突出"
   },
   {
    "ticker": "600740.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "焦煤需求相对稳定，中性看待。"
+   "ai_note": "山西焦化走势温和，量化评分合理"
   },
   {
    "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "大型煤炭国企高分红，动量佳可小幅加分。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "千亿煤炭龙头月涨12%强势且估值合理"
   },
   {
    "ticker": "600157.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭中期无特殊催化，中性。"
+   "ai_note": "永泰能源走势平稳无显著信号"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "新疆低成本铝产能，中性。"
+   "ai_note": "天山铝业大型铝企表现正常"
   },
   {
    "ticker": "601699.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "山西煤炭强势股，无额外风险。"
-  },
-  {
-   "ticker": "002978.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "公司治理及推广历史存疑，需谨慎。"
+   "ai_view": "bullish",
+   "ai_adjust": 1,
+   "ai_note": "潞安环能月涨9.8%动量强劲"
   },
   {
    "ticker": "600508.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中煤子公司运营稳定，中性。"
+   "ai_note": "上海大屯能源小市值煤炭走势平淡"
+  },
+  {
+   "ticker": "002978.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "安孚科技月跌0.6%且评分偏低需观察"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型露天煤矿，无特殊事件。"
+   "ai_note": "霍林河露天煤业大市值走势稳健"
   },
   {
    "ticker": "600098.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化集团煤业务平稳，无催化。"
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "广发展集团月零涨幅动能不足"
   }
  ]
 }
