@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-16T22:21Z",
+ "generated_at": "2026-08-17T22:28Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "公司转型期治理存疑，缺乏流动性溢价。"
+   "ai_note": "微型股流动性差，信息透明度低"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭股流动性差，需警惕 promoter 炒作风险。"
+   "ai_adjust": -3,
+   "ai_note": "微型煤炭股，流动性及治理存疑"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
    "ai_adjust": 5,
-   "ai_note": "阿斯特朗系蓝筹，治理极佳，量化低估其周期底部价值。"
+   "ai_note": "Astra旗下蓝筹，治理优良，回调可关注"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "业务庞杂且水产与煤炭协同性弱，存在治理折价。"
+   "ai_note": "存在关联交易及治理隐忧"
   },
   {
    "ticker": "MYOH.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "历史上有过停牌与治理瑕疵，小市值流动性陷阱。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产稳定，无突出催化或风险"
   },
   {
    "ticker": "DKFT.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "基本面平稳但缺乏显著催化剂，维持中性观察。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "勘探进展及许可证风险需留意"
   },
   {
    "ticker": "PSAB.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "黄金矿权纠纷频发且历史治理糟糕，存在重大合规风险。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金价利好但历史有操纵嫌疑"
   },
   {
    "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极小市值且成交低迷，极易受资金操纵与 promoter 控盘。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型股流动性极差，治理不明"
   },
   {
    "ticker": "KKGI.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "背后为贝劳煤炭集团，治理尚可但结构较复杂。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Bakrie系关联，治理风险较高"
   },
   {
    "ticker": "HRUM.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "萨林集团背书，正向绿色金属转型，治理与战略清晰。"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "Sinar Mas旗下，运营相对稳健"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国企背景分红稳定，但增长乏力且受政策干预较多。"
+   "ai_adjust": 2,
+   "ai_note": "国企高分红，防御性较好"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型煤炭生产稳定，无明显风险"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "业务多元、治理良好，涨后仍具价值"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锡矿出口受严查，且近期卷入国企腐败丑闻，合规风险高。"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "旗下治理规范，煤炭与物流协同向好，具备蓝筹潜质。"
-  },
-  {
-   "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "煤炭开采与电力业务多元，治理良好，估值合理。"
+   "ai_adjust": -3,
+   "ai_note": "国企锡龙头，但腐败前科拖累治理"
   },
   {
    "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "镍价低迷拖累业绩，虽背靠哈立达集团但ESG压力渐增。"
-  },
-  {
-   "ticker": "ARII.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "治理结构相对稳健，但煤炭业务缺乏高成长弹性。"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "镍业龙头动能强，留意商品价格波动"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "作为采矿承包商高度依赖大客户，议价能力弱且现金流承压。"
+   "ai_note": "暴跌18%叠加小盘流动性风险"
+  },
+  {
+   "ticker": "ARII.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产平稳，现金流尚可"
   },
   {
    "ticker": "ANTM.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "国企体制导致决策效率偏低，黄金与镍业务受政策波动影响。"
+   "ai_adjust": 1,
+   "ai_note": "多元化国企，具防御属性"
+  },
+  {
+   "ticker": "RMKE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "月跌20%，现金流或运营存重大问题"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "无基本面利好却单月暴涨55%，极大概率为 promoter 恶意炒作。"
-  },
-  {
-   "ticker": "BSSR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "虽有巴克里集团背景，但历史治理包袱仍令市场存在折价。"
+   "ai_note": "小盘煤股月涨55%，高度疑似炒作"
   }
  ]
 }
