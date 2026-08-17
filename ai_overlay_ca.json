@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-16T23:02Z",
+ "generated_at": "2026-08-17T23:11Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "CSE微型铜矿股，零新闻零流动性，壳公司风险高"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "极小市值无新闻，疑似空壳或稀释陷阱"
   },
   {
-   "ticker": "MRZL.V",
+   "ticker": "AVL.TO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小型多金属勘探商，零新闻流出，信息透明度不足"
+   "ai_adjust": -4,
+   "ai_note": "持续下跌无消息支撑，流动性风险高"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "名称为铀矿却标注金矿，分类严重错误，且月跌36%"
+   "ai_adjust": -8,
+   "ai_note": "暴跌40%无任何消息，名称混乱疑似问题公司"
+  },
+  {
+   "ticker": "MRZL.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值勘探公司无新闻，存在稀释风险"
+  },
+  {
+   "ticker": "CAF.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值不足1500万无新闻，高度警惕稀释"
   },
   {
    "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "标注为生产商却无运营新闻，TSXV壳公司嫌疑大"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "生产商身份提供一定支撑但缺乏催化剂"
+  },
+  {
+   "ticker": "LIFT.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大市值锂开发商但无新闻驱动"
+  },
+  {
+   "ticker": "GIGA.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值仅千万级别，Turnagain项目资金需求大"
+  },
+  {
+   "ticker": "HLU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "极小市值铀矿勘探，无新闻支撑高分"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "正规中型金矿商，西非有实际资产，估值合理"
+   "ai_note": "大市值黄金开发商，走势平稳但无催化"
   },
   {
-   "ticker": "LECR.CN",
+   "ticker": "TT.V",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "CSE小盘股月涨33%却零新闻，典型拉高出货特征"
-  },
-  {
-   "ticker": "CAMB.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "三亿市值TSXV勘探公司无任何新闻，信息极度不透明"
-  },
-  {
-   "ticker": "LIFT.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "公司名称格式异常，两亿市值无新闻，疑似推广标的"
-  },
-  {
-   "ticker": "IBAT.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "电池金属小盘勘探股，无催化剂，下行风险较大"
-  },
-  {
-   "ticker": "JG.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "日本金矿开发商月跌28%无新闻，疑钻探失利或稀释"
-  },
-  {
-   "ticker": "CAF.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "名称含投资却为勘探股，小盘零成交，流动性堪忧"
+   "ai_adjust": -7,
+   "ai_note": "极小市值PGM勘探，无新闻高度可疑"
   },
   {
    "ticker": "HUNT.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "CSE微型金矿股，零波动零新闻，壳公司特征明显"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "极小市值无新闻，疑似壳公司"
   },
   {
-   "ticker": "MMY.V",
+   "ticker": "CAMB.V",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "Monument Mining为知名矿企，正收益或有基本面支撑"
+   "ai_adjust": -1,
+   "ai_note": "市值尚可但无新闻支撑量化高分"
   },
   {
    "ticker": "WM.TO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "TSX上市正规金矿开发商，Fenelon项目推进中，无异常"
+   "ai_adjust": -1,
+   "ai_note": "Fenelon项目开发商但缺乏近期催化"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值持续下跌无消息，警惕稀释"
   },
   {
    "ticker": "CCCM.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "圭亚那金矿勘探商近期下跌13%，无新闻解释跌幅"
+   "ai_note": "中等市值但无新闻，量化分可能虚高"
   },
   {
-   "ticker": "SR.V",
+   "ticker": "MMY.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "名称泛化的微型多金属股，无明确催化剂"
+   "ai_note": "暴涨25%却无任何新闻，疑似炒作拉升"
   },
   {
-   "ticker": "OCEN.V",
+   "ticker": "VIO.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "名称含投资的微型股，信息不透明，流动性差"
-  },
-  {
-   "ticker": "SLV.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "CSE小盘股月涨29%零新闻，高度疑似庄家拉盘"
-  },
-  {
-   "ticker": "TT.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型PGM勘探股，市值过低，流动性风险大"
+   "ai_note": "小市值涨15%无新闻支撑，警惕回调"
   },
   {
    "ticker": "DEFN.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "稀土概念但标注为金矿，信息存疑"
+  },
+  {
+   "ticker": "SAM.TO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "Defense Metals实为稀土公司却标金矿，分类严重错误"
+   "ai_note": "小市值暴涨30%无新闻，高度疑似拉升出货"
   }
  ]
 }
