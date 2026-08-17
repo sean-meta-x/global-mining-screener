@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-15T22:03Z",
+ "generated_at": "2026-08-17T22:08Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "GRML",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "格陵兰极高风险管辖区，微型壳公司，无实质进展，稀释风险极高"
+   "ai_note": "格陵兰微型勘探公司，偏远管辖区叠加零信息透明度，流动性极差"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "历史上有推广炒作和频繁增发记录，短期涨幅过大需警惕回调"
+   "ai_note": "月涨43%却无任何新闻催化，疑似炒作拉升，需警惕回调风险"
   },
   {
    "ticker": "FNUC",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "新成立实体信息极度匮乏，治理透明度存疑，流动性风险高"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "新上市核能矿产壳公司，无历史业绩无新闻，投机性极高"
   },
   {
    "ticker": "IONR",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "Rhyolite Ridge项目遭BLM许可阻碍，管理层信用受损，持续下跌反映基本面恶化"
+   "ai_adjust": -8,
+   "ai_note": "Rhyolite Ridge项目许可屡遭延迟，环保争议大，资金缺口严重"
   },
   {
    "ticker": "UROY",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铀版税模式优质但月涨近60%已透支预期，短期估值偏高"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "铀价上行周期中版税模式现金流确定性高，受益逻辑清晰"
   },
   {
-   "ticker": "CMCL",
+   "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "津巴布韦政治风险极高，资产征收和外汇管制隐患被量化模型低估"
+   "ai_adjust": -4,
+   "ai_note": "微型铀矿勘探公司月跌14%无消息，可能存在稀释或钻探失利"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "Elk Creek项目多年推进不力，反复融资稀释严重，执行力存疑"
+   "ai_adjust": -5,
+   "ai_note": "Elk Creek项目开发多年反复推迟，融资困难，执行力存疑"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "巴西环保许可反复延迟，项目时间表持续推后，资金消耗加速"
+   "ai_note": "巴西钾矿项目建设延期且融资紧张，开发商资金链承压"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦运营存在治理与管辖区风险，但产金现金流尚可"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Thacker Pass项目体量巨大但许可与资金风险并存，GM背书提供缓冲"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型股暴跌逾两成，伴随权证稀释结构，存在融资求生风险"
-  },
-  {
-   "ticker": "JAGU",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "微型铀矿勘探公司，流动性差且无明确催化，中性偏弱"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Thacker Pass遭原住民诉讼挑战，许可风险未完全消除，资本开支巨大"
+   "ai_adjust": -9,
+   "ai_note": "微型股月暴跌26%零消息，高度疑似稀释或炒作崩盘"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "权证杠杆放大下行风险，标的公司市值偏小流动性有限"
+   "ai_note": "权证工具杠杆属性放大风险，底层资产为微型金矿公司"
+  },
+  {
+   "ticker": "NEXM",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小型多元勘探公司无重大消息，信息匮乏难以判断基本面"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "煤炭生产商面临ESG逆风与需求结构性下滑，长期前景黯淡"
   },
   {
    "ticker": "BLLYF",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "一月暴跌35%暗示勘探失败或紧急融资，微型股治理风险极高"
+   "ai_adjust": -9,
+   "ai_note": "月跌40%无任何公告，极可能遭遇稀释或钻探失败"
   },
   {
    "ticker": "EU",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "ISR铀矿运营合规但环保争议持续，铀价顺风已部分反映在股价中"
+   "ai_note": "ISR铀矿运营商运营基本正常，但部分项目品位偏低"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "与FMST同一主体的权证，稀释结构和微型市值双重风险叠加"
+   "ai_adjust": -9,
+   "ai_note": "与FMST同一主体的权证，微型股暴跌后权证风险更为极端"
   },
   {
    "ticker": "FSM",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "秘鲁和阿根廷管辖区风险较高，月涨30%后短期获利回吐压力增大"
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "中型银矿商受益于金银价格走强，产量稳定估值合理"
   },
   {
-   "ticker": "NC",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "煤炭行业处于结构性衰退，长期需求萎缩，ESG资金持续撤出"
+   "ticker": "LGO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "钒生产商市值偏小流动性差，缺乏明确催化剂"
   },
   {
    "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿生产商流动性不足，运营规模有限，抗风险能力弱"
-  },
-  {
-   "ticker": "GLDG",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Rea项目有潜力但巴西管辖区风险存在，涨幅合理暂无明显异常"
-  },
-  {
-   "ticker": "KLGDF",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅千万美元级别，流动性极差，壳公司特征明显，稀释风险高"
+   "ai_adjust": -2,
+   "ai_note": "微型金矿生产商信息有限，需关注运营与资金状况"
   }
  ]
 }
