@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-16T22:12Z",
+ "generated_at": "2026-08-17T22:18Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "THX.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "巴西金矿开发商，基本面稳健但缺乏短期催化剂，维持中性。"
+   "ai_note": "塞内加尔Seguela矿投产，基本面稳健，无明显风险。"
   },
   {
    "ticker": "MET1.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铁矿勘探股，流动性极差且存在较高稀释风险。"
-  },
-  {
-   "ticker": "CAPD.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "代码疑似错配或流动性枯竭，近期持续阴跌，需警惕边缘化风险。"
-  },
-  {
-   "ticker": "YCA.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀信托基金，走势紧跟现货铀价，缺乏个股阿尔法收益。"
+   "ai_note": "微型市值勘探公司，无新闻催化，流动性风险高。"
   },
   {
    "ticker": "UFO.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型铂族金属勘探股，市值过小且存在典型的炒作与稀释风险。"
+   "ai_note": "历史上有过度推销嫌疑，微型市值，需警惕稀释。"
+  },
+  {
+   "ticker": "CAPD.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "多元化生产商，近期表现平淡，缺乏明确催化剂。"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "钻石价格疲软叠加历史治理瑕疵，股价暴跌后流动性堪忧。"
-  },
-  {
-   "ticker": "CAML.L",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "北马其顿铜矿生产商，盈利稳定但面临一定地缘政治折价。"
-  },
-  {
-   "ticker": "SRB.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴西小型金矿商，产量稳定但缺乏重大扩产催化剂。"
-  },
-  {
-   "ticker": "CMCL.L",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "津巴布韦金矿商，短期涨幅过大且面临极高的国家风险。"
+   "ai_note": "钻石价格低迷叠加债务重组，市值暴跌，财务困境明显。"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀锂勘探股，市值极低，需警惕频繁融资与炒作风险。"
+   "ai_note": "微型勘探公司，无实质进展，资金消耗风险大。"
+  },
+  {
+   "ticker": "CAML.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "保加利亚和北马其顿铜矿运营稳定，管理层可靠。"
+  },
+  {
+   "ticker": "CMCL.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦政治风险高，虽近期涨幅大但可持续性存疑。"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "实物铀基金非传统生产商，铀价支撑下估值合理。"
   },
   {
    "ticker": "THS.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非铂族金属矿商，受累于南非电力物流瓶颈及PGM价格低迷。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南非PGM生产商，铂族金属价格疲软拖累盈利。"
   },
   {
    "ticker": "JLP.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史上有频繁稀释和复杂资本运作记录，需警惕治理风险。"
+   "ai_adjust": -3,
+   "ai_note": "历史上有稀释和治理问题，南非运营风险需关注。"
   },
   {
    "ticker": "80M.L",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型勘探股单月暴跌近四成，极可能遭遇钻探失败或资金断裂。"
+   "ai_adjust": -6,
+   "ai_note": "一月暴跌超30%，微型勘探公司，可能存在融资困难。"
   },
   {
-   "ticker": "GCM.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "孟加拉国煤炭项目停滞数十年，存在严重的治理与审批风险。"
+   "ticker": "SRB.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "巴西金矿运营改善中，但规模偏小，中性看待。"
   },
   {
-   "ticker": "KOD.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "马里锂矿项目面临极高的地缘政治与安全风险，估值承压。"
-  },
-  {
-   "ticker": "TGA.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非动力煤生产商，受ESG排斥及当地物流制约，长期前景黯淡。"
+   "ticker": "KMR.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "莫桑比克矿砂生产商，运营稳健但地缘风险存在。"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南非金尾矿回收商，受金价上涨提振，但受限于南非宏观环境。"
+   "ai_note": "南非尾矿处理商，受益于金价上涨，表现平稳。"
   },
   {
-   "ticker": "KAV.L",
+   "ticker": "TGA.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "博茨瓦纳微型勘探股，管辖区安全但市值太小，流动性不足。"
+   "ai_note": "南非煤炭生产商，ESG压力但现金流尚可。"
   },
   {
-   "ticker": "GRL.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "布基纳法索金矿面临严重安全威胁，股价暴跌反映基本面恶化。"
+   "ticker": "ORR.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型金矿勘探公司，近期下跌11%，缺乏资金支撑。"
   },
   {
-   "ticker": "KMR.L",
+   "ticker": "CTL.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂矿勘探受行业低迷影响，智利项目进展缓慢。"
+  },
+  {
+   "ticker": "SLP.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "莫桑比克矿砂生产商，基本面尚可但受限于当地安全与流动性。"
+   "ai_note": "南非PGM尾矿生产商，运营稳定但金属价格承压。"
+  },
+  {
+   "ticker": "AAU.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "土耳其地缘风险高，市值偏小，治理透明度不足。"
   }
  ]
 }
