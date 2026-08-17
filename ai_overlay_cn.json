@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-16T22:36Z",
+ "generated_at": "2026-08-17T22:46Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企铝企，动量稳健，无异常信号"
-  },
-  {
-   "ticker": "002101.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值且一月跌7.5%，流动性与基本面存疑"
-  },
-  {
-   "ticker": "600219.SS",
-   "ai_view": "bullish",
    "ai_adjust": 1,
-   "ai_note": "大型铝企月涨15.6%动量强劲，值得关注"
+   "ai_note": "央企治理稳健，铝价支撑业绩，无重大隐性风险。"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西煤炭中坚企业，表现平稳无亮点"
+   "ai_note": "山西国资背景，煤炭红利属性强，基本面扎实无瑕疵。"
+  },
+  {
+   "ticker": "002101.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "主业实为汽车压铸而非原铝冶炼，行业分类存疑且近期动量偏弱。"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铝全产业链龙头，但单月涨幅超20%需警惕短期获利盘兑现。"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铝企走势正常，量化评分合理"
-  },
-  {
-   "ticker": "000807.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大市值铝企波动小，无显著催化或风险"
+   "ai_note": "煤电铝一体化布局，国资背景治理规范，业绩确定性较高。"
   },
   {
    "ticker": "603071.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小市值煤炭股月涨仅0.5%，缺乏动能"
-  },
-  {
-   "ticker": "301219.SZ",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "钴业次新股月涨7.3%动量尚可"
+   "ai_note": "地方国资环保能源平台，业务稳健，无突出炒作或治理风险。"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "中孚实业历史治理问题较多需警惕"
+   "ai_adjust": -3,
+   "ai_note": "历史上存在大股东资金占用等治理瑕疵，财务透明度需打折。"
   },
   {
-   "ticker": "000612.SZ",
+   "ticker": "301219.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "钴价持续低迷基本面承压，近期异常拉升需警惕资金炒作。"
+  },
+  {
+   "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "焦作万方铝企走势平稳无异常"
+   "ai_adjust": 1,
+   "ai_note": "绿电铝龙头具备碳排放优势，国资背景，长期逻辑顺畅。"
   },
   {
    "ticker": "600546.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "山西煤炭国际月涨8.6%动量突出"
-  },
-  {
-   "ticker": "600740.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西焦化走势温和，量化评分合理"
+   "ai_note": "山西优质动力煤标的，高股息红利属性受资金青睐。"
   },
   {
    "ticker": "601898.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "千亿煤炭龙头月涨12%强势且估值合理"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "央企煤炭龙头，长协煤占比高，业绩与分红稳定性强。"
+  },
+  {
+   "ticker": "600740.SS",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "焦炭业务受下游钢铁需求疲软压制，利润空间存在挤压风险。"
   },
   {
    "ticker": "600157.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "永泰能源走势平稳无显著信号"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "天山铝业大型铝企表现正常"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "曾经历债务违约与重整，虽已脱困但历史信用瑕疵仍需警惕。"
   },
   {
    "ticker": "601699.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "潞安环能月涨9.8%动量强劲"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "喷吹煤龙头，成本优势显著，国资背景治理规范。"
+  },
+  {
+   "ticker": "000612.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "股权分散且历史上频发管理层争夺，公司治理存在隐患。"
   },
   {
    "ticker": "600508.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "上海大屯能源小市值煤炭走势平淡"
-  },
-  {
-   "ticker": "002978.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "安孚科技月跌0.6%且评分偏低需观察"
+   "ai_note": "中煤能源旗下平台，资产质量尚可，无显著治理或稀释风险。"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "国家电投旗下，煤电铝与新能源双轮驱动，转型逻辑清晰。"
+  },
+  {
+   "ticker": "002532.SZ",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "霍林河露天煤业大市值走势稳健"
+   "ai_note": "新疆低电价优势显著，但民企属性在极端周期下抗风险略逊国企。"
   },
   {
    "ticker": "600098.SS",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "广发展集团月零涨幅动能不足"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "地方综合能源国企，业绩稳健分红稳定，无明显负面催化。"
+  },
+  {
+   "ticker": "002978.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "钒钛磁铁矿资源稀缺，但受下游钢铁及钛白粉需求周期波动影响。"
   }
  ]
 }
