@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-17T22:35Z",
+ "generated_at": "2026-08-18T22:31Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "1303.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "历史存在审计师辞任及财报延迟问题，公司治理风险极高。"
+   "ticker": "0166.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值无新闻，流动性堪忧，下行趋势延续"
   },
   {
    "ticker": "2693.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小市值低流动性，无催化剂，观望为主"
+  },
+  {
+   "ticker": "1303.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值极小且流动性差，存在壳股特征与潜在股权稀释风险。"
+   "ai_adjust": -4,
+   "ai_note": "煤炭ESG压力叠加小市值，缺乏正面消息支撑"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "市值微小且主营传统加工，缺乏核心矿产扩张与增长催化剂。"
+   "ai_note": "市值不足1.5亿，极低流动性，治理风险高"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "月涨70%却无任何新闻，典型庄股拉升特征"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "创业板老千股特征明显，频繁配售稀释且流动性基本枯竭。"
-  },
-  {
-   "ticker": "1182.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "典型连环壳股，频繁财技运作与股权稀释，基本面极差。"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "澳洲合规金矿商，近期暴涨或受金价催化，需警惕获利回吐。"
-  },
-  {
-   "ticker": "0166.HK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "业务转型频繁且历史财务透明度存疑，需防范潜在治理风险。"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值微小且流动性匮乏，易受资金操纵且缺乏基本面支撑。"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "南非矿权纠纷频发且勘探屡次受挫，项目落地存重大不确定性。"
+   "ai_adjust": -7,
+   "ai_note": "市值仅5300万，煤炭微盘股，壳股风险极高"
   },
   {
    "ticker": "2610.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大市值铝企基本面相对稳健，但受宏观周期与产能过剩压制。"
+   "ai_note": "铝行业中盘股，走势平稳，无异常信号"
+  },
+  {
+   "ticker": "1182.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值金矿股持续下跌，无基本面改善迹象"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值仅1.3亿煤炭微盘，反弹无消息支撑"
+  },
+  {
+   "ticker": "0621.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金矿开发商阶段，估值合理但缺乏催化"
   },
   {
    "ticker": "1091.HK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "国企背景锰矿龙头业绩稳健，但受大宗商品周期波动影响较大。"
+   "ai_adjust": 0,
+   "ai_note": "中盘多元化矿企，走势温和，无明显风险"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "债务负担较重且银矿项目推进缓慢，需重点关注其现金流压力。"
-  },
-  {
-   "ticker": "0276.HK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "经历重组后市值依然微小，流动性差且缺乏实质性矿产增量。"
-  },
-  {
-   "ticker": "6885.HK",
-   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "传统煤焦企业受环保政策及行业周期制约，缺乏高成长弹性。"
-  },
-  {
-   "ticker": "1738.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值偏小且近期涨幅异常，需警惕游资炒作后的流动性陷阱。"
-  },
-  {
-   "ticker": "0505.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "主营铜合金加工而非上游采矿，利润率受限且缺乏矿端资源。"
+   "ai_note": "月涨16%无新闻配合，需警惕短期回调"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型央企铝龙头基本面稳健，但受宏观经济与地产周期拖累。"
+   "ai_note": "铝业龙头，大盘蓝筹，走势稳健"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "全球最大民营铝企，基本面扎实"
+  },
+  {
+   "ticker": "0276.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值不足1亿煤炭股，壳股嫌疑大"
+  },
+  {
+   "ticker": "0098.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝行业中盘，走势平稳无异常"
+  },
+  {
+   "ticker": "2302.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "铀矿概念受核电复苏支撑，中期逻辑通顺"
+  },
+  {
+   "ticker": "0505.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铜合金中盘股月跌9%，行业景气下行"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值1亿煤炭股月涨46%无新闻，高度可疑"
   },
   {
    "ticker": "2489.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "次新股金矿企业受益于金价上涨，但需关注后续产能释放进度。"
-  },
-  {
-   "ticker": "8095.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "GEM板老股主业偏离矿业且流动性枯竭，存在较高壳股炒作风险。"
-  },
-  {
-   "ticker": "2078.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "历史曾现审计师辞任及财务疑云，小市值下治理与退市风险并存。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月涨23%无实质新闻，短期获利盘压力大"
   }
  ]
 }
