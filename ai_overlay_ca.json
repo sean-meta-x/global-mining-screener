@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-17T23:11Z",
+ "generated_at": "2026-08-18T23:06Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "极小市值无新闻，疑似空壳或稀释陷阱"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型铜矿勘探股无新闻且持续下跌，流动性风险高"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铀矿股一月暴跌36%却无消息，疑似钻探失败或稀释"
   },
   {
    "ticker": "AVL.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "持续下跌无消息支撑，流动性风险高"
+   "ai_adjust": -3,
+   "ai_note": "多元化勘探股大幅下跌无消息，需警惕隐性利空"
   },
   {
-   "ticker": "STUD.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "暴跌40%无任何消息，名称混乱疑似问题公司"
+   "ticker": "LIFT.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "较大市值开发商下跌但无新闻，风险相对可控"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值勘探公司无新闻，存在稀释风险"
+   "ai_adjust": -2,
+   "ai_note": "微型勘探股温和下跌无消息，流动性不足"
   },
   {
-   "ticker": "CAF.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值不足1500万无新闻，高度警惕稀释"
+   "ticker": "AEMC.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型金矿勘探股无新闻且下跌，流动性风险"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "生产商身份提供一定支撑但缺乏催化剂"
-  },
-  {
-   "ticker": "LIFT.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大市值锂开发商但无新闻驱动"
-  },
-  {
-   "ticker": "GIGA.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅千万级别，Turnagain项目资金需求大"
-  },
-  {
-   "ticker": "HLU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "极小市值铀矿勘探，无新闻支撑高分"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大市值黄金开发商，走势平稳但无催化"
-  },
-  {
-   "ticker": "TT.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "极小市值PGM勘探，无新闻高度可疑"
-  },
-  {
-   "ticker": "HUNT.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "极小市值无新闻，疑似壳公司"
-  },
-  {
-   "ticker": "CAMB.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值尚可但无新闻支撑量化高分"
-  },
-  {
-   "ticker": "WM.TO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "Fenelon项目开发商但缺乏近期催化"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值持续下跌无消息，警惕稀释"
-  },
-  {
-   "ticker": "CCCM.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中等市值但无新闻，量化分可能虚高"
-  },
-  {
-   "ticker": "MMY.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "暴涨25%却无任何新闻，疑似炒作拉升"
+   "ai_note": "金矿生产商市值过亿走势平稳，无新闻属正常"
   },
   {
    "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型勘探股小幅上涨无新闻，动量来源不明"
+  },
+  {
+   "ticker": "HLU.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小市值涨15%无新闻支撑，警惕回调"
+   "ai_note": "微型铀矿股无新闻且下跌，流动性极差"
   },
   {
-   "ticker": "DEFN.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "稀土概念但标注为金矿，信息存疑"
+   "ticker": "THX.V",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "大市值金矿股走势强劲，Thor为知名公司"
   },
   {
-   "ticker": "SAM.TO",
+   "ticker": "JG.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "开发商一月暴跌33%无任何消息，高度可疑"
+  },
+  {
+   "ticker": "CAMB.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值暴涨30%无新闻，高度疑似拉升出货"
+   "ai_note": "大市值勘探股名称陌生且下跌，需核实真实性"
+  },
+  {
+   "ticker": "OCEN.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型股市值仅千万且无新闻，几乎无流动性"
+  },
+  {
+   "ticker": "TT.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型PGM勘探股无新闻且下跌，流动性风险"
+  },
+  {
+   "ticker": "SR.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型多元化勘探股无新闻且下跌，风险较高"
+  },
+  {
+   "ticker": "STND.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型铀矿股大幅下跌无消息，疑似不利结果"
+  },
+  {
+   "ticker": "HUNT.CN",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型股横盘无新闻，流动性极差无催化剂"
+  },
+  {
+   "ticker": "SLV.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型股暴涨28%却无新闻，典型炒作拉升特征"
+  },
+  {
+   "ticker": "BTR.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "开发商大幅下跌无新闻，Bonterra历史治理存疑"
+  },
+  {
+   "ticker": "CAF.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型金矿勘探股横盘无新闻，流动性不足"
   }
  ]
 }
