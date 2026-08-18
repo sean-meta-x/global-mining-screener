@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T22:28Z",
+ "generated_at": "2026-08-18T22:25Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型股流动性差，信息透明度低"
+   "ai_note": "市值极小且无新闻，需警惕流动性与治理风险。"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型煤炭股，流动性及治理存疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型煤企缺乏流动性，易受资金操纵与稀释风险。"
   },
   {
    "ticker": "UNTR.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 5,
-   "ai_note": "Astra旗下蓝筹，治理优良，回调可关注"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "阿斯特里重型机械与煤炭巨头，基本面稳健但短期承压。"
+  },
+  {
+   "ticker": "DKFT.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中型煤炭生产商，量化评分合理，无明显额外催化剂。"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "存在关联交易及治理隐忧"
+   "ai_adjust": -2,
+   "ai_note": "主业实为渔业而非矿业，行业分类存在误导风险。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭生产稳定，无突出催化或风险"
-  },
-  {
-   "ticker": "DKFT.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "勘探进展及许可证风险需留意"
+   "ai_note": "煤炭生产商基本面平稳，无显著治理或稀释隐患。"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金价利好但历史有操纵嫌疑"
+   "ai_adjust": -3,
+   "ai_note": "黄金概念虽热，但母公司历史治理瑕疵需打折估值。"
   },
   {
    "ticker": "FIRE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型股流动性极差，治理不明"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值不足两千亿印尼盾的仙股，高度警惕炒作与稀释。"
   },
   {
    "ticker": "KKGI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Bakrie系关联，治理风险较高"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型煤炭企业运营平稳，量化模型定价基本合理。"
+  },
+  {
+   "ticker": "PTBA.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "国企煤炭龙头，高股息提供安全边际，具备防御价值。"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "Sinar Mas旗下，运营相对稳健"
+   "ai_adjust": 0,
+   "ai_note": "煤炭与铝业双轮驱动，基本面尚可但缺乏爆发催化。"
   },
   {
-   "ticker": "PTBA.JK",
+   "ticker": "TINS.JK",
    "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "国企高分红，防御性较好"
+   "ai_adjust": 1,
+   "ai_note": "国企锡业龙头受益于锡价上涨，但需关注政策干预风险。"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭开采与生产并重，业绩稳健，无明显量化盲区。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型煤炭生产稳定，无明显风险"
-  },
-  {
-   "ticker": "ABMM.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "业务多元、治理良好，涨后仍具价值"
-  },
-  {
-   "ticker": "TINS.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "国企锡龙头，但腐败前科拖累治理"
+   "ai_note": "煤炭物流与生产龙头，规模优势明显，估值合理。"
   },
   {
    "ticker": "NCKL.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "镍业龙头动能强，留意商品价格波动"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "镍业巨头面临全球镍供应过剩与价格下行周期压力。"
+  },
+  {
+   "ticker": "ANTM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "国企多元化矿业龙头，黄金与镍业务提供一定对冲。"
   },
   {
    "ticker": "RMKO.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "暴跌18%叠加小盘流动性风险"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "小市值煤企单月暴跌超15%，需警惕基本面恶化或资金出逃。"
   },
   {
    "ticker": "ARII.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭生产平稳，现金流尚可"
-  },
-  {
-   "ticker": "ANTM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "多元化国企，具防御属性"
-  },
-  {
-   "ticker": "RMKE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌20%，现金流或运营存重大问题"
+   "ai_note": "传统煤炭生产商，运营平稳，无显著额外风险或利好。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "小盘煤股月涨55%，高度疑似炒作"
+   "ai_note": "单月暴涨超55%且市值偏小，典型游资炒作与拉升特征。"
+  },
+  {
+   "ticker": "RMKE.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭生产商单月下跌近7%，需排查是否存在未披露利空。"
   }
  ]
 }
