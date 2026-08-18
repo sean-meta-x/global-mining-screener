@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-17T22:46Z",
+ "generated_at": "2026-08-18T22:42Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "央企治理稳健，铝价支撑业绩，无重大隐性风险。"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西国资背景，煤炭红利属性强，基本面扎实无瑕疵。"
+   "ai_note": "大型国企铝企，治理稳健但缺乏明确催化剂"
   },
   {
    "ticker": "002101.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "主业实为汽车压铸而非原铝冶炼，行业分类存疑且近期动量偏弱。"
-  },
-  {
-   "ticker": "600219.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铝全产业链龙头，但单月涨幅超20%需警惕短期获利盘兑现。"
+   "ai_adjust": 0,
+   "ai_note": "铝压铸汽车零部件商，基本面平稳无特殊风险"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤电铝一体化布局，国资背景治理规范，业绩确定性较高。"
+   "ai_note": "河南煤电铝龙头，经营稳健估值合理"
   },
   {
-   "ticker": "603071.SS",
+   "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "地方国资环保能源平台，业务稳健，无突出炒作或治理风险。"
+   "ai_note": "南山铝业基本面扎实，航空航天铝材优势明显"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭行业面临能源转型压力，近期动量偏弱"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "历史上存在大股东资金占用等治理瑕疵，财务透明度需打折。"
+   "ai_note": "中孚实业历史债务重组，财务风险仍需警惕"
   },
   {
    "ticker": "301219.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "钴价持续低迷基本面承压，近期异常拉升需警惕资金炒作。"
+   "ai_adjust": -3,
+   "ai_note": "钴价持续走弱，月涨18%或为投机性超涨"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "绿电铝龙头具备碳排放优势，国资背景，长期逻辑顺畅。"
+   "ai_note": "云南水电绿铝具备低碳溢价优势"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "永泰能源曾发生债券违约，信用风险需警惕"
+  },
+  {
+   "ticker": "600740.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "焦煤小盘股，受钢铁需求支撑但弹性有限"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西优质动力煤标的，高股息红利属性受资金青睐。"
+   "ai_note": "山西煤炭国际经营平稳，无突出风险"
   },
   {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "央企煤炭龙头，长协煤占比高，业绩与分红稳定性强。"
-  },
-  {
-   "ticker": "600740.SS",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "焦炭业务受下游钢铁需求疲软压制，利润空间存在挤压风险。"
-  },
-  {
-   "ticker": "600157.SS",
+   "ticker": "000612.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "曾经历债务违约与重整，虽已脱困但历史信用瑕疵仍需警惕。"
+   "ai_note": "焦作万方股东纠纷频发，治理风险需关注"
   },
   {
    "ticker": "601699.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "喷吹煤龙头，成本优势显著，国资背景治理规范。"
+   "ai_note": "潞安环能大型煤企，基本面稳健"
   },
   {
-   "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "股权分散且历史上频发管理层争夺，公司治理存在隐患。"
-  },
-  {
-   "ticker": "600508.SS",
+   "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中煤能源旗下平台，资产质量尚可，无显著治理或稀释风险。"
-  },
-  {
-   "ticker": "002128.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国家电投旗下，煤电铝与新能源双轮驱动，转型逻辑清晰。"
+   "ai_note": "中煤能源央企龙头，分红稳定防御性强"
   },
   {
    "ticker": "002532.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "新疆低电价优势显著，但民企属性在极端周期下抗风险略逊国企。"
-  },
-  {
-   "ticker": "600098.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "地方综合能源国企，业绩稳健分红稳定，无明显负面催化。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "天山铝业涉新疆用工争议，存在ESG制裁风险"
   },
   {
    "ticker": "002978.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "钒钛磁铁矿资源稀缺，但受下游钢铁及钛白粉需求周期波动影响。"
+   "ai_note": "钛钒矿 diversified 中盘股，无明确催化剂或风险"
+  },
+  {
+   "ticker": "600098.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "广州发展业务多元含燃气电力，近期动量略弱"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "上海大屯能源为中煤子公司，经营平稳"
+  },
+  {
+   "ticker": "002128.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "电投能源煤电一体化，国电投旗下稳健"
+  },
+  {
+   "ticker": "603071.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小盘煤电月涨逾11%，投机情绪偏重需警惕"
   }
  ]
 }
