@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-17T22:08Z",
+ "generated_at": "2026-08-18T22:06Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "格陵兰微型勘探公司，偏远管辖区叠加零信息透明度，流动性极差"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "格陵兰采矿许可难度大，小市值勘探公司无新消息，风险偏高。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "月涨43%却无任何新闻催化，疑似炒作拉升，需警惕回调风险"
+   "ai_adjust": -3,
+   "ai_note": "公司有推广历史，无新闻支撑的暴涨需警惕拉高出货风险。"
   },
   {
    "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "新上市核能矿产壳公司，无历史业绩无新闻，投机性极高"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "信息极少的新设实体，核矿勘探高度投机，缺乏催化剂。"
   },
   {
    "ticker": "IONR",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "Rhyolite Ridge项目许可屡遭延迟，环保争议大，资金缺口严重"
+   "ai_adjust": -5,
+   "ai_note": "Rhyolite Ridge项目面临环保许可和融资双重困境，风险极高。"
   },
   {
    "ticker": "UROY",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "铀价上行周期中版税模式现金流确定性高，受益逻辑清晰"
-  },
-  {
-   "ticker": "JAGU",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型铀矿勘探公司月跌14%无消息，可能存在稀释或钻探失利"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿权流公司模式稳健，受益铀价上涨，但估值已反映预期。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "Elk Creek项目开发多年反复推迟，融资困难，执行力存疑"
+   "ai_adjust": -3,
+   "ai_note": "Elk Creek项目多年延期，融资反复受阻，执行风险显著。"
+  },
+  {
+   "ticker": "JAGU",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值铀矿勘探商，无重大新闻，铀板块热度提供一定支撑。"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "巴西钾矿项目建设延期且融资紧张，开发商资金链承压"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦运营存在治理与管辖区风险，但产金现金流尚可"
+   "ai_adjust": -3,
+   "ai_note": "巴西环保许可和社区关系问题导致项目反复延期，风险偏高。"
   },
   {
    "ticker": "LAC",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "Thacker Pass项目体量巨大但许可与资金风险并存，GM背书提供缓冲"
+   "ai_note": "Thacker Pass获DOE贷款支持，但原住民反对和环保诉讼仍存。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦政策与汇率风险显著，虽金价上涨但国家风险折价。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微型股月暴跌26%零消息，高度疑似稀释或炒作崩盘"
+   "ai_adjust": -5,
+   "ai_note": "暴跌40%且市值极低，公司有推广和稀释劣迹，高度危险。"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "权证工具杠杆属性放大风险，底层资产为微型金矿公司"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "权证通常反映标的公司融资困境，投机性极强，应回避。"
   },
   {
    "ticker": "NEXM",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "小型多元勘探公司无重大消息，信息匮乏难以判断基本面"
+   "ai_note": "信息有限的小市值勘探商，无明确催化剂，维持中性观察。"
+  },
+  {
+   "ticker": "EU",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "ISR铀矿运营面临水质许可挑战，公司经历过重组，风险偏高。"
+  },
+  {
+   "ticker": "NMG",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "石墨项目融资困难，公司经历业务重组，资本需求大。"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "正规中型银矿生产商，运营稳健，受益于贵金属价格上涨。"
   },
   {
    "ticker": "NC",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "煤炭生产商面临ESG逆风与需求结构性下滑，长期前景黯淡"
-  },
-  {
-   "ticker": "BLLYF",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "月跌40%无任何公告，极可能遭遇稀释或钻探失败"
-  },
-  {
-   "ticker": "EU",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "ISR铀矿运营商运营基本正常，但部分项目品位偏低"
+   "ai_adjust": -2,
+   "ai_note": "煤炭面临ESG逆风和长期需求下降，虽有盈利但估值承压。"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "与FMST同一主体的权证，微型股暴跌后权证风险更为极端"
-  },
-  {
-   "ticker": "FSM",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "中型银矿商受益于金银价格走强，产量稳定估值合理"
+   "ai_adjust": -5,
+   "ai_note": "FMST的权证，标的公司基本面极差，投机风险极高。"
   },
   {
    "ticker": "LGO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钒生产商市值偏小流动性差，缺乏明确催化剂"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "钒生产商财务压力大，经历过债务重组，小市值风险偏高。"
   },
   {
-   "ticker": "NAMM",
+   "ticker": "OGC",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "微型金矿生产商信息有限，需关注运营与资金状况"
+   "ai_adjust": 0,
+   "ai_note": "正规金矿生产商，但菲律宾等运营地存在地缘政治和许可风险。"
   }
  ]
 }
