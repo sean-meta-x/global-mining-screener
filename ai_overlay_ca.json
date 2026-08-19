@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-18T23:06Z",
+ "generated_at": "2026-08-19T23:09Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "CEXY.CN",
+   "ticker": "LIFT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铜矿勘探股无新闻且持续下跌，流动性风险高"
+   "ai_note": "大市值无新闻且月跌逾两成，缺乏催化剂需警惕"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型铜矿勘探无消息且大跌，疑似空壳或流动性陷阱"
   },
   {
    "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铀矿股一月暴跌36%却无消息，疑似钻探失败或稀释"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "名称含铀却归类金矿，分类混乱且暴跌四成，高度可疑"
   },
   {
    "ticker": "AVL.TO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "多元化勘探股大幅下跌无消息，需警惕隐性利空"
-  },
-  {
-   "ticker": "LIFT.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "较大市值开发商下跌但无新闻，风险相对可控"
+   "ai_note": "无新闻且月跌两成半，勘探阶段缺乏催化"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型勘探股温和下跌无消息，流动性不足"
-  },
-  {
-   "ticker": "AEMC.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型金矿勘探股无新闻且下跌，流动性风险"
+   "ai_adjust": -3,
+   "ai_note": "小型勘探无消息，月跌一成二，需关注资金面"
   },
   {
    "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿生产商市值过亿走势平稳，无新闻属正常"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "标为生产商却零新闻，运营状况存疑需警惕"
   },
   {
-   "ticker": "VIO.V",
+   "ticker": "JG.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "开发阶段月跌三成三且无消息，日本项目推进不明"
+  },
+  {
+   "ticker": "CAF.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型勘探股小幅上涨无新闻，动量来源不明"
+   "ai_adjust": -2,
+   "ai_note": "微型金矿勘探跌幅有限但无任何新闻催化"
+  },
+  {
+   "ticker": "CAMB.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "三亿市值勘探公司零新闻，体量与消息面严重不匹配"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型铀矿股无新闻且下跌，流动性极差"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "大市值金矿股走势强劲，Thor为知名公司"
-  },
-  {
-   "ticker": "JG.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "开发商一月暴跌33%无任何消息，高度可疑"
-  },
-  {
-   "ticker": "CAMB.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "大市值勘探股名称陌生且下跌，需核实真实性"
+   "ai_note": "微型铀矿勘探横盘无消息，流动性风险较高"
   },
   {
    "ticker": "OCEN.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型股市值仅千万且无新闻，几乎无流动性"
+   "ai_adjust": -3,
+   "ai_note": "千万市值多元化勘探零新闻，疑似僵尸股"
   },
   {
-   "ticker": "TT.V",
+   "ticker": "VIO.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型PGM勘探股无新闻且下跌，流动性风险"
+   "ai_note": "月涨一成却无任何新闻，上涨缺乏基本面支撑"
   },
   {
-   "ticker": "SR.V",
+   "ticker": "IBAT.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "电池金属概念月跌近两成且无新闻，热度消退"
+  },
+  {
+   "ticker": "AEMC.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型多元化勘探股无新闻且下跌，风险较高"
-  },
-  {
-   "ticker": "STND.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型铀矿股大幅下跌无消息，疑似不利结果"
+   "ai_note": "微型金矿勘探横盘无消息，缺乏催化剂"
   },
   {
    "ticker": "HUNT.CN",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型股横盘无新闻，流动性极差无催化剂"
+   "ai_note": "微型勘探横盘零新闻，流动性堪忧"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型股暴涨28%却无新闻，典型炒作拉升特征"
+   "ai_adjust": -7,
+   "ai_note": "暴涨近三成却零新闻，典型无基本面拉盘特征"
   },
   {
-   "ticker": "BTR.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "开发商大幅下跌无新闻，Bonterra历史治理存疑"
-  },
-  {
-   "ticker": "CAF.V",
+   "ticker": "TT.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型金矿勘探股横盘无新闻，流动性不足"
+   "ai_note": "微型PGM勘探月跌近一成且无消息"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "三亿市值大涨两成八却无新闻，走势与消息面背离"
+  },
+  {
+   "ticker": "STND.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型铀矿勘探月跌一成二且零新闻"
+  },
+  {
+   "ticker": "DEFN.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "名称含国防却归类金矿勘探，分类存疑且无消息"
   }
  ]
 }
