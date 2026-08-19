@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T22:42Z",
+ "generated_at": "2026-08-19T22:45Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，治理稳健但缺乏明确催化剂"
+   "ai_note": "国企背景稳健，但历史债务包袱较重，缺乏短期催化剂。"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝压铸汽车零部件商，基本面平稳无特殊风险"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "河南煤电铝龙头，经营稳健估值合理"
-  },
-  {
-   "ticker": "600219.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南山铝业基本面扎实，航空航天铝材优势明显"
+   "ai_adjust": -1,
+   "ai_note": "市值较小且近期回调，铝价波动对其盈利影响较敏感。"
   },
   {
    "ticker": "601001.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭行业面临能源转型压力，近期动量偏弱"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭板块受政策压制，近期跌幅较大，需关注长协煤价。"
   },
   {
-   "ticker": "600595.SS",
+   "ticker": "000933.SZ",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "煤电铝一体化优势显著，现金流充沛，具备分红潜力。"
+  },
+  {
+   "ticker": "000807.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中孚实业历史债务重组，财务风险仍需警惕"
+   "ai_adjust": -2,
+   "ai_note": "绿电铝概念受捧，但云南枯水期限电风险常被模型忽略。"
   },
   {
    "ticker": "301219.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "钴价持续走弱，月涨18%或为投机性超涨"
+   "ai_adjust": -4,
+   "ai_note": "钴价持续低迷，小市值公司扩产易遇阻，警惕稀释风险。"
   },
   {
-   "ticker": "000807.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "云南水电绿铝具备低碳溢价优势"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "永泰能源曾发生债券违约，信用风险需警惕"
-  },
-  {
-   "ticker": "600740.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "焦煤小盘股，受钢铁需求支撑但弹性有限"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "山西煤炭国际经营平稳，无突出风险"
+   "ticker": "002532.SZ",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "产能置换与扩建推进顺利，成本优势突出，基本面扎实。"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "焦作万方股东纠纷频发，治理风险需关注"
+   "ai_note": "经历重整后主业仍在恢复期，盈利能力尚未完全稳固。"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "历史债务违约与治理瑕疵频发，财务健康度存疑。"
+  },
+  {
+   "ticker": "603071.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "环保与煤炭双主业，市值偏小，流动性与业绩波动较大。"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "历史股东操纵与财务造假劣迹，公司治理存在重大隐患。"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "单月暴涨22%疑受游资炒作，短期超买且缺乏业绩支撑。"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "地方国企背景，资产注入预期仍在，但短期缺乏催化。"
   },
   {
    "ticker": "601699.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "潞安环能大型煤企，基本面稳健"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "喷吹煤盈利能力强，高股息特征明显，防御属性较好。"
   },
   {
    "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中煤能源央企龙头，分红稳定防御性强"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "天山铝业涉新疆用工争议，存在ESG制裁风险"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "央企煤炭龙头，长协比例高且分红慷慨，底仓配置优选。"
   },
   {
    "ticker": "002978.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "业务庞杂且近期表现疲软，需警惕多元化折价与资金分流。"
+  },
+  {
+   "ticker": "600740.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "钛钒矿 diversified 中盘股，无明确催化剂或风险"
+   "ai_adjust": -1,
+   "ai_note": "焦煤价格受宏观地产拖累，周期下行期盈利承压明显。"
   },
   {
    "ticker": "600098.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "广州发展业务多元含燃气电力，近期动量略弱"
+   "ai_note": "地方能源国企，煤电联营抗风险能力强，但弹性不足。"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "碳酸锂价格暴跌重创利润，量化模型或滞后于现货崩盘。"
   },
   {
    "ticker": "600508.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "上海大屯能源为中煤子公司，经营平稳"
-  },
-  {
-   "ticker": "002128.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "电投能源煤电一体化，国电投旗下稳健"
-  },
-  {
-   "ticker": "603071.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘煤电月涨逾11%，投机情绪偏重需警惕"
+   "ai_adjust": 1,
+   "ai_note": "中煤旗下优质资产，业绩稳健，但成长空间相对受限。"
   }
  ]
 }
