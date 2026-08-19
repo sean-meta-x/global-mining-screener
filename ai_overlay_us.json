@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-18T22:06Z",
+ "generated_at": "2026-08-19T22:08Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "GRML",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "格陵兰采矿许可难度大，小市值勘探公司无新消息，风险偏高。"
+   "ticker": "FNUC",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型核矿壳公司，无实质信息，流动性极差"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "公司有推广历史，无新闻支撑的暴涨需警惕拉高出货风险。"
-  },
-  {
-   "ticker": "FNUC",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "信息极少的新设实体，核矿勘探高度投机，缺乏催化剂。"
+   "ai_adjust": -5,
+   "ai_note": "多年未投产，反复融资稀释股东，执行风险高"
   },
   {
    "ticker": "IONR",
    "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "Rhyolite Ridge遭联邦濒危物种诉讼，许可证严重受阻"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "Rhyolite Ridge项目面临环保许可和融资双重困境，风险极高。"
+   "ai_note": "格陵兰政治与环保阻力极大，项目推进困难"
   },
   {
    "ticker": "UROY",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿权流公司模式稳健，受益铀价上涨，但估值已反映预期。"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "铀版税结构优质，无运营风险，铀价上行受益"
   },
   {
    "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Elk Creek项目多年延期，融资反复受阻，执行风险显著。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "Elk Creek项目拖延十余年，反复融资稀释严重"
   },
   {
    "ticker": "JAGU",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小市值铀矿勘探商，无重大新闻，铀板块热度提供一定支撑。"
+   "ai_adjust": -2,
+   "ai_note": "微型铀矿勘探，信息有限，尚无实质催化"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴西环保许可和社区关系问题导致项目反复延期，风险偏高。"
+   "ai_adjust": -4,
+   "ai_note": "巴西钾矿融资困难，项目推进存不确定性"
   },
   {
    "ticker": "LAC",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Thacker Pass获DOE贷款支持，但原住民反对和环保诉讼仍存。"
+   "ai_adjust": -3,
+   "ai_note": "Thacker Pass面临原住民诉讼，许可仍有风险"
   },
   {
    "ticker": "CMCL",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦政策与汇率风险显著，虽金价上涨但国家风险折价。"
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦Blanket矿运营尚可但政治风险突出"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "暴跌40%且市值极低，公司有推广和稀释劣迹，高度危险。"
+   "ai_adjust": -8,
+   "ai_note": "微型壳公司月跌37%，无实质业务与流动性"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "权证通常反映标的公司融资困境，投机性极强，应回避。"
-  },
-  {
-   "ticker": "NEXM",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "信息有限的小市值勘探商，无明确催化剂，维持中性观察。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "权证杠杆放大风险，到期可能归零"
   },
   {
    "ticker": "EU",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "ISR铀矿运营面临水质许可挑战，公司经历过重组，风险偏高。"
-  },
-  {
-   "ticker": "NMG",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "石墨项目融资困难，公司经历业务重组，资本需求大。"
-  },
-  {
-   "ticker": "FSM",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "正规中型银矿生产商，运营稳健，受益于贵金属价格上涨。"
+   "ai_adjust": -4,
+   "ai_note": "ISR铀矿执行存疑，历史稀释记录不佳"
   },
   {
    "ticker": "NC",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭面临ESG逆风和长期需求下降，虽有盈利但估值承压。"
+   "ai_adjust": -4,
+   "ai_note": "煤炭行业长期衰退，ESG资金持续撤出"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "FMST的权证，标的公司基本面极差，投机风险极高。"
+   "ai_adjust": -8,
+   "ai_note": "与FMST同类权证，微型壳公司衍生品风险极高"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "中型银矿商运营稳健，银价上行周期受益"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "纳米比亚小型金矿，信息有限，需观察"
+  },
+  {
+   "ticker": "NMG",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "魁北克石墨项目有政策支持但市场疲软"
   },
   {
    "ticker": "LGO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "钒生产商财务压力大，经历过债务重组，小市值风险偏高。"
+   "ai_adjust": -4,
+   "ai_note": "钒生产商市值偏小，钒价低迷运营承压"
   },
   {
-   "ticker": "OGC",
+   "ticker": "GLDG",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "正规金矿生产商，但菲律宾等运营地存在地缘政治和许可风险。"
+   "ai_adjust": -2,
+   "ai_note": "金矿勘探组合资产多但月涨26%或透支预期"
   }
  ]
 }
