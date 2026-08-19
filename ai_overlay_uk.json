@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-18T22:16Z",
+ "generated_at": "2026-08-19T22:18Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
-   "ticker": "THX.L",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "科特迪瓦存在一定地缘与社区风险。"
+   "ticker": "MET1.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型勘探股，历史多次配售稀释，无收入支撑估值。"
   },
   {
-   "ticker": "MET1.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "瑞典Kallak项目因环保及原住民抗议长期停滞。"
+   "ticker": "THX.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Seguela金矿已投产，西非政治风险尚可接受。"
   },
   {
    "ticker": "UFO.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微盘股且管理层营销色彩浓厚，流动性极差。"
-  },
-  {
-   "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "纯铀价敞口物理信托，无运营风险且流动性佳。"
-  },
-  {
-   "ticker": "CAPD.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "澳洲铁矿生产商，基本面稳健但流动性一般。"
+   "ai_note": "市值仅千万，历史推广痕迹重，稀释风险高。"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "深陷债务危机与坦桑尼亚政府纠纷，频繁稀释。"
+   "ai_adjust": -8,
+   "ai_note": "治理混乱、债务重组、暂停派息，基本面严重恶化。"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "实物铀持仓工具，走势紧跟铀价，结构透明。"
+  },
+  {
+   "ticker": "CAPD.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "澳洲多元矿企，信息透明度偏低，流动性一般。"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铀矿微型勘探股，高度依赖融资且营销过度。"
-  },
-  {
-   "ticker": "SRB.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "巴西矿山稳健，但新扩科特迪瓦项目存地缘风险。"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非电力短缺及非法采矿问题严重影响生产。"
+   "ai_note": "微型铀矿勘探股，多次融资稀释，现金流紧张。"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "巴尔干及哈萨克斯坦资产面临一定政策与汇率风险。"
-  },
-  {
-   "ticker": "CMCL.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "津巴布韦政策风险极高，虽分红高但资产安全存疑。"
+   "ai_note": "哈萨克斯坦铜矿运营稳定但地缘风险需关注。"
   },
   {
    "ticker": "JLP.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "管理层频繁增发稀释股权，且受南非电力危机拖累。"
+   "ai_adjust": -3,
+   "ai_note": "南非PGM生产商，运营执行不力且持续稀释。"
   },
   {
-   "ticker": "80M.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "锂价暴跌导致微型勘探股崩盘，基本面极度恶化。"
+   "ticker": "CMCL.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦Blanket金矿，高司法管辖区风险。"
+  },
+  {
+   "ticker": "SRB.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "巴西Palito金矿产量改善，司法管辖区尚可。"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南非PGM生产商，电力与劳工风险持续存在。"
   },
   {
    "ticker": "KOD.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "马里军政府统治下地缘风险极高，项目存变数。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "马里锂矿项目，军政府执政下许可与安全风险极高。"
   },
   {
    "ticker": "ORR.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型金矿勘探股，缺乏实质产出且流动性差。"
-  },
-  {
-   "ticker": "0ICU.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非尾矿项目，现金流尚可但受限于当地宏观环境。"
-  },
-  {
-   "ticker": "KMR.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "莫桑比克矿区存在北部安全威胁及电力供应隐患。"
-  },
-  {
-   "ticker": "SLP.L",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "南非PGM尾矿商，受限于当地电力与政策不确定性。"
-  },
-  {
-   "ticker": "CTL.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "锂价低迷叠加高资本开支，面临严重稀释风险。"
+   "ai_note": "南非小型金矿勘探商，市值微小且持续稀释。"
   },
   {
    "ticker": "AAU.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "土耳其地缘政治风险高，且过往存地方合作纠纷。"
+   "ai_note": "土耳其运营面临汇率与监管双重风险，估值承压。"
+  },
+  {
+   "ticker": "CTL.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "智利锂卤水项目，烧钱快、稀释频繁、许可不确定。"
+  },
+  {
+   "ticker": "80M.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "一月暴跌逾三成，微型勘探股现金消耗严重。"
+  },
+  {
+   "ticker": "GRL.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值仅千万却标为生产商，曾涉持续经营疑虑与大幅稀释。"
+  },
+  {
+   "ticker": "XTR.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型金矿勘探股，历史推广频繁，稀释风险高。"
+  },
+  {
+   "ticker": "0ICU.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "南非尾矿再处理商，月涨四成但司法管辖区风险仍在。"
   }
  ]
 }
