@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-18T22:20Z",
+ "generated_at": "2026-08-19T22:22Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿石需求疲软，中国钢铁利润承压，但公司质地优良"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铁矿价格受中国需求疲软压制，短期承压明显"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属价格低迷，基本面平稳无突出催化"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铂族金属价格低迷，运营效率存疑"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型勘探股无消息暴涨40%，典型炒作特征"
   },
   {
    "ticker": "JBL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小市值基础金属生产商，流动性一般需关注"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "激进并购历史，存在稀释和治理风险"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铬铁小盘股，历史治理争议及关联交易需警惕"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铬价稳健，生产正常，无明显风险"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "开发阶段微型铂矿，流动性极差且持续烧钱"
+   "ai_adjust": -10,
+   "ai_note": "长期价值毁灭者，治理差、项目反复失败"
   },
   {
    "ticker": "MTU.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅八千万极度缺乏流动性，下跌趋势明显"
-  },
-  {
-   "ticker": "GML.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "实为彩色宝石公司而非PGM，行业分类存疑需核实"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭面临ESG撤资压力，长期需求结构性下行"
+   "ai_adjust": -5,
+   "ai_note": "市值仅8100万，流动性极差，暴跌17%"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "锡矿基本面扎实，但刚果金管辖风险需关注"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "优质煤炭生产商，但ESG逆风限制长期估值"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "刚果金锡矿商，地缘风险已反映在估值中"
+   "ai_note": "有色宝石细分龙头，治理已改善"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小盘煤炭股，ESG与流动性双重风险叠加"
+   "ai_adjust": -3,
+   "ai_note": "小市值煤炭股，流动性风险突出"
   },
   {
    "ticker": "SKA.JO",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "微型勘探公司市值不足一亿，极度危险远离"
+   "ai_note": "微型勘探股，无实质进展，持续阴跌"
   },
   {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭资产ESG逆风，虽现金流强但估值长期受压"
+   "ticker": "ARI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "管理优秀、资产多元，金价铜价双重受益"
   },
   {
    "ticker": "KP2.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "钾肥开发阶段，刚果布许可与融资风险较大"
+   "ai_adjust": -3,
+   "ai_note": "钾矿开发周期长、资本需求大，融资风险高"
   },
   {
-   "ticker": "ARI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "多元化矿业巨头，管理层治理偶有争议但整体稳健"
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "动力煤生产商，ESG排斥导致长期折价"
   },
   {
-   "ticker": "AFT.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "建筑骨料加铁矿石双轮驱动，运营稳健"
+   "ticker": "CPR.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "勘探股无消息暴涨33%，疑似推广拉抬"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "金价高企利好尾矿回收商，低成本优势显著"
+   "ai_note": "尾矿金生产商，金价上涨直接受益"
   },
   {
-   "ticker": "CPR.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "勘探股一月暴涨41%无任何消息面，疑似炒作拉高"
+   "ticker": "AFT.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "建材铁矿稳健经营，无突出催化剂"
+  },
+  {
+   "ticker": "PAN.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "黄金生产商，金价强势期业绩弹性大"
   },
   {
    "ticker": "ANG.JO",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "金价强势周期，大型金矿商直接受益于价格上行"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "一月涨35%无新闻支撑，短期或超买需警惕回调"
-  },
-  {
-   "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "金价上行周期中产量稳定，估值合理具吸引力"
+   "ai_note": "全球头部金矿商，金价上行周期核心标的"
   }
  ]
 }
