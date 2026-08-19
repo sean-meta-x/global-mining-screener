@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-18T22:31Z",
+ "generated_at": "2026-08-19T22:34Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "0166.HK",
+   "ticker": "2693.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值无新闻，流动性堪忧，下行趋势延续"
+   "ai_adjust": -2,
+   "ai_note": "市值极小且流动性差，量化模型易忽略流动性折价风险。"
   },
   {
-   "ticker": "2693.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小市值低流动性，无催化剂，观望为主"
+   "ticker": "0166.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "历史上有过多次财技操作与治理争议，基本面缺乏实质支撑。"
   },
   {
    "ticker": "1303.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "煤炭ESG压力叠加小市值，缺乏正面消息支撑"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小型煤炭企业抗风险能力弱，近期回调反映行业周期压力。"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值不足1.5亿，极低流动性，治理风险高"
+   "ai_adjust": -3,
+   "ai_note": "市值微小且主业边缘化，存在较高的壳股炒作与流动性风险。"
   },
   {
    "ticker": "1712.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月涨70%却无任何新闻，典型庄股拉升特征"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "短期暴涨近六成，疑似资金炒作或庄家推动，需警惕大幅回调。"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅5300万，煤炭微盘股，壳股风险极高"
+   "ai_adjust": -6,
+   "ai_note": "市值不足六千万的微型股，流动性枯竭且基本面极不透明。"
   },
   {
    "ticker": "2610.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝行业中盘股，走势平稳，无异常信号"
-  },
-  {
-   "ticker": "1182.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值金矿股持续下跌，无基本面改善迹象"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值仅1.3亿煤炭微盘，反弹无消息支撑"
+   "ai_note": "铝价波动对利润影响直接，目前估值与行业平均水平基本一致。"
   },
   {
    "ticker": "0621.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "金矿开发商阶段，估值合理但缺乏催化"
-  },
-  {
-   "ticker": "1091.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中盘多元化矿企，走势温和，无明显风险"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "核心矿山长期受困于海外审批与资金问题，存在持续摊薄风险。"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月涨16%无新闻配合，需警惕短期回调"
+   "ai_adjust": -3,
+   "ai_note": "历史财报曾受审计质疑，高负债与复杂关联交易增加治理风险。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝业龙头，大盘蓝筹，走势稳健"
+   "ai_note": "大型央企基本面稳健，但受限于体制与宏观周期，缺乏爆发弹性。"
   },
   {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "全球最大民营铝企，基本面扎实"
+   "ticker": "1229.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值煤炭股短期涨幅较大，需防范流动性不足导致的剧烈波动。"
+  },
+  {
+   "ticker": "1091.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "长期盈利能力薄弱且多次配股融资，股东权益遭持续摊薄。"
+  },
+  {
+   "ticker": "1182.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "典型壳股特征，主业频繁变更且缺乏实质性矿产资产支撑。"
   },
   {
    "ticker": "0276.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值不足1亿煤炭股，壳股嫌疑大"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "历史上有过长期停牌与严重摊薄记录，属典型的高风险仙股。"
   },
   {
-   "ticker": "0098.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝行业中盘，走势平稳无异常"
+   "ticker": "1378.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "全球最大铝企成本优势显著，行业供给侧改革下盈利确定性高。"
   },
   {
    "ticker": "2302.HK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "铀矿概念受核电复苏支撑，中期逻辑通顺"
+   "ai_adjust": 0,
+   "ai_note": "背靠中核集团具备资源获取优势，但铀价波动与政策审批影响大。"
   },
   {
-   "ticker": "0505.HK",
+   "ticker": "6885.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "传统小型煤企受环保与安监政策约束较强，成长空间相对有限。"
+  },
+  {
+   "ticker": "2078.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铜合金中盘股月跌9%，行业景气下行"
+   "ai_adjust": -2,
+   "ai_note": "市值偏小且铝加工行业利润率微薄，短期上涨更多受情绪驱动。"
   },
   {
    "ticker": "1738.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值1亿煤炭股月涨46%无新闻，高度可疑"
+   "ai_adjust": -6,
+   "ai_note": "单月暴涨近半且市值微小，极度疑似资金操纵与庄股炒作。"
   },
   {
    "ticker": "2489.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月涨23%无实质新闻，短期获利盘压力大"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金板块近期受宏观避险情绪推动，短期涨幅符合行业整体趋势。"
   }
  ]
 }
