@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-19T22:08Z",
+ "generated_at": "2026-08-20T22:11Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
+   "ticker": "GRML",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值极小且无新闻，警惕流动性枯竭与隐性稀释风险。"
+  },
+  {
    "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型核矿壳公司，无实质信息，流动性极差"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "核能概念易遭散户炒作，缺乏实质进展，需防范庄家拉高出货风险。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "多年未投产，反复融资稀释股东，执行风险高"
+   "ai_adjust": -4,
+   "ai_note": "短期暴涨三十，典型庄家票特征，警惕高位增发稀释。"
   },
   {
    "ticker": "IONR",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "Rhyolite Ridge遭联邦濒危物种诉讼，许可证严重受阻"
-  },
-  {
-   "ticker": "GRML",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "格陵兰政治与环保阻力极大，项目推进困难"
-  },
-  {
-   "ticker": "UROY",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "铀版税结构优质，无运营风险，铀价上行受益"
+   "ai_adjust": -3,
+   "ai_note": "锂矿项目受困于美国联邦土地审批延迟，开发进度存疑。"
   },
   {
    "ticker": "NB",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "Elk Creek项目拖延十余年，反复融资稀释严重"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "稀土项目面临巨大融资缺口与环保审批阻力，落地难度极高。"
+  },
+  {
+   "ticker": "UROY",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿版税资产优质，但单月暴涨近四成，短期存在回调压力。"
   },
   {
    "ticker": "JAGU",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "微型铀矿勘探，信息有限，尚无实质催化"
-  },
-  {
-   "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "巴西钾矿融资困难，项目推进存不确定性"
+   "ai_adjust": -2,
+   "ai_note": "早期铀矿勘探市值过小，钻探失败或资金链断裂风险较高。"
   },
   {
    "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -3,
-   "ai_note": "Thacker Pass面临原住民诉讼，许可仍有风险"
-  },
-  {
-   "ticker": "CMCL",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "津巴布韦Blanket矿运营尚可但政治风险突出"
+   "ai_note": "核心锂矿项目深陷原住民抗议与环保诉讼，审批遥遥无期。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微型壳公司月跌37%，无实质业务与流动性"
+   "ai_note": "单月暴跌超四成，极大概率遭遇毁灭性稀释或核心钻探失败。"
   },
   {
    "ticker": "NAMMW",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "认股权证流动性极差且具高度稀释性，不建议作为独立标的。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "津巴布韦矿山产出强劲，但需高度警惕当地主权与政策风险。"
+  },
+  {
+   "ticker": "RITE",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值不足千万的仙股，缺乏基本面支撑，极易受庄家操纵。"
+  },
+  {
+   "ticker": "GRO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "权证杠杆放大风险，到期可能归零"
+   "ai_note": "巴西钾矿项目深陷环保许可证泥潭，投产时间表严重滞后。"
   },
   {
    "ticker": "EU",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "ISR铀矿执行存疑，历史稀释记录不佳"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铀矿生产受困于新墨西哥等地严苛的地下水环保监管。"
   },
   {
    "ticker": "NC",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "煤炭行业长期衰退，ESG资金持续撤出"
+   "ai_adjust": -3,
+   "ai_note": "传统煤炭生产商面临长期ESG逆风，资产老化且缺乏增长。"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "与FMST同类权证，微型壳公司衍生品风险极高"
+   "ai_adjust": -6,
+   "ai_note": "与FMST同源的认股权证，流动性枯竭且稀释风险成倍放大。"
+  },
+  {
+   "ticker": "NMG",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "魁北克石墨项目遭当地社区强烈反对，融资缺口依然巨大。"
+  },
+  {
+   "ticker": "LGO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "钒产品受中国产能压制，公司市值偏小且面临周期下行压力。"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型金矿生产商流动性差，需警惕隐性增发与高管治理问题。"
   },
   {
    "ticker": "FSM",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "中型银矿商运营稳健，银价上行周期受益"
-  },
-  {
-   "ticker": "NAMM",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "纳米比亚小型金矿，信息有限，需观察"
-  },
-  {
-   "ticker": "NMG",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "魁北克石墨项目有政策支持但市场疲软"
-  },
-  {
-   "ticker": "LGO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "钒生产商市值偏小，钒价低迷运营承压"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "金矿勘探组合资产多但月涨26%或透支预期"
+   "ai_adjust": 2,
+   "ai_note": "银金矿产量稳健且杠杆效应好，但单月大涨需防短期获利了结。"
   }
  ]
 }
