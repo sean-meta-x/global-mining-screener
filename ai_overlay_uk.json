@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-19T22:18Z",
+ "generated_at": "2026-08-20T22:22Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
-   "ticker": "MET1.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型勘探股，历史多次配售稀释，无收入支撑估值。"
-  },
-  {
    "ticker": "THX.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "Seguela金矿已投产，西非政治风险尚可接受。"
+   "ai_note": "尼日利亚矿区运营稳健，但地缘政治风险需持续关注。"
   },
   {
-   "ticker": "UFO.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅千万，历史推广痕迹重，稀释风险高。"
-  },
-  {
-   "ticker": "PDL.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "治理混乱、债务重组、暂停派息，基本面严重恶化。"
-  },
-  {
-   "ticker": "YCA.L",
+   "ticker": "MET1.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "实物铀持仓工具，走势紧跟铀价，结构透明。"
-  },
-  {
-   "ticker": "CAPD.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "澳洲多元矿企，信息透明度偏低，流动性一般。"
+   "ai_note": "瑞典矿区管辖安全，但早期勘探项目缺乏短期催化剂。"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股，多次融资稀释，现金流紧张。"
+   "ai_note": "铀矿概念炒作痕迹重，早期勘探项目流动性与稀释风险高。"
+  },
+  {
+   "ticker": "PDL.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "坦桑尼亚矿区塌陷致产量骤降，公司面临严重债务与重组风险。"
+  },
+  {
+   "ticker": "UFO.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "频繁发布利好消息但缺乏实质性经济评估，炒作与稀释风险并存。"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "纯铀现货信托基金，表现完全取决于铀价走势，无运营风险。"
+  },
+  {
+   "ticker": "JLP.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南非冶炼业务盈利改善，但需警惕当地电力与政策环境波动。"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "哈萨克斯坦铜矿运营稳定但地缘风险需关注。"
-  },
-  {
-   "ticker": "JLP.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非PGM生产商，运营执行不力且持续稀释。"
+   "ai_adjust": 0,
+   "ai_note": "东欧资产现金流稳定且分红慷慨，但矿山品位下降与尾矿风险犹存。"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦Blanket金矿，高司法管辖区风险。"
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦矿区产量达标，但外汇管制与政策变动构成持续隐患。"
   },
   {
    "ticker": "SRB.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴西Palito金矿产量改善，司法管辖区尚可。"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -1,
-   "ai_note": "南非PGM生产商，电力与劳工风险持续存在。"
+   "ai_note": "巴西矿区成本偏高且规模较小，虽近期有并购传闻但基本面仍承压。"
   },
   {
    "ticker": "KOD.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "马里政局动荡且矿业法修改，锂矿项目面临极高的地缘与政策风险。"
+  },
+  {
+   "ticker": "CAPD.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "西澳铁矿项目运营稳定，但业绩高度依赖铁矿石价格周期波动。"
+  },
+  {
+   "ticker": "THS.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "马里锂矿项目，军政府执政下许可与安全风险极高。"
+   "ai_adjust": -2,
+   "ai_note": "南非PGM价格低迷且面临电力与成本压力，短期盈利空间受限。"
   },
   {
    "ticker": "ORR.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "南非小型金矿勘探商，市值微小且持续稀释。"
+   "ai_note": "南非早期金矿勘探项目，面临资金短缺与当地社区关系等双重挑战。"
   },
   {
    "ticker": "AAU.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "土耳其运营面临汇率与监管双重风险，估值承压。"
-  },
-  {
-   "ticker": "CTL.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "智利锂卤水项目，烧钱快、稀释频繁、许可不确定。"
+   "ai_adjust": -3,
+   "ai_note": "土耳其高通胀与里拉贬值侵蚀利润，且面临当地税务与政策审查。"
   },
   {
    "ticker": "80M.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "西澳早期金矿项目，近期股价大幅回调反映市场对其勘探进展存疑。"
+  },
+  {
+   "ticker": "CTL.L",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "一月暴跌逾三成，微型勘探股现金消耗严重。"
-  },
-  {
-   "ticker": "GRL.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅千万却标为生产商，曾涉持续经营疑虑与大幅稀释。"
-  },
-  {
-   "ticker": "XTR.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿勘探股，历史推广频繁，稀释风险高。"
+   "ai_note": "智利锂资源国有化政策推进，项目审批与开发面临极大不确定性。"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南非尾矿再处理商，月涨四成但司法管辖区风险仍在。"
+   "ai_note": "南非尾矿回收项目成本低廉，但需对冲当地电力与宏观环境风险。"
+  },
+  {
+   "ticker": "XTR.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "赞比亚早期项目流动性差，管理层频繁发布利好但缺乏实质性进展。"
+  },
+  {
+   "ticker": "SLP.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "尾矿回收PGM成本优势显著，但铂族金属价格疲软拖累整体估值。"
   }
  ]
 }
