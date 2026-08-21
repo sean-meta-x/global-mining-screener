@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-20T22:38Z",
+ "generated_at": "2026-08-21T22:32Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "2693.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "小市值高岭土生产商，无新闻覆盖，流动性存疑"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值高岭土生产商，流动性差且信息透明度低，需警惕"
   },
   {
-   "ticker": "0166.HK",
+   "ticker": "1303.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小型煤炭生产商，暂无明显催化剂或重大风险信号"
+  },
+  {
+   "ticker": "1712.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "市值偏小且一月跌幅超12%，无任何利好消息支撑"
+   "ai_note": "月涨幅逾44%异常，需警惕投机炒作后回调风险"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅1.4亿，股价停滞无催化剂，边缘化风险高"
-  },
-  {
-   "ticker": "1303.HK",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭生产商面临ESG压力，一月下跌且无新闻"
+   "ai_note": "市值不足1.5亿，业务多元化但缺乏核心竞争力"
   },
   {
-   "ticker": "1712.HK",
+   "ticker": "0166.HK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "一月暴涨47%却无任何新闻，高度疑似炒作拉升"
-  },
-  {
-   "ticker": "8203.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅5300万的微型煤炭股，零新闻零流动性"
-  },
-  {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铝业国企，市值充足，基本面透明度高"
+   "ai_note": "多次更名、治理记录差，历史上有违规及炒作前科"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "黄金开发商阶段，项目执行与融资风险较大"
+   "ai_adjust": -4,
+   "ai_note": "南非金矿开发商，许可证及融资风险长期悬而未决"
+  },
+  {
+   "ticker": "1182.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "前身壳股属性明显，治理结构薄弱， promotional风险高"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "小市值煤炭股月涨14%却无新闻，需警惕操纵"
+   "ai_note": "市值仅1.3亿且月涨近20%，微型股异动需防操纵"
+  },
+  {
+   "ticker": "0098.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "兴发铝业为正规铝型材企业，基本面平稳无异常"
+  },
+  {
+   "ticker": "0815.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中国白银集团近年盈利波动大，债务压力值得关注"
   },
   {
    "ticker": "1091.HK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "中型锰矿生产商，近期回调但市值尚可"
-  },
-  {
-   "ticker": "0815.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "白银生产商市值适中，走势平稳无明显异常"
-  },
-  {
-   "ticker": "1182.HK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "小市值黄金股持续下跌，历史上有配售稀释记录"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "全球最大铝企之一，市值超2000亿，基本面扎实"
+   "ai_note": "南方锰业为行业龙头之一，锰价周期性波动为主"
   },
   {
-   "ticker": "0276.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值不足1亿的蒙古煤炭股，司法管辖风险极高"
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "中铝为央企龙头，铝价上行周期中有估值修复空间"
   },
   {
-   "ticker": "2078.HK",
+   "ticker": "6885.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值铝业股月涨8%但无新闻支撑，需关注治理"
+   "ai_adjust": -2,
+   "ai_note": "小型煤炭生产商，体量有限，信息覆盖不足"
   },
   {
    "ticker": "8095.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "多元化生产商市值约10亿，近期小幅回调"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "北大青鸟从科技转型矿业，战略执行力存疑"
   },
   {
    "ticker": "1738.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅1亿无烟煤股月涨39%零新闻，典型庄股特征"
+   "ai_adjust": -7,
+   "ai_note": "市值不足1亿却月涨27%，典型微型股炒作特征"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "中国宏桥为全球最大民营铝企，成本优势显著"
+  },
+  {
+   "ticker": "0276.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "蒙古能源治理记录差，多次涉及关联交易及合规问题"
+  },
+  {
+   "ticker": "0486.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "俄铝受地缘制裁风险影响，出口及融资渠道受限"
+  },
+  {
+   "ticker": "0505.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "兴业合金为铜合金加工商，经营稳健但缺乏弹性"
   },
   {
    "ticker": "2302.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中核旗下铀矿平台，战略资源属性强，治理可靠"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铁矿生产商受中国需求周期影响大，需关注去杠杆"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金股月涨17%但无新闻披露，需核实是否有未公告事项"
+   "ai_adjust": 2,
+   "ai_note": "中核国际受益于核电复苏及铀价上行中长期逻辑"
   }
  ]
 }
