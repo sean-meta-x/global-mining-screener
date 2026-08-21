@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T22:32Z",
+ "generated_at": "2026-08-21T22:26Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型市值流动性差，治理透明度存疑"
+   "ai_note": "市值极小且流动性差，需警惕小盘股典型的治理与股价操纵风险。"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极小市值煤炭股，操纵风险极高"
-  },
-  {
-   "ticker": "UNTR.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "蓝筹设备商治理稳健，回调属正常波动"
+   "ai_note": "小型煤炭生产商，基本面平稳，暂无明显量化模型遗漏的催化剂或风险。"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中小型多元化矿企，无显著风险信号"
+   "ai_adjust": -1,
+   "ai_note": "业务多元但近期回调，需关注其非煤业务的盈利可持续性及现金流。"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "阿斯特朗集团旗下核心资产，治理优良且分红稳定，量化评分偏低。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭生产商，基本面平稳"
-  },
-  {
-   "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极小市值流动性极差，操纵嫌疑大"
+   "ai_note": "中型煤炭企业，产量与成本管控尚可，暂无突出的治理或稀释风险。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中小型煤炭生产商，无突出风险"
+   "ai_note": "煤炭产能稳定，但作为中型生产商缺乏显著的成本或扩张催化剂。"
+  },
+  {
+   "ticker": "FIRE.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微盘煤炭股，市值不足两千亿印尼盾，极易受资金炒作与流动性枯竭影响。"
+  },
+  {
+   "ticker": "DWGL.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "单月暴涨逾26%且无实质利好，典型的小盘股资金炒作与拉高出货特征。"
   },
   {
    "ticker": "KKGI.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中小型煤炭企业，运营相对稳健"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史上有过环保与采矿许可争议，需警惕政策合规风险对产量的扰动。"
   },
   {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤炭生产商，行业地位稳固"
+   "ticker": "PSAB.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "单月飙升近50%且无新闻支撑，黄金概念炒作痕迹明显，谨防高位接盘。"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭生产商，估值合理"
-  },
-  {
-   "ticker": "TINS.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "国企锡矿龙头但治理效率偏低"
-  },
-  {
-   "ticker": "PSAB.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "月涨47.5%无新闻支撑，典型拉高出货"
+   "ai_note": "中型煤炭生产商，业绩随煤价波动，治理结构正常，无显著隐藏风险。"
   },
   {
    "ticker": "PTBA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企煤炭龙头分红稳定防御性好"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "国有大型煤企，高股息且治理规范，量化模型未能充分体现其防御价值。"
   },
   {
-   "ticker": "DWGL.JK",
+   "ticker": "MCOL.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月涨29%缺乏基本面支撑警惕炒作"
+   "ai_adjust": -2,
+   "ai_note": "虽被列为大型生产商，但历史财报曾受监管关注，需警惕财务粉饰风险。"
   },
   {
-   "ticker": "ARII.JK",
+   "ticker": "TINS.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小型煤炭企业市场关注度低"
+   "ai_adjust": 1,
+   "ai_note": "国有锡业龙头，受益于锡价上涨，但国企决策效率偏低限制了估值弹性。"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型镍生产商但镍价持续承压"
-  },
-  {
-   "ticker": "RMKO.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌15.7%微型市值可能存在困境"
-  },
-  {
-   "ticker": "ANTM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企多元矿业资产优质但治理一般"
+   "ai_adjust": -1,
+   "ai_note": "镍矿及冶炼产能大，但需警惕印尼镍产能过剩导致的长期价格压制风险。"
   },
   {
    "ticker": "DAAZ.JK",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "单月涨幅较大且市值偏小，缺乏核心矿产资产支撑，存在概念炒作嫌疑。"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "月涨12.9%需警惕短期炒作风险"
+   "ai_note": "单月大幅回调，小型煤炭承包商利润率受挤压，需关注其订单续约风险。"
+  },
+  {
+   "ticker": "ANTM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "国有综合矿业巨头，黄金与镍资产优质，但受限于国企体制与分红政策。"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭承包商业务稳定"
+   "ai_note": "煤炭开采与运输一体化，管理层稳健，但缺乏能让量化模型加分的催化剂。"
+  },
+  {
+   "ticker": "ARII.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中型煤炭生产商，背靠盐仓集团但体量较小，需关注其资源接续与扩张能力。"
   }
  ]
 }
