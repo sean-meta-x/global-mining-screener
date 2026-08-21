@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-20T23:12Z",
+ "generated_at": "2026-08-21T23:08Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "LAB.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微盘金矿无新闻且零涨跌，警惕流动性枯竭与持续烧钱风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "微型金矿勘探无新闻无催化，流动性存疑"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "股价阴跌且无任何公告，疑似内幕减持或隐性稀释，建议规避。"
+   "ai_adjust": -3,
+   "ai_note": "一月跌17%无公告，疑似稀释或勘探失利"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "暴跌逾四成却无新闻，极大概率钻探失败或遭遇恶性融资稀释。"
+   "ai_adjust": -7,
+   "ai_note": "板块标注与名称矛盾，暴跌39%无公告，重大红旗"
   },
   {
    "ticker": "LIFT.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "市值较大但股价阴跌且无新闻，缺乏实质性催化剂，短期承压。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "两亿市值开发商跌22%无消息，警惕项目风险或融资"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘铜矿无消息且持续阴跌，基本面缺乏支撑，流动性风险高。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微型铜矿勘探小幅回调，无显著风险或催化"
   },
   {
    "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "股价零涨跌且毫无新闻，交易极度清淡，需防范资金长期沉淀。"
-  },
-  {
-   "ticker": "VIO.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "股价微涨但无实质利好公告，缺乏基本面驱动，保持中性观望。"
+   "ai_adjust": 1,
+   "ai_note": "标注为生产商但需核实资质，+5%或低估"
   },
   {
    "ticker": "CAF.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘金矿缓慢失血，无新闻可能掩盖了潜在的现金流枯竭问题。"
-  },
-  {
-   "ticker": "JG.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴跌逾三成且无公告，大概率遭遇钻探失败或折价配股稀释。"
+   "ai_adjust": -2,
+   "ai_note": "名称疑似推广壳公司，微型市值治理存疑"
   },
   {
    "ticker": "OCEN.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值极小且股价零涨跌，典型僵尸股特征，毫无投资性价比。"
-  },
-  {
-   "ticker": "CAMB.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "市值体量与微盘特征存在错配，无新闻支撑，需警惕数据异常。"
-  },
-  {
-   "ticker": "IBAT.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "电池金属概念退潮，股价大跌却无新闻，警惕项目停滞或折价融资。"
-  },
-  {
-   "ticker": "AEMC.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微盘金矿股价毫无波澜，缺乏勘探进展公告，资金利用率极低。"
-  },
-  {
-   "ticker": "HUNT.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "股价零涨跌且无新闻，流动性极差，微盘勘探股面临严峻生存考验。"
+   "ai_adjust": -1,
+   "ai_note": "千万市值微型勘探零成交无催化"
   },
   {
    "ticker": "HLU.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微型铀矿勘探小幅下跌无显著异常"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "涨10%有动量但无新闻支撑持续性存疑"
+  },
+  {
+   "ticker": "GIGA.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铀矿勘探无实质进展，股价死水一潭，需防范长期阴跌与股权稀释。"
+   "ai_adjust": -3,
+   "ai_note": "知名项目但跌12%无公告，警惕稀释或延期"
   },
   {
    "ticker": "SLV.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "毫无新闻却暴涨近三成，典型庄股拉高出货特征，切勿盲目追高。"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "涨18%动量好但CSE上市需防拉高出货"
   },
   {
-   "ticker": "BRO.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "暴跌近半且无公告，极可能是钻探失败或遭遇毁灭性股权稀释。"
+   "ticker": "AEMC.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微型勘探零涨跌无催化无风险信号"
   },
   {
-   "ticker": "IRV.CN",
+   "ticker": "SR.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "股价阴跌且无消息，微盘金矿勘探面临资金链断裂的潜在风险。"
+   "ai_adjust": -3,
+   "ai_note": "跌17%无公告疑似融资稀释"
   },
   {
    "ticker": "TT.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "PGM勘探跌11%板块冷门无催化"
+  },
+  {
+   "ticker": "CAMB.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "CSE勘探公司市值3.4亿极异常疑似操纵"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "知名矿业公司涨39%或有实质催化"
+  },
+  {
+   "ticker": "IRV.CN",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铂族金属勘探遇冷，股价微跌无新闻，行业周期底部需保持耐心。"
+   "ai_note": "CSE小盘金矿微跌无异常"
+  },
+  {
+   "ticker": "NEXU.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "名称铀矿标注PGM暴涨49%典型拉高"
   },
   {
    "ticker": "SAM.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "毫无新闻却暴涨三成五，极大概率是资金炒作与庄家拉高出货。"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "实为生产商被错标勘探涨18%或价值回归"
   }
  ]
 }
