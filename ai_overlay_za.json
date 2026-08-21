@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-20T22:26Z",
+ "generated_at": "2026-08-21T22:20Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铁矿主力下跌10%且无新闻，或隐含价格走弱风险"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型铁矿商，基本面稳健，无异常信号。"
   },
   {
    "ticker": "EUZ.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型勘探公司无新闻，存在高稀释融资风险"
-  },
-  {
-   "ticker": "JBL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "基础金属生产商，无显著风险或催化剂"
+   "ai_adjust": -4,
+   "ai_note": "微型勘探公司，无新闻支撑涨幅，存在稀释风险。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "PGM生产商，板块疲软但无重大异常"
+   "ai_note": "PGM生产商运营稳定，无重大风险信号。"
+  },
+  {
+   "ticker": "JBL.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "基础金属生产商表现平淡，缺乏催化剂。"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "铬矿生产商月涨17%，短期动量正向"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铬矿商无新闻却涨15%，走势存疑需警惕。"
   },
   {
    "ticker": "WEZ.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "PGM开发商无收入无新闻，融资与许可风险高"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "PGM开发商持续下跌无消息，资金链或有问题。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "微型股跌16.7%且零新闻，恐有未披露问题"
+   "ai_note": "微型股暴跌近20%无任何公告，流动性极差。"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭巨头面临能源转型长期压力，估值承压。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "彩色宝石生产商，无显著风险或催化剂"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭主力面临长期结构性衰退与ESG压力"
+   "ai_note": "有色生产商走势平稳，暂无明显风险。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "锡矿中型生产商月涨6.7%，动量尚可"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小型煤炭生产商，ESG与流动性风险并存"
+   "ai_adjust": 1,
+   "ai_note": "中型矿企温和上涨，基本面与走势匹配。"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小型PGM生产商下跌10%，板块持续疲软"
+   "ai_adjust": -4,
+   "ai_note": "小型PGM生产商下跌超10%，无消息解释跌幅。"
   },
   {
    "ticker": "SKA.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "月涨8650%零新闻，典型拉高出货特征"
+   "ai_adjust": -7,
+   "ai_note": "微型勘探公司持续下跌无公告，疑似被遗弃。"
+  },
+  {
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭股逆势大涨16%，脱离行业基本面。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型煤炭股暴涨44%无新闻，典型炒作特征。"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型多元化矿企，管理层治理需持续关注。"
   },
   {
    "ticker": "KP2.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "钾肥开发商无收入无新闻，许可与融资存疑"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "多元化矿业主力月涨14%，动量强劲"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "纯煤炭主力面临长期需求结构性下滑"
-  },
-  {
-   "ticker": "DRD.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "金矿尾矿回收商月涨37%，金价动量强"
+   "ai_note": "钾肥开发商无实质进展，项目执行风险较高。"
   },
   {
    "ticker": "CPR.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铜勘探商月涨30%零新闻，疑似炒作拉升"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "勘探公司暴涨33%无任何消息，高度可疑。"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿中型生产商，无显著风险或催化剂"
+   "ai_note": "铁矿中型生产商走势平稳，无异常信号。"
   },
   {
-   "ticker": "GFI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "黄金主力月涨37%，受益金价强势周期"
+   "ticker": "DRD.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金矿商暴涨40%无新闻，尾矿项目存不确定性。"
+  },
+  {
+   "ticker": "VAL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "PGM巨头涨27%无消息，市值数据需核实。"
   }
  ]
 }
