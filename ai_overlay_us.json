@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-20T22:11Z",
+ "generated_at": "2026-08-22T22:04Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "GRML",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值极小且无新闻，警惕流动性枯竭与隐性稀释风险。"
-  },
-  {
-   "ticker": "FNUC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "核能概念易遭散户炒作，缺乏实质进展，需防范庄家拉高出货风险。"
-  },
-  {
    "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "短期暴涨三十，典型庄家票特征，警惕高位增发稀释。"
+   "ai_note": "石墨项目推进缓慢且历史融资频繁，需警惕股权稀释风险。"
+  },
+  {
+   "ticker": "FNUC",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "疑似SPAC或壳公司，基本面极度缺乏透明度，存在极高归零风险。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂矿项目受困于美国联邦土地审批延迟，开发进度存疑。"
+   "ai_adjust": -5,
+   "ai_note": "锂矿项目受困于联邦土地审批延迟，短期难以实现现金流。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "稀土项目面临巨大融资缺口与环保审批阻力，落地难度极高。"
+   "ai_adjust": -6,
+   "ai_note": "项目资本开支巨大且长期依赖外部融资，股权稀释风险极高。"
   },
   {
    "ticker": "UROY",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿版税资产优质，但单月暴涨近四成，短期存在回调压力。"
+   "ai_note": "铀矿流媒体模式抗风险能力强，但受限于铀价波动，表现平稳。"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "早期铀矿勘探市值过小，钻探失败或资金链断裂风险较高。"
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探股，流动性差且无实质产出，纯靠概念炒作。"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "核心锂矿项目深陷原住民抗议与环保诉讼，审批遥遥无期。"
-  },
-  {
-   "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月暴跌超四成，极大概率遭遇毁灭性稀释或核心钻探失败。"
+   "ai_adjust": -4,
+   "ai_note": "虽获采矿许可但面临巨额资金缺口，近期融资结构变动引发市场担忧。"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "认股权证流动性极差且具高度稀释性，不建议作为独立标的。"
+   "ai_adjust": -7,
+   "ai_note": "认股权证具有极高杠杆与到期归零风险，不适合长期基本面配置。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "津巴布韦矿山产出强劲，但需高度警惕当地主权与政策风险。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "核心资产位于津巴布韦，面临严峻的汇率管制与地缘政治风险。"
   },
   {
    "ticker": "RITE",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值不足千万的仙股，缺乏基本面支撑，极易受庄家操纵。"
+   "ai_adjust": -8,
+   "ai_note": "市值极低且股价持续暴跌，疑似缺乏核心资产的边缘壳公司。"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭业务面临长期ESG政策压制与需求衰退，缺乏成长催化剂。"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "巴西钾矿项目深陷环保许可证泥潭，投产时间表严重滞后。"
+   "ai_note": "钾矿开发处于早期，面临高昂资本开支与巴西复杂的环保审批风险。"
   },
   {
-   "ticker": "EU",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀矿生产受困于新墨西哥等地严苛的地下水环保监管。"
-  },
-  {
-   "ticker": "NC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "传统煤炭生产商面临长期ESG逆风，资产老化且缺乏增长。"
+   "ticker": "FMST",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "股价单月暴跌超四分之一，流动性枯竭且存在严重的过度营销嫌疑。"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "与FMST同源的认股权证，流动性枯竭且稀释风险成倍放大。"
-  },
-  {
-   "ticker": "NMG",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "魁北克石墨项目遭当地社区强烈反对，融资缺口依然巨大。"
-  },
-  {
-   "ticker": "LGO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钒产品受中国产能压制，公司市值偏小且面临周期下行压力。"
-  },
-  {
-   "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿生产商流动性差，需警惕隐性增发与高管治理问题。"
+   "ai_adjust": -9,
+   "ai_note": "作为暴跌微盘股的配套权证，流动性极差且面临极高的到期作废风险。"
   },
   {
    "ticker": "FSM",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "银金矿产量稳健且杠杆效应好，但单月大涨需防短期获利了结。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "银矿产量稳定但维持成本偏高，近期部分矿山运营效率有待改善。"
+  },
+  {
+   "ticker": "KLGDF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型金矿勘探企业，项目处于极早期，高度依赖后续融资与钻探结果。"
+  },
+  {
+   "ticker": "LGO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "钒产品市场小众且价格波动大，公司债务负担较重，现金流承压。"
+  },
+  {
+   "ticker": "BLLYF",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "股价大幅下挫且市值微小，勘探项目缺乏实质性进展与流动性。"
+  },
+  {
+   "ticker": "THORF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "极小市值勘探股，日常交易清淡，极易受资金操纵产生剧烈波动。"
+  },
+  {
+   "ticker": "EU",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿原地浸出业务扩张稳健，但需持续关注地下水环保合规风险。"
   }
  ]
 }
