@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22T22:18Z",
+ "generated_at": "2026-08-23T22:18Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南非铁路物流瓶颈限制铁矿出口与盈利。"
-  },
-  {
-   "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型勘探企现金流枯竭，存在极高稀释与退市风险。"
+   "ai_note": "南非物流瓶颈限制产能，量化未计入Transnet运力风险。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "历史上有频繁增发摊薄记录，需警惕股本扩张。"
-  },
-  {
-   "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铬矿小盘股流动性差，且面临ESG与社区合规压力。"
+   "ai_note": "频繁增发稀释股权，复杂架构隐藏债务风险。"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属价格承压，但公司运营稳健且具成本优势。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铂族金属价格暴跌，量化模型对周期下行反应滞后。"
+  },
+  {
+   "ticker": "MRF.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铬矿小盘股流动性差，ESG及社区治理风险被低估。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "长期财务困境且缺乏实质资金，项目推进存疑。"
+   "ai_adjust": -8,
+   "ai_note": "历史遗留财务困境与项目流产，存在严重稀释与退市风险。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "市值不足一亿且暴跌，极可能是边缘化壳公司。"
+   "ai_adjust": -9,
+   "ai_note": "市值极小且暴跌，流动性枯竭，存在极高的基本面恶化风险。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭现金流强劲但面临长期ESG撤资与转型风险。"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "锡矿Bisie项目品位高，锡价反弹带来强劲盈利弹性。"
+   "ai_adjust": -1,
+   "ai_note": "煤炭资产面临长期ESG撤资压力，量化未充分折价转型风险。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "彩色宝石业务受地缘与ESG审查，过往治理存瑕疵。"
+   "ai_adjust": -3,
+   "ai_note": "莫桑比克矿区面临地缘安全与社区许可风险，运营不稳定。"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "锡矿基本面稳健，但刚果金政策与物流风险需保持中性。"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "长期停产且债务沉重，面临极高的清算或重组风险。"
+   "ai_adjust": -7,
+   "ai_note": "长期经营不善且处于重组边缘，铂价下跌加剧其破产风险。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型煤炭股短期暴涨缺乏基本面支撑，警惕炒作出货。"
+   "ai_adjust": -9,
+   "ai_note": "微盘股短期暴涨，典型资金炒作与流动性陷阱。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "虽高分红但煤炭资产面临长期需求萎缩与ESG折价。"
+   "ai_note": "煤炭资产处于生命周期末期，ESG排斥导致估值长期承压。"
   },
   {
    "ticker": "KP2.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "钾矿开发周期长且刚果基建与融资风险较高。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "刚果钾矿项目长期拖延，资金链紧张且存在严重稀释历史。"
   },
   {
    "ticker": "ARI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "多元化矿种组合抗风险强，管理层执行力与背景深厚。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "大股东资本配置复杂，治理结构不透明削弱了小股东利益。"
   },
   {
    "ticker": "CPR.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "早期铜矿勘探者概念炒作多，需警惕融资稀释与许可风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "纯勘探阶段微盘股，近期暴涨疑为概念炒作，无实质业绩支撑。"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "建筑与铁矿双主业稳健，但受南非宏观经济与基建拖累。"
+   "ai_note": "建筑与铁矿石业务稳健，但受宏观周期影响，维持中性。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "尾矿回收现金流稳定，但金品位低且受金价波动影响。"
+   "ai_note": "尾矿回收现金流尚可，但品位下降与成本上升限制长期空间。"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "作为大型铂族矿企，受南非电力与劳工成本结构性压制。"
+   "ai_adjust": 0,
+   "ai_note": "铂族金属资产受价格周期压制，需观察重组后实际运营改善。"
+  },
+  {
+   "ticker": "GFI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "黄金价格强势且资产组合优质，量化模型低估了金价上行弹性。"
   },
   {
    "ticker": "MCZ.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "煤矿开发项目推进缓慢，资金缺口与社区许可是主要瓶颈。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "煤矿开发项目停滞，面临严重的资金短缺与股权稀释风险。"
   }
  ]
 }
