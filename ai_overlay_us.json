@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22T22:04Z",
+ "generated_at": "2026-08-23T22:03Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "石墨项目推进缓慢且历史融资频繁，需警惕股权稀释风险。"
+   "ai_note": "小市值勘探商暴涨43%却无任何新闻，疑似炒作推动"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "疑似SPAC或壳公司，基本面极度缺乏透明度，存在极高归零风险。"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锂矿项目受困于联邦土地审批延迟，短期难以实现现金流。"
+   "ai_adjust": -6,
+   "ai_note": "市值仅4900万，核能概念壳公司特征明显，无实质进展"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "项目资本开支巨大且长期依赖外部融资，股权稀释风险极高。"
+   "ai_adjust": -4,
+   "ai_note": "Elk Creek项目开发拖延多年，执行力存疑，融资压力大"
   },
   {
    "ticker": "UROY",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿流媒体模式抗风险能力强，但受限于铀价波动，表现平稳。"
+   "ai_note": "铀版税模式风险较低，受益于铀价上行周期"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Rhyolite Ridge项目面临BLM许可及环保诉讼风险"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股，流动性差且无实质产出，纯靠概念炒作。"
+   "ai_adjust": -4,
+   "ai_note": "微型铀矿勘探商，市值3100万且下跌10%，流动性差"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "虽获采矿许可但面临巨额资金缺口，近期融资结构变动引发市场担忧。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "认股权证具有极高杠杆与到期归零风险，不适合长期基本面配置。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "核心资产位于津巴布韦，面临严峻的汇率管制与地缘政治风险。"
+   "ai_adjust": -3,
+   "ai_note": "Thacker Pass项目虽有规模但面临原住民诉讼及许可风险"
   },
   {
    "ticker": "RITE",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极低且股价持续暴跌，疑似缺乏核心资产的边缘壳公司。"
+   "ai_adjust": -7,
+   "ai_note": "市值仅1060万且暴跌15%，无新闻，疑似壳公司或归零风险"
   },
   {
-   "ticker": "NC",
+   "ticker": "NAMMW",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "权证标的流动性差，信息极度匮乏，投机风险极高"
+  },
+  {
+   "ticker": "CMCL",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "煤炭业务面临长期ESG政策压制与需求衰退，缺乏成长催化剂。"
+   "ai_adjust": 0,
+   "ai_note": "黄金生产商受益于金价上涨，基本面尚可"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "钾矿开发处于早期，面临高昂资本开支与巴西复杂的环保审批风险。"
+   "ai_adjust": -3,
+   "ai_note": "钾肥开发商仍处早期阶段，无新闻支撑12%涨幅"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭生产商面临结构性衰退，下跌13%反映行业逆风"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "股价单月暴跌超四分之一，流动性枯竭且存在严重的过度营销嫌疑。"
+   "ai_note": "市值2100万暴跌26%，无新闻，微型勘探商归零风险高"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "作为暴跌微盘股的配套权证，流动性极差且面临极高的到期作废风险。"
+   "ai_adjust": -8,
+   "ai_note": "FMST权证，母公司暴跌且信息匮乏，杠杆归零风险"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "银矿产量稳定但维持成本偏高，近期部分矿山运营效率有待改善。"
+   "ai_adjust": 0,
+   "ai_note": "中型银矿生产商，受益于贵金属牛市，基本面稳健"
   },
   {
    "ticker": "KLGDF",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值仅1170万的微型金矿勘探商，无新闻支撑涨幅"
+  },
+  {
+   "ticker": "ELBM",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型金矿勘探企业，项目处于极早期，高度依赖后续融资与钻探结果。"
+   "ai_note": "小市值勘探商涨19%无新闻，需警惕炒作后回调"
   },
   {
    "ticker": "LGO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "钒产品市场小众且价格波动大，公司债务负担较重，现金流承压。"
-  },
-  {
-   "ticker": "BLLYF",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "股价大幅下挫且市值微小，勘探项目缺乏实质性进展与流动性。"
-  },
-  {
-   "ticker": "THORF",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "极小市值勘探股，日常交易清淡，极易受资金操纵产生剧烈波动。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "钒生产商有实际收入，受益于能源转型需求"
   },
   {
    "ticker": "EU",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿原地浸出业务扩张稳健，但需持续关注地下水环保合规风险。"
+   "ai_note": "铀矿ISR生产商运营稳定，受益于核能复兴主题"
+  },
+  {
+   "ticker": "BLLYF",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值勘探商暴跌24%无新闻，可能存在未披露问题"
   }
  ]
 }
