@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22T23:07Z",
+ "generated_at": "2026-08-23T23:04Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "LAB.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "无新闻且市值极低，流动性风险高，需等待实质性钻探进展。"
+   "ai_note": "无新闻无催化，小市值勘探公司流动性存疑"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "股价一月跌近17%且无基本面消息，存在流动性枯竭与阴跌风险。"
+   "ai_note": "无新闻却跌16.7%，疑似隐性稀释或钻探失利"
   },
   {
    "ticker": "STUD.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "提示为金矿实为铀矿，元数据错误且股价暴跌，警惕项目停滞或融资。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "名称为铀矿却标注黄金，行业分类错误需警惕"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂矿处于周期底部，市值较大但缺乏近期催化剂，下行风险未完全释放。"
+   "ai_adjust": -3,
+   "ai_note": "2.68亿市值开发商月跌22%无消息，可能有未披露风险"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "CSE微盘股且无新闻，典型缺乏流动性的边缘资产，易受资金操纵。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铜矿勘探小幅下跌无新闻，暂无明显异常"
   },
   {
    "ticker": "GIGA.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "镍钴项目受宏观压制，但资产质量尚可，无新闻状态下保持中性观望。"
-  },
-  {
-   "ticker": "VIO.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "无新闻支撑下月涨10%，微盘股典型游资炒作特征，追高风险极大。"
+   "ai_adjust": -3,
+   "ai_note": "镍钴开发商市值仅千万且下跌，流动性风险高"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿资产有长期逻辑，但短期无催化，微盘股流动性折价合理。"
+   "ai_adjust": -1,
+   "ai_note": "铀矿勘探小幅回调无异常消息，暂观望"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "无新闻却涨10%，疑似炒作拉升需警惕回落"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "标为生产商实为微型勘探者，市值与业务阶段严重错配，警惕估值泡沫。"
+   "ai_adjust": -3,
+   "ai_note": "标注为生产商却无运营新闻，涨10%存疑"
+  },
+  {
+   "ticker": "TT.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "PGM勘探月跌11%无消息，可能有不利进展"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "CSE微盘银矿股，无实质进展下的上涨多为庄家或推手行为。"
+   "ai_adjust": -4,
+   "ai_note": "无新闻暴涨18%，典型推广拉升特征"
   },
   {
    "ticker": "AEMC.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "阿拉斯加金矿勘探处于早期，无新闻且市值极低，存在长期稀释风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "横盘无消息，小市值金矿勘探暂无催化"
   },
   {
    "ticker": "SR.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "股价大跌且无消息，微盘多元化勘探股往往隐含未披露的融资或退租风险。"
+   "ai_note": "月跌16.7%无任何消息，疑似稀释或项目受阻"
+  },
+  {
+   "ticker": "CAMB.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "勘探公司市值3.43亿极不合理，疑似壳公司或数据异常"
   },
   {
    "ticker": "CAF.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "股价横盘且无新闻，微盘金矿股缺乏催化剂，仅作为边缘观察标的。"
+   "ai_note": "横盘无新闻，小市值金矿勘探流动性一般"
   },
   {
-   "ticker": "CAMB.V",
+   "ticker": "NEXU.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "勘探公司市值竟高达3.4亿，数据严重异常或存在极度泡沫，坚决规避。"
+   "ai_adjust": -6,
+   "ai_note": "无新闻暴涨49%，名称与分类不符，高度疑似炒作"
   },
   {
-   "ticker": "TT.V",
+   "ticker": "AVL.TO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "PGM需求疲软，微盘股无新闻下跌暗示机构资金正在撤离或项目遇阻。"
+   "ai_adjust": -4,
+   "ai_note": "无新闻月涨38.6%，推广拉升迹象明显"
   },
   {
    "ticker": "IRV.CN",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "CSE微盘金矿股，无新闻且阴跌，典型的缺乏关注度的边缘化资产。"
-  },
-  {
-   "ticker": "AVL.TO",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "无新闻单月暴涨近40%，关键金属微盘股典型炒作特征，极易遭遇暴跌。"
+   "ai_note": "月跌12%无消息，可能存在未披露利空"
   },
   {
    "ticker": "SAM.TO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "虽有上涨但缺乏新闻确认，基本面改善需财报验证，暂维持中性观望。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月涨17.8%无新闻催化，实际为生产商但标注异常"
   },
   {
    "ticker": "LCE.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "提示为金矿实为锂矿，元数据严重错误，且锂价低迷期需警惕股权稀释。"
-  },
-  {
-   "ticker": "NEXU.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "CSE微盘股无新闻单月暴涨近50%，极度典型的庄家拉高出货特征。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "名称为锂矿却标注黄金勘探，分类严重错误"
   }
  ]
 }
