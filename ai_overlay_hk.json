@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-22T22:30Z",
+ "generated_at": "2026-08-23T22:29Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "1303.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股，无新闻催化，流动性存疑"
-  },
-  {
    "ticker": "2693.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值高岭土公司，市场关注度极低"
+   "ai_adjust": -2,
+   "ai_note": "小市值高岭土生产商，无新闻流，流动性存疑"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型市值，治理与流动性风险较高"
+   "ai_adjust": -3,
+   "ai_note": "市值不足1.5亿，极度微型，治理与流动性风险高"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值且月跌9%，缺乏基本面支撑"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型市值月涨20%却无新闻，疑似炒作"
+   "ai_adjust": -3,
+   "ai_note": "月跌9%且无任何新闻，小市值多元化公司基本面存疑"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "黄金开发阶段公司无新闻，勘探风险与资金消耗隐患大"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "金矿开发商，非洲资产执行风险大"
+   "ai_note": "市值仅1.3亿却月涨20%且无新闻，疑似炒作拉升"
+  },
+  {
+   "ticker": "1182.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值黄金股下跌无消息，可能存在未披露问题"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中型铝企，基本面平稳无突出风险"
-  },
-  {
-   "ticker": "1182.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值金矿股持续走弱，需警惕"
-  },
-  {
-   "ticker": "6885.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股，缺乏明确催化剂"
-  },
-  {
-   "ticker": "1738.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微型市值月涨27%无任何消息，高度可疑"
+   "ai_note": "中型铝企走势平稳，无显著催化剂或风险信号"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型白银生产商，估值合理无异常"
+   "ai_adjust": -1,
+   "ai_note": "中国白银集团市值适中，银价周期敏感但无异常"
   },
   {
    "ticker": "1091.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中型锰矿企业，走势平稳"
+   "ai_note": "南方锰业市值较大，走势平稳无重大风险信号"
+  },
+  {
+   "ticker": "6885.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值3.5亿偏小，煤炭生产商无新闻支撑估值"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值不足1亿月涨27%无任何新闻，高度疑似庄股操纵"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型国企铝企，基本面稳健"
-  },
-  {
-   "ticker": "0276.HK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型市值蒙古煤炭，地缘与流动性风险"
+   "ai_adjust": 0,
+   "ai_note": "中铝为大型国企，流动性好，走势符合板块特征"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "业务多元化不纯，月跌5.6%走势疲弱"
+   "ai_adjust": -2,
+   "ai_note": "北大青鸟 diversified 月跌5.6%无新闻，业务透明度低"
+  },
+  {
+   "ticker": "0276.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "蒙古能源市值仅1亿，蒙古矿区治理与政策风险极高"
   },
   {
    "ticker": "0486.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "俄铝受制裁风险影响，地缘政治隐患大"
-  },
-  {
-   "ticker": "1205.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中信系资源股，国企背景相对稳健"
-  },
-  {
-   "ticker": "2078.HK",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "小市值铝企月涨15%无消息，存炒作嫌疑"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "全球最大铝企之一，基本面扎实"
+   "ai_adjust": -3,
+   "ai_note": "俄铝受地缘制裁风险持续影响，估值折价难消除"
   },
   {
    "ticker": "2302.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中核系铀矿股，国企背景稳健"
+   "ai_note": "中核国际铀矿业务稳定，核能政策支撑但弹性有限"
+  },
+  {
+   "ticker": "2078.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值1.6亿月涨15%无新闻，微型铝股异动需警惕操纵"
+  },
+  {
+   "ticker": "1205.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中信资源背靠央企，煤炭业务稳健，月涨8.5%属正常"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中国宏桥为全球最大民营铝企，基本面扎实无异常"
+  },
+  {
+   "ticker": "1898.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中煤能源为大型央企煤企，走势平稳符合高股息特征"
   }
  ]
 }
