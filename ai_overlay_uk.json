@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-23T22:13Z",
+ "generated_at": "2026-08-24T22:22Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
-   "ticker": "UFO.L",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "极小市值勘探股无新闻，需警惕持续融资稀释与炒作风险。"
-  },
-  {
    "ticker": "MET1.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型勘探股缺乏实质进展披露，流动性差且易受资金炒作影响。"
+   "ai_adjust": -2,
+   "ai_note": "微型市值勘探股，无新闻支撑涨幅，流动性差存推广嫌疑"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值仅一千四百万英镑，涨幅无催化剂，典型微盘推广特征"
+  },
+  {
+   "ticker": "UFO.L",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "微型勘探股近期涨幅大但无基本面新闻，防范概念炒作与稀释。"
+   "ai_note": "市值极低且历史上有推广记录，无实质新闻支撑需警惕"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "钻石价格低迷叠加严重债务与重组风险，近期暴跌反映基本面恶化。"
+   "ai_adjust": -6,
+   "ai_note": "曾涉Finsbury腐败丑闻治理堪忧，钻石价格低迷叠加暴跌"
   },
   {
    "ticker": "THX.L",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "塞古拉金矿投产顺利，产量爬坡期基本面强劲，估值仍具吸引力。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月涨近24%无明确新闻催化，科特迪瓦存在一定政治风险"
   },
   {
    "ticker": "JLP.L",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "虽有产量但历史上频繁配股融资，需警惕管理层对股东的持续稀释。"
-  },
-  {
-   "ticker": "YCA.L",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "作为实物铀信托基金表现稳健，但缺乏铀矿运营杠杆与勘探弹性。"
+   "ai_note": "多元化生产商走势平稳，无重大异常但缺乏明确催化"
   },
   {
    "ticker": "CMCL.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金价上涨带动业绩与股价大涨，但高成本矿区长期盈利能力存疑。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦运营面临汇率与政策风险，月涨33%无新闻解释"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "巴尔干资产运营稳定且分红慷慨，但金属价格波动对利润影响大。"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非PGM价格疲软且面临电力与物流瓶颈，利润空间受严重挤压。"
+   "ai_note": "中亚铜矿生产商运营稳健，走势合理无明显风险信号"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂价大跌重创勘探股估值，项目融资与开发进度面临极大不确定性。"
+   "ai_adjust": -3,
+   "ai_note": "马里锂矿项目面临严峻政治与许可风险，下跌趋势需警惕"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "铀现货基金受益于核能复兴与供应紧缺，结构性利好明确"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "帕利托金矿品位回升带动业绩，但单一矿区资源接续与扩产风险犹存。"
+   "ai_adjust": 1,
+   "ai_note": "巴西金矿生产商表现强劲，涨幅或有基本面支撑但需确认"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化矿业公司运营平稳，但缺乏突出的增长催化剂与高弹性。"
+   "ai_note": "澳洲多元化生产商走势温和，无突出风险亦无明确催化"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "南非PGM生产商受电力与成本压力，行业逆风持续"
   },
   {
    "ticker": "80M.L",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "股价单月暴跌近三成且无新闻，微型勘探股流动性枯竭与融资风险极高。"
-  },
-  {
-   "ticker": "AAU.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "土耳其宏观与监管风险较高，且金矿资源寿命与品位下降引发担忧。"
+   "ai_adjust": -6,
+   "ai_note": "月跌近29%且无任何新闻，极可能遭遇融资稀释或项目失败"
   },
   {
    "ticker": "CTL.L",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锂价崩盘导致项目经济性存疑，微型市值下融资困难与稀释风险剧增。"
+   "ai_adjust": -2,
+   "ai_note": "智利锂勘探微型股，许可审批不确定性高且流动性极差"
   },
   {
    "ticker": "TGA.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非煤炭出口受物流瓶颈制约，且长期面临ESG压力与资产搁浅风险。"
+   "ai_adjust": -2,
+   "ai_note": "南非煤炭生产商虽现金流尚可但ESG逆风严重制约估值"
   },
   {
    "ticker": "0ICU.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金价大涨与兰特贬值推高利润，但尾矿资源逐渐枯竭限制长期增长空间。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月涨45%极为异常且无新闻，尾矿项目难以支撑如此涨幅"
+  },
+  {
+   "ticker": "AAU.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "土耳其运营存地缘风险，公司历史上有较强推广倾向"
   },
   {
    "ticker": "ORR.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值且股价持续走弱，项目推进缓慢，需警惕资金链断裂或稀释。"
+   "ai_adjust": -2,
+   "ai_note": "市值仅一千六百万英镑微型勘探股，流动性差且无新闻"
   },
   {
    "ticker": "RSG.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "资产剥离与收购重塑了公司版图，但新资产整合与成本管控仍需验证。"
+   "ai_adjust": 2,
+   "ai_note": "中型金矿商大涨或反映并购预期，基本面改善可能性存在"
   }
  ]
 }
