@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-23T22:03Z",
+ "generated_at": "2026-08-24T22:11Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "WWR",
+   "ticker": "CEXYF",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值勘探商暴涨43%却无任何新闻，疑似炒作推动"
+   "ai_adjust": -3,
+   "ai_note": "微型铜矿勘探公司，无催化剂，流动性极差"
   },
   {
    "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅4900万，核能概念壳公司特征明显，无实质进展"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "新成立实体，资产和团队背景不明，缺乏验证"
   },
   {
-   "ticker": "NB",
+   "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "Elk Creek项目开发拖延多年，执行力存疑，融资压力大"
-  },
-  {
-   "ticker": "UROY",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀版税模式风险较低，受益于铀价上行周期"
+   "ai_note": "无任何新闻却暴涨45%，疑似炒作拉高出货"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "Rhyolite Ridge项目面临BLM许可及环保诉讼风险"
+   "ai_note": "Rhyolite Ridge项目面临濒危物种许可重大风险"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Elk Creek项目开发多年融资未定，稀释风险高"
+  },
+  {
+   "ticker": "UROY",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "铀矿权模式稳健，受益铀价上涨周期"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型铀矿勘探商，市值3100万且下跌10%，流动性差"
+   "ai_adjust": -2,
+   "ai_note": "微型铀矿勘探股，缺乏明确催化剂和流动性"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Thacker Pass项目虽有规模但面临原住民诉讼及许可风险"
+   "ai_adjust": -4,
+   "ai_note": "Thacker Pass项目面临重大原住民诉讼和许可阻力"
   },
   {
-   "ticker": "RITE",
+   "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅1060万且暴跌15%，无新闻，疑似壳公司或归零风险"
+   "ai_adjust": -6,
+   "ai_note": "一月暴跌30%，微型股疑似稀释或勘探失败"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "权证标的流动性差，信息极度匮乏，投机风险极高"
+   "ai_adjust": -2,
+   "ai_note": "权证投机性极高，杠杆放大下行风险"
   },
   {
    "ticker": "CMCL",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金生产商受益于金价上涨，基本面尚可"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "钾肥开发商仍处早期阶段，无新闻支撑12%涨幅"
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦运营存在治理和管辖权风险"
   },
   {
    "ticker": "NC",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭生产商面临结构性衰退，下跌13%反映行业逆风"
+   "ai_note": "煤炭行业结构性衰退，ESG撤资压力持续加大"
   },
   {
-   "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值2100万暴跌26%，无新闻，微型勘探商归零风险高"
+   "ticker": "GRO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "巴西钾矿开发商，早期阶段但管辖权尚可"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "FMST权证，母公司暴跌且信息匮乏，杠杆归零风险"
+   "ai_adjust": -6,
+   "ai_note": "与FMST关联权证，标的一月暴跌30%前景堪忧"
   },
   {
    "ticker": "FSM",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型银矿生产商，受益于贵金属牛市，基本面稳健"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "中型银矿生产商，基本面受益贵金属牛市"
   },
   {
    "ticker": "KLGDF",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅1170万的微型金矿勘探商，无新闻支撑涨幅"
+   "ai_adjust": -3,
+   "ai_note": "微型金矿勘探股，市值过低存炒作和稀释风险"
+  },
+  {
+   "ticker": "LGO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小型钒生产商，历史财务压力大，现金流紧张"
   },
   {
    "ticker": "ELBM",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值勘探商涨19%无新闻，需警惕炒作后回调"
-  },
-  {
-   "ticker": "LGO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "钒生产商有实际收入，受益于能源转型需求"
-  },
-  {
-   "ticker": "EU",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿ISR生产商运营稳定，受益于核能复兴主题"
+   "ai_adjust": -4,
+   "ai_note": "电池材料勘探商，有严重稀释和项目延期前科"
   },
   {
    "ticker": "BLLYF",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值勘探商暴跌24%无新闻，可能存在未披露问题"
+   "ai_adjust": -3,
+   "ai_note": "一月跌24%无任何消息，勘探结果或资金存疑"
+  },
+  {
+   "ticker": "TMCWW",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "深海采矿权证暴跌72%，监管和环保阻力极大"
   }
  ]
 }
