@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-23T22:40Z",
+ "generated_at": "2026-08-24T22:49Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
-   "ticker": "601600.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企，历史资本开支大且ROE偏低，缺乏短期催化剂。"
-  },
-  {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝压铸基本面稳健，但市值较小且缺乏显著行业催化。"
+   "ai_note": "中型铝企，无重大新闻，量化评分中等，暂无明显催化剂或风险"
+  },
+  {
+   "ticker": "601600.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "央企龙头，基本面稳健但缺乏短期催化，估值合理"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "传统动力煤国企，业绩稳健但受煤价中枢下移预期压制。"
-  },
-  {
-   "ticker": "000807.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "依赖云南水电，枯水期限电风险及能耗双控常被量化模型低估。"
+   "ai_note": "晋能煤业运营平稳，近期涨幅温和，无异常信号"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤铝双主业盈利尚可，但周期属性强，当前缺乏向上弹性。"
+   "ai_note": "神火股份铝煤双主业，基本面扎实，无治理隐忧"
   },
   {
    "ticker": "002532.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史上曾因信披违规被监管警示，公司治理存在一定瑕疵。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "天山铝业产能稳定，近期走势正常，未发现稀释或许可风险"
+  },
+  {
+   "ticker": "000807.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "云铝股份水电铝优势明显，治理结构良好，无异常"
   },
   {
    "ticker": "600595.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "历史财务问题频发且债务高企，存在较大的基本面与治理风险。"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "央企煤炭龙头，高股息提供安全边际，但缺乏成长弹性。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中孚实业历史上有财务及治理争议，近期跑输板块，需警惕"
   },
   {
    "ticker": "603071.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤企，流动性较差且历史资本运作频繁，需防范治理风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "浙能环保能源市值偏小但运营正常，涨幅在合理区间"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "历经多次重组，历史治理结构复杂，基本面改善仍需时间验证。"
+   "ai_note": "焦作万方曾有债务及治理问题，需关注潜在稀释风险"
   },
   {
    "ticker": "600157.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "长期存在壳资源炒作特征，主业盈利能力弱，公司治理风险极高。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "永泰能源转型中，近期表现平稳，无突出风险信号"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中煤能源为大型央企，流动性好，基本面稳健"
   },
   {
    "ticker": "600740.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "焦煤国企，分红稳定，但受宏观经济及地产需求疲软拖累。"
+   "ai_note": "山西焦化近期涨幅较大但属板块联动，无治理异常"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "南山铝业历史上存在关联交易及治理争议，需额外关注"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "资产注入预期较好，但当前煤价承压，短期业绩弹性受限。"
-  },
-  {
-   "ticker": "600219.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "民企激进扩张导致资产负债率偏高，需警惕资金链与治理风险。"
+   "ai_note": "山煤国际月涨幅较大但属煤炭板块整体走强，暂无异常"
   },
   {
    "ticker": "601699.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "地方煤炭国企，业绩平稳，但缺乏显著的估值修复催化剂。"
-  },
-  {
-   "ticker": "002978.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "业务庞杂且历史沿革复杂，小市值叠加多元化折价，流动性一般。"
-  },
-  {
-   "ticker": "600098.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "地方综合类国企，非纯矿业标的，存在明显的多元化折价。"
+   "ai_note": "潞安环能基本面稳健，近期涨幅与板块一致，无治理隐忧"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "地方能源国企，煤炭主业稳健，但受区域电力及煤价波动影响。"
+   "ai_note": "霍林河露天煤业运营正常，市值较大，流动性良好"
   },
   {
-   "ticker": "600508.SS",
+   "ticker": "002978.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中煤旗下优质资产，基本面扎实，但估值已合理反映其价值。"
+   "ai_note": "广投集团多元化布局，近期表现平稳，无突出风险"
+  },
+  {
+   "ticker": "600098.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "广州发展集团业务多元，近期走势温和，无异常信号"
   },
   {
    "ticker": "000792.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "盐湖股份锂资源龙头，但锂价波动大，量化评分偏低反映不确定性"
+  },
+  {
+   "ticker": "600971.SS",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂价暴跌致利润大幅缩水，量化模型或未充分反映周期底部的业绩风险。"
+   "ai_adjust": -2,
+   "ai_note": "安徽恒源量化分最低却月涨近14%，小市值异动需防炒作回落"
   }
  ]
 }
