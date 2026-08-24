@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-23T23:04Z",
+ "generated_at": "2026-08-24T23:11Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "LAB.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "无新闻无催化，小市值勘探公司流动性存疑"
-  },
-  {
    "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "无新闻却跌16.7%，疑似隐性稀释或钻探失利"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "名称为铀矿却标注黄金，行业分类错误需警惕"
+   "ai_note": "高分但月跌16%无消息，疑似稀释或钻探失利"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "2.68亿市值开发商月跌22%无消息，可能有未披露风险"
+   "ai_note": "大市值却月跌近20%无新闻，基本面存疑"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金矿生产商横盘无消息，暂无明显催化"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "行业标注错误(铀矿标为金矿)且暴跌37%"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铜矿勘探小幅下跌无新闻，暂无明显异常"
+   "ai_note": "微型铜矿勘探股小幅下跌，流动性风险"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小幅上涨无新闻支撑，观望为主"
+  },
+  {
+   "ticker": "ENDR.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型金矿股月跌20%无消息，恐钻探失败"
   },
   {
    "ticker": "GIGA.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "镍钴开发商市值仅千万且下跌，流动性风险高"
-  },
-  {
-   "ticker": "HLU.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀矿勘探小幅回调无异常消息，暂观望"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "无新闻却涨10%，疑似炒作拉升需警惕回落"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "标注为生产商却无运营新闻，涨10%存疑"
-  },
-  {
-   "ticker": "TT.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "PGM勘探月跌11%无消息，可能有不利进展"
+   "ai_note": "市值仅千万的镍钴开发股持续下跌"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "无新闻暴涨18%，典型推广拉升特征"
+   "ai_note": "无新闻暴涨23%典型炒作特征"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "微型金矿股小幅上涨无新闻，观望"
+  },
+  {
+   "ticker": "HLU.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铀矿勘探股小幅下跌，行业周期波动"
+  },
+  {
+   "ticker": "HUNT.CN",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型多元勘探股月跌11%无消息"
   },
   {
    "ticker": "AEMC.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "横盘无消息，小市值金矿勘探暂无催化"
+   "ai_adjust": -1,
+   "ai_note": "微型金矿勘探股横盘，流动性堪忧"
   },
   {
    "ticker": "SR.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌16.7%无任何消息，疑似稀释或项目受阻"
+   "ai_note": "月跌16%无新闻，疑似稀释或利空"
   },
   {
    "ticker": "CAMB.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "勘探公司市值3.43亿极不合理，疑似壳公司或数据异常"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大市值金矿股温和上涨，暂无异常"
   },
   {
    "ticker": "CAF.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "横盘无新闻，小市值金矿勘探流动性一般"
+   "ai_note": "微型金矿勘探股横盘无消息"
   },
   {
-   "ticker": "NEXU.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "无新闻暴涨49%，名称与分类不符，高度疑似炒作"
-  },
-  {
-   "ticker": "AVL.TO",
+   "ticker": "SAM.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "无新闻月涨38.6%，推广拉升迹象明显"
+   "ai_adjust": -3,
+   "ai_note": "标注为勘探实为生产商，分类错误且暴涨无新闻"
+  },
+  {
+   "ticker": "BTR.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "金矿开发股月跌15%无消息，需关注"
+  },
+  {
+   "ticker": "OCEN.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型市值无新闻暴涨16%，炒作嫌疑大"
   },
   {
    "ticker": "IRV.CN",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "月跌12%无消息，可能存在未披露利空"
-  },
-  {
-   "ticker": "SAM.TO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月涨17.8%无新闻催化，实际为生产商但标注异常"
-  },
-  {
-   "ticker": "LCE.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "名称为锂矿却标注黄金勘探，分类严重错误"
+   "ai_note": "金矿勘探股月跌11%无消息支撑"
   }
  ]
 }
