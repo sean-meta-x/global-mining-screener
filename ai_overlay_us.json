@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T22:11Z",
+ "generated_at": "2026-08-25T22:11Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "CEXYF",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铜矿勘探公司，无催化剂，流动性极差"
-  },
-  {
-   "ticker": "FNUC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "新成立实体，资产和团队背景不明，缺乏验证"
+   "ai_note": "微型铜矿勘探商，流动性极差且面临极高稀释风险。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "无任何新闻却暴涨45%，疑似炒作拉高出货"
+   "ai_adjust": -2,
+   "ai_note": "短期涨幅过大，石墨项目易受概念炒作与融资稀释影响。"
+  },
+  {
+   "ticker": "FNUC",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "极度缺乏流动性的微型壳公司，存在严重的信息不透明风险。"
+  },
+  {
+   "ticker": "UROY",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型铀矿版税公司，基本面稳健，但短期涨幅过大需防回调。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Rhyolite Ridge项目面临濒危物种许可重大风险"
+   "ai_adjust": -4,
+   "ai_note": "锂矿项目受美国联邦土地审批延误影响，开发进度存在不确定性。"
   },
   {
    "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Elk Creek项目开发多年融资未定，稀释风险高"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "稀有金属项目长期面临融资困难与股权稀释，历史信用记录不佳。"
   },
   {
-   "ticker": "UROY",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "铀矿权模式稳健，受益铀价上涨周期"
+   "ticker": "NAMMW",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "作为认股权证，面临极高的时间价值衰减与正股稀释风险。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金生产商基本面尚可，但短期涨幅较大，估值修复空间有限。"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型概念股，近期暴跌且历史上有频繁融资稀释和炒作劣迹。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "拥有顶级锂矿资产且有通用汽车背书，但巨额资本开支仍是隐患。"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "钾矿开发项目面临较高的资本开支压力及大宗商品价格波动风险。"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型铀矿勘探股，缺乏明确催化剂和流动性"
+   "ai_note": "微型铀矿勘探商，市值过小，极易受市场情绪和融资摊薄影响。"
   },
   {
-   "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Thacker Pass项目面临重大原住民诉讼和许可阻力"
-  },
-  {
-   "ticker": "FMST",
+   "ticker": "RITE",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "一月暴跌30%，微型股疑似稀释或勘探失败"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "权证投机性极高，杠杆放大下行风险"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦运营存在治理和管辖权风险"
+   "ai_adjust": -4,
+   "ai_note": "极小市值PGM勘探商，缺乏实质性进展，存在极高的退市或归零风险。"
   },
   {
    "ticker": "NC",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭行业结构性衰退，ESG撤资压力持续加大"
+   "ai_note": "传统煤炭生产商，面临长期ESG政策压力与行业结构性衰退。"
   },
   {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴西钾矿开发商，早期阶段但管辖权尚可"
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型多金属勘探商，市值极低，流动性差且高度依赖外部融资。"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "与FMST关联权证，标的一月暴跌30%前景堪忧"
-  },
-  {
-   "ticker": "FSM",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "中型银矿生产商，基本面受益贵金属牛市"
+   "ai_adjust": -8,
+   "ai_note": "作为FMST的配套权证，波动极大且面临严重的价值归零风险。"
   },
   {
    "ticker": "KLGDF",
    "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型金矿勘探商，市值过小，钻探结果不及预期将导致股价重挫。"
+  },
+  {
+   "ticker": "ATCMF",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型金矿勘探股，市值过低存炒作和稀释风险"
+   "ai_note": "微型多金属生产商，项目规模小且面临持续的运营与资金压力。"
   },
   {
    "ticker": "LGO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小型钒生产商，历史财务压力大，现金流紧张"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "钒矿生产商近期反弹明显，但受制于钒价波动与微盘股流动性。"
   },
   {
-   "ticker": "ELBM",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "电池材料勘探商，有严重稀释和项目延期前科"
-  },
-  {
-   "ticker": "BLLYF",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "一月跌24%无任何消息，勘探结果或资金存疑"
-  },
-  {
-   "ticker": "TMCWW",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "深海采矿权证暴跌72%，监管和环保阻力极大"
+   "ticker": "FSM",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型银金矿企，运营稳健，但短期涨幅过高透支了部分未来预期。"
   }
  ]
 }
