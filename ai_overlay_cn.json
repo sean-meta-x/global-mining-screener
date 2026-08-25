@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-24T22:49Z",
+ "generated_at": "2026-08-25T22:47Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
-   "ticker": "002101.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型铝企，无重大新闻，量化评分中等，暂无明显催化剂或风险"
-  },
-  {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企龙头，基本面稳健但缺乏短期催化，估值合理"
+   "ai_note": "大型国企铝企，基本面稳定但缺乏催化剂"
   },
   {
-   "ticker": "601001.SS",
+   "ticker": "002101.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "晋能煤业运营平稳，近期涨幅温和，无异常信号"
+   "ai_note": "中小铝企，信息有限暂无明显风险信号"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "神火股份铝煤双主业，基本面扎实，无治理隐忧"
+   "ai_note": "煤电铝一体化布局，经营相对稳健"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "天山铝业产能稳定，近期走势正常，未发现稀释或许可风险"
+   "ai_note": "宏桥旗下铝企，运营正常无异常"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "云铝股份水电铝优势明显，治理结构良好，无异常"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中孚实业历史上有财务及治理争议，近期跑输板块，需警惕"
-  },
-  {
-   "ticker": "603071.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "浙能环保能源市值偏小但运营正常，涨幅在合理区间"
+   "ai_adjust": 1,
+   "ai_note": "绿电铝优势明显，水电成本较低"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "焦作万方曾有债务及治理问题，需关注潜在稀释风险"
+   "ai_adjust": -2,
+   "ai_note": "历史治理问题较多，关联交易需警惕"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "有财务困境历史，债务风险较高"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "山西煤炭国企，运营平稳无异常"
+  },
+  {
+   "ticker": "002540.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中小铝企，信息有限暂无法判断"
   },
   {
    "ticker": "600157.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "永泰能源转型中，近期表现平稳，无突出风险信号"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中煤能源为大型央企，流动性好，基本面稳健"
-  },
-  {
-   "ticker": "600740.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "山西焦化近期涨幅较大但属板块联动，无治理异常"
-  },
-  {
-   "ticker": "600219.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南山铝业历史上存在关联交易及治理争议，需额外关注"
+   "ai_adjust": -2,
+   "ai_note": "公司治理存疑，关联交易频繁需关注"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山煤国际月涨幅较大但属煤炭板块整体走强，暂无异常"
+   "ai_note": "山西煤炭国企，基本面正常"
   },
   {
-   "ticker": "601699.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "潞安环能基本面稳健，近期涨幅与板块一致，无治理隐忧"
+   "ticker": "600219.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "母公司南山集团曾陷债务危机"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "霍林河露天煤业运营正常，市值较大，流动性良好"
+   "ai_note": "露天煤矿具成本优势，运营正常"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型央企煤炭，稳健但弹性有限"
   },
   {
    "ticker": "002978.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "广投集团多元化布局，近期表现平稳，无突出风险"
+   "ai_note": "多元化经营，信息有限暂无亮点"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "盐湖提锂龙头但估值偏高治理存疑"
+  },
+  {
+   "ticker": "601699.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭国企近期涨幅大，注意回调风险"
+  },
+  {
+   "ticker": "600740.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "焦煤小市值企业，波动较大"
   },
   {
    "ticker": "600098.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "广州发展集团业务多元，近期走势温和，无异常信号"
+   "ai_note": "煤炭业务表现平淡，无突出亮点"
   },
   {
-   "ticker": "000792.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "盐湖股份锂资源龙头，但锂价波动大，量化评分偏低反映不确定性"
-  },
-  {
-   "ticker": "600971.SS",
+   "ticker": "002379.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "安徽恒源量化分最低却月涨近14%，小市值异动需防炒作回落"
+   "ai_adjust": -3,
+   "ai_note": "大跌8%无公告，治理与债务风险存疑"
   }
  ]
 }
