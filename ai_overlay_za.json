@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T22:26Z",
+ "generated_at": "2026-08-25T22:25Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿龙头运营稳健，无重大风险信号"
+   "ai_note": "优质铁矿商，中国需求不确定但分红稳健，无重大异常"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型勘探公司单月暴跌34%且无消息，高度疑似融资稀释或钻探失败"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史多次配股稀释，治理存疑"
+   "ai_adjust": -4,
+   "ai_note": "公司治理历史存疑，架构复杂且多次配售摊薄股东权益"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬价反弹带动上涨，运营尚可"
-  },
-  {
-   "ticker": "THA.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "债务压力较大，关联交易需警惕"
+   "ai_adjust": -3,
+   "ai_note": "与嘉能可关系复杂，运营高度依赖关联方，自主权受限"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "长期停滞开发商，无产出能力"
+   "ai_adjust": -7,
+   "ai_note": "铂族矿开发商未投产，持续烧钱且许可进展不明，稀释风险极高"
+  },
+  {
+   "ticker": "THA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "津巴布韦运营面临政治与外汇管制风险，政策变动频繁"
   },
   {
    "ticker": "MTU.JO",
-   "ai_view": "red_flag",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "微型市值暴跌两成，经营堪忧"
+   "ai_note": "市值仅7000万，流动性极差且信息透明度低，治理风险突出"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭龙头稳健，ESG逆风可控"
+   "ai_note": "管理良好的煤炭巨头，ESG逆风已被定价，分红可观"
   },
   {
    "ticker": "APH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "锡矿运营扎实，刚果风险可控"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "刚果(金)锡矿运营，地缘风险与锡价波动叠加，单一品种集中度高"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "曾涉莫桑比克红宝石丑闻"
+   "ai_adjust": -3,
+   "ai_note": "彩色宝石市场小且波动大，莫桑比克和赞比亚运营存政治风险"
+  },
+  {
+   "ticker": "CPR.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "勘探公司单月暴涨39%却无任何新闻，典型炒作拉升特征"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型股异常暴涨，疑似炒作"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "动力煤分拆公司，ESG承压"
+   "ai_adjust": -8,
+   "ai_note": "微型煤炭股月涨49%无基本面消息支撑，高度疑似庄股拉升"
   },
   {
    "ticker": "SKA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型勘探股无收入，风险极高"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值不足1亿的勘探公司，流动性枯竭且融资稀释风险极高"
   },
   {
-   "ticker": "KP2.JO",
+   "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "钾肥开发周期长，许可不确定性大"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "多元矿业龙头，管理层优秀"
+   "ai_adjust": -4,
+   "ai_note": "从Seriti分拆时背负大量债务，煤炭长期需求结构性下行"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "建材加铁矿双轮驱动，运营稳定"
+   "ai_note": "管理稳健的建材和铁矿中游企业，业务多元化，风险可控"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "单月涨21%后估值偏高，Motsepe关联治理争议需持续关注"
+  },
+  {
+   "ticker": "KP2.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "刚果(金)钾矿开发项目，许可延迟和资金缺口风险尚未消除"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "尾矿提金受益于金价上涨"
-  },
-  {
-   "ticker": "CPR.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘勘探股异常拉升，疑有推介"
+   "ai_adjust": 1,
+   "ai_note": "地表尾矿回收低成本产金，金价上行周期受益明显，量化评分偏低"
   },
   {
    "ticker": "VAL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Sibanye分拆新公司，待观察"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铂族金属需求受汽车替代技术威胁，月涨30%后追高风险大"
   },
   {
    "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "顶级金矿商，金价上涨直接受益"
-  },
-  {
-   "ticker": "MCZ.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤矿开发许可拖延，融资困难"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "优质多元化金矿巨头，资产分布合理，量化分未反映金价强势"
   }
  ]
 }
