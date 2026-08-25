@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-24T23:11Z",
+ "generated_at": "2026-08-25T23:12Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "MRZL.V",
+   "ticker": "VIO.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "高分但月跌16%无消息，疑似稀释或钻探失利"
+   "ai_adjust": -2,
+   "ai_note": "微型金矿勘探商长期横盘无催化剂，壳公司风险"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "大市值却月跌近20%无新闻，基本面存疑"
+   "ai_note": "能源转型概念一月暴跌25%无任何新闻，警惕稀释"
   },
   {
-   "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿生产商横盘无消息，暂无明显催化"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "行业标注错误(铀矿标为金矿)且暴跌37%"
+   "ticker": "MRZL.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型勘探壳公司长期无催化剂，流动性极差"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型铜矿勘探股小幅下跌，流动性风险"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小幅上涨无新闻支撑，观望为主"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型铜矿勘探商无新闻却上涨，警惕炒作"
   },
   {
    "ticker": "ENDR.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型金矿股月跌20%无消息，恐钻探失败"
+   "ai_note": "纽芬兰金矿跌23%无新闻，钻探结果或令人失望"
   },
   {
-   "ticker": "GIGA.V",
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿勘探商暴跌27%无新闻，极可能稀释或失败"
+  },
+  {
+   "ticker": "HLU.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "市值仅千万的镍钴开发股持续下跌"
+   "ai_note": "微型铀矿壳公司无催化剂，流动性极差"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "金矿生产商涨17%无任何新闻，警惕拉高出货"
+  },
+  {
+   "ticker": "SR.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型壳公司一月暴跌28%无任何新闻，高度可疑"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "无新闻暴涨23%典型炒作特征"
+   "ai_adjust": -3,
+   "ai_note": "小盘无新闻却大涨19%，警惕庄家拉高出货"
   },
   {
    "ticker": "LAB.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "微型金矿股小幅上涨无新闻，观望"
+   "ai_note": "拉布拉多金矿有钻探进展，暂无明显风险"
   },
   {
-   "ticker": "HLU.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀矿勘探股小幅下跌，行业周期波动"
+   "ticker": "OCEN.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型壳公司无催化剂，流动性差"
   },
   {
    "ticker": "HUNT.CN",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型多元勘探股月跌11%无消息"
+   "ai_note": "微型壳公司无新闻，下跌趋势"
   },
   {
    "ticker": "AEMC.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型金矿勘探股横盘，流动性堪忧"
-  },
-  {
-   "ticker": "SR.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌16%无新闻，疑似稀释或利空"
+   "ai_adjust": -2,
+   "ai_note": "微型壳公司横盘无催化剂"
   },
   {
-   "ticker": "CAMB.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大市值金矿股温和上涨，暂无异常"
-  },
-  {
-   "ticker": "CAF.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型金矿勘探股横盘无消息"
-  },
-  {
-   "ticker": "SAM.TO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "标注为勘探实为生产商，分类错误且暴涨无新闻"
+   "ticker": "JG.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "日本金矿一月暴跌37%无任何新闻，极可能钻探失败或严重稀释"
   },
   {
    "ticker": "BTR.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金矿开发股月跌15%无消息，需关注"
+   "ai_adjust": -3,
+   "ai_note": "博特拉资源跌19%无新闻，可能钻探不及预期"
   },
   {
-   "ticker": "OCEN.V",
+   "ticker": "CAF.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值无新闻暴涨16%，炒作嫌疑大"
+   "ai_adjust": -2,
+   "ai_note": "微型壳公司横盘无催化剂"
+  },
+  {
+   "ticker": "SAM.TO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "星核国际大涨23%无新闻，需警惕拉高出货"
+  },
+  {
+   "ticker": "TT.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型壳公司横盘无催化剂"
   },
   {
    "ticker": "IRV.CN",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "金矿勘探股月跌11%无消息支撑"
+   "ai_note": "微型壳公司下跌无新闻"
   }
  ]
 }
