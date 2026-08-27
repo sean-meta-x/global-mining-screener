@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T22:25Z",
+ "generated_at": "2026-08-27T01:29Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "优质铁矿商，中国需求不确定但分红稳健，无重大异常"
+   "ai_note": "大型铁矿商，基本面稳健，无异常信号"
   },
   {
    "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型勘探公司单月暴跌34%且无消息，高度疑似融资稀释或钻探失败"
-  },
-  {
-   "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "公司治理历史存疑，架构复杂且多次配售摊薄股东权益"
-  },
-  {
-   "ticker": "MRF.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "与嘉能可关系复杂，运营高度依赖关联方，自主权受限"
+   "ai_note": "微型勘探公司，持续烧钱且无新消息，稀释风险高"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "铂族矿开发商未投产，持续烧钱且许可进展不明，稀释风险极高"
+   "ai_adjust": -8,
+   "ai_note": "历史治理问题严重，Bakoni项目多次失败，信誉差"
   },
   {
-   "ticker": "THA.JO",
+   "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "津巴布韦运营面临政治与外汇管制风险，政策变动频繁"
+   "ai_adjust": -2,
+   "ai_note": "有稀释历史，运营执行风险需关注"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值仅7000万，流动性极差且信息透明度低，治理风险突出"
+   "ai_adjust": -4,
+   "ai_note": "市值仅六千五百万，流动性极差，信息不透明"
+  },
+  {
+   "ticker": "MRF.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "与Glencore关联交易复杂，治理结构存疑"
+  },
+  {
+   "ticker": "THA.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "PGM生产商运营稳定，无明显治理或稀释问题"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "管理良好的煤炭巨头，ESG逆风已被定价，分红可观"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "刚果(金)锡矿运营，地缘风险与锡价波动叠加，单一品种集中度高"
+   "ai_note": "大型煤炭商，ESG转型压力已被市场定价"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "彩色宝石市场小且波动大，莫桑比克和赞比亚运营存政治风险"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "彩色宝石龙头，运营正常，无异常信号"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "锡矿生产商运营良好，刚果(金)风险可控"
   },
   {
    "ticker": "CPR.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "勘探公司单月暴涨39%却无任何新闻，典型炒作拉升特征"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "勘探阶段无新闻却涨12.8%，疑似推广拉抬"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型煤炭股月涨49%无基本面消息支撑，高度疑似庄股拉升"
+   "ai_adjust": -6,
+   "ai_note": "微型煤炭股无消息暴涨28%，典型拉高出货特征"
   },
   {
    "ticker": "SKA.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值不足1亿的勘探公司，流动性枯竭且融资稀释风险极高"
+   "ai_adjust": -5,
+   "ai_note": "市值不足一亿的微型勘探股，无消息持续下跌"
   },
   {
    "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "从Seriti分拆时背负大量债务，煤炭长期需求结构性下行"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "从Anglo分拆的煤炭商，高分红但转型风险已知"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "管理稳健的建材和铁矿中游企业，业务多元化，风险可控"
+   "ai_note": "建材与铁矿多元化经营，基本面稳健"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "单月涨21%后估值偏高，Motsepe关联治理争议需持续关注"
+   "ai_adjust": -2,
+   "ai_note": "Motsepe家族治理争议，涨23%无实质利好支撑"
   },
   {
-   "ticker": "KP2.JO",
+   "ticker": "MCZ.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "刚果(金)钾矿开发项目，许可延迟和资金缺口风险尚未消除"
-  },
-  {
-   "ticker": "DRD.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "地表尾矿回收低成本产金，金价上行周期受益明显，量化评分偏低"
+   "ai_adjust": -3,
+   "ai_note": "煤炭开发商，项目执行与融资风险较高"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂族金属需求受汽车替代技术威胁，月涨30%后追高风险大"
+   "ai_adjust": -3,
+   "ai_note": "刚从Sibanye分拆，独立运营能力尚未验证"
   },
   {
-   "ticker": "GFI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "优质多元化金矿巨头，资产分布合理，量化分未反映金价强势"
+   "ticker": "KP2.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "钾肥开发周期长，资金需求大，短期无催化"
+  },
+  {
+   "ticker": "DRD.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "无消息暴涨39%，尾矿加工商波动需警惕回调"
   }
  ]
 }
