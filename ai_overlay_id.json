@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T22:30Z",
+ "generated_at": "2026-08-27T01:34Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型市值多元化矿企，流动性差且无新闻催化，治理风险高"
+   "ai_note": "极小市值且零新闻覆盖，流动性和治理风险较高"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "极小市值煤炭生产商，流动性不足，存在稀释与治理隐患"
+   "ai_adjust": -4,
+   "ai_note": "市值不足4000亿印尼盾，微型股存在操纵和治理隐患"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌10%且无任何利好消息，基本面可能恶化需警惕"
+   "ai_note": "量化评分尚可但一月跌近12%且无新闻解释，或有隐性利空"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Astra旗下大型设备商，治理规范，回调属周期性波动"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中小市值多元化矿企，动量平淡无催化，暂观望"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "Astra旗下大型设备与煤炭龙头，治理优良，回调可关注"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型煤炭生产商，小幅回调无异常，但缺乏明确催化"
+   "ai_note": "黄金项目推进中但产能爬坡存在不确定性"
   },
   {
    "ticker": "MYOH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "小市值煤炭股月涨11%无新闻支撑，疑似游资炒作"
-  },
-  {
-   "ticker": "KKGI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭中游生产商，流动性有限，治理透明度存疑"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中小型煤矿商，信息透明度有限需保持关注"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "极小市值煤炭股市值仅约1亿美元，典型庄股特征"
+   "ai_adjust": -5,
+   "ai_note": "市值仅1590亿印尼盾，微型壳股特征明显，治理存疑"
+  },
+  {
+   "ticker": "KKGI.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "Berau Coal关联公司，关联交易和治理需额外关注"
+  },
+  {
+   "ticker": "DWGL.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "月涨24%却无任何新闻催化，高度疑似炒作拉升"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "中型煤企龙头，治理较好且受益于煤价周期"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "近期完成反向拆股，通常反映此前股价低迷和财务压力"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "月暴涨48%无任何新闻，金矿小盘股典型拉高出货信号"
+   "ai_note": "月涨近50%且零新闻，典型金矿小票拉高出货特征"
   },
   {
-   "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤炭生产商动量尚可，估值合理暂无明显风险"
+   "ticker": "PTBA.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "国企大型煤企，分红稳定治理可靠，估值合理"
   },
   {
    "ticker": "TINS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国有锡业龙头，受锡价支撑月涨12%，治理相对可靠"
-  },
-  {
-   "ticker": "DWGL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "小市值煤炭股月飙32%无基本面支撑，高度疑似炒作"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型镍生产商市值充裕，动量温和，无异常信号"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "国企锡业龙头，受锡价上涨驱动且治理规范"
   },
   {
    "ticker": "DAAZ.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值多元化矿企信息不透明，需防范稀释风险"
+   "ai_adjust": -2,
+   "ai_note": "分析师覆盖极少，信息披露不充分，流动性风险存在"
   },
   {
-   "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "小市值煤炭股月跌14%无任何公告，可能存在未披露利空"
-  },
-  {
-   "ticker": "PTBA.JK",
+   "ticker": "DOID.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国有煤炭龙头分红稳定，治理规范，回调后具防御价值"
+   "ai_adjust": -1,
+   "ai_note": "采矿承包商，受下游资本开支周期影响较大"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭生产商走势平稳，无突出风险亦无催化"
+   "ai_note": "煤企运营稳健，治理尚可，无明显异常信号"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "大型镍企，RKEF产能释放中，基本面扎实"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型市值且月跌近12%无新闻，可能存在未披露问题"
   },
   {
    "ticker": "ANTM.JK",
    "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "国有多元化矿业巨头，镍金业务提供支撑，治理可靠"
-  },
-  {
-   "ticker": "ARII.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭生产商流动性差，月涨8%缺乏基本面验证"
+   "ai_note": "国企多元化矿业，治理规范但决策效率偏低"
   }
  ]
 }
