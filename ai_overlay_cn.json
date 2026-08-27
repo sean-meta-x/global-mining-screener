@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T22:47Z",
+ "generated_at": "2026-08-27T01:52Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，基本面稳定但缺乏催化剂"
+   "ai_note": "国企背景治理稳健，但历史债务包袱较重，量化未充分定价。"
   },
   {
    "ticker": "002101.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中小铝企，信息有限暂无明显风险信号"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "民企治理结构需关注，历史财务透明度一般，需适度折价。"
   },
   {
    "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤电铝一体化布局，经营相对稳健"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "煤电铝一体化优势显著，盈利韧性强，量化评分略显保守。"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "历史债务危机与重组遗留问题多，治理风险高，需大幅折价。"
+  },
+  {
+   "ticker": "000612.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "转型期主业盈利能力偏弱，历史诉讼与债务风险需警惕。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "宏桥旗下铝企，运营正常无异常"
+   "ai_note": "新疆国资背景，自备电厂成本优势明显，基本面扎实。"
   },
   {
    "ticker": "000807.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "绿电铝优势明显，水电成本较低"
-  },
-  {
-   "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史治理问题较多，关联交易需警惕"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "有财务困境历史，债务风险较高"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "山西煤炭国企，运营平稳无异常"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "绿电铝成本优势突出，符合低碳趋势，量化未充分体现溢价。"
   },
   {
    "ticker": "002540.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中小铝企，信息有限暂无法判断"
+   "ai_note": "铝加工龙头，产能释放稳健，但受限于加工费波动，表现平稳。"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "央企煤炭龙头，高股息与长协煤比例高，防御属性量化未足价。"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "近期涨幅较大，短期有回调压力，但高股息提供较强安全边际。"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤电铝全产业链布局，但业务庞杂，治理与关联交易需持续跟踪。"
   },
   {
    "ticker": "600157.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "公司治理存疑，关联交易频繁需关注"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "历史扩张激进导致债务高企，治理结构复杂，需警惕财务风险。"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西煤炭国企，基本面正常"
+   "ai_note": "山西国资背景，煤炭主业稳健，但成长性受限于产能核增空间。"
   },
   {
-   "ticker": "600219.SS",
+   "ticker": "000792.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "母公司南山集团曾陷债务危机"
-  },
-  {
-   "ticker": "002128.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "露天煤矿具成本优势，运营正常"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型央企煤炭，稳健但弹性有限"
+   "ai_adjust": -2,
+   "ai_note": "钾锂双主业壁垒高，但历史破产重整遗留问题及国企效率需折价。"
   },
   {
    "ticker": "002978.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化经营，信息有限暂无亮点"
-  },
-  {
-   "ticker": "000792.SZ",
-   "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "盐湖提锂龙头但估值偏高治理存疑"
-  },
-  {
-   "ticker": "601699.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭国企近期涨幅大，注意回调风险"
-  },
-  {
-   "ticker": "600740.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "焦煤小市值企业，波动较大"
+   "ai_note": "业务相对多元但主业不突出，市场关注度低，流动性溢价需折价。"
   },
   {
    "ticker": "600098.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭业务表现平淡，无突出亮点"
+   "ai_note": "地方国企背景，煤电热联产模式稳健，但缺乏显著的成长催化剂。"
+  },
+  {
+   "ticker": "600740.SS",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "稀缺焦煤资源禀赋好，盈利能力强，量化模型未充分反映资源溢价。"
+  },
+  {
+   "ticker": "601699.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "喷吹煤龙头，盈利稳定且分红较好，但近期涨幅已部分兑现预期。"
+  },
+  {
+   "ticker": "002128.SZ",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "煤电铝一体化及新能源转型顺利，绿电资产注入预期提升估值。"
   },
   {
    "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "大跌8%无公告，治理与债务风险存疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "大股东关联交易频繁，历史治理劣迹斑斑，近期大跌或隐含暴雷风险。"
   }
  ]
 }
