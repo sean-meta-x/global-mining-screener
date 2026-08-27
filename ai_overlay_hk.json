@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-25T22:36Z",
+ "generated_at": "2026-08-27T01:40Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "8250.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅2700万且月跌28%，GEM壳股特征明显"
+   "ai_adjust": -10,
+   "ai_note": "市值极小且大跌，存在壳股及流动性枯竭风险。"
   },
   {
    "ticker": "0637.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小市值但无显著异常信号"
-  },
-  {
-   "ticker": "1303.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小市值煤炭股，基本面平庸"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "市值偏小且业务庞杂，需警惕治理与稀释风险。"
   },
   {
    "ticker": "2693.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "运营稳定，无明显风险信号"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值高岭土生产商，流动性差且易受资金操纵。"
+  },
+  {
+   "ticker": "1303.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "煤炭小盘股面临环保政策及流动性折价风险。"
   },
   {
    "ticker": "0166.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌14%小盘股，警惕价值陷阱"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "历史上有重组及财技操作，治理风险极高。"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中盘铝业基本面稳健"
-  },
-  {
-   "ticker": "1738.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值8200万月涨20%，典型拉高出货特征"
+   "ai_note": "铝型材龙头之一，基本面稳健但缺乏短期催化剂。"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "历史上存在运营和融资困难记录"
+   "ai_note": "黄金开发阶段项目存在融资稀释及地缘政治风险。"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "市值极小且短期暴涨，典型庄股特征，谨防操纵。"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中盘白银生产商运营稳定"
+   "ai_adjust": -2,
+   "ai_note": "白银产能大但利润率低，受宏观周期压制。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "极小市值煤炭股短期异常拉升，存在高度操纵嫌疑。"
   },
   {
    "ticker": "1182.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "公司有历史治理问题记录"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "屡遭监管问询及审计保留，公司治理存在重大瑕疵。"
   },
   {
    "ticker": "1091.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中盘锰业基本面稳健"
-  },
-  {
-   "ticker": "2302.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "央企铀矿生产商运营稳定"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "次新金矿股短期动能正面"
-  },
-  {
-   "ticker": "2078.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘股月涨12.5%走势存疑"
+   "ai_note": "锰业龙头地位稳固，但需关注下游需求放缓风险。"
   },
   {
    "ticker": "2610.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中盘铝业基本面稳健"
+   "ai_note": "铝业大盘股估值合理，但受限于行业整体产能过剩。"
+  },
+  {
+   "ticker": "2078.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "小盘铝企短期涨幅过大，需警惕获利盘抛售风险。"
+  },
+  {
+   "ticker": "2302.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "铀矿稀缺标的，受益于全球核电复苏及铀价上涨预期。"
   },
   {
    "ticker": "0276.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅1亿月跌11%，壳股特征明显"
+   "ai_adjust": -10,
+   "ai_note": "市值濒临仙股边缘，基本面恶化且存在极高退市风险。"
   },
   {
    "ticker": "2600.HK",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "大型央企但存在地缘政治风险"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝业巨头受宏观及周期影响大，当前估值已反映预期。"
   },
   {
    "ticker": "6885.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小盘煤炭基本面平庸"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "煤炭小盘股流动性匮乏，业绩波动大且缺乏机构关注。"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "黄金产量增长明确，受益于金价高位运行及产能释放。"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "创业板股票且月跌近7%"
-  },
-  {
-   "ticker": "0486.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "俄铝巨头面临制裁与地缘风险"
+   "ai_adjust": -5,
+   "ai_note": "业务转型期且市值较小，需关注其实际矿业资产盈利。"
   }
  ]
 }
