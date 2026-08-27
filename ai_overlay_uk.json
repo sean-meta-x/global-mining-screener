@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T22:21Z",
+ "generated_at": "2026-08-27T01:25Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MET1.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "瑞典铁矿项目融资与许可风险高，流动性差。"
-  },
-  {
-   "ticker": "POW.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "铀矿勘探高度依赖炒作，频繁融资稀释股东权益。"
+   "ai_note": "微型市值勘探商无新闻，存在现金消耗与稀释风险"
   },
   {
    "ticker": "UFO.L",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "典型仙股炒作特征，历史上有过度宣传与严重稀释。"
+   "ai_adjust": -5,
+   "ai_note": "PGM板块疲弱下无新闻却涨12.5%，疑似炒作拉升"
+  },
+  {
+   "ticker": "THX.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金矿开发商动量良好，基本面与估值匹配"
+  },
+  {
+   "ticker": "POW.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型市值勘探商横盘无催化剂，稀释风险高"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "坦桑尼亚监管风险高企，钻石价格疲软且债务沉重。"
-  },
-  {
-   "ticker": "THX.L",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "塞古拉金矿投产顺利，产量爬坡带来实质性利好。"
-  },
-  {
-   "ticker": "JLP.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "营运资金紧张，管理层过往资本运作复杂且易稀释。"
+   "ai_adjust": -7,
+   "ai_note": "钻石价格暴跌叠加历史治理问题与债务压力"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲铁矿基本面稳健，但受铁矿石价格周期制约。"
+   "ai_note": "多元生产商运营稳定，动量与估值合理"
+  },
+  {
+   "ticker": "JLP.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "PGM生产商市值偏小，但运营逐步改善"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "津巴布韦国家风险极高，政策变动可能吞噬黄金利润。"
+   "ai_adjust": -2,
+   "ai_note": "金价动量强但津巴布韦运营存在管辖风险"
   },
   {
    "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "纯实物铀信托，无矿山运营风险，受益于铀价长牛。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀现货基金结构清晰，受益于核能需求周期"
   },
   {
    "ticker": "KOD.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "马里地缘政治与军政府风险极高，锂矿许可存疑。"
-  },
-  {
-   "ticker": "SRB.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "巴西金矿品位虽高，但历史成本控制与运营表现不佳。"
-  },
-  {
-   "ticker": "CAML.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴尔干矿山现金流良好，但需警惕当地环保监管风险。"
+   "ai_adjust": -3,
+   "ai_note": "下跌无新闻，勘探进展不明，资金消耗存疑"
   },
   {
    "ticker": "THS.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "南非电力与物流瓶颈制约产能，铂族金属价格承压。"
+   "ai_note": "PGM价格低迷压制盈利，但南非运营尚稳"
+  },
+  {
+   "ticker": "SRB.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金矿生产商动量强劲，巴西运营风险可控"
+  },
+  {
+   "ticker": "CAML.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铜生产商受益于金属价格，北马其顿运营稳定"
   },
   {
    "ticker": "AAU.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "土耳其通胀与汇率风险较高，但矿山运营相对稳定。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "土耳其管辖风险高且市值偏小，流动性受限"
   },
   {
    "ticker": "GLR.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值极小且流动性枯竭，西非勘探项目高度依赖管理层。"
-  },
-  {
-   "ticker": "80M.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "西澳金矿项目推进缓慢，股价大幅回调且流动性差。"
-  },
-  {
-   "ticker": "CTL.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "智利锂矿国有化与环保审批风险严重制约项目推进。"
-  },
-  {
-   "ticker": "0ICU.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南非尾矿回收现金流极佳，但缺乏储量增长且受困于当地风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型市值无新闻却涨18.5%，高度疑似炒作"
   },
   {
    "ticker": "XTR.L",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "典型微型炒作股，频繁增发稀释，公司治理存在严重瑕疵。"
+   "ai_adjust": -5,
+   "ai_note": "勘探股无新闻暴涨28.4%，典型庄家拉升特征"
+  },
+  {
+   "ticker": "CTL.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂板块低迷期微型勘探商融资与稀释风险大"
+  },
+  {
+   "ticker": "80M.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "暴跌20%无公告，疑似钻探失败或紧急融资"
   },
   {
    "ticker": "TGA.L",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭生产商ESG逆风大，但短期现金流尚可"
+  },
+  {
+   "ticker": "0ICU.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非铁路物流瓶颈严重限制煤炭出口，且面临ESG撤资。"
+   "ai_adjust": -2,
+   "ai_note": "月涨48.7%幅度异常，需警惕获利回吐风险"
   }
  ]
 }
