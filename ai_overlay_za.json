@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-27T01:29Z",
+ "generated_at": "2026-08-28T06:12Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铁矿商，基本面稳健，无异常信号"
+   "ai_note": "大型铁矿受宏观需求压制，基本面稳健但缺乏短期催化剂。"
   },
   {
    "ticker": "EUZ.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型勘探公司，持续烧钱且无新消息，稀释风险高"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值极小且无新闻，典型勘探期面临持续稀释与资金链断裂风险。"
+  },
+  {
+   "ticker": "JBL.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "基础金属生产商运营平稳，量化得分合理，无显著隐藏风险。"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "微型市值且近期大跌，流动性枯竭与治理风险极高，需规避。"
+  },
+  {
+   "ticker": "MRF.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铬矿生产商受益于近期价格反弹，基本面与量化得分匹配。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "历史治理问题严重，Bakoni项目多次失败，信誉差"
-  },
-  {
-   "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "有稀释历史，运营执行风险需关注"
-  },
-  {
-   "ticker": "MTU.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅六千五百万，流动性极差，信息不透明"
-  },
-  {
-   "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "与Glencore关联交易复杂，治理结构存疑"
+   "ai_note": "历史治理劣迹斑斑且频繁稀释，量化模型低估了其信用与融资风险。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "PGM生产商运营稳定，无明显治理或稀释问题"
+   "ai_note": "PGM生产商盈利受金属价格波动影响，当前估值与基本面匹配。"
   },
   {
    "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤炭商，ESG转型压力已被市场定价"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭资产面临长期ESG融资约束，量化模型未充分计入资本成本上升。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "彩色宝石龙头，运营正常，无异常信号"
+   "ai_note": "彩色宝石与PGM业务平稳，无显著异常，维持中性观察。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "锡矿生产商运营良好，刚果(金)风险可控"
+   "ai_note": "锡矿基本面良好，近期涨幅合理，量化得分客观反映当前状态。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型煤炭股短期暴涨缺乏基本面支撑，警惕流动性陷阱与炒作。"
   },
   {
    "ticker": "CPR.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "勘探阶段无新闻却涨12.8%，疑似推广拉抬"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型煤炭股无消息暴涨28%，典型拉高出货特征"
+   "ai_adjust": -5,
+   "ai_note": "勘探开发阶段铜矿短期暴涨，需警惕为融资而进行的隐性稀释。"
   },
   {
    "ticker": "SKA.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足一亿的微型勘探股，无消息持续下跌"
+   "ai_adjust": -9,
+   "ai_note": "市值不足一亿的微型勘探壳公司，流动性极差且存在退市风险。"
   },
   {
    "ticker": "TGA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "从Anglo分拆的煤炭商，高分红但转型风险已知"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "高股息煤炭股受短期资金追捧，但长期ESG折价风险被模型忽视。"
+  },
+  {
+   "ticker": "MCZ.JO",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "煤炭开发项目近期暴跌，暴露出许可证推进受阻或资金短缺隐患。"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "建材与铁矿多元化经营，基本面稳健"
+   "ai_note": "铁矿石与建材业务稳健，近期回调属正常市场波动，无重大瑕疵。"
   },
   {
    "ticker": "ARI.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "Motsepe家族治理争议，涨23%无实质利好支撑"
-  },
-  {
-   "ticker": "MCZ.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭开发商，项目执行与融资风险较高"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "刚从Sibanye分拆，独立运营能力尚未验证"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "多元化矿业巨头近期表现强劲，公司治理结构复杂但整体可控。"
   },
   {
    "ticker": "KP2.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "钾肥开发周期长，资金需求大，短期无催化"
+   "ai_adjust": -5,
+   "ai_note": "钾肥开发项目资本开支巨大，模型未充分反映其长期融资稀释风险。"
   },
   {
-   "ticker": "DRD.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无消息暴涨39%，尾矿加工商波动需警惕回调"
+   "ticker": "VAL.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型PGM股短期异常暴涨，市值数据存疑，极大概率是游资炒作。"
+  },
+  {
+   "ticker": "GFI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 5,
+   "ai_note": "金价大涨带来强劲现金流，量化分偏低系因估值指标滞后，存在修复空间。"
   }
  ]
 }
