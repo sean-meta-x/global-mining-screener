@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-27T01:25Z",
+ "generated_at": "2026-08-28T06:08Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MET1.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型市值勘探商无新闻，存在现金消耗与稀释风险"
-  },
-  {
-   "ticker": "UFO.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "PGM板块疲弱下无新闻却涨12.5%，疑似炒作拉升"
+   "ai_note": "微型市值勘探商，无近期催化剂，稀释风险高"
   },
   {
    "ticker": "THX.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿开发商动量良好，基本面与估值匹配"
+   "ai_adjust": -2,
+   "ai_note": "科特迪瓦Seguela金矿投产，但涨幅已大需警惕回调"
+  },
+  {
+   "ticker": "UFO.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型PGM勘探商，铂族金属价格疲弱，流动性极差"
+  },
+  {
+   "ticker": "PDL.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "钻石市场低迷叠加债务危机，公司治理存重大隐患"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型市值勘探商横盘无催化剂，稀释风险高"
+   "ai_note": "微型勘探商，项目分散且无明确催化，稀释风险高"
   },
   {
-   "ticker": "PDL.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "钻石价格暴跌叠加历史治理问题与债务压力"
+   "ticker": "JLP.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "南非电力与监管风险持续压制PGM和铬矿运营"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元生产商运营稳定，动量与估值合理"
-  },
-  {
-   "ticker": "JLP.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "PGM生产商市值偏小，但运营逐步改善"
+   "ai_note": "澳洲金矿生产商，运营稳定，无重大治理瑕疵"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金价动量强但津巴布韦运营存在管辖风险"
+   "ai_adjust": -5,
+   "ai_note": "津巴布韦Blanket金矿虽高产但汇回与政策风险极高"
   },
   {
    "ticker": "YCA.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀现货基金结构清晰，受益于核能需求周期"
-  },
-  {
-   "ticker": "KOD.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "下跌无新闻，勘探进展不明，资金消耗存疑"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "PGM价格低迷压制盈利，但南非运营尚稳"
-  },
-  {
-   "ticker": "SRB.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿生产商动量强劲，巴西运营风险可控"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "实物铀信托，核电复苏需求强劲，无运营风险"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铜生产商受益于金属价格，北马其顿运营稳定"
+   "ai_note": "巴尔干地区铜锌生产商，分红稳定，辖区风险可控"
   },
   {
-   "ticker": "AAU.L",
+   "ticker": "KOD.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "土耳其管辖风险高且市值偏小，流动性受限"
+   "ai_note": "马里锂矿辖区风险高，锂价低迷拖累估值"
   },
   {
-   "ticker": "GLR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型市值无新闻却涨18.5%，高度疑似炒作"
+   "ticker": "SRB.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "巴西Palito金矿动量良好，辖区风险尚可接受"
   },
   {
    "ticker": "XTR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "勘探股无新闻暴涨28.4%，典型庄家拉升特征"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型金矿勘探商，零涨幅缺乏催化，能见度低"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "南非PGM生产商受电力短缺与铂价疲软双重压制"
+  },
+  {
+   "ticker": "GLR.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型市值西非勘探商，稀释风险高且辖区不稳"
   },
   {
    "ticker": "CTL.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂板块低迷期微型勘探商融资与稀释风险大"
-  },
-  {
-   "ticker": "80M.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "暴跌20%无公告，疑似钻探失败或紧急融资"
-  },
-  {
-   "ticker": "TGA.L",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "煤炭生产商ESG逆风大，但短期现金流尚可"
+   "ai_note": "锂价崩跌后小市值勘探商融资与执行风险陡增"
   },
   {
    "ticker": "0ICU.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "尾矿再处理模式成本较低但南非辖区风险仍在"
+  },
+  {
+   "ticker": "ROCK.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微型PGM勘探商，流动性极差，铂族金属需求疲弱"
+  },
+  {
+   "ticker": "AAU.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月涨48.7%幅度异常，需警惕获利回吐风险"
+   "ai_adjust": -3,
+   "ai_note": "土耳其辖区地缘政治风险高，小市值生产商承压"
+  },
+  {
+   "ticker": "TGA.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭面临ESG结构性抛压，南非辖区叠加政策不确定性"
   }
  ]
 }
