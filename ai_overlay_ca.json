@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-27T02:17Z",
+ "generated_at": "2026-08-28T06:50Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "VIO.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型金矿勘探缺乏新闻催化，流动性差且极易遭稀释。"
+   "ai_adjust": -3,
+   "ai_note": "量化高分但无新闻且价格停滞，警惕流动性陷阱。"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极低且持续阴跌，CSE上市铜矿勘探商面临极高稀释风险。"
-  },
-  {
-   "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "缺乏实质进展与新闻关注，多元化勘探项目存在资金链断裂隐患。"
+   "ai_adjust": -4,
+   "ai_note": "缺乏新闻支撑的阴跌，可能存在未披露的融资风险。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "单月暴跌近三成却无新闻披露，大概率遭遇严重稀释或项目受挫。"
+   "ai_adjust": -8,
+   "ai_note": "单月暴跌近三成且无公告，极大概率存在隐性稀释。"
+  },
+  {
+   "ticker": "MRZL.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "高分伴随零涨幅与零新闻，量化模型可能存在过拟合。"
   },
   {
    "ticker": "LAB.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极低且毫无交易动能，典型的边缘化壳公司特征，警惕退市。"
-  },
-  {
-   "ticker": "ENDR.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "股价大幅回撤且无利好支撑，微观结构恶化，大概率存在隐性利空。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "缺乏基本面催化剂，高量化得分或是低流动性所致。"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
    "ai_adjust": -9,
-   "ai_note": "单月重挫四分之一且零新闻，勘探商面临严重的融资稀释风险。"
+   "ai_note": "暴跌超35%却无新闻，谨防未公告的增发或钻探失败。"
   },
   {
-   "ticker": "MJS.V",
+   "ticker": "ENDR.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "虽为生产商但市值偏小且无新闻配合，异常拉升需警惕拉高出货。"
-  },
-  {
-   "ticker": "SR.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "市值仅千万且暴跌近三成，缺乏基本面支撑，极易沦为仙股。"
+   "ai_adjust": -5,
+   "ai_note": "显著回撤且无消息面配合，需警惕项目推进不及预期。"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "逆势上涨但缺乏新闻催化，CSE微盘股的流动性溢价难以维持。"
+   "ai_adjust": -2,
+   "ai_note": "无新闻支撑的异常拉升，疑似资金炒作或拉高出货。"
   },
   {
    "ticker": "NAR.V",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "毫无新闻却暴涨三成，典型的微盘股庄家拉升特征，切勿追高。"
+   "ai_adjust": -7,
+   "ai_note": "暴涨30%却无任何公告，典型的无基本面炒作拉升。"
   },
   {
-   "ticker": "HLU.V",
+   "ticker": "CPAU.V",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "铀矿概念虽热但市值过低且无实质进展，缺乏持续上涨的催化剂。"
+   "ai_note": "价格持续走低且无消息，量化高分未能反映实际弱势。"
+  },
+  {
+   "ticker": "GIGA.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "跌幅明显且缺乏新闻，需防范镍钴项目许可或资金风险。"
+  },
+  {
+   "ticker": "SR.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "大幅下跌且无公开信息，存在严重的未披露治理风险。"
   },
   {
    "ticker": "SAM.TO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "涨幅较大但无新闻验证，需警惕量化模型对微小市值波动的误判。"
+   "ai_note": "股价异常大涨但无新闻，需警惕内幕交易或短期炒作。"
+  },
+  {
+   "ticker": "HLU.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "涨幅温和且无新闻，铀矿勘探股表现符合当前市场常态。"
+  },
+  {
+   "ticker": "JG.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "暴跌逾三成且无公告，日本项目大概率遭遇钻探或许可挫折。"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "作为少有的在产矿企，量价配合较好，具备一定基本面支撑。"
   },
   {
    "ticker": "OCEN.V",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "市值极低且无新闻支撑，微盘勘探项目的资金消耗与稀释风险极高。"
-  },
-  {
-   "ticker": "TT.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "PGM勘探缺乏市场热点，市值微小且阴跌，存在被边缘化风险。"
-  },
-  {
-   "ticker": "AEMC.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极低且交易停滞，微型金矿勘探商面临严重的流动性枯竭风险。"
-  },
-  {
-   "ticker": "CAF.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微幅上涨但无新闻配合，微型金矿勘探商的生存与融资压力巨大。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小幅上涨但无实质新闻，维持中性观察，等待催化剂。"
   },
   {
    "ticker": "BTR.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "开发阶段公司单月暴跌两成且无新闻，大概率遭遇融资或许可风险。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "作为开发商小幅回调，无重大利空，量化得分基本合理。"
   },
   {
    "ticker": "CCCM.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "市值较大但持续阴跌且无新闻，量化高分可能存在因子失真。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "显著回调且无消息，高量化得分未能有效预警下行风险。"
   },
   {
-   "ticker": "IRO.V",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "股价持续走弱且无消息改善，微盘金矿勘探商面临估值杀跌风险。"
+   "ticker": "TT.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微跌且无新闻，铂族金属勘探股表现平淡，缺乏催化剂。"
   }
  ]
 }
