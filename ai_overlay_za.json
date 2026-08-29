@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-28T06:12Z",
+ "generated_at": "2026-08-29T03:47Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铁矿受宏观需求压制，基本面稳健但缺乏短期催化剂。"
+   "ai_adjust": -2,
+   "ai_note": "铁矿石需求受中国地产拖累，Transnet物流瓶颈持续压制产量"
   },
   {
    "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极小且无新闻，典型勘探期面临持续稀释与资金链断裂风险。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型市值勘探公司，流动性极差且存在持续稀释风险"
   },
   {
    "ticker": "JBL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "基础金属生产商运营平稳，量化得分合理，无显著隐藏风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史上有频繁增发和治理争议，尾矿模式依赖外部矿石供应"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微型市值且近期大跌，流动性枯竭与治理风险极高，需规避。"
+   "ai_adjust": -8,
+   "ai_note": "微型市值且一月暴跌17%，前身为Blesbok，治理和稀释风险极高"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铬矿生产商受益于近期价格反弹，基本面与量化得分匹配。"
+   "ai_note": "Glencore持股提供一定治理保障，铬铁基本面尚可"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "历史治理劣迹斑斑且频繁稀释，量化模型低估了其信用与融资风险。"
+   "ai_adjust": -7,
+   "ai_note": "Bakubung项目反复延期，长期无法投产，资金消耗严重"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "PGM生产商盈利受金属价格波动影响，当前估值与基本面匹配。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铂族金属价格持续疲软，南非电力和运营成本压力上升"
   },
   {
    "ticker": "EXX.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭资产面临长期ESG融资约束，量化模型未充分计入资本成本上升。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭面临ESG结构性逆风，但现金流和分红仍具吸引力"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "彩色宝石与PGM业务平稳，无显著异常，维持中性观察。"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锡矿基本面良好，近期涨幅合理，量化得分客观反映当前状态。"
+   "ai_note": "彩色宝石需求波动大，但管理层更替后治理有所改善"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型煤炭股短期暴涨缺乏基本面支撑，警惕流动性陷阱与炒作。"
+   "ai_note": "微型市值煤炭股一月暴涨18%，疑似炒作需警惕回撤"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "Bisie锡矿品位优异，锡价受电子和新能源需求支撑"
   },
   {
    "ticker": "CPR.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "勘探开发阶段铜矿短期暴涨，需警惕为融资而进行的隐性稀释。"
+   "ai_adjust": -3,
+   "ai_note": "勘探阶段铜矿一月涨19%，无 headlines 支撑，推广嫌疑"
   },
   {
    "ticker": "SKA.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "市值不足一亿的微型勘探壳公司，流动性极差且存在退市风险。"
+   "ai_adjust": -8,
+   "ai_note": "微型市值勘探公司暴跌13%，流动性和持续经营风险极高"
   },
   {
    "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "高股息煤炭股受短期资金追捧，但长期ESG折价风险被模型忽视。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭出口受益于价格但ESG逆风明显，高股息或难持续"
   },
   {
-   "ticker": "MCZ.JO",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "煤炭开发项目近期暴跌，暴露出许可证推进受阻或资金短缺隐患。"
+   "ticker": "ARI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "多元化矿种布局叠加铜矿增长催化剂，Motsepe治理背书"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿石与建材业务稳健，近期回调属正常市场波动，无重大瑕疵。"
+   "ai_note": "建材和铁矿石双轮驱动，管理层稳健但增长空间有限"
   },
   {
-   "ticker": "ARI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化矿业巨头近期表现强劲，公司治理结构复杂但整体可控。"
+   "ticker": "MCZ.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "煤矿开发项目一月跌20%，许可和融资不确定性高"
   },
   {
    "ticker": "KP2.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "钾肥开发项目资本开支巨大，模型未充分反映其长期融资稀释风险。"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型PGM股短期异常暴涨，市值数据存疑，极大概率是游资炒作。"
+   "ai_adjust": -4,
+   "ai_note": "刚果钾矿开发周期长、资本密集，政策和执行风险突出"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "bullish",
-   "ai_adjust": 5,
-   "ai_note": "金价大涨带来强劲现金流，量化分偏低系因估值指标滞后，存在修复空间。"
+   "ai_adjust": 2,
+   "ai_note": "金价强势推动一月涨41%，多地域资产组合分散风险"
+  },
+  {
+   "ticker": "VAL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铂族金属需求受汽车产业拖累，新拆分实体历史业绩待验证"
   }
  ]
 }
