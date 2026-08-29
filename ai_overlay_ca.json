@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-28T06:50Z",
+ "generated_at": "2026-08-29T04:33Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "VIO.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "量化高分但无新闻且价格停滞，警惕流动性陷阱。"
-  },
-  {
    "ticker": "CEXY.CN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "缺乏新闻支撑的阴跌，可能存在未披露的融资风险。"
-  },
-  {
-   "ticker": "LIFT.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月暴跌近三成且无公告，极大概率存在隐性稀释。"
+   "ai_adjust": -3,
+   "ai_note": "微型铜矿勘探商无新闻催化，流动性差易遭稀释"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "高分伴随零涨幅与零新闻，量化模型可能存在过拟合。"
+   "ai_note": "零回报无消息面，微型勘探股缺乏基本面支撑"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值偏大但零成交无新闻，停滞风险高"
+  },
+  {
+   "ticker": "LIFT.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "开发者暴跌28%却无新闻，疑似重大稀释或项目失败"
   },
   {
    "ticker": "LAB.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "缺乏基本面催化剂，高量化得分或是低流动性所致。"
+   "ai_note": "千万市值金矿勘探商零消息，典型壳公司特征"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "暴跌超35%却无新闻，谨防未公告的增发或钻探失败。"
+   "ai_adjust": -8,
+   "ai_note": "暴跌36%无新闻且名称与分类矛盾，高度警惕"
   },
   {
    "ticker": "ENDR.V",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "显著回撤且无消息面配合，需警惕项目推进不及预期。"
-  },
-  {
-   "ticker": "SLV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "无新闻支撑的异常拉升，疑似资金炒作或拉高出货。"
-  },
-  {
-   "ticker": "NAR.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴涨30%却无任何公告，典型的无基本面炒作拉升。"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "价格持续走低且无消息，量化高分未能反映实际弱势。"
-  },
-  {
-   "ticker": "GIGA.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "跌幅明显且缺乏新闻，需防范镍钴项目许可或资金风险。"
+   "ai_note": "跌16%无消息面解释，可能钻探失败或融资稀释"
   },
   {
    "ticker": "SR.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "大幅下跌且无公开信息，存在严重的未披露治理风险。"
+   "ai_adjust": -7,
+   "ai_note": "跌21%无新闻，微型多元化勘探商治理存疑"
   },
   {
-   "ticker": "SAM.TO",
+   "ticker": "NAR.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "股价异常大涨但无新闻，需警惕内幕交易或短期炒作。"
+   "ai_note": "暴涨30%无任何新闻支撑，高度疑似庄家拉升"
+  },
+  {
+   "ticker": "OCEN.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "千万级微型股无新闻无催化，纯投机标的"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "涨幅温和且无新闻，铀矿勘探股表现符合当前市场常态。"
+   "ai_adjust": -1,
+   "ai_note": "铀矿概念有板块支撑但无个体催化，中性观望"
   },
   {
-   "ticker": "JG.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "暴跌逾三成且无公告，日本项目大概率遭遇钻探或许可挫折。"
+   "ticker": "CPAU.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "跌13%无消息，金矿勘探商可能钻探不及预期"
+  },
+  {
+   "ticker": "SAM.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "涨22%无新闻，历史有治理问题的矿业公司"
   },
   {
    "ticker": "MJS.V",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "作为少有的在产矿企，量价配合较好，具备一定基本面支撑。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "生产商却零新闻流，关注度低但基本面尚可"
   },
   {
-   "ticker": "OCEN.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小幅上涨但无实质新闻，维持中性观察，等待催化剂。"
+   "ticker": "SLV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "暴涨29%无新闻，微型银矿股疑似炒作拉升"
   },
   {
    "ticker": "BTR.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "作为开发商小幅回调，无重大利空，量化得分基本合理。"
-  },
-  {
-   "ticker": "CCCM.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "显著回调且无消息，高量化得分未能有效预警下行风险。"
+   "ai_adjust": -2,
+   "ai_note": "开发阶段无新闻，轻微下跌或反映市场冷淡"
   },
   {
    "ticker": "TT.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微跌且无新闻，铂族金属勘探股表现平淡，缺乏催化剂。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "PGM微型勘探商零消息，铂族金属前景不明"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "零回报无新闻，多元化微型勘探缺乏方向"
+  },
+  {
+   "ticker": "SXTY.CN",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小幅上涨无消息，微型金矿股流动性堪忧"
+  },
+  {
+   "ticker": "HUNT.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "零成交无新闻，微型多元化勘探商典型沉寂"
   }
  ]
 }
