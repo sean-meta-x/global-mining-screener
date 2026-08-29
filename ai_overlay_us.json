@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-28T05:56Z",
+ "generated_at": "2026-08-29T03:33Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "CEXYF",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铜矿勘探商流动性差且易稀释，需警惕融资风险。"
+   "ticker": "FNUC",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型铀矿壳公司，无实质资产与新闻，疑似核能概念炒作。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "短期暴涨缺乏基本面新闻支撑，警惕庄家拉高出货风险。"
-  },
-  {
-   "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "疑似空壳公司或SPAC，缺乏实际矿产资产与运营记录。"
-  },
-  {
-   "ticker": "JAGU",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿勘探初期阶段，市值较小，暂无明显催化剂或利空。"
+   "ai_adjust": -5,
+   "ai_note": "无任何新闻却月涨41%，疑似推广拉盘，警惕回调风险。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂矿开发受美国环保审批及原住民抗议影响，进度存疑。"
+   "ai_adjust": -4,
+   "ai_note": "Rhyolite Ridge面临濒危物种许可审查，开发进度存重大不确定性。"
+  },
+  {
+   "ticker": "JAGU",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "市值仅3400万的铀矿勘探壳股，无实质钻探进展或新闻。"
   },
   {
    "ticker": "UROY",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀价上涨带动业绩，但短期涨幅过大需防范估值回调风险。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "权证类资产具有极高稀释风险与到期归零可能，建议规避。"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "Sprott支持的铀矿版税公司，资产优质，受益铀价上行周期。"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "塞拉皮尔达项目面临原住民诉讼及环保审批重大不确定性。"
+   "ai_adjust": -4,
+   "ai_note": "Thacker Pass面临原住民诉讼与成本超支，GM已退出承购协议。"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "Namib Minerals权证，杠杆投机工具，流动性与到期风险高。"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "典型推广型微型壳股，月跌23%，Clean Energy命名系炒作标签。"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "单月暴涨超25倍且无实质新闻，典型拉高出货或妖股炒作。"
+   "ai_note": "月涨2468%却无任何新闻，极端拉盘信号，强烈规避。"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "巴西钾矿项目反复融资困难，开发进度持续延迟，资金链紧张。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "核心资产位于津巴布韦，面临严重的地缘政治与政策风险。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦Blanket Mine有国别与汇兑风险，但为合法在产金矿。"
   },
   {
-   "ticker": "FMST",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "频繁更名且市值极低，业务转型期存在高度不确定性与稀释。"
+   "ticker": "FMSTW",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "FMST关联权证，同属推广壳股体系，强烈规避。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "项目推进多年仍处早期，面临巨大资金缺口与技术可行性风险。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "钾肥项目具备一定资源禀赋，但需关注当地环保与社区关系。"
-  },
-  {
-   "ticker": "FMSTW",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "权证资产伴随极高稀释风险，流动性差且易受正股波动拖累。"
-  },
-  {
-   "ticker": "CLRSF",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "微型金矿勘探商，流动性匮乏，暂无明显基本面改善迹象。"
+   "ai_note": "长期故事股，反复稀释融资，Elk Creek项目多年无法推进。"
   },
   {
    "ticker": "NC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭业务面临长期需求萎缩与ESG投资限制，缺乏成长空间。"
-  },
-  {
-   "ticker": "ELBM",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "电池材料项目推进中，需持续关注其资金消耗与产能落地情况。"
+   "ai_note": "煤炭业务结构性衰退，但特种矿物子公司提供一定现金流支撑。"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "微型多金属勘探商，资产质量一般，缺乏显著催化剂支撑。"
+   "ai_adjust": -2,
+   "ai_note": "微型勘探公司，无新闻无催化，流动性差，估值缺乏锚定。"
+  },
+  {
+   "ticker": "CLRSF",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "微型勘探公司，股价横盘无进展，缺乏短期催化剂。"
+  },
+  {
+   "ticker": "GLDG",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "历史稀释严重，多项目均处早期阶段，警惕新一轮增发。"
   },
   {
    "ticker": "ATCMF",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值微小且交易停滞，存在较高的流动性风险与退市隐患。"
+   "ai_adjust": -4,
+   "ai_note": "微型所谓生产商实际产量极低，基本面薄弱，流动性差。"
   },
   {
-   "ticker": "LGO",
+   "ticker": "NAMM",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "钒业务受钢铁周期影响较大，短期反弹后需观察需求持续性。"
+   "ai_adjust": -1,
+   "ai_note": "新上市金矿公司，运营记录有限，需更多数据验证基本面。"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "中型银矿生产商，运营稳健，充分受益于贵金属牛市周期。"
   }
  ]
 }
