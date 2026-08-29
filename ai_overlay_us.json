@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-29T03:33Z",
+ "generated_at": "2026-08-29T23:48Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型铀矿壳公司，无实质资产与新闻，疑似核能概念炒作。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探商无新闻，名称疑有推广嫌疑"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "无任何新闻却月涨41%，疑似推广拉盘，警惕回调风险。"
+   "ai_adjust": -3,
+   "ai_note": "无新闻月涨41%有推广稀释历史"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Rhyolite Ridge面临濒危物种许可审查，开发进度存重大不确定性。"
+   "ai_adjust": -3,
+   "ai_note": "锂矿项目面临联邦许可审批延迟风险"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值仅3400万的铀矿勘探壳股，无实质钻探进展或新闻。"
+   "ai_adjust": -2,
+   "ai_note": "微型铀矿勘探商市值仅三千万流动性差"
   },
   {
    "ticker": "UROY",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Sprott支持的铀矿版税公司，资产优质，受益铀价上行周期。"
+   "ai_adjust": 2,
+   "ai_note": "铀矿版税公司资产优质受益铀价上行周期"
   },
   {
    "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Thacker Pass面临原住民诉讼与成本超支，GM已退出承购协议。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型锂矿有通用汽车支持但面临环保反对"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "Namib Minerals权证，杠杆投机工具，流动性与到期风险高。"
-  },
-  {
-   "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "典型推广型微型壳股，月跌23%，Clean Energy命名系炒作标签。"
+   "ai_note": "权证工具有时间衰减风险且波动剧烈"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "月涨2468%却无任何新闻，极端拉盘信号，强烈规避。"
+   "ai_adjust": -8,
+   "ai_note": "月涨2468%无新闻支撑典型拉高出货特征"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "巴西钾矿项目反复融资困难，开发进度持续延迟，资金链紧张。"
+   "ai_adjust": -3,
+   "ai_note": "钾矿项目多次延期开发历史漫长不确定"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值不足两千万月跌23%基本面堪忧"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦Blanket Mine有国别与汇兑风险，但为合法在产金矿。"
-  },
-  {
-   "ticker": "FMSTW",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "FMST关联权证，同属推广壳股体系，强烈规避。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦运营面临管辖权和治理风险"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "稀土项目多年延期开发进展反复不及预期"
+  },
+  {
+   "ticker": "FMSTW",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "长期故事股，反复稀释融资，Elk Creek项目多年无法推进。"
+   "ai_note": "权证无交易数据流动性极差风险极高"
   },
   {
    "ticker": "NC",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭业务结构性衰退，但特种矿物子公司提供一定现金流支撑。"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "微型勘探公司，无新闻无催化，流动性差，估值缺乏锚定。"
-  },
-  {
-   "ticker": "CLRSF",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "微型勘探公司，股价横盘无进展，缺乏短期催化剂。"
+   "ai_adjust": -1,
+   "ai_note": "煤炭生产商面临ESG逆风和行业结构性衰退"
   },
   {
    "ticker": "GLDG",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史稀释严重，多项目均处早期阶段，警惕新一轮增发。"
+   "ai_adjust": -2,
+   "ai_note": "黄金勘探商有频繁增发稀释股东历史"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "小型金矿生产商市值不足八千万流动性有限"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型多元勘探商月跌14%无新闻催化"
+  },
+  {
+   "ticker": "CLRSF",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "微型勘探商横盘无消息无明确方向"
+  },
+  {
+   "ticker": "ELBM",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "电池材料勘探商有融资稀释历史"
   },
   {
    "ticker": "ATCMF",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型所谓生产商实际产量极低，基本面薄弱，流动性差。"
-  },
-  {
-   "ticker": "NAMM",
-   "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "新上市金矿公司，运营记录有限，需更多数据验证基本面。"
-  },
-  {
-   "ticker": "FSM",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "中型银矿生产商，运营稳健，充分受益于贵金属牛市周期。"
+   "ai_note": "小型多元生产商市值不足三千万"
   }
  ]
 }
