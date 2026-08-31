@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-30T00:13Z",
+ "generated_at": "2026-08-31T00:25Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "0098.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铝型材龙头但月跌12.6%无消息面支撑，基本面存疑"
-  },
-  {
-   "ticker": "8250.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "创业板微市值煤炭股暴跌17.6%，流动性和治理风险极高"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铝型材龙头但近月跑输大盘，需关注需求端压力"
   },
   {
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤炭股，历史治理记录不佳"
+   "ai_note": "小市值煤炭股流动性差，量化难捕捉滑点风险"
+  },
+  {
+   "ticker": "8250.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "GEM板微市值仅三千万，壳股特征明显流动性极差"
   },
   {
    "ticker": "0637.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "小市值多元化公司，流动性一般"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值多元化公司主业不清晰，流动性不足"
   },
   {
    "ticker": "2693.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "高岭土生产商表现尚可，暂无明显风险信号"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值高岭土生产商，业务单一且流动性有限"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "创业板微市值暴跌15%，壳股特征明显，历史有推广嫌疑"
+   "ai_adjust": -8,
+   "ai_note": "GEM板微市值煤炭股，历史上治理问题频出"
+  },
+  {
+   "ticker": "0166.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "新时集团历史上多次转型壳股特征，治理存疑"
   },
   {
    "ticker": "1738.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "小市值无烟煤股月涨16%，疑似炒作推动"
-  },
-  {
-   "ticker": "0166.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "新纪元集团业务频繁转型，主营不清晰"
+   "ai_note": "小市值煤炭月涨16%疑似炒作，需警惕回调"
   },
   {
    "ticker": "2078.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "亚铝小市值铝企，历史财务披露存疑"
+   "ai_adjust": -2,
+   "ai_note": "小市值铝企流动性一般，行业周期下行承压"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "微市值煤炭股月涨17%，治理历史堪忧，疑似炒作"
+   "ai_note": "微市值煤炭月涨17% promotion迹象明显需警惕"
   },
   {
    "ticker": "6885.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股短期涨幅较大，需警惕回调风险"
-  },
-  {
-   "ticker": "1091.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "南方锰业市值尚可，运营有挑战但无重大红旗"
+   "ai_adjust": -4,
+   "ai_note": "小市值煤炭月涨近18%短期涨幅过大存回调风险"
   },
   {
    "ticker": "1182.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "胜龙国际为经典壳股，多次转型，金矿标签可疑"
+   "ai_adjust": -7,
+   "ai_note": "成功万国历史上多次卖壳重组治理风险极高"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "近期上市金矿公司，市值合理但缺乏经营记录"
+   "ai_adjust": 0,
+   "ai_note": "次新金矿股市值适中，暂无明显治理或稀释风险"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "汤加金矿为开发阶段，南非资产面临资金和许可风险"
+   "ai_note": "Taung Gold南非金矿开发进度反复融资存稀释风险"
+  },
+  {
+   "ticker": "1733.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "市值较大煤炭股曾经历财务重组目前运营趋稳"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "中国白银月涨22%，历史有财务和治理争议，警惕拉高"
+   "ai_adjust": -4,
+   "ai_note": "中国白银集团月涨22%涨幅异常治理曾有争议"
   },
   {
    "ticker": "0276.HK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "蒙古能源微市值，蒙古jurisdiction风险叠加历史运营问题"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "蒙古能源市值仅一亿且蒙古国政策风险极高"
   },
   {
    "ticker": "8095.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "创业板股票，北大方正旗下但业务标签模糊"
-  },
-  {
-   "ticker": "1205.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中信资源有国资背景，市值较大，风险相对可控"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "GEM板公司实际偏教育科技与矿业分类存偏差"
   },
   {
    "ticker": "0486.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "俄铝受西方制裁风险极高量化模型无法充分定价"
+  },
+  {
+   "ticker": "1091.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "俄铝受制裁风险压制，量化模型未充分反映地缘政治折价"
+   "ai_adjust": -3,
+   "ai_note": "南方锰业运营效率偏低治理结构需持续关注"
   }
  ]
 }
