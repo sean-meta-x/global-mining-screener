@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T23:48Z",
+ "generated_at": "2026-08-31T00:00Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "FNUC",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商无新闻，名称疑有推广嫌疑"
+   "ai_note": "微型铀矿股缺乏实质进展，需警惕概念炒作与稀释风险。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "石墨铀矿股短期涨幅过大，存在明显的逢高增发稀释风险。"
+  },
+  {
+   "ticker": "NHAWF",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "无新闻月涨41%有推广稀释历史"
+   "ai_note": "市值极低且流动性差，微型PGM勘探股面临极高的股权稀释风险。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂矿项目面临联邦许可审批延迟风险"
+   "ai_adjust": -4,
+   "ai_note": "锂矿开发商项目面临融资与审批双重压力，短期缺乏催化剂。"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铀矿勘探商市值仅三千万流动性差"
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探股流动性匮乏，极易受资金操纵和增发摊薄。"
   },
   {
    "ticker": "UROY",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "铀矿版税公司资产优质受益铀价上行周期"
-  },
-  {
-   "ticker": "LAC",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型锂矿有通用汽车支持但面临环保反对"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "权证工具有时间衰减风险且波动剧烈"
+   "ai_note": "铀矿版税模式现金流较好，但受铀价波动影响大，估值中性。"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月涨2468%无新闻支撑典型拉高出货特征"
+   "ai_adjust": -10,
+   "ai_note": "单月暴涨超24倍，典型的微型股庄家拉高出货或极度炒作特征。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "大型锂矿开发商面临DOE贷款审批延迟及资本开支超支风险。"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "钾矿项目多次延期开发历史漫长不确定"
+   "ai_adjust": -5,
+   "ai_note": "钾矿开发商资本开支巨大，在降息前融资困难，稀释风险极高。"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "作为权证标的，具有极高的杠杆与稀释风险，不适合长期持有。"
   },
   {
    "ticker": "FMST",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值不足两千万月跌23%基本面堪忧"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "更名频繁的微型股，历史上有炒作劣迹，近期大跌显示资金出逃。"
+  },
+  {
+   "ticker": "RITE",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅千万的PGM壳公司，缺乏核心资产，存在极高的归零风险。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦运营面临管辖权和治理风险"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦金矿生产商，虽有产量但面临当地政策与治理风险。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "稀土项目多年延期开发进展反复不及预期"
+   "ai_adjust": -5,
+   "ai_note": "稀土开发商长期依赖外部融资，股本不断扩张，严重摊薄股东权益。"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "权证无交易数据流动性极差风险极高"
+   "ai_adjust": -9,
+   "ai_note": "微型股权证，流动性极差且面临母公司随时增发的毁灭性稀释。"
   },
   {
    "ticker": "NC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭生产商面临ESG逆风和行业结构性衰退"
-  },
-  {
-   "ticker": "GLDG",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "黄金勘探商有频繁增发稀释股东历史"
-  },
-  {
-   "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "小型金矿生产商市值不足八千万流动性有限"
+   "ai_adjust": -3,
+   "ai_note": "传统煤炭生产商面临长期ESG合规压力与结构性需求衰退风险。"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型多元勘探商月跌14%无新闻催化"
+   "ai_adjust": -3,
+   "ai_note": "微型多元化勘探股，资产质量不明且面临持续的股权融资稀释。"
   },
   {
    "ticker": "CLRSF",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "微型勘探商横盘无消息无明确方向"
-  },
-  {
-   "ticker": "ELBM",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "电池材料勘探商有融资稀释历史"
+   "ai_note": "微型勘探股流动性枯竭，股价长期横盘，存在隐性退市或合股风险。"
   },
   {
-   "ticker": "ATCMF",
+   "ticker": "GLDG",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "黄金勘探股近期涨幅较大，但项目仍处早期，需警惕后续增发。"
+  },
+  {
+   "ticker": "NAMM",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "小型多元生产商市值不足三千万"
+   "ai_adjust": -4,
+   "ai_note": "微型金矿生产商，运营成本与地缘政治风险较高，抗风险能力弱。"
   }
  ]
 }
