@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-30T00:02Z",
+ "generated_at": "2026-08-31T00:13Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铁矿石价格受中国需求疲软拖累，短期盈利承压。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型铁矿商，基本面稳健，无异常事件。"
   },
   {
    "ticker": "JBL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属价格低迷，基本面缺乏强劲催化。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史多次配股稀释，治理记录存疑。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "市值极小且近期暴跌，流动性与基本面风险极高。"
-  },
-  {
-   "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铬矿业务尚可，但公司治理与财务历史存疑。"
+   "ai_note": "市值不足8000万，流动性极差且暴跌17%。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "铂族金属处于熊市，开发商融资与项目推进困难。"
+   "ai_adjust": -5,
+   "ai_note": "Bakubung项目屡次延期，治理问题频发。"
+  },
+  {
+   "ticker": "MRF.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "嘉能可合资背景，铬铁业务稳定。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "虽有铬矿打底，但铂族金属价格下跌仍拖累盈利。"
+   "ai_note": "津巴布韦运营存在国别风险溢价。"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "莫桑比克矿区曾现治理争议。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭业务现金流强劲，但面临长期ESG退出风险。"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "主营彩色宝石而非铂族，受宏观消费降级影响。"
+   "ai_note": "大型煤企，ESG压力已被市场消化。"
   },
   {
    "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭小盘股近期暴涨，需警惕流动性陷阱与回调。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型煤企无新闻却暴涨18%，疑似炒作。"
   },
   {
    "ticker": "APH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "锡价受半导体需求复苏支撑，基本面持续向好。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "刚果(金)锡矿运营，管辖风险偏高。"
   },
   {
    "ticker": "CPR.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "铜价处于历史高位，勘探项目具备极高期权价值。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "勘探阶段无收入，涨19%无消息支撑。"
   },
   {
    "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "纯动力煤资产虽分红高，但长期面临转型与ESG风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "纯动力煤股，现金流强但ESG逆风持续。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "资产组合分散，铂族金属拖累被其他金属部分抵消。"
+   "ai_note": "多元化矿企组合均衡，管理尚可。"
   },
   {
    "ticker": "AFT.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南非建筑行业疲软，铁矿石及建材需求短期承压。"
-  },
-  {
-   "ticker": "MCZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "煤炭开发项目遭遇重挫，暴跌暗示融资或运营受阻。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "建材加铁矿双轮驱动，经营稳健。"
   },
   {
    "ticker": "KP2.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "钾肥价格从高位大幅回落，项目经济性面临重估。"
+   "ai_note": "钾肥开发阶段，融资与许可风险高。"
+  },
+  {
+   "ticker": "MCZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "煤炭开发商暴跌20%，ESG下融资困难。"
   },
   {
    "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 5,
-   "ai_note": "金价创历史新高，产量增长与成本管控带来强催化。"
-  },
-  {
-   "ticker": "HAR.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "受益于金价飙升，但南非深部矿井运营成本依然偏高。"
-  },
-  {
-   "ticker": "DRD.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "尾矿回收成本较低，金价大涨下利润弹性极佳。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金价推动月涨41%，估值已趋充分。"
   },
   {
    "ticker": "VAL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂族金属处于结构性熊市，反弹或为逢高减仓良机。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "从Implat分拆新上市，量化数据尚浅。"
+  },
+  {
+   "ticker": "HAR.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金价受益但成本偏高，涨幅已大。"
+  },
+  {
+   "ticker": "DRD.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "尾矿再处理低利润率，金价上涨已反映。"
   }
  ]
 }
