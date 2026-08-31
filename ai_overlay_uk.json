@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T23:58Z",
+ "generated_at": "2026-08-31T00:10Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "POW.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微盘铀矿勘探股，缺乏实质进展，存在较高炒作与稀释风险。"
+   "ai_note": "微型铀矿勘探股，流动性极差，存在典型推广风险"
+  },
+  {
+   "ticker": "UFO.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "无新闻却暴涨27%，微型股疑似拉高出货"
   },
   {
    "ticker": "MET1.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "微盘多金属勘探股，近期无重大新闻，基本面缺乏短期催化剂。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "爱尔兰铁矿勘探进展缓慢，流动性极薄"
   },
   {
    "ticker": "THX.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "科特迪瓦金矿开发商，近期涨幅较大，需警惕西非地缘与执行风险。"
-  },
-  {
-   "ticker": "UFO.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极小市值PGM勘探股，历史上有过度宣传嫌疑，需防范股权稀释。"
+   "ai_note": "科特迪瓦Seguela金矿已投产，基本面尚可"
   },
   {
    "ticker": "PDL.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "钻石价格疲软且公司负债较高，坦桑尼亚矿区存在潜在政策风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "钻石公司深陷债务危机，量化分严重高估"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属生产商，业绩稳健但公司架构复杂，需关注历史稀释问题。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "南非PGM生产商，公司治理和关联交易存疑"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "西澳铁矿及黄金生产商，近期表现良好，但市值较小流动性一般。"
-  },
-  {
-   "ticker": "CMCL.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "津巴布韦金矿生产商，股息率较高，但需警惕该国宏观与政策风险。"
-  },
-  {
-   "ticker": "SRB.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴西高品位金矿生产商，近期涨幅可观，但小规模运营抗风险能力弱。"
+   "ai_note": "澳洲黄金生产商，运营稳健但无突出催化剂"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "实物铀信托基金，直接受益于铀价上涨，资产透明且无运营风险。"
+   "ai_adjust": 2,
+   "ai_note": "铀现货基金结构清晰，流动性好，治理透明"
   },
   {
    "ticker": "CAML.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "巴尔干地区政治风险不可忽视"
+  },
+  {
+   "ticker": "CMCL.L",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "津巴布韦运营，国家风险极高，涨幅过快"
+  },
+  {
+   "ticker": "SRB.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴尔干铜锌生产商，基本面扎实，但需关注东欧地缘及环保合规风险。"
+   "ai_adjust": -1,
+   "ai_note": "巴西金矿运营曾有波折，需关注产量持续性"
   },
   {
    "ticker": "XTR.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微盘金矿勘探股，近期股价微跌，缺乏核心项目推进的实质性消息。"
+   "ai_adjust": -3,
+   "ai_note": "微型金矿勘探股，资金有限进展不明"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南非PGM生产商，铂族金属价格承压"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "马里锂矿勘探股，该国军政府政策多变，矿业许可证面临极大不确定性。"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南非铂族金属生产商，运营相对稳定，但需防范当地电力与劳工风险。"
+   "ai_note": "马里锂矿项目，该国政变后政治风险极高"
   },
   {
    "ticker": "GLR.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘多金属勘探股，短期涨幅过大但市值极小，存在典型炒壳嫌疑。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型股无新闻暴涨33%，高度疑似炒作"
   },
   {
-   "ticker": "CTL.L",
+   "ticker": "ROCK.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂矿处于勘探开发阶段，资金消耗快，在锂价低迷下存在较大稀释风险。"
+   "ai_adjust": -3,
+   "ai_note": "微型PGM勘探股，长期无实质进展"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南非金矿尾矿处理商，近期涨幅巨大，但尾矿资源有限且受限于当地电网。"
+   "ai_adjust": 1,
+   "ai_note": "南非金尾矿处理商，金价上涨直接受益"
   },
   {
    "ticker": "TGA.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "南非动力煤生产商，虽现金流充沛，但面临ESG撤资及长期需求衰退风险。"
+   "ai_note": "南非动力煤商，ESG长期逆风但短期盈利"
   },
   {
    "ticker": "ORR.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微盘金矿勘探股，近期表现疲软，项目推进缓慢且流动性较差。"
+   "ai_adjust": -3,
+   "ai_note": "微型金矿勘探股，下跌趋势中缺乏催化剂"
   },
   {
    "ticker": "AAU.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "土耳其金铜矿开发商，当地地震频发且矿业审批政策存在较高不确定性。"
+   "ai_adjust": -4,
+   "ai_note": "土耳其运营面临监管和税务不确定性"
   }
  ]
 }
