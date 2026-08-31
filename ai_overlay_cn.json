@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-30T00:27Z",
+ "generated_at": "2026-08-31T00:36Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
+   "ticker": "002101.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型铝企，无重大新闻，基本面平稳"
+  },
+  {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "云南枯水期水电限电风险影响产能，量化模型常忽略此季节性扰动。"
-  },
-  {
-   "ticker": "002101.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值较小且属民营压铸企业，公司治理与关联交易风险需警惕。"
+   "ai_note": "云铝股份为行业龙头之一，运营稳健无异常"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤电铝一体化转型中环保与产能置换审批存在不确定性。"
+   "ai_note": "神火股份煤电铝一体化，无额外风险信号"
   },
   {
    "ticker": "601600.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "作为老牌国企历史包袱较重，产能利用率与资产减值风险常被低估。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中铝为央企龙头，治理规范，估值合理"
   },
   {
    "ticker": "002532.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "地处新疆面临海外ESG审查及出口制裁风险，量化模型无法定价。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "天山铝业产能稳定，无重大治理或稀释风险"
   },
   {
    "ticker": "600595.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "历史债务负担重且经历过复杂重组，公司治理与财务健康度存疑。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中孚实业历史盈利波动大，资产负债率偏高"
   },
   {
    "ticker": "002540.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "主营汽车铝型材，受下游整车需求周期波动影响较大。"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "母公司资产注入预期虽强，但定价公允性与中小股东利益需警惕。"
+   "ai_note": "亚太科技铝加工主业稳健，无异常信号"
   },
   {
    "ticker": "000612.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "长期存在控制权争夺与复杂法律诉讼，公司治理结构存在重大缺陷。"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "曾发生严重债务违约并经历漫长重组，信用风险与治理隐患极高。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "焦作万方股权曾变动，目前运营暂无重大异常"
   },
   {
    "ticker": "600219.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "产业链一体化完善且治理规范，航空铝材高端化突破提供估值溢价。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "南山铝业全产业链布局，治理较规范"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "晋能控股山西煤业，国企背景运营稳定"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "永泰能源历史债务违约，治理风险仍存"
   },
   {
    "ticker": "002497.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂盐业务受碳酸锂价格暴跌拖累，量化模型对周期反转反应滞后。"
-  },
-  {
-   "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭长协价格稳定但面临长期能源转型压力，缺乏爆发式增长催化。"
+   "ai_note": "雅化集团锂盐+民爆双主业，无重大异常"
   },
   {
    "ticker": "002978.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值偏小且业务多元化，主业核心竞争力与盈利稳定性有待观察。"
+   "ai_adjust": 0,
+   "ai_note": "安格股份体量较小，暂无明显风险信号"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "山煤国际曾因信息披露违规被监管处罚"
   },
   {
    "ticker": "600098.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "地方国企属性提供安全边际，但传统能源业务缺乏高成长弹性。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "广发展集团业务杂，历史存在财务争议"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "新建煤矿资本开支庞大，未来几年自由现金流可能承压。"
+   "ai_adjust": 0,
+   "ai_note": "中煤能源为央企，治理规范分红稳定"
   },
   {
    "ticker": "600740.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "高度依赖下游钢铁行业需求，房地产低迷导致焦炭价格承压。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "山西焦化主业清晰，国企治理尚可"
   },
   {
    "ticker": "600971.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "矿井老龄化导致开采成本逐年上升，长期资源接续存在隐忧。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "恒源煤电体量偏小，历史有安全及治理瑕疵"
   },
   {
    "ticker": "603071.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "环保政策趋严增加合规成本，区域煤炭市场竞争格局较为激烈。"
+   "ai_adjust": 0,
+   "ai_note": "浙能环保能源体量小，暂无突出风险"
   },
   {
-   "ticker": "002466.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "海外锂矿并购遗留巨额债务，在锂价低迷期财务费用将严重侵蚀利润。"
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中国宏桥月跌近12%，地产需求疲软承压"
   }
  ]
 }
