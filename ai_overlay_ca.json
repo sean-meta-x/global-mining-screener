@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T01:01Z",
+ "generated_at": "2026-09-01T02:02Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MRZL.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "微型市值无新闻，流动性风险一般，暂持中性"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "CSE微型铜矿壳公司，无实质进展，谨防稀释"
+   "ai_note": "缺乏催化剂且无新闻，维持中性观察。"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金矿勘探小幅上涨，无催化剂确认，中性观望"
+   "ai_note": "黄金勘探股无消息面阴跌，缺乏短期关注点。"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值过小且无流动性支撑，铜价波动易受挫。"
   },
   {
    "ticker": "LIFT.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "月跌24%且零新闻，可能存在项目许可或融资问题"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "暴跌且无新闻，高度疑似隐性融资或项目受阻。"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "月跌34%且零新闻，铀矿标签存疑，高度警惕"
-  },
-  {
-   "ticker": "ENDR.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近19%无新闻，微型金矿勘探流动性堪忧"
-  },
-  {
-   "ticker": "HLU.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿概念小幅上涨，无实质消息驱动，中性"
-  },
-  {
-   "ticker": "OCEN.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月涨18%但零新闻，微型市值疑似炒作拉升"
-  },
-  {
-   "ticker": "SR.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微跌8%无新闻，多元化勘探无亮点，略偏谨慎"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌13%无新闻，加纳金矿项目或遇阻碍"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "标为生产商却月涨22%无新闻，数据分类存疑"
-  },
-  {
-   "ticker": "SAM.TO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Starcore为墨西哥实际生产商，涨幅或有基本面支撑"
-  },
-  {
-   "ticker": "SLV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月涨29%零新闻，CSE微型壳公司典型拉高特征"
-  },
-  {
-   "ticker": "BTR.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌11%无新闻，Bonterra开发阶段存不确定性"
+   "ai_note": "名称与主业存疑且股价暴跌，治理或资金链恐现危机。"
   },
   {
    "ticker": "NAR.V",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "月涨35%零新闻，微型市值异常拉升疑似推广"
+   "ai_note": "无基本面消息支撑的暴涨，警惕游资炒作后回落。"
   },
   {
-   "ticker": "CAMB.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "3.6亿市值勘探公司月涨22%无新闻，涨幅存疑"
+   "ticker": "ENDR.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "缺乏流动性且阴跌，需防范后续私募融资稀释。"
   },
   {
-   "ticker": "TT.V",
+   "ticker": "MJS.V",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "作为唯一生产商具备现金流，金价上涨或产量释放驱动。"
+  },
+  {
+   "ticker": "SAM.TO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "PGM勘探零涨幅零新闻，无催化剂，中性观望"
+   "ai_note": "走势平稳但缺乏新闻催化，维持中性评级。"
+  },
+  {
+   "ticker": "OCEN.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "极小市值无利好异动，大概率为庄家拉升出货前兆。"
+  },
+  {
+   "ticker": "JG.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "股价重挫且无公告，极可能遭遇钻探失败或紧急融资。"
+  },
+  {
+   "ticker": "HUNT.CN",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "交易停滞缺乏流动性，无明确方向暂不调整。"
+  },
+  {
+   "ticker": "SLV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "无实质利好下的急涨，高度怀疑为社交媒体喊单炒作。"
   },
   {
    "ticker": "NAM.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微跌4%无新闻，多元化勘探无亮点，略偏谨慎"
+   "ai_adjust": 0,
+   "ai_note": "多元化微型勘探股缺乏核心亮点，随波逐流。"
+  },
+  {
+   "ticker": "BTR.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "开发者阶段无重大消息，短期走势受大盘拖累。"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "无公告暴涨近八成，典型庄股控盘拉升，追高风险极大。"
   },
   {
    "ticker": "NEXU.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月暴涨54%零新闻，CSE微型壳公司高度疑似操纵"
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "极小市值无利好暴涨，警惕拉高后伴随的溢价融资。"
+  },
+  {
+   "ticker": "CCCM.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "市值相对健康，小幅回调属正常波动，暂无明显风险。"
   },
   {
    "ticker": "SXTY.CN",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "CSE微型金矿小幅上涨无新闻，中性观望"
+   "ai_note": "缺乏流动性与消息面，维持中性观察。"
+  },
+  {
+   "ticker": "MSV.TO",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "股价闪崩且无公开解释，大概率遭遇重大利空或恶意砸盘。"
   }
  ]
 }
