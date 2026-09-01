@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-31T00:13Z",
+ "generated_at": "2026-09-01T01:15Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铁矿商，基本面稳健，无异常事件。"
+   "ai_adjust": -2,
+   "ai_note": "铁矿石价格受中国需求疲弱压制，短期承压但基本面稳健"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型市值勘探公司，融资稀释与许可证风险极高"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史多次配股稀释，治理记录存疑。"
+   "ai_adjust": -4,
+   "ai_note": "历史上多次配股稀释，项目交付记录不佳需警惕"
   },
   {
-   "ticker": "MTU.JO",
+   "ticker": "MRF.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足8000万，流动性极差且暴跌17%。"
+   "ai_adjust": -8,
+   "ai_note": "曾进入商业救援程序，治理与财务风险严重"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "Bakubung项目屡次延期，治理问题频发。"
+   "ai_adjust": -7,
+   "ai_note": "项目长期延误、治理问题频发、持续稀释股东"
   },
   {
-   "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "嘉能可合资背景，铬铁业务稳定。"
+   "ticker": "MTU.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型市值流动性极差，信息透明度不足"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "津巴布韦运营存在国别风险溢价。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦政治与汇兑风险不可忽视"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "莫桑比克矿区曾现治理争议。"
+   "ai_note": "有色宝石生产商，莫桑比克与赞比亚运营风险中等"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤企，ESG压力已被市场消化。"
+   "ai_adjust": -2,
+   "ai_note": "煤炭长期面临ESG撤资压力，但短期现金流尚可"
   },
   {
-   "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型煤企无新闻却暴涨18%，疑似炒作。"
+   "ticker": "CPR.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "早期勘探阶段，月涨近20%或存炒作嫌疑"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "刚果(金)锡矿运营，管辖风险偏高。"
+   "ai_note": "刚果金锡矿在产但管辖风险偏高，估值合理"
   },
   {
-   "ticker": "CPR.JO",
+   "ticker": "SLG.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "勘探阶段无收入，涨19%无消息支撑。"
+   "ai_adjust": -4,
+   "ai_note": "小型煤炭生产商，规模与流动性均不足"
   },
   {
-   "ticker": "TGA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "纯动力煤股，现金流强但ESG逆风持续。"
+   "ticker": "HAR.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "金价强势周期受益，但成本偏高限制超额收益"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化矿企组合均衡，管理尚可。"
+   "ai_adjust": 1,
+   "ai_note": "多元化布局优秀，月涨22%后估值已趋合理"
+  },
+  {
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "高成本煤矿从英美资源剥离，长期前景堪忧"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "建材加铁矿双轮驱动，经营稳健。"
+   "ai_note": "铁矿与建材多元化经营稳健，无明显催化剂"
   },
   {
    "ticker": "KP2.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "钾肥开发阶段，融资与许可风险高。"
-  },
-  {
-   "ticker": "MCZ.JO",
-   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "煤炭开发商暴跌20%，ESG下融资困难。"
+   "ai_note": "钾矿开发阶段距投产尚远，资金需求巨大"
   },
   {
    "ticker": "GFI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金价推动月涨41%，估值已趋充分。"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "从Implat分拆新上市，量化数据尚浅。"
-  },
-  {
-   "ticker": "HAR.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金价受益但成本偏高，涨幅已大。"
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "金价飙升核心受益者，运营执行力强月涨42%"
   },
   {
    "ticker": "DRD.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "尾矿再处理低利润率，金价上涨已反映。"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "尾矿回收低风险金矿，金价上行期弹性充足"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "铂族金属管理优秀成本可控，月涨37%动能强"
   }
  ]
 }
