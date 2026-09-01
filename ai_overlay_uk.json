@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-08-31T00:10Z",
+ "generated_at": "2026-09-01T01:12Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
    "ticker": "POW.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股，流动性极差，存在典型推广风险"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀概念有热度但微盘股流动性差，无实质进展需警惕炒作。"
   },
   {
    "ticker": "UFO.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "无新闻却暴涨27%，微型股疑似拉高出货"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值仅千万且无新闻下暴涨两成，典型微盘股流动性溢价或炒作。"
   },
   {
    "ticker": "MET1.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "爱尔兰铁矿勘探进展缓慢，流动性极薄"
+   "ai_adjust": -2,
+   "ai_note": "长期缺乏实质性勘探进展与催化剂，微盘股流动性风险较高。"
   },
   {
    "ticker": "THX.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "科特迪瓦Seguela金矿已投产，基本面尚可"
+   "ai_note": "塞内加尔金矿已投产受益金价，但西非地缘风险与涨幅已透支预期。"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "钻石公司深陷债务危机，量化分严重高估"
+   "ai_note": "钻石需求疲软叠加历史债务重组阴影，公司治理与现金流持续承压。"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非PGM生产商，公司治理和关联交易存疑"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铂族金属价格低迷，但公司运营相对稳健，估值已反映悲观预期。"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "纯物理铀资产信托，无运营风险，直接受益于铀价长牛逻辑。"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲黄金生产商，运营稳健但无突出催化剂"
-  },
-  {
-   "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "铀现货基金结构清晰，流动性好，治理透明"
-  },
-  {
-   "ticker": "CAML.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "巴尔干地区政治风险不可忽视"
+   "ai_note": "西澳金矿运营稳定，金价上涨提供支撑，但缺乏超预期催化剂。"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "津巴布韦运营，国家风险极高，涨幅过快"
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦国家风险极高，尽管分红慷慨，但估值长期受地缘政治压制。"
+  },
+  {
+   "ticker": "CAML.L",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "北马其顿铜锌矿运营稳定且分红良好，基本面扎实，具防御属性。"
   },
   {
    "ticker": "SRB.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "巴西金矿运营曾有波折，需关注产量持续性"
-  },
-  {
-   "ticker": "XTR.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿勘探股，资金有限进展不明"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非PGM生产商，铂族金属价格承压"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "巴西金矿新项目投产带来产量增长，基本面改善明确，金价受益。"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "马里锂矿项目，该国政变后政治风险极高"
+   "ai_adjust": -5,
+   "ai_note": "马里地缘政治风险高企，叠加锂价暴跌，项目融资与推进面临重创。"
   },
   {
-   "ticker": "GLR.L",
+   "ticker": "XTR.L",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "微型股无新闻暴涨33%，高度疑似炒作"
+   "ai_note": "长期低迷的非洲微盘股，缺乏核心资产与资金，流动性极差。"
   },
   {
-   "ticker": "ROCK.L",
+   "ticker": "THS.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型PGM勘探股，长期无实质进展"
+   "ai_note": "南非PGM生产商面临电力与地缘风险，且铂族金属价格持续低迷。"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "南非金尾矿处理商，金价上涨直接受益"
-  },
-  {
-   "ticker": "TGA.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南非动力煤商，ESG长期逆风但短期盈利"
-  },
-  {
-   "ticker": "ORR.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿勘探股，下跌趋势中缺乏催化剂"
+   "ai_adjust": 0,
+   "ai_note": "南非尾矿回收商直接受益金价，但南非宏观与运营风险限制估值。"
   },
   {
    "ticker": "AAU.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "土耳其运营面临监管和税务不确定性"
+   "ai_note": "土耳其高通胀与地震风险压制估值，矿山许可证与运营存不确定性。"
+  },
+  {
+   "ticker": "GLR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值仅千万且无新闻下暴涨三成，极大概率为微盘股资金炒作陷阱。"
+  },
+  {
+   "ticker": "BHL.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂矿概念退潮，项目长期停滞缺乏进展，微盘股面临资金枯竭风险。"
+  },
+  {
+   "ticker": "ROCK.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "新西兰PGM项目长期无实质进展，公司治理与资金链存严重隐患。"
+  },
+  {
+   "ticker": "ORR.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "瑞典金矿项目推进缓慢，缺乏明确催化剂，微盘股流动性折价明显。"
   }
  ]
 }
