@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T01:23Z",
+ "generated_at": "2026-09-02T00:05Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值无新闻覆盖，流动性和治理风险存疑"
+   "ai_note": "小盘股无新闻覆盖，流动性与治理风险较高"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型煤炭股，缺乏信息透明度"
+   "ai_note": "小盘煤炭股缺乏信息透明度，警惕推广操纵"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "股价下跌但无消息解释，需关注基本面"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "阿斯特拉集团旗下优质企业，治理良好"
+   "ai_adjust": -4,
+   "ai_note": "无利空消息却持续下跌，可能存在未披露问题"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型多元化矿企，无显著风险信号"
-  },
-  {
-   "ticker": "DWGL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月暴跌28%且无公告，存在重大未披露风险"
-  },
-  {
-   "ticker": "MYOH.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "知名煤炭承包商，运营稳健"
-  },
-  {
-   "ticker": "FIRE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值加题材代码，疑似炒作特征"
+   "ai_note": "中型多元化矿企，基本面平稳无明显催化"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "单月暴涨42%无新闻支撑，投机风险极高"
+   "ai_note": "金矿股月涨33%却零新闻，典型拉高出货特征"
+  },
+  {
+   "ticker": "DWGL.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "月跌36%无公告，疑似运营失败或治理暴雷"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "Astra旗下重型设备龙头，治理优良分红稳定"
+  },
+  {
+   "ticker": "MYOH.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产商运营稳定，估值合理无突出催化"
   },
   {
    "ticker": "KKGI.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "TPG支持的中型煤企，治理尚可"
+   "ai_note": "中型煤炭企业，集团背景提供一定安全边际"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型煤炭承包商，业务稳定"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "中型煤企治理良好，涨幅合理"
-  },
-  {
-   "ticker": "TINS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国有锡业龙头，受政策影响较大"
-  },
-  {
-   "ticker": "DAAZ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "知名度低，信息透明度不足"
+   "ai_note": "大型煤炭承包及生产商，业务稳健但缺催化"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "哈里塔集团镍业旗舰，HPAL产能释放"
+   "ai_adjust": -1,
+   "ai_note": "镍价受印尼供应过剩压制，哈立达集团背景尚可"
   },
   {
-   "ticker": "DOID.JK",
+   "ticker": "HRUM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "知名煤炭企业，运营正常"
+   "ai_note": "中型煤企分红记录良好，估值合理无异常"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "国有锡业龙头受益锡价上行，但效率偏低"
+  },
+  {
+   "ticker": "FIRE.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型煤炭股月涨15%无新闻，推广嫌疑较大"
+  },
+  {
+   "ticker": "DAAZ.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小盘多元化矿企信息不透明，需警惕稀释"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "老牌煤炭承包商，业绩稳健"
+   "ai_note": "煤炭生产商运营成熟，治理尚可无明显风险"
   },
   {
-   "ticker": "ARII.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小型煤企，流动性一般"
-  },
-  {
-   "ticker": "PTBA.JK",
+   "ticker": "DOID.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国有大型煤企，分红稳定"
+   "ai_note": "煤炭承包商背景扎实，业绩随煤价波动"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型市值不足5000亿印尼盾，流动性极差"
+   "ai_note": "微型煤炭股流动性差，月涨11%无消息支撑"
+  },
+  {
+   "ticker": "PTBA.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "国有煤炭龙头高分红低估值，防御属性突出"
+  },
+  {
+   "ticker": "ARII.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产商体量适中，基本面平稳无亮点"
   }
  ]
 }
