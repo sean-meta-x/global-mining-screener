@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T01:29Z",
+ "generated_at": "2026-09-02T00:12Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝型材龙头基本面稳健但近期回调，无重大风险信号。"
+   "ai_note": "铝企基本面稳健，但近期跑输大盘，缺乏短期催化剂。"
+  },
+  {
+   "ticker": "2693.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值过小且流动性差，存在微观结构风险。"
   },
   {
    "ticker": "0637.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值过小流动性差，多元化业务缺乏明确亮点。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型市值且缺乏明确增长逻辑，需防范流动性陷阱。"
   },
   {
    "ticker": "1303.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小型煤企行业政策风险需关注，整体中性对待。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小型煤炭企业，行业集中度高企下缺乏规模优势。"
   },
   {
    "ticker": "8250.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅三千万创业板壳股特征明显，高度警惕。"
-  },
-  {
-   "ticker": "2693.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小市值多元化公司基本面信息有限，中性对待。"
+   "ai_adjust": -8,
+   "ai_note": "创业板微盘股，市值极低，存在壳资源炒作及流动性风险。"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足六千万创业板煤企，壳股风险极高。"
+   "ai_adjust": -10,
+   "ai_note": "历史治理劣迹斑斑的创业板仙股，近期大跌需警惕基本面恶化。"
   },
   {
-   "ticker": "8095.HK",
+   "ticker": "2078.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "实际为消防科技公司非矿企，行业分类有误需警惕。"
+   "ai_adjust": -3,
+   "ai_note": "铝加工小盘股，盈利空间受上下游挤压，流动性不佳。"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史上存在治理问题，多元化转型成效存疑。"
-  },
-  {
-   "ticker": "2078.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小型铝企市值偏低，受行业周期影响较大。"
+   "ai_adjust": -4,
+   "ai_note": "老牌壳股，多元化转型成效存疑，需警惕治理与稀释风险。"
   },
   {
    "ticker": "1738.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值无烟煤企业短期涨幅较大需防回调风险。"
+   "ai_adjust": -3,
+   "ai_note": "近期异常放量上涨，微盘煤炭股需警惕游资炒作与出货风险。"
+  },
+  {
+   "ticker": "8095.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "业务已偏向教育科技，非纯正矿业标的，维持中性观察。"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "受益金价上涨，黄金产能释放具备一定业绩弹性。"
+  },
+  {
+   "ticker": "0815.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "白银价格受工业需求拖累，业绩弹性不及黄金，维持中性。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企估值合理但缺乏明确催化剂。"
+   "ai_note": "大型国企铝企，业绩受宏观周期影响大，缺乏超额收益。"
   },
   {
    "ticker": "1182.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "历史上多次借壳运作治理风险显著建议回避。"
+   "ai_adjust": -8,
+   "ai_note": "历史著名壳股，主业空心化，存在极高治理与退市风险。"
   },
   {
-   "ticker": "2489.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "次新金矿股近期涨幅较大基本面尚待验证。"
+   "ticker": "0621.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "海外金矿开发进度缓慢，面临较高的地缘与许可证审批风险。"
   },
   {
    "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤企月涨两成投机氛围浓厚需谨慎。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微盘煤炭股近期异常拉升，典型低流动性游资炒作特征。"
   },
   {
-   "ticker": "0815.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "债务压力及治理争议持续基本面存在隐忧。"
+   "ticker": "2610.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型铝企，估值合理但缺乏显著催化剂，跟随板块波动。"
   },
   {
-   "ticker": "0276.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值不足一亿蒙古国政策风险叠加流动性极差。"
+   "ticker": "0505.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铜合金企业，受宏观需求影响较大，基本面平稳无亮点。"
   },
   {
    "ticker": "6885.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤企近期表现平稳暂无明显风险信号。"
+   "ai_note": "煤炭生产企业，现金流尚可但缺乏扩张预期，表现平庸。"
   },
   {
    "ticker": "0486.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "俄铝受国际制裁影响巨大地缘风险量化模型难以捕捉。"
-  },
-  {
-   "ticker": "0621.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金矿开发阶段无产量项目执行及融资风险较高。"
-  },
-  {
-   "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "月涨逾两成或存短期投机但基本面尚可中性看待。"
+   "ai_adjust": -5,
+   "ai_note": "受地缘政治与制裁风险压制，海外业务不确定性极高。"
   }
  ]
 }
