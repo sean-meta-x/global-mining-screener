@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-01T01:39Z",
+ "generated_at": "2026-09-02T00:22Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "601600.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "央企铝龙头，治理稳健但增长弹性有限，量化评分合理"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "央企铝企负债率高、产能过剩，SOE治理效率低，量化难捕捉结构性负担"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "水电铝绿色溢价优势明确，无重大治理瑕疵"
+   "ai_adjust": -1,
+   "ai_note": "依赖云南水电，枯水期限电风险大，母公司Chalco拖累"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "市值不足六十亿，流动性偏弱，信息透明度较低"
+   "ai_note": "市值不足60亿，流动性差，1M负收益，小铝企抗周期能力弱"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史存在治理争议与关联交易问题，需警惕"
+   "ai_adjust": -2,
+   "ai_note": "历史治理问题频出，市值偏小，信息透明度不足"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤电铝一体化布局扎实，动量正向，无明显隐患"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史财务状况波动较大，负债率偏高需关注"
+   "ai_adjust": 1,
+   "ai_note": "煤电铝一体化布局合理，管理层稳健，1M涨幅领先同行"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "新疆低成本产能优势明显，母公司背景可靠"
+   "ai_adjust": -1,
+   "ai_note": "新疆低电价优势明显，但碳排放政策收紧构成中长期压力"
   },
   {
-   "ticker": "002540.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值铝企，公开信息有限，流动性风险存在"
-  },
-  {
-   "ticker": "600098.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭业务面临能源转型压力，月跌幅较大"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史治理记录不佳，曾涉信披违规，需折价"
-  },
-  {
-   "ticker": "600219.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南山集团债务压力可能传导，母公司风险需关注"
-  },
-  {
-   "ticker": "002497.SZ",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "锂盐业务提供额外弹性，月涨近一成动量强劲"
-  },
-  {
-   "ticker": "002978.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化中小市值，无突出催化剂亦无明显雷区"
+   "ticker": "600595.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "历史债务违约风险，财务状况持续恶化，1M负收益确认基本面走弱"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西国资煤企，月涨逾一成但属板块轮动驱动"
+   "ai_note": "1M涨幅超10%反映煤价支撑，但煤炭长期转型风险量化未充分计入"
+  },
+  {
+   "ticker": "002497.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "亚化集团历史治理与重组问题多，业务杂而不精，需警惕"
+  },
+  {
+   "ticker": "002540.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "市值仅65亿，亚铝系边缘公司，流动性和信息透明度均不足"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西国资背景，动量强劲但煤炭政策风险犹存"
+   "ai_note": "1M涨幅近12%动能强，但煤炭资产长期面临能源转型折价"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史治理争议多，业绩波动大，1M负收益反映市场信心不足"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "南山铝负债率偏高，航空铝材转型尚需验证，债务风险不可忽视"
+  },
+  {
+   "ticker": "002978.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "1M几乎零涨幅，动能衰竭，中小 diversified 标的缺乏明确催化剂"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锂价持续低迷压制估值，盐湖提锂成本优势部分对冲但仍承压"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "1M涨16%动能最强，央企煤炭龙头受益高煤价，但转型风险长期存在"
+  },
+  {
+   "ticker": "603799.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "镍钴价格受印尼供给冲击和EV增速放缓双重压制，1M负收益确认"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "收购Greenbushes遗留高负债，锂价下行周期偿债压力大"
+  },
+  {
+   "ticker": "301219.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "次新钴企市值偏小，业务单一，行业下行期抗风险能力弱"
   },
   {
    "ticker": "600740.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "焦煤标的受益价格韧性，涨幅已大追高需谨慎"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "月涨一九%属极端动量，煤炭长期需求见顶风险被忽视"
-  },
-  {
-   "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近一成三，全球最大铝企却大幅回调，存未知利空"
-  },
-  {
-   "ticker": "301219.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "次新钴企，经营历史短，业绩可持续性待验证"
-  },
-  {
-   "ticker": "000792.SZ",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "盐湖提锂成本优势突出，资源壁垒构成安全边际"
+   "ai_note": "1M涨12%受益焦煤价格坚挺，但煤炭长期需求见顶风险未计入"
   }
  ]
 }
