@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-01T23:45Z",
+ "generated_at": "2026-09-02T23:47Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
+   "ticker": "CEXYF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型铜矿勘探商，无新闻支撑涨幅，警惕炒作与稀释风险"
+  },
+  {
    "ticker": "WWR",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "无新闻却月涨34%，微型勘探股需警惕拉高出货风险"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "无消息暴涨疑似庄家拉高出货，需警惕流动性风险。"
+   "ai_note": "Rhyolite Ridge项目面临重大许可证审批与环保诉讼风险"
   },
   {
    "ticker": "FNUC",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "市值极小且缺乏流动性，量化模型易高估其真实交易价值。"
+   "ai_adjust": -1,
+   "ai_note": "新上市核能勘探公司，历史数据有限，暂持中性"
   },
   {
    "ticker": "JAGU",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "微型铀矿勘探公司，资金消耗快且无近期钻探催化剂。"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂矿开发商面临美国本土项目环评与融资双重延期风险。"
+   "ai_note": "微型铀矿勘探商，信息有限，需关注后续钻探进展"
   },
   {
    "ticker": "UROY",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "铀矿版税模式免受股本稀释，直接受益于铀价上涨周期。"
+   "ai_note": "铀矿版税模式现金流稳定，动量强劲，基本面扎实"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "月涨超2300%的微型PGM股，无新闻支撑，典型拉高骗局特征"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "巨型锂矿项目资本开支庞大，面临极高的融资与建设风险。"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "单月暴涨超二十倍且地处格陵兰，典型仙股炒作与地缘风险。"
+   "ai_note": "Thacker Pass项目面临环保诉讼与原住民反对，稀释风险大"
   },
   {
    "ticker": "FMST",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "清洁能源微型股大幅下挫，基本面恶化或面临资金链断裂。"
-  },
-  {
-   "ticker": "NB",
-   "ai_view": "caution",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "稀土开发商历史融资困难，项目推进缓慢且资本开支巨大。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "认股权证存在到期归零风险，且反映正股潜在的稀释压力。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "津巴布韦金矿生产商，虽产量稳定但面临较大的地缘管辖风险。"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "黄金勘探公司近期涨幅缺乏实质性钻探数据支撑，需防回调。"
-  },
-  {
-   "ticker": "OGC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型金矿商基本面稳健，但菲律宾核心矿区存在环保许可隐患。"
-  },
-  {
-   "ticker": "FMSTW",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "作为FMST的衍生权证，同样受限于正股流动性枯竭与到期风险。"
+   "ai_note": "月跌近29%的微型股，无新闻，疑似炒作退潮或融资稀释"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "巴西钾矿开发商处于早期阶段，面临极高的资本筹措与执行风险。"
+   "ai_note": "巴西钾矿开发商，历史上有融资困难和稀释记录"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "纳米布矿物认股权证，高度投机且具稀释性"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "津巴布韦Bilboes金矿项目面临严重政治与治理风险"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "稀土开发商有严重稀释历史，项目融资屡遇障碍"
+  },
+  {
+   "ticker": "FMSTW",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "Foremost相关权证，与FMST同样面临稀释与炒作风险"
+  },
+  {
+   "ticker": "GLDG",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "金矿勘探商有稀释历史，但金价走强提供一定支撑"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭生产商面临ESG逆风与行业长期衰退压力"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小型金矿生产商，走势平稳，暂无明显风险信号"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "石墨开发商需巨额资金推进矿山建设，当前融资环境对其不利。"
+   "ai_note": "魁北克石墨开发商面临融资挑战与持续稀释风险"
   },
   {
-   "ticker": "NAMM",
+   "ticker": "OGC",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小型金矿生产商产量有限，抗风险能力较弱且市值偏低。"
+   "ai_adjust": -2,
+   "ai_note": "菲律宾Didipio矿面临社区反对与许可证风险"
   },
   {
-   "ticker": "NC",
+   "ticker": "ELBM",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "煤炭生产商面临长期ESG政策打压，资产估值存在结构性折价。"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型多元化勘探公司，市值过小导致机构资金无法有效介入。"
-  },
-  {
-   "ticker": "ATCMF",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型矿业公司日常交易量极低，量化评分可能因流动性溢价失真。"
+   "ai_adjust": -3,
+   "ai_note": "电池材料勘探商有稀释与项目延期历史"
   }
  ]
 }
