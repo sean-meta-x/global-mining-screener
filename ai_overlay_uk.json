@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-01T23:56Z",
+ "generated_at": "2026-09-02T23:57Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
-   "ticker": "THX.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "尼日利亚矿山面临外汇管制与安全风险，量化未计入地缘折价。"
-  },
-  {
-   "ticker": "MET1.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型勘探股流动性差且存在持续股权稀释风险。"
-  },
-  {
    "ticker": "UFO.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "公司名称具炒作嫌疑，微型市值面临高稀释与流动性风险。"
+   "ai_note": "微型PGM勘探公司，无实质新闻催化，流动性风险高"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "巴西Palito金矿运营平稳，近期涨幅已反映基本面。"
+   "ai_note": "巴西Palito金矿在产，历史治理问题改善中，估值合理"
+  },
+  {
+   "ticker": "MET1.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型勘探公司，无明确项目催化，资金消耗风险"
+  },
+  {
+   "ticker": "THX.L",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "Seguela金矿投产放量，科特迪瓦运营稳定，动量强劲"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "纯物理铀持仓基金，无运营风险，直接受益于铀价长牛。"
+   "ai_note": "铀现货信托受益於铀价上行周期，结构清晰低费率"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铀锂勘探股，高度投机且面临持续融资稀释风险。"
+   "ai_adjust": -3,
+   "ai_note": "微型勘探公司，项目早期阶段，稀释融资风险高"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值暴跌至两千万以下，面临严重债务重组与矿山停产危机。"
+   "ai_adjust": -6,
+   "ai_note": "债务重组压力大，南非Cullinan矿运营持续恶化"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非电力与运营风险压制估值，基本面缺乏显著催化剂。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史多次稀释融资，PGM价格低迷压制估值"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "西澳黄金生产商，近期表现稳健，量化评分合理。"
+   "ai_adjust": 1,
+   "ai_note": "西澳金矿在产，成本可控，近期动量正面"
   },
   {
    "ticker": "CAML.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "欧洲铜生产商，受益于铜价上涨，无显著隐藏风险。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "Kounrad与Sasa双矿运营稳健，铜价上行受益"
   },
   {
    "ticker": "CMCL.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "津巴布韦主权与外汇管制风险极高，量化模型低估了国家风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "津巴布韦Blanket金矿在产，近期涨幅大但国别风险高"
   },
   {
    "ticker": "THS.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "南非PGM生产商，受困于当地电力与物流瓶颈。"
+   "ai_note": "南非PGM生产商，铂族金属价格疲软拖累盈利"
   },
   {
    "ticker": "KOD.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "马里地缘政治风险极高，军政府政策变动可能导致项目停滞。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "马里Bougouni锂矿仍处早期，国别与融资风险并存"
   },
   {
    "ticker": "XTR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "近期股价暴跌两成，微型市值暗示钻探失败或资金链断裂。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "一月暴跌20%无新闻解释，可能存在未披露问题"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南非尾矿回收商，近期随金价大涨，无显著隐藏风险。"
+   "ai_adjust": 1,
+   "ai_note": "南非尾矿加工商，金价受益但国别与运营风险持续"
   },
   {
    "ticker": "AAU.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "土耳其高通胀与里拉贬值风险显著，需警惕宏观政策冲击。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "土耳其金矿小型生产商，运营平稳但体量有限"
   },
   {
-   "ticker": "GLR.L",
+   "ticker": "HALO.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型股近期异常暴涨，流动性极差，需警惕游资炒作后回落。"
-  },
-  {
-   "ticker": "BHL.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂价低迷期微型勘探股缺乏流动性，存在被边缘化风险。"
+   "ai_note": "早期铜矿勘探，无实质进展，资金消耗风险高"
   },
   {
    "ticker": "GGP.L",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Havieron项目具世界级潜力，大市值下存在被巨头并购的催化剂。"
+   "ai_adjust": 4,
+   "ai_note": "Havieron项目获Newmont收购溢价确认，催化明确"
+  },
+  {
+   "ticker": "GLR.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型勘探公司月涨33%无新闻支撑，警惕回调风险"
   },
   {
    "ticker": "ROCK.L",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "南非微型PGM勘探股，近期暴跌且流动性枯竭，存在退市风险。"
+   "ai_note": "微型PGM勘探暴跌19%，无新闻解释可能存在隐忧"
   }
  ]
 }
