@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T23:59Z",
+ "generated_at": "2026-09-03T00:01Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "Anglo American子公司，基本面稳健，无重大隐忧"
+   "ai_note": "铁矿石需求受中国地产拖累，估值合理。"
   },
   {
    "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值公司，历史上多次配售稀释股东权益"
-  },
-  {
-   "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "长期亏损且治理问题频出，反弹或不可持续"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "尾矿再处理项目执行风险犹存，需观察现金流。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型开发商，项目屡次失败，治理记录极差"
+   "ai_adjust": -10,
+   "ai_note": "历史治理极差且屡次稀释，量化模型严重高估。"
+  },
+  {
+   "ticker": "MRF.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "流动性极差且高度依赖嘉能可，缺乏独立定价权。"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "存在关联交易及治理争议，需警惕管理层风险"
-  },
-  {
-   "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "Anglo旗下优质煤炭资产，ESG压力是长期风险"
+   "ai_note": "铂族金属价格低迷抵消了产量增长，估值中性。"
+  },
+  {
+   "ticker": "SSW.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "债务高企且铂族金属拖累，近期涨幅透支基本面。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "有色宝石细分赛道，历史上有透明度争议"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "主营彩色宝石而非铂族，流动性差且受周期影响。"
   },
   {
-   "ticker": "APH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "刚果(金)运营，地缘政治与政策风险显著"
+   "ticker": "EPS.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "单月暴跌近半且现金消耗快，存在严重运营或资金风险。"
   },
   {
    "ticker": "CPR.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "无实质进展的勘探股单月大涨，警惕炒作与稀释风险。"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭面临长期ESG逆风，高分红难掩结构性衰退风险。"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 5,
+   "ai_note": "锡矿资产优质且成本极低，量化模型低估了其基本面。"
+  },
+  {
+   "ticker": "SLG.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "勘探阶段公司，短期暴涨24%具典型炒作特征"
+   "ai_adjust": -7,
+   "ai_note": "市值极小且主营煤炭，流动性枯竭与退市风险极高。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "Motsepe旗下多元化矿企，管理层执行力尚可"
+   "ai_note": "资产组合复杂且受宏观周期影响大，短期缺乏催化剂。"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "bullish",
+   "ai_view": "neutral",
    "ai_adjust": 2,
-   "ai_note": "运营持续改善，金价上行周期中弹性充足"
+   "ai_note": "受益于金价上涨，但维持成本偏高限制了利润弹性。"
   },
   {
-   "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值不足5亿，流动性极差且信息不透明"
+   "ticker": "SKA.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "微型勘探股无实质资产，纯属资金炒作与稀释陷阱。"
+  },
+  {
+   "ticker": "DRD.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "金矿尾矿回收成本低且直接受益于金价，基本面强劲。"
   },
   {
    "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "动力煤出口受政策与ESG双重压制，反弹后估值偏高。"
+  },
+  {
+   "ticker": "GFI.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭出口依赖印度，ESG逆风限制长期估值"
+   "ai_adjust": 0,
+   "ai_note": "金价大涨带动短期涨幅过大，需警惕技术性回调风险。"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "虽为低成本矿企，但铂族金属需求疲软压制长期估值。"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "建材与铁矿多元化经营，管理层较为稳健"
-  },
-  {
-   "ticker": "DRD.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "尾矿回收低成本模式，金价上涨期杠杆效应强"
-  },
-  {
-   "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "全球化布局的金矿龙头，金价强势期核心标的"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "铂族金属优质运营商，管理层记录良好"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属大型生产商，估值需关注行业周期"
-  },
-  {
-   "ticker": "ANG.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "全球金矿巨头，金价40%涨幅后估值已偏高"
-  },
-  {
-   "ticker": "PAN.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "月涨43%短期透支较多，追高风险加大"
+   "ai_note": "建筑与铁矿石业务受宏观周期压制，短期表现平稳。"
   }
  ]
 }
