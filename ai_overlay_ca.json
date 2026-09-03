@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-02T00:45Z",
+ "generated_at": "2026-09-03T00:49Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "微型市值勘探商，无新闻流，量价平淡，缺乏催化剂"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微盘股无新闻且持续下跌，需警惕流动性枯竭或隐性稀释。"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "市值适中但一月零涨幅且无消息，流动性存疑"
+   "ai_note": "股价横盘且无新闻催化，维持中性观望。"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "虽有上涨但缺乏基本面新闻支撑，防范短期资金博弈。"
+  },
+  {
+   "ticker": "AEMC.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值极小且无新闻，下跌或反映勘探不及预期。"
+  },
+  {
+   "ticker": "CPAU.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "跌幅较大且无消息，需警惕钻探失败或融资稀释。"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "微盘股小幅反弹无新闻支撑，维持中性。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值2.6亿却暴跌22%且无任何新闻，疑似稀释或钻井失败未披露"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅1500万却涨18%且无新闻，疑似炒作拉升"
+   "ai_adjust": -5,
+   "ai_note": "大市值开发公司暴跌且无新闻，极可能存在未披露负面事件。"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "暴跌35%无任何公告，极可能存在未披露的重大利空"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "生产商身份却无运营新闻，涨16%缺乏基本面支撑"
-  },
-  {
-   "ticker": "GIGA.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值仅千万级且持续下跌，开发阶段项目推进存疑"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型勘探股缩量阴跌，无新闻无催化，关注度低"
+   "ai_adjust": -8,
+   "ai_note": "暴跌近三成且无公告，高度怀疑钻探失败或遭遇重大稀释。"
   },
   {
    "ticker": "ENDR.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "跌近19%且无任何消息，可能存在未公开的勘探失利"
+   "ai_adjust": -4,
+   "ai_note": "显著下跌缺乏新闻解释，需防范隐性利空或融资。"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "微盘股小幅上涨无实质利好，中性对待。"
   },
   {
    "ticker": "SAM.TO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "走势平稳无异常，但无新闻支撑高分，中性观望"
+   "ai_note": "温和上涨无新闻，基本面平稳，维持中性。"
+  },
+  {
+   "ticker": "GIGA.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "开发阶段公司大幅下挫且无新闻，警惕许可或融资风险。"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小幅上涨但无新闻，微型市值流动性风险犹存"
-  },
-  {
-   "ticker": "MMY.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值3.3亿暴涨31%却零新闻，高度疑似庄家拉高出货"
+   "ai_adjust": 0,
+   "ai_note": "股价停滞无新闻，缺乏催化剂，中性观望。"
   },
   {
    "ticker": "OCEN.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅千万涨18%无消息，微型股异常波动需警惕"
-  },
-  {
-   "ticker": "JG.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "开发阶段公司暴跌33%无公告，恐有许可证或融资问题"
+   "ai_adjust": -5,
+   "ai_note": "微盘股无新闻暴涨，高度疑似庄家拉高出货或炒作。"
   },
   {
    "ticker": "HUNT.CN",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微盘股阴跌无新闻，流动性风险较高。"
+  },
+  {
+   "ticker": "TT.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型市值温和下跌，无新闻流，缺乏交易价值"
-  },
-  {
-   "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "跌17%无消息，多元化勘探公司方向不明风险偏高"
-  },
-  {
-   "ticker": "AMY.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池回收概念降温，无新闻且持续走弱"
+   "ai_adjust": 0,
+   "ai_note": "股价横盘无消息，缺乏交易催化剂。"
   },
   {
    "ticker": "AVL.TO",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "暴涨89%零新闻，典型拉高派发特征，极度危险"
+   "ai_note": "无新闻暴涨近八成，典型庄股拉高特征，极度高危。"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "显著下跌且无公告，需警惕未披露的勘探失败或稀释。"
+  },
+  {
+   "ticker": "CCCM.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中等市值温和下跌无新闻，可能受板块情绪拖累。"
   },
   {
    "ticker": "NEXU.CN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值涨25%无公告，铂族矿勘探炒作嫌疑大"
-  },
-  {
-   "ticker": "SR.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "走势平淡无催化，微型多元化勘探缺乏亮点"
+   "ai_adjust": -2,
+   "ai_note": "微盘股阴跌无消息，需防范流动性折价。"
   }
  ]
 }
