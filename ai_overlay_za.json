@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-03T23:58Z",
+ "generated_at": "2026-09-04T23:43Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
+   "ticker": "EUZ.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型勘探企业，流动性差且存在极高的资金稀释风险。"
+  },
+  {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "Transnet物流瓶颈持续压制铁矿产量与出口"
+   "ai_adjust": 0,
+   "ai_note": "铁矿石价格承压，但作为高股息大盘股具备防御性。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "BEE合作伙伴治理不透明，小盘流动性差"
+   "ai_adjust": -2,
+   "ai_note": "铬矿价格波动大，且公司历史上存在治理与财务隐患。"
   },
   {
    "ticker": "JBL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "激进并购导致公司架构复杂，项目执行与整合风险较高。"
+  },
+  {
+   "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "长期激进宣传、频繁配股稀释、屡次未达指引"
+   "ai_note": "极小市值微盘股，面临严重的流动性枯竭与股权稀释风险。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "Bakubung项目开发多年失败，持续稀释价值毁灭"
+   "ai_adjust": -6,
+   "ai_note": "铂族金属价格暴跌，未投产的开发阶段企业面临资金链断裂。"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史治理争议及多次融资，运营稳定性存疑"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "运营基本面尚可，但难以完全抵消铂族金属价格低迷的拖累。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "莫桑比克和刚果(金)高风险矿区运营"
-  },
-  {
-   "ticker": "SSW.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "安全事故频发、激进并购积累高债务"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭长期需求结构性下降，ESG逆风加剧"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "曾现持续经营疑虑，治理和财务风险极高"
-  },
-  {
-   "ticker": "EPS.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "单月暴跌49%，运营或财务危机信号明确"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "作为彩色宝石细分龙头现金流稳定，但受限于小众市场流动性。"
   },
   {
    "ticker": "CPR.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "勘探阶段公司单月涨28%，宣传炒作嫌疑大"
+   "ai_adjust": -2,
+   "ai_note": "铜价上涨带来短期炒作，但早期勘探阶段执行风险依然很高。"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "股价单月暴跌超四成，暗示存在严重的运营或财务基本面恶化。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值煤炭股流动性差，且面临长期的ESG与转型资金压力。"
   },
   {
    "ticker": "APH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "锡价强势反弹提供强劲顺风，基本面扎实且具备成长潜力。"
+  },
+  {
+   "ticker": "SSW.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "刚果(金) Bisie锡矿运营稳健但管辖风险高"
+   "ai_adjust": 0,
+   "ai_note": "黄金业务增长对冲了铂族金属的疲软，但整体成本管控仍需观察。"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭业务提供强劲现金流与分红，但长期面临能源转型估值压制。"
   },
   {
    "ticker": "ARI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "Motsepe管理团队优秀但南非系统性风险犹存"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "管理层优秀且资产多元，黄金与锰矿业务提供良好抗周期能力。"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铂族金属价格持续走弱，大型生产商利润空间面临严峻挤压。"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "运营改善明显，金价上涨直接受益"
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "直接受益于金价创历史新高，产量增长与利润率扩张预期强烈。"
   },
   {
-   "ticker": "TGA.JO",
+   "ticker": "KP2.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "纯动力煤标的，长期面临结构性衰退"
-  },
-  {
-   "ticker": "AFT.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "建材业务稳健但南非经济敞口较大"
-  },
-  {
-   "ticker": "DRD.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "尾矿回收受益金价，但品位递减是长期隐忧"
+   "ai_note": "刚果(金)地缘政治风险高，且钾矿开发项目面临资金与审批瓶颈。"
   },
   {
    "ticker": "SKA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值勘探公司，信息极度不透明"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "缺乏实质进展的微盘勘探股，流动性极差且无近期明确催化剂。"
   },
   {
-   "ticker": "VAL.JO",
+   "ticker": "TGA.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "从Implats新拆分，资产优质但独立运营记录短"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "铂族矿企中管理最优，资产质量高且成本可控"
+   "ai_note": "近期涨幅巨大且分红丰厚，但动力煤长期需求结构性衰退风险犹存。"
   }
  ]
 }
