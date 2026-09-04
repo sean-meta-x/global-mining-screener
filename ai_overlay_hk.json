@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-03T00:13Z",
+ "generated_at": "2026-09-04T00:09Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "0098.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "基本面尚可但近期回调，需关注铝价波动对利润的挤压。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中盘铝企月跌16%却无消息，可能存在未披露的治理或经营问题"
   },
   {
    "ticker": "1303.HK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "市值偏小且流动性一般，煤炭周期下行背景下缺乏催化剂。"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值不足两亿，流动性较差，存在边缘化及估值折价风险。"
-  },
-  {
-   "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值较小且近期逆势上涨，无新闻支撑需警惕资金博弈。"
+   "ai_adjust": -1,
+   "ai_note": "小盘煤企波动温和，无异常信号但流动性有限"
   },
   {
    "ticker": "8250.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值仅三千万，典型仙股特征，流动性枯竭风险极高。"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "无实质利好单月暴涨近七成，典型庄股炒作，谨防暴跌。"
-  },
-  {
-   "ticker": "8095.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "非纯矿业标的且近期大跌，基本面与转型前景存在不确定性。"
+   "ai_note": "市值仅三千万港元属微型壳股，流动性极差且治理风险极高"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值不足六千万，边缘化煤炭壳股，存在合股供股稀释风险。"
+   "ai_adjust": -10,
+   "ai_note": "微型市值月跌27%无任何公告，高度疑似稀释或庄股崩盘"
   },
   {
-   "ticker": "0815.HK",
+   "ticker": "0637.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "白银价格波动大且公司负债较高，需关注其实际盈利转化。"
+   "ai_note": "小盘 diversified 标的波动不大，缺乏信息但无明显红旗"
   },
   {
-   "ticker": "2078.HK",
+   "ticker": "2693.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值极小，日常交易极度清淡，存在严重的流动性陷阱。"
+   "ai_adjust": -2,
+   "ai_note": "小盘股月涨9%无任何利好公告，上涨缺乏基本面支撑"
   },
   {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企，受宏观周期与铝价主导，量化模型已充分定价。"
-  },
-  {
-   "ticker": "1738.HK",
+   "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "市值不足八千万且无利好上涨，警惕资金盘拉高出货。"
+   "ai_adjust": -2,
+   "ai_note": "月跌8.5%无消息，需排查是否存在未公告的负面事件"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "月涨近40%却零新闻，疑似投机炒作或内幕消息驱动"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值较小且近期上涨缺乏新闻支撑，需防范短期资金获利了结。"
+   "ai_note": "微型市值月涨11%无任何公告，警惕拉高出货风险"
+  },
+  {
+   "ticker": "0815.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中盘银企波动温和，行业基本面尚可但需关注银价走势"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值不足八千万月涨14%，典型微型股操纵特征"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值偏小，近期上涨无基本面消息配合，存在炒作嫌疑。"
+   "ai_adjust": -2,
+   "ai_note": "小盘 diversified 公司波动平淡，缺乏催化剂信息"
+  },
+  {
+   "ticker": "2078.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小盘铝企走势平稳，无异常但关注度低流动性一般"
+  },
+  {
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型国企铝企流动性充裕，走势平稳无需额外调整"
   },
   {
    "ticker": "1182.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "公司历史上有过合股供股等财技操作，治理结构存疑。"
+   "ai_adjust": -3,
+   "ai_note": "小盘金矿股历史上有重组记录，治理风险需持续关注"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "市值适中，近期上涨符合黄金板块整体强势，暂无明显异常。"
+   "ai_adjust": -1,
+   "ai_note": "中盘金企月涨8%尚在合理范围，金价走强提供支撑"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "核心资产在南非且处于开发期，面临地缘与融资双重风险。"
+   "ai_adjust": -3,
+   "ai_note": "金矿开发阶段公司尚未产金，依赖融资存稀释风险"
   },
   {
-   "ticker": "2610.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值较大但近期回调，受母公司债务及行业周期拖累。"
+   "ticker": "1733.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月涨22%无新闻配合，需警惕煤炭股短期投机过热"
   },
   {
    "ticker": "6885.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值偏小，煤炭业务受政策及价格波动影响，缺乏爆发力。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小盘煤企月涨12.5%无公告支撑，上涨持续性存疑"
   },
   {
-   "ticker": "0276.HK",
+   "ticker": "0486.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值不足一亿，长期边缘化且缺乏实质性矿产产出。"
+   "ai_adjust": -2,
+   "ai_note": "俄铝受地缘制裁风险压制，月跌7%反映市场对制裁担忧"
   }
  ]
 }
