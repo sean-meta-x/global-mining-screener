@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-03T00:07Z",
+ "generated_at": "2026-09-04T00:03Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘多元化矿企，无新闻支撑涨幅，警惕炒作风险"
+   "ai_adjust": -4,
+   "ai_note": "小盘股短期暴涨，警惕游资炒作与流动性风险。"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅约2500万美元，微型煤企流动性极差，高度警惕"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭小盘股基本面缺乏亮点，需防范边缘化风险。"
   },
   {
    "ticker": "IFSH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "量化分64但月跌5.6%，历史上有治理争议需关注"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "业务多元化但增长乏力，估值合理但缺乏催化剂。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "单月暴跌34.6%而量化分仍63，模型未反映重大利空"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Astra集团旗下蓝筹，治理优良，矿业设备龙头地位稳固"
+   "ai_note": "单月暴跌超三成，存在基本面恶化或隐性利空风险。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中小型煤企表现平稳，无突出催化剂或风险"
+   "ai_note": "煤炭生产稳健，但受限于行业整体估值压制。"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 5,
+   "ai_note": "核心蓝筹治理优良，量化模型低估其资产质量。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型多元化矿企，走势平稳无异常信号"
+   "ai_note": "业务相对分散，需关注非煤业务的实际盈利能力。"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "国企煤炭龙头，月涨17%动量强，治理规范"
+   "ai_adjust": 4,
+   "ai_note": "国有煤炭龙头高股息且治理规范，量化未反映其防御价值。"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "业绩受煤价波动影响大，新能源转型存长期不确定性。"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "产能释放平稳，但短期缺乏显著的价格或产量催化剂。"
   },
   {
    "ticker": "TINS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国企锡业龙头，受益锡价但体制效率偏低"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "曾卷入锡矿走私丑闻，公司治理与合规风险仍需观察。"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "市值仅约1100万美元，微型煤企典型庄股特征"
+   "ai_note": "极小市值且短期涨幅异常，高度疑似庄股炒作风险。"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿股短期暴涨，需警惕矿山品位不及预期或许可风险。"
   },
   {
    "ticker": "KKGI.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中小煤企，集团关联交易复杂，治理存隐忧"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "Sinar Mas旗下中型煤企，治理尚可估值合理"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型镍企但印尼镍供应过剩风险压制估值"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "上市时间较短，业绩验证不足，月微跌需观察"
+   "ai_adjust": -3,
+   "ai_note": "公司架构复杂且有激进财务操作历史，需防范治理风险。"
   },
   {
    "ticker": "BSSR.JK",
    "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "老牌煤企运营稳健，但增长空间有限"
+   "ai_note": "家族企业治理尚可且资产优质，估值已修复至合理区间。"
   },
   {
    "ticker": "DAAZ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘多元化矿企知名度低，无新闻支撑涨幅"
-  },
-  {
-   "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤矿承包商兼生产商，基本面平稳"
+   "ai_note": "业务处于转型期，需验证新业务的实际落地与盈利情况。"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "Buma旗下小型煤企，承包商业务为主"
+   "ai_note": "煤炭开采业务稳定，但需关注关联交易及少数股东权益。"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "镍业龙头背靠大集团，ESG惩罚导致量化得分偏低。"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "煤炭及设备业务协同良好，管理层治理在业内属上乘。"
   },
   {
    "ticker": "ARII.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘煤企历史治理记录不佳，需保持警惕"
-  },
-  {
-   "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值不足3200万美元，微型企业流动性风险极高"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中小盘煤炭股弹性较好，但抗风险能力弱于行业龙头。"
   }
  ]
 }
