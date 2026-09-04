@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T23:45Z",
+ "generated_at": "2026-09-04T23:28Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "CEXYF",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微盘铜矿勘探股，流动性差且面临极高稀释风险。"
+   "ai_note": "微盘铜矿勘探股流动性差且无新闻，需警惕炒作后回落风险。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "关键矿物开发商，历史上有频繁融资稀释记录。"
+   "ai_adjust": -2,
+   "ai_note": "关键矿产勘探股近期涨幅过大，需关注后续融资稀释与许可风险。"
+  },
+  {
+   "ticker": "FNUC",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "名称疑似特殊目的收购公司或壳资源，缺乏实质业务与新闻支撑。"
   },
   {
    "ticker": "JAGU",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "小盘铀矿勘探股，项目早期且存在较高执行风险。"
-  },
-  {
-   "ticker": "FNUC",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "公司名称与业务模糊，需警惕壳公司或治理风险。"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "锂矿开发受环保诉讼与BLM许可证延迟严重拖累。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "认股权证波动极大且具高度稀释性，投机风险极高。"
+   "ai_adjust": -1,
+   "ai_note": "铀矿初级勘探股表现平庸，行业整体面临融资稀释与开发周期长的风险。"
   },
   {
    "ticker": "UROY",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "铀矿版税模式现金流稳健，受益于铀价长期牛市。"
+   "ai_note": "铀矿流媒体巨头商业模式稳健，抗稀释能力强，具备长期配置价值。"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂矿开发商项目面临许可延迟与潜在合作方退出风险，需下调预期。"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微型股本月暴跌超三成且业务转型清洁能源，存在严重的炒作风险。"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "单月暴涨超22倍且市值极小，典型炒作与操纵特征。"
+   "ai_note": "单月暴涨超二十五倍的微盘股属典型流动性异常或庄股操纵，极度高危。"
   },
   {
-   "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "虽有政府贷款支持，但环保诉讼与管理层变动存隐患。"
-  },
-  {
-   "ticker": "FMST",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘多金属勘探股，股价大跌且面临持续融资压力。"
+   "ticker": "NAMMW",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "权证类资产具有极高稀释性且面临到期归零风险，不适合作为多头配置。"
   },
   {
    "ticker": "GRO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "钾肥开发项目进度缓慢，需关注后续资金落实情况。"
+   "ai_adjust": -1,
+   "ai_note": "钾矿开发商基本面尚可，但需警惕项目资本开支带来的潜在股权稀释。"
   },
   {
-   "ticker": "NC",
-   "ai_view": "neutral",
+   "ticker": "LAC",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "传统煤炭生产商面临长期ESG压力与需求萎缩风险。"
+   "ai_note": "核心项目面临巨大的资本开支压力与原住民诉讼风险，短期股价承压。"
+  },
+  {
+   "ticker": "RITE",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型铂族金属勘探股缺乏实质性进展与流动性，需防范壳公司炒作风险。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "稀土开发屡遇融资与许可瓶颈，项目落地存在不确定性。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "津巴布韦矿区面临政策与电力短缺等显著管辖风险。"
+   "ai_note": "稀土开发商长期面临严重的股权稀释与项目执行不力问题，估值虚高。"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
    "ai_adjust": -9,
-   "ai_note": "作为微盘股配套认股权证，流动性枯竭与稀释风险极高。"
+   "ai_note": "关联暴跌微盘股的权证资产，具有极高归零风险与流动性陷阱，应规避。"
   },
   {
-   "ticker": "GLDG",
+   "ticker": "CMCL",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金勘探组合优质，但纯勘探属性缺乏短期现金流。"
+   "ai_note": "黄金中型生产商产量稳定，但需持续警惕津巴布韦的宏观与政策风险。"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "石墨项目遭遇环保阻力与融资挑战，开发进度承压。"
+   "ai_adjust": -3,
+   "ai_note": "石墨开发商项目融资与环保许可进展缓慢，短期内难以看到实质催化。"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "微盘多金属勘探企业，流动性受限且依赖外部融资。"
+   "ai_note": "微型多金属勘探股缺乏核心亮点与流动性，跟随板块波动且易受稀释。"
+  },
+  {
+   "ticker": "GLDG",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金勘探组合优质且近期走势稳健，但作为初级勘探商仍需关注融资。"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "传统煤炭生产商面临长期的ESG资金撤出压力与结构性需求衰退风险。"
   },
   {
    "ticker": "NAMM",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小型黄金生产商，产量规模有限且抗风险能力较弱。"
-  },
-  {
-   "ticker": "ELBM",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "电池材料项目推进缓慢，资金链紧张且面临稀释风险。"
+   "ai_adjust": -3,
+   "ai_note": "微型金矿生产商流动性匮乏且近期走势疲软，需警惕运营与资金链风险。"
   }
  ]
 }
