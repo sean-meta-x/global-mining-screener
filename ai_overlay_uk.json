@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T23:57Z",
+ "generated_at": "2026-09-04T23:39Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "UFO.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型PGM勘探公司，无实质新闻催化，流动性风险高"
-  },
-  {
-   "ticker": "SRB.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴西Palito金矿在产，历史治理问题改善中，估值合理"
-  },
-  {
-   "ticker": "MET1.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型勘探公司，无明确项目催化，资金消耗风险"
-  },
-  {
-   "ticker": "THX.L",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Seguela金矿投产放量，科特迪瓦运营稳定，动量强劲"
+   "ai_note": "小市值PGM勘探商，无新闻却月涨23%，疑似炒作推动。"
   },
   {
    "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "铀现货信托受益於铀价上行周期，结构清晰低费率"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "实为铀物理信托基金而非矿企，量化分类存在偏差。"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型勘探公司，项目早期阶段，稀释融资风险高"
+   "ai_note": "小市值锂矿勘探商，历史稀释严重，推广嫌疑大。"
   },
   {
-   "ticker": "PDL.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "债务重组压力大，南非Cullinan矿运营持续恶化"
+   "ticker": "MET1.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "极小市值铁矿勘探，流动性差，稀释风险高。"
+  },
+  {
+   "ticker": "THX.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月涨39%缺乏新闻支撑，科特迪瓦政策风险需警惕。"
+  },
+  {
+   "ticker": "SRB.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "巴西金矿生产商，扩产稀释压力存在但基本面尚可。"
   },
   {
    "ticker": "JLP.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "历史多次稀释融资，PGM价格低迷压制估值"
+   "ai_note": "历史多次稀释融资，架构复杂，推广痕迹明显。"
+  },
+  {
+   "ticker": "CLA.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值勘探商月跌9%无利好催化，流动性堪忧。"
+  },
+  {
+   "ticker": "PDL.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "钻石矿企深陷债务危机，治理混乱，矿区问题严重。"
+  },
+  {
+   "ticker": "CAML.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铜锌生产商基本面稳健，月涨20%或已透支预期。"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "西澳金矿在产，成本可控，近期动量正面"
-  },
-  {
-   "ticker": "CAML.L",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "Kounrad与Sasa双矿运营稳健，铜价上行受益"
+   "ai_adjust": 0,
+   "ai_note": "业务结构不够透明，量化评分参考价值有限。"
   },
   {
    "ticker": "CMCL.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "津巴布韦Blanket金矿在产，近期涨幅大但国别风险高"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦金矿月涨31%，政策与汇率风险极高。"
   },
   {
-   "ticker": "THS.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非PGM生产商，铂族金属价格疲软拖累盈利"
+   "ticker": "XTR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "月暴跌32%无公开新闻，疑似钻探失败或重大利空。"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "马里Bougouni锂矿仍处早期，国别与融资风险并存"
+   "ai_note": "马里锂矿勘探，地缘政治风险高，估值持续承压。"
   },
   {
-   "ticker": "XTR.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "一月暴跌20%无新闻解释，可能存在未披露问题"
-  },
-  {
-   "ticker": "0ICU.L",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "南非尾矿加工商，金价受益但国别与运营风险持续"
-  },
-  {
-   "ticker": "AAU.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "土耳其金矿小型生产商，运营平稳但体量有限"
-  },
-  {
-   "ticker": "HALO.L",
+   "ticker": "RMR.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "早期铜矿勘探，无实质进展，资金消耗风险高"
+   "ai_note": "月跌25%小市值勘探商，资金链或现紧张迹象。"
   },
   {
-   "ticker": "GGP.L",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "Havieron项目获Newmont收购溢价确认，催化明确"
+   "ticker": "THS.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "南非PGM生产商运营稳定，估值合理无重大隐忧。"
   },
   {
    "ticker": "GLR.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型勘探公司月涨33%无新闻支撑，警惕回调风险"
+   "ai_adjust": -3,
+   "ai_note": "千万市值月涨25%无任何新闻，典型炒作特征。"
   },
   {
-   "ticker": "ROCK.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型PGM勘探暴跌19%，无新闻解释可能存在隐忧"
+   "ticker": "HALO.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铜矿勘探小盘股，公开信息匮乏，风险难以评估。"
+  },
+  {
+   "ticker": "GEM.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "被错分为PGM实为彩宝商，历史治理问题尚未清除。"
+  },
+  {
+   "ticker": "0ICU.L",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "南非金尾矿处理商月涨35%，涨幅过大需防回调。"
   }
  ]
 }
