@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T23:43Z",
+ "generated_at": "2026-09-05T23:40Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "EUZ.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型勘探企业，流动性差且存在极高的资金稀释风险。"
+   "ai_note": "勘探期资金消耗大，存在持续稀释风险。"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿石价格承压，但作为高股息大盘股具备防御性。"
+   "ai_note": "铁矿巨头基本面稳健，但受大宗商品周期压制。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铬矿价格波动大，且公司历史上存在治理与财务隐患。"
+   "ai_note": "铬铁生产商受南非限电及营运资金短缺困扰。"
   },
   {
    "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "激进并购导致公司架构复杂，项目执行与整合风险较高。"
-  },
-  {
-   "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "极小市值微盘股，面临严重的流动性枯竭与股权稀释风险。"
+   "ai_note": "历史上有过度宣传及复杂架构问题，警惕稀释。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "铂族金属价格暴跌，未投产的开发阶段企业面临资金链断裂。"
+   "ai_adjust": -8,
+   "ai_note": "长期烧钱且项目停滞，治理与资金链风险极高。"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值极小且近期异动，典型微盘股炒作，流动性差。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "运营基本面尚可，但难以完全抵消铂族金属价格低迷的拖累。"
+   "ai_note": "铂族金属价格低迷拖累业绩，基本面表现平庸。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "作为彩色宝石细分龙头现金流稳定，但受限于小众市场流动性。"
-  },
-  {
-   "ticker": "CPR.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铜价上涨带来短期炒作，但早期勘探阶段执行风险依然很高。"
-  },
-  {
-   "ticker": "EPS.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "股价单月暴跌超四成，暗示存在严重的运营或财务基本面恶化。"
-  },
-  {
-   "ticker": "SLG.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤炭股流动性差，且面临长期的ESG与转型资金压力。"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "锡价强势反弹提供强劲顺风，基本面扎实且具备成长潜力。"
+   "ai_note": "莫桑比克矿区运营受阻，近期股价暴跌需警惕。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金业务增长对冲了铂族金属的疲软，但整体成本管控仍需观察。"
+   "ai_note": "美国铂矿业务拖累整体利润，成本压力依然较大。"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "锡矿资产优质，但受锡价波动及单一矿山风险影响。"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "矿山已关闭沦为壳公司，面临极大的退市与稀释风险。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型煤炭股流动性极差，存在较高的基本面不确定性。"
+  },
+  {
+   "ticker": "CPR.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "近期涨幅异常且属勘探阶段，具有典型炒作特征。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭业务提供强劲现金流与分红，但长期面临能源转型估值压制。"
+   "ai_note": "煤炭巨头现金流好，但面临长期的ESG撤资压力。"
   },
   {
    "ticker": "ARI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "管理层优秀且资产多元，黄金与锰矿业务提供良好抗周期能力。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "多元化矿业巨头，但BEE股权结构较为复杂。"
   },
   {
    "ticker": "IMP.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铂族金属价格持续走弱，大型生产商利润空间面临严峻挤压。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铂族金属价格疲软导致利润承压，缺乏短期催化剂。"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "直接受益于金价创历史新高，产量增长与利润率扩张预期强烈。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金资产优质，但维持成本偏高削弱了盈利弹性。"
+  },
+  {
+   "ticker": "AFT.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "管理层优秀，但受建筑业放缓及铁矿石需求下降影响。"
   },
   {
    "ticker": "KP2.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "刚果(金)地缘政治风险高，且钾矿开发项目面临资金与审批瓶颈。"
-  },
-  {
-   "ticker": "SKA.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "缺乏实质进展的微盘勘探股，流动性极差且无近期明确催化剂。"
+   "ai_adjust": -4,
+   "ai_note": "刚果钾矿项目面临严重的审批延迟与融资稀释风险。"
   },
   {
    "ticker": "TGA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "近期涨幅巨大且分红丰厚，但动力煤长期需求结构性衰退风险犹存。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "动力煤属夕阳产业，近期暴涨后需警惕ESG抛售风险。"
   }
  ]
 }
