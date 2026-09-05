@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T00:20Z",
+ "generated_at": "2026-09-05T00:06Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企背景安全但历史ROE偏低，缺乏短期爆发催化剂。"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "焦煤价格承压，长协比例高导致业绩弹性不足。"
+   "ai_note": "大型央企，基本面稳健，无明显治理风险"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝加工毛利薄，受宏观地产需求拖累明显。"
-  },
-  {
-   "ticker": "000807.SZ",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "绿电铝优势显著，能耗双控下具备产能稀缺性。"
+   "ai_note": "中小市值铝压铸企业，无突出催化剂或风险"
   },
   {
    "ticker": "000612.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史股东纠纷频繁，治理结构存隐患"
+  },
+  {
+   "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "传统铝企转型中，基本面平庸缺乏核心护城河。"
+   "ai_note": "云南国资背景，电力成本优势尚可"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤电铝一体化抗风险强，但估值已部分反映。"
+   "ai_note": "国资背景 major producer，经营平稳"
   },
   {
-   "ticker": "600546.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "动力煤基本面稳健，但缺乏大幅扩产预期。"
+   "ticker": "601001.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭长期需求承压，月跌幅较大"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "新疆低电价优势明显，但受制于运输半径。"
+   "ai_note": "新疆低电价优势，产能释放稳定"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "山西国资煤企，分红记录良好"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "盈利能力偏弱，行业下行期承压"
   },
   {
    "ticker": "002540.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "汽车铝型材需求尚可，但行业竞争加剧。"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史存在财务洗澡嫌疑，公司治理透明度欠佳。"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "高股息且现金流极佳，央企市值管理核心标的。"
+   "ai_note": "铝加工细分龙头，汽车铝材需求稳"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂电材料价格暴跌，多元化未能对冲主业风险。"
+   "ai_adjust": -2,
+   "ai_note": "锂盐价格低迷拖累业绩，波动较大"
   },
   {
-   "ticker": "600595.SS",
+   "ticker": "603876.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "电池铝箔赛道，下游需求有支撑"
+  },
+  {
+   "ticker": "600157.SS",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "历史债务违约及重组包袱重，财务风险极高。"
+   "ai_adjust": -5,
+   "ai_note": "曾有债券违约历史，债务风险需警惕"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "产业链完整，但可转债及有息负债规模需警惕。"
-  },
-  {
-   "ticker": "600740.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "焦炭利润受上下游挤压，小市值弹性有限。"
+   "ai_adjust": 1,
+   "ai_note": "全产业链布局，航空铝板高端化进展"
   },
   {
    "ticker": "002978.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "跨界多元化主业不聚焦，商誉及资产减值风险高。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "多元化业务分散风险，表现平淡"
   },
   {
    "ticker": "601677.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝板带箔龙头，但产能扩张期资本开支压力大。"
+   "ai_note": "铝板带箔加工龙头，经营稳健"
   },
   {
-   "ticker": "600971.SS",
+   "ticker": "600740.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "地方国企背景稳健，但煤炭资源接续能力一般。"
+   "ai_adjust": 1,
+   "ai_note": "焦化月涨幅领先，短期动量较强"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "央企煤炭龙头，高股息防御属性强"
   },
   {
    "ticker": "002466.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "锂价崩盘叠加巨额并购债务，资产负债表极度恶化。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "海外并购负债高企，锂价下行承压"
   },
   {
-   "ticker": "600508.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中煤旗下资产，业绩平稳但缺乏独立成长逻辑。"
+   "ticker": "301219.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌超8%，钴价低迷叠加次新波动"
   }
  ]
 }
