@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T23:39Z",
+ "generated_at": "2026-09-05T23:36Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "UFO.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值PGM勘探商，无新闻却月涨23%，疑似炒作推动。"
-  },
-  {
-   "ticker": "YCA.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "实为铀物理信托基金而非矿企，量化分类存在偏差。"
-  },
-  {
-   "ticker": "POW.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值锂矿勘探商，历史稀释严重，推广嫌疑大。"
+   "ai_note": "典型推广股，项目缺乏实质进展，稀释风险极高"
   },
   {
    "ticker": "MET1.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "极小市值铁矿勘探，流动性差，稀释风险高。"
-  },
-  {
-   "ticker": "THX.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月涨39%缺乏新闻支撑，科特迪瓦政策风险需警惕。"
+   "ai_note": "微型勘探公司，资金薄弱，持续融资稀释股东"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "巴西金矿生产商，扩产稀释压力存在但基本面尚可。"
+   "ai_note": "巴西Palito金矿在产，运营基本稳定，无突出催化"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "实物铀持仓基金，结构清晰，无稀释风险"
+  },
+  {
+   "ticker": "THX.L",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "Seguela金矿投产爬坡中，产量兑现为实质催化"
+  },
+  {
+   "ticker": "POW.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "频繁配股融资，项目多为概念阶段，推广痕迹重"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史多次稀释融资，架构复杂，推广痕迹明显。"
-  },
-  {
-   "ticker": "CLA.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值勘探商月跌9%无利好催化，流动性堪忧。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "南非PGM和铬矿加工在产，运营正常但增长有限"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "钻石矿企深陷债务危机，治理混乱，矿区问题严重。"
+   "ai_adjust": -7,
+   "ai_note": "严重财务困境，持续经营存疑，债务重组中"
   },
   {
-   "ticker": "CAML.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铜锌生产商基本面稳健，月涨20%或已透支预期。"
+   "ticker": "RMR.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "一月暴跌超30%，疑似钻探失利或融资稀释"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "业务结构不够透明，量化评分参考价值有限。"
+   "ai_note": "多元化生产商，运营平稳，无明显风险或催化"
   },
   {
    "ticker": "CMCL.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦金矿月涨31%，政策与汇率风险极高。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "津巴布韦Blanket金矿在产，但政策与汇兑风险高"
   },
   {
-   "ticker": "XTR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "月暴跌32%无公开新闻，疑似钻探失败或重大利空。"
+   "ticker": "CLA.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型勘探股，市值极低，流动性差且推广嫌疑大"
+  },
+  {
+   "ticker": "CAML.L",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "Kounrad铜矿品位下滑，产量承压，短期逆风"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "马里锂矿勘探，地缘政治风险高，估值持续承压。"
+   "ai_adjust": -3,
+   "ai_note": "马里锂矿面临政变后政治风险，许可证不确定性高"
   },
   {
-   "ticker": "RMR.L",
+   "ticker": "XTR.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌25%小市值勘探商，资金链或现紧张迹象。"
+   "ai_note": "一月跌25%，基本面恶化或融资稀释，需警惕"
   },
   {
    "ticker": "THS.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南非PGM生产商运营稳定，估值合理无重大隐忧。"
+   "ai_note": "南非PGM在产，运营稳定但受铂族金属价格波动影响"
   },
   {
    "ticker": "GLR.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "千万市值月涨25%无任何新闻，典型炒作特征。"
+   "ai_adjust": -2,
+   "ai_note": "微型勘探股，市值不足千万，推广与稀释风险并存"
+  },
+  {
+   "ticker": "0ICU.L",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "南非尾矿回收商，现金流稳健，金价上涨受益"
   },
   {
    "ticker": "HALO.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铜矿勘探小盘股，公开信息匮乏，风险难以评估。"
+   "ai_note": "微型铜矿勘探，无市值数据，流动性与融资风险高"
   },
   {
-   "ticker": "GEM.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "被错分为PGM实为彩宝商，历史治理问题尚未清除。"
-  },
-  {
-   "ticker": "0ICU.L",
+   "ticker": "AAU.L",
    "ai_view": "caution",
    "ai_adjust": -1,
-   "ai_note": "南非金尾矿处理商月涨35%，涨幅过大需防回调。"
+   "ai_note": "土耳其金矿运营，监管政策变动频繁，国别风险显著"
   }
  ]
 }
