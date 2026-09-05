@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-04T23:28Z",
+ "generated_at": "2026-09-05T23:26Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "CEXYF",
+   "ticker": "GRML",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘铜矿勘探股流动性差且无新闻，需警惕炒作后回落风险。"
+   "ai_adjust": -5,
+   "ai_note": "微型PGM勘探股在格陵兰面临高政治风险，近期暴跌或暗示稀释。"
   },
   {
    "ticker": "WWR",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "关键矿产勘探股近期涨幅过大，需关注后续融资稀释与许可风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "无新闻背景下短期暴涨近四成，典型微盘股炒作特征，警惕高位稀释。"
   },
   {
    "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "名称疑似特殊目的收购公司或壳资源，缺乏实质业务与新闻支撑。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "核能概念微盘股，流动性较差，缺乏明确催化剂，维持中性观望。"
   },
   {
    "ticker": "JAGU",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀矿初级勘探股表现平庸，行业整体面临融资稀释与开发周期长的风险。"
+   "ai_adjust": -2,
+   "ai_note": "微型铀矿勘探股，市值极低且缺乏近期利好，需防范流动性风险。"
+  },
+  {
+   "ticker": "CEXYF",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅千万且无新闻却暴涨三成，极大概率是资金炒作，谨防增发。"
   },
   {
    "ticker": "UROY",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "铀矿流媒体巨头商业模式稳健，抗稀释能力强，具备长期配置价值。"
+   "ai_note": "大型铀矿流媒体公司，基本面扎实且受益于铀价周期，具备配置价值。"
   },
   {
    "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂矿开发商项目面临许可延迟与潜在合作方退出风险，需下调预期。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锂矿开发商受行业周期下行影响，项目推进需关注资金与审批进度。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型股本月暴跌超三成且业务转型清洁能源，存在严重的炒作风险。"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "单月暴涨超二十五倍的微盘股属典型流动性异常或庄股操纵，极度高危。"
+   "ai_adjust": -7,
+   "ai_note": "微型概念股近期暴跌超三成，基本面薄弱，需高度警惕资金盘崩盘风险。"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "权证类资产具有极高稀释性且面临到期归零风险，不适合作为多头配置。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "权证类资产流动性差且存在到期归零风险，不建议作为常规权益配置。"
   },
   {
    "ticker": "GRO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钾矿开发商基本面尚可，但需警惕项目资本开支带来的潜在股权稀释。"
+   "ai_adjust": 0,
+   "ai_note": "钾肥开发商处于建设期，基本面稳健但需关注项目投产进度与资金消耗。"
   },
   {
    "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "核心项目面临巨大的资本开支压力与原住民诉讼风险，短期股价承压。"
-  },
-  {
-   "ticker": "RITE",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型铂族金属勘探股缺乏实质性进展与流动性，需防范壳公司炒作风险。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型锂矿开发商拥有核心资产，但资本开支巨大且面临一定环保审批风险。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "稀土开发商长期面临严重的股权稀释与项目执行不力问题，估值虚高。"
+   "ai_adjust": -4,
+   "ai_note": "稀有金属开发商近期大幅回调，项目融资与建设执行风险正被市场重估。"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "关联暴跌微盘股的权证资产，具有极高归零风险与流动性陷阱，应规避。"
+   "ai_adjust": -8,
+   "ai_note": "作为暴跌微型股的衍生权证，流动性枯竭且底层资产风险极高，建议规避。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金中型生产商产量稳定，但需持续警惕津巴布韦的宏观与政策风险。"
-  },
-  {
-   "ticker": "NMG",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "石墨开发商项目融资与环保许可进展缓慢，短期内难以看到实质催化。"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "微型多金属勘探股缺乏核心亮点与流动性，跟随板块波动且易受稀释。"
+   "ai_note": "津巴布韦金矿生产商近期大涨，但需警惕当地政策变动与外汇管制风险。"
   },
   {
    "ticker": "GLDG",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金勘探组合优质且近期走势稳健，但作为初级勘探商仍需关注融资。"
+   "ai_note": "中型黄金勘探开发公司，资产组合丰富，随金价上涨具备一定跟涨弹性。"
   },
   {
-   "ticker": "NC",
+   "ticker": "NMG",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "魁北克石墨开发商具备地缘优势，但当前天然石墨市场供需偏弱需耐心。"
+  },
+  {
+   "ticker": "CAMZF",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "传统煤炭生产商面临长期的ESG资金撤出压力与结构性需求衰退风险。"
+   "ai_note": "微型多金属勘探股市值低且近期下跌，需防范钻探失败或股权稀释风险。"
   },
   {
    "ticker": "NAMM",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小型黄金生产商流动性一般，业绩高度依赖金价，需关注其矿山运营成本。"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "传统煤炭生产商现金流充沛但面临ESG投资限制，估值受压，维持中性。"
+  },
+  {
+   "ticker": "ATCMF",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿生产商流动性匮乏且近期走势疲软，需警惕运营与资金链风险。"
+   "ai_adjust": -5,
+   "ai_note": "微型多金属生产商近期大幅下挫，需排查是否存在运营挫折或资金链紧张。"
   }
  ]
 }
