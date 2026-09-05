@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T23:55Z",
+ "generated_at": "2026-09-05T23:51Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝型材龙头，近期受宏观需求疲软拖累，基本面稳健但缺乏短期催化。"
+   "ai_note": "铝企无新闻却月跌16%，基本面或存隐忧但市值尚可"
   },
   {
    "ticker": "1303.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "地方煤企，盈利稳定但市值偏小，流动性一般，无突出亮点。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值煤企无任何消息，环保政策及关停风险被量化忽略"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值多元化矿企，业务杂乱且缺乏核心主业，需警惕流动性风险。"
+   "ai_note": "市值不足3亿多元化企业无新闻却涨12%，疑资金炒作"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值极小且业务边缘化，日常交易清淡，存在较高的流动性折价。"
+   "ai_adjust": -3,
+   "ai_note": "市值仅1.4亿多元化公司，壳股特征明显治理风险高"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "创业板微盘煤炭股，极易受资金操纵与炒作，存在严重稀释与治理风险。"
+   "ai_adjust": -7,
+   "ai_note": "市值仅4500万暴跌25%无任何新闻，高度疑似操纵或稀释"
   },
   {
    "ticker": "8250.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "创业板微盘股，基本面薄弱，常伴随概念炒作，需防范流动性陷阱。"
+   "ai_adjust": -7,
+   "ai_note": "市值仅3200万煤企无新闻微涨，典型壳股流动性陷阱"
   },
   {
    "ticker": "1712.HK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "黄金生产商，受益于金价上涨，近期量价齐升，基本面与动量共振。"
-  },
-  {
-   "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "创业板公司，业务庞杂且历史上有过重组，治理结构与资产质量存疑。"
+   "ai_adjust": -3,
+   "ai_note": "金矿股月涨25%却零新闻，涨幅与消息面严重背离"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "白银生产商，近期股价大跌，且历史上存在关联交易与过度宣传争议。"
+   "ai_adjust": -2,
+   "ai_note": "银企大跌13%无新闻解释，基本面可能已恶化"
+  },
+  {
+   "ticker": "8095.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "市值近10亿多元化企业走势平淡，无特别催化剂或风险"
   },
   {
    "ticker": "0166.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "典型港股壳股，频繁更名且无实质矿产运营，存在极高的治理与退市风险。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值多元化公司无新闻上涨，需警惕庄家控盘"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微盘煤炭股，市值过小导致流动性极差，基本面难以支撑当前估值。"
+   "ai_adjust": -3,
+   "ai_note": "市值仅1.3亿煤企无新闻涨10%，炒作痕迹明显"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铝业国企，业绩受周期影响，虽无爆发力但具备较强的安全边际。"
+   "ai_note": "大型国企铝企量化评分偏低或反映产能过剩及治理折价"
   },
   {
    "ticker": "1738.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微盘无烟煤企业，市值过小且流动性匮乏，量化模型易高估其实际价值。"
+   "ai_note": "市值仅7700万暴涨16%零新闻，高度疑似拉高出货"
   },
   {
    "ticker": "2078.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝加工企业，业绩平稳但缺乏成长性，当前估值合理，维持中性观察。"
+   "ai_adjust": -1,
+   "ai_note": "小市值铝企走势平稳无异常，但流动性偏弱"
   },
   {
    "ticker": "1182.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "老牌壳股，历史上有过多次业务变更与治理丑闻，基本面毫无支撑。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值金矿股长期存在股权稀释和运营风险"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "次新黄金股，产能正在释放期，但估值已部分反映预期，需关注达产进度。"
+   "ai_note": "市值20亿金矿企业走势温和，无异常信号"
   },
   {
    "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "南非金矿开发商，长期受制于当地许可审批与资金枯竭，项目推进极度缓慢。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "黄金开发商非生产商，钻井失败与持续稀释风险极高"
   },
   {
    "ticker": "1091.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锰矿及多元化企业，受大宗商品周期波动影响，当前无明显催化剂。"
-  },
-  {
-   "ticker": "0505.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铜合金生产商，近期随铜价反弹有所上涨，但盈利空间受加工费挤压。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "大市值多元化企业下跌无新闻，锰矿下游需求存不确定性"
   },
   {
    "ticker": "1733.HK",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "优质煤炭生产商，现金流充沛且分红慷慨，基本面扎实，动量强劲。"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "市值20亿煤企大涨或受煤价驱动，基本面有一定支撑"
+  },
+  {
+   "ticker": "6885.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值煤企无新闻涨11%，需关注流动性及操纵风险"
   }
  ]
 }
