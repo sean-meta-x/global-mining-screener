@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-04T00:44Z",
+ "generated_at": "2026-09-05T00:30Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值极小且无新闻，流动性差，需警惕私募稀释风险。"
+  },
+  {
+   "ticker": "LIFT.V",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "微盘无消息大跌，疑稀释或钻探失利"
+   "ai_note": "锂板块整体承压，缺乏近期催化剂，中性观望。"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "横盘无消息，缺乏催化剂"
+   "ai_note": "微型金矿勘探股，走势平淡，缺乏明确催化。"
   },
   {
    "ticker": "AEMC.V",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "极小市值微跌，流动性风险"
+   "ai_adjust": -2,
+   "ai_note": "市值过低，流动性枯竭，存在较高的融资稀释风险。"
   },
   {
-   "ticker": "LIFT.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "曾有推广嫌疑，价格持续下行"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿无消息暴跌，疑钻探失败或稀释"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "无消息暴涨26%，典型推广拉盘信号"
+   "ticker": "IRV.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "CSE上市微型股，无新闻且大幅下跌，治理与融资风险高。"
   },
   {
    "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "生产商却无增长，治理历史存疑"
-  },
-  {
-   "ticker": "LAB.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "小盘温和上涨，无异常信号"
-  },
-  {
-   "ticker": "SAM.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "Starcore治理及审计问题频发"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小盘微跌，无显著风险"
+   "ai_note": "相对成熟的金矿项目，基本面尚可，维持中性。"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿小盘温和上涨"
+   "ai_note": "铀矿概念微型股，虽板块有热度但市值太小易被操纵。"
   },
   {
-   "ticker": "ENDR.V",
+   "ticker": "LAB.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "无消息大跌17%，疑钻探不及预期"
-  },
-  {
-   "ticker": "GIGA.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "极小市值暴跌28%，疑稀释或失败"
-  },
-  {
-   "ticker": "AMY.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池材料无消息大跌，疑稀释"
+   "ai_note": "市值仅千万且逆势上涨，无新闻支撑，疑为游资炒作。"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "无消息下跌13%，缺乏催化剂"
+   "ai_adjust": -3,
+   "ai_note": "CSE微型股，阴跌且无消息，需防范流动性陷阱。"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铀矿概念但逆势大跌，需警惕未披露的融资或钻探失败。"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "无新闻却暴涨34%，典型低流动性微盘股拉高出货特征。"
+  },
+  {
+   "ticker": "CPAU.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "微型金矿股，走势停滞，缺乏实质性进展。"
+  },
+  {
+   "ticker": "GIGA.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "镍钴项目历史包袱重，大幅下跌反映基本面恶化。"
+  },
+  {
+   "ticker": "ENDR.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "持续阴跌且无新闻，需警惕管理层持续融资稀释。"
+  },
+  {
+   "ticker": "AMY.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "电池回收概念遇冷，大幅下挫反映资金出逃。"
+  },
+  {
+   "ticker": "IBAT.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "电池金属板块走弱，无新闻支撑，存在下行风险。"
+  },
+  {
+   "ticker": "SAM.TO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "历史上有财务与治理瑕疵，需防范合规与披露风险。"
   },
   {
    "ticker": "V.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿小盘平稳，无异常"
-  },
-  {
-   "ticker": "TT.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "PGM小盘平稳"
-  },
-  {
-   "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "无消息下跌15%，疑项目受阻"
+   "ai_note": "铀矿微型股，走势平稳，暂无明显风险与催化。"
   },
   {
    "ticker": "AVL.TO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "无消息暴涨75%，典型拉盘出货"
+   "ai_adjust": -5,
+   "ai_note": "无新闻暴涨72%，极大概率为低流通盘恶意炒作。"
   },
   {
-   "ticker": "CCCM.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "较大市值温和回调"
+   "ticker": "SR.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "无新闻且持续下跌，微型股流动性与融资风险双高。"
   }
  ]
 }
