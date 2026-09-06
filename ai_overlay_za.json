@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T23:40Z",
+ "generated_at": "2026-09-06T23:31Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "EUZ.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "勘探期资金消耗大，存在持续稀释风险。"
+   "ai_note": "微型勘探股，流动性极差且面临持续稀释风险。"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿巨头基本面稳健，但受大宗商品周期压制。"
+   "ai_note": "铁矿业巨头，受困于南非物流瓶颈与矿价波动。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铬铁生产商受南非限电及营运资金短缺困扰。"
+   "ai_note": "铬矿生产商，历史上有财务与治理瑕疵，高度依赖大股东。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "历史上有过度宣传及复杂架构问题，警惕稀释。"
+   "ai_note": "频繁增发稀释股东权益，业务结构复杂且常夸大处理量。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "长期烧钱且项目停滞，治理与资金链风险极高。"
+   "ai_note": "治理极差且严重稀释，核心铂矿项目长期停滞，濒临退市。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值极小且近期异动，典型微盘股炒作，流动性差。"
+   "ai_adjust": -6,
+   "ai_note": "市值极小且缺乏流动性，基本面存疑，属高风险边缘资产。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铂族金属价格低迷拖累业绩，基本面表现平庸。"
+   "ai_note": "运营稳健但受限于南非物流及铂族金属价格低迷。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "莫桑比克矿区运营受阻，近期股价暴跌需警惕。"
+   "ai_note": "有色宝石巨头，莫桑比克矿区面临安全与运营挑战。"
   },
   {
    "ticker": "SSW.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "美国铂矿业务拖累整体利润，成本压力依然较大。"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锡矿资产优质，但受锡价波动及单一矿山风险影响。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "债务高企且美国铂矿拖累严重，近期暴涨多为空头回补。"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "矿山已关闭沦为壳公司，面临极大的退市与稀释风险。"
+   "ai_adjust": -7,
+   "ai_note": "长期受困于电力短缺与资金枯竭，股价暴跌反映基本面恶化。"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "刚果金锡矿主力，产量增长强劲，但需警惕地缘政治风险。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型煤炭股流动性极差，存在较高的基本面不确定性。"
+   "ai_adjust": -3,
+   "ai_note": "微型煤炭股，流动性匮乏且历史融资与运营记录不佳。"
   },
   {
    "ticker": "CPR.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "近期涨幅异常且属勘探阶段，具有典型炒作特征。"
+   "ai_adjust": -5,
+   "ai_note": "微型铜矿勘探股，近期暴涨疑似低流通盘炒作，基本面薄弱。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭巨头现金流好，但面临长期的ESG撤资压力。"
+   "ai_note": "煤炭巨头资产负债表稳健，但面临长期ESG撤资压力。"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铂族金属巨头，成本控制尚可，但受累于行业下行与津巴布韦风险。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化矿业巨头，但BEE股权结构较为复杂。"
-  },
-  {
-   "ticker": "IMP.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属价格疲软导致利润承压，缺乏短期催化剂。"
+   "ai_note": "多元化矿业巨头，资本配置激进且带有政治关联的治理 scrutiny。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金资产优质，但维持成本偏高削弱了盈利弹性。"
+   "ai_note": "黄金中坚力量，但深部开采成本高企且面临南非系统性风险。"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "管理层优秀，但受建筑业放缓及铁矿石需求下降影响。"
+   "ai_adjust": 1,
+   "ai_note": "铁矿与建材优质企业，但受南非建筑业低迷及矿价拖累。"
   },
   {
    "ticker": "KP2.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "刚果钾矿项目面临严重的审批延迟与融资稀释风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "钾矿开发商，项目长期延期，融资困难且存在持续稀释风险。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "动力煤属夕阳产业，近期暴涨后需警惕ESG抛售风险。"
+   "ai_note": "煤炭巨头近期暴涨或为短期情绪驱动，长期面临能源转型淘汰风险。"
   }
  ]
 }
