@@ -1,66 +1,66 @@
 {
- "generated_at": "2026-09-05T23:10Z",
+ "generated_at": "2026-09-06T23:00Z",
  "model": "qwen3.7-plus",
  "outlook": {
   "Gold": {
-   "multiplier": 1.12,
-   "note": "Strong central bank demand and rate cut expectations sustain momentum."
+   "multiplier": 1.15,
+   "note": "Central bank buying and rate cut expectations underpin prices despite high absolute levels."
   },
   "Silver": {
-   "multiplier": 1.15,
-   "note": "Dual industrial and monetary demand driving outperformance versus gold."
+   "multiplier": 1.2,
+   "note": "Strong industrial solar demand combined with high beta to gold's monetary premium."
   },
   "Copper": {
-   "multiplier": 1.08,
-   "note": "Green energy transition demand offsets softness in Chinese property construction."
+   "multiplier": 1.15,
+   "note": "Tight mine supply and robust grid and AI infrastructure demand offset macro headwinds."
   },
   "Uranium": {
-   "multiplier": 1.18,
-   "note": "Structural supply deficit and global nuclear renaissance support long-term contract pricing."
+   "multiplier": 1.2,
+   "note": "Structural supply deficit and renewed global nuclear capacity build-outs drive long-term contracting."
   },
   "Lithium": {
    "multiplier": 0.85,
-   "note": "Near-term oversupply and moderating EV demand growth weigh on pricing."
+   "note": "Near-term oversupply and slowing EV growth rates pressure prices despite long-term deficits."
   },
   "Nickel": {
    "multiplier": 0.9,
-   "note": "Persistent surplus from Indonesian supply growth caps upside despite EV battery demand."
+   "note": "Surging Indonesian supply and a shift toward LFP batteries outweigh stainless steel demand."
   },
   "Zinc": {
    "multiplier": 1.1,
-   "note": "Tight concentrate markets and smelter curtailments support refined metal prices."
+   "note": "Significant mine supply disruptions and tight treatment charges support prices."
   },
   "Iron Ore": {
-   "multiplier": 0.95,
-   "note": "Weak Chinese property sector demand offsets marginal infrastructure stimulus."
+   "multiplier": 0.9,
+   "note": "Weak Chinese property sector offsets infrastructure stimulus, capping upside."
   },
   "Coal": {
-   "multiplier": 0.92,
-   "note": "Ample global seaborne supply and European demand destruction limit upside."
+   "multiplier": 0.85,
+   "note": "Thermal coal demand faces structural decline and ample global inventories."
   },
   "Rare Earths": {
-   "multiplier": 0.95,
-   "note": "Weak magnet demand and ample Chinese supply keep prices subdued."
+   "multiplier": 1.0,
+   "note": "Opaque pricing and export controls balance against steady EV motor demand."
   },
   "Manganese": {
-   "multiplier": 0.95,
-   "note": "Soft global steel production margins constrain alloy demand."
+   "multiplier": 1.0,
+   "note": "Steady steelmaking demand is currently balanced by adequate global supply."
   },
   "PGM": {
-   "multiplier": 1.02,
-   "note": "Hydrogen economy potential and auto production recovery balance ICE substitution risks."
+   "multiplier": 1.05,
+   "note": "Platinum substitution in auto-catalysts and hydrogen potential offset internal combustion engine decline."
   },
   "Potash": {
-   "multiplier": 1.05,
-   "note": "Steady global agricultural application rates support prices despite adequate inventories."
+   "multiplier": 1.0,
+   "note": "Normalized global supply balances steady agricultural application rates."
   },
   "Aluminum": {
-   "multiplier": 1.08,
-   "note": "Chinese production capacity caps and green energy demand tighten the market."
+   "multiplier": 1.1,
+   "note": "Chinese smelter capacity caps and low-carbon transition demand tighten the market."
   },
   "Diversified": {
    "multiplier": 1.05,
-   "note": "Balanced exposure to precious and base metals provides a solid macro hedge."
+   "note": "Balanced exposure to bullish copper and gold offsets softer iron ore and coal."
   }
  }
 }
