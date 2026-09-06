@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-05T00:30Z",
+ "generated_at": "2026-09-06T00:28Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "MRZL.V",
+   "ticker": "LIFT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值极小且无新闻，流动性差，需警惕私募稀释风险。"
+   "ai_note": "大市值开发商无消息却持续阴跌，疑似隐性稀释或项目停滞"
   },
   {
-   "ticker": "LIFT.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "锂板块整体承压，缺乏近期催化剂，中性观望。"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "微型金矿勘探股，走势平淡，缺乏明确催化。"
-  },
-  {
-   "ticker": "AEMC.V",
+   "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "市值过低，流动性枯竭，存在较高的融资稀释风险。"
+   "ai_note": "微型市值勘探公司零消息阴跌，流动性差且缺乏催化剂"
   },
   {
    "ticker": "IRV.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "CSE上市微型股，无新闻且大幅下跌，治理与融资风险高。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "跌幅显著且无任何新闻，勘探公司无进展信号属危险迹象"
   },
   {
-   "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "相对成熟的金矿项目，基本面尚可，维持中性。"
+   "ticker": "STUD.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "代码STUD带炒作色彩，公司名含铀却归类金矿，分类混乱可疑"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿概念微型股，虽板块有热度但市值太小易被操纵。"
-  },
-  {
-   "ticker": "LAB.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值仅千万且逆势上涨，无新闻支撑，疑为游资炒作。"
+   "ai_note": "铀矿主题小盘股小幅上涨，暂无明显异常信号"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "CSE微型股，阴跌且无消息，需防范流动性陷阱。"
+   "ai_adjust": -2,
+   "ai_note": "微型勘探公司无消息持续下跌，缺乏实质进展支撑"
   },
   {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀矿概念但逆势大跌，需警惕未披露的融资或钻探失败。"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "无新闻却暴涨34%，典型低流动性微盘股拉高出货特征。"
+   "ticker": "MJS.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "生产商身份提供一定基本面支撑，温和上涨暂无异常"
   },
   {
    "ticker": "CPAU.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "微型金矿股，走势停滞，缺乏实质性进展。"
-  },
-  {
-   "ticker": "GIGA.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "镍钴项目历史包袱重，大幅下跌反映基本面恶化。"
+   "ai_note": "横盘微盘股，CopAur在土耳其有项目但流动性极低"
   },
   {
    "ticker": "ENDR.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "持续阴跌且无新闻，需警惕管理层持续融资稀释。"
+   "ai_note": "大幅下跌无消息，Enduro历史上存在项目纠纷风险"
   },
   {
-   "ticker": "AMY.V",
+   "ticker": "SAM.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "电池回收概念遇冷，大幅下挫反映资金出逃。"
+   "ai_adjust": -3,
+   "ai_note": "实为生产商却标为勘探商，历史治理问题值得关注"
   },
   {
    "ticker": "IBAT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "电池金属板块走弱，无新闻支撑，存在下行风险。"
+   "ai_note": "电池金属概念大幅回调无消息，可能存在稀释或钻探失利"
   },
   {
-   "ticker": "SAM.TO",
+   "ticker": "AEMC.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史上有财务与治理瑕疵，需防范合规与披露风险。"
+   "ai_adjust": -2,
+   "ai_note": "公司名含能源金属却归类金矿，分类矛盾且零成交无进展"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "月涨34%却无任何新闻，高度疑似拉高出货或炒作操纵"
   },
   {
    "ticker": "V.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿微型股，走势平稳，暂无明显风险与催化。"
+   "ai_note": "铀矿勘探小幅上涨，Verdera为业内已知实体暂无异常"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "Labrador Gold管理团队资深，纽芬兰项目有真实钻探进展"
+  },
+  {
+   "ticker": "IRO.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "显著下跌无任何消息，勘探公司缺乏催化剂属负面信号"
   },
   {
    "ticker": "AVL.TO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "无新闻暴涨72%，极大概率为低流通盘恶意炒作。"
+   "ai_adjust": -8,
+   "ai_note": "月暴涨72%零新闻，极大概率为炒作拉高或异常交易操纵"
   },
   {
    "ticker": "SR.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "无新闻且持续下跌，微型股流动性与融资风险双高。"
+   "ai_note": "微型市值大幅下跌无消息，名称泛化缺乏辨识度与催化"
+  },
+  {
+   "ticker": "CCCM.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中等市值持续阴跌无消息，对应该体量缺乏进展属异常"
+  },
+  {
+   "ticker": "AMY.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "Recyclico长期有炒作历史，电池回收概念屡遭质疑"
   }
  ]
 }
