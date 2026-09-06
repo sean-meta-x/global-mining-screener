@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T00:02Z",
+ "generated_at": "2026-09-06T23:54Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国企背景稳健，但铝价波动及产能天花板限制上行空间，维持中性。"
+   "ai_note": "大型国企铝企，治理风险被政府背书部分抵消，无重大异常"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中小盘铝企面临加工费承压及潜在股东减持风险，给予谨慎评级。"
+   "ai_adjust": -3,
+   "ai_note": "小市值铝企，流动性差且存在治理隐忧，下行风险被低估"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史存在治理瑕疵与合规风险，量化模型难以捕捉其隐性折价。"
+   "ai_adjust": -2,
+   "ai_note": "持续下跌且无利好催化，中小铝企基本面存疑"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "云南水电铝受枯水期电力供应及成本波动影响，基本面缺乏弹性。"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤电铝一体化优势明显，但煤炭板块面临环保政策收紧的隐性风险。"
+   "ai_note": "云南铝企受电力成本波动影响，量化模型未充分反映"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "山西地方煤企面临安全生产及产能核增审批的不确定性，下调评分。"
+   "ai_note": "煤炭中期承压明显，能源转型政策风险量化未计入"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "神火股份动量已反映在评分中，无额外催化剂"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "山西煤企面临碳中和长期压力，估值下行空间未充分体现"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "产能向新疆转移带来成本优势，但长途运费及区域政策风险需警惕。"
+   "ai_note": "天山铝业内蒙产能稳定，无明显治理或稀释风险"
   },
   {
-   "ticker": "600546.SS",
+   "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "传统煤企转型缓慢，资产注入预期落空可能导致估值承压。"
+   "ai_adjust": -2,
+   "ai_note": "多元化业务分散，核心铝业务竞争力存疑"
   },
   {
    "ticker": "600361.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铝加工环节利润微薄，且存在定增摊薄每股收益的潜在风险。"
+   "ai_note": "中小铝加工企利润薄，行业下行期抗风险能力弱"
   },
   {
    "ticker": "600595.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "财务历史表现不佳，存在隐性债务及治理结构风险，建议规避。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中孚实业历史治理记录不佳，债务负担较重"
   },
   {
    "ticker": "002540.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "中小市值铝企抗风险能力弱，行业下行期易出现流动性折价。"
-  },
-  {
-   "ticker": "002497.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "跨界锂盐业务带来估值弹性，但新能源周期下行拖累整体业绩。"
-  },
-  {
-   "ticker": "603876.SS",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "铝箔业务竞争激烈，产能扩张期资本开支大，存在资金链压力。"
+   "ai_note": "小市值铝企流动性风险高，信息透明度不足"
   },
   {
    "ticker": "600157.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭资产质量一般，且公司历史上存在信披违规等治理瑕疵。"
+   "ai_note": "永泰能源跌幅较大，煤炭资产质量及债务风险需警惕"
   },
   {
-   "ticker": "600219.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝加工全产业链布局完善，但下游需求疲软制约短期业绩爆发。"
+   "ticker": "603876.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "鼎胜新材跌幅显著，铝箔加工竞争加剧利润承压"
   },
   {
    "ticker": "002978.SZ",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "业务多元化分散，核心主业不突出，量化模型易高估其协同效应。"
+   "ai_adjust": -2,
+   "ai_note": "小市值多元化企业，业务聚焦度低治理风险偏高"
   },
   {
-   "ticker": "601677.SS",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "电池铝箔细分赛道景气度下滑，产能过剩导致加工费持续承压。"
+   "ticker": "600219.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "南山铝业产业链完整，近期动量强劲有基本面支撑"
   },
   {
    "ticker": "600740.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "焦化行业面临严苛的环保限产及碳排放配额约束，长期成本上升。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "山西焦化涨幅已大，小市值煤企治理风险仍存"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型央企煤炭龙头，长协煤比例高，业绩稳健但缺乏爆发催化剂。"
+   "ai_note": "中煤能源为央企大市值，短期动量强但长期转型压力在"
   },
   {
-   "ticker": "301219.SZ",
+   "ticker": "601677.SS",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "次新股钴业务受新能源需求波动影响大，警惕炒作后的估值回归。"
+   "ai_adjust": -2,
+   "ai_note": "明泰铝业估值回落，铝加工行业产能过剩风险上升"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "锂价持续低迷叠加高负债，天齐锂业财务风险被严重低估"
   }
  ]
 }
