@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-05T23:51Z",
+ "generated_at": "2026-09-06T23:43Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "0098.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝企无新闻却月跌16%，基本面或存隐忧但市值尚可"
-  },
-  {
    "ticker": "1303.HK",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "港股极小盘煤炭流动性差且治理存疑。"
+  },
+  {
+   "ticker": "0098.HK",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "小市值煤企无任何消息，环保政策及关停风险被量化忽略"
+   "ai_note": "铝型材近期跌幅较大且无消息，需警惕周期下行。"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值不足3亿多元化企业无新闻却涨12%，疑资金炒作"
+   "ai_adjust": -4,
+   "ai_note": "极小盘无新闻却逆势上涨，需警惕庄股炒作风险。"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值仅1.4亿多元化公司，壳股特征明显治理风险高"
+   "ai_note": "市值仅一亿多，流动性枯竭风险高。"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅4500万暴跌25%无任何新闻，高度疑似操纵或稀释"
+   "ai_adjust": -8,
+   "ai_note": "创业板极小盘煤炭暴跌，流动性与退市风险极高。"
   },
   {
    "ticker": "8250.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅3200万煤企无新闻微涨，典型壳股流动性陷阱"
+   "ai_adjust": -9,
+   "ai_note": "市值不足四千万的创业板微盘股，极易遭资金操纵。"
   },
   {
    "ticker": "1712.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "受益于金价大涨，澳港两地上市基本面较扎实。"
+  },
+  {
+   "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金矿股月涨25%却零新闻，涨幅与消息面严重背离"
+   "ai_adjust": -4,
+   "ai_note": "创业板公司业务庞杂且偏离主业，治理结构复杂。"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "银企大跌13%无新闻解释，基本面可能已恶化"
-  },
-  {
-   "ticker": "8095.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值近10亿多元化企业走势平淡，无特别催化剂或风险"
+   "ai_adjust": -3,
+   "ai_note": "白银价格波动大且前期扩张激进，需关注债务。"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值多元化公司无新闻上涨，需警惕庄家控盘"
+   "ai_adjust": -4,
+   "ai_note": "极小盘多元化公司主业不清，警惕壳股炒作。"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值仅1.3亿煤企无新闻涨10%，炒作痕迹明显"
-  },
-  {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企铝企量化评分偏低或反映产能过剩及治理折价"
+   "ai_adjust": -5,
+   "ai_note": "微盘煤炭无量空涨，需防庄家拉高出货。"
   },
   {
    "ticker": "1738.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "市值仅7700万暴涨16%零新闻，高度疑似拉高出货"
-  },
-  {
-   "ticker": "2078.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小市值铝企走势平稳无异常，但流动性偏弱"
-  },
-  {
-   "ticker": "1182.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值金矿股长期存在股权稀释和运营风险"
+   "ai_note": "市值不足八千万流动性极差，上涨多为资金对倒。"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "市值20亿金矿企业走势温和，无异常信号"
+   "ai_adjust": 1,
+   "ai_note": "次新黄金股受益于金价，但需关注解禁期抛压。"
+  },
+  {
+   "ticker": "2600.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "大型国企铝龙头，受益于宏观复苏与铝价坚挺。"
+  },
+  {
+   "ticker": "2078.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铝型材极小盘股，长期缺乏流动性与机构关注。"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "黄金开发商非生产商，钻井失败与持续稀释风险极高"
+   "ai_note": "海外金矿开发进度长期不及预期，资金消耗大。"
   },
   {
    "ticker": "1091.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大市值多元化企业下跌无新闻，锰矿下游需求存不确定性"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锰价受新能源电池需求放缓拖累，短期缺乏催化。"
   },
   {
    "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "市值20亿煤企大涨或受煤价驱动，基本面有一定支撑"
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "焦煤需求韧性超预期，分红慷慨具估值修复空间。"
   },
   {
    "ticker": "6885.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤企无新闻涨11%，需关注流动性及操纵风险"
+   "ai_adjust": -3,
+   "ai_note": "小盘煤炭股流动性欠佳，上涨持续性存疑。"
+  },
+  {
+   "ticker": "0505.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "铜价上涨利好加工，但加工费受压限制利润弹性。"
   }
  ]
 }
