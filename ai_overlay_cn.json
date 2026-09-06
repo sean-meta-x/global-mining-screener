@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T00:06Z",
+ "generated_at": "2026-09-06T00:02Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型央企，基本面稳健，无明显治理风险"
+   "ai_note": "国企背景稳健，但铝价波动及产能天花板限制上行空间，维持中性。"
   },
   {
    "ticker": "002101.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中小市值铝压铸企业，无突出催化剂或风险"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中小盘铝企面临加工费承压及潜在股东减持风险，给予谨慎评级。"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "历史股东纠纷频繁，治理结构存隐患"
+   "ai_note": "历史存在治理瑕疵与合规风险，量化模型难以捕捉其隐性折价。"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "云南国资背景，电力成本优势尚可"
+   "ai_note": "云南水电铝受枯水期电力供应及成本波动影响，基本面缺乏弹性。"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国资背景 major producer，经营平稳"
+   "ai_adjust": -1,
+   "ai_note": "煤电铝一体化优势明显，但煤炭板块面临环保政策收紧的隐性风险。"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭长期需求承压，月跌幅较大"
+   "ai_adjust": -3,
+   "ai_note": "山西地方煤企面临安全生产及产能核增审批的不确定性，下调评分。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "新疆低电价优势，产能释放稳定"
+   "ai_note": "产能向新疆转移带来成本优势，但长途运费及区域政策风险需警惕。"
   },
   {
    "ticker": "600546.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "山西国资煤企，分红记录良好"
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "传统煤企转型缓慢，资产注入预期落空可能导致估值承压。"
+  },
+  {
+   "ticker": "600361.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铝加工环节利润微薄，且存在定增摊薄每股收益的潜在风险。"
   },
   {
    "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "盈利能力偏弱，行业下行期承压"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "财务历史表现不佳，存在隐性债务及治理结构风险，建议规避。"
   },
   {
    "ticker": "002540.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝加工细分龙头，汽车铝材需求稳"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中小市值铝企抗风险能力弱，行业下行期易出现流动性折价。"
   },
   {
    "ticker": "002497.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂盐价格低迷拖累业绩，波动较大"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "跨界锂盐业务带来估值弹性，但新能源周期下行拖累整体业绩。"
   },
   {
    "ticker": "603876.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "电池铝箔赛道，下游需求有支撑"
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "铝箔业务竞争激烈，产能扩张期资本开支大，存在资金链压力。"
   },
   {
    "ticker": "600157.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "曾有债券违约历史，债务风险需警惕"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭资产质量一般，且公司历史上存在信披违规等治理瑕疵。"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "全产业链布局，航空铝板高端化进展"
+   "ai_adjust": 0,
+   "ai_note": "铝加工全产业链布局完善，但下游需求疲软制约短期业绩爆发。"
   },
   {
    "ticker": "002978.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化业务分散风险，表现平淡"
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "业务多元化分散，核心主业不突出，量化模型易高估其协同效应。"
   },
   {
    "ticker": "601677.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝板带箔加工龙头，经营稳健"
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "电池铝箔细分赛道景气度下滑，产能过剩导致加工费持续承压。"
   },
   {
    "ticker": "600740.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "焦化月涨幅领先，短期动量较强"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "焦化行业面临严苛的环保限产及碳排放配额约束，长期成本上升。"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "央企煤炭龙头，高股息防御属性强"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "海外并购负债高企，锂价下行承压"
+   "ai_adjust": 0,
+   "ai_note": "大型央企煤炭龙头，长协煤比例高，业绩稳健但缺乏爆发催化剂。"
   },
   {
    "ticker": "301219.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌超8%，钴价低迷叠加次新波动"
+   "ai_adjust": -4,
+   "ai_note": "次新股钴业务受新能源需求波动影响大，警惕炒作后的估值回归。"
   }
  ]
 }
