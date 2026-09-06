@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T23:36Z",
+ "generated_at": "2026-09-06T23:27Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "UFO.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "典型推广股，项目缺乏实质进展，稀释风险极高"
+   "ai_note": "微型勘探股，缺乏流动性与催化剂，警惕稀释风险。"
   },
   {
    "ticker": "MET1.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型勘探公司，资金薄弱，持续融资稀释股东"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "微型勘探股，基本面平淡，暂无明显催化剂。"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "巴西Palito金矿在产，运营基本稳定，无突出催化"
+   "ai_note": "巴西小型金矿生产商，运营稳定但缺乏爆发力。"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "实物铀持仓基金，结构清晰，无稀释风险"
-  },
-  {
-   "ticker": "THX.L",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Seguela金矿投产爬坡中，产量兑现为实质催化"
+   "ai_note": "铀现货信托基金，非实际生产商，受铀价波动影响大。"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "频繁配股融资，项目多为概念阶段，推广痕迹重"
+   "ai_adjust": -2,
+   "ai_note": "微型勘探股，锂铀概念炒作多，需防范稀释风险。"
+  },
+  {
+   "ticker": "THX.L",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "塞古拉金矿投产带来强劲动能，短期看涨。"
   },
   {
    "ticker": "JLP.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南非PGM和铬矿加工在产，运营正常但增长有限"
-  },
-  {
-   "ticker": "PDL.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "严重财务困境，持续经营存疑，债务重组中"
-  },
-  {
-   "ticker": "RMR.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "一月暴跌超30%，疑似钻探失利或融资稀释"
+   "ai_note": "业务结构复杂，铂族金属回收利润受宏观压制。"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化生产商，运营平稳，无明显风险或催化"
+   "ai_note": "澳洲铁矿煤炭生产商，现金流稳定，估值合理。"
   },
   {
-   "ticker": "CMCL.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "津巴布韦Blanket金矿在产，但政策与汇兑风险高"
+   "ticker": "PDL.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "钻石价格低迷叠加高额债务，存在严重稀释与治理风险。"
+  },
+  {
+   "ticker": "RMR.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "近期暴跌超三成，铜矿勘探受挫，流动性极差。"
   },
   {
    "ticker": "CLA.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型勘探股，市值极低，流动性差且推广嫌疑大"
+   "ai_note": "微型勘探股，市值过小，易受资金盘操控。"
+  },
+  {
+   "ticker": "CMCL.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "津巴布韦金矿生产商，虽有分红但国家风险较高。"
   },
   {
    "ticker": "CAML.L",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "Kounrad铜矿品位下滑，产量承压，短期逆风"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "巴尔干半岛铜锌生产商，运营稳健但需关注地缘政治。"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "马里锂矿面临政变后政治风险，许可证不确定性高"
+   "ai_adjust": -4,
+   "ai_note": "马里锂矿项目面临严峻的地缘政治与许可审批风险。"
   },
   {
    "ticker": "XTR.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "一月跌25%，基本面恶化或融资稀释，需警惕"
+   "ai_note": "近期大跌且市值极小，黄金勘探缺乏实质性进展。"
   },
   {
    "ticker": "THS.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南非PGM在产，运营稳定但受铂族金属价格波动影响"
+   "ai_note": "津巴布韦铂族金属生产商，运营良好但受限于国家风险。"
   },
   {
    "ticker": "GLR.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型勘探股，市值不足千万，推广与稀释风险并存"
+   "ai_note": "微型勘探股，近期涨幅异常，警惕庄家炒作。"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "南非尾矿回收商，现金流稳健，金价上涨受益"
-  },
-  {
-   "ticker": "HALO.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铜矿勘探，无市值数据，流动性与融资风险高"
+   "ai_adjust": 0,
+   "ai_note": "南非金矿尾矿回收商，受益于金价上涨，表现稳健。"
   },
   {
    "ticker": "AAU.L",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "土耳其金矿运营，监管政策变动频繁，国别风险显著"
+   "ai_adjust": -5,
+   "ai_note": "土耳其金矿项目面临极高的地缘政治与政策风险。"
+  },
+  {
+   "ticker": "GGP.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "哈维隆金矿开发周期长且资本开支巨大，短期难见回报。"
   }
  ]
 }
