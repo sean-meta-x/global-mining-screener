@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T00:28Z",
+ "generated_at": "2026-09-07T00:16Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "LIFT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "大市值开发商无消息却持续阴跌，疑似隐性稀释或项目停滞"
+   "ai_note": "市值最大但一月跌12%且零新闻，开发者阶段缺乏催化剂"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型市值勘探公司零消息阴跌，流动性差且缺乏催化剂"
+   "ai_note": "微型市值勘探商，零新闻流动，流动性风险高"
   },
   {
    "ticker": "IRV.CN",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "跌幅显著且无任何新闻，勘探公司无进展信号属危险迹象"
+   "ai_note": "一月跌近16%且无任何新闻，可能存在未披露的负面信息"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "代码STUD带炒作色彩，公司名含铀却归类金矿，分类混乱可疑"
-  },
-  {
-   "ticker": "HLU.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿主题小盘股小幅上涨，暂无明显异常信号"
+   "ai_note": "公司名称为铀矿但分类为金矿， sector错配严重，一月跌超20%"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型勘探公司无消息持续下跌，缺乏实质进展支撑"
+   "ai_note": "微型多元化勘探商，零新闻，流动性堪忧"
+  },
+  {
+   "ticker": "HLU.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿勘探商小幅正收益，板块有支撑但市值过小"
   },
   {
    "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "生产商身份提供一定基本面支撑，温和上涨暂无异常"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "唯一生产商标签，市值较大且一月涨10%，有实际产出支撑"
   },
   {
    "ticker": "CPAU.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "横盘微盘股，CopAur在土耳其有项目但流动性极低"
+   "ai_adjust": -1,
+   "ai_note": "微型金矿勘探商零涨跌零新闻，缺乏任何催化剂"
   },
   {
    "ticker": "ENDR.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "大幅下跌无消息，Enduro历史上存在项目纠纷风险"
+   "ai_note": "一月跌15.6%且零新闻，勘探阶段无进展披露令人担忧"
   },
   {
    "ticker": "SAM.TO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "实为生产商却标为勘探商，历史治理问题值得关注"
+   "ai_adjust": -2,
+   "ai_note": "分类为勘探商但Starcore实为生产商，数据可能有误"
   },
   {
    "ticker": "IBAT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "电池金属概念大幅回调无消息，可能存在稀释或钻探失利"
-  },
-  {
-   "ticker": "AEMC.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "公司名含能源金属却归类金矿，分类矛盾且零成交无进展"
+   "ai_note": "一月跌近17%为电池金属概念，热度退潮后无新闻支撑"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "月涨34%却无任何新闻，高度疑似拉高出货或炒作操纵"
+   "ai_adjust": -6,
+   "ai_note": "一月暴涨34%但零新闻，微型市值铜矿，典型拉高出货特征"
+  },
+  {
+   "ticker": "AEMC.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "零涨跌零新闻，微型金矿勘探商完全缺乏催化剂"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型市值一月涨17%但零新闻，疑似推广活动需警惕"
   },
   {
    "ticker": "V.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿勘探小幅上涨，Verdera为业内已知实体暂无异常"
-  },
-  {
-   "ticker": "LAB.V",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "Labrador Gold管理团队资深，纽芬兰项目有真实钻探进展"
-  },
-  {
-   "ticker": "IRO.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "显著下跌无任何消息，勘探公司缺乏催化剂属负面信号"
+   "ai_note": "铀矿勘探商小幅正收益，板块逻辑尚在但市值偏小"
   },
   {
    "ticker": "AVL.TO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "月暴涨72%零新闻，极大概率为炒作拉高或异常交易操纵"
+   "ai_note": "一月暴涨72%零新闻，微型多元化勘探商，极大概率为炒作拉高"
   },
   {
    "ticker": "SR.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型市值大幅下跌无消息，名称泛化缺乏辨识度与催化"
+   "ai_note": "一月跌17%零新闻，微型多元化勘探商无亮点"
+  },
+  {
+   "ticker": "TT.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "PGM勘探商小幅正收益，但微型市值零新闻缺乏催化"
+  },
+  {
+   "ticker": "AMY.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "电池回收概念一月跌14%，零新闻显示市场兴趣消退"
   },
   {
    "ticker": "CCCM.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "中等市值持续阴跌无消息，对应该体量缺乏进展属异常"
-  },
-  {
-   "ticker": "AMY.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "Recyclico长期有炒作历史，电池回收概念屡遭质疑"
+   "ai_note": "市值较大但一月跌7%且零新闻，勘探商无进展披露"
   }
  ]
 }
