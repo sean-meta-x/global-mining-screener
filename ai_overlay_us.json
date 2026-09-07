@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-06T23:16Z",
+ "generated_at": "2026-09-07T23:59Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微盘股暴跌且无消息，极可能存在隐性稀释或钻探失败。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "格陵兰岛环保审批极严，微盘勘探股面临极高融资稀释风险。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "关键矿产概念炒作后易遇融资稀释，需警惕高位接盘。"
+   "ai_adjust": -3,
+   "ai_note": "缺乏基本面利好的微盘股异常暴涨，高度疑似庄家拉高出货。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "核能概念虽有热度，但早期勘探阶段缺乏实质催化。"
+   "ai_note": "蹭核能概念的微盘勘探股，缺乏实质性项目进展与催化剂。"
   },
   {
    "ticker": "CEXYF",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型铜矿勘探股流动性差，反弹多为资金盘炒作。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微盘铜矿股无利好暴涨，极大概率是拉高出货或即将折价融资。"
   },
   {
    "ticker": "JAGU",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿勘探股随板块波动，缺乏独立基本面支撑。"
+   "ai_note": "早期铀矿勘探股，缺乏实质性钻井数据支撑，短期无催化剂。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锂矿开发商面临环保审批及濒危物种保护等合规风险。"
+   "ai_adjust": -4,
+   "ai_note": "核心锂项目面临美国环保署审批延迟，需警惕开发进度不及预期。"
   },
   {
    "ticker": "UROY",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "铀矿版税模式现金流稳健，受益于铀价长期看涨逻辑。"
+   "ai_note": "纯铀矿权公司无直接运营风险，完美受益于铀价上涨周期。"
   },
   {
    "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "清洁能源概念微型股，历史上有强烈的炒作与稀释特征。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴西钾矿开发商基本面尚可，但需关注当地政策与执行风险。"
-  },
-  {
-   "ticker": "LAC",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "大型锂矿开发商受环保诉讼及原住民抗议影响，审批存疑。"
+   "ai_note": "微盘勘探股流动性差且大跌，存在持续融资稀释股权的极高风险。"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微型金矿公司的认股权证，流动性极差且面临严重稀释。"
+   "ai_adjust": -10,
+   "ai_note": "认股权证波动极大且具高度稀释性，不适合稳健型资金配置。"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "巴西钾矿项目面临当地环保审批阻力及潜在的资金缺口风险。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "核心项目虽有巨头注资，但环保诉讼与原住民抗议仍在进行中。"
   },
   {
    "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "稀土开发商历史项目延期频繁，资本开支巨大且融资困难。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "历史上有严重稀释记录，且复杂多金属冶金技术路线仍存疑。"
   },
   {
    "ticker": "FMSTW",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微型股关联认股权证，纯投机标的，极易归零。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "作为微盘股衍生权证，流动性极易枯竭且稀释风险极高。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "津巴布韦金矿生产商面临较高的地缘政治与治理风险。"
-  },
-  {
-   "ticker": "NC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "传统煤炭生产商面临长期ESG资金撤出与需求萎缩风险。"
-  },
-  {
-   "ticker": "NMG",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "石墨开发商受电动车需求放缓影响，短期缺乏强劲催化。"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "微型多元化勘探股，项目早期且缺乏明确的高品位钻探结果。"
+   "ai_note": "津巴布韦矿区存在一定地缘与政策风险，但已稳定产金提供现金流。"
   },
   {
    "ticker": "GLDG",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "金矿勘探股受益于金价上涨，但需警惕其过往的股权稀释。"
+   "ai_adjust": 0,
+   "ai_note": "资产组合优质但多为早期勘探，缺乏短期产量与业绩催化剂。"
+  },
+  {
+   "ticker": "NMG",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "魁北克石墨项目面临融资困难与原住民环保审批的双重阻力。"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微盘股且大幅回撤，需警惕管理层频繁融资稀释股权及流动性风险。"
   },
   {
    "ticker": "NAMM",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小型金矿生产商，产量规模有限且易受局部成本通胀影响。"
+  },
+  {
+   "ticker": "NC",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型金矿生产商市值过小，抗风险能力弱且易受资金操控。"
+   "ai_adjust": -2,
+   "ai_note": "煤炭资产面临长期结构性衰退及ESG融资限制，缺乏成长空间。"
   },
   {
    "ticker": "ATCMF",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型多元化生产商，近期跌幅较大，可能存在未披露的运营问题。"
+   "ai_adjust": -4,
+   "ai_note": "微盘矿企流动性匮乏且股价持续阴跌，存在退市或折价融资风险。"
   }
  ]
 }
