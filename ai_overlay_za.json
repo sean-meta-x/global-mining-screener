@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T23:31Z",
+ "generated_at": "2026-09-08T00:13Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "EUZ.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型勘探股，流动性极差且面临持续稀释风险。"
+   "ai_note": "微型勘探公司，无新闻且市值极低，存在高度稀释与现金流枯竭风险。"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿业巨头，受困于南非物流瓶颈与矿价波动。"
+   "ai_note": "铁矿石巨头，基本面稳健但受宏观周期压制，缺乏短期催化剂。"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铬矿生产商，历史上有财务与治理瑕疵，高度依赖大股东。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铬矿生产商，估值合理且无重大负面消息，维持中性观察。"
   },
   {
    "ticker": "JBL.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "频繁增发稀释股东权益，业务结构复杂且常夸大处理量。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "激进并购历史导致股本稀释风险较高，需警惕管理层资本配置。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "治理极差且严重稀释，核心铂矿项目长期停滞，濒临退市。"
+   "ai_adjust": -5,
+   "ai_note": "铂族金属开发商，处于烧钱阶段且股价大跌，资金链断裂风险高。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "市值极小且缺乏流动性，基本面存疑，属高风险边缘资产。"
+   "ai_note": "市值仅六千万的微型股，流动性极差且暴涨，疑似游资炒作。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "运营稳健但受限于南非物流及铂族金属价格低迷。"
+   "ai_note": "铂族金属生产商，运营稳定但受累于金属价格疲软，表现平淡。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "有色宝石巨头，莫桑比克矿区面临安全与运营挑战。"
-  },
-  {
-   "ticker": "SSW.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "债务高企且美国铂矿拖累严重，近期暴涨多为空头回补。"
-  },
-  {
-   "ticker": "EPS.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "长期受困于电力短缺与资金枯竭，股价暴跌反映基本面恶化。"
+   "ai_adjust": -2,
+   "ai_note": "股价单月暴跌超16%，基本面或存隐忧，需警惕估值陷阱。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "刚果金锡矿主力，产量增长强劲，但需警惕地缘政治风险。"
+   "ai_note": "锡矿现金流强劲，基本面扎实，具备一定抗周期韧性。"
+  },
+  {
+   "ticker": "SSW.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铂钯巨头但黄金业务提供对冲，股价反弹后估值已修复至合理区间。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型煤炭股，流动性匮乏且历史融资与运营记录不佳。"
+   "ai_adjust": -2,
+   "ai_note": "煤炭小盘股，面临ESG融资困境及长期需求衰退风险。"
   },
   {
    "ticker": "CPR.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型铜矿勘探股，近期暴涨疑似低流通盘炒作，基本面薄弱。"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭巨头资产负债表稳健，但面临长期ESG撤资压力。"
+   "ai_adjust": -4,
+   "ai_note": "铜矿勘探商单月暴涨34%，缺乏实质产出，存在强烈炒作嫌疑。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铂族金属龙头，股价大幅反弹但行业基本面仍处低谷，中性看待。"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "caution",
    "ai_adjust": -1,
-   "ai_note": "铂族金属巨头，成本控制尚可，但受累于行业下行与津巴布韦风险。"
+   "ai_note": "煤炭巨头受ESG政策压制，长期估值承压，缺乏上行空间。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化矿业巨头，资本配置激进且带有政治关联的治理 scrutiny。"
+   "ai_note": "多元化矿业巨头，资产组合优质，股价表现平稳，维持中性。"
   },
   {
    "ticker": "HAR.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "黄金中型矿企，受益于金价强势周期，具备较好的上行弹性。"
+  },
+  {
+   "ticker": "KP2.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "钾矿开发商项目周期长，资本开支巨大，存在持续稀释风险。"
+  },
+  {
+   "ticker": "VAL.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金中坚力量，但深部开采成本高企且面临南非系统性风险。"
+   "ai_note": "铂族金属新晋巨头，资产质量尚可，需关注独立运营后的治理风险。"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "铁矿与建材优质企业，但受南非建筑业低迷及矿价拖累。"
-  },
-  {
-   "ticker": "KP2.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "钾矿开发商，项目长期延期，融资困难且存在持续稀释风险。"
+   "ai_adjust": 0,
+   "ai_note": "铁矿及建材生产商，受建筑行业周期影响股价回调，估值中性。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "煤炭巨头近期暴涨或为短期情绪驱动，长期面临能源转型淘汰风险。"
+   "ai_note": "煤炭股单月暴涨近45%，受资金短期炒作驱动，ESG风险极高。"
   }
  ]
 }
