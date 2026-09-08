@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-07T00:16Z",
+ "generated_at": "2026-09-08T00:56Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "LIFT.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值最大但一月跌12%且零新闻，开发者阶段缺乏催化剂"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "市值最大但近期无量价催化，缺乏新闻支撑需观望。"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型市值勘探商，零新闻流动，流动性风险高"
+   "ai_note": "微盘勘探股且无新闻，流动性与融资稀释风险较高。"
   },
   {
    "ticker": "IRV.CN",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "一月跌近16%且无任何新闻，可能存在未披露的负面信息"
+   "ai_adjust": -2,
+   "ai_note": "跌幅较大且无基本面新闻，警惕资金流出或隐性利空。"
   },
   {
    "ticker": "STUD.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "公司名称为铀矿但分类为金矿， sector错配严重，一月跌超20%"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "名称为铀矿却归类为金矿，业务定位模糊且跌幅居前。"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型多元化勘探商，零新闻，流动性堪忧"
+   "ai_note": "微盘银矿勘探股，缺乏近期新闻验证，存在流动性折价。"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿勘探商小幅正收益，板块有支撑但市值过小"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "唯一生产商标签，市值较大且一月涨10%，有实际产出支撑"
+   "ai_note": "铀矿概念微盘股，近期小幅反弹但无实质新闻催化。"
   },
   {
    "ticker": "CPAU.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型金矿勘探商零涨跌零新闻，缺乏任何催化剂"
+   "ai_adjust": 0,
+   "ai_note": "股价横盘且无新闻，微盘金矿勘探股需等待钻探结果。"
   },
   {
    "ticker": "ENDR.V",
    "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "一月跌幅超15%且无新闻，需警惕勘探失败或资金链紧张。"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "一月跌15.6%且零新闻，勘探阶段无进展披露令人担忧"
+   "ai_note": "无新闻支撑下暴涨34%，微盘股需高度警惕拉高出货风险。"
   },
   {
    "ticker": "SAM.TO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "分类为勘探商但Starcore实为生产商，数据可能有误"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "实际为生产型矿企但被误标为勘探，基本面需重新核实。"
   },
   {
    "ticker": "IBAT.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "一月跌近17%为电池金属概念，热度退潮后无新闻支撑"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "一月暴涨34%但零新闻，微型市值铜矿，典型拉高出货特征"
+   "ai_adjust": -2,
+   "ai_note": "电池金属概念退潮，股价大幅回撤且无新闻，谨防稀释。"
   },
   {
    "ticker": "AEMC.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "零涨跌零新闻，微型金矿勘探商完全缺乏催化剂"
+   "ai_adjust": 0,
+   "ai_note": "微盘金矿股交投清淡，无新闻驱动，维持中性观望。"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "市值较大且为生产商，近期温和上涨，基本面相对稳健。"
   },
   {
    "ticker": "LAB.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型市值一月涨17%但零新闻，疑似推广活动需警惕"
+   "ai_adjust": -1,
+   "ai_note": "微盘金矿股无新闻却大涨，需防范短期资金炒作回落。"
   },
   {
    "ticker": "V.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿勘探商小幅正收益，板块逻辑尚在但市值偏小"
+   "ai_note": "铀矿勘探股走势平稳，缺乏近期新闻，维持中性评级。"
   },
   {
    "ticker": "AVL.TO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "一月暴涨72%零新闻，微型多元化勘探商，极大概率为炒作拉高"
+   "ai_adjust": -5,
+   "ai_note": "无新闻背景下单月暴涨72%，极度疑似资金炒作，建议规避。"
   },
   {
    "ticker": "SR.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "一月跌17%零新闻，微型多元化勘探商无亮点"
+   "ai_adjust": -2,
+   "ai_note": "股价大幅下挫且无消息，微盘股流动性枯竭风险较高。"
   },
   {
    "ticker": "TT.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "PGM勘探商小幅正收益，但微型市值零新闻缺乏催化"
-  },
-  {
-   "ticker": "AMY.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池回收概念一月跌14%，零新闻显示市场兴趣消退"
+   "ai_note": "铂族金属微盘股小幅反弹，无实质新闻，维持中性。"
   },
   {
    "ticker": "CCCM.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值较大但一月跌7%且零新闻，勘探商无进展披露"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "市值相对较大但近期回调，无新闻支撑，需关注资金面。"
+  },
+  {
+   "ticker": "JG.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "单月暴跌近30%且无公告，极可能存在未披露的利空或稀释。"
   }
  ]
 }
