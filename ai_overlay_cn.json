@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T23:54Z",
+ "generated_at": "2026-09-08T00:35Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，治理风险被政府背书部分抵消，无重大异常"
-  },
-  {
-   "ticker": "002101.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值铝企，流动性差且存在治理隐忧，下行风险被低估"
+   "ai_note": "大型国企铝企，治理稳定但缺乏催化剂，维持中性"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "持续下跌且无利好催化，中小铝企基本面存疑"
+   "ai_note": "中小铝企月跌逾6%，行业需求疲软下抗风险能力弱"
+  },
+  {
+   "ticker": "002101.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "市值偏小，横盘整理，无显著风险或利好"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "云南铝企受电力成本波动影响，量化模型未充分反映"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭中期承压明显，能源转型政策风险量化未计入"
+   "ai_adjust": 0,
+   "ai_note": "依托云南水电成本优势，基本面尚可但缺乏弹性"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "神火股份动量已反映在评分中，无额外催化剂"
+   "ai_note": "煤电铝一体化布局，收益相对稳定，维持中性"
   },
   {
-   "ticker": "600546.SS",
+   "ticker": "601001.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "山西煤企面临碳中和长期压力，估值下行空间未充分体现"
+   "ai_note": "煤炭月跌超5%，行业承压且公司体量偏小"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "新疆产能成本优势明显，但近期回调需关注"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "天山铝业内蒙产能稳定，无明显治理或稀释风险"
-  },
-  {
-   "ticker": "002497.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "多元化业务分散，核心铝业务竞争力存疑"
-  },
-  {
-   "ticker": "600361.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中小铝加工企利润薄，行业下行期抗风险能力弱"
+   "ai_note": "山西煤炭国企，估值合理，无突出风险"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "中孚实业历史治理记录不佳，债务负担较重"
+   "ai_note": "月跌近6%，负债率偏高，财务风险需警惕"
+  },
+  {
+   "ticker": "002497.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "多元化业务分散，锂盐价格下行拖累整体盈利"
+  },
+  {
+   "ticker": "600361.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铝加工中游企业，利润受挤压，弹性有限"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "大型煤企月涨5%，高股息叠加煤价韧性"
+  },
+  {
+   "ticker": "002978.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "多元化中小企，业务协同性待观察"
   },
   {
    "ticker": "002540.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值铝企流动性风险高，信息透明度不足"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "永泰能源跌幅较大，煤炭资产质量及债务风险需警惕"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "月涨2.8%有短期动能，但市值偏小流动性一般"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "鼎胜新材跌幅显著，铝箔加工竞争加剧利润承压"
+   "ai_adjust": -2,
+   "ai_note": "月跌近6%，铝加工竞争激烈利润率承压"
   },
   {
-   "ticker": "002978.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值多元化企业，业务聚焦度低治理风险偏高"
+   "ticker": "600157.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭贸易为主，利润率偏低，成长性不足"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "南山铝业产业链完整，近期动量强劲有基本面支撑"
-  },
-  {
-   "ticker": "600740.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "山西焦化涨幅已大，小市值煤企治理风险仍存"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中煤能源为央企大市值，短期动量强但长期转型压力在"
+   "ai_note": "南山铝业全产业链布局，航空板材有亮点但估值已反映"
   },
   {
    "ticker": "601677.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "明泰铝业估值回落，铝加工行业产能过剩风险上升"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝箔龙头受益电池需求，但短期回调消化估值"
   },
   {
-   "ticker": "002466.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "锂价持续低迷叠加高负债，天齐锂业财务风险被严重低估"
+   "ticker": "600740.SS",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "月涨7.6%动能强劲，焦煤价格企稳支撑业绩"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂价持续低迷月跌近9%，盐湖提锂成本优势被削弱"
   }
  ]
 }
