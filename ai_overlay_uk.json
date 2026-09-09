@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-08T00:09Z",
+ "generated_at": "2026-09-09T23:53Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
-   "ticker": "UFO.L",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型勘探股，无新闻且零收益，警惕融资稀释与炒作风险。"
-  },
-  {
    "ticker": "MET1.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型勘探股缺乏流动性，基本面不明，需防范稀释风险。"
-  },
-  {
-   "ticker": "SRB.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴西小型金矿生产商，运营平稳但缺乏重大催化剂。"
+   "ai_adjust": -3,
+   "ai_note": "微型勘探股流动性差且极易稀释，需警惕持续融资风险。"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铀矿微型勘探股，历史上常有促销行为，需警惕股本稀释。"
+   "ai_adjust": -4,
+   "ai_note": "依赖概念炒作与频繁融资，基本面支撑薄弱。"
   },
   {
-   "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 5,
-   "ai_note": "铀矿实物信托，直接挂钩铀价，基本面扎实且无运营风险。"
+   "ticker": "SRB.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "Palito矿山品位下滑且成本偏高，运营风险未完全释放。"
   },
   {
    "ticker": "THX.L",
    "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "塞古拉金矿已投产，但科特迪瓦地缘政治风险需折价。"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "科特迪瓦金矿项目放量，但需警惕当地政策与社区风险。"
+   "ai_note": "纯铀价敞口无运营风险，受益于铀市场长期供需缺口。"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "频繁通过配股融资扩张，股本稀释风险较高，压制股东回报。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南非运营环境复杂，冶炼业务利润率受能源成本压制。"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "钻石市场低迷且公司债务高企，历史治理不佳，风险极高。"
+   "ai_note": "债务重组艰难且核心矿山停产，基本面极度恶化。"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲铁矿生产商，基本面稳健，但受铁矿石价格波动影响。"
+   "ai_note": "澳洲铁矿基本面稳健，但高度依赖铁矿石周期价格。"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "巴尔干铜锌矿商，现金流良好，但需关注东欧地缘政治风险。"
-  },
-  {
-   "ticker": "CMCL.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦金矿商，虽有分红但面临极高的通胀与政策风险。"
-  },
-  {
-   "ticker": "CLA.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型勘探股，市值过小且缺乏实质性项目进展，流动性差。"
+   "ai_adjust": -1,
+   "ai_note": "哈萨克斯坦地缘风险溢价高，但自由现金流和分红优异。"
   },
   {
    "ticker": "RMR.L",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "一月暴跌超三成，疑似钻探失败或资金链断裂，坚决规避。"
-  },
-  {
-   "ticker": "KOD.L",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锂矿勘探受锂价暴跌重创，项目融资困难，下行风险极大。"
+   "ai_adjust": -7,
+   "ai_note": "股价暴跌暗示钻探失败或严重稀释，微观结构极差。"
   },
   {
    "ticker": "THS.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "南非铂族矿商，受非法采矿及电力短缺困扰，运营风险高。"
+   "ai_adjust": -2,
+   "ai_note": "铂钯价格低迷叠加南非限电，盈利预期面临下调压力。"
   },
   {
-   "ticker": "XTR.L",
+   "ticker": "CMCL.L",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦政策风险极高，但管理层运营与分红表现尚可。"
+  },
+  {
+   "ticker": "KEFI.L",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "一月大跌25%，微型金矿勘探股缺乏资金，面临退市风险。"
+   "ai_adjust": -8,
+   "ai_note": "股价腰斩凸显融资困境或许可延迟，开发风险剧增。"
+  },
+  {
+   "ticker": "KOD.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂价暴跌叠加马里地缘风险，项目融资与推进极度困难。"
+  },
+  {
+   "ticker": "BHL.L",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型锂矿勘探股流动性枯竭，极易受资金盘操纵与稀释。"
   },
   {
    "ticker": "GLR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "无实质利好却异常拉升，微型盘流动性差且极易被操纵。"
+  },
+  {
+   "ticker": "HALO.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "短期暴涨的微型勘探股，典型炒作特征，谨防高位接盘。"
+   "ai_note": "早期铜矿勘探缺乏实质进展，需警惕概念炒作与资金消耗。"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南非金尾矿商，现金流尚可，但受制于南非宏观与电力风险。"
+   "ai_note": "尾矿回收业务现金流稳定，但受限于南非宏观与低品位。"
   },
   {
-   "ticker": "HALO.L",
+   "ticker": "GEM.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型铜矿勘探股，市值极低且无实质进展，纯资金博弈。"
+   "ai_adjust": -2,
+   "ai_note": "彩色宝石市场透明度低且莫桑比克运营存在地缘折价。"
   },
   {
-   "ticker": "AAU.L",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "土耳其金矿商，面临当地严苛的环保监管与地缘政治风险。"
+   "ticker": "XTR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "股价大幅下挫暗示融资失败或钻探不及预期，风险极高。"
   }
  ]
 }
