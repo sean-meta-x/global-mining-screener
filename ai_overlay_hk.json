@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-08T00:25Z",
+ "generated_at": "2026-09-09T00:16Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "0098.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "兴发铝业基本面平稳，但铝加工利润承压，无明显隐藏风险。"
-  },
-  {
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "汇力资源市值偏小，煤炭业务单一，需警惕流动性及治理风险。"
+   "ai_note": "小市值煤炭股缺乏流动性，无新闻覆盖存隐忧"
+  },
+  {
+   "ticker": "0098.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌15%无新闻解释，铝企基本面或存未披露风险"
   },
   {
    "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金岩高岭土市值微小且近期异动，缺乏流动性，谨防炒作风险。"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "利记控股市值较小，业务多元但缺乏核心亮点，存在边缘化风险。"
-  },
-  {
-   "ticker": "8250.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "嘟嘟控股为创业板微盘股，市值极低，存在严重的壳股与炒作嫌疑。"
-  },
-  {
-   "ticker": "1712.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "巨龙矿业受金价提振表现较好，但港股流动性一般，估值中性。"
-  },
-  {
-   "ticker": "8095.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "北大青鸟为创业板公司，主业偏教育，矿业属性存疑，治理风险高。"
+   "ai_note": "小市值多元化矿企，表现平稳但缺乏催化剂"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "凯顺控股为创业板微盘股，历史上有过治理瑕疵，近期大跌需警惕。"
+   "ai_note": "市值仅4600万且暴跌25%，创业板煤企高度可疑"
+  },
+  {
+   "ticker": "0637.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值多元化矿企，流动性差且无新闻"
+  },
+  {
+   "ticker": "8250.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅3200万创业板壳股，煤炭概念疑似炒作"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金矿生产商受益金价，但涨幅无新闻支撑需观察"
+  },
+  {
+   "ticker": "8095.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "创业板股月跌16%无公告，信息不透明风险大"
   },
   {
    "ticker": "0815.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "中国白银集团面临债务与利润率压力，前期跌幅较大，需警惕基本面。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "月跌20%无新闻，中国白银集团历史治理问题多"
   },
   {
    "ticker": "0166.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "新时代公司有长期壳股历史，治理结构薄弱，极易受资金操纵。"
-  },
-  {
-   "ticker": "6885.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "金马能源市值较小，煤炭业务受周期影响大，需关注现金流状况。"
+   "ai_note": "小市值股涨10%无消息，疑似短期炒作需警惕"
   },
   {
-   "ticker": "1029.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "IRC核心资产在俄罗斯，受地缘政治及制裁影响，存在极高尾部风险。"
-  },
-  {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中国铝业为大型国企，基本面稳健，但受宏观周期影响，无明显超额催化。"
-  },
-  {
-   "ticker": "2078.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "PanAsialum曾面临严重债务危机及停牌风险，财务健康状况堪忧。"
-  },
-  {
-   "ticker": "1738.HK",
+   "ticker": "0621.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "飞尚无烟煤市值微小，流动性极差，存在较高的边缘化及退市风险。"
+   "ai_note": "金矿开发商尚未投产，执行风险高且无进展消息"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "集海黄金次新股，金矿项目推进中，基本面尚可，但需关注投产进度。"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "通金矿业长期面临资金短缺与勘探不及预期，持续稀释股权风险极高。"
-  },
-  {
-   "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "悦达矿业近期盈利与分红改善，但煤炭周期性强，维持中性评级。"
+   "ai_note": "金矿生产商市值适中，走势平稳无异常信号"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "南南资源市值微小，煤炭业务缺乏规模效应，需警惕流动性枯竭。"
+   "ai_note": "小市值煤炭股下跌10%，行业下行期风险加大"
   },
   {
-   "ticker": "1091.HK",
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值不足8000万却暴涨24%，无新闻支撑疑似庄家拉高"
+  },
+  {
+   "ticker": "6885.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值煤炭股跌14%，无新闻或隐含经营问题"
+  },
+  {
+   "ticker": "1029.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "IRC历史上有过严重治理和财务问题，需持续警惕"
+  },
+  {
+   "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南方锰业为地方国企，锰矿业务稳健，但缺乏短期爆发催化剂。"
+   "ai_note": "大型国企铝企，市值巨大走势稳健，无额外风险"
+  },
+  {
+   "ticker": "1733.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "市值20亿煤炭生产商，涨幅合理或有基本面支撑"
+  },
+  {
+   "ticker": "2078.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值铝企流动性不足，行业周期下行承压"
+  },
+  {
+   "ticker": "0276.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "蒙古司法管辖风险叠加小市值煤炭，不确定性高"
   }
  ]
 }
