@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-08T00:56Z",
+ "generated_at": "2026-09-09T00:51Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
+   "ticker": "ENDR.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型金矿勘探商无新闻且持续下跌，存在隐性稀释风险。"
+  },
+  {
+   "ticker": "AEMC.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "缺乏催化剂且流动性差，微盘股阴跌易遇定向增发。"
+  },
+  {
    "ticker": "LIFT.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "市值最大但近期无量价催化，缺乏新闻支撑需观望。"
+   "ai_note": "市值较大且无重大利空，维持中性观望。"
   },
   {
-   "ticker": "MRZL.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微盘勘探股且无新闻，流动性与融资稀释风险较高。"
+   "ticker": "CPAU.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "股价横盘且无新闻，流动性枯竭风险需警惕。"
   },
   {
    "ticker": "IRV.CN",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "跌幅较大且无基本面新闻，警惕资金流出或隐性利空。"
+   "ai_note": "持续阴跌且无基本面消息，警惕管理层暗中出货。"
   },
   {
    "ticker": "STUD.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "名称含铀但分类为金矿，业务混乱或为壳公司重组。"
+  },
+  {
+   "ticker": "OCEN.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "名称为铀矿却归类为金矿，业务定位模糊且跌幅居前。"
+   "ai_adjust": -2,
+   "ai_note": "微盘股无量上涨，缺乏新闻支撑，谨防拉高出货。"
   },
   {
    "ticker": "SLV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微盘银矿勘探股，缺乏近期新闻验证，存在流动性折价。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "走势疲软且无新闻，缺乏短期上行催化剂。"
   },
   {
-   "ticker": "HLU.V",
+   "ticker": "MJS.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿概念微盘股，近期小幅反弹但无实质新闻催化。"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "股价横盘且无新闻，微盘金矿勘探股需等待钻探结果。"
-  },
-  {
-   "ticker": "ENDR.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "一月跌幅超15%且无新闻，需警惕勘探失败或资金链紧张。"
+   "ai_note": "作为生产商走势平稳，无新闻属正常防御状态。"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无新闻支撑下暴涨34%，微盘股需高度警惕拉高出货风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "无新闻却暴涨45%，典型庄股炒作或拉高出货。"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "纽芬兰优质资产，微盘波动属正常，暂无明显风险。"
   },
   {
    "ticker": "SAM.TO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "实际为生产型矿企但被误标为勘探，基本面需重新核实。"
-  },
-  {
-   "ticker": "IBAT.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "电池金属概念退潮，股价大幅回撤且无新闻，谨防稀释。"
-  },
-  {
-   "ticker": "AEMC.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "微盘金矿股交投清淡，无新闻驱动，维持中性观望。"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "市值较大且为生产商，近期温和上涨，基本面相对稳健。"
-  },
-  {
-   "ticker": "LAB.V",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "微盘金矿股无新闻却大涨，需防范短期资金炒作回落。"
-  },
-  {
-   "ticker": "V.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿勘探股走势平稳，缺乏近期新闻，维持中性评级。"
-  },
-  {
-   "ticker": "AVL.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "无新闻背景下单月暴涨72%，极度疑似资金炒作，建议规避。"
-  },
-  {
-   "ticker": "SR.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "股价大幅下挫且无消息，微盘股流动性枯竭风险较高。"
+   "ai_note": "虽有下滑但市值尚可，无突发利空则保持中性。"
   },
   {
    "ticker": "TT.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铂族金属微盘股小幅反弹，无实质新闻，维持中性。"
+   "ai_note": "铂族金属微盘股温和上涨，无异常需进一步观察。"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "市值最大且走势强劲，作为成熟矿企具备防御性。"
   },
   {
    "ticker": "CCCM.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "市值相对较大但近期回调，无新闻支撑，需关注资金面。"
+   "ai_note": "市值适中但近期回调，无新闻情况下保持中性。"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "历史上有频繁融资和炒作劣迹，大跌需防稀释。"
+  },
+  {
+   "ticker": "FAT.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "单月暴跌超36%且无新闻，极可能存在未披露利空。"
   },
   {
    "ticker": "JG.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "单月暴跌近30%且无公告，极可能存在未披露的利空或稀释。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "跌幅近30%且无消息，需排查是否遭遇钻探失败或融资。"
+  },
+  {
+   "ticker": "NEXU.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "名称与行业分类不符，业务定位模糊，治理存疑。"
+  },
+  {
+   "ticker": "IPT.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "银矿生产商随银价波动，无独立新闻保持中性。"
   }
  ]
 }
