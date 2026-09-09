@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T00:13Z",
+ "generated_at": "2026-09-09T00:04Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "EUZ.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型勘探公司，无新闻且市值极低，存在高度稀释与现金流枯竭风险。"
-  },
-  {
-   "ticker": "KIO.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿石巨头，基本面稳健但受宏观周期压制，缺乏短期催化剂。"
+   "ai_note": "微型勘探公司无新闻，存在稀释风险"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铬矿生产商，估值合理且无重大负面消息，维持中性观察。"
+   "ai_note": "铬矿生产商表现平稳，无显著风险或催化剂"
+  },
+  {
+   "ticker": "KIO.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型铁矿商无新闻，铁矿价格疲软期需关注"
   },
   {
    "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "激进并购历史导致股本稀释风险较高，需警惕管理层资本配置。"
-  },
-  {
-   "ticker": "WEZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "铂族金属开发商，处于烧钱阶段且股价大跌，资金链断裂风险高。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "基本金属生产商表现平淡，缺乏催化剂"
   },
   {
    "ticker": "MTU.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅六千万的微型股，流动性极差且暴涨，疑似游资炒作。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型市值生产商股价下跌，基本面存疑"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铂族金属生产商，运营稳定但受累于金属价格疲软，表现平淡。"
+   "ai_note": "PGM生产商近期表现尚可，但行业波动大"
+  },
+  {
+   "ticker": "WEZ.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "PGM开发商股价大跌，开发阶段风险高"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "股价单月暴跌超16%，基本面或存隐忧，需警惕估值陷阱。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "股价暴跌16%却无新闻，可能存在未披露问题"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "单月暴跌43%无新闻解释，极可能存在重大风险"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "锡矿现金流强劲，基本面扎实，具备一定抗周期韧性。"
-  },
-  {
-   "ticker": "SSW.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂钯巨头但黄金业务提供对冲，股价反弹后估值已修复至合理区间。"
+   "ai_note": "中型矿企表现强劲，锡价支撑基本面"
   },
   {
    "ticker": "SLG.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小型煤炭生产商受ESG压力，长期前景受限"
+  },
+  {
+   "ticker": "SSW.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "煤炭小盘股，面临ESG融资困境及长期需求衰退风险。"
+   "ai_note": "单月暴涨32%后估值偏高，需警惕回调风险"
   },
   {
    "ticker": "CPR.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "铜矿勘探商单月暴涨34%，缺乏实质产出，存在强烈炒作嫌疑。"
-  },
-  {
-   "ticker": "IMP.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铂族金属龙头，股价大幅反弹但行业基本面仍处低谷，中性看待。"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "煤炭巨头受ESG政策压制，长期估值承压，缺乏上行空间。"
+   "ai_note": "铜矿勘探商涨幅可观，但勘探阶段风险仍存"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化矿业巨头，资产组合优质，股价表现平稳，维持中性。"
+   "ai_note": "多元化大型矿企表现稳健，治理结构良好"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "PGM板块集体大涨后需关注回调压力"
+  },
+  {
+   "ticker": "DRD.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金价上涨推动尾矿处理商股价走强"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "黄金中型矿企，受益于金价强势周期，具备较好的上行弹性。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金生产商受益于金价上行趋势"
   },
   {
-   "ticker": "KP2.JO",
+   "ticker": "EXX.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型煤炭商表现平淡，行业面临转型压力"
+  },
+  {
+   "ticker": "TGA.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "钾矿开发商项目周期长，资本开支巨大，存在持续稀释风险。"
+   "ai_note": "煤炭股单月暴涨41%极为异常，警惕投机炒作"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铂族金属新晋巨头，资产质量尚可，需关注独立运营后的治理风险。"
-  },
-  {
-   "ticker": "AFT.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿及建材生产商，受建筑行业周期影响股价回调，估值中性。"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭股单月暴涨近45%，受资金短期炒作驱动，ESG风险极高。"
+   "ai_note": "新分拆PGM巨头表现平淡，需观察独立运营能力"
   }
  ]
 }
