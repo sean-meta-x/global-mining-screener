@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-09T00:04Z",
+ "generated_at": "2026-09-09T23:57Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "EUZ.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型勘探公司无新闻，存在稀释风险"
+   "ai_adjust": -5,
+   "ai_note": "微型勘探股流动性极差且极易稀释，需警惕资金链断裂风险。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铬矿生产商表现平稳，无显著风险或催化剂"
+   "ai_note": "铬铁生产商估值合理但受限于BEE结构及电力短缺，缺乏显著催化剂。"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型铁矿商无新闻，铁矿价格疲软期需关注"
+   "ai_adjust": -2,
+   "ai_note": "铁矿石价格波动大且面临Sishen矿山品位下降及物流瓶颈风险。"
   },
   {
    "ticker": "JBL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "基本金属生产商表现平淡，缺乏催化剂"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "公司频繁并购且资本运作复杂，需警惕管理层过度扩张与潜在稀释。"
   },
   {
    "ticker": "MTU.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值生产商股价下跌，基本面存疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "极小市值且近期暴跌，基本面脆弱，存在严重的流动性与退市风险。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "PGM生产商近期表现尚可，但行业波动大"
+   "ai_note": "铂族金属价格低迷压制利润，但铬矿副产品提供了一定成本缓冲。"
   },
   {
    "ticker": "WEZ.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "PGM开发商股价大跌，开发阶段风险高"
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "历史融资屡次失败且深陷治理与资金链危机，开发项目推进极度不确定。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "股价暴跌16%却无新闻，可能存在未披露问题"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "虽为彩宝龙头但受宏观消费疲软影响，且非传统PGM标的需重估逻辑。"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月暴跌43%无新闻解释，极可能存在重大风险"
+   "ai_adjust": -10,
+   "ai_note": "单月暴跌超四成，矿山运营成本高企且面临严重的现金流与生存危机。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "中型矿企表现强劲，锡价支撑基本面"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小型煤炭生产商受ESG压力，长期前景受限"
+   "ai_adjust": 3,
+   "ai_note": "锡矿Bisie项目品位高且现金流强劲，受益于锡价上涨与半导体需求。"
   },
   {
    "ticker": "SSW.JO",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "单月暴涨32%后估值偏高，需警惕回调风险"
+   "ai_note": "虽近期反弹但美国PGM资产减值风险犹存，且向绿色金属转型需巨额资本。"
   },
   {
    "ticker": "CPR.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铜矿项目尚处早期且公司具较强推销色彩，需警惕频繁融资带来的股权稀释。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "煤炭资产面临ESG融资困境，微小市值叠加单一客户依赖导致抗风险能力弱。"
+  },
+  {
+   "ticker": "IMP.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铜矿勘探商涨幅可观，但勘探阶段风险仍存"
+   "ai_note": "管理层优秀且成本控制佳，但铂族金属长期需求受氢能及汽车催化剂转型压制。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化大型矿企表现稳健，治理结构良好"
-  },
-  {
-   "ticker": "IMP.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "PGM板块集体大涨后需关注回调压力"
+   "ai_note": "资产组合多元且管理层执行力强，但受南非物流瓶颈及大宗商品周期拖累。"
   },
   {
    "ticker": "DRD.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金价上涨推动尾矿处理商股价走强"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "受益于金价高企且尾矿回收成本低，但需关注长期资源枯竭及电力成本上升。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "黄金产量增长可期，但南非深部矿井面临品位下降、成本攀升及断电风险。"
+  },
+  {
+   "ticker": "AFT.JO",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金生产商受益于金价上行趋势"
+   "ai_note": "铁矿石与建材业务稳健，但受南非宏观经济疲软及建筑行业需求下滑拖累。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型煤炭商表现平淡，行业面临转型压力"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭股单月暴涨41%极为异常，警惕投机炒作"
+   "ai_adjust": -2,
+   "ai_note": "煤炭资产现金流充沛且分红高，但ESG限制导致长期估值受压且融资困难。"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "新分拆PGM巨头表现平淡，需观察独立运营能力"
+   "ai_note": "作为新整合的铂业巨头规模效应显著，但仍需消化资产整合及PGM价格低迷风险。"
   }
  ]
 }
