@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-10T00:02Z",
+ "generated_at": "2026-09-10T23:57Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值矿企透明度低，流动性与治理风险并存"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小盘综合矿企，量价平稳，无明显异常信号。"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型煤炭股流动性差，治理结构及持续经营存疑"
+   "ai_adjust": -2,
+   "ai_note": "市值不足4000亿印尼盾，流动性差，信息极度匮乏。"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史关联交易频繁，公司治理记录不佳需警惕"
+   "ai_adjust": -3,
+   "ai_note": "量化评分65但月跌8.5%，模型与价格严重背离，或有隐情。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "单月暴跌逾40%，疑似重大经营或治理危机爆发"
+   "ai_note": "月暴跌40%却无新闻，疑似重大治理或稀释事件，模型滞后。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型煤企运营平稳但缺乏突出催化剂"
+   "ai_adjust": 0,
+   "ai_note": "中型煤企，量价匹配，暂无突出风险或催化剂。"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
-   "ai_adjust": 5,
-   "ai_note": "蓝筹品质治理优良，量化模型低估其基本面价值"
+   "ai_adjust": 2,
+   "ai_note": "Astra旗下大型综合矿机龙头，治理优良，估值稳健。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "中小市值矿企治理一般，镍煤双主线尚待验证"
+   "ai_adjust": 0,
+   "ai_note": "中型综合矿企，走势平稳，无显著风险信号。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭主业稳健但行业长期承压，缺乏上行催化"
+   "ai_note": "大型煤企但月微跌，动能偏弱，需关注煤价拐点。"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型煤企，量价温和上行，基本面尚可。"
+  },
+  {
+   "ticker": "DAAZ.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "量化57分且月跌3.8%，动能不足，缺乏催化。"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值不足两千亿，典型微盘投机股需远离"
+   "ai_adjust": -5,
+   "ai_note": "市值仅1840亿盾的微型煤股，涨幅13%却零新闻，疑似炒作。"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "Harita旗下镍龙头，受益新能源需求，治理可靠。"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "国企背景治理规范分红稳定，基本面扎实"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴克里集团治理存忧，无消息支撑的涨幅可疑"
-  },
-  {
-   "ticker": "DAAZ.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "上市时间短业绩验证不足，需观察治理质量"
-  },
-  {
-   "ticker": "KKGI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "关联方交易频繁，公司治理透明度不足"
+   "ai_note": "国有煤矿龙头，月涨32%动能强劲，分红预期支撑。"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "金价上涨驱动涨幅，但印尼金矿运营风险犹存"
+   "ai_adjust": 1,
+   "ai_note": "金矿生产商，受益金价上行，但需关注资源接续。"
   },
   {
-   "ticker": "TINS.JK",
+   "ticker": "KKGI.JK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "国企背景但历史腐败丑闻与非法采矿问题未绝"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "镍供给过剩压力加大，大规模扩产风险上升"
-  },
-  {
-   "ticker": "BSSR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭承包运营平稳，但行业逆风限制上行空间"
+   "ai_adjust": 0,
+   "ai_note": "中型煤企，量价温和，无突出亮点或风险。"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "矿业承包商近期涨幅偏高，持续性有待观察"
+   "ai_adjust": 0,
+   "ai_note": "煤企月涨15%但量化仅55，动能与评分有偏差，观望。"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "国有锡业龙头，月涨23%，锡价强势叠加国企改革预期。"
+  },
+  {
+   "ticker": "BSSR.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "老牌大型煤企，经营稳健，分红记录良好。"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭物流一体化运营较规范，同层级治理较好"
+   "ai_note": "中型煤企，量价平稳，无显著异常。"
   },
   {
-   "ticker": "TOBA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "向新能源转型执行风险高，煤炭主业仍占主导"
+   "ticker": "NICL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "量化53分为列表最低之一，动能疲弱，锡矿品位存疑。"
   }
  ]
 }
