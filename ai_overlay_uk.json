@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T23:53Z",
+ "generated_at": "2026-09-10T23:48Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MET1.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型勘探股流动性差且极易稀释，需警惕持续融资风险。"
-  },
-  {
-   "ticker": "POW.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "依赖概念炒作与频繁融资，基本面支撑薄弱。"
+   "ai_note": "微型勘探公司流动性差且无消息，存稀释风险"
   },
   {
    "ticker": "SRB.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "Palito矿山品位下滑且成本偏高，运营风险未完全释放。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小型金矿生产商表现平稳，无明显催化剂"
   },
   {
    "ticker": "THX.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "塞古拉金矿已投产，但科特迪瓦地缘政治风险需折价。"
+   "ai_note": "尼日利亚国别风险抵消近期涨幅"
+  },
+  {
+   "ticker": "POW.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探公司流动性极差，融资风险高"
   },
   {
    "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "纯铀价敞口无运营风险，受益于铀市场长期供需缺口。"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "铀现货持有逻辑稳健，但估值已反映预期"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非运营环境复杂，冶炼业务利润率受能源成本压制。"
-  },
-  {
-   "ticker": "PDL.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "债务重组艰难且核心矿山停产，基本面极度恶化。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "无故大跌近12%且无消息，运营或存隐患"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲铁矿基本面稳健，但高度依赖铁矿石周期价格。"
+   "ai_note": "涨幅缺乏消息支撑，需警惕投机性波动"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "哈萨克斯坦地缘风险溢价高，但自由现金流和分红优异。"
+   "ai_adjust": 0,
+   "ai_note": "铜价驱动上涨，巴尔干地区运营相对稳定"
   },
   {
-   "ticker": "RMR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "股价暴跌暗示钻探失败或严重稀释，微观结构极差。"
-  },
-  {
-   "ticker": "THS.L",
+   "ticker": "PDL.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铂钯价格低迷叠加南非限电，盈利预期面临下调压力。"
+   "ai_adjust": -3,
+   "ai_note": "钻石市场疲软叠加小市值，债务风险犹存"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦政策风险极高，但管理层运营与分红表现尚可。"
+   "ai_adjust": 0,
+   "ai_note": "津巴布韦国别风险制约估值溢价"
   },
   {
    "ticker": "KEFI.L",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "股价腰斩凸显融资困境或许可延迟，开发风险剧增。"
+   "ai_note": "暴跌43%且无任何消息，极可能钻探失败或稀释"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂价暴跌叠加马里地缘风险，项目融资与推进极度困难。"
+   "ai_adjust": -2,
+   "ai_note": "小型勘探公司小幅下跌，项目进展不明"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铂族金属价格持续低迷，南非成本压力上升"
+  },
+  {
+   "ticker": "XTR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微型金矿勘探公司大跌18%且无消息"
+  },
+  {
+   "ticker": "RMR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型勘探公司暴跌32%，流动性极差风险极高"
   },
   {
    "ticker": "BHL.L",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型锂矿勘探股流动性枯竭，极易受资金盘操纵与稀释。"
-  },
-  {
-   "ticker": "GLR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "无实质利好却异常拉升，微型盘流动性差且极易被操纵。"
-  },
-  {
-   "ticker": "HALO.L",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "早期铜矿勘探缺乏实质进展，需警惕概念炒作与资金消耗。"
+   "ai_note": "微型锂矿勘探公司零成交，流动性风险突出"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "尾矿回收业务现金流稳定，但受限于南非宏观与低品位。"
+   "ai_note": "南非金尾矿生产商受金价提振表现良好"
+  },
+  {
+   "ticker": "CTL.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "锂价低迷期小型勘探公司融资压力大"
   },
   {
    "ticker": "GEM.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "彩色宝石市场透明度低且莫桑比克运营存在地缘折价。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "彩色宝石生产商表现平稳，无明显催化"
   },
   {
-   "ticker": "XTR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "股价大幅下挫暗示融资失败或钻探不及预期，风险极高。"
+   "ticker": "GGP.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型金矿开发商Havieron项目推进中"
   }
  ]
 }
