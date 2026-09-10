@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T00:10Z",
+ "generated_at": "2026-09-10T00:02Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小盘股无新闻却月涨近19%，疑似庄家炒作拉高出货"
+   "ai_note": "小市值矿企透明度低，流动性与治理风险并存"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值不足4000亿印尼盾，流动性极差存在操纵风险"
+   "ai_note": "微型煤炭股流动性差，治理结构及持续经营存疑"
   },
   {
    "ticker": "IFSH.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": " Diversified小盘无新闻无异常，维持中性观察"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "历史关联交易频繁，公司治理记录不佳需警惕"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "月跌40%却无任何公告，极可能存在未披露的重大利空或治理问题"
+   "ai_note": "单月暴跌逾40%，疑似重大经营或治理危机爆发"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭小盘无新闻支撑涨幅，需警惕流动性溢价消退"
+   "ai_note": "中型煤企运营平稳但缺乏突出催化剂"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Astra旗下优质多元矿企，基本面稳健治理良好"
+   "ai_adjust": 5,
+   "ai_note": "蓝筹品质治理优良，量化模型低估其基本面价值"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中盘多元矿企走势平稳无异常信号"
+   "ai_adjust": -2,
+   "ai_note": "中小市值矿企治理一般，镍煤双主线尚待验证"
   },
   {
    "ticker": "MCOL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭大盘股月线持平表现落后同行，或隐含经营隐忧"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭主业稳健但行业长期承压，缺乏上行催化"
   },
   {
-   "ticker": "HRUM.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月涨15%无新闻催化，需关注是否有未披露的关联交易"
+   "ticker": "FIRE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值不足两千亿，典型微盘投机股需远离"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "国企煤炭龙头，高分红低治理风险，月涨26%有基本面支撑"
+   "ai_note": "国企背景治理规范分红稳定，基本面扎实"
   },
   {
-   "ticker": "PSAB.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "金价走强直接利好黄金生产商，催化剂明确"
-  },
-  {
-   "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅1870亿印尼盾的微型股，典型庄股特征"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "镍业龙头产能释放期，估值合理治理规范"
-  },
-  {
-   "ticker": "KKGI.JK",
+   "ticker": "HRUM.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘煤炭无新闻月涨11%，需警惕 promoters 拉抬出货"
+   "ai_adjust": -3,
+   "ai_note": "巴克里集团治理存忧，无消息支撑的涨幅可疑"
   },
   {
    "ticker": "DAAZ.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中盘多元矿企走势温和无显著风险信号"
+   "ai_adjust": -2,
+   "ai_note": "上市时间短业绩验证不足，需观察治理质量"
+  },
+  {
+   "ticker": "KKGI.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "关联方交易频繁，公司治理透明度不足"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金价上涨驱动涨幅，但印尼金矿运营风险犹存"
   },
   {
    "ticker": "TINS.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "国企锡业龙头受益锡价上行，政策支撑明确"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "国企背景但历史腐败丑闻与非法采矿问题未绝"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "镍供给过剩压力加大，大规模扩产风险上升"
   },
   {
    "ticker": "BSSR.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭大盘股治理良好，涨幅与行业同步无异常"
+   "ai_adjust": -1,
+   "ai_note": "煤炭承包运营平稳，但行业逆风限制上行空间"
+  },
+  {
+   "ticker": "DOID.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "矿业承包商近期涨幅偏高，持续性有待观察"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭中游服务商基本面稳定，无显著治理风险"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘煤炭月涨21%无新闻，疑似资金炒作需回避"
+   "ai_note": "煤炭物流一体化运营较规范，同层级治理较好"
   },
   {
    "ticker": "TOBA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中盘煤炭月涨14%无公告，需关注是否存在未披露稀释"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "向新能源转型执行风险高，煤炭主业仍占主导"
   }
  ]
 }
