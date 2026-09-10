@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T00:16Z",
+ "generated_at": "2026-09-10T00:08Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤炭股缺乏流动性，无新闻覆盖存隐忧"
+   "ai_note": "小市值煤炭股流动性差，需警惕治理与稀释风险。"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌15%无新闻解释，铝企基本面或存未披露风险"
+   "ai_adjust": -2,
+   "ai_note": "铝企市值偏小且近期回调明显，基本面支撑较弱。"
   },
   {
    "ticker": "2693.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小市值多元化矿企，表现平稳但缺乏催化剂"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "高岭土小盘股流动性匮乏，量化模型易忽略流动性折价。"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值仅4600万且暴跌25%，创业板煤企高度可疑"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值多元化矿企，流动性差且无新闻"
+   "ai_note": "创业板极小市值煤炭股，存在严重的壳股与稀释风险。"
   },
   {
    "ticker": "8250.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅3200万创业板壳股，煤炭概念疑似炒作"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿生产商受益金价，但涨幅无新闻支撑需观察"
+   "ai_adjust": -9,
+   "ai_note": "创业板微型煤炭股，流动性极差且公司治理透明度低。"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "创业板股月跌16%无公告，信息不透明风险大"
+   "ai_adjust": -3,
+   "ai_note": "创业板多元化小盘股，业务庞杂且缺乏核心矿产催化剂。"
   },
   {
-   "ticker": "0815.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌20%无新闻，中国白银集团历史治理问题多"
+   "ticker": "1712.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "黄金股短期动能强劲，若金价维持高位则有业绩弹性。"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值股涨10%无消息，疑似短期炒作需警惕"
+   "ai_adjust": -4,
+   "ai_note": "多元化小盘股历史上有过投机炒作，需警惕基本面空心化。"
+  },
+  {
+   "ticker": "0815.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "银业巨头但过往有财务争议，估值修复受制于治理折价。"
   },
   {
    "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金矿开发商尚未投产，执行风险高且无进展消息"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿生产商市值适中，走势平稳无异常信号"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股下跌10%，行业下行期风险加大"
-  },
-  {
-   "ticker": "1738.HK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "市值不足8000万却暴涨24%，无新闻支撑疑似庄家拉高"
+   "ai_note": "南非金矿开发商历史遗留问题多，面临持续的股权稀释风险。"
   },
   {
    "ticker": "6885.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤炭股跌14%，无新闻或隐含经营问题"
+   "ai_note": "小市值煤炭股缺乏规模优势，抗周期波动能力较弱。"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "极小市值无烟煤矿，流动性枯竭且存在潜在的合规风险。"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "次新黄金股市值适中，目前处于价格发现阶段，暂无明显溢价。"
+  },
+  {
+   "ticker": "1733.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "煤炭中盘股近期量价齐升，基本面改善且估值相对合理。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型煤炭股极易受资金操纵，量化评分无法反映真实的流动性风险。"
   },
   {
    "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "IRC历史上有过严重治理和财务问题，需持续警惕"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "俄罗斯铁矿商受地缘制裁影响，资产减值与分红停滞风险极高。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，市值巨大走势稳健，无额外风险"
-  },
-  {
-   "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "市值20亿煤炭生产商，涨幅合理或有基本面支撑"
+   "ai_note": "大型国企铝企，受宏观周期与政策影响大，量化评分合理。"
   },
   {
    "ticker": "2078.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值铝企流动性不足，行业周期下行承压"
+   "ai_adjust": -4,
+   "ai_note": "小市值铝企盈利能力受限，行业下行期抗风险能力不足。"
   },
   {
    "ticker": "0276.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "蒙古司法管辖风险叠加小市值煤炭，不确定性高"
+   "ai_adjust": -5,
+   "ai_note": "蒙古国煤炭资产面临地缘与政策风险，小市值加剧了波动性。"
+  },
+  {
+   "ticker": "1205.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中信资源作为国企背景较稳，但煤炭业务缺乏高增长催化剂。"
   }
  ]
 }
