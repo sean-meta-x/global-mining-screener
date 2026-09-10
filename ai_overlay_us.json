@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T23:43Z",
+ "generated_at": "2026-09-10T23:38Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "GRML",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微盘勘探股暴跌且无消息，警惕融资稀释或钻探失败。"
+   "ai_note": "市值极小且暴跌，缺乏新闻，疑似壳公司或面临严重稀释。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "勘探阶段无实质进展且股价阴跌，需防范隐性稀释风险。"
+   "ai_adjust": -5,
+   "ai_note": "名称蹭核能热点，市值小且下跌，需警惕概念炒作与融资稀释。"
   },
   {
    "ticker": "WWR",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "股价温和回调，无新闻催化，维持中性观望。"
+   "ai_note": "关键矿产开发进度缓慢，长期面临资金与许可证双重压力。"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值铀矿勘探股流动性差，无消息面支撑需防砸盘。"
+   "ai_note": "典型微型铀矿勘探股，无实质利好，极易发生股权稀释。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂矿开发商股价显著回调，需关注项目融资与审批进度。"
-  },
-  {
-   "ticker": "CEXYF",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微盘股无利好却暴涨44%，典型资金炒作，极易暴跌。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "认股权证流动性极差且暴跌，属高风险投机标的。"
+   "ai_note": "锂矿项目面临严重的联邦许可审批延迟及资金缺口风险。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型市值且大幅下跌，属典型高稀释、强推销的仙股特征。"
+  },
+  {
+   "ticker": "CEXYF",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "短期暴涨但市值极小，警惕游资炒作后随之而来的增发稀释。"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微盘勘探股大幅下挫且无消息，存在极高融资稀释风险。"
+   "ai_note": "认股权证本身即为稀释工具，流动性差且投机风险极高。"
   },
   {
    "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "钾矿开发商走势平稳，基本面暂无明显瑕疵或催化。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "公司曾面临审计与财务合规问题，治理风险远超量化模型评估。"
+  },
+  {
+   "ticker": "UROY",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "铀矿特许权使用费模式免受股本稀释影响，具备长期看涨逻辑。"
   },
   {
    "ticker": "LAC",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型锂矿开发商走势平稳，主要受宏观锂价波动影响。"
+   "ai_adjust": -2,
+   "ai_note": "项目虽已获许可但资本支出巨大，面临供应链与融资延期风险。"
   },
   {
-   "ticker": "UROY",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铀矿流媒体标的走势稳健，无显著治理或稀释风险。"
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "长期难以落实项目融资与环保许可，基本面改善缺乏实质催化。"
   },
   {
    "ticker": "NC",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭生产商走势平稳，现金流尚可，暂无明显治理风险。"
-  },
-  {
-   "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "稀土开发商股价重挫，需警惕项目融资困难或审批受阻。"
+   "ai_note": "传统煤炭生产商，现金流稳定但面临能源转型的长期结构性衰退。"
   },
   {
    "ticker": "CMCL",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "核心矿山位于津巴布韦，地缘政治与管辖权风险被量化模型低估。"
+  },
+  {
+   "ticker": "GLDG",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型金矿生产商随金价上涨，运营稳定，无明显负面因素。"
+   "ai_adjust": -2,
+   "ai_note": "资产组合多为早期勘探项目，历史稀释频繁且短期缺乏催化剂。"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "锂矿认股权证属高杠杆投机，流动性枯竭风险极高。"
+   "ai_adjust": -8,
+   "ai_note": "作为FMST的认股权证，本质是稀释工具，极不适合长期配置。"
   },
   {
    "ticker": "NMG",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "石墨开发商小幅回调，需关注魁北克项目后续融资进度。"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金勘探股走势平稳，无重大钻探结果，维持中性。"
-  },
-  {
-   "ticker": "ELBM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池材料勘探股阴跌，需防范项目延期或资金链紧张。"
+   "ai_note": "管辖权优良但石墨市场目前供过于求，产品价格低迷压制估值。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值金矿生产商流动性一般，需关注实际产量与成本。"
+   "ai_adjust": -4,
+   "ai_note": "非洲微型金矿生产商，面临潜在的治理不善与基础设施瓶颈风险。"
   },
   {
-   "ticker": "ATCMF",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微盘生产股大幅下挫，警惕矿山运营恶化或隐性稀释。"
+   "ticker": "ELBM",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "电池材料回收项目资本开支大，微型市值下极易发生致命稀释。"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型银矿商基本面尚可，但部分资产位于高通胀或政策多变地区。"
   }
  ]
 }
