@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-09T23:57Z",
+ "generated_at": "2026-09-10T23:52Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "EUZ.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型勘探股流动性极差且极易稀释，需警惕资金链断裂风险。"
-  },
-  {
-   "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬铁生产商估值合理但受限于BEE结构及电力短缺，缺乏显著催化剂。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型勘探股流动性极差，面临极高稀释与资金链断裂风险。"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "铁矿石价格波动大且面临Sishen矿山品位下降及物流瓶颈风险。"
+   "ai_note": "德兰士瓦物流瓶颈与铁矿石周期波动是量化模型未计入的隐患。"
+  },
+  {
+   "ticker": "MRF.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "公司曾有财务困境历史，铬矿小盘股治理与流动性堪忧。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "公司频繁并购且资本运作复杂，需警惕管理层过度扩张与潜在稀释。"
+   "ai_adjust": -5,
+   "ai_note": "管理层频繁促销且资本结构复杂，存在隐性稀释与治理风险。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "极小市值且近期暴跌，基本面脆弱，存在严重的流动性与退市风险。"
+   "ai_adjust": -9,
+   "ai_note": "市值极小且无实质利好，典型的边缘化壳公司，流动性枯竭。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属价格低迷压制利润，但铬矿副产品提供了一定成本缓冲。"
+   "ai_adjust": -3,
+   "ai_note": "铂族金属价格低迷，虽成本控制尚可但行业逆风难以量化。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "历史融资屡次失败且深陷治理与资金链危机，开发项目推进极度不确定。"
+   "ai_adjust": -10,
+   "ai_note": "历史治理极差且项目屡次失败，存在严重的股权稀释与退市风险。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "虽为彩宝龙头但受宏观消费疲软影响，且非传统PGM标的需重估逻辑。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "业务分类存疑且面临ESG审查，微盘股流动性与估值存在折价。"
   },
   {
    "ticker": "EPS.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "矿山运营持续承压，小盘铂族金属股面临现金流与融资双重考验。"
+  },
+  {
+   "ticker": "SLG.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "单月暴跌超四成，矿山运营成本高企且面临严重的现金流与生存危机。"
+   "ai_adjust": -7,
+   "ai_note": "煤炭资产面临ESG融资困境，微盘股治理结构薄弱且流动性差。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "锡矿Bisie项目品位高且现金流强劲，受益于锡价上涨与半导体需求。"
+   "ai_note": "锡价强劲支撑业绩，但单一矿山依赖与非洲地缘风险需折价。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "虽近期反弹但美国PGM资产减值风险犹存，且向绿色金属转型需巨额资本。"
+   "ai_note": "铂业重组阵痛与南非电力短缺交织，执行风险高于量化预期。"
   },
   {
    "ticker": "CPR.JO",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "铜矿项目尚处早期且公司具较强推销色彩，需警惕频繁融资带来的股权稀释。"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "煤炭资产面临ESG融资困境，微小市值叠加单一客户依赖导致抗风险能力弱。"
-  },
-  {
-   "ticker": "IMP.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "管理层优秀且成本控制佳，但铂族金属长期需求受氢能及汽车催化剂转型压制。"
+   "ai_note": "早期铜矿项目高度依赖融资，大股东背景带来潜在稀释风险。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "资产组合多元且管理层执行力强，但受南非物流瓶颈及大宗商品周期拖累。"
+   "ai_note": "多元化布局抗风险强，但管理层激进并购可能损害长期股东回报。"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铂族金属熊市迫使大规模矿井关闭，量化模型低估了行业出清风险。"
   },
   {
    "ticker": "DRD.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "受益于金价高企且尾矿回收成本低，但需关注长期资源枯竭及电力成本上升。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "尾矿回收受益于金价，但资源枯竭与南非通胀推升了长期成本。"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "黄金产量增长可期，但南非深部矿井面临品位下降、成本攀升及断电风险。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "黄金产量增长明确，但南非深部开采的高成本限制了估值上限。"
   },
   {
-   "ticker": "AFT.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿石与建材业务稳健，但受南非宏观经济疲软及建筑行业需求下滑拖累。"
+   "ticker": "GFI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "全球化资产组合有效对冲南非风险，黄金牛市下具备显著溢价。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "煤炭资产现金流充沛且分红高，但ESG限制导致长期估值受压且融资困难。"
+   "ai_note": "煤炭现金流强劲但面临能源转型压制，长期估值倍数难以扩张。"
   },
   {
-   "ticker": "VAL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "作为新整合的铂业巨头规模效应显著，但仍需消化资产整合及PGM价格低迷风险。"
+   "ticker": "KP2.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "非洲刚果(金)钾矿项目面临严峻的融资、基建与社区许可风险。"
   }
  ]
 }
