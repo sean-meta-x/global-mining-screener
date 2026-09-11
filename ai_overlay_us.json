@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T23:38Z",
+ "generated_at": "2026-09-11T23:46Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "GRML",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值极小且暴跌，缺乏新闻，疑似壳公司或面临严重稀释。"
+   "ai_note": "微型市值暴跌69%且无任何消息，高度疑似稀释或钻探失败"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "名称蹭核能热点，市值小且下跌，需警惕概念炒作与融资稀释。"
+   "ai_adjust": -4,
+   "ai_note": "\"核能矿产\"命名带有推广色彩，小市值勘探公司跌幅显著"
   },
   {
    "ticker": "WWR",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "关键矿产开发进度缓慢，长期面临资金与许可证双重压力。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "有历史稀释记录，石墨项目进展缓慢需警惕"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "典型微型铀矿勘探股，无实质利好，极易发生股权稀释。"
+   "ai_note": "小市值铀矿勘探商，无实质催化剂支撑估值"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂矿项目面临严重的联邦许可审批延迟及资金缺口风险。"
+   "ai_note": "Rhyolite Ridge项目面临融资与许可双重不确定性"
+  },
+  {
+   "ticker": "CEXYF",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "无消息却暴涨58%，微型市值疑似炒作拉高出货"
+  },
+  {
+   "ticker": "UROY",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "正规铀矿权流公司，基本面稳健但估值已反映"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "微型市值且大幅下跌，属典型高稀释、强推销的仙股特征。"
+   "ai_note": "\"清洁能源\"命名具推广嫌疑，市值仅1400万且暴跌39%"
   },
   {
-   "ticker": "CEXYF",
+   "ticker": "GRO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "短期暴涨但市值极小，警惕游资炒作后随之而来的增发稀释。"
+   "ai_note": "巴西钾矿开发屡遭融资挫折，项目执行风险较高"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Thacker Pass项目面临许可诉讼与资金缺口风险"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "认股权证本身即为稀释工具，流动性差且投机风险极高。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "公司曾面临审计与财务合规问题，治理风险远超量化模型评估。"
-  },
-  {
-   "ticker": "UROY",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "铀矿特许权使用费模式免受股本稀释影响，具备长期看涨逻辑。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "项目虽已获许可但资本支出巨大，面临供应链与融资延期风险。"
+   "ai_note": "权证类标的具有高度稀释性，投机风险极大"
   },
   {
    "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "长期难以落实项目融资与环保许可，基本面改善缺乏实质催化。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "NioCorp长期开发停滞，治理与推广问题屡遭质疑"
   },
   {
    "ticker": "NC",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "传统煤炭生产商，现金流稳定但面临能源转型的长期结构性衰退。"
+   "ai_adjust": -1,
+   "ai_note": "煤炭生产商面临长期需求结构性下滑压力"
   },
   {
    "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "津巴布韦Blanket金矿运营稳定但存在国别风险"
+  },
+  {
+   "ticker": "ELBM",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "核心矿山位于津巴布韦，地缘政治与管辖权风险被量化模型低估。"
+   "ai_note": "电池材料勘探商市值偏小，项目早期风险较高"
+  },
+  {
+   "ticker": "EU",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿生产商月跌20%，需关注运营与铀价波动"
   },
   {
    "ticker": "GLDG",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "资产组合多为早期勘探项目，历史稀释频繁且短期缺乏催化剂。"
+   "ai_adjust": 0,
+   "ai_note": "资产组合分散但缺乏近期催化剂，走势平淡"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "作为FMST的认股权证，本质是稀释工具，极不适合长期配置。"
+   "ai_note": "权证标的无交易数据，流动性与稀释风险极高"
   },
   {
    "ticker": "NMG",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "管辖权优良但石墨市场目前供过于求，产品价格低迷压制估值。"
-  },
-  {
-   "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "非洲微型金矿生产商，面临潜在的治理不善与基础设施瓶颈风险。"
-  },
-  {
-   "ticker": "ELBM",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "电池材料回收项目资本开支大，微型市值下极易发生致命稀释。"
-  },
-  {
-   "ticker": "FSM",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型银矿商基本面尚可，但部分资产位于高通胀或政策多变地区。"
+   "ai_note": "魁北克石墨开发商基本面尚可但进展缓慢"
+  },
+  {
+   "ticker": "DRD",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "南非尾矿金生产商受益于金价上涨，现金流改善"
   }
  ]
 }
