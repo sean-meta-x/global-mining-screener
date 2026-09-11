@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-10T00:43Z",
+ "generated_at": "2026-09-11T00:39Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "大市值无新闻却大跌17%，疑似隐性稀释或项目受阻"
+   "ai_adjust": -4,
+   "ai_note": "缺乏新闻却大跌，疑似存在隐性稀释或高管减持。"
   },
   {
    "ticker": "ENDR.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘勘探股持续下跌无消息，流动性风险高"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微型金矿勘探股，流动性差且无催化剂，中性观望。"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "小盘勘探股温和回调，缺乏明确催化剂"
+   "ai_note": "勘探阶段无实质进展，股价随板块回调，缺乏独立逻辑。"
   },
   {
-   "ticker": "OCEN.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小幅上涨无新闻支撑，方向不明暂观望"
-  },
-  {
-   "ticker": "LAB.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "拉布拉多已知金矿勘探商，走势平稳"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小盘金矿勘探股小幅下跌，无异常信号"
-  },
-  {
-   "ticker": "STUD.V",
+   "ticker": "JUGR.V",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "铀矿公司被标记为金矿，行业分类错误存疑"
-  },
-  {
-   "ticker": "AEMC.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "名称含能源金属却标为金矿，分类存疑"
-  },
-  {
-   "ticker": "AVL.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月涨58%却无任何新闻，高度疑似炒作拉升"
+   "ai_adjust": -8,
+   "ai_note": "无利空消息却暴跌近半，极大概率是增发稀释或钻探失败。"
   },
   {
    "ticker": "SAM.TO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "实际为生产商却被标为勘探商，数据质量堪忧"
+   "ai_note": "墨西哥矿山历史运营与治理问题频发，需警惕隐性风险。"
+  },
+  {
+   "ticker": "CPAU.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "早期勘探项目，市值过小，流动性溢价不足。"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "逆势微涨但市值仅千万，缺乏基本面支撑的反弹难持续。"
+  },
+  {
+   "ticker": "OCEN.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "千万级市值逆势上涨，警惕低流动性下的资金盘炒作。"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "股票代码带有噱头，典型的高推广微盘股特征。"
+  },
+  {
+   "ticker": "HLU.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿勘探股，受板块情绪影响大，无独立催化剂。"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "CN板上市名称泛化无新闻，壳公司风险较高"
-  },
-  {
-   "ticker": "HUNT.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "CN板上市名称泛化且持续下跌，警惕流动性"
-  },
-  {
-   "ticker": "TT.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小盘PGM勘探股温和下跌，无突出风险"
+   "ai_adjust": -2,
+   "ai_note": "CSE挂牌的低阶银矿股，基本面薄弱，流动性风险高。"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "生产商月涨15%但无新闻，需关注基本面"
+   "ai_note": "黄金生产商，基本面尚可，但缺乏短期爆发催化剂。"
   },
   {
    "ticker": "NAM.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌18.5%无任何消息，可能存在未披露利空"
+   "ai_note": "多元化勘探公司，资产分散，股价大跌或暗示资金链紧张。"
   },
   {
-   "ticker": "NEXU.CN",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "名称暗示铀矿却标为PGM，CN板壳公司风险"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "CN板上市名称泛化，下跌中缺乏信息透明度"
-  },
-  {
-   "ticker": "SXTY.CN",
+   "ticker": "AEMC.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "CN板上市名称泛化但股价持平，暂中性观察"
+   "ai_note": "阿拉斯加能源金属项目，处于早期阶段，估值缺乏锚点。"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "CSE挂牌且无新闻暴涨50%，典型拉高出货的杀猪盘特征。"
+  },
+  {
+   "ticker": "V.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铀矿勘探股，跌幅大于板块，可能存在未披露的负面进展。"
   },
   {
    "ticker": "CCCM.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "较大市值勘探股小幅回调，无显著异常信号"
+   "ai_note": "市值较大但随板块阴跌，缺乏核心高品位矿区支撑。"
   },
   {
-   "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "CN板月涨49%无任何新闻，高度疑似拉高出货"
+   "ticker": "NEXU.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "CSE挂牌的铂族金属微型股，流动性极差，规避为主。"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "成熟黄金生产商，业绩稳健，跟随金价上涨属合理估值修复。"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "塞吉利拉金矿投产顺利，基本面扎实，上涨具备业绩支撑。"
   }
  ]
 }
