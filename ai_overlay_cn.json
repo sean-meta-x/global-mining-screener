@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T00:19Z",
+ "generated_at": "2026-09-11T00:14Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企背景基本面稳健，但铝价波动影响利润，维持中性。"
+   "ai_note": "国企铝业龙头，估值合理但缺乏弹性，维持中性评估。"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中小市值铝企流动性一般，无突出催化剂，维持中性。"
+   "ai_note": "中型铝企基本面平稳，无显著超额催化剂，维持中性。"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "股权曾较分散且历史上有治理瑕疵，需警惕治理风险。"
+   "ai_adjust": -2,
+   "ai_note": "近期跌幅较大，需警惕中小铝企在需求疲软下的盈利风险。"
   },
   {
    "ticker": "601001.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企煤炭龙头长协煤占比高，业绩稳健，维持中性。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭面临长协限价及ESG折价，量化易高估其长期现金流。"
   },
   {
    "ticker": "000933.SZ",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "煤电铝一体化优势明显且盈利能力强，可适度上调。"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "煤电铝一体化优势明显，盈利韧性略优于纯铝企，微调加分。"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂盐业务受价格下跌拖累，且历史上有过财务争议。"
+   "ai_adjust": -2,
+   "ai_note": "业务庞杂且近期回撤明显，需防范多元化折价与治理风险。"
   },
   {
    "ticker": "000807.SZ",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "绿电铝优势显著并受益于环保政策，基本面较好。"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "历史债务违约及治理问题较多，信用风险仍需警惕。"
-  },
-  {
-   "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "焦煤价格承压但公司降本增效明显，维持中性评级。"
+   "ai_note": "绿电铝优势突出，但受限于产能天花板，维持中性评估。"
   },
   {
-   "ticker": "603876.SS",
+   "ticker": "002978.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "多元化业务面临周期下行，需警惕业绩变脸及估值陷阱。"
+  },
+  {
+   "ticker": "600361.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铝箔产能扩张较快，需关注潜在的同业竞争与稀释。"
+   "ai_adjust": 0,
+   "ai_note": "铝加工主业稳健，但行业竞争激烈，缺乏显著向上亮点。"
   },
   {
-   "ticker": "601898.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "高股息央企且业绩确定性强，具备较佳的防御属性。"
+   "ticker": "600595.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "资产负债率偏高，在行业下行期财务风险易被量化模型忽视。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "自备电优势突出且成本管控好，基本面维持中性偏多。"
+   "ai_note": "新疆低电价优势显著，成本护城河深，略具长期配置价值。"
   },
   {
    "ticker": "002540.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝挤压材龙头受汽车轻量化需求支撑，维持中性评级。"
+   "ai_note": "汽车铝型材受益于轻量化，但估值已相对合理，维持中性。"
   },
   {
-   "ticker": "002978.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中小盘股缺乏核心矿产壁垒，业务分散，维持中性。"
+   "ticker": "603876.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "电池铝箔产能过剩加剧，近期大跌反映量化未充分定价内卷。"
   },
   {
-   "ticker": "600361.SS",
+   "ticker": "600546.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "借壳上市后需关注铝加工主业外的商誉减值风险。"
+   "ai_note": "煤炭产量增长受限，量化模型对长期需求见顶定价依然不足。"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "历史存财务及治理瑕疵，煤炭转型期需防范基本面再次爆雷。"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "高股息防御性强，但煤价中枢下移预期未在量化中充分体现。"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "航空铝材高端化进展顺利，但传统产能受能耗限制。"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "资产负债率偏高且历史盈利能力较弱，需保持谨慎。"
+   "ai_note": "铝加工产业链完整，航空铝材有亮点，整体表现平稳无大碍。"
   },
   {
    "ticker": "002466.SZ",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "锂价大幅回调，高杠杆并购带来较大的财务压力。"
+   "ai_note": "锂价暴跌且背负高额并购债务，量化严重滞后于基本面恶化。"
   },
   {
    "ticker": "000792.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钾锂双主业稳健，但锂价下跌拖累整体业绩预期。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "盐湖提锂成本虽低，但锂价下行周期中盈利预期需大幅下修。"
   },
   {
    "ticker": "301219.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "钴价低迷且次新股波动大，近期跌幅较深需维持谨慎。"
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "次新股叠加钴价低迷，流动性与基本面双杀，需警惕估值陷阱。"
   }
  ]
 }
