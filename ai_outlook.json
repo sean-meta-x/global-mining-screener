@@ -1,66 +1,66 @@
 {
- "generated_at": "2026-09-10T23:21Z",
+ "generated_at": "2026-09-11T23:30Z",
  "model": "qwen3.7-plus",
  "outlook": {
   "Gold": {
-   "multiplier": 1.1,
-   "note": "Central bank buying and rate cut expectations support continued upside despite elevated levels."
+   "multiplier": 1.15,
+   "note": "Central bank buying and rate cut expectations sustain strong momentum despite elevated spot levels."
   },
   "Silver": {
-   "multiplier": 1.15,
-   "note": "Dual industrial and monetary demand coupled with persistent structural deficits drive bullishness."
+   "multiplier": 1.2,
+   "note": "Outperformance driven by dual industrial and monetary demand amid persistent physical market deficits."
   },
   "Copper": {
    "multiplier": 1.15,
-   "note": "Green energy transition demand and tight smelter treatment charges support a structural deficit."
+   "note": "Smelter treatment charges at record lows indicate severe concentrate tightness supporting refined prices."
   },
   "Uranium": {
    "multiplier": 1.2,
-   "note": "Structural supply deficits and renewed global nuclear capacity build-outs underpin strong pricing."
+   "note": "Structural supply deficit and nuclear renaissance support ongoing long-term contract price increases."
   },
   "Lithium": {
    "multiplier": 0.85,
-   "note": "Near-term supply surplus from new African and Australian projects continues to weigh on prices."
+   "note": "Near-term oversupply from new projects and slowing EV demand growth pressure producer margins."
   },
   "Nickel": {
-   "multiplier": 0.8,
-   "note": "Persistent oversupply from Indonesian HPAL projects and sluggish EV demand growth cap upside."
+   "multiplier": 0.9,
+   "note": "Surging Indonesian supply growth and LFP battery substitution cap near-term price upside."
   },
   "Zinc": {
    "multiplier": 1.1,
-   "note": "Recent mine closures and low treatment charges indicate a tightening global concentrate market."
+   "note": "Recent mine closures and depleted exchange inventories tighten the physical market despite strong rally."
   },
   "Iron Ore": {
-   "multiplier": 0.85,
-   "note": "Ongoing weakness in Chinese property construction and high seaborne supply limit price recovery."
+   "multiplier": 0.95,
+   "note": "Chinese property sector weakness offsets infrastructure stimulus, capping upside from current levels."
   },
   "Coal": {
    "multiplier": 0.9,
-   "note": "Peaking global thermal demand and ample seaborne supply offset resilient metallurgical coal markets."
+   "note": "Peaking global thermal demand and high seaborne supply limit long-term price expansion."
   },
   "Rare Earths": {
    "multiplier": 0.95,
-   "note": "Chinese export controls provide a floor, but sluggish EV motor demand limits near-term upside."
+   "note": "Chinese export controls and weak EV motor demand create near-term pricing uncertainty."
   },
   "Manganese": {
-   "multiplier": 0.95,
-   "note": "Weak global steel production offsets supply disruptions from South African logistical bottlenecks."
+   "multiplier": 1.05,
+   "note": "South African logistics constraints tighten supply against steady global steel demand."
   },
   "PGM": {
    "multiplier": 0.9,
-   "note": "Weak internal combustion engine auto sales and high above-ground inventories weigh on near-term pricing."
+   "note": "Weak global auto production and ongoing platinum-palladium substitution weigh on sentiment."
   },
   "Potash": {
-   "multiplier": 0.95,
-   "note": "Normalizing supply chains from Russia and Belarus keep global inventories adequately stocked."
+   "multiplier": 1.0,
+   "note": "Normalizing Russian and Belarusian supply balances steady agricultural demand, keeping prices neutral."
   },
   "Aluminum": {
    "multiplier": 1.1,
-   "note": "Capacity caps in China and rising green energy demand support a tightening global balance."
+   "note": "Chinese capacity caps and strong green energy transition demand tighten the primary metal market."
   },
   "Diversified": {
    "multiplier": 1.05,
-   "note": "Broad exposure to copper and iron ore provides a balanced risk profile amid mixed macro signals."
+   "note": "Balanced exposure to iron ore, copper, and coal provides resilient cash flows and downside protection."
   }
  }
 }
