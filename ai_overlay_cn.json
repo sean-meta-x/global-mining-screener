@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T00:14Z",
+ "generated_at": "2026-09-12T00:21Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国企铝业龙头，估值合理但缺乏弹性，维持中性评估。"
+   "ai_note": "中铝为大型国企，基本面稳健但缺乏催化剂，维持中性。"
+  },
+  {
+   "ticker": "000612.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "月跌4.5%且无新闻催化，中小铝企弹性有限。"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型铝企基本面平稳，无显著超额催化剂，维持中性。"
+   "ai_adjust": -1,
+   "ai_note": "市值偏小流动性一般，铝加工竞争激烈利润承压。"
   },
   {
-   "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "近期跌幅较大，需警惕中小铝企在需求疲软下的盈利风险。"
+   "ticker": "000807.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "月涨5.4%动量较好，云南水电铝成本优势明显。"
   },
   {
    "ticker": "601001.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭面临长协限价及ESG折价，量化易高估其长期现金流。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "焦煤价格承压，月跌3.1%缺乏反弹动力。"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "煤电铝一体化优势明显，盈利韧性略优于纯铝企，微调加分。"
+   "ai_note": "神火月涨4.8%表现强势，煤电铝一体化布局合理。"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "业务庞杂且近期回撤明显，需防范多元化折价与治理风险。"
-  },
-  {
-   "ticker": "000807.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "绿电铝优势突出，但受限于产能天花板，维持中性评估。"
-  },
-  {
-   "ticker": "002978.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "多元化业务面临周期下行，需警惕业绩变脸及估值陷阱。"
-  },
-  {
-   "ticker": "600361.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝加工主业稳健，但行业竞争激烈，缺乏显著向上亮点。"
+   "ai_adjust": -3,
+   "ai_note": "月跌10.8%跌幅显著，多元化业务拖累估值需警惕。"
   },
   {
    "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "资产负债率偏高，在行业下行期财务风险易被量化模型忽视。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中孚实业铝加工为主，行业产能过剩利润微薄。"
+  },
+  {
+   "ticker": "002978.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "月跌3.7%，多元化业务方向不清晰，缺乏亮点。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "天山铝业产能大但新疆电力政策存不确定性。"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "新疆低电价优势显著，成本护城河深，略具长期配置价值。"
+   "ai_note": "中煤能源月涨7.3%动量强，高股息防御属性突出。"
+  },
+  {
+   "ticker": "600361.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "华联综超转型新材料，业务尚处整合期不确定性高。"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "山煤国际月涨4.6%，动力煤长协价格支撑业绩。"
+  },
+  {
+   "ticker": "002128.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "电投能源露天煤业成本可控，业绩相对稳定。"
   },
   {
    "ticker": "002540.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "汽车铝型材受益于轻量化，但估值已相对合理，维持中性。"
+   "ai_adjust": -1,
+   "ai_note": "亚太科技铝挤压材为主，下游需求疲软压制估值。"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "电池铝箔产能过剩加剧，近期大跌反映量化未充分定价内卷。"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭产量增长受限，量化模型对长期需求见顶定价依然不足。"
+   "ai_note": "月跌10.5%跌幅居前，鼎胜新材铝箔竞争加剧需回避。"
   },
   {
    "ticker": "600157.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "历史存财务及治理瑕疵，煤炭转型期需防范基本面再次爆雷。"
-  },
-  {
-   "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "高股息防御性强，但煤价中枢下移预期未在量化中充分体现。"
+   "ai_note": "永泰能源历史债务问题虽缓解但信用修复仍需时间。"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝加工产业链完整，航空铝材有亮点，整体表现平稳无大碍。"
+   "ai_note": "南山铝业全产业链布局完整，航空铝材为潜在亮点。"
   },
   {
    "ticker": "002466.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "锂价暴跌且背负高额并购债务，量化严重滞后于基本面恶化。"
-  },
-  {
-   "ticker": "000792.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "盐湖提锂成本虽低，但锂价下行周期中盈利预期需大幅下修。"
+   "ai_adjust": -4,
+   "ai_note": "天齐锂业月跌10%，锂价低迷叠加高负债风险突出。"
   },
   {
-   "ticker": "301219.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "次新股叠加钴价低迷，流动性与基本面双杀，需警惕估值陷阱。"
+   "ticker": "600740.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "山西焦化月涨9%动量最强，焦化行业供给侧收缩受益。"
   }
  ]
 }
