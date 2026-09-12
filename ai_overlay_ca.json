@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-11T00:39Z",
+ "generated_at": "2026-09-12T00:47Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "LIFT.V",
+   "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "缺乏新闻却大跌，疑似存在隐性稀释或高管减持。"
+   "ai_adjust": -3,
+   "ai_note": "小型多元化勘探公司无消息面支撑，下跌或反映资金流出。"
   },
   {
    "ticker": "ENDR.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型金矿勘探股，流动性差且无催化剂，中性观望。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金矿勘探商一月跌近28%无新闻，可能钻探失利或稀释。"
   },
   {
-   "ticker": "MRZL.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "勘探阶段无实质进展，股价随板块回调，缺乏独立逻辑。"
+   "ticker": "LIFT.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值远超同行但无催化剂，开发商阶段资金消耗大。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "无利空消息却暴跌近半，极大概率是增发稀释或钻探失败。"
+   "ai_note": "一月暴跌53%无任何新闻，极可能钻探失败或大幅稀释。"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "纽芬兰Kingsway项目毗邻New Found Gold，基本面尚可。"
+  },
+  {
+   "ticker": "AEMC.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "阿拉斯加金矿勘探小盘股，无消息下跌缺乏安全边际。"
+  },
+  {
+   "ticker": "HLU.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铀矿勘探受益于铀价上涨周期，但市值过小流动性差。"
+  },
+  {
+   "ticker": "OCEN.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "跨洋投资名称模糊，小盘壳公司特征明显需警惕。"
   },
   {
    "ticker": "SAM.TO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "墨西哥矿山历史运营与治理问题频发，需警惕隐性风险。"
+   "ai_note": "被归类为勘探商实为生产商，墨西哥矿山运营存隐患。"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "一月暴涨52%却无任何新闻，高度疑似炒作拉升。"
   },
   {
    "ticker": "CPAU.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "早期勘探项目，市值过小，流动性溢价不足。"
-  },
-  {
-   "ticker": "LAB.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "逆势微涨但市值仅千万，缺乏基本面支撑的反弹难持续。"
+   "ai_note": "金矿勘探小盘股无特殊亮点，跟随板块走弱。"
   },
   {
-   "ticker": "OCEN.V",
+   "ticker": "IRV.CN",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "千万级市值逆势上涨，警惕低流动性下的资金盘炒作。"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "股票代码带有噱头，典型的高推广微盘股特征。"
-  },
-  {
-   "ticker": "HLU.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿勘探股，受板块情绪影响大，无独立催化剂。"
+   "ai_note": "CSE上市金矿勘探商，交易所层级较低治理风险偏高。"
   },
   {
    "ticker": "SLV.CN",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "CSE挂牌的低阶银矿股，基本面薄弱，流动性风险高。"
+   "ai_adjust": -3,
+   "ai_note": "CSE上市多元化勘探商，无新闻下跌反映市场冷落。"
   },
   {
-   "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金生产商，基本面尚可，但缺乏短期爆发催化剂。"
-  },
-  {
-   "ticker": "NAM.V",
+   "ticker": "STUD.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "多元化勘探公司，资产分散，股价大跌或暗示资金链紧张。"
-  },
-  {
-   "ticker": "AEMC.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "阿拉斯加能源金属项目，处于早期阶段，估值缺乏锚点。"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "CSE挂牌且无新闻暴涨50%，典型拉高出货的杀猪盘特征。"
+   "ai_note": "名称为铀矿公司却被归类为金矿，分类混乱存疑。"
   },
   {
    "ticker": "V.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铀矿勘探股，跌幅大于板块，可能存在未披露的负面进展。"
+   "ai_note": "铀矿勘探商随板块回调，暂无明确催化剂。"
   },
   {
-   "ticker": "CCCM.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值较大但随板块阴跌，缺乏核心高品位矿区支撑。"
-  },
-  {
-   "ticker": "NEXU.CN",
+   "ticker": "NAM.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "CSE挂牌的铂族金属微型股，流动性极差，规避为主。"
+   "ai_note": "一月跌24%无新闻，锂和铂族金属项目推进缓慢。"
   },
   {
-   "ticker": "MMY.V",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "成熟黄金生产商，业绩稳健，跟随金价上涨属合理估值修复。"
+   "ticker": "CEXY.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "CSE上市铜矿勘探商暴涨35%无新闻，典型炒作特征。"
   },
   {
-   "ticker": "THX.V",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "塞吉利拉金矿投产顺利，基本面扎实，上涨具备业绩支撑。"
+   "ticker": "HUNT.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "CSE上市小盘多元化勘探商，缺乏差异化亮点。"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "唯一在产金矿商且录得正收益，但厄瓜多尔运营曾有波折。"
+  },
+  {
+   "ticker": "SR.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "多元化勘探小盘股持续下跌无消息面，缺乏安全边际。"
   }
  ]
 }
