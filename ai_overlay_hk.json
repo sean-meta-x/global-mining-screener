@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-11T00:04Z",
+ "generated_at": "2026-09-12T00:11Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "1303.HK",
+   "ticker": "0098.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤炭股，历史存管治及信披瑕疵，需防流动性风险。"
+   "ai_note": "铝型材龙头月跌近17%且无消息，需警惕隐性利空或需求疲软"
   },
   {
-   "ticker": "0098.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝型材龙头基本面稳健，但短期受宏观需求拖累，估值合理。"
-  },
-  {
-   "ticker": "2693.HK",
+   "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小微市值多元化矿企，业务边缘化且流动性极差，缺乏安全边际。"
+   "ai_note": "小市值煤炭股持续下行，流动性风险值得关注"
   },
   {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "实为铜材加工企而非纯正矿企，市值过小且缺乏核心矿产催化剂。"
-  },
-  {
-   "ticker": "8203.HK",
+   "ticker": "8250.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "创业板老牌老千股，历史有停牌及财技劣迹，基本面极差需规避。"
-  },
-  {
-   "ticker": "8095.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "创业板跨界伪矿业股，主业实为教育科技，矿产仅为边缘概念。"
+   "ai_note": "微型市值煤炭股，流动性极差，壳股炒作风险极高"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "白银冶炼龙头但债务高企，历史频发配股摊薄，治理结构存忧。"
+   "ai_note": "白银生产商月跌超15%，无新闻支撑，需排查债务或减持"
   },
   {
-   "ticker": "8250.HK",
+   "ticker": "8203.HK",
    "ai_view": "red_flag",
    "ai_adjust": -9,
-   "ai_note": "极小市值创业板壳股，煤炭业务停滞，纯属资金炒作需坚决规避。"
+   "ai_note": "微型市值煤炭股月暴跌25%，典型庄股崩塌特征"
   },
   {
-   "ticker": "1712.HK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "澳洲优质金矿生产商，近期金价上涨直接受益，基本面扎实。"
-  },
-  {
-   "ticker": "0166.HK",
+   "ticker": "8095.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "老牌仙股，业务庞杂且历史重组频繁，缺乏实质性矿产盈利能力。"
+   "ai_note": "多元化公司月跌18%且无公告，治理透明度存疑"
+  },
+  {
+   "ticker": "2693.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值多元化生产商跌幅温和，暂无明显异常信号"
+  },
+  {
+   "ticker": "0637.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值公司波动有限，但市值偏低需关注流动性"
   },
   {
    "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "南非金矿开发屡遭挫折，历史有长期停牌及监管合规劣迹。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿开发商阶段，无生产现金流，勘探风险难以量化"
   },
   {
-   "ticker": "1229.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型煤炭股，股权高度集中且历史有内幕交易疑云，流动性枯竭。"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "涉俄铁矿资产，受地缘制裁风险极高且债务沉重，需警惕退市风险。"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "次新黄金股，产能尚在爬坡期，需关注实际达产进度及金价波动。"
+   "ticker": "1712.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "金矿股月涨22%但无任何新闻催化，涨幅可持续性存疑"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型央企铝企，受宏观周期及铝价波动影响大，缺乏超额弹性。"
+   "ai_adjust": 0,
+   "ai_note": "央企铝业巨头流动性充足，估值受政策支撑，风险可控"
   },
   {
-   "ticker": "1738.HK",
+   "ticker": "1229.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小微无烟煤矿企，受国内煤炭安监及环保政策压制，业绩弹性弱。"
+   "ai_note": "微型市值煤炭股，成交稀疏，信息极度不透明"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金矿生产商市值近20亿，走势平稳，暂无突出风险"
   },
   {
    "ticker": "6885.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小型煤炭企业，市值偏低且受行业周期下行影响，缺乏核心壁垒。"
+   "ai_adjust": -3,
+   "ai_note": "小市值煤炭股月跌近12%，无新闻需警惕基本面恶化"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微型市值无烟煤股月跌近14%，壳股嫌疑大"
+  },
+  {
+   "ticker": "1029.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铁矿石生产商持续亏损历史，月跌10%或反映需求走弱"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭生产商，资产质量尚可，但需留意历史债务重组遗留影响。"
+   "ai_note": "煤炭生产商市值近20亿，走势平稳，量化评分合理"
   },
   {
-   "ticker": "0276.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "边缘化微型煤企，资产质量堪忧且长期依赖财技维持上市地位。"
+   "ticker": "0166.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "多元化小市值股月涨17%却无新闻，典型拉高出货特征"
   },
   {
-   "ticker": "2078.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小微铝加工企，行业产能过剩且利润率微薄，缺乏投资吸引力。"
+   "ticker": "0505.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铜合金生产商小幅上涨，走势与板块同步，暂无异常"
+  },
+  {
+   "ticker": "1205.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中信系煤炭平台市值近40亿，走势平淡，国企背景兜底"
   }
  ]
 }
