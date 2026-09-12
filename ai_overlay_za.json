@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-12T00:00Z",
+ "generated_at": "2026-09-12T23:39Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
-   "ticker": "EUZ.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微盘勘探股流动性极差，下行风险高"
-  },
-  {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿巨头受物流和价格波动影响，基本面稳健"
-  },
-  {
-   "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铬矿小盘股，历史财务与治理存在瑕疵"
+   "ai_note": "大型铁矿商，基本面稳健但缺乏催化剂。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "频繁资本运作与推销，存在股权稀释风险"
+   "ai_adjust": -3,
+   "ai_note": "一月跌幅显著，小市值金属商需警惕流动性风险。"
+  },
+  {
+   "ticker": "MRF.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铬矿生产商，受南非电力及物流瓶颈制约。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值极小且近期大跌，微盘股流动性枯竭风险"
+   "ai_note": "市值极小且持续下跌，存在壳公司或流动性陷阱风险。"
   },
   {
    "ticker": "WEZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "长期财务困境与治理危机，依赖外部救助"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铂族开发商，资金消耗快且无近期产出催化。"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属价格承压，但公司运营基本面尚可"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "逆势上涨，PGM生产商受益于铂价反弹预期。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "彩色宝石细分市场，需求受宏观消费影响"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "彩色宝石龙头，一月跌幅大，需求端存不确定性。"
   },
   {
-   "ticker": "APH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "高品位锡矿现金流强劲，但需警惕刚果金风险"
+   "ticker": "CPR.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铜矿勘探阶段，无 headlines 支撑，需防勘探失败。"
   },
   {
    "ticker": "SSW.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂族金属暴跌叠加南非劳资风险，处重组阵痛期"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "PGM巨头一月大涨，短期需关注获利回吐压力。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "煤炭微盘股，面临退市与流动性双重危机"
+   "ai_adjust": -6,
+   "ai_note": "小市值煤炭商，ESG 压力及流动性风险极高。"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "债务高企且现金流紧张，矿山运营持续承压"
+   "ai_adjust": -3,
+   "ai_note": "PGM生产商，长期受困于运营及资金问题。"
   },
   {
-   "ticker": "CPR.JO",
+   "ticker": "APH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "锡矿中型生产商，受益于锡价强势及扩产预期。"
+  },
+  {
+   "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铜矿前景好但处于早期阶段，开发执行风险高"
+   "ai_note": "多元化矿业巨头，管理层执行力强但估值已反映。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铂族金属逆风，但资产负债表相对同行较健康"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "管理层优秀且资产多元，具备较强抗风险能力"
+   "ai_adjust": 0,
+   "ai_note": "PGM龙头一月大涨，需警惕铂价波动带来的回撤。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "受益于金价上涨的低成本尾矿项目，盈利弹性大"
+   "ai_note": "尾矿回收金商，低成本运营受益于金价高位。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "bullish",
-   "ai_adjust": 5,
-   "ai_note": "全球化优质金矿资产组合，充分受益于金价牛市"
+   "ai_adjust": 3,
+   "ai_note": "黄金巨头，金价强势周期下具备良好杠杆效应。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "黄金资产优质，但整体成本曲线略高于同行"
+   "ai_adjust": 0,
+   "ai_note": "中型金矿商，运营稳定但缺乏超预期增长动力。"
+  },
+  {
+   "ticker": "AFT.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铁矿及建材商，基本面平稳，无显著异常。"
   },
   {
    "ticker": "SKA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型勘探公司，高度投机且缺乏实质性催化剂"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值极小且为勘探阶段，纯概念炒作风险高。"
   },
   {
-   "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭业务面临能源转型压力，但分红依然丰厚"
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "煤炭商一月暴涨，需警惕政策风险及获利盘出逃。"
   }
  ]
 }
