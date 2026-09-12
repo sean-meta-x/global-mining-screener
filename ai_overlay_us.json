@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T23:46Z",
+ "generated_at": "2026-09-12T23:26Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "GRML",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微型市值暴跌69%且无任何消息，高度疑似稀释或钻探失败"
+   "ai_note": "微盘PGM勘探股单月暴跌69%却无任何新闻，高度疑似稀释或钻探失败。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "\"核能矿产\"命名带有推广色彩，小市值勘探公司跌幅显著"
+   "ai_adjust": -5,
+   "ai_note": "名称含核概念疑似炒作，单月跌24%且无新闻，需警惕 promoter 出货。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "有历史稀释记录，石墨项目进展缓慢需警惕"
+   "ai_adjust": -4,
+   "ai_note": "公司有长期推广炒作历史，微盘勘探股基本面支撑薄弱。"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值铀矿勘探商，无实质催化剂支撑估值"
+   "ai_note": "三千万市值铀矿勘探股，无新闻无催化剂，流动性风险较高。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "Rhyolite Ridge项目面临融资与许可双重不确定性"
+   "ai_note": "Rhyolite Ridge项目面临环保诉讼与许可延迟，开发进度存不确定性。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "无消息却暴涨58%，微型市值疑似炒作拉高出货"
+   "ai_adjust": -9,
+   "ai_note": "无新闻却单月暴涨65%，典型pump-and-dump推广模式，切勿追高。"
   },
   {
    "ticker": "UROY",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "正规铀矿权流公司，基本面稳健但估值已反映"
+   "ai_note": "大盘铀矿权益公司，资产组合分散，无重大治理或稀释风险。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "\"清洁能源\"命名具推广嫌疑，市值仅1400万且暴跌39%"
+   "ai_note": "微盘股单月暴跌39%无新闻，极可能存在增发稀释或项目终止。"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "权证类工具杠杆高且有时间衰减，流动性差，不适合长期持有。"
   },
   {
    "ticker": "GRO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "巴西钾矿开发屡遭融资挫折，项目执行风险较高"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "巴西钾矿开发商，项目处于早期，存在许可与资金风险但尚可接受。"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Thacker Pass项目面临许可诉讼与资金缺口风险"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "权证类标的具有高度稀释性，投机风险极大"
+   "ai_adjust": -4,
+   "ai_note": "Thacker Pass项目面临原住民法律诉讼与许可挑战，进度存变数。"
   },
   {
    "ticker": "NB",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "NioCorp长期开发停滞，治理与推广问题屡遭质疑"
+   "ai_adjust": -6,
+   "ai_note": "Elk Creek项目反复延期且融资困难，管理层执行力严重存疑。"
   },
   {
    "ticker": "NC",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭生产商面临长期需求结构性下滑压力"
+   "ai_note": "传统煤炭生产商，行业长期衰退但公司现金流尚可，估值偏低。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "津巴布韦Blanket金矿运营稳定但存在国别风险"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦矿区政治与运营风险较高，尽管金价上涨仍需折价看待。"
+  },
+  {
+   "ticker": "RITE",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "千万市值微盘勘探股，无实质新闻，流动性和稀释风险均较高。"
   },
   {
    "ticker": "ELBM",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池材料勘探商市值偏小，项目早期风险较高"
+   "ai_adjust": -4,
+   "ai_note": "电池材料勘探商融资困难，项目推进缓慢，需关注后续资金缺口。"
   },
   {
    "ticker": "EU",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿生产商月跌20%，需关注运营与铀价波动"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铀矿ISR生产商运营稳定，近期回调属板块轮动，基本面未恶化。"
   },
   {
    "ticker": "GLDG",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "资产组合分散但缺乏近期催化剂，走势平淡"
+   "ai_note": "黄金勘探公司资产组合优质且资金充裕，无重大治理或稀释风险。"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "权证标的无交易数据，流动性与稀释风险极高"
+   "ai_note": "FMST关联权证，母公司暴跌近40%，权证价值可能趋近于零。"
   },
   {
    "ticker": "NMG",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "魁北克石墨开发商基本面尚可但进展缓慢"
-  },
-  {
-   "ticker": "DRD",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "南非尾矿金生产商受益于金价上涨，现金流改善"
+   "ai_adjust": -1,
+   "ai_note": "魁北克石墨开发商许可进展顺利，但商业化仍需时间验证。"
   }
  ]
 }
