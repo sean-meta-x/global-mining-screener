@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-12T23:26Z",
+ "generated_at": "2026-09-13T23:38Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微盘PGM勘探股单月暴跌69%却无任何新闻，高度疑似稀释或钻探失败。"
+   "ai_adjust": -7,
+   "ai_note": "一月暴跌69%且无任何消息，极可能存在隐性稀释或资产减值"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "名称含核概念疑似炒作，单月跌24%且无新闻，需警惕 promoter 出货。"
+   "ai_adjust": -4,
+   "ai_note": "核能概念命名疑似炒作载体，无实质新闻支撑估值"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "公司有长期推广炒作历史，微盘勘探股基本面支撑薄弱。"
+   "ai_adjust": -3,
+   "ai_note": "阿拉巴马石墨项目长期受困于许可证审批延迟"
   },
   {
    "ticker": "JAGU",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "三千万市值铀矿勘探股，无新闻无催化剂，流动性风险较高。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小型铀矿勘探商，无重大异常但流动性有限"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Rhyolite Ridge项目面临环保诉讼与许可延迟，开发进度存不确定性。"
+   "ai_adjust": -3,
+   "ai_note": "Rhyolite Ridge项目许可审批反复拖延，开发进度存疑"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "无新闻却单月暴涨65%，典型pump-and-dump推广模式，切勿追高。"
+   "ai_adjust": -8,
+   "ai_note": "零新闻下月涨65%属典型拉高出货模式，极高风险"
   },
   {
    "ticker": "UROY",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大盘铀矿权益公司，资产组合分散，无重大治理或稀释风险。"
+   "ai_note": "大型铀矿版税公司，业务模式稳定无明显治理风险"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微盘股单月暴跌39%无新闻，极可能存在增发稀释或项目终止。"
+   "ai_adjust": -6,
+   "ai_note": "市值仅千万且月跌近四成，高度疑似融资稀释"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "巴西钾矿开发商，管理层变动与融资历史令人担忧"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "权证类工具杠杆高且有时间衰减，流动性差，不适合长期持有。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "巴西钾矿开发商，项目处于早期，存在许可与资金风险但尚可接受。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Thacker Pass项目面临原住民法律诉讼与许可挑战，进度存变数。"
+   "ai_note": "权证工具流动性差且杠杆风险高，不适合常规配置"
   },
   {
    "ticker": "NB",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "Elk Creek项目反复延期且融资困难，管理层执行力严重存疑。"
+   "ai_adjust": -7,
+   "ai_note": "NioCorp长期拖延开发、反复融资稀释，治理堪忧"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Thacker Pass项目面临环保诉讼与资金缺口双重压力"
   },
   {
    "ticker": "NC",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "传统煤炭生产商，行业长期衰退但公司现金流尚可，估值偏低。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦矿区政治与运营风险较高，尽管金价上涨仍需折价看待。"
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产商经营稳健，但ESG逆风限制长期估值"
   },
   {
    "ticker": "RITE",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值仅千万的微型勘探股，信息不透明风险极高"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "千万市值微盘勘探股，无实质新闻，流动性和稀释风险均较高。"
+   "ai_note": "津巴布韦矿区面临政策与汇兑管制等管辖权风险"
   },
   {
    "ticker": "ELBM",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "电池材料勘探商融资困难，项目推进缓慢，需关注后续资金缺口。"
+   "ai_adjust": -3,
+   "ai_note": "电池材料项目融资困难，现金流持续性存疑"
   },
   {
    "ticker": "EU",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀矿ISR生产商运营稳定，近期回调属板块轮动，基本面未恶化。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铀矿原地浸出运营商，近期产量波动反映运营挑战"
   },
   {
    "ticker": "GLDG",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金勘探公司资产组合优质且资金充裕，无重大治理或稀释风险。"
+   "ai_note": "金矿勘探组合分散，无突出催化也无明显红旗"
   },
   {
    "ticker": "FMSTW",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "FMST关联权证，母公司暴跌近40%，权证价值可能趋近于零。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "FMST权证，母股已现稀释迹象，权证风险更大"
   },
   {
    "ticker": "NMG",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "魁北克石墨开发商许可进展顺利，但商业化仍需时间验证。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "魁北克石墨开发商面临融资与承购协议不确定性"
   }
  ]
 }
