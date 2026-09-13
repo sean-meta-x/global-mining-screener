@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-12T23:39Z",
+ "generated_at": "2026-09-13T23:52Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
+   "ticker": "JBL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "公司历史上多次稀释融资，治理存疑，跌幅异常需警惕。"
+  },
+  {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铁矿商，基本面稳健但缺乏催化剂。"
-  },
-  {
-   "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "一月跌幅显著，小市值金属商需警惕流动性风险。"
+   "ai_note": "英美资源旗下优质铁矿商，治理稳健，无异常信号。"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬矿生产商，受南非电力及物流瓶颈制约。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "嘉能可持股但运营波动大，铬矿价格承压，治理历史欠佳。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极小且持续下跌，存在壳公司或流动性陷阱风险。"
+   "ai_adjust": -6,
+   "ai_note": "市值极小流动性差，微盘股存在治理与操纵风险。"
   },
   {
    "ticker": "WEZ.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂族开发商，资金消耗快且无近期产出催化。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "历史多次融资失败、项目搁浅，治理极差，典型问题股。"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "逆势上涨，PGM生产商受益于铂价反弹预期。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "运营正常但治理曾有争议，涨幅合理无需额外调整。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "曾涉莫桑比克贿赂丑闻，治理风险高，跌幅反映市场担忧。"
+  },
+  {
+   "ticker": "SSW.JO",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "彩色宝石龙头，一月跌幅大，需求端存不确定性。"
+   "ai_note": "涨幅较大但运营成本高企、劳工风险突出，需警惕回调。"
   },
   {
    "ticker": "CPR.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铜矿勘探阶段，无 headlines 支撑，需防勘探失败。"
-  },
-  {
-   "ticker": "SSW.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "PGM巨头一月大涨，短期需关注获利回吐压力。"
+   "ai_note": "勘探阶段公司，面临稀释与钻探失败风险，流动性有限。"
   },
   {
    "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "小市值煤炭商，ESG 压力及流动性风险极高。"
-  },
-  {
-   "ticker": "EPS.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "PGM生产商，长期受困于运营及资金问题。"
+   "ai_note": "小市值煤炭商，流动性差且面临能源转型长期压力。"
   },
   {
    "ticker": "APH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "锡矿中型生产商，受益于锡价强势及扩产预期。"
-  },
-  {
-   "ticker": "ARI.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化矿业巨头，管理层执行力强但估值已反映。"
+   "ai_adjust": -1,
+   "ai_note": "刚果(金)运营存地缘风险，但产量增长稳健，整体中性。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "PGM龙头一月大涨，需警惕铂价波动带来的回撤。"
+   "ai_note": "铂族金属龙头，涨幅受板块回暖驱动，基本面稳健。"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "治理优秀、管理层信誉高，多元化布局抗风险能力强。"
   },
   {
    "ticker": "DRD.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "尾矿回收金商，低成本运营受益于金价高位。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "尾矿回收模式受益于金价上涨，运营稳定无重大风险。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "黄金巨头，金价强势周期下具备良好杠杆效应。"
+   "ai_adjust": 2,
+   "ai_note": "全球布局的优质金矿商，治理良好，金价上行直接受益。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型金矿商，运营稳定但缺乏超预期增长动力。"
+   "ai_note": "管理层改善明显，金价上涨支撑业绩，但成本仍需关注。"
   },
   {
-   "ticker": "AFT.JO",
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "涨幅过大存回调风险，煤炭长期面临ESG撤资压力。"
+  },
+  {
+   "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿及建材商，基本面平稳，无显著异常。"
+   "ai_adjust": -1,
+   "ai_note": "煤炭业务稳健但转型中，ESG压力长期存在，涨幅温和。"
   },
   {
    "ticker": "SKA.JO",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "市值极小且为勘探阶段，纯概念炒作风险高。"
+   "ai_note": "微型勘探股，市值极低，高度疑似炒作，稀释风险极大。"
   },
   {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "煤炭商一月暴涨，需警惕政策风险及获利盘出逃。"
+   "ticker": "AFT.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "建材与铁矿双轮驱动，经营稳健，小幅回调属正常波动。"
   }
  ]
 }
