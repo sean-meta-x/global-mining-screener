@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-12T23:50Z",
+ "generated_at": "2026-09-14T00:03Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "0815.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "白银生产商近期跌幅较大，无新闻支撑，需关注基本面恶化风险"
+   "ticker": "1303.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小型煤企，无重大新闻，跌幅温和，维持中性观察。"
   },
   {
-   "ticker": "1303.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股治理风险高，流动性不足，量化模型难以捕捉"
+   "ticker": "8250.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值仅2800万，疑似壳股，流动性极差，高度警惕。"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铝企近期跌幅明显，行业产能过剩压力持续，缺乏催化"
+   "ai_note": "铝企月跌近17%，大宗商品承压，短期基本面存疑。"
   },
   {
-   "ticker": "8250.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "极小市值煤炭股，流动性极差，存在壳股特征和操纵风险"
-  },
-  {
-   "ticker": "8203.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型市值煤炭股近期暴跌25%，高度可疑，可能存在稀释或治理问题"
+   "ticker": "0815.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中国银集团曾有审计问题，治理风险叠加大幅回调。"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "多元化小盘股近期跌幅较大，缺乏新闻催化，基本面存疑"
-  },
-  {
-   "ticker": "2693.HK",
-   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小市值多元化企业近期表现疲软，流动性风险需关注"
+   "ai_note": "多元化小盘股月跌18%，缺乏明确业务支撑。"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "小市值企业近期表现平稳，但流动性有限，无明显催化剂"
+   "ai_note": "小盘多元股跌幅有限，业务模糊但暂无明显恶化。"
+  },
+  {
+   "ticker": "2693.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "高岭土小盘股跌幅较大，行业关注度低，流动性差。"
   },
   {
    "ticker": "0621.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "黄金开发阶段企业，存在融资稀释和项目执行风险"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "黄金开发商无产出，依赖融资，南非资产风险高。"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "金矿生产商近期涨幅超20%，动量强劲，或有产量提升预期"
+   "ai_note": "月涨21.8%表现突出，金价上涨利好黄金生产商。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值仅1.2亿，微型煤矿股流动性风险极高。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铝企近期小幅上涨，表现平稳，无显著催化或风险"
+   "ai_note": "中铝为大型国企，铝价波动影响大，估值合理。"
   },
   {
-   "ticker": "1229.HK",
+   "ticker": "3636.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铜企走势平稳，无重大催化剂，中性对待。"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "市值不足8000万，月跌14%，微盘股风险极大。"
+  },
+  {
+   "ticker": "6885.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值煤炭股流动性差，治理存疑，量化模型易高估"
+   "ai_adjust": -2,
+   "ai_note": "小盘煤企跌幅超11%，行业逆风下基本面承压。"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型金矿生产商近期表现稳定，无显著风险或催化因素"
+   "ai_note": "黄金生产商走势平稳，受益于金价，中性偏多。"
   },
   {
    "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铁矿生产商近期跌幅10%，受价格压力，需关注成本端"
-  },
-  {
-   "ticker": "6885.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股近期下跌，缺乏新闻支撑，基本面可能恶化"
-  },
-  {
-   "ticker": "0166.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小盘股近期上涨但无明确催化剂，可能为短期波动"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "IRC长期财务困境，债务重组中，基本面极差。"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭生产商近期表现平稳，无显著风险或催化"
+   "ai_note": "e-comm煤炭业务稳健，走势平稳，中性评级。"
+  },
+  {
+   "ticker": "0166.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小盘多元股异常大涨17%，疑似炒作需警惕。"
   },
   {
    "ticker": "0505.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铜生产商近期小幅上涨，受金属价格支撑，表现合理"
+   "ai_note": "铜合金企业走势正常，无特殊风险或催化剂。"
   },
   {
    "ticker": "1205.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型煤炭企业近期表现平稳，无显著催化或风险因素"
-  },
-  {
-   "ticker": "2610.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铝企近期小幅回调，无显著风险信号，表现正常"
+   "ai_note": "中信资源为国企背景，煤炭业务稳定，中性。"
   }
  ]
 }
