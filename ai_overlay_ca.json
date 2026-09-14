@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-13T00:26Z",
+ "generated_at": "2026-09-14T00:38Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值较大但缺乏新闻催化，流动性与估值存疑。"
+   "ai_adjust": -2,
+   "ai_note": "名字拼写疑似错误，开发商市值偏大且阴跌，需警惕壳公司风险。"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型市值且无新闻，流动性极差，存在边缘化风险。"
+   "ai_note": "市值仅一千八百万且持续阴跌，流动性极差，警惕隐性稀释风险。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "单月暴跌超50%且无新闻，极可能遭遇钻探失败或稀释。"
+   "ai_note": "单月暴跌超50%且无新闻，极大概率是钻探失败或遭遇恶性稀释。"
   },
   {
    "ticker": "LAB.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "零收益且无新闻，典型的死水微盘股，资金效率极低。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "市值极小且股价停滞，缺乏催化剂，需防范流动性枯竭与边缘化。"
   },
   {
    "ticker": "AEMC.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值微小且持续阴跌，缺乏基本面消息支撑。"
+   "ai_adjust": -3,
+   "ai_note": "能源金属概念退潮，单月跌幅明显，需警惕项目推进不及预期风险。"
+  },
+  {
+   "ticker": "HLU.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿勘探股随板块回调，暂无明显基本面恶化，保持中性观察。"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "单月暴涨52%但无实质新闻支撑，典型的小盘股炒作特征，谨防杀猪盘。"
   },
   {
    "ticker": "CPAU.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微盘金矿股缺乏新闻与流动性，存在隐性治理风险。"
-  },
-  {
-   "ticker": "HLU.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铀矿勘探微盘股无新闻，需警惕许可证或融资风险。"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "无新闻且阴跌，CSE微盘股流动性与合规风险较高。"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "分类存疑且无新闻，微盘股缺乏透明度，需警惕。"
-  },
-  {
-   "ticker": "SLV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "CSE微盘股缺乏新闻与流动性，存在壳公司风险。"
-  },
-  {
-   "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "无新闻且大幅回撤，铀矿微盘股需警惕融资稀释。"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "虽有正收益但无新闻支撑，需观察后续基本面确认。"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "无新闻却单月暴涨34%，典型的无基本面炒作与拉高出货。"
-  },
-  {
-   "ticker": "HUNT.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微盘股无新闻且阴跌，流动性枯竭风险较高。"
-  },
-  {
-   "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "单月跌超20%且无新闻，可能遭遇隐性利空或融资。"
+   "ai_note": "金价高位但股价滞涨，可能存在未披露的品位下滑或社区阻力。"
   },
   {
    "ticker": "SAM.TO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "跌幅较大且无新闻，需警惕项目进展不及预期或稀释。"
+   "ai_note": "单月回撤近两成，作为老牌矿企跌幅异常，需排查运营或成本问题。"
   },
   {
-   "ticker": "MMY.V",
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "CSE微盘股流动性匮乏，阴跌趋势明显，缺乏机构资金关注。"
+  },
+  {
+   "ticker": "SLV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "银矿概念缺乏实质进展，股价持续走弱，需防范 promoter 出货。"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铀矿股近期表现疲软，单月跌幅较大，需关注其资金链与勘探进度。"
+  },
+  {
+   "ticker": "V.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "能源转型概念退潮，股价持续阴跌，需警惕项目融资困难及稀释。"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "铜矿微盘股短期暴涨34%，无新闻配合，高度疑似庄家拉高出货。"
+  },
+  {
+   "ticker": "HUNT.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "名字带有强烈炒作色彩，股价持续下行，需警惕 promoter 抛弃。"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "单月大跌超两成，多元化勘探缺乏核心亮点，需警惕资金链断裂。"
+  },
+  {
+   "ticker": "MJS.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "市值较大且正收益，但缺乏新闻确认具体催化剂。"
+   "ai_note": "金矿股温和上涨，基本面尚可，但需关注其实际产量与成本控制。"
   },
   {
    "ticker": "SR.V",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微盘股无新闻且持续下跌，缺乏资金关注与流动性。"
+   "ai_note": "多元化概念缺乏聚焦，股价持续阴跌，需防范管理层频繁融资。"
   },
   {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "市值近9亿且涨幅可观，但无新闻印证，需防高位回调。"
+   "ticker": "MMY.V",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "矿业老牌公司单月上涨17%，基本面稳健，可适度上调量化评分。"
   },
   {
-   "ticker": "CAF.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "微幅上涨但无新闻，基本面缺乏透明度，保持中性。"
+   "ticker": "NEXU.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "PGM微盘股流动性差且持续下跌，需警惕隐性稀释与 promoter 控盘。"
   }
  ]
 }
