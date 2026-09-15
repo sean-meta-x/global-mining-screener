@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-13T23:52Z",
+ "generated_at": "2026-09-15T00:27Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "公司历史上多次稀释融资，治理存疑，跌幅异常需警惕。"
+   "ai_adjust": -3,
+   "ai_note": "频繁配股稀释，无消息下跌需警惕隐性利空。"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "英美资源旗下优质铁矿商，治理稳健，无异常信号。"
+   "ai_note": "大型铁矿商基本面稳健，但缺乏短期催化剂。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "嘉能可持股但运营波动大，铬矿价格承压，治理历史欠佳。"
+   "ai_adjust": -2,
+   "ai_note": "南非电力短缺严重影响铬铁冶炼，运营风险上升。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值极小流动性差，微盘股存在治理与操纵风险。"
+   "ai_adjust": -5,
+   "ai_note": "市值极小流动性差，存在炒作与稀释双重风险。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "历史多次融资失败、项目搁浅，治理极差，典型问题股。"
+   "ai_adjust": -6,
+   "ai_note": "项目长期停滞且多次稀释，治理记录极差。"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "运营正常但治理曾有争议，涨幅合理无需额外调整。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦政策不确定性高，国家风险溢价大。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "曾涉莫桑比克贿赂丑闻，治理风险高，跌幅反映市场担忧。"
+   "ai_adjust": -3,
+   "ai_note": "莫桑比克矿区安全事件频发，宝石ESG压力大。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "涨幅较大但运营成本高企、劳工风险突出，需警惕回调。"
+   "ai_note": "矿难频发且债务高企，短期涨幅或难以持续。"
   },
   {
    "ticker": "CPR.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "勘探阶段公司，面临稀释与钻探失败风险，流动性有限。"
+   "ai_note": "勘探阶段无实质进展，需警惕概念炒作风险。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭商，流动性差且面临能源转型长期压力。"
+   "ai_adjust": -2,
+   "ai_note": "小市值煤炭商，ESG融资环境持续恶化。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "刚果(金)运营存地缘风险，但产量增长稳健，整体中性。"
+   "ai_adjust": 0,
+   "ai_note": "刚果金国家风险高，但锡矿运营表现尚可。"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "多元化大型矿企治理尚可，估值基本合理。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铂族金属龙头，涨幅受板块回暖驱动，基本面稳健。"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "治理优秀、管理层信誉高，多元化布局抗风险能力强。"
+   "ai_note": "PGM价格波动大，深井开采安全风险较高。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "尾矿回收模式受益于金价上涨，运营稳定无重大风险。"
+   "ai_note": "尾矿回收模式风险较低，金价上涨直接受益。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "全球布局的优质金矿商，治理良好，金价上行直接受益。"
+   "ai_note": "全球化布局金矿龙头，金价上行周期显著受益。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "管理层改善明显，金价上涨支撑业绩，但成本仍需关注。"
+   "ai_note": "近年运营持续改善，金价上涨提供业绩支撑。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "涨幅过大存回调风险，煤炭长期面临ESG撤资压力。"
+   "ai_adjust": -4,
+   "ai_note": "月涨47%异常，煤炭面临ESG存亡级风险。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭业务稳健但转型中，ESG压力长期存在，涨幅温和。"
-  },
-  {
-   "ticker": "SKA.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型勘探股，市值极低，高度疑似炒作，稀释风险极大。"
+   "ai_adjust": 0,
+   "ai_note": "煤炭ESG逆风但管理稳健，估值偏低有支撑。"
   },
   {
    "ticker": "AFT.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "建材与铁矿双轮驱动，经营稳健，小幅回调属正常波动。"
+   "ai_note": "中型铁矿及建材商，业务稳健无重大风险。"
+  },
+  {
+   "ticker": "KP2.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "刚果布钾矿开发阶段，执行与融资风险大。"
   }
  ]
 }
