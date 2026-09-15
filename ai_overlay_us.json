@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-13T23:38Z",
+ "generated_at": "2026-09-15T00:13Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "一月暴跌69%且无任何消息，极可能存在隐性稀释或资产减值"
+   "ai_adjust": -8,
+   "ai_note": "微盘股暴跌且无任何新闻，存在极高流动性与退市风险。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "核能概念命名疑似炒作载体，无实质新闻支撑估值"
+   "ai_adjust": -5,
+   "ai_note": "小盘铀矿勘探商近期跌幅较大且缺乏消息面支撑。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "阿拉巴马石墨项目长期受困于许可证审批延迟"
+   "ai_note": "石墨及稀土开发商面临资金消耗，缺乏近期催化剂。"
   },
   {
    "ticker": "JAGU",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小型铀矿勘探商，无重大异常但流动性有限"
+   "ai_adjust": -2,
+   "ai_note": "铀矿勘探股随板块回调，暂无明显基本面恶化迹象。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Rhyolite Ridge项目许可审批反复拖延，开发进度存疑"
+   "ai_adjust": -4,
+   "ai_note": "锂矿开发商受锂价低迷拖累，项目推进存在资金压力。"
+  },
+  {
+   "ticker": "UROY",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "铀矿版税公司抗风险能力强，受益于铀价长牛逻辑。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "零新闻下月涨65%属典型拉高出货模式，极高风险"
-  },
-  {
-   "ticker": "UROY",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铀矿版税公司，业务模式稳定无明显治理风险"
+   "ai_adjust": -9,
+   "ai_note": "微盘股无新闻却暴涨六成，高度疑似资金炒作与诱多。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅千万且月跌近四成，高度疑似融资稀释"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴西钾矿开发商，管理层变动与融资历史令人担忧"
+   "ai_adjust": -8,
+   "ai_note": "微盘股暴跌且零新闻，存在严重的流动性与基本面隐患。"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "权证工具流动性差且杠杆风险高，不适合常规配置"
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "权证类资产具有极高稀释风险与时间价值衰减，应规避。"
   },
   {
-   "ticker": "NB",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "NioCorp长期拖延开发、反复融资稀释，治理堪忧"
+   "ticker": "GRO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "钾矿开发商近期走势平稳，需关注项目融资与建设进度。"
   },
   {
    "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "大型锂矿开发商受碳酸锂价格下跌影响，估值承压。"
+  },
+  {
+   "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Thacker Pass项目面临环保诉讼与资金缺口双重压力"
+   "ai_adjust": -5,
+   "ai_note": "稀土开发商资本开支巨大，近期大跌反映市场对融资的担忧。"
   },
   {
    "ticker": "NC",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭生产商经营稳健，但ESG逆风限制长期估值"
+   "ai_note": "煤炭生产商现金流稳定但缺乏成长故事，估值受ESG压制。"
   },
   {
-   "ticker": "RITE",
+   "ticker": "LODE",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "市值仅千万的微型勘探股，信息不透明风险极高"
+   "ai_note": "金矿勘探商近期回调，需警惕高成本与项目延期风险。"
+  },
+  {
+   "ticker": "EU",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿生产商跌幅较大，需关注其产能利用率与现货铀价。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦矿区面临政策与汇兑管制等管辖权风险"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "黄金生产商逆势上涨，成本控制良好且受益于金价高位。"
+  },
+  {
+   "ticker": "RITE",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "千万市值微盘股缺乏新闻关注，极易遭遇流动性陷阱。"
   },
   {
    "ticker": "ELBM",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "电池材料项目融资困难，现金流持续性存疑"
-  },
-  {
-   "ticker": "EU",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铀矿原地浸出运营商，近期产量波动反映运营挑战"
+   "ai_note": "电池材料勘探商受新能源板块整体降温拖累，需防稀释。"
   },
   {
    "ticker": "GLDG",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金矿勘探组合分散，无突出催化也无明显红旗"
+   "ai_note": "金矿勘探股走势平淡，资产组合分散但缺乏短期催化剂。"
   },
   {
    "ticker": "FMSTW",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "FMST权证，母股已现稀释迹象，权证风险更大"
-  },
-  {
-   "ticker": "NMG",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "魁北克石墨开发商面临融资与承购协议不确定性"
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "权证资产波动剧烈且面临到期归零风险，纯投机标的。"
   }
  ]
 }
