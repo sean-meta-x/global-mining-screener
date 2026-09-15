@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T00:14Z",
+ "generated_at": "2026-09-15T00:49Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，经营稳健，无显著风险或催化"
+   "ai_note": "大型国企基本面稳健，但缺乏短期弹性催化剂。"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中小铝企，流动性一般，无突出信息"
+   "ai_note": "中小盘铝企，流动性一般，无显著治理或业务瑕疵。"
   },
   {
    "ticker": "000612.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "近期回调，基本面平庸，缺乏催化"
-  },
-  {
-   "ticker": "000807.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "云南水电铝龙头，成本优势明显"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "晋煤中型企业，煤价承压但现金流尚可"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "历史重组频繁且盈利能力偏弱，需警惕基本面不及预期。"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤电铝一体化，近期走势偏强"
+   "ai_note": "煤电铝一体化龙头，业绩确定性强，估值合理。"
+  },
+  {
+   "ticker": "000807.SZ",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "绿电铝优势显著，符合低碳趋势，具备一定估值溢价。"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "传统焦煤国企，受煤炭周期影响大，无特殊亮点。"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌超10%，历史财务及治理存疑"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中孚铝业中等规模，无显著异常"
-  },
-  {
-   "ticker": "002978.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": " diversified中小盘，关注度低"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤企国企，月涨7%动量良好"
+   "ai_note": "钾锂价格下行拖累业绩，前期高位扩产面临盈利压力。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "天山铝业产能释放在即，走势平稳"
+   "ai_note": "新疆低成本煤电铝优势明显，但受限于产能天花板。"
   },
   {
-   "ticker": "600361.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝加工中型企业，表现平淡"
+   "ticker": "601898.SS",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "高股息央企，长协煤比例高，业绩与现金流极具韧性。"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史债务负担较重且公司治理屡受监管关注，存在隐患。"
+  },
+  {
+   "ticker": "002978.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "多元化业务协同效应弱，主业盈利能力长期处于行业尾部。"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西地方煤企，动量正向"
+   "ai_note": "山西国资背景，资产注入预期存在，但短期缺乏催化。"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "资产负债率长期偏高，历史债务重组遗留问题仍需消化。"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "露天煤矿成本可控，走势稳健"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "永泰能源历史治理及债务问题需警惕"
+   "ai_note": "大型动力煤国企，长协保障业绩底线，防御属性较强。"
   },
   {
    "ticker": "603876.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌超10%，铝加工竞争加剧利润承压"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "可转债违约风险曾暴露治理缺陷，高杠杆与资金链承压。"
   },
   {
    "ticker": "600219.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南山铝业龙头地位稳但负债率偏高"
-  },
-  {
-   "ticker": "600740.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "月涨9%动量强，但小盘焦化波动大"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "民企背景且曾遭遇债券市场信任危机，融资成本偏高。"
   },
   {
    "ticker": "002466.SZ",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂价低迷叠加SQM收购高债务压力"
+   "ai_note": "海外并购遗留高负债，叠加锂价暴跌，财务费用吞噬利润。"
   },
   {
-   "ticker": "601677.SS",
+   "ticker": "301219.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "次新小盘股，钴价低迷且市场流动性差，易受资金炒作。"
+  },
+  {
+   "ticker": "600361.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "借壳上市背景，历史主业变更频繁，需警惕市值管理炒作。"
+  },
+  {
+   "ticker": "600740.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "明泰铝业铝板带龙头，经营稳健"
+   "ai_note": "焦煤细分龙头，近期反弹主要受供需错配驱动，估值中性。"
   }
  ]
 }
