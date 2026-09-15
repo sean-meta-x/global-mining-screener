@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-15T00:13Z",
+ "generated_at": "2026-09-15T23:53Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微盘股暴跌且无任何新闻，存在极高流动性与退市风险。"
-  },
-  {
    "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "小盘铀矿勘探商近期跌幅较大且缺乏消息面支撑。"
+   "ai_adjust": -3,
+   "ai_note": "极小市值且无新闻，存在高度稀释与壳公司炒作风险。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "石墨及稀土开发商面临资金消耗，缺乏近期催化剂。"
+   "ai_note": "关键矿产项目融资困难，历史稀释严重且流动性差。"
   },
   {
    "ticker": "JAGU",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铀矿勘探股随板块回调，暂无明显基本面恶化迹象。"
+   "ai_note": "微型市值铀矿勘探商，流动性极低且面临持续融资压力。"
+  },
+  {
+   "ticker": "CEXYF",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "无新闻支撑的暴涨属典型拉高出货，存在极高炒作风险。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂矿开发商受锂价低迷拖累，项目推进存在资金压力。"
-  },
-  {
-   "ticker": "UROY",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "铀矿版税公司抗风险能力强，受益于铀价长牛逻辑。"
-  },
-  {
-   "ticker": "CEXYF",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微盘股无新闻却暴涨六成，高度疑似资金炒作与诱多。"
+   "ai_note": "核心项目深陷联邦许可延迟，资金缺口持续扩大。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微盘股暴跌且零新闻，存在严重的流动性与基本面隐患。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "权证类资产具有极高稀释风险与时间价值衰减，应规避。"
+   "ai_adjust": -6,
+   "ai_note": "暴跌近四成且无公告，极可能是融资失败或面临退市风险。"
   },
   {
    "ticker": "GRO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "钾矿开发商近期走势平稳，需关注项目融资与建设进度。"
+   "ai_adjust": -1,
+   "ai_note": "巴西钾矿开发资本开支大，需警惕当地环保与社区许可风险。"
   },
   {
    "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "大型锂矿开发商受碳酸锂价格下跌影响，估值承压。"
-  },
-  {
-   "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "稀土开发商资本开支巨大，近期大跌反映市场对融资的担忧。"
-  },
-  {
-   "ticker": "NC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭生产商现金流稳定但缺乏成长故事，估值受ESG压制。"
+   "ai_adjust": -3,
+   "ai_note": "核心项目资本开支巨大，政府贷款落地及许可进度存疑。"
   },
   {
    "ticker": "LODE",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金矿勘探商近期回调，需警惕高成本与项目延期风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "管理层频繁变更战略且历史稀释严重，公司治理存在瑕疵。"
   },
   {
-   "ticker": "EU",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿生产商跌幅较大，需关注其产能利用率与现货铀价。"
+   "ticker": "NAMMW",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "作为正股的认股权证，流动性差且杠杆风险随正股剧烈波动。"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "长期处于开发阶段，历史股权稀释极其严重，资金链紧绷。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "黄金生产商逆势上涨，成本控制良好且受益于金价高位。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "津巴布韦矿区存在地缘政治风险，且公司持续通过增发稀释。"
   },
   {
-   "ticker": "RITE",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "千万市值微盘股缺乏新闻关注，极易遭遇流动性陷阱。"
+   "ticker": "NC",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭资产面临长期环保抛售压力，属于缺乏催化剂的价值陷阱。"
   },
   {
-   "ticker": "ELBM",
+   "ticker": "EU",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铀矿开采技术面临多地严格的环保许可审查与社区阻力。"
+  },
+  {
+   "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "电池材料勘探商受新能源板块整体降温拖累，需防稀释。"
+   "ai_note": "锂矿资产估值波动剧烈，需密切关注其产能爬坡与资金消耗。"
   },
   {
    "ticker": "GLDG",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿勘探股走势平淡，资产组合分散但缺乏短期催化剂。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金矿勘探项目庞大但股权极度稀释，持续增发压制股东回报。"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值金矿生产商，需警惕高成本及潜在的地区运营风险。"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "权证资产波动剧烈且面临到期归零风险，纯投机标的。"
+   "ai_adjust": -5,
+   "ai_note": "正股暴跌且基本面恶化，认股权证面临极高的到期归零风险。"
+  },
+  {
+   "ticker": "DRD",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "尾矿回收现金流稳定，但受限于矿山寿命及南非宏观风险。"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "白银产量稳健，但部分矿区面临社区关系与环保许可挑战。"
   }
  ]
 }
