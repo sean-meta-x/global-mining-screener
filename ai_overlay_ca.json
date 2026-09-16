@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-15T01:13Z",
+ "generated_at": "2026-09-16T00:53Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "VIO.V",
+   "ticker": "V.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型金矿勘探商无新闻，缺乏催化剂需警惕"
+   "ai_adjust": -3,
+   "ai_note": "铀矿勘探股无新闻却持续下跌，警惕隐性稀释或钻探失利"
   },
   {
-   "ticker": "MRZL.V",
+   "ticker": "VIO.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值仅1800万且无任何消息，流动性风险高"
+   "ai_adjust": -4,
+   "ai_note": "一月跌超两成且零新闻，量化分未能反映基本面恶化"
+  },
+  {
+   "ticker": "ENDR.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值金矿勘探股跌幅显著，缺乏新闻催化剂令人担忧"
   },
   {
    "ticker": "LIFT.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "市值较大但无新闻，暂维持中性观察"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "最大市值标的却跌逾两成无消息，可能存在管理层问题"
   },
   {
-   "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铀矿微型勘探商无消息，行业竞争激烈"
+   "ticker": "MRZL.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "横盘无新闻，小市值勘探股流动性风险需关注"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "一月暴跌54%却无任何新闻，极可能遭遇稀释或钻探失败"
+   "ai_note": "一月暴跌近六成零新闻，极可能遭遇融资稀释或钻探失败"
+  },
+  {
+   "ticker": "SLV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值多元勘探股持续下跌无消息，警惕壳公司风险"
   },
   {
    "ticker": "LAB.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值仅千万级别，流动性极差且无催化剂"
-  },
-  {
-   "ticker": "IRO.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型金矿勘探商持续阴跌无消息"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微型市值金矿股横盘，流动性极低需谨慎"
   },
   {
    "ticker": "AEMC.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值微小且名称与业务分类不符，治理存疑"
+   "ai_note": "小市值金矿勘探股跌幅较大无新闻，基本面存疑"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铀矿微型勘探商无新闻，资金消耗风险"
+   "ai_adjust": -3,
+   "ai_note": "铀矿勘探股阴跌无消息，行业热度退潮后缺乏支撑"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "标签为生产商但实为勘探阶段，信息不透明"
+   "ai_note": "生产型金矿小幅上涨，无重大异常但缺乏催化剂"
   },
   {
-   "ticker": "AVL.TO",
+   "ticker": "CAF.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值金矿勘探股几乎持平，无新闻无催化"
+  },
+  {
+   "ticker": "SAM.TO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴涨46%却无任何新闻支撑，疑似炒作拉升"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "名称为铀矿却分类为金矿，数据分类混乱存疑"
-  },
-  {
-   "ticker": "SLV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "CSE上市微型股无新闻，流动性堪忧"
+   "ai_adjust": -6,
+   "ai_note": "跌逾两成零新闻，量化模型未能捕捉潜在治理或稀释风险"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "市值较大且上涨21%，但无新闻需确认基本面"
+   "ai_note": "大市值金矿股上涨近两成，但无新闻支撑需观察持续性"
   },
   {
-   "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "一月跌24%无新闻，微型勘探商资金链存疑"
+   "ticker": "AVL.TO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "暴涨三八成零新闻，高度疑似炒作拉高出货"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "CSE上市暴涨46%无新闻，高度疑似庄家拉抬"
+   "ai_note": "微型铜矿股暴涨四五成零新闻，典型庄家拉高派发特征"
   },
   {
    "ticker": "MMY.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史上有运营问题，上涨但无新闻支撑"
-  },
-  {
-   "ticker": "HUNT.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "CSE微型股无新闻，流动性风险高"
-  },
-  {
-   "ticker": "SBI.TO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "正规金矿生产商市值较大，短期回调正常"
+   "ai_note": "中金矿股温和上涨，无异常但缺乏明确催化"
   },
   {
-   "ticker": "SR.V",
+   "ticker": "TT.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型PGM勘探股下跌，铂族金属需求疲软无新闻支撑"
+  },
+  {
+   "ticker": "STUD.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "一月跌20%无消息，微型股下行风险大"
+   "ai_note": "铀矿股涨近两成零新闻，疑似推广炒作需警惕回落"
+  },
+  {
+   "ticker": "NEXU.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型PGM勘探股下跌近两成，流动性差基本面不明"
   }
  ]
 }
