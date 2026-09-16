@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T00:39Z",
+ "generated_at": "2026-09-16T00:17Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "市值微小且流动性枯竭，需警惕壳资源炒作与治理风险。"
+   "ai_note": "小市值煤炭股，流动性差，信息透明度低"
   },
   {
    "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金勘探开发商，资本开支大且易稀释股权，缺乏近期催化剂。"
-  },
-  {
-   "ticker": "8250.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅两千多万，流动性极差，存在极高的仙股化与退市风险。"
-  },
-  {
-   "ticker": "0098.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铝企受周期下行影响回调，基本面平稳但短期缺乏上涨动能。"
+   "ai_adjust": -5,
+   "ai_note": "南非金矿开发商，融资困难，开发进度长期滞后"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "公司治理存疑，关联交易及股权结构复杂"
+  },
+  {
+   "ticker": "8250.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值不足三千万，极微盘股，流动性几近丧失"
+  },
+  {
+   "ticker": "0098.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝型材生产商，基本面平稳，无显著异常"
+  },
+  {
+   "ticker": "2693.HK",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "股价大幅回调，历史上曾有融资与治理争议，需防范基本面恶化。"
+   "ai_note": "小市值高岭土企业，业务能见度有限"
   },
   {
    "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "近期金价上涨带动股价走强，但需关注矿山实际产量能否兑现。"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "月涨逾12%，澳洲金矿生产稳健，动量强劲"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "市值微小，业务庞杂且缺乏核心亮点，流动性溢价较低。"
-  },
-  {
-   "ticker": "2693.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "高岭土生产商，业务传统且市值较小，缺乏机构资金关注。"
-  },
-  {
-   "ticker": "8095.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "股价大幅下挫，多元化业务缺乏协同，需警惕业绩不及预期。"
+   "ai_note": "市值仅1.5亿，多元化业务缺乏明确亮点"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，业绩受宏观周期压制，估值合理但缺乏弹性。"
+   "ai_note": "央企铝业龙头，估值受周期压制但安全边际足"
   },
   {
-   "ticker": "1229.HK",
+   "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭小盘股，市值不足两亿，流动性差且存在信息不透明风险。"
+   "ai_adjust": -3,
+   "ai_note": "月跌逾17%，基本面恶化风险需警惕"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铜矿生产商，受大宗商品价格波动影响大，目前走势相对平稳。"
+   "ai_adjust": -1,
+   "ai_note": "铜生产商，近期回调受金属价格波动影响"
+  },
+  {
+   "ticker": "8203.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值仅五千万，微盘煤炭股，治理风险极高"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金生产商，受益于金价高位，但需关注其海外矿山的运营风险。"
+   "ai_note": "金矿生产商，运营相对稳定，暂无重大风险"
   },
   {
-   "ticker": "1738.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值不足一亿，流动性极差，存在严重的仙股特征与退市隐患。"
-  },
-  {
-   "ticker": "6885.HK",
+   "ticker": "1229.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "煤炭小盘股，市值较小且近期股价疲软，需关注其债务与现金流。"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "核心资产在俄罗斯，受地缘政治与制裁影响，面临严重的运营与合规风险。"
-  },
-  {
-   "ticker": "0166.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "近期异常拉升，但基本面孱弱，多为游资炒作，追高风险极大。"
+   "ai_note": "小市值煤炭股，流动性不足，关注治理风险"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭主力生产商，估值合理且分红稳定，基本面支撑较强。"
+   "ai_note": "中型煤炭生产商，走势平稳，无显著催化剂"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "月跌近19%，市值不足八千万，退市风险隐现"
   },
   {
    "ticker": "1205.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中信系资源平台，业务多元且受国企改革支撑，下行风险有限。"
+   "ai_note": "中信系资源平台，国企背景提供一定安全垫"
   },
   {
-   "ticker": "1208.HK",
+   "ticker": "6885.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值煤炭股，近期回调，需关注债务情况"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "全球最大民营铝企，回调后估值趋合理"
+  },
+  {
+   "ticker": "1029.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "核心矿山常受社区抗议阻工，量化模型难以捕捉此类地缘与许可风险。"
+   "ai_note": "铁矿生产商，历史债务压力大，运营风险高"
   }
  ]
 }
