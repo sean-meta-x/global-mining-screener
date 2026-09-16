@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-15T00:23Z",
+ "generated_at": "2026-09-16T00:02Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
-   "ticker": "THX.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Seguela金矿投产顺利，动量良好，无明显隐患"
-  },
-  {
-   "ticker": "POW.L",
+   "ticker": "UFO.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型市值勘探公司，存在持续稀释和推广风险"
+   "ai_note": "微型勘探股流动性差，存在 promoter 炒作与稀释风险。"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "巴西Palito矿品位 reconcile 问题持续，运营不稳定"
+   "ai_note": "巴西Palito矿运营及环保许可存在历史隐患，需警惕。"
   },
   {
-   "ticker": "MET1.L",
+   "ticker": "THX.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "塞古拉金矿投产带来动能，但开发者阶段资本开支风险犹存。"
+  },
+  {
+   "ticker": "POW.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型市值铁矿勘探商，融资稀释风险高"
+   "ai_adjust": -3,
+   "ai_note": "铀矿微型股，历史上有过度营销嫌疑，流动性溢价低。"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀实物持有工具，无运营风险，纯价格敞口"
+   "ai_note": "实物铀基金无运营风险，但受铀价波动影响，表现中性。"
   },
   {
-   "ticker": "UFO.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极小市值，历史推广和频繁配股稀释记录"
+   "ticker": "MET1.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "瑞典铁矿微型股，市值过小且流动性极差，量化模型易失真。"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "多次配股稀释，治理争议频发，跌幅显著"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "南非PGM生产商，近期面临运营干扰及公司治理审查风险。"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲金矿生产商，运营稳定，无重大风险"
+   "ai_note": "澳洲多元化生产商运营平稳，但市值较小且缺乏显著催化剂。"
   },
   {
    "ticker": "CAML.L",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "Kounrad铜矿现金流强劲，估值合理有催化剂"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "东欧及中亚资产分红稳定，但地缘政治与ESG风险需折价。"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "严重财务困境，债务重组后市值极低，风险极高"
+   "ai_adjust": -8,
+   "ai_note": "钻石价格低迷叠加巨额债务重组，微市值下存在极高破产风险。"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "津巴布韦国家政策风险，但Blanket矿运营尚可"
-  },
-  {
-   "ticker": "KEFI.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月暴跌44%，埃塞项目融资和许可出现严重危机"
-  },
-  {
-   "ticker": "KOD.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "马里地缘政治风险高，军政府政策不确定性大"
-  },
-  {
-   "ticker": "BHL.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型锂矿勘探商，锂价低迷周期融资困难"
-  },
-  {
-   "ticker": "GLR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "无新闻却暴涨17%，微型市值疑似拉高推广"
-  },
-  {
-   "ticker": "0ICU.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南非尾矿回收商，运营低风险，动量正面"
-  },
-  {
-   "ticker": "RMR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "暴跌近29%无公告，极可能钻探失败或重大挫折"
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦矿区国家风险较高，但现金流和分红提供一定支撑。"
   },
   {
    "ticker": "GGP.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "Havieron项目开发节奏和Newmont合作存在不确定性"
-  },
-  {
-   "ticker": "XTR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "跌幅显著，微型非洲金矿勘探商，稀释历史不良"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Havieron项目资本开支巨大，存在股权稀释及执行延期风险。"
   },
   {
    "ticker": "THS.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "PGM价格疲软但运营稳健，南非风险已部分定价"
+   "ai_note": "南非PGM龙头基本面扎实，但需警惕当地电力及劳工风险。"
+  },
+  {
+   "ticker": "XTR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "津巴布韦微型勘探股跌幅巨大，存在严重的稀释与流动性风险。"
+  },
+  {
+   "ticker": "0ICU.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "南非尾矿金生产商现金流良好，但受限于当地宏观环境。"
+  },
+  {
+   "ticker": "KEFI.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "单月暴跌超45%，极可能遭遇钻探失败、融资稀释或许可受阻。"
+  },
+  {
+   "ticker": "KOD.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "马里锂矿项目面临极高的军政府地缘政治与政策变动风险。"
+  },
+  {
+   "ticker": "GLR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型勘探股短期暴涨，具有典型拉高出货与过度营销特征。"
+  },
+  {
+   "ticker": "1SN.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锡矿微型股单月大跌，项目推进不及预期，流动性风险加剧。"
+  },
+  {
+   "ticker": "AAU.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "土耳其资产面临地缘政治风险，近期资产出售或暗示资金压力。"
   }
  ]
 }
