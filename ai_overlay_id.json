@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-13T23:57Z",
+ "generated_at": "2026-09-16T00:11Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
-   "ticker": "MINE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值无消息暴涨22%，疑似炒作拉升需警惕"
-  },
-  {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅3800亿印尼盾，流动性极差治理存疑"
+   "ai_adjust": -3,
+   "ai_note": "微型煤企流动性差，治理信息不透明需警惕"
+  },
+  {
+   "ticker": "MINE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "无消息却月涨34%，小盘股疑似炒作拉升"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "一月跌16%无公告，可能存在未披露利空"
+   "ai_note": "月跌13%无新闻，基本面或存隐忧"
+  },
+  {
+   "ticker": "MYOH.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "表现平稳，无突出催化剂或风险"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "一月暴跌45%无任何公告，高度怀疑稀释或暴雷"
-  },
-  {
-   "ticker": "MYOH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史关联交易频繁，治理结构存在隐患"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "阿斯特朗旗下优质资产，量化评分偏低"
+   "ai_note": "月暴跌35%无公告，疑存治理或财务危机"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型多元化矿企，无显著风险也无催化"
+   "ai_note": "中盘煤企走势平稳，无显著异常"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "大型煤企但历史治理记录一般"
+   "ai_note": "大盘煤企小幅回调，整体风险可控"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "阿斯特朗旗下蓝筹，治理优良基本面扎实"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金光集团旗下煤矿，运营稳健无突出催化"
+   "ai_adjust": 1,
+   "ai_note": "中盘煤企治理尚可，受益于煤价支撑"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "市值仅1800亿无消息涨14%，典型拉高出货特征"
+   "ai_note": "市值仅1830亿却涨16%，典型小盘炒作特征"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "镍业龙头受战略金属支撑，但估值已反映"
-  },
-  {
-   "ticker": "PSAB.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金矿股有历史稀释记录，需关注增发风险"
+   "ai_adjust": -2,
+   "ai_note": "镍价承压供应过剩，短期缺乏上行催化"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "国企煤矿龙头月涨32%，高分红治理规范"
+   "ai_note": "国企煤炭龙头，高分红受益煤价反弹"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "金价上涨受益但历史治理记录存瑕疵"
+  },
+  {
+   "ticker": "DAAZ.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "上市时间短业绩验证不足，需谨慎"
   },
   {
    "ticker": "KKGI.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "股权结构复杂治理存疑，中小市值风险偏高"
-  },
-  {
-   "ticker": "DAAZ.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "新上市矿企缺乏历史验证，暂观其变"
-  },
-  {
-   "ticker": "BSSR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "巴克里集团旗下运营尚可但治理评分偏低"
-  },
-  {
-   "ticker": "TINS.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "国企锡业龙头受益锡价上涨，基本面扎实"
-  },
-  {
-   "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤矿承包商运营稳定，无显著风险催化"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史债务问题严重，财务健康状况堪忧"
+   "ai_note": "无新闻月涨15%，股权结构复杂存隐忧"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "正从煤炭向新能源转型，过渡期不确定性大"
+   "ai_note": "向新能源转型中，执行风险待观察"
+  },
+  {
+   "ticker": "DOID.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月涨17%无消息，矿服企业历史财务承压"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "矿服龙头治理规范，业绩相对稳定"
+  },
+  {
+   "ticker": "BSSR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "大型煤企治理良好，产量增长可期"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "国企锡业龙头受益锡价但治理效率偏低"
   }
  ]
 }
