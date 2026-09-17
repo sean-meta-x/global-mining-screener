@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T00:28Z",
+ "generated_at": "2026-09-17T00:37Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,115 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型央企铝企，无重大异常，量化评分合理"
+   "ai_note": "央企铝龙头，但历史债务负担较重，缺乏短期催化剂。"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中小市值铝企，近期跌幅温和，暂无明显风险信号"
+   "ai_note": "汽车铝压铸部件龙头，基本面稳健，无显著量化外风险。"
   },
   {
-   "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌幅超4%，中小铝企抗风险能力偏弱需关注"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铝企，月收益微正，基本面与评分匹配"
+   "ticker": "601001.SS",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "山西国资煤企，长协煤占比高，业绩确定性强且分红稳定。"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大市值铝企，月涨幅领先，量化评分偏低可关注"
+   "ai_note": "绿电铝优势明显，但受限于云南枯水期电力供应波动。"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "煤电铝一体化，成本控制优秀，高股息具备防御价值。"
+  },
+  {
+   "ticker": "002497.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂电材料周期下行，跨界并购后存在一定整合与治理风险。"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "核心煤炭央企，高股息与稳健现金流提供极强安全边际。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铝企，月跌幅温和，无明显额外风险"
-  },
-  {
-   "ticker": "002497.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月暴跌16.8%，多元化业务存隐忧，警惕治理风险"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "大型央企煤企，月涨3.6%动量良好，估值偏低"
+   "ai_note": "产能向新疆转移成本优势显著，但受宏观地产需求拖累。"
   },
   {
    "ticker": "600157.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "中型煤企月跌3.2%，行业下行期中小企承压"
+   "ai_note": "民营煤企，历史上有过债务违约与治理瑕疵，需警惕信用风险。"
   },
   {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌4.7%，中型铝企盈利能力偏弱需警惕"
+   "ticker": "000612.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "地方国资背景，铝电联营，基本面平稳无突出亮点。"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤企月涨1.2%，表现平稳无异常信号"
+   "ai_adjust": 1,
+   "ai_note": "焦煤核心标的，资产注入预期与高股息支撑估值。"
+  },
+  {
+   "ticker": "603876.SS",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "电池铝箔产能严重过剩导致加工费大幅下滑，盈利承压。"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "资产负债率长期偏高，且曾受环保处罚，治理与财务风险并存。"
   },
   {
    "ticker": "002978.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌5.7%且市值偏小，多元化业务存不确定性"
-  },
-  {
-   "ticker": "601001.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤企月收益持平，量化评分合理"
-  },
-  {
-   "ticker": "600219.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铝企月跌2.9%属正常波动，无额外风险"
-  },
-  {
-   "ticker": "600361.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌4.6%，中小铝企需关注成本压力与治理"
+   "ai_adjust": -1,
+   "ai_note": "业务较杂，主业盈利能力一般，缺乏明确的资源扩张逻辑。"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大市值煤企月跌0.5%平稳，量化评分合理"
+   "ai_note": "蒙东褐煤龙头，长协比例高，业绩随煤价波动但整体稳健。"
   },
   {
-   "ticker": "603876.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月暴跌16.1%，中小铝企需警惕流动性与治理风险"
+   "ticker": "600219.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "民营铝加工龙头，但产业链延伸过长导致资金链偏紧。"
   },
   {
    "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌13.8%，锂价下行叠加海外资产减值风险"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "锂价暴跌叠加收购SQM带来的巨额债务，财务费用严重侵蚀利润。"
   },
   {
    "ticker": "600740.SS",
    "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "月涨5.8%动量突出，但市值偏小需关注流动性"
+   "ai_note": "山西焦煤国企，近期焦煤价格企稳，业绩弹性较好。"
+  },
+  {
+   "ticker": "600971.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "地方煤电国企，基本面中规中矩，缺乏超额收益催化剂。"
+  },
+  {
+   "ticker": "600361.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "借壳上市初期，资产整合与商誉减值风险需重点关注。"
   }
  ]
 }
