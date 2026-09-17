@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T00:11Z",
+ "generated_at": "2026-09-17T00:20Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型煤企流动性差，治理信息不透明需警惕"
-  },
-  {
-   "ticker": "MINE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "无消息却月涨34%，小盘股疑似炒作拉升"
-  },
-  {
-   "ticker": "IFSH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌13%无新闻，基本面或存隐忧"
+   "ai_note": "市值过小且流动性差，需警惕小盘股操纵风险。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "表现平稳，无突出催化剂或风险"
+   "ai_note": "基本面平稳，无显著催化剂或明显治理风险。"
+  },
+  {
+   "ticker": "MINE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "无利好下短期暴涨，疑似资金炒作，谨防回调。"
+  },
+  {
+   "ticker": "IFSH.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "股价阴跌且缺乏行业催化剂，短期动能不足。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月暴跌35%无公告，疑存治理或财务危机"
+   "ai_adjust": -6,
+   "ai_note": "单月暴跌超三成，可能存在未披露的利空或流动性危机。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中盘煤企走势平稳，无显著异常"
+   "ai_note": "估值与动量表现平庸，维持中性观察。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大盘煤企小幅回调，整体风险可控"
+   "ai_adjust": 0,
+   "ai_note": "大型煤企基本面稳健，但缺乏短期爆发催化剂。"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "阿斯特朗旗下蓝筹，治理优良基本面扎实"
+   "ai_adjust": 4,
+   "ai_note": "联合拖拉机是阿斯特拉集团核心蓝筹，量化模型低估其价值。"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "中盘煤企治理尚可，受益于煤价支撑"
+   "ai_adjust": 0,
+   "ai_note": "煤炭与镍业务双轮驱动，表现符合行业平均水平。"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "市值仅1830亿却涨16%，典型小盘炒作特征"
+   "ai_note": "极小市值且流动性枯竭，极易遭资金操纵，风险极高。"
+  },
+  {
+   "ticker": "PTBA.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 5,
+   "ai_note": "国有煤企高分红且现金流充裕，量化评分显著偏低。"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "镍价承压供应过剩，短期缺乏上行催化"
+   "ai_note": "镍价持续低迷拖累利润，尽管是哈里达集团核心资产。"
   },
   {
-   "ticker": "PTBA.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "国企煤炭龙头，高分红受益煤价反弹"
-  },
-  {
-   "ticker": "PSAB.JK",
+   "ticker": "KKGI.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "金价上涨受益但历史治理记录存瑕疵"
+   "ai_adjust": 0,
+   "ai_note": "产量稳定但缺乏新矿权注入预期，股价随大盘波动。"
   },
   {
    "ticker": "DAAZ.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "上市时间短业绩验证不足，需谨慎"
+   "ai_adjust": -3,
+   "ai_note": "股价持续走弱且多元化业务协同效应尚不明确。"
   },
   {
-   "ticker": "KKGI.JK",
+   "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无新闻月涨15%，股权结构复杂存隐忧"
+   "ai_adjust": -4,
+   "ai_note": "虽有金价上涨利好，但公司历史治理与合规记录不佳。"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "向新能源转型中，执行风险待观察"
+   "ai_note": "传统煤炭向新能源转型中，短期业绩仍受煤价主导。"
   },
   {
    "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月涨17%无消息，矿服企业历史财务承压"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "采矿承包商与煤炭业务平稳，无明显超预期因素。"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "矿服龙头治理规范，业绩相对稳定"
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产与物流业务稳健，估值合理，维持中性。"
+  },
+  {
+   "ticker": "RMKE.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值偏小且煤炭资产质量一般，需关注潜在融资稀释。"
   },
   {
    "ticker": "BSSR.JK",
    "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "大型煤企治理良好，产量增长可期"
-  },
-  {
-   "ticker": "TINS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国企锡业龙头受益锡价但治理效率偏低"
+   "ai_adjust": 4,
+   "ai_note": "核心矿区成本低且分红慷慨，量化模型未充分体现其防御性。"
   }
  ]
 }
