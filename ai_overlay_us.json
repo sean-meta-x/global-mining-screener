@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-17T00:01Z",
+ "generated_at": "2026-09-17T23:53Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微盘核能概念多为炒作，缺乏实质资产与流动性。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微盘铀矿勘探商，缺乏新闻且存在高稀释与炒作风险。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "频繁增发稀释股东权益，项目推进缓慢需警惕。"
-  },
-  {
-   "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极低且暴跌，存在严重的流动性与退市风险。"
+   "ai_adjust": -2,
+   "ai_note": "历史稀释严重，资金链紧张，量化模型难以捕捉其融资风险。"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铀矿股波动大，需防范探矿权到期或融资风险。"
+   "ai_adjust": -3,
+   "ai_note": "极小市值铀矿勘探股，无实质进展，需警惕流动性与稀释风险。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微盘铜矿股短期暴涨，典型资金炒作痕迹，谨防回调。"
+   "ai_adjust": -5,
+   "ai_note": "市值极小且短期暴涨，典型炒作特征，谨防拉高出货与稀释。"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "股价暴跌且市值微小，常伴随频繁增发与 promoter 炒作。"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "认股权证时间价值衰减快，且伴随极高股权稀释风险。"
-  },
-  {
-   "ticker": "GRO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "巴西钾矿项目面临严苛环保审批与资金缺口风险。"
+   "ai_note": "权证通常意味着底层股权面临稀释或重组，存在结构性风险。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "核心项目受环保审批拖延，资本开支超支风险较高。"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "管理层历史信誉不佳，频繁增发且项目进展反复。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巨型锂矿开发资本开支巨大，需关注银团贷款落地进度。"
-  },
-  {
-   "ticker": "EU",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀价回调影响短期利润，但ISR生产成本具备韧性。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "核心资产位于津巴布韦，面临较高地缘政治与政策风险。"
+   "ai_note": "锂矿开发受困于联邦土地许可延迟，量化未计入审批时间成本。"
   },
   {
    "ticker": "NB",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "复杂冶金技术未获充分验证，巨额资本开支融资困难。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "稀土项目资本开支巨大，面临长期且严重的股权稀释风险。"
   },
   {
    "ticker": "NC",
    "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭生产商面临长期ESG逆风与需求衰退，估值受压制。"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭业务现金流稳定，但长期面临ESG资金撤出压力。"
+   "ai_note": "钾矿开发项目资本密集，存在一定执行风险，但近期势头良好。"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "分类存疑，实为勘探阶段，股价大跌且基本面与流动性堪忧。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锂矿开发资本需求大，虽有通用汽车支持但仍存执行与融资风险。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦矿区存在地缘与政策风险，量化模型常忽略此类治理隐患。"
+  },
+  {
+   "ticker": "EU",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿ISR生产稳健，但原地浸出采矿的环保许可审批可能拖慢进度。"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微盘多元勘探股，缺乏催化剂，需警惕管理层增发与流动性枯竭。"
+  },
+  {
+   "ticker": "LODE",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "典型仙股特征，历史上有频繁反向拆股与稀释记录，需极度警惕。"
   },
   {
    "ticker": "GLDG",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "资产多位于高风险管辖区，且长期依赖增发维持运营。"
-  },
-  {
-   "ticker": "ELVR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "股价大幅回调显示市场对产能释放或成本控制的担忧。"
+   "ai_adjust": -2,
+   "ai_note": "资产组合尚可，但长期依赖增发融资勘探，股东权益易被摊薄。"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "DLE提锂技术规模化存疑，项目推进需警惕资金断裂。"
+   "ai_note": "DLE提锂技术尚需验证，资本开支巨大，合资项目存在执行不确定性。"
   },
   {
-   "ticker": "CAMZF",
+   "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值极低且缺乏流动性，存在严重的融资与退市风险。"
-  },
-  {
-   "ticker": "OGC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "整体运营稳健，但需关注菲律宾矿区社区关系与审批。"
+   "ai_adjust": -6,
+   "ai_note": "与正股同属高风险炒作标的，权证属性进一步放大稀释与归零风险。"
   },
   {
    "ticker": "METCB",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "传统煤炭现金流稳健，但稀土转型项目周期长且风险高。"
+   "ai_note": "核心煤炭业务面临转型压力，稀土勘探尚处早期，难以改变基本面。"
   }
  ]
 }
