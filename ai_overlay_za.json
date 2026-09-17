@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T00:06Z",
+ "generated_at": "2026-09-17T00:15Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铁矿商，基本面稳健，无显著隐藏风险"
+   "ai_note": "大型铁矿商，基本面稳健，无明显隐藏风险。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "小盘基础金属，历史上有频繁稀释和执行力问题"
+   "ai_note": "历史多次稀释性融资，治理记录欠佳，需警惕。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铬矿生产商，受铬价周期影响大，流动性一般"
-  },
-  {
-   "ticker": "MTU.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅7100万，微型股流动性极差，暴跌17%警示风险"
+   "ai_note": "铬矿小盘股，与Glencore关联运营，流动性有限。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "铂族开发商，历史治理问题频发，项目多次延期"
+   "ai_adjust": -7,
+   "ai_note": "长期开发阶段，屡次稀释且项目推进不力，治理堪忧。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "PGM生产商运营稳定，近期涨幅合理但估值已修复"
+   "ai_note": "PGM生产商运营稳定，近期表现良好，无重大瑕疵。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "南非运营成本高企，劳资纠纷频发，反弹后追涨风险大"
+   "ai_note": "运营成本高企，历史上有治理与执行风险问题。"
   },
   {
-   "ticker": "CPR.JO",
+   "ticker": "MTU.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铜矿勘探阶段，资源转化和融资存不确定性"
+   "ai_adjust": -5,
+   "ai_note": "市值仅6800万，流动性极差，信息透明度不足。"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "Motsepe关联交易及资本配置曾引发市场质疑。"
   },
   {
    "ticker": "APH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Bisie锡矿高产稳产，锡价受供给约束有支撑"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "刚果(金)采矿管辖风险较高，但运营数据尚可。"
+  },
+  {
+   "ticker": "CPR.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "勘探阶段公司，无实质进展，典型推广型标的。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "有色宝石商，莫桑比克运营曾涉腐败指控，治理存疑"
-  },
-  {
-   "ticker": "IMP.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "PGM龙头，运营稳健但铑价低迷压制利润"
+   "ai_note": "彩色宝石细分龙头，近期涨幅大但基本面支撑。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "小盘煤炭商，ESG逆风叠加流动性不足"
+   "ai_note": "微型煤炭股，ESG逆风下机构资金持续撤离。"
   },
   {
-   "ticker": "ARI.JO",
+   "ticker": "IMP.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化矿业龙头，管理层可靠，估值合理"
+   "ai_note": "PGM大型生产商，运营稳健，估值合理。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "尾矿回收金商，低成本运营，金价高位受益"
+   "ai_adjust": 0,
+   "ai_note": "尾矿再处理金矿，低风险低成长，无隐藏问题。"
   },
   {
    "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "全球化金矿龙头，资产组合优质，金价上行受益"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型金矿商，资产组合优质，治理规范。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿商运营改善明显，但高成本矿山仍拖累"
+   "ai_adjust": -1,
+   "ai_note": "历史上成本管控欠佳，近年有所改善但仍需观察。"
   },
   {
    "ticker": "NPH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "PGM板块中运营效率领先，管理层执行力强。"
+  },
+  {
+   "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月涨16%后短期超买，PGM价格疲软或限制上行"
+   "ai_adjust": -3,
+   "ai_note": "纯动力煤标的，ESG风险极高，涨幅或难持续。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭龙头盈利稳健，但长期ESG转型压力显著"
+   "ai_note": "煤炭为主但有多元化布局，ESG压力中等。"
   },
   {
-   "ticker": "VAL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "从Impala分拆新上市，独立运营记录尚待验证"
-  },
-  {
-   "ticker": "AFT.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "建材与铁矿 diversified，南非基建需求支撑"
+   "ticker": "KP2.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "刚果钾矿开发商，许可与融资风险长期悬而未决。"
   }
  ]
 }
