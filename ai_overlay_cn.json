@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-17T00:37Z",
+ "generated_at": "2026-09-18T00:28Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "央企铝龙头，但历史债务负担较重，缺乏短期催化剂。"
+   "ai_adjust": 1,
+   "ai_note": "铝业龙头央企，估值稳健但缺乏短期催化"
   },
   {
    "ticker": "002101.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "汽车铝压铸部件龙头，基本面稳健，无显著量化外风险。"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "山西国资煤企，长协煤占比高，业绩确定性强且分红稳定。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值铝企，历史上存在治理与信披瑕疵"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "绿电铝优势明显，但受限于云南枯水期电力供应波动。"
+   "ai_note": "中铝旗下绿电铝平台，运营平稳无异常"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "煤电铝一体化，成本控制优秀，高股息具备防御价值。"
-  },
-  {
-   "ticker": "002497.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂电材料周期下行，跨界并购后存在一定整合与治理风险。"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "核心煤炭央企，高股息与稳健现金流提供极强安全边际。"
+   "ai_adjust": 0,
+   "ai_note": "煤铝一体化经营，基本面平稳"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "产能向新疆转移成本优势显著，但受宏观地产需求拖累。"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "民营煤企，历史上有过债务违约与治理瑕疵，需警惕信用风险。"
+   "ai_note": "新疆低电价优势明显，暂无风险信号"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "地方国资背景，铝电联营，基本面平稳无突出亮点。"
+   "ai_adjust": -1,
+   "ai_note": "中小铝企，行业波动中抗风险能力偏弱"
   },
   {
-   "ticker": "600546.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "焦煤核心标的，资产注入预期与高股息支撑估值。"
-  },
-  {
-   "ticker": "603876.SS",
+   "ticker": "603937.SS",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "电池铝箔产能严重过剩导致加工费大幅下滑，盈利承压。"
+   "ai_adjust": -3,
+   "ai_note": "开发阶段企业，市值偏小且项目不确定性大"
+  },
+  {
+   "ticker": "002497.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌逾11%，多元化业务拖累主业表现"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型煤炭央企，高股息防御属性突出"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史治理争议较多，信披质量存疑"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "负债率偏高，盈利对铝价敏感度过大"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "资产负债率长期偏高，且曾受环保处罚，治理与财务风险并存。"
+   "ai_note": "月跌8.6%且前期扩张激进，需关注现金流"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "山西煤改整合平台，资产注入后运营趋稳"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "资产注入完成，基本面改善中"
+  },
+  {
+   "ticker": "603876.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "月暴跌20%，需警惕财务或经营重大隐患"
   },
   {
    "ticker": "002978.SZ",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "业务较杂，主业盈利能力一般，缺乏明确的资源扩张逻辑。"
+   "ai_note": "多元化布局分散，铝业主业竞争力一般"
+  },
+  {
+   "ticker": "600361.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中小铝企，无突出催化亦无明显风险"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "蒙东褐煤龙头，长协比例高，业绩随煤价波动但整体稳健。"
-  },
-  {
-   "ticker": "600219.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "民营铝加工龙头，但产业链延伸过长导致资金链偏紧。"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "锂价暴跌叠加收购SQM带来的巨额债务，财务费用严重侵蚀利润。"
-  },
-  {
-   "ticker": "600740.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "山西焦煤国企，近期焦煤价格企稳，业绩弹性较好。"
+   "ai_note": "蒙东大型露天煤矿，国企背景运营稳健"
   },
   {
    "ticker": "600971.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "地方煤电国企，基本面中规中矩，缺乏超额收益催化剂。"
+   "ai_adjust": -1,
+   "ai_note": "安徽地方煤企，体量偏小增长有限"
   },
   {
-   "ticker": "600361.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "借壳上市初期，资产整合与商誉减值风险需重点关注。"
+   "ticker": "600740.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "焦煤生产商，经营稳定无重大风险信号"
   }
  ]
 }
