@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-17T23:53Z",
+ "generated_at": "2026-09-18T23:46Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "FNUC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘铀矿勘探商，缺乏新闻且存在高稀释与炒作风险。"
-  },
-  {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史稀释严重，资金链紧张，量化模型难以捕捉其融资风险。"
+   "ai_adjust": -3,
+   "ai_note": "小市值勘探公司无消息面支撑，下跌趋势需警惕"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "极小市值铀矿勘探股，无实质进展，需警惕流动性与稀释风险。"
-  },
-  {
-   "ticker": "CEXYF",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值极小且短期暴涨，典型炒作特征，谨防拉高出货与稀释。"
+   "ai_note": "极小市值铀矿勘探股，缺乏催化剂和流动性"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "股价暴跌且市值微小，常伴随频繁增发与 promoter 炒作。"
+   "ai_adjust": -8,
+   "ai_note": "暴跌37%却无公告，高度疑似稀释或钻探失败"
+  },
+  {
+   "ticker": "CEXYF",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "无消息暴涨37%典型拉高出货特征，切勿追高"
+  },
+  {
+   "ticker": "FNUC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "勘探公司缺乏消息驱动，中性偏弱观望为主"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "权证通常意味着底层股权面临稀释或重组，存在结构性风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "权证暴跌41%杠杆风险极大，正股恐已出问题"
   },
   {
-   "ticker": "IONR",
+   "ticker": "NC",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂矿开发受困于联邦土地许可延迟，量化未计入审批时间成本。"
+   "ai_note": "煤炭生产商面临ESG压力，无利好支撑下跌"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "稀土项目资本开支巨大，面临长期且严重的股权稀释风险。"
+   "ai_note": "稀土开发商历史延期记录多，融资风险高企"
   },
   {
-   "ticker": "NC",
+   "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "大型锂矿开发商，Thacker Pass许可进展缓慢"
+  },
+  {
+   "ticker": "CMCL",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭生产商面临长期ESG逆风与需求衰退，估值受压制。"
+   "ai_note": "津巴布韦金矿生产商，政治风险溢价持续存在"
   },
   {
    "ticker": "GRO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "钾矿开发项目资本密集，存在一定执行风险，但近期势头良好。"
+   "ai_note": "巴西钾肥开发商走势平稳，等待项目进展催化"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Rhyolite Ridge锂项目有许可进展，走势偏强"
   },
   {
    "ticker": "ELVR",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "分类存疑，实为勘探阶段，股价大跌且基本面与流动性堪忧。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锂矿开发资本需求大，虽有通用汽车支持但仍存执行与融资风险。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦矿区存在地缘与政策风险，量化模型常忽略此类治理隐患。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "中型锂生产商暴跌26%无公告，需排查隐患"
   },
   {
    "ticker": "EU",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿ISR生产稳健，但原地浸出采矿的环保许可审批可能拖慢进度。"
-  },
-  {
-   "ticker": "CAMZF",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微盘多元勘探股，缺乏催化剂，需警惕管理层增发与流动性枯竭。"
+   "ai_note": "铀矿生产商大幅回调，行业波动性仍然较高"
   },
   {
    "ticker": "LODE",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "典型仙股特征，历史上有频繁反向拆股与稀释记录，需极度警惕。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿勘探公司历史治理问题多，大跌需回避"
   },
   {
-   "ticker": "GLDG",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "资产组合尚可，但长期依赖增发融资勘探，股东权益易被摊薄。"
+   "ticker": "CAMZF",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型勘探股暴跌23%无消息，稀释风险极高"
   },
   {
    "ticker": "SLI",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "DLE提锂技术尚需验证，资本开支巨大，合资项目存在执行不确定性。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "阿肯色锂矿开发商温和下跌，等待技术验证"
+  },
+  {
+   "ticker": "OGC",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型金矿商温和回调，新西兰许可风险已消化"
+  },
+  {
+   "ticker": "GLDG",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "金矿勘探股小幅下跌，缺乏近期催化剂"
   },
   {
    "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "与正股同属高风险炒作标的，权证属性进一步放大稀释与归零风险。"
-  },
-  {
-   "ticker": "METCB",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "核心煤炭业务面临转型压力，稀土勘探尚处早期，难以改变基本面。"
+   "ai_adjust": -9,
+   "ai_note": "FMST权证，正股已现红旗，权证风险更甚"
   }
  ]
 }
