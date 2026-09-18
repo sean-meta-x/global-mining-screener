@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-17T00:15Z",
+ "generated_at": "2026-09-18T00:07Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铁矿商，基本面稳健，无明显隐藏风险。"
+   "ai_adjust": -2,
+   "ai_note": "依赖中国需求且受南非铁路物流瓶颈制约，给予中性评级。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "历史多次稀释性融资，治理记录欠佳，需警惕。"
+   "ai_note": "历史上有频繁稀释和复杂架构问题，需警惕治理风险。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铬矿小盘股，与Glencore关联运营，流动性有限。"
+   "ai_note": "铬铁业务面临ESG压力，与嘉能可合资结构缺乏爆发力。"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "长期开发阶段，屡次稀释且项目推进不力，治理堪忧。"
+   "ai_adjust": -8,
+   "ai_note": "历史治理极差且项目屡次失败，典型价值陷阱，强烈看空。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "PGM生产商运营稳定，近期表现良好，无重大瑕疵。"
+   "ai_adjust": 0,
+   "ai_note": "运营稳健但受铂族金属价格低迷拖累，缺乏短期催化剂。"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "市值极小且流动性枯竭，存在极高稀释或壳公司风险。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "运营成本高企，历史上有治理与执行风险问题。"
-  },
-  {
-   "ticker": "MTU.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值仅6800万，流动性极差，信息透明度不足。"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "Motsepe关联交易及资本配置曾引发市场质疑。"
+   "ai_note": "美国铂族金属业务持续拖累，资本配置激进，需保持谨慎。"
   },
   {
    "ticker": "APH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "刚果(金)采矿管辖风险较高，但运营数据尚可。"
-  },
-  {
-   "ticker": "CPR.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "勘探阶段公司，无实质进展，典型推广型标的。"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "锡矿品位高且现金流强劲，基本面优异，给予适度超配。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "彩色宝石细分龙头，近期涨幅大但基本面支撑。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "彩色宝石业务面临ESG审查及莫桑比克运营风险。"
   },
   {
-   "ticker": "SLG.JO",
+   "ticker": "PAN.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "黄金业务成本控制良好，产量稳定，具备防御性溢价。"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "业务多元但受煤炭和铁矿石周期影响，BEE结构较复杂。"
+  },
+  {
+   "ticker": "CPR.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型煤炭股，ESG逆风下机构资金持续撤离。"
+   "ai_adjust": -3,
+   "ai_note": "铜矿概念虽热但尚处勘探阶段，执行与融资风险极高。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "PGM大型生产商，运营稳健，估值合理。"
+   "ai_adjust": -1,
+   "ai_note": "津巴布韦资产优质但南非本土成本高昂，铂价承压。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型煤炭股流动性极差，且面临长期ESG融资阻力。"
+  },
+  {
+   "ticker": "GFI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "全球资产组合优良，萨瓦迪诺项目投产带来明确增量。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "尾矿再处理金矿，低风险低成长，无隐藏问题。"
-  },
-  {
-   "ticker": "GFI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型金矿商，资产组合优质，治理规范。"
-  },
-  {
-   "ticker": "HAR.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "历史上成本管控欠佳，近年有所改善但仍需观察。"
+   "ai_note": "尾矿回收成本低但缺乏新储量接替，长期增长受限。"
   },
   {
    "ticker": "NPH.JO",
    "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "PGM板块中运营效率领先，管理层执行力强。"
+   "ai_adjust": 5,
+   "ai_note": "管理层优秀且成本优势显著，是铂族金属中的优质标的。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "纯动力煤标的，ESG风险极高，涨幅或难持续。"
+   "ai_adjust": -4,
+   "ai_note": "纯动力煤业务面临长期ESG融资困境，仅靠高股息支撑。"
+  },
+  {
+   "ticker": "HAR.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "产量增长良好但全维持成本偏高，金价上涨可部分覆盖。"
   },
   {
    "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭为主但有多元化布局，ESG压力中等。"
-  },
-  {
-   "ticker": "KP2.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "刚果钾矿开发商，许可与融资风险长期悬而未决。"
+   "ai_adjust": -3,
+   "ai_note": "煤炭资产占比大导致长期估值受压，需关注转型进度。"
   }
  ]
 }
