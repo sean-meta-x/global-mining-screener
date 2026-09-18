@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-17T01:01Z",
+ "generated_at": "2026-09-18T00:53Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿企，无新闻且持续下跌，警惕隐性稀释风险。"
-  },
-  {
    "ticker": "VIO.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "缺乏催化剂且流动性差，量化高分掩盖了微盘股风险。"
+   "ai_adjust": -3,
+   "ai_note": "市值微小且长期无新闻，流动性与项目进展存疑。"
+  },
+  {
+   "ticker": "HLU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值极低且毫无音讯，存在严重的流动性与退市风险。"
   },
   {
    "ticker": "LIFT.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "市值较大但无实质利好，阴跌趋势未改，需防范融资摊薄。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "作为开发商却长期无公告，需警惕资金链或项目延期风险。"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "极小市值勘探股，无消息面支撑，存在较高的资金链断裂风险。"
+   "ai_note": "微型勘探股缺乏新闻催化，基本面透明度极低。"
+  },
+  {
+   "ticker": "V.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿勘探股长期静默，需防范隐性稀释或项目停滞。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "一月暴跌近六成且无公告，极可能遭遇钻探失败或恶性稀释。"
+   "ai_note": "单月暴跌近六成且无利空公告，极可能存在未披露的暴雷。"
   },
   {
    "ticker": "LAB.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值极低且交易停滞，典型的缺乏流动性死钱标的。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值仅千万且完全无量无消息，典型的僵尸股特征。"
+  },
+  {
+   "ticker": "AEMC.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值极小且持续阴跌无公告，流动性枯竭风险极高。"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "虽有生产头衔但实际进展缓慢，基本面缺乏实质性改善。"
+   "ai_adjust": -1,
+   "ai_note": "作为生产商却缺乏日常运营公告，信息披露合规性存疑。"
   },
   {
-   "ticker": "AEMC.V",
+   "ticker": "AMY.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "电池材料勘探股市值微小且无新闻，需警惕融资稀释。"
+  },
+  {
+   "ticker": "IBAT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微盘股且持续下挫，无新闻披露，需警惕潜在的内幕利空。"
-  },
-  {
-   "ticker": "FAT.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴跌且无消息，CSE微盘股流动性极差，存在退市或融资风险。"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "具备实际矿山产出，基本面最扎实，可给予一定估值溢价。"
+   "ai_note": "缺乏新闻支持的下跌可能暗示内部人抛售或项目受挫。"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "无量暴涨且无公告，疑似低流动性下的资金炒作，谨防回调。"
-  },
-  {
-   "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "业务庞杂且市值微小，缺乏核心资产，下行风险较高。"
-  },
-  {
-   "ticker": "MMY.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "虽有在产矿山但受制于金价及成本，短期缺乏强劲催化剂。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "暴涨四成却无任何新闻支撑，高度疑似庄家拉高出货。"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "实际金矿生产商，但近期股价疲软，需关注其矿山运营成本。"
+   "ai_note": "中型生产商缺乏月度运营数据披露，信息透明度不足。"
   },
   {
-   "ticker": "SAM.TO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "股价持续阴跌，项目推进缓慢，需警惕潜在的股权稀释。"
+   "ticker": "THX.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "市值较大且走势独立，但缺乏新闻需关注后续催化是否兑现。"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "名称与主业不符且无故大涨，疑似游资炒作，追高风险大。"
-  },
-  {
-   "ticker": "CAF.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "交易极度清淡，缺乏机构关注，属于边缘化微盘壳资源。"
-  },
-  {
-   "ticker": "IPT.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "墨西哥银矿生产商，受当地社区及政策风险压制，估值承压。"
-  },
-  {
-   "ticker": "GPAC.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "一月大跌超三成且无利空公告，可能存在未披露的钻探失败。"
+   "ai_adjust": -4,
+   "ai_note": "铀矿股逆势大涨却无公告，需防范内幕交易或拉高派发。"
   },
   {
    "ticker": "MSV.TO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "暴跌近半且毫无音讯，极大概率遭遇项目失败或恶性融资。"
+   "ai_note": "单月腰斩且无官方解释，大概率存在未披露的重大利空。"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型股持续阴跌且零公告，基本面恶化与流动性风险并存。"
+  },
+  {
+   "ticker": "GPAC.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "开发商单月大跌三成且无公告，需警惕资金链断裂风险。"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "暴涨近四成却毫无新闻配合，典型的庄股操纵特征。"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大市值勘探股走势平稳，但缺乏新闻披露降低了投资确定性。"
   }
  ]
 }
