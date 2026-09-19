@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-18T00:53Z",
+ "generated_at": "2026-09-19T00:49Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "VIO.V",
+   "ticker": "CPAU.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值微小且长期无新闻，流动性与项目进展存疑。"
+   "ai_adjust": -4,
+   "ai_note": "无新闻却跌25%，小市值勘探股疑似隐性稀释或融资"
   },
   {
    "ticker": "HLU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值极低且毫无音讯，存在严重的流动性与退市风险。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铀矿勘探股跌幅温和，无异常信号"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "作为开发商却长期无公告，需警惕资金链或项目延期风险。"
+   "ai_adjust": -3,
+   "ai_note": "两亿市值开发商跌15%却无消息，需警惕项目风险"
   },
   {
    "ticker": "MRZL.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型勘探股缺乏新闻催化，基本面透明度极低。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "多项目控股公司跌幅有限，暂无明显异常"
   },
   {
    "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿勘探股长期静默，需防范隐性稀释或项目停滞。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿勘探股仅跌4%，走势相对稳健"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "单月暴跌近六成且无利空公告，极可能存在未披露的暴雷。"
+   "ai_note": "单月暴跌66%且无新闻，极可能遭遇稀释或钻探失败"
   },
   {
    "ticker": "LAB.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅千万且完全无量无消息，典型的僵尸股特征。"
-  },
-  {
-   "ticker": "AEMC.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值极小且持续阴跌无公告，流动性枯竭风险极高。"
-  },
-  {
-   "ticker": "MJS.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "作为生产商却缺乏日常运营公告，信息披露合规性存疑。"
-  },
-  {
-   "ticker": "AMY.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "电池材料勘探股市值微小且无新闻，需警惕融资稀释。"
+   "ai_note": "走势持平缺乏催化剂，小市值金矿勘探股流动性差"
   },
   {
    "ticker": "IBAT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "缺乏新闻支持的下跌可能暗示内部人抛售或项目受挫。"
+   "ai_note": "电池金属概念跌18%无消息，疑似融资或热度消退"
+  },
+  {
+   "ticker": "FAT.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "CSE小票跌33%无任何公告，高度疑似稀释或治理问题"
+  },
+  {
+   "ticker": "AMY.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "电池回收概念跌近29%，无新闻支撑，警惕资金撤离"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "金矿生产商逆势上涨，基本面相对扎实"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴涨四成却无任何新闻支撑，高度疑似庄家拉高出货。"
-  },
-  {
-   "ticker": "SBI.TO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "中型生产商缺乏月度运营数据披露，信息透明度不足。"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "市值较大且走势独立，但缺乏新闻需关注后续催化是否兑现。"
-  },
-  {
-   "ticker": "STUD.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀矿股逆势大涨却无公告，需防范内幕交易或拉高派发。"
+   "ai_adjust": -2,
+   "ai_note": "CSE铜矿股暴涨41%无新闻，疑似炒作拉升需警惕"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "跌幅12%在勘探股中属正常范围，暂无重大异常"
+  },
+  {
+   "ticker": "HUNT.CN",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "走势持平无消息，小市值股关注度低"
+  },
+  {
+   "ticker": "AEMC.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "跌幅8%属正常波动，阿拉斯加金矿项目暂无异常"
   },
   {
    "ticker": "MSV.TO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月腰斩且无官方解释，大概率存在未披露的重大利空。"
+   "ai_adjust": -7,
+   "ai_note": "暴跌48%无公告，极可能存在未披露的负面事件"
   },
   {
-   "ticker": "NAM.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型股持续阴跌且零公告，基本面恶化与流动性风险并存。"
+   "ticker": "AVL.TO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "涨39%无新闻驱动，疑似推广炒作，追高风险大"
   },
   {
    "ticker": "GPAC.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "开发商单月大跌三成且无公告，需警惕资金链断裂风险。"
+   "ai_adjust": -6,
+   "ai_note": "开发商级别却跌30%无消息，项目或融资存重大隐患"
   },
   {
-   "ticker": "AVL.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴涨近四成却毫无新闻配合，典型的庄股操纵特征。"
+   "ticker": "SAM.TO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "跌16%略大但Starcore有运营历史，暂观察"
   },
   {
-   "ticker": "MMY.V",
+   "ticker": "SR.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "大市值勘探股走势平稳，但缺乏新闻披露降低了投资确定性。"
+   "ai_note": "跌幅7%属正常范围，无异常信号"
   }
  ]
 }
