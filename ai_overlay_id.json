@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-19T00:06Z",
+ "generated_at": "2026-09-19T23:56Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "极小市值煤炭股缺乏信息透明度"
+   "ai_adjust": -3,
+   "ai_note": "微型煤企，流动性差且治理透明度低，量化模型难以捕捉小盘风险"
   },
   {
    "ticker": "MINE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "无消息暴涨30%疑似坐庄拉抬"
+   "ai_adjust": -7,
+   "ai_note": "月涨30%却无任何新闻，疑似庄家拉高出货，小盘股典型炒作特征"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "温和回调无异常信号"
+   "ai_note": "中型煤矿生产商，经营稳定，无重大异常信号"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "下跌10%无消息解释存隐忧"
+   "ai_note": "月跌10%且无消息面支撑，可能存在未披露的经营压力"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "暴跌近29%无消息或藏基本面问题"
+   "ai_note": "月跌近29%无 headlines，极可能有未公告的利空或流动性危机"
   },
   {
    "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大市值多元化龙头走势稳健"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "Astra旗下蓝筹矿服龙头，治理优良、分红稳定，量化低估其护城河"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大市值煤炭股小幅回调正常"
+   "ai_note": "大型煤矿生产商，基本面稳健，无显著额外风险或催化剂"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "温和上涨无异常"
+   "ai_note": "煤炭兼镍矿 diversified，表现平稳，无突出风险"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中大市值煤炭股走势平稳"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大市值镍企走势稳定"
+   "ai_note": "Harum集团中型煤企，运营成熟，无异常信号"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "极小市值暴涨17%无消息典型拉高"
+   "ai_note": "市值仅1830亿印尼盾却月涨17%，典型微盘股炒作，警惕崩盘"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "大市值煤炭股大涨或受分红催化"
+   "ai_adjust": 3,
+   "ai_note": "国有煤企龙头，高股息且治理规范，量化未充分反映SOE溢价"
   },
   {
    "ticker": "ARII.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭股信息不透明"
-  },
-  {
-   "ticker": "DAAZ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "下跌无消息能见度低"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型煤矿，走势平稳无异常，无额外风险需调整"
   },
   {
    "ticker": "DOID.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "Buma集团旗下矿服企业，受益于行业资本开支周期"
+  },
+  {
+   "ticker": "NCKL.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值无消息涨10%存疑"
+   "ai_adjust": -2,
+   "ai_note": "镍价受印尼供给过剩压制，量化模型可能低估金属价格下行风险"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "金价走强但个股逆势下跌存治理隐忧"
+   "ai_note": "金价高企但股价反跌，暗示矿山运营或成本端存在隐性问题"
   },
   {
-   "ticker": "ABMM.JK",
+   "ticker": "DAAZ.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中大市值走势平稳"
+   "ai_adjust": -1,
+   "ai_note": "上市时间较短，业务多元化但 track record 有限"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "走势平稳无催化剂"
+   "ai_note": "煤炭向新能源转型中，短期无显著催化或风险"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "矿服加煤炭双主业，经营稳健，无突出异常"
   },
   {
    "ticker": "KKGI.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值无消息涨16%存疑"
+   "ai_adjust": -2,
+   "ai_note": "月涨16%缺乏消息面配合，需警惕短期投机资金撤退风险"
   },
   {
-   "ticker": "NICL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锡矿股小幅回调正常"
+   "ticker": "TINS.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "国有锡业龙头，受益锡价强势，SOE治理加分量化未充分体现"
   }
  ]
 }
