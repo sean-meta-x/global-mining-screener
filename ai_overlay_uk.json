@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-18T23:57Z",
+ "generated_at": "2026-09-19T23:48Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
    "ticker": "THX.L",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "尼日利亚矿区存在一定地缘与安全风险，但已实现量产，整体风险可控。"
+   "ai_adjust": 0,
+   "ai_note": "开发转生产阶段，科特迪瓦辖区尚可，无重大催化或风险"
   },
   {
    "ticker": "SRB.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴西Palito金矿产量稳定，但公司规模较小，抗风险能力一般。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "巴西小型金矿生产商，跌幅与量化评分背离，运营风险存疑"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "纯铀矿勘探阶段，市值极小且无营收，高度依赖融资，存在稀释风险。"
+   "ai_note": "微型市值勘探公司，流动性差且存在持续融资稀释风险"
   },
   {
    "ticker": "MET1.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "瑞典Kallak铁矿项目因原住民抗议面临严重许可停滞，开发无期。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型市值勘探阶段，项目能见度低，依赖融资维持"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀现货持有公司，受益铀价但无运营杠杆，中性配置"
   },
   {
    "ticker": "JLP.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "南非PGM项目运营复杂，历史上存在公司治理与股权稀释争议。"
-  },
-  {
-   "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "纯物理铀矿基金，无矿山运营风险，直接受益于铀价上涨，流动性好。"
+   "ai_note": "南非司法辖区风险高，铬铂业务承压，跌幅扩大"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "北马其顿与保加利亚铜锌矿运营稳健，分红良好，但需关注巴尔干地缘。"
-  },
-  {
-   "ticker": "CMCL.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦Blanket金矿成本可控且持续分红，但该国政策风险极高。"
+   "ai_adjust": 2,
+   "ai_note": "保加利亚及北马其顿运营，辖区尚可，短期动能正面"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "钻石价格低迷且公司刚经历债务重组，治理结构受损，基本面恶化。"
+   "ai_adjust": -5,
+   "ai_note": "钻石生产商财务困境严重，债务重组中，市值极低反映风险"
   },
   {
-   "ticker": "XTR.L",
+   "ticker": "CMCL.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "赞比亚铜锌项目规模极小，历史融资困难且运营屡受挫折，风险较高。"
-  },
-  {
-   "ticker": "RMR.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "土耳其铜矿项目面临当地政策风险，且公司市值微小，资金链脆弱。"
+   "ai_adjust": -5,
+   "ai_note": "津巴布韦运营，司法辖区风险极高，政策不确定性大"
   },
   {
    "ticker": "BHL.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "葡萄牙锂矿处于极早期勘探阶段，市值微小，纯属概念炒作，风险高。"
+   "ai_adjust": -4,
+   "ai_note": "锂矿勘探微型股，锂价暴跌后市场情绪极差，融资风险高"
+  },
+  {
+   "ticker": "XTR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "单月暴跌24%且无新闻，可能存在未披露的钻探失败或稀释"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲金矿生产商，运营相对平稳，但缺乏重大增长催化剂，表现中规中矩。"
-  },
-  {
-   "ticker": "0ICU.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非金矿尾矿回收项目现金流尚可，但面临品位下降及南非系统性风险。"
-  },
-  {
-   "ticker": "GLR.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "博茨瓦纳与瑞典的早期勘探项目，市值微小，缺乏实质性钻探突破。"
+   "ai_note": "澳洲矿业承包商，西澳司法辖区稳定，业绩平稳"
   },
   {
    "ticker": "SLP.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非PGM尾矿回收成本低且分红慷慨，但受铂族金属价格波动影响大。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "南非铂族金属生产商，辖区风险叠加PGM价格疲软"
+  },
+  {
+   "ticker": "RMR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "单月暴跌32%，微型勘探股疑似钻探失败或重大稀释事件"
   },
   {
    "ticker": "THS.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非PGM与铬矿生产商，基本面扎实，但受限于南非电力与政策风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "南非铂铬生产商，辖区风险持续，PGM市场承压"
   },
   {
    "ticker": "KOD.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "马里锂矿项目，政变后矿业法修改，司法辖区风险极高"
+  },
+  {
+   "ticker": "0ICU.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "南非金矿尾矿处理，辖区风险压制估值，金价支撑有限"
+  },
+  {
+   "ticker": "GLR.L",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "马里锂矿项目面临军政府政策突变及出口禁令风险，地缘政治风险极高。"
+   "ai_adjust": -5,
+   "ai_note": "微型市值单月暴涨25%且无新闻，典型炒作拉升特征"
   },
   {
    "ticker": "GGP.L",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "Havieron项目失去Newmont支持后面临巨大资金缺口，开发许可与融资风险高。"
+   "ai_adjust": -4,
+   "ai_note": "失去纽蒙特合作后Havieron项目前景不明，开发商路径缺失"
   },
   {
-   "ticker": "ORR.L",
+   "ticker": "AAU.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "西非早期金矿勘探，合作伙伴变更频繁，项目推进缓慢，缺乏核心催化。"
+   "ai_adjust": -3,
+   "ai_note": "土耳其金矿生产商，里拉波动及政策风险持续压制估值"
   }
  ]
 }
