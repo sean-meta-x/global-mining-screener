@@ -1,66 +1,66 @@
 {
- "generated_at": "2026-09-18T23:30Z",
+ "generated_at": "2026-09-19T23:22Z",
  "model": "qwen3.7-plus",
  "outlook": {
   "Gold": {
-   "multiplier": 1.15,
-   "note": "Central bank accumulation and geopolitical hedging support prices"
+   "multiplier": 1.1,
+   "note": "Central bank buying and rate cut expectations support prices despite extended levels."
   },
   "Silver": {
-   "multiplier": 1.2,
-   "note": "Strong industrial solar demand and high beta to precious metals rally"
+   "multiplier": 1.15,
+   "note": "Strong solar panel demand and gold beta drive a structural market deficit."
   },
   "Copper": {
-   "multiplier": 1.15,
-   "note": "Structural concentrate deficits and robust electrification demand"
+   "multiplier": 1.2,
+   "note": "Tight mine supply and grid electrification demand underpin a structural deficit."
   },
   "Uranium": {
-   "multiplier": 1.2,
-   "note": "Structural primary supply deficit and renewed global nuclear build"
+   "multiplier": 1.25,
+   "note": "Primary mine supply deficits and restarting global nuclear capacity ensure contract price support."
   },
   "Lithium": {
    "multiplier": 0.85,
-   "note": "Near-term market oversupply and moderating EV demand growth"
+   "note": "Near-term oversupply from new projects offsets slower EV demand growth."
   },
   "Nickel": {
    "multiplier": 0.8,
-   "note": "Surging Indonesian supply and LFP battery substitution"
+   "note": "Surging Indonesian supply continues to overwhelm stainless and battery demand."
   },
   "Zinc": {
-   "multiplier": 1.05,
-   "note": "Tight concentrate markets offsetting weak Chinese construction demand"
+   "multiplier": 1.1,
+   "note": "Concentrate shortages and smelter maintenance tighten the refined metal market."
   },
   "Iron Ore": {
    "multiplier": 0.85,
-   "note": "Weak Chinese property sector and ample seaborne supply"
+   "note": "Weak Chinese property sector and high seaborne supply cap upside potential."
   },
   "Coal": {
-   "multiplier": 0.95,
-   "note": "Peaking thermal demand balanced against ongoing supply constraints"
+   "multiplier": 0.9,
+   "note": "High global inventories and peak thermal demand limit long-term price appreciation."
   },
   "Rare Earths": {
-   "multiplier": 0.9,
-   "note": "Near-term oversupply despite strategic export controls"
+   "multiplier": 1.05,
+   "note": "Chinese supply quotas and export restrictions tighten the market for critical magnet metals."
   },
   "Manganese": {
-   "multiplier": 1.0,
-   "note": "Balanced steel demand offset by South African logistical constraints"
+   "multiplier": 0.95,
+   "note": "Steady steel demand is offset by ample South African and Gabonese supply."
   },
   "PGM": {
-   "multiplier": 0.95,
-   "note": "Weak global auto production offsetting supply-side power constraints"
+   "multiplier": 0.9,
+   "note": "Weak auto catalyst demand and metal substitution keep the market well-supplied."
   },
   "Potash": {
-   "multiplier": 1.05,
-   "note": "Steady global agricultural application rates and normalized supply"
+   "multiplier": 0.95,
+   "note": "Normalization of global supply chains following recent geopolitical export shocks eases prices."
   },
   "Aluminum": {
-   "multiplier": 1.1,
-   "note": "Smelter capacity caps in China and strong green transition demand"
+   "multiplier": 1.15,
+   "note": "Chinese production capacity caps and rising green energy demand tighten the primary metal market."
   },
   "Diversified": {
-   "multiplier": 1.0,
-   "note": "Iron ore weakness offset by strong copper and gold exposure"
+   "multiplier": 1.05,
+   "note": "Balanced exposure to copper and iron ore provides a hedge against single-commodity volatility."
   }
  }
 }
