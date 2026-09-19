@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T00:07Z",
+ "generated_at": "2026-09-19T00:00Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "依赖中国需求且受南非铁路物流瓶颈制约，给予中性评级。"
+   "ai_note": "铁矿石需求受中国宏观影响大，量化模型未充分计入周期风险。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史上有频繁稀释和复杂架构问题，需警惕治理风险。"
+   "ai_adjust": -5,
+   "ai_note": "历史上有激进并购与稀释股权记录，治理与资本配置存疑。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铬铁业务面临ESG压力，与嘉能可合资结构缺乏爆发力。"
-  },
-  {
-   "ticker": "WEZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "历史治理极差且项目屡次失败，典型价值陷阱，强烈看空。"
-  },
-  {
-   "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "运营稳健但受铂族金属价格低迷拖累，缺乏短期催化剂。"
+   "ai_adjust": -2,
+   "ai_note": "铬矿价格波动大且高度依赖南非不稳定的电力供应。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "市值极小且流动性枯竭，存在极高稀释或壳公司风险。"
+   "ai_adjust": -8,
+   "ai_note": "市值极小且近期暴跌，流动性差且存在潜在治理风险。"
+  },
+  {
+   "ticker": "THA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铂族金属价格持续低迷，高资本开支拖累短期盈利。"
+  },
+  {
+   "ticker": "WEZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "长期面临融资困难与项目开发延期，存在较高破产风险。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "美国铂族金属业务持续拖累，资本配置激进，需保持谨慎。"
+   "ai_adjust": -5,
+   "ai_note": "铂族金属价格暴跌叠加美国金矿成本通胀，盈利承压。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "锡矿品位高且现金流强劲，基本面优异，给予适度超配。"
+   "ai_note": "高品位锡矿带来强劲现金流，但需警惕刚果金地缘风险。"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型市值勘探公司无营收，高度依赖融资且执行风险大。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "彩色宝石业务面临ESG审查及莫桑比克运营风险。"
-  },
-  {
-   "ticker": "PAN.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "黄金业务成本控制良好，产量稳定，具备防御性溢价。"
+   "ai_note": "彩色宝石属于小众利基市场，易受全球奢侈品需求下滑冲击。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "业务多元但受煤炭和铁矿石周期影响，BEE结构较复杂。"
+   "ai_adjust": -2,
+   "ai_note": "资产多元但铂族金属敞口过大，拖累整体估值表现。"
   },
   {
    "ticker": "CPR.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铜矿概念虽热但尚处勘探阶段，执行与融资风险极高。"
+   "ai_note": "早期铜矿开发商面临严苛的环评许可与资金落地风险。"
   },
   {
-   "ticker": "IMP.JO",
+   "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "津巴布韦资产优质但南非本土成本高昂，铂价承压。"
+   "ai_adjust": -2,
+   "ai_note": "煤炭现金流强劲，但长期面临ESG撤资与能源转型压力。"
   },
   {
    "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型煤炭股流动性极差，且面临长期ESG融资阻力。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小型煤炭生产商抗风险能力弱，面临运营与ESG双重压力。"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "南非深部矿井成本高昂，叠加铂族金属价格低迷。"
+  },
+  {
+   "ticker": "PAN.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "受益于金价上涨及运营改善，黄金业务迎来戴维斯双击。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "全球资产组合优良，萨瓦迪诺项目投产带来明确增量。"
+   "ai_adjust": 3,
+   "ai_note": "全球化黄金资产组合分散了地域风险，充分受益于金价牛市。"
+  },
+  {
+   "ticker": "TGA.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "短期高分红具吸引力，但动力煤长期衰退风险被市场低估。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "尾矿回收成本低但缺乏新储量接替，长期增长受限。"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 5,
-   "ai_note": "管理层优秀且成本优势显著，是铂族金属中的优质标的。"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "纯动力煤业务面临长期ESG融资困境，仅靠高股息支撑。"
+   "ai_adjust": -2,
+   "ai_note": "尾矿回收业务利润率易受南非通胀及电费上涨的挤压。"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "产量增长良好但全维持成本偏高，金价上涨可部分覆盖。"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭资产占比大导致长期估值受压，需关注转型进度。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "黄金产量稳健，且巴布亚新几内亚铜金项目提供长期期权。"
   }
  ]
 }
