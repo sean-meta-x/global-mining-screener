@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-19T00:49Z",
+ "generated_at": "2026-09-20T00:40Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "CPAU.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "无新闻却跌25%，小市值勘探股疑似隐性稀释或融资"
+   "ai_adjust": -3,
+   "ai_note": "微盘金矿勘探股无新闻且下跌，警惕流动性枯竭与稀释。"
   },
   {
    "ticker": "HLU.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀矿勘探股跌幅温和，无异常信号"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微盘铀矿无实质进展，资金消耗快，存在定增稀释风险。"
   },
   {
    "ticker": "LIFT.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "两亿市值开发商跌15%却无消息，需警惕项目风险"
-  },
-  {
-   "ticker": "MRZL.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "多项目控股公司跌幅有限，暂无明显异常"
-  },
-  {
-   "ticker": "V.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿勘探股仅跌4%，走势相对稳健"
+   "ai_adjust": -2,
+   "ai_note": "开发阶段项目下跌且无新闻，需关注许可证审批或资金成本。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月暴跌66%且无新闻，极可能遭遇稀释或钻探失败"
+   "ai_adjust": -10,
+   "ai_note": "单月暴跌超六成，极可能是钻探失败或前期炒作资金崩盘。"
   },
   {
-   "ticker": "LAB.V",
+   "ticker": "V.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "走势持平缺乏催化剂，小市值金矿勘探股流动性差"
+   "ai_note": "小盘铀矿缺乏近期催化剂，横盘阴跌中需防范隐性稀释。"
+  },
+  {
+   "ticker": "MRZL.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值不足两千万且无新闻支撑，流动性溢价低，警惕融资稀释。"
   },
   {
    "ticker": "IBAT.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池金属概念跌18%无消息，疑似融资或热度消退"
+   "ai_adjust": -4,
+   "ai_note": "电池金属勘探股跌幅较大且无利好，可能面临资金链紧张。"
   },
   {
    "ticker": "FAT.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "CSE小票跌33%无任何公告，高度疑似稀释或治理问题"
+   "ai_adjust": -8,
+   "ai_note": "微盘股单月暴跌近三成，无新闻掩盖下恐有未披露的利空或稀释。"
   },
   {
    "ticker": "AMY.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "电池回收概念微盘股重挫，警惕概念炒作退潮及后续融资稀释。"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "微盘铜矿无新闻却暴涨四成，典型炒作特征，极易遭遇高位派发。"
+  },
+  {
+   "ticker": "MSV.TO",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "单月腰斩式下跌，无新闻说明市场已提前定价钻探失败或治理危机。"
+  },
+  {
+   "ticker": "NAM.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "电池回收概念跌近29%，无新闻支撑，警惕资金撤离"
+   "ai_note": "微盘多元金属勘探股缺乏流动性，阴跌中需防范管理层低价发股。"
+  },
+  {
+   "ticker": "HUNT.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微盘股交易停滞无催化剂，资金时间成本高，需警惕隐性稀释。"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "金矿生产商逆势上涨，基本面相对扎实"
+   "ai_note": "黄金生产商基本面较稳，上涨或受金价驱动，具备一定防御性。"
   },
   {
-   "ticker": "CEXY.CN",
+   "ticker": "GPAC.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "CSE铜矿股暴涨41%无新闻，疑似炒作拉升需警惕"
-  },
-  {
-   "ticker": "NAM.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅12%在勘探股中属正常范围，暂无重大异常"
-  },
-  {
-   "ticker": "HUNT.CN",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "走势持平无消息，小市值股关注度低"
+   "ai_adjust": -6,
+   "ai_note": "开发阶段项目重挫，需排查是否遭遇许可证驳回或资本开支超支。"
   },
   {
    "ticker": "AEMC.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅8%属正常波动，阿拉斯加金矿项目暂无异常"
-  },
-  {
-   "ticker": "MSV.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴跌48%无公告，极可能存在未披露的负面事件"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "阿拉斯加微盘勘探股交投清淡，无实质进展，资金沉淀风险高。"
   },
   {
    "ticker": "AVL.TO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "涨39%无新闻驱动，疑似推广炒作，追高风险大"
+   "ai_adjust": -5,
+   "ai_note": "无新闻支撑的异常暴涨多为资金炒作，需防范利好落空后的回撤。"
   },
   {
-   "ticker": "GPAC.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "开发商级别却跌30%无消息，项目或融资存重大隐患"
+   "ticker": "IPT.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "银矿生产商运营相对稳定，微跌属正常波动，暂无明显治理风险。"
   },
   {
-   "ticker": "SAM.TO",
+   "ticker": "LCE.V",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "跌16%略大但Starcore有运营历史，暂观察"
+   "ai_note": "锂矿项目推进缓慢导致阴跌，需关注后续融资计划及锂价走势。"
   },
   {
-   "ticker": "SR.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅7%属正常范围，无异常信号"
+   "ticker": "MMY.V",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "市值较大且逆势上涨，基本面或产量预期改善，具备配置价值。"
   }
  ]
 }
