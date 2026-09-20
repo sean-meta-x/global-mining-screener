@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T23:56Z",
+ "generated_at": "2026-09-20T23:57Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型煤企，流动性差且治理透明度低，量化模型难以捕捉小盘风险"
+   "ai_note": "小市值煤炭股流动性差，需警惕治理与退市风险。"
   },
   {
    "ticker": "MINE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "月涨30%却无任何新闻，疑似庄家拉高出货，小盘股典型炒作特征"
+   "ai_adjust": -8,
+   "ai_note": "无基本面利好下微盘股单月暴涨，典型庄家拉高出货特征。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤矿生产商，经营稳定，无重大异常信号"
+   "ai_note": "煤炭承包商基本面稳健，但受煤价波动影响较大。"
   },
   {
    "ticker": "IFSH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌10%且无消息面支撑，可能存在未披露的经营压力"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "矿业承包商业务稳定，短期股价回调属正常市场波动。"
   },
   {
    "ticker": "DWGL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌近29%无 headlines，极可能有未公告的利空或流动性危机"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "单月暴跌近三成，需排查是否存在合同流失或债务违约。"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Astra旗下蓝筹矿服龙头，治理优良、分红稳定，量化低估其护城河"
+   "ai_adjust": 5,
+   "ai_note": "阿斯特拉集团旗下蓝筹，治理优秀且分红慷慨，量化模型低估其价值。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤矿生产商，基本面稳健，无显著额外风险或催化剂"
+   "ai_adjust": 1,
+   "ai_note": "中大型煤炭生产商，基本面扎实，抗风险能力较强。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭兼镍矿 diversified，表现平稳，无突出风险"
+   "ai_note": "煤炭与黄金双主业，产量增长可期但存在多金属执行风险。"
   },
   {
    "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Harum集团中型煤企，运营成熟，无异常信号"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "煤炭现金流充沛并成功转型镍矿，管理层战略清晰。"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅1830亿印尼盾却月涨17%，典型微盘股炒作，警惕崩盘"
-  },
-  {
-   "ticker": "PTBA.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "国有煤企龙头，高股息且治理规范，量化未充分反映SOE溢价"
-  },
-  {
-   "ticker": "ARII.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤矿，走势平稳无异常，无额外风险需调整"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "Buma集团旗下矿服企业，受益于行业资本开支周期"
+   "ai_adjust": -6,
+   "ai_note": "市值不足两千亿印尼盾且无端暴涨，存在极高操纵与流动性风险。"
   },
   {
    "ticker": "NCKL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "镍价受印尼供给过剩压制，量化模型可能低估金属价格下行风险"
+   "ai_view": "neutral",
+   "ai_adjust": 2,
+   "ai_note": "哈立达集团核心镍资产，产能释放确定性强，但受镍价低迷压制。"
   },
   {
-   "ticker": "PSAB.JK",
+   "ticker": "PTBA.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "国企煤炭龙头单月大涨近三成，短期存在获利盘回吐与估值透支风险。"
+  },
+  {
+   "ticker": "ARII.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金价高企但股价反跌，暗示矿山运营或成本端存在隐性问题"
+   "ai_adjust": -2,
+   "ai_note": "中小市值煤炭股，历史财务数据曾有瑕疵，需警惕治理风险。"
   },
   {
    "ticker": "DAAZ.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "上市时间较短，业务多元化但 track record 有限"
+   "ai_adjust": 0,
+   "ai_note": "业务多元化但重组后仍需观察其实际现金流与盈利兑现能力。"
+  },
+  {
+   "ticker": "DOID.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "矿业承包商负债率偏高，行业周期下行时财务脆弱性凸显。"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "黄金矿企债务负担重且股权结构复杂，历史治理问题频发。"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "管理层稳健，煤炭与采矿业务协同效应好，治理结构在同行中领先。"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭向新能源转型中，短期无显著催化或风险"
-  },
-  {
-   "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "矿服加煤炭双主业，经营稳健，无突出异常"
+   "ai_adjust": 1,
+   "ai_note": "煤炭主业提供稳定现金流，正稳步向新能源转型，长期逻辑顺畅。"
   },
   {
    "ticker": "KKGI.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "月涨16%缺乏消息面配合，需警惕短期投机资金撤退风险"
+   "ai_note": "无新闻配合下单月暴涨，需警惕短期资金炒作与庄股风险。"
   },
   {
    "ticker": "TINS.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "国有锡业龙头，受益锡价强势，SOE治理加分量化未充分体现"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锡价上涨带动国企龙头大涨，但行业历史上存在合规与治理瑕疵。"
   }
  ]
 }
