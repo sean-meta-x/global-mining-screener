@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-19T23:38Z",
+ "generated_at": "2026-09-20T23:38Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型勘探公司无新闻，历史上有稀释和项目延期记录"
+   "ai_adjust": -5,
+   "ai_note": "石墨项目许可受阻，历史稀释严重，典型炒作股"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "极小市值铀矿勘探，流动性差缺乏催化剂"
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探商，无新闻支撑，存在稀释风险"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微市值铜矿无新闻暴涨37%，高度疑似炒作拉升"
+   "ai_note": "微型铜矿股无消息暴涨37%，典型拉高出货特征"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "暴跌37%无新闻，公司有反向拆分和稀释劣迹"
+   "ai_adjust": -8,
+   "ai_note": "微型股无消息暴跌37%，疑似增发或钻探失败"
   },
   {
    "ticker": "FNUC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "新设核能SPAC载体，资产质量不明缺乏验证"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "新设核矿实体，缺乏业绩验证，中性观望"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "权证标的本身有时间衰减，暴跌40%无新闻"
+   "ai_note": "权证工具存在时间衰减，暴跌40%结构风险极高"
   },
   {
    "ticker": "NC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭生产商面临结构性行业逆风"
+   "ai_adjust": -4,
+   "ai_note": "煤炭业务面临ESG压力，家族治理存隐患"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "项目反复延期，多次增发稀释，融资风险高"
   },
   {
    "ticker": "CMCL",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "津巴布韦金矿生产商，主权和治理风险显著"
+   "ai_note": "津巴布韦政策与汇率风险突出，运营不确定性大"
   },
   {
    "ticker": "LAC",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "锂价低迷但Thacker Pass项目有长期战略价值"
+   "ai_adjust": -3,
+   "ai_note": "部落诉讼与许可挑战持续，资本开支巨大"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "管理层历史信誉差，曾遭SEC调查，治理堪忧"
   },
   {
    "ticker": "IONR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锂行业逆风中温和上涨缺乏新闻支撑"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "环保与原住民反对致许可延迟，融资存压力"
   },
   {
    "ticker": "ELVR",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "所谓中型生产商暴跌26%无新闻，疑似隐性利空"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴西钾矿开发商温和上涨，基本面尚可"
-  },
-  {
-   "ticker": "NB",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "稀土开发商暴跌20%，NioCorp长期执行不力稀释严重"
+   "ai_note": "中型矿企无消息暴跌26%，或存运营或治理问题"
   },
   {
    "ticker": "EU",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铀矿生产商大跌17%无新闻，有稀释历史"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "暴跌23%无新闻，Comstock多次转型治理堪忧"
+   "ai_adjust": -4,
+   "ai_note": "南达科他州环保许可受阻，持续稀释股东"
   },
   {
    "ticker": "CLRSF",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微市值explorer流动性极差无催化剂"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "微型勘探股流动性差，缺乏催化剂"
   },
   {
-   "ticker": "OGC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型金矿商温和回调，运营相对稳定"
+   "ticker": "LODE",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "频繁战略转型消耗价值，治理存疑，无缘由下跌"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂开发商行业逆风，此前合作破裂影响信心"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "金矿勘探组合尚可但缺乏近期催化剂"
+   "ai_adjust": -3,
+   "ai_note": "技术路线延迟，多次融资稀释，锂价低迷"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "微市值暴跌25%无新闻，疑似稀释或钻探失败"
+   "ai_note": "微型股无消息暴跌24%，高度疑似增发或失败"
+  },
+  {
+   "ticker": "GLDG",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "长期持续增发稀释股东，股本膨胀严重"
+  },
+  {
+   "ticker": "OGC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "菲律宾矿区社区反对与政策风险需关注"
   }
  ]
 }
