@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-20T00:03Z",
+ "generated_at": "2026-09-21T00:04Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中国白银曾有治理争议，无消息下跌15%需警惕"
+   "ai_adjust": -3,
+   "ai_note": "白银生产商，历史存在复杂关联交易与融资摊薄风险。"
   },
   {
    "ticker": "1303.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭股无消息下跌10%，流动性风险较高"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "小市值煤炭股，过往财务透明度低，存在潜在治理隐患。"
   },
   {
    "ticker": "0098.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铝业股无消息暴跌18%，或存隐性经营问题"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "国资背景铝企，基本面稳健但受周期波动影响，无显著异常。"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型市值高岭土股，流动性极差存稀释风险"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "金矿股月涨18%动量良好，金价支撑基本面"
+   "ai_note": "高岭土小盘股，流动性差且业务边缘化，需警惕流动性折价。"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "创业板股票治理风险高，无消息下跌13%"
+   "ai_note": "主业偏教育科技，矿产分类存疑，跨界资产估值难以核实。"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "近期金价上涨带动短期反弹，但需关注海外矿山实际运营成本。"
   },
   {
    "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型市值多元化公司，流动性差存老千股嫌疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "极小市值仙股特征明显，历史常有资本运作与炒作嫌疑。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝业龙头，流动性好治理规范"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非金矿开发商，执行风险高且融资需求大"
-  },
-  {
-   "ticker": "8250.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅3400万却涨11%，典型仙股炒作特征"
+   "ai_note": "大型央企铝企，受宏观政策与周期影响大，治理规范但弹性低。"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铜业股无消息跌13.5%，或存未披露利空"
+   "ai_note": "铜矿小盘股，资源禀赋一般，需防范大股东质押或稀释风险。"
+  },
+  {
+   "ticker": "0621.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "南非金矿开发商，长期受困于资金短缺、项目延期与股权稀释。"
+  },
+  {
+   "ticker": "8250.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "创业板极小市值煤炭股，壳资源特征显著，存在极高摊薄风险。"
   },
   {
    "ticker": "1182.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史上多次更名重组，治理信誉存疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "典型老牌仙股，频繁重组与供股摊薄，基本面缺乏实质支撑。"
   },
   {
    "ticker": "2489.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "次新金矿股，运营历史短需更多数据验证"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "次新黄金股，产能释放与成本管控仍需验证，警惕估值溢价。"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型煤炭股波动温和，基本面尚可"
+   "ai_adjust": 0,
+   "ai_note": "主流煤炭生产商，现金流较好，但需关注煤价下行周期的利润压力。"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "无烟煤小盘股，流动性匮乏，历史存在控盘炒作与治理瑕疵。"
   },
   {
    "ticker": "1898.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型央企煤炭龙头，治理规范估值合理"
-  },
-  {
-   "ticker": "1738.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足8000万月跌24%，流动性枯竭警报"
+   "ai_note": "大型煤企，分红稳定且治理规范，但缺乏高成长催化剂。"
   },
   {
    "ticker": "6885.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭股无消息跌近10%，需关注债务"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "焦煤生产商，业绩受煤炭周期影响，小市值带来一定流动性风险。"
   },
   {
    "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铁矿石公司曾经历债务重组，信用风险犹存"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "俄罗斯铁矿资产，受地缘制裁严重影响，面临极大运营与治理风险。"
   },
   {
    "ticker": "1051.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金矿股曾涉治理争议，无消息下跌需警惕"
+   "ai_adjust": -4,
+   "ai_note": "老牌黄金股，虽经重组但历史摊薄劣迹斑斑，需警惕资本运作。"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "市值仅1.3亿逆势上涨，疑似庄家控盘炒作"
+   "ai_adjust": -6,
+   "ai_note": "极小市值煤炭股，主业边缘化，壳公司特征明显，极易发生稀释。"
   }
  ]
 }
