@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T23:52Z",
+ "generated_at": "2026-09-22T00:44Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "Transnet铁路物流瓶颈制约铁矿石产量与发运。"
+   "ai_note": "铁矿价格承压叠加Transnet物流瓶颈，量化未反映出口受限风险"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "历史上有复杂交易与稀释前科，需警惕股本扩张风险。"
+   "ai_adjust": -4,
+   "ai_note": "历史多次配股稀释，16%跌幅无新闻或暗示隐性利空"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "市值较小且流动性差，基本面平稳但缺乏短期催化剂。"
-  },
-  {
-   "ticker": "MTU.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅六千多万，极度缺乏流动性，存在操纵与退市风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铬铁行业治理问题频发，小盘股流动性风险被低估"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "铂族金属价格持续低迷，短期业绩承压且缺乏反转信号。"
+   "ai_note": "铑价从高位暴跌，PGM组合盈利承压，反弹持续性存疑"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅5800万且暴跌16%，微型股存在严重流动性和 promoter 风险"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "深部开采成本高企且受铂价下跌拖累，重组风险犹存。"
+   "ai_adjust": -5,
+   "ai_note": "矿 shaft 事故频发、债务高企，PGM低迷下运营风险极大"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "长期停滞的开发商，历史上有严重融资失败与稀释记录。"
+   "ai_adjust": -7,
+   "ai_note": "长期停留在开发阶段无产出，反复融资稀释，典型烧钱陷阱"
   },
   {
    "ticker": "APH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "锡矿Bisie项目品位极高且现金流强劲，被模型低估。"
-  },
-  {
-   "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "业务多元但受煤炭和铁矿石周期影响，整体表现中规中矩。"
+   "ai_note": "锡业基本面稳健，Bisie矿品位优异，无明显治理瑕疵"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "有色宝石龙头但莫桑比克项目曾有治理争议，需持续关注"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭业务面临长期能源转型压力，估值已充分反映该风险。"
+   "ai_note": "煤炭现金流强劲但长期面临能源转型估值折价"
   },
   {
-   "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "无实质利好下微盘股单月暴涨50%，典型炒作与流动性陷阱。"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "莫桑比克矿区存在地缘与治理隐患，有色宝石需求疲软。"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微盘煤炭股流动性极差，且面临ESG融资限制与转型风险。"
+   "ticker": "ARI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "Motsepe管理层优质但PGM和铁矿敞口拖累整体回报"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂族金属价格低迷导致利润大幅缩水，短期难见拐点。"
+   "ai_adjust": -4,
+   "ai_note": "PGM价格崩塌叠加南非电力与劳工风险，盈利大幅恶化"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型煤炭股治理记录堪忧，4亿市值下流动性极差"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "虽股息率高但属高污染资产，长期面临ESG资金撤出风险。"
+   "ai_adjust": 1,
+   "ai_note": "动力煤现货价格坚挺支撑短期盈利，但长期需求结构性下滑"
   },
   {
    "ticker": "GFI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金价格高位支撑业绩，但南非深部矿井运营风险仍存。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "金价高位运行，运营稳健且多矿区分散风险，被量化低估"
   },
   {
    "ticker": "PAN.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "尾矿项目成本低且产量稳步增长，黄金上行期弹性较好。"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "金价利好下Elikhulu项目贡献增量，运营执行力较好"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "管理层优秀但PGM价格低迷严重压缩利润空间"
   },
   {
    "ticker": "DRD.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "地表尾矿资源逐渐枯竭，长期增长受限，维持中性评价。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "10.7%跌幅异常，尾矿回收成本上升叠加金价波动风险"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金产量增长但并购推高成本，整体表现符合行业平均水平。"
+   "ai_adjust": -1,
+   "ai_note": "运营改善中但深部开采成本压力持续，金价回调则承压"
   },
   {
-   "ticker": "NPH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "铂族矿中成本控制最优者，机械化程度高，抗周期能力强。"
+   "ticker": "EUZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "微型勘探股无新闻暴涨51%，典型pump痕迹，极高风险"
   }
  ]
 }
