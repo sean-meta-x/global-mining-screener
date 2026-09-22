@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T00:04Z",
+ "generated_at": "2026-09-22T00:56Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "0815.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "白银生产商，历史存在复杂关联交易与融资摊薄风险。"
+   "ai_note": "治理结构复杂且常有关联交易，需警惕估值陷阱。"
+  },
+  {
+   "ticker": "2693.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值极小且流动性枯竭，存在典型的仙股操纵风险。"
   },
   {
    "ticker": "1303.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "小市值煤炭股，过往财务透明度低，存在潜在治理隐患。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值煤炭股面临环保政策收紧及潜在债务风险。"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国资背景铝企，基本面稳健但受周期波动影响，无显著异常。"
+   "ai_note": "铝型材行业竞争激烈，基本面平稳但缺乏显著催化剂。"
   },
   {
-   "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "高岭土小盘股，流动性差且业务边缘化，需警惕流动性折价。"
+   "ticker": "8250.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "市值仅三千万的壳股，极易遭遇老千股财技与股权摊薄。"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "金价强势带动业绩预期，近期动量良好且具备基本面支撑。"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "主业偏教育科技，矿产分类存疑，跨界资产估值难以核实。"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "近期金价上涨带动短期反弹，但需关注海外矿山实际运营成本。"
+   "ai_note": "业务庞杂且偏离主业，历史业绩波动大，缺乏核心矿产资产。"
   },
   {
    "ticker": "0637.HK",
-   "ai_view": "red_flag",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "极小市值仙股特征明显，历史常有资本运作与炒作嫌疑。"
+   "ai_note": "市值微小且流动性差，传统业务增长乏力，需防范边缘化风险。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型央企铝企，受宏观政策与周期影响大，治理规范但弹性低。"
-  },
-  {
-   "ticker": "3636.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铜矿小盘股，资源禀赋一般，需防范大股东质押或稀释风险。"
+   "ai_note": "央企背景基本面稳健，但受宏观经济与铝价周期压制。"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "南非金矿开发商，长期受困于资金短缺、项目延期与股权稀释。"
-  },
-  {
-   "ticker": "8250.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "创业板极小市值煤炭股，壳资源特征显著，存在极高摊薄风险。"
-  },
-  {
-   "ticker": "1182.HK",
-   "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "典型老牌仙股，频繁重组与供股摊薄，基本面缺乏实质支撑。"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "次新黄金股，产能释放与成本管控仍需验证，警惕估值溢价。"
-  },
-  {
-   "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "主流煤炭生产商，现金流较好，但需关注煤价下行周期的利润压力。"
-  },
-  {
-   "ticker": "1738.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "无烟煤小盘股，流动性匮乏，历史存在控盘炒作与治理瑕疵。"
-  },
-  {
-   "ticker": "1898.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤企，分红稳定且治理规范，但缺乏高成长催化剂。"
-  },
-  {
-   "ticker": "6885.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "焦煤生产商，业绩受煤炭周期影响，小市值带来一定流动性风险。"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "俄罗斯铁矿资产，受地缘制裁严重影响，面临极大运营与治理风险。"
+   "ai_note": "南非项目长期停滞，频繁配股摊薄，治理与融资风险极高。"
   },
   {
    "ticker": "1051.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "老牌黄金股，虽经重组但历史摊薄劣迹斑斑，需警惕资本运作。"
+   "ai_note": "核心矿产资产已出售，目前实质为现金壳公司，缺乏增长引擎。"
+  },
+  {
+   "ticker": "1182.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "频繁跨界重组的典型壳股，主业不实，极易遭遇资本财技收割。"
+  },
+  {
+   "ticker": "3636.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铜价波动影响显著，近期大幅回调需警惕高位获利盘抛售风险。"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金资产质地尚可，但短期股价受大盘拖累，估值处于合理区间。"
+  },
+  {
+   "ticker": "1733.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭资产现金流尚可，但历史债务重组背景仍需关注潜在隐患。"
+  },
+  {
+   "ticker": "1738.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值不足一亿的无烟煤股，流动性极差且存在退市或私有化风险。"
+  },
+  {
+   "ticker": "6885.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值煤炭企业抗风险能力弱，需关注安全生产及环保合规成本。"
+  },
+  {
+   "ticker": "1029.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "核心资产位于俄罗斯，面临严峻的地缘政治制裁与融资风险。"
   },
   {
    "ticker": "1229.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "传统小微煤炭股，业绩受周期影响大且缺乏机构资金关注。"
+  },
+  {
+   "ticker": "0166.HK",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "极小市值煤炭股，主业边缘化，壳公司特征明显，极易发生稀释。"
+   "ai_note": "近期异常拉升多为游资炒作，基本面羸弱，切勿盲目追高防被割。"
   }
  ]
 }
