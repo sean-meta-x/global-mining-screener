@@ -1,66 +1,66 @@
 {
- "generated_at": "2026-09-22T00:14Z",
+ "generated_at": "2026-09-22T23:44Z",
  "model": "qwen3.7-plus",
  "outlook": {
   "Gold": {
-   "multiplier": 1.15,
-   "note": "Central bank accumulation and rate cut expectations support upside."
+   "multiplier": 1.1,
+   "note": "Central bank accumulation and rate cut expectations support momentum."
   },
   "Silver": {
-   "multiplier": 1.2,
-   "note": "Robust solar panel demand and monetary premium drive outperformance."
+   "multiplier": 1.15,
+   "note": "Industrial solar demand and gold-silver ratio compression drive outperformance."
   },
   "Copper": {
-   "multiplier": 1.15,
-   "note": "Structural supply deficits and green energy transition underpin prices."
+   "multiplier": 1.1,
+   "note": "Structural mine supply deficits and global electrification demand."
   },
   "Uranium": {
-   "multiplier": 1.2,
-   "note": "Structural supply deficit and global nuclear capacity expansion drive prices."
+   "multiplier": 1.15,
+   "note": "Nuclear renaissance and tightening long-term utility contracts."
   },
   "Lithium": {
    "multiplier": 0.85,
-   "note": "Near-term oversupply and slowing EV demand growth weigh on prices."
+   "note": "Persistent supply surplus from new projects outweighs EV demand growth."
   },
   "Nickel": {
-   "multiplier": 0.8,
-   "note": "Massive Indonesian supply growth outpaces battery and stainless demand."
+   "multiplier": 0.85,
+   "note": "Indonesian supply growth continues to outpace EV battery demand."
   },
   "Zinc": {
    "multiplier": 1.1,
-   "note": "Concentrate supply shortages and mine closures support smelter margins."
+   "note": "Mine closures and low treatment charges signal tight concentrate supply."
   },
   "Iron Ore": {
-   "multiplier": 0.95,
-   "note": "Chinese property sector weakness offsets resilient steelmaking demand."
+   "multiplier": 0.85,
+   "note": "Softening Chinese property sector steel demand and high port inventories."
   },
   "Coal": {
-   "multiplier": 1.0,
-   "note": "Thermal coal surplus balances tight metallurgical coal markets."
+   "multiplier": 0.9,
+   "note": "Peak thermal demand passing and structural transition to renewables."
   },
   "Rare Earths": {
-   "multiplier": 1.05,
-   "note": "Geopolitical export controls balance oversupply in non-magnet segments."
+   "multiplier": 0.95,
+   "note": "Geopolitical export curbs offset by weak global EV motor demand."
   },
   "Manganese": {
-   "multiplier": 1.0,
-   "note": "South African logistics bottlenecks balance weak global steel demand."
+   "multiplier": 0.9,
+   "note": "Oversupply in steel-grade and slow commercialization of high-manganese batteries."
   },
   "PGM": {
-   "multiplier": 1.05,
-   "note": "South African power constraints tighten supply amid steady auto demand."
+   "multiplier": 0.9,
+   "note": "Substitution effects and structural decline in internal combustion engine sales."
   },
   "Potash": {
    "multiplier": 0.95,
-   "note": "Normalizing Russian and Belarusian exports ease prior supply shocks."
+   "note": "Normalizing global supply chains and adequate agricultural application rates."
   },
   "Aluminum": {
    "multiplier": 1.1,
-   "note": "Chinese production caps and green energy transition support structural deficit."
+   "note": "Chinese smelter curtailments and strong renewable energy frame demand."
   },
   "Diversified": {
    "multiplier": 1.05,
-   "note": "Balanced exposure to bullish copper and neutral iron ore markets."
+   "note": "Balanced exposure to base metals and iron ore provides macro hedging."
   }
  }
 }
