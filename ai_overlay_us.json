@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-22T00:31Z",
+ "generated_at": "2026-09-23T00:01Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "暴跌且无新闻，疑似隐性增发或钻探失败。"
-  },
-  {
    "ticker": "WWR",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "缺乏新闻与流动性，微盘股存在边缘化风险。"
-  },
-  {
-   "ticker": "FMST",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值极低且大幅回撤，警惕资金链断裂风险。"
+   "ai_adjust": -3,
+   "ai_note": "石墨微盘股流动性差，存在较高稀释与炒作风险。"
   },
   {
    "ticker": "JAGU",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿勘探早期阶段，无新闻属正常，保持中性。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铀矿初级勘探股市值极小，易受推销操纵与股权稀释。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "无利好却暴涨，典型的小盘股炒作与拉高出货。"
+   "ai_adjust": -6,
+   "ai_note": "铜矿微盘股单月暴涨，典型拉高出货特征，极度高估。"
   },
   {
    "ticker": "FNUC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "核能概念微盘股，缺乏实质性项目进展支撑。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "核能概念微盘股缺乏实质资产支撑，稀释风险极高。"
   },
   {
-   "ticker": "NAMMW",
+   "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "权证资产自带高稀释属性，且近期跌幅较大。"
+   "ai_adjust": -5,
+   "ai_note": "锂矿开发商面临融资困难与许可证延迟，进度不及预期。"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "锂矿微盘股单月暴跌超三成，疑似遭遇融资失败或稀释。"
   },
   {
    "ticker": "NC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭生产商面临长期ESG逆风与需求结构性衰退。"
+  },
+  {
+   "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭生产商面临ESG压力，缺乏增长催化剂。"
+   "ai_adjust": -4,
+   "ai_note": "巴西钾矿开发商面临环保许可延迟及项目融资瓶颈。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "锂矿巨头面临巨额资本开支压力及通用汽车撤资风险。"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "认股权证具有时间衰减属性，且反映母公司潜在稀释。"
   },
   {
    "ticker": "CMCL",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "津巴布韦矿区存在地缘政治与汇兑管制风险。"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂矿项目面临融资与审批延迟，需警惕资金缺口。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "虽有车企注资，但项目资本开支巨大且存融资压力。"
+   "ai_note": "津巴布韦金矿生产商运营稳定，但面临较高的国家风险。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "历史稀释严重，项目推进缓慢且高度依赖外部融资。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "钾矿开发稳步推进，暂无明显负面或正面催化。"
+   "ai_note": "稀土开发商长期受困于高昂资本开支与持续融资稀释。"
   },
   {
    "ticker": "CAMZF",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "矿业微盘股单月大跌，大概率因钻探失败或恶意稀释。"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "所谓中型锂企单月暴跌，暴露严重治理问题或资产减值。"
+  },
+  {
+   "ticker": "GRML",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值微小且大幅下挫，需防范流动性枯竭与增发。"
+   "ai_adjust": -4,
+   "ai_note": "格陵兰矿产股单月异动，受当地环保禁令及炒作双重影响。"
   },
   {
    "ticker": "CLRSF",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "早期勘探微盘股，无新闻且流动性较差。"
+   "ai_note": "澳洲微盘勘探股流动性枯竭，极易受内部人稀释抽血。"
   },
   {
-   "ticker": "EU",
+   "ticker": "METCB",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀矿生产平稳，近期随板块回调，基本面尚可。"
+   "ai_adjust": -2,
+   "ai_note": "煤炭生产商转型稀土尚需时日，核心业务仍受ESG压制。"
   },
   {
-   "ticker": "ELVR",
+   "ticker": "FMSTW",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "中型生产商无故大跌，疑似未披露的运营或财务问题。"
+   "ai_adjust": -8,
+   "ai_note": "权证标的本身存在极高稀释预期，且伴随时间价值衰减。"
+  },
+  {
+   "ticker": "GLDG",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "黄金勘探股股本庞大且持续稀释，项目推进缺乏实质催化。"
   },
   {
    "ticker": "OGC",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "大型金矿商运营稳健，短期回调属正常市场波动。"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "公司历史上有过度宣传与频繁稀释的劣迹，需警惕。"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "黄金勘探开发阶段，项目分布广但缺乏短期催化。"
+   "ai_note": "大型金矿企受菲律宾许可证及新西兰品位问题短期拖累。"
   }
  ]
 }
