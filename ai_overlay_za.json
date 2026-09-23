@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-22T00:44Z",
+ "generated_at": "2026-09-23T00:15Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铁矿价格承压叠加Transnet物流瓶颈，量化未反映出口受限风险"
+   "ai_adjust": -1,
+   "ai_note": "铁矿石需求疲软，中国钢铁行业承压"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史多次配股稀释，16%跌幅无新闻或暗示隐性利空"
+   "ai_adjust": -5,
+   "ai_note": "小盘股单月暴跌21%无消息，疑似稀释或运营问题"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铬铁行业治理问题频发，小盘股流动性风险被低估"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铬铁价格低迷，小盘生产商承压"
   },
   {
-   "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铑价从高位暴跌，PGM组合盈利承压，反弹持续性存疑"
+   "ticker": "WEZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "开发阶段铂矿小盘股，资金和许可证风险极高"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值仅5800万且暴跌16%，微型股存在严重流动性和 promoter 风险"
+   "ai_note": "微型股市值仅6800万且暴跌28%，高度疑似稀释"
+  },
+  {
+   "ticker": "THA.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "铂族矿商逆势上涨，短期动能偏多"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "矿 shaft 事故频发、债务高企，PGM低迷下运营风险极大"
-  },
-  {
-   "ticker": "WEZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "长期停留在开发阶段无产出，反复融资稀释，典型烧钱陷阱"
+   "ai_adjust": -3,
+   "ai_note": "铂族龙头单月跌10%，治理历史存疑"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "锡业基本面稳健，Bisie矿品位优异，无明显治理瑕疵"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "有色宝石龙头但莫桑比克项目曾有治理争议，需持续关注"
+   "ai_note": "锡矿中盘生产商运营相对稳定"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭现金流强劲但长期面临能源转型估值折价"
+   "ai_adjust": 0,
+   "ai_note": "煤炭龙头现金流稳健但ESG压力持续"
   },
   {
    "ticker": "ARI.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "多元化矿业巨头单月跌超10%"
+  },
+  {
+   "ticker": "GML.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "Motsepe管理层优质但PGM和铁矿敞口拖累整体回报"
+   "ai_adjust": 1,
+   "ai_note": "彩色宝石商逆势涨10%但小盘流动性差"
   },
   {
    "ticker": "IMP.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "PGM价格崩塌叠加南非电力与劳工风险，盈利大幅恶化"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型煤炭股治理记录堪忧，4亿市值下流动性极差"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铂族最大生产商但行业价格低迷"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "动力煤现货价格坚挺支撑短期盈利，但长期需求结构性下滑"
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产商小幅正收益但ESG逆风"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型煤炭股市值不足4亿，流动性风险大"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型铂矿股市值仅7亿，运营风险高"
   },
   {
    "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "金价高位运行，运营稳健且多矿区分散风险，被量化低估"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金价强势下仍跌10%，运营或成本异常"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "金价利好下Elikhulu项目贡献增量，运营执行力较好"
+   "ai_adjust": -1,
+   "ai_note": "黄金生产商跑输金价，需关注成本"
   },
   {
    "ticker": "NPH.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "管理层优秀但PGM价格低迷严重压缩利润空间"
+   "ai_adjust": 0,
+   "ai_note": "中型铂矿商表现相对平稳"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "10.7%跌幅异常，尾矿回收成本上升叠加金价波动风险"
+   "ai_note": "尾矿金矿商单月跌近14%，表现异常"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "运营改善中但深部开采成本压力持续，金价回调则承压"
-  },
-  {
-   "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微型勘探股无新闻暴涨51%，典型pump痕迹，极高风险"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿巨头暴跌16%，治理和成本问题突出"
   }
  ]
 }
