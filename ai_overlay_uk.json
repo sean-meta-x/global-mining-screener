@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-22T00:40Z",
+ "generated_at": "2026-09-23T00:11Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
-   "ticker": "THX.L",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "开发阶段金矿，面临许可延迟和融资稀释风险。"
-  },
-  {
    "ticker": "SRB.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "高分但股价下跌，可能存在运营或治理隐患。"
+   "ai_note": "巴西Palito矿运营不稳，产量不及预期，小盘金矿风险偏高"
+  },
+  {
+   "ticker": "THX.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Seguela金矿推进中，基本面尚可，暂无明显催化或风险"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型勘探公司，流动性差且稀释风险极高。"
+   "ai_adjust": -5,
+   "ai_note": "微型铀矿勘探公司，流动性差，稀释风险高，投机性极强"
   },
   {
    "ticker": "MET1.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型勘探公司，资金需求大，稀释风险显著。"
+   "ai_adjust": -5,
+   "ai_note": "微型勘探公司，市值仅1400万，融资稀释风险显著"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀持仓公司而非生产商，铀价波动直接影响。"
+   "ai_note": "铀现货持有工具，透明度高，无运营风险，纯铀价敞口"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史上有过度推广记录，公司治理结构存疑。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "频繁增发稀释股东，推广过度，南非PGM运营现金流承压"
   },
   {
    "ticker": "CAML.L",
-   "ai_view": "bullish",
+   "ai_view": "neutral",
    "ai_adjust": 2,
-   "ai_note": "铜矿生产商表现稳健，动量良好可适度乐观。"
-  },
-  {
-   "ticker": "PDL.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "钻石生产商债务高企，治理问题频发需警惕。"
+   "ai_note": "哈萨克斯坦铜矿运营稳健，近期涨幅合理，但地缘风险犹存"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "津巴布韦运营，面临汇率管制和政策风险。"
+   "ai_note": "津巴布韦Blanket金矿运营尚可，但政策与汇率风险持续"
   },
   {
-   "ticker": "BHL.L",
+   "ticker": "PDL.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "债务重组困境未解，坦桑尼亚矿区风险高，市值严重萎缩"
+  },
+  {
+   "ticker": "RMR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型勘探股单月暴跌28%，无实质进展，融资风险极高"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "南非PGM生产商运营稳定，但电力与政策环境持续承压"
+  },
+  {
+   "ticker": "0ICU.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "南非尾矿回收品位下降，设备老化，长期竞争力存疑"
+  },
+  {
+   "ticker": "ORR.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂矿热度消退，微型勘探公司融资困难。"
+   "ai_note": "微型金矿勘探公司，市值不足1500万，依赖融资维持运营"
+  },
+  {
+   "ticker": "XTR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "单月暴跌22%，津巴布韦运营风险高，小盘股流动性堪忧"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲多元化生产商，运营相对稳定。"
-  },
-  {
-   "ticker": "XTR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "勘探公司暴跌24%，微型市值风险极高。"
-  },
-  {
-   "ticker": "SLP.L",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "低成本铂族金属生产商，动量强劲值得关注。"
-  },
-  {
-   "ticker": "RMR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "勘探公司暴跌32%，微型市值恐有基本面恶化。"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非铂矿生产商，受南非政策和电力风险影响。"
+   "ai_note": "西澳多元矿种生产商，运营稳定，无明显风险或催化"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "马里锂矿项目面临军政府政策和许可风险。"
+   "ai_note": "马里锂矿项目面临政变后政策不确定性，地缘风险突出"
   },
   {
-   "ticker": "0ICU.L",
+   "ticker": "SLP.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "南非金矿尾矿处理，运营稳定但受南非风险拖累。"
+   "ai_note": "南非PGM生产商近期表现良好，但电力与政策风险仍需警惕"
   },
   {
    "ticker": "GLR.L",
-   "ai_view": "red_flag",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "微型勘探股暴涨25%，疑似炒作需警惕回调。"
+   "ai_note": "微型勘探股单月暴涨30%，无实质利好支撑，疑似炒作拉升"
   },
   {
-   "ticker": "GGP.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大型开发商股价下跌，Havieron项目进展存不确定性。"
+   "ticker": "RSG.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型金矿生产商，运营平稳，市值较大，暂无明显异常"
   },
   {
-   "ticker": "AAU.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "土耳其金矿生产商，地缘政治和治理风险较高。"
+   "ticker": "KEFI.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "单月暴跌44%，埃塞俄比亚项目受冲突影响，风险极高"
   }
  ]
 }
