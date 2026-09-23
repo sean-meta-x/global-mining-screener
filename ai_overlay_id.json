@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-22T00:49Z",
+ "generated_at": "2026-09-23T00:20Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
-   "ticker": "MINE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值月涨25%无消息支撑，流动性风险极高"
-  },
-  {
    "ticker": "MYOH.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "存在关联方交易及治理隐患，量化模型难以捕捉"
+   "ai_note": "小盘煤炭无新闻却下跌，治理风险需警惕"
+  },
+  {
+   "ticker": "MINE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "无新闻却暴涨22%，典型拉高出货特征"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足4000亿印尼盾，流动性极差易被操纵"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型市值无新闻覆盖，流动性与治理堪忧"
   },
   {
    "ticker": "IFSH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "公司治理记录存疑，关联交易频繁需警惕"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "温和下跌无异常，但缺乏催化剂"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "月跌26.5%无任何公告，疑似内幕抛售或基本面恶化"
+   "ai_note": "暴跌23%无任何新闻，疑似内部问题暴露"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
    "ai_adjust": 5,
-   "ai_note": "Astra旗下蓝筹，治理优良分红稳定，量化严重低估"
+   "ai_note": "Astra旗下优质资产，量化评分低估其治理溢价"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "增长尚可但负债率偏高，暂无明显催化剂"
+   "ai_note": "表现平稳无突出风险或催化"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型煤企小幅回调，基本面尚可"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "中型煤企基本面稳健，估值合理无明显风险"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "激进扩张致债务攀升，量化未充分反映杠杆风险"
+   "ai_adjust": -1,
+   "ai_note": "中型煤企温和下跌，无显著异常"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅1870亿却月涨20%，典型游资炒作特征"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史上有治理争议及关联方问题，需额外折价"
+   "ai_adjust": -4,
+   "ai_note": "极小市值无新闻却上涨，操纵嫌疑大"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "国企煤矿龙头高股息，治理可靠但短期涨幅偏大"
+   "ai_adjust": 3,
+   "ai_note": "国企背景治理可靠，强势上涨有基本面支撑"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金价走强却逆势下跌，运营或存在隐忧"
+  },
+  {
+   "ticker": "DOID.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小盘煤炭治理存疑，需关注股东行为"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "镍价持续低迷叠加印尼政策不确定性，承压明显"
+   "ai_note": "镍价承压下温和调整，大型生产商韧性尚可"
   },
   {
-   "ticker": "PSAB.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "审计争议及储量报告可信度存疑，治理风险极高"
+   "ticker": "ABMM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "走势平稳无明显风险信号"
+  },
+  {
+   "ticker": "TOBA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中型煤企大跌12%，无新闻解释需警惕"
   },
   {
    "ticker": "DAAZ.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "上市时间短业绩记录有限，信息透明度不足"
+   "ai_note": "小盘多元化企业下跌，信息不透明"
   },
   {
-   "ticker": "ABMM.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "管理层优秀治理规范，量化评分偏低存在修正空间"
+   "ticker": "DEWA.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "暴跌24%毫无新闻，重大风险信号"
   },
   {
-   "ticker": "TOBA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "正转型可再生能源，煤炭业务平稳但缺乏催化"
-  },
-  {
-   "ticker": "RMKE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小型煤企抗风险能力弱，行业下行期尤为脆弱"
-  },
-  {
-   "ticker": "BSSR.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "老牌煤矿运营商治理良好，量化未充分认可其质量"
-  },
-  {
-   "ticker": "KKGI.JK",
+   "ticker": "RMKO.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月涨17%但治理及关联交易问题突出，涨势难持续"
+   "ai_note": "微型市值无新闻覆盖，炒作风险高"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "国企锡业龙头，受益锡价上涨治理规范"
   }
  ]
 }
