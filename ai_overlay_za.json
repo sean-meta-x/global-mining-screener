@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T00:15Z",
+ "generated_at": "2026-09-24T00:23Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铁矿石需求疲软，中国钢铁行业承压"
+   "ai_note": "Transnet物流瓶颈制约产能释放，量化模型难以捕捉"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "小盘股单月暴跌21%无消息，疑似稀释或运营问题"
+   "ai_adjust": -4,
+   "ai_note": "公司有激进推销和复杂交易历史，存在稀释风险"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铬铁价格低迷，小盘生产商承压"
-  },
-  {
-   "ticker": "WEZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "开发阶段铂矿小盘股，资金和许可证风险极高"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "BEE合资方治理纠纷频发，运营稳定性存疑"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型股市值仅6800万且暴跌28%，高度疑似稀释"
+   "ai_adjust": -5,
+   "ai_note": "市值仅七千万兰特，微盘股流动性与治理风险极高"
   },
   {
-   "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "铂族矿商逆势上涨，短期动能偏多"
+   "ticker": "WEZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "项目长期无进展，反复稀释股东，治理记录极差"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂族龙头单月跌10%，治理历史存疑"
+   "ai_adjust": -4,
+   "ai_note": "多次配股稀释叠加运营劳资问题，实际风险被低估"
+  },
+  {
+   "ticker": "THA.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "运营相对稳定，无重大治理或稀释风险"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锡矿中盘生产商运营相对稳定"
+   "ai_adjust": -1,
+   "ai_note": "刚果金国家政策风险较高，量化模型难以充分定价"
   },
   {
-   "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭龙头现金流稳健但ESG压力持续"
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "矿井火灾致长期停产，运营恢复存在不确定性"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "多元化矿业巨头单月跌超10%"
+   "ai_note": "关联交易复杂，家族治理结构引发市场担忧"
   },
   {
-   "ticker": "GML.JO",
+   "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "彩色宝石商逆势涨10%但小盘流动性差"
-  },
-  {
-   "ticker": "IMP.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铂族最大生产商但行业价格低迷"
+   "ai_adjust": 0,
+   "ai_note": "管理稳健但煤炭长期面临ESG撤资压力"
   },
   {
    "ticker": "TGA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭生产商小幅正收益但ESG逆风"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "从英美资源剥离的纯动力煤公司，ESG风险被低估"
   },
   {
    "ticker": "SLG.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微盘煤炭股市值仅三亿兰特，流动性风险极高"
+  },
+  {
+   "ticker": "GML.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型煤炭股市值不足4亿，流动性风险大"
+   "ai_adjust": -2,
+   "ai_note": "莫桑比克宝石业务曾涉治理争议，需保持警惕"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型勘探股单月暴涨162%，典型炒作拉升特征"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铂矿股市值仅7亿，运营风险高"
+   "ai_adjust": -3,
+   "ai_note": "管理层频繁变动，运营历史不佳，存在隐性风险"
   },
   {
    "ticker": "GFI.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金价强势下仍跌10%，运营或成本异常"
-  },
-  {
-   "ticker": "PAN.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "黄金生产商跑输金价，需关注成本"
+   "ai_adjust": 0,
+   "ai_note": "大型金矿商基本面稳健，无重大治理隐患"
   },
   {
    "ticker": "NPH.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型铂矿商表现相对平稳"
+   "ai_note": "铂族金属行业中管理较优，运营相对稳定"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "尾矿金矿商单月跌近14%，表现异常"
+   "ai_adjust": -2,
+   "ai_note": "尾矿品位持续下降，长期产量递减风险被忽视"
   },
   {
-   "ticker": "HAR.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金矿巨头暴跌16%，治理和成本问题突出"
+   "ticker": "PAN.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金生产商运营稳健，并购扩张策略合理"
   }
  ]
 }
