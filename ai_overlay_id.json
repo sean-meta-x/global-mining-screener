@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-23T00:20Z",
+ "generated_at": "2026-09-24T00:28Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
-   "ticker": "MYOH.JK",
+   "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小盘煤炭无新闻却下跌，治理风险需警惕"
-  },
-  {
-   "ticker": "MINE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "无新闻却暴涨22%，典型拉高出货特征"
+   "ai_note": "小盘股月涨23%无消息，疑似投机炒作需警惕"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值无新闻覆盖，流动性与治理堪忧"
+   "ai_adjust": -2,
+   "ai_note": "微型市值流动性差，治理风险较高"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "温和下跌无异常，但缺乏催化剂"
+   "ai_adjust": 0,
+   "ai_note": "无重大新闻，基本面平稳，维持中性"
   },
   {
-   "ticker": "DWGL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "暴跌23%无任何新闻，疑似内部问题暴露"
+   "ticker": "MYOH.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月跌9%无公告，可能存在未披露问题"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
-   "ai_adjust": 5,
-   "ai_note": "Astra旗下优质资产，量化评分低估其治理溢价"
+   "ai_adjust": 3,
+   "ai_note": "Astra旗下蓝筹，治理优良，量化或低估"
+  },
+  {
+   "ticker": "DWGL.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "月暴跌26%无公告，疑似重大隐患"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "表现平稳无突出风险或催化"
+   "ai_note": "表现平稳，无突出催化或风险"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型煤企小幅回调，基本面尚可"
+   "ai_adjust": 0,
+   "ai_note": "大盘煤炭股，走势平稳无异常"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型煤企温和下跌，无显著异常"
+   "ai_adjust": 0,
+   "ai_note": "中型煤企，无显著风险信号"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "极小市值无新闻却上涨，操纵嫌疑大"
+   "ai_adjust": -5,
+   "ai_note": "市值仅1810亿，微型股炒作风险极高"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "国企背景治理可靠，强势上涨有基本面支撑"
-  },
-  {
-   "ticker": "PSAB.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金价走强却逆势下跌，运营或存在隐忧"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘煤炭治理存疑，需关注股东行为"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "镍价承压下温和调整，大型生产商韧性尚可"
-  },
-  {
-   "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "走势平稳无明显风险信号"
-  },
-  {
-   "ticker": "TOBA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中型煤企大跌12%，无新闻解释需警惕"
+   "ai_adjust": 4,
+   "ai_note": "国企煤炭龙头，分红丰厚，动量强劲"
   },
   {
    "ticker": "DAAZ.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小盘多元化企业下跌，信息不透明"
+   "ai_note": "月跌近9%无消息，基本面存疑"
   },
   {
-   "ticker": "DEWA.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "暴跌24%毫无新闻，重大风险信号"
+   "ticker": "DOID.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小盘煤企，轻微下跌无异常"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金价强势却逆势下跌，运营或治理存疑"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "镍业龙头，走势平稳无异常"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型煤企承包商，表现稳健"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值无新闻覆盖，炒作风险高"
+   "ai_adjust": -2,
+   "ai_note": "市值不足5000亿，小盘治理风险"
+  },
+  {
+   "ticker": "TOBA.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "转型新能源但股价承压，催化不足"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "国企锡业龙头，受益锡价上涨治理规范"
+   "ai_note": "国企锡业龙头，受益锡价上涨"
+  },
+  {
+   "ticker": "NICL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锡企表现远逊国企同行，存隐忧"
   }
  ]
 }
