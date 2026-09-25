@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T00:46Z",
+ "generated_at": "2026-09-25T00:49Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企基本面稳健，但缺乏价格弹性，量化已充分定价。"
-  },
-  {
-   "ticker": "002101.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中小盘铝压铸受汽车需求波动影响，流动性与治理风险略高。"
+   "ai_note": "大型央企铝企，基本面稳健，无重大风险信号"
   },
   {
    "ticker": "000807.SZ",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "绿电铝具备低碳溢价优势，枯水期影响已被市场消化。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "云南铝业运行平稳，量价波动在合理范围内"
+  },
+  {
+   "ticker": "002497.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌近16%，雅化集团曾涉财务争议，需警惕治理风险"
+  },
+  {
+   "ticker": "002101.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值铝企，流动性偏弱，关注订单可持续性"
+  },
+  {
+   "ticker": "000612.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "焦作万方铝业务稳定，暂无明显异常信号"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤电铝一体化成本优势明显，但周期属性强，维持中性。"
-  },
-  {
-   "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "民营背景且历史治理存瑕疵，电解铝产能指标受限。"
-  },
-  {
-   "ticker": "002497.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "锂盐价格持续探底，民爆业务无法对冲主业利润大幅下滑。"
+   "ai_note": "神火股份大型铝企，业绩与铝价联动正常"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "自备电厂成本低，但民营铝企在能耗双控下面临政策不确定性。"
+   "ai_adjust": 0,
+   "ai_note": "天山铝业产能稳定，估值处于合理区间"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "永泰能源历史上有债务与治理争议，需持续关注"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中孚实业曾涉信披违规，治理风险溢价应计入"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "高股息央企防御性强，煤价中枢下移风险已部分反映。"
+   "ai_note": "中煤能源为大型央企煤企，分红稳定风险可控"
   },
   {
-   "ticker": "600157.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "历史债务违约阴影犹存，公司治理与信用折价难以消除。"
-  },
-  {
-   "ticker": "600595.SS",
+   "ticker": "000792.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铝加工利润率微薄，缺乏核心资源壁垒，抗周期能力弱。"
+   "ai_adjust": -3,
+   "ai_note": "盐湖股份月跌近16%，锂价持续走弱压制估值"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "电池箔产能过剩导致价格战，单月暴跌反映基本面恶化。"
+   "ai_adjust": -5,
+   "ai_note": "月跌超23%跌幅异常，鼎胜新材或存基本面隐忧"
   },
   {
    "ticker": "600219.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "高端航空汽车铝材壁垒高，产业链完整，基本面扎实。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南山铝业产业链完整，但近期回调需观察支撑"
+  },
+  {
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中国宏桥月跌12.5%，高负债与治理问题仍存"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "天齐锂业收购SQM后债务高企，锂价低迷加剧压力"
   },
   {
    "ticker": "600361.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铝加工龙头，但行业加工费承压，业绩弹性受限于制造属性。"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "动力煤长协比例高，业绩确定性强，具备分红提升潜力。"
+   "ai_note": "华峰新材铝加工业务平稳，无突出风险"
   },
   {
    "ticker": "002978.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化业务协同效应不明，缺乏显著催化剂，维持中性。"
+   "ai_adjust": -1,
+   "ai_note": "安孚科技多元化经营，体量偏小关注转型进展"
   },
   {
-   "ticker": "002466.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "锂价暴跌叠加海外矿企投资收益缩水，业绩面临巨大压力。"
-  },
-  {
-   "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "代码与市值数据存在错配，铝加工主业盈利薄弱，需警惕。"
-  },
-  {
-   "ticker": "600740.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "焦化行业受钢铁需求疲软拖累，利润空间持续受挤压。"
-  },
-  {
-   "ticker": "600971.SS",
+   "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "地方国企煤炭主业稳健，但成长性不足，量化定价合理。"
+   "ai_note": "山煤国际月跌仅1.4%，煤炭业务现金流稳健"
   },
   {
-   "ticker": "000792.SZ",
+   "ticker": "600338.SS",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "钾肥主业稳健，但碳酸锂价格崩盘严重拖累整体盈利预期。"
+   "ai_adjust": -3,
+   "ai_note": "西藏珠峰月跌近13%，小市值金矿企勘探与许可风险高"
+  },
+  {
+   "ticker": "601677.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "明泰铝业铝加工龙头，经营稳健无明显异常"
   }
  ]
 }
