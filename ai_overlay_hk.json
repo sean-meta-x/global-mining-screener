@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-24T00:35Z",
+ "generated_at": "2026-09-25T00:39Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "0815.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "缺乏新闻催化，白银价格波动大，维持中性。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "港股小盘白银股流动性差，需警惕缺乏新闻支撑的估值陷阱。"
   },
   {
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小市值煤炭股流动性差，缺乏新闻需警惕基本面恶化。"
+   "ai_note": "市值极小且无新闻，煤炭股面临流动性与治理双重折价。"
   },
   {
    "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值极小且无新闻，高岭土业务缺乏想象空间与流动性。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微盘多元化公司，基本面透明度低，存在极高的治理风险。"
   },
   {
    "ticker": "0621.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "黄金开发阶段项目面临严峻的许可证与资金稀释风险。"
+  },
+  {
+   "ticker": "0637.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "非洲金矿项目长期停滞，管理层信誉存疑，存在治理风险。"
+   "ai_adjust": -5,
+   "ai_note": "市值不足两亿，流动性枯竭，极易受资金操纵或面临退市。"
   },
   {
    "ticker": "8250.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微市值煤炭股无故暴涨且无新闻，典型庄股炒作与拉高出货。"
+   "ai_note": "市值仅三千万且逆势大涨，典型庄股特征，谨防高位接盘。"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲金矿标的，涨幅主要受金价驱动，基本面尚可。"
-  },
-  {
-   "ticker": "0098.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "兴发铝业基本面扎实，但铝价承压导致短期回调，中性。"
-  },
-  {
-   "ticker": "8095.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "业务庞杂且偏离主业，缺乏核心矿业资产支撑，需警惕。"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值微小且流动性枯竭，无新闻催化，存在边缘化风险。"
+   "ai_note": "黄金生产商基本面尚可，但规模较小需关注海外运营风险。"
   },
   {
    "ticker": "1051.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "金矿项目延期及财务披露瑕疵引发市场担忧，需下调评级。"
+   "ai_note": "公司曾有重组历史，治理结构存疑，近期大跌或反映资金撤离。"
+  },
+  {
+   "ticker": "8095.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "多元化业务缺乏核心护城河，股价持续阴跌反映基本面疲软。"
+  },
+  {
+   "ticker": "0098.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铝加工龙头受宏观需求拖累，短期缺乏催化剂，中性看待。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，受宏观周期影响大，估值合理，维持中性。"
+   "ai_note": "大型国企铝业巨头，受宏观周期影响大，防御性较强但弹性弱。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微盘煤炭股，流动性极差且信息不透明，建议直接规避。"
   },
   {
    "ticker": "2078.HK",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "微市值铝企，历史财务透明度低，流动性极差，存在治理隐患。"
+   "ai_note": "市值微小，铝加工业务利润微薄，面临严峻的生存与流动性考验。"
   },
   {
-   "ticker": "1229.HK",
-   "ai_view": "caution",
+   "ticker": "3636.HK",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "微市值煤炭股，缺乏流动性与新闻关注，存在边缘化风险。"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "重组更名后业务尚需验证，金矿资产盈利能力有待观察。"
+   "ai_note": "铜矿生产商受宏观预期降温影响，短期承压但基本面尚可。"
   },
   {
    "ticker": "1182.HK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "典型港股壳股特征，频繁跨界且治理极差，坚决规避。"
+   "ai_note": "历史上多次涉足壳股运作，治理风险极高，近期大跌需警惕。"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "优质动力煤标的，但受商品周期见顶预期压制，维持中性。"
+   "ai_adjust": -1,
+   "ai_note": "煤炭资产质量尚可，但受ESG政策压制，估值难以大幅扩张。"
+  },
+  {
+   "ticker": "1029.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "涉及俄罗斯等海外资产，面临极高的地缘政治与制裁风险。"
   },
   {
    "ticker": "1738.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微市值无烟煤企业，流动性差且无新闻，存在估值陷阱风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值不足八千万，属于边缘微盘股，存在严重的流动性折价。"
   },
   {
-   "ticker": "1898.HK",
+   "ticker": "2489.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企煤炭巨头，分红稳定但缺乏成长弹性，维持中性。"
+   "ai_adjust": -1,
+   "ai_note": "黄金生产商质地尚可，但近期金价波动对其短期业绩构成压力。"
   },
   {
    "ticker": "6885.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤企，市场关注度极低，需警惕流动性折价与基本面风险。"
-  },
-  {
-   "ticker": "2610.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "母公司债务问题波及，铝业务受宏观压制，存在信用与流动性风险。"
+   "ai_adjust": -3,
+   "ai_note": "小盘煤炭股，抗风险能力弱，需警惕行业周期下行带来的冲击。"
   }
  ]
 }
