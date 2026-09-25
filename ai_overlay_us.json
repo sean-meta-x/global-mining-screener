@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-24T00:09Z",
+ "generated_at": "2026-09-25T00:14Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
+   "ticker": "JAGU",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型铀矿勘探商无消息无动量，流动性差易遭稀释"
+  },
+  {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型市值且无新闻，需警惕石墨铀矿项目的稀释与炒作风险。"
+   "ai_adjust": -4,
+   "ai_note": "勘探商持续下跌无新闻催化，市场兴趣匮乏"
+  },
+  {
+   "ticker": "CEXYF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型铜矿勘探商虽涨但无新闻，流动性风险高"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值极小且无端暴跌近四成，高度疑似遭遇恶意做空或稀释。"
+   "ai_adjust": -8,
+   "ai_note": "暴跌38%却无新闻，极可能已稀释或钻探失败"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铀矿勘探公司，缺乏新闻支撑，需防范资金消耗与稀释。"
-  },
-  {
-   "ticker": "JAGU",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "微型铀矿勘探股，缺乏实质催化剂，存在常规初级矿企风险。"
-  },
-  {
-   "ticker": "CEXYF",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值极小且无新闻却暴涨三成，典型的拉高出货炒作特征。"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂矿开发商，Rhyolite Ridge项目面临许可证延迟与资金风险。"
+   "ai_adjust": -5,
+   "ai_note": "核主题勘探商大跌19%无消息，存治理或稀释风险"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "认股权证自带时间衰减与严重稀释效应，长期持有风险极高。"
+   "ai_adjust": -10,
+   "ai_note": "权证为衰减型工具，下行风险不对称且无基本面支撑"
   },
   {
-   "ticker": "GRO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "钾矿开发商，项目推进面临较大的资金筹措与审批许可障碍。"
-  },
-  {
-   "ticker": "ELVR",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中大市值锂企无故大跌逾两成，疑有机构抛售或隐藏利空。"
-  },
-  {
-   "ticker": "CLRSF",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型市值勘探股，无新闻支撑，需警惕持续烧钱与股权稀释。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "黄金生产商，津巴布韦矿区面临较高的政策与治理管辖风险。"
-  },
-  {
-   "ticker": "LAC",
+   "ticker": "IONR",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "锂矿开发商，Thacker Pass许可基本落地，但仍有融资执行风险。"
+   "ai_note": "锂矿开发商表现相对稳定，等待行业周期回暖"
   },
   {
    "ticker": "NC",
    "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭生产商面临行业逆风但仍有现金流支撑"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "中阶生产商暴跌35%无新闻，恐存运营或治理隐患"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "大型锂矿开发商相对稳定，但锂价低迷持续压制"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭生产商，业务模式成熟稳定，量化模型未捕捉到重大隐患。"
+   "ai_note": "黄金生产商走势平稳，基本面暂无明显异常"
   },
   {
    "ticker": "NB",
-   "ai_view": "red_flag",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "稀土开发商，历史上有严重的股权稀释和无限期项目拖延劣迹。"
+   "ai_note": "稀土开发商历史延误多融资难，大跌印证市场疑虑"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "微型市值矿企无端暴跌近三成，高度疑似增发稀释或资金断裂。"
+   "ai_adjust": -8,
+   "ai_note": "微型勘探商暴跌32%无消息，高度疑似稀释或失败"
   },
   {
-   "ticker": "OGC",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大型金矿商，菲律宾Didipio矿的许可证续期存在不确定性。"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "黄金勘探公司，历史上频繁炒作且持续增发，治理结构堪忧。"
-  },
-  {
-   "ticker": "SLI",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂矿开发商，示范项目技术验证与后续融资仍存较大不确定性。"
+   "ticker": "GRO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "钾肥开发商走势平稳，战略矿产地位提供支撑"
   },
   {
    "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型市值且无新闻却暴涨近四成，典型缺乏基本面支撑的炒作。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "格陵兰PGM勘探商暴涨无消息，疑为炒作拉高出货"
+  },
+  {
+   "ticker": "OGC",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型金矿商温和回调，新西兰矿难影响已基本消化"
+  },
+  {
+   "ticker": "LODE",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "历史上有炒作和治理问题，大跌印证市场不信任"
+  },
+  {
+   "ticker": "METCB",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "煤炭生产商暴跌31%，稀土转型故事尚未证实"
   },
   {
    "ticker": "GLDG",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "黄金勘探公司，估值合理但缺乏短期催化剂，维持中性观望。"
+   "ai_adjust": -4,
+   "ai_note": "黄金勘探商有稀释前科，下跌反映市场对融资担忧"
+  },
+  {
+   "ticker": "SLI",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂矿开发商合作失败后下跌，行业逆风叠加项目风险"
   }
  ]
 }
