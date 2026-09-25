@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-24T00:23Z",
+ "generated_at": "2026-09-25T00:28Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "Transnet物流瓶颈制约产能释放，量化模型难以捕捉"
-  },
-  {
-   "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "公司有激进推销和复杂交易历史，存在稀释风险"
+   "ai_adjust": -3,
+   "ai_note": "德毕斯登铁路物流瓶颈持续制约产量与出口。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "BEE合资方治理纠纷频发，运营稳定性存疑"
+   "ai_adjust": -4,
+   "ai_note": "高度依赖嘉能可包销与管理，独立生存与治理存疑。"
   },
   {
-   "ticker": "MTU.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅七千万兰特，微盘股流动性与治理风险极高"
-  },
-  {
-   "ticker": "WEZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "项目长期无进展，反复稀释股东，治理记录极差"
+   "ticker": "JBL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "频繁并购与复杂股权结构带来潜在稀释与治理风险。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "多次配股稀释叠加运营劳资问题，实际风险被低估"
+   "ai_note": "铂价低迷叠加南非深部金矿面临电力与成本双重压力。"
+  },
+  {
+   "ticker": "WEZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微盘开发商且曾有财务困境，近期暴涨疑为游资炒作。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "运营相对稳定，无重大治理或稀释风险"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "刚果金国家政策风险较高，量化模型难以充分定价"
+   "ai_note": "铬矿业务提供现金流缓冲，但铂族金属价格疲软仍拖累估值。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "矿井火灾致长期停产，运营恢复存在不确定性"
+   "ai_adjust": -5,
+   "ai_note": "作为纯铂族金属生产商，在当前低迷价格下利润空间受挤压。"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "极小市值且流动性枯竭，存在严重的基本面与合规隐患。"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "刚果高品位锡矿基本面优异，但需警惕地缘政治与物流风险。"
   },
   {
    "ticker": "ARI.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "关联交易复杂，家族治理结构引发市场担忧"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "多元化资产组合抗风险能力强，但整体仍受制于南非宏观环境。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "管理稳健但煤炭长期面临ESG撤资压力"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "从英美资源剥离的纯动力煤公司，ESG风险被低估"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微盘煤炭股市值仅三亿兰特，流动性风险极高"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "莫桑比克宝石业务曾涉治理争议，需保持警惕"
+   "ai_note": "煤炭现金流稳健，但面临ESG撤资压力及Transnet物流制约。"
   },
   {
    "ticker": "EUZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型勘探股单月暴涨162%，典型炒作拉升特征"
-  },
-  {
-   "ticker": "EPS.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "管理层频繁变动，运营历史不佳，存在隐性风险"
-  },
-  {
-   "ticker": "GFI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型金矿商基本面稳健，无重大治理隐患"
+   "ai_adjust": -9,
+   "ai_note": "极小市值勘探公司单月暴涨逾50%，高度疑似缺乏基本面支撑的炒作。"
   },
   {
    "ticker": "NPH.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属行业中管理较优，运营相对稳定"
+   "ai_adjust": -2,
+   "ai_note": "虽为南非低成本铂矿龙头，但难以完全抵御铂族金属周期下行。"
   },
   {
-   "ticker": "DRD.JO",
+   "ticker": "SLG.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "津巴布韦煤炭项目面临极高的政策、电力及治理等系统性风险。"
+  },
+  {
+   "ticker": "GML.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "尾矿品位持续下降，长期产量递减风险被忽视"
+   "ai_adjust": -3,
+   "ai_note": "彩色宝石需求波动大且流动性差，历史上曾受公司治理丑闻困扰。"
+  },
+  {
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "虽派息丰厚，但面临严峻的ESG融资限制与南非铁路物流瓶颈。"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "小型铂矿生产商受制于南非电力短缺与高成本，生存能力堪忧。"
+  },
+  {
+   "ticker": "GFI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "黄金牛市下核心资产盈利强劲，量化模型可能低估了其增长潜力。"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金生产商运营稳健，并购扩张策略合理"
+   "ai_adjust": -1,
+   "ai_note": "成本控制较好，但南非深部金矿固有的安全与电力风险不容忽视。"
+  },
+  {
+   "ticker": "DRD.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "尾矿回收成本低，但面临资源储量枯竭与南非限电的双重制约。"
   }
  ]
 }
