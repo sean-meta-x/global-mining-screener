@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-24T00:28Z",
+ "generated_at": "2026-09-25T00:33Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
-   "ticker": "MINE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘股月涨23%无消息，疑似投机炒作需警惕"
-  },
-  {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型市值流动性差，治理风险较高"
+   "ai_note": "小市值煤炭股流动性差，需警惕流动性折价与炒作风险。"
+  },
+  {
+   "ticker": "MINE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "短期涨幅异常且缺乏基本面支撑，高度疑似游资炒作与治理风险。"
+  },
+  {
+   "ticker": "MYOH.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "基本面稳健但短期受煤价波动影响，量化未充分反映其运营韧性。"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "无重大新闻，基本面平稳，维持中性"
-  },
-  {
-   "ticker": "MYOH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌9%无公告，可能存在未披露问题"
+   "ai_note": "业务多元但缺乏核心矿产亮点，维持中性观察。"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
    "ai_adjust": 3,
-   "ai_note": "Astra旗下蓝筹，治理优良，量化或低估"
+   "ai_note": "作为阿斯特朗集团核心资产基本面极佳，量化模型低估了其行业地位。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月暴跌26%无公告，疑似重大隐患"
+   "ai_adjust": -4,
+   "ai_note": "股价暴跌且市值微小，需警惕潜在的财务暴雷或大股东减持风险。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "表现平稳，无突出催化或风险"
+   "ai_note": "煤炭业务稳定但缺乏显著催化剂，估值合理维持中性。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大盘煤炭股，走势平稳无异常"
+   "ai_adjust": -1,
+   "ai_note": "产能扩张顺利但长期面临能源转型压力，量化未计入ESG折价。"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤企，无显著风险信号"
+   "ai_note": "煤炭主业稳健且积极布局镍矿，转型逻辑清晰维持中性。"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "镍矿资本开支巨大且面临海外ESG审查，量化未充分定价环保风险。"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅1810亿，微型股炒作风险极高"
-  },
-  {
-   "ticker": "PTBA.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "国企煤炭龙头，分红丰厚，动量强劲"
-  },
-  {
-   "ticker": "DAAZ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌近9%无消息，基本面存疑"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小盘煤企，轻微下跌无异常"
+   "ai_adjust": -6,
+   "ai_note": "极小市值且短期异常拉升，典型的边缘股票炒作存在极高流动性陷阱。"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "金价强势却逆势下跌，运营或治理存疑"
+   "ai_note": "金矿项目投产不及预期且历史治理存疑，需警惕勘探失败与稀释风险。"
   },
   {
-   "ticker": "NCKL.JK",
+   "ticker": "DOID.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "镍业龙头，走势平稳无异常"
+   "ai_note": "采矿服务业务随煤价波动基本面平庸，无显著超额收益逻辑。"
+  },
+  {
+   "ticker": "PTBA.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "国资背景且高股息近期大涨反映分红预期，量化低估了其防御价值。"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "管理层优秀且业务协同好，量化未完全体现其采矿服务的护城河。"
+  },
+  {
+   "ticker": "DAAZ.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "转型企业业务模式尚待验证，需防范概念炒作后的估值回归风险。"
+  },
+  {
+   "ticker": "TOBA.JK",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤企承包商，表现稳健"
+   "ai_note": "积极向新能源转型但传统煤炭仍占主导，短期缺乏爆发力。"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "市值不足5000亿，小盘治理风险"
+   "ai_note": "小型采矿承包商议价能力弱且受大客户拖累，需警惕应收账款风险。"
   },
   {
-   "ticker": "TOBA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "转型新能源但股价承压，催化不足"
-  },
-  {
-   "ticker": "TINS.JK",
+   "ticker": "ITMG.JK",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "国企锡业龙头，受益锡价上涨"
+   "ai_adjust": 2,
+   "ai_note": "万浦集团旗下核心煤炭资产分红慷慨，量化低估了其现金流价值。"
   },
   {
-   "ticker": "NICL.JK",
+   "ticker": "KKGI.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锡企表现远逊国企同行，存隐忧"
+   "ai_note": "近期涨幅较大且常有激进资本运作，需警惕大股东高位套现或稀释风险。"
   }
  ]
 }
