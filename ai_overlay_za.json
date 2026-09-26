@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-25T00:28Z",
+ "generated_at": "2026-09-26T00:31Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "德毕斯登铁路物流瓶颈持续制约产量与出口。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "管理层稳健但Transnet物流瓶颈持续压制产量"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "高度依赖嘉能可包销与管理，独立生存与治理存疑。"
+   "ai_adjust": -3,
+   "ai_note": "治理结构薄弱且依赖单一铬铁冶炼厂"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "频繁并购与复杂股权结构带来潜在稀释与治理风险。"
+   "ai_adjust": -4,
+   "ai_note": "历史上有反复稀释股权和推广炒作记录"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂价低迷叠加南非深部金矿面临电力与成本双重压力。"
+   "ai_adjust": -2,
+   "ai_note": "激进并购积累高负债且安全事故频发"
   },
   {
    "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微盘开发商且曾有财务困境，近期暴涨疑为游资炒作。"
+   "ai_adjust": -7,
+   "ai_note": "开发项目屡次失败且治理堪忧，无故大涨可疑"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬矿业务提供现金流缓冲，但铂族金属价格疲软仍拖累估值。"
-  },
-  {
-   "ticker": "IMP.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "作为纯铂族金属生产商，在当前低迷价格下利润空间受挤压。"
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦运营面临重大政策与汇兑风险"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "极小市值且流动性枯竭，存在严重的基本面与合规隐患。"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "刚果高品位锡矿基本面优异，但需警惕地缘政治与物流风险。"
+   "ai_adjust": -5,
+   "ai_note": "市值仅六千万流动性极差且业务能见度低"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化资产组合抗风险能力强，但整体仍受制于南非宏观环境。"
+   "ai_adjust": -1,
+   "ai_note": "管理层优质但近期跌幅缺乏明确基本面解释"
   },
   {
    "ticker": "EXX.JO",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "煤炭现金流稳健，但面临ESG撤资压力及Transnet物流制约。"
+   "ai_note": "煤炭资产面临长期ESG退出压力"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铂族金属受电动车替代效应结构性下行"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "刚果(金)矿区运营面临显著政治风险"
   },
   {
    "ticker": "EUZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "极小市值勘探公司单月暴涨逾50%，高度疑似缺乏基本面支撑的炒作。"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "虽为南非低成本铂矿龙头，但难以完全抵御铂族金属周期下行。"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "津巴布韦煤炭项目面临极高的政策、电力及治理等系统性风险。"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "彩色宝石需求波动大且流动性差，历史上曾受公司治理丑闻困扰。"
+   "ai_note": "微型勘探股月涨51%无任何消息典型拉高出货"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "虽派息丰厚，但面临严峻的ESG融资限制与南非铁路物流瓶颈。"
+   "ai_adjust": -2,
+   "ai_note": "纯动力煤标的面临严重ESG与融资风险"
   },
   {
-   "ticker": "EPS.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "小型铂矿生产商受制于南非电力短缺与高成本，生存能力堪忧。"
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小型煤炭生产商信息不透明且流动性差"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "运营质量较好但铂族金属行业逆风明显"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "黄金牛市下核心资产盈利强劲，量化模型可能低估了其增长潜力。"
+   "ai_adjust": 2,
+   "ai_note": "金价历史高位下优质矿企超跌提供买入机会"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "近期涨幅较大但彩色宝石市场小众且波动高"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "Crookesville矿历史运营问题拖累估值"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "成本控制较好，但南非深部金矿固有的安全与电力风险不容忽视。"
+   "ai_adjust": 0,
+   "ai_note": "金矿尾矿运营稳健受益于当前金价环境"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "尾矿回收成本低，但面临资源储量枯竭与南非限电的双重制约。"
+   "ai_adjust": 1,
+   "ai_note": "尾矿处理低风险低利润近期跌幅过度"
   }
  ]
 }
