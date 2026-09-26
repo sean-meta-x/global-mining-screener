@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-25T01:14Z",
+ "generated_at": "2026-09-26T01:17Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微型金矿勘探股，无新闻催化，流动性一般"
+  },
+  {
+   "ticker": "CVV.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿勘探商月跌18%无任何消息，存在隐性稀释风险"
+   "ai_adjust": -2,
+   "ai_note": "板块分类错误（标金实铀），数据质量存疑"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值2亿却月跌22%且零新闻，动量破位需警惕治理问题"
+   "ai_adjust": -3,
+   "ai_note": "开发商身份却大幅下跌，或存执行或融资风险"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅1170万的铀矿勘探商，流动性极差且无催化剂"
+   "ai_adjust": -2,
+   "ai_note": "市值仅千万，铀矿勘探流动性风险高"
+  },
+  {
+   "ticker": "MRZL.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "跌幅温和，多元化勘探暂无明显红旗"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "一月暴跌70%却零新闻，极可能钻探失败或恶性稀释"
+   "ai_note": "一月暴跌近70%无新闻，极可能钻探失败或大幅稀释"
   },
   {
    "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀矿勘探商月跌24%无任何利好，现金消耗风险高"
-  },
-  {
-   "ticker": "SBI.TO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金矿生产商月跌27%，虽有收入但运营或存隐忧"
-  },
-  {
-   "ticker": "MRZL.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "多元勘探商月仅跌4.5%相对抗跌，但缺乏明确催化剂"
+   "ai_note": "铀矿勘探小幅回调，无突出风险信号"
   },
   {
    "ticker": "AMY.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "电池材料勘探商月跌35%，赛道遇冷且无任何消息"
+   "ai_adjust": -3,
+   "ai_note": "市值极低且跌幅大，电池材料勘探风险高"
+  },
+  {
+   "ticker": "IBAT.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "电池金属勘探温和下跌，暂无重大异常"
+  },
+  {
+   "ticker": "CPAU.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "小金矿勘探股跌幅偏大，需关注资金面"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金矿生产商月涨5.8%表现稳健，但无新闻支撑持续性"
-  },
-  {
-   "ticker": "IBAT.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池金属勘探商月跌14%，无新闻且板块整体承压"
+   "ai_note": "生产商身份市值较大，跌幅可控无异常"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "市值八亿远超勘探级别，分类或有误但跌幅温和"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "市值8亿为最大标的，月跌9%属正常波动但缺催化剂"
+   "ai_note": "先进材料勘探跌幅超两成，市场情绪较差"
   },
   {
-   "ticker": "CPAU.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型金矿勘探商月跌14%，流动性差且无任何消息"
-  },
-  {
-   "ticker": "AEMC.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅1190万的勘探商月跌16%，稀释风险极高"
+   "ticker": "EMET.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "CSE上市月跌超50%，微型股或遭集中抛售"
   },
   {
    "ticker": "GPAC.V",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "金矿开发商月跌41%零新闻，大概率钻探失利或融资稀释"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铜矿勘探商月涨11%但零新闻，涨势缺乏基本面验证"
-  },
-  {
-   "ticker": "EMET.CN",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "多元勘探商月跌37%无任何消息，疑似重大利空未披露"
+   "ai_note": "开发商身份却暴跌46%，或遇许可或融资问题"
   },
   {
    "ticker": "NAM.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金属勘探温和回调，无突出异常信号"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "CSE微型股无新闻暴涨30%，疑似炒作拉升"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "市值三亿远超勘探级别，跌幅温和无异常"
+  },
+  {
+   "ticker": "SBI.TO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型多元勘探商月跌14%，无新闻且市值过小"
+   "ai_note": "金矿生产商月跌逾两成，或存运营或成本问题"
   },
   {
-   "ticker": "FAT.CN",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "多元勘探商月跌35%零新闻，可能存在未披露的负面事件"
-  },
-  {
-   "ticker": "IPT.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "白银生产商月跌10%，虽有产量但银价承压且无催化"
-  },
-  {
-   "ticker": "NEXU.CN",
+   "ticker": "CAF.V",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "PGM勘探商月仅跌3%相对平稳，但市值过小缺乏流动性"
+   "ai_adjust": 0,
+   "ai_note": "零回报横盘，无催化亦无红旗"
   }
  ]
 }
