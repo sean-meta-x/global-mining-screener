@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T00:53Z",
+ "generated_at": "2026-09-27T00:38Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企经营稳健，但铝价波动下业绩弹性不足，缺乏短期催化。"
+   "ai_note": "大型国企基本面稳健，但产能过剩限制估值弹性。"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "绿电铝成本优势显著，但短期受行业周期下行拖累。"
-  },
-  {
-   "ticker": "002497.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂盐价格暴跌重创业绩，高估值与高波动风险并存。"
+   "ai_adjust": -1,
+   "ai_note": "水电铝成本优势明显，但需警惕枯水期限产风险。"
   },
   {
    "ticker": "002101.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "主营为汽车铝压铸零部件，非纯矿业标的，受车企价格战影响。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "主营实为铝锻压而非冶炼，量化分类存在偏差。"
+  },
+  {
+   "ticker": "002497.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "历史财务造假及治理瑕疵频发，需规避信用风险。"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史股权结构复杂，存在一定公司治理与关联交易隐患。"
+   "ai_adjust": -2,
+   "ai_note": "煤电铝产业链盈利承压，中小产能缺乏成本护城河。"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "煤铝双主业提供现金流支撑，分红较好，但受宏观周期压制。"
+   "ai_note": "煤电铝双主业现金流充裕，成本管控处于行业前列。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "民营铝企成本管控较好，但产能扩张期资本开支压力较大。"
+   "ai_note": "新疆低电价优势稳固，但需关注产能置换政策风险。"
   },
   {
    "ticker": "600157.SS",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "曾有债券违约前科，公司治理与财务健康度存在重大隐患。"
+   "ai_adjust": -9,
+   "ai_note": "历史重组频繁且主业盈利极差，存在壳资源炒作嫌疑。"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "央企煤炭龙头高股息防御性强，量化低估其红利价值。"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "盈利能力偏弱，历史财务数据与治理结构需警惕潜在风险。"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "央企煤炭龙头，高股息防御属性强，但需关注煤价下行风险。"
-  },
-  {
-   "ticker": "000792.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "钾锂双龙头地位稳固，但破产重整后估值已充分反映预期。"
+   "ai_note": "资产负债率长期偏高，盈利对铝价波动极度敏感。"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "电池铝箔产能扩张快，但行业面临产能过剩与高负债风险。"
+   "ai_note": "铝箔产能扩张期资本开支大，短期自由现金流承压。"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "钾锂双主业提供安全垫，但锂价下行拖累整体业绩。"
   },
   {
    "ticker": "600219.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "全产业链布局完善，航空铝材突破带来增量，治理结构优秀。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝加工及汽车零部件业务协同较好，但负债率偏高。"
   },
   {
    "ticker": "002379.SZ",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "与母公司存在较多关联交易，资产负债率偏高，需防范风险。"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "海外并购遗留巨额债务，锂价下行周期中财务风险急剧放大。"
+   "ai_adjust": -2,
+   "ai_note": "铝价回调叠加前期涨幅较大，短期存在估值消化压力。"
   },
   {
    "ticker": "600361.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "缺乏核心矿山资源，作为铝加工企业利润空间受上下游挤压。"
-  },
-  {
-   "ticker": "002978.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值偏小且业务多元，主业不突出，存在流动性与治理折价。"
+   "ai_note": "中游加工属性强，受上下游挤压导致毛利率持续承压。"
   },
   {
-   "ticker": "600338.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "大股东质押率高，海外锂矿项目推进缓慢且面临地缘与许可风险。"
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "海外锂矿并购遗留高负债，锂价暴跌导致业绩大幅承压。"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "焦煤业务盈利尚可且分红稳定，但煤炭整体需求面临长期拐点。"
+   "ai_adjust": 1,
+   "ai_note": "焦煤长协比例高业绩稳健，高分红具备较强防御属性。"
+  },
+  {
+   "ticker": "002978.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "多元化业务协同效应尚待验证，中小市值流动性一般。"
   },
   {
    "ticker": "601677.SS",
    "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "铝板带箔龙头，管理层优秀，业绩稳健增长，估值相对合理。"
+   "ai_adjust": 0,
+   "ai_note": "铝板带箔细分龙头，新能源需求支撑但受加工费制约。"
+  },
+  {
+   "ticker": "600740.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "稀缺焦煤资源禀赋优异，国企改革提升分红预期。"
   }
  ]
 }
