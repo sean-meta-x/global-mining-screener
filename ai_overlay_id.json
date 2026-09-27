@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-26T00:36Z",
+ "generated_at": "2026-09-27T00:20Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
-   "ticker": "MINE.JK",
+   "ticker": "UNIQ.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘股流动性差，易受庄家操纵，需警惕治理风险。"
+   "ai_adjust": -2,
+   "ai_note": "微盘煤炭股流动性差，存在治理与退市风险。"
   },
   {
-   "ticker": "UNIQ.JK",
+   "ticker": "MINE.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "小型煤炭生产商，基本面平庸，缺乏显著催化剂。"
+   "ai_note": "业务多元但缺乏明确催化剂，维持中性观察。"
   },
   {
    "ticker": "MYOH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "曾经历财务困境与重组，历史治理瑕疵需折价。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭产量稳定，但短期缺乏向上催化剂。"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "业务多元化但缺乏核心亮点，估值与同业相当。"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 6,
-   "ai_note": "阿斯特朗集团旗下核心资产，治理极佳，量化低估其护城河。"
+   "ai_note": "多元化业务提供一定防御性，估值合理。"
   },
   {
    "ticker": "DWGL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值极小且近期暴跌，典型的高风险投机标的，谨防杀猪盘。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "股价无故暴跌且无公告，需警惕隐性利空或资金出逃。"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "重型设备龙头基本面稳健，但受煤炭周期压制。"
   },
   {
    "ticker": "FIRE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭股，流动性匮乏，易受资金短期炒作影响。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "极小市值且无实质业绩支撑，高度疑似资金炒作。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭企业，业绩随煤价波动，无显著治理瑕疵。"
+   "ai_note": "资源储量尚可，但产能释放节奏仍需验证。"
   },
   {
    "ticker": "ABMM.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "煤炭开采与承包双轮驱动，管理层稳健，基本面扎实。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭开采与运输业务稳健，估值处于合理区间。"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "盐仓集团背书，治理规范，但高度依赖传统煤炭业务。"
+   "ai_adjust": 0,
+   "ai_note": "股息率具吸引力，但长期面临能源转型压力。"
   },
   {
    "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "承包商业务庞大但控股层历史债务复杂，需关注资产负债表。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "资产整合仍在推进，短期业绩贡献尚不明显。"
   },
   {
    "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "哈立达集团旗下镍业龙头，治理优秀，但受制于镍价低迷。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "镍冶炼面临ESG审查与高资本开支，盈利承压。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "煤炭产能释放稳定，集团背景雄厚，量化未充分体现其稳健性。"
-  },
-  {
-   "ticker": "PSAB.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "历史上有频繁增发与炒作前科，治理堪忧，坚决规避。"
+   "ai_adjust": 0,
+   "ai_note": "采矿承包商业务稳定，但毛利率受燃油成本挤压。"
   },
   {
    "ticker": "PTBA.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "国有煤炭龙头，高股息且治理透明，近期强势反弹有基本面支撑。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "国企背景且分红慷慨，但长期煤炭需求存疑。"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿品位下降且面临社区与环保许可阻碍。"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型煤炭股，业绩波动大且流动性极差，存在边缘化风险。"
+   "ai_note": "市值偏小且煤炭业务单一，抗风险能力较弱。"
   },
   {
    "ticker": "RMKE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭标的，缺乏规模优势，易受行业周期与资金情绪双杀。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭业务平稳，但缺乏显著的成长弹性。"
   },
   {
    "ticker": "KKGI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "虽有资源储量，但过往存在关联交易争议，治理需打折。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭销量增长带动反弹，需关注长期煤价走势。"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "频繁跨界并购且关联交易较多，公司治理透明度存在瑕疵。"
+   "ai_adjust": -3,
+   "ai_note": "股价大幅回调，可能隐含产能不及预期或债务担忧。"
   },
   {
    "ticker": "NICL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锡矿生产商，受印尼出口政策与价格波动影响大，基本面一般。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锡价波动剧烈且公司受印尼出口政策影响大。"
   }
  ]
 }
