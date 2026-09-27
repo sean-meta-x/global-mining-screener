@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-26T00:18Z",
+ "generated_at": "2026-09-27T00:02Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铀矿微型勘探股无近期新闻，需警惕流动性差与融资稀释风险。"
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探股缺乏实质进展，需警惕高稀释与 promoter 炒作风险。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "缺乏近期催化剂，微型市值面临持续失血与融资风险。"
+   "ai_adjust": -4,
+   "ai_note": "业务重心频繁切换且具 promotional 历史，公司治理与稀释风险较高。"
   },
   {
    "ticker": "CEXYF",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极低市值无新闻却异常大涨，高度疑似资金炒作或拉高出货。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值极小且流动性匮乏，微盘铜矿勘探股易受定向增发与炒作影响。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "勘探阶段无实质进展，市值偏小且缺乏流动性支撑。"
+   "ai_adjust": -4,
+   "ai_note": "核能微型勘探股缺乏实质催化剂，警惕 promoter 炒作与股权稀释。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "单月暴跌近四成且无新闻，极可能存在未披露的利空或稀释。"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锂价低迷期开发项目推进缓慢，缺乏短期股价催化剂。"
+   "ai_adjust": -8,
+   "ai_note": "单月暴跌近40%且市值极低，基本面或存在严重未披露的流动性危机。"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "权证流动性极差且杠杆风险高，不适合常规量化多头策略。"
+   "ai_adjust": -10,
+   "ai_note": "权证类资产波动极大且具高度稀释性，非核心权益应坚决规避。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "锂价低迷期重资产开发面临巨大资本开支压力，融资稀释风险极高。"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "单月重挫且无新闻，需警惕项目延期或隐性财务压力。"
+   "ai_note": "Rhyolite Ridge项目面临长期审批延迟与资金缺口，落地不确定性大。"
   },
   {
    "ticker": "CMCL",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金生产商基本面尚可，近期回调属正常板块波动。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钾矿开发进度受宏观压制，短期缺乏明确上行催化剂。"
+   "ai_note": "津巴布韦地缘政治风险抵消了黄金生产商的稳健分红与现金流。"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂价承压叠加项目资本开支大，需关注融资与审批风险。"
+   "ai_adjust": -5,
+   "ai_note": "Thacker Pass项目资本开支巨大且面临环保诉讼与股权稀释双重压力。"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "巴西钾矿开发处于早期阶段，资本开支与项目执行风险仍需观察。"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "多年深陷项目延期与融资困境，典型的高风险 promoter 炒作标的。"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型市值勘探股跌幅显著，无新闻背景下需防范稀释。"
-  },
-  {
-   "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "稀土开发项目长期受困于资金与环保审批，下行风险大。"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金矿勘探股单月大跌近三成，缺乏新闻支撑需警惕基本面恶化。"
+   "ai_note": "微型多金属勘探股流动性极差，极易受低价增发与资金盘炒作影响。"
   },
   {
    "ticker": "NC",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭业务现金流尚可，但长期面临ESG估值压制。"
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产商估值极低且分红丰厚，但受ESG压制导致长期流动性受限。"
   },
   {
-   "ticker": "SLI",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "提锂技术商业化仍需验证，锂价低迷期易受资金抛弃。"
-  },
-  {
-   "ticker": "KGC",
+   "ticker": "LODE",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "大型金矿股单月暴跌27%极不寻常，需排查隐性运营或治理风险。"
+   "ai_adjust": -7,
+   "ai_note": "频繁炒作概念并持续稀释股权，管理层资本配置能力与诚信存疑。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型金矿生产商跌幅过大，需关注产量不及预期或成本超支。"
+   "ai_note": "市值极小的金矿生产商，运营规模、抗风险能力与流动性均存隐患。"
+  },
+  {
+   "ticker": "METCB",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "冶金煤价格波动导致暴跌，需警惕单一客户流失或短期运营风险。"
+  },
+  {
+   "ticker": "SLI",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "DLE技术尚未完全验证且锂价低迷，项目后续融资与稀释压力巨大。"
+  },
+  {
+   "ticker": "KGC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "核心资产优质且并购Great Bear增厚储量，但短期涨幅已透支部分预期。"
   },
   {
    "ticker": "OGC",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型金矿企受金价回调拖累，整体运营与治理相对稳健。"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金勘探股缺乏近期钻探利好，流动性折价风险较高。"
+   "ai_adjust": 0,
+   "ai_note": "菲律宾Didipio矿社区关系偶有扰动，但整体运营与现金流相对稳健。"
   }
  ]
 }
