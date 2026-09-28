@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-27T00:27Z",
+ "generated_at": "2026-09-28T00:36Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值不足三亿港元，流动性极差且易遭资金操纵。"
+   "ai_adjust": -3,
+   "ai_note": "小市值综合类标的流动性差，需警惕潜在股本摊薄风险。"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "长期依赖配股融资，股本持续稀释，项目推进缓慢。"
+   "ai_note": "典型港股老千股特征，频繁供股摊薄，基本面极差。"
   },
   {
    "ticker": "1051.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "虽受惠金价但历史重组包袱重，需警惕管理层治理风险。"
-  },
-  {
-   "ticker": "0098.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "传统铝加工利润微薄，缺乏核心矿产资源优势，表现平稳。"
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "历史治理极差，长期依赖财技与供股，属典型价值陷阱。"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "白银价格波动大且公司近年盈利不佳，存在债务与运营压力。"
+   "ai_note": "白银冶炼产能过剩，且公司历史财务透明度存疑。"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "近期走势强劲且为海外优质资产，但小盘股流动性仍受限。"
+   "ai_adjust": 0,
+   "ai_note": "近期走势偏强，但缺乏实质性基本面催化剂，保持中性。"
   },
   {
-   "ticker": "2600.HK",
+   "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型央企铝龙头，受宏观周期与铝价影响，估值合理。"
+   "ai_note": "铝型材龙头，基本面扎实，但受宏观周期压制。"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "非典型矿业股且市值微小，存在壳股特征与极高治理风险。"
+   "ai_note": "创业板壳股特征明显，主业边缘化，存在极高炒作风险。"
   },
   {
    "ticker": "0637.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值微小且流动性枯竭，缺乏机构关注，易受资金操纵。"
+  },
+  {
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型国企铝企，安全边际高但缺乏成长弹性，中性看待。"
+  },
+  {
+   "ticker": "1182.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅一亿港元出头，流动性枯竭，极易受少量资金操控。"
+   "ai_adjust": -10,
+   "ai_note": "经典壳股，频繁更改主业与财技运作，治理结构形同虚设。"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中小盘铜矿企业，需关注海外矿山运营稳定性及地缘风险。"
+   "ai_adjust": -3,
+   "ai_note": "小型铜矿企，项目推进与资金链存疑，需防范流动性折价。"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "次新黄金生产商，基本面尚可但需观察上市后解禁抛压。"
+   "ai_note": "次新黄金股，产量处于爬坡期，暂无明显负面治理瑕疵。"
   },
   {
    "ticker": "1738.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "市值不足八千万的仙股，面临严重流动性危机与退市风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "无烟煤小盘股，业绩受煤价波动影响大且流动性极差。"
   },
   {
    "ticker": "1898.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型煤炭央企，业绩受煤价周期影响，高股息具备防御性。"
+   "ai_note": "大型煤炭国企，高股息提供安全垫，但需关注煤价周期下行。"
   },
   {
    "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "焦煤供应链企业，受下游钢铁需求疲软影响，盈利承压。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "蒙古煤炭项目曾现重大治理与资金问题，历史包袱较重。"
   },
   {
    "ticker": "6885.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值偏小且煤炭行业面临环保与转型压力，长期增长受限。"
+   "ai_adjust": -2,
+   "ai_note": "焦化小盘股，环保政策风险高，且市场关注度极低。"
   },
   {
    "ticker": "2610.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝业中坚力量，产业链完整，受铝价及印尼项目进展驱动。"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "全球最大铝企之一，成本优势显著，高股息率提供安全边际。"
-  },
-  {
-   "ticker": "1208.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铜锌矿企，受全球铜价及海外矿山运营与地缘风险影响。"
+   "ai_note": "中型铝企，产业链相对完整，估值合理，暂无重大瑕疵。"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "老牌仙股，主营业务模糊，存在极高的财务与治理风险。"
+   "ai_adjust": -9,
+   "ai_note": "老牌仙股，长期通过配售摊薄吸血，基本面毫无支撑。"
   },
   {
-   "ticker": "0276.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "市值不足一亿的仙股，长期炒作蒙古煤矿概念，无实质业绩。"
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "民营电解铝龙头，成本优势显著，但需警惕高负债率。"
+  },
+  {
+   "ticker": "1208.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "核心资产优质，但秘鲁社区堵路等地缘政治风险频发。"
   }
  ]
 }
