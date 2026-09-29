@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T00:10Z",
+ "generated_at": "2026-09-29T01:27Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铀矿微盘股无新闻且持续阴跌，流动性与融资风险极高。"
+   "ai_note": "微型铀矿勘探商，无新闻却持续阴跌，疑似隐性稀释。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "关键矿物开发商缺乏近期催化，股价持续走弱需警惕。"
-  },
-  {
-   "ticker": "CEXYF",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微盘铜矿股无新闻却异常暴涨，极可能是低流动性资金炒作。"
-  },
-  {
-   "ticker": "FNUC",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "核能矿产探索者缺乏实质性进展披露，基本面与资金面存疑。"
-  },
-  {
-   "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微盘股单月暴跌近四成且无公告，恐遇融资稀释或项目受阻。"
+   "ai_adjust": -3,
+   "ai_note": "无新闻流配合下跌，关键矿产勘探进度不明。"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "权证标的月跌近半且零新闻，流动性与基本面双重风险。"
+  },
+  {
+   "ticker": "CEXYF",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型铜矿股无新闻却暴涨25%，典型拉高出货特征。"
+  },
+  {
+   "ticker": "FNUC",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "核矿概念勘探商无催化下跌，市场关注度极低。"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "认股权证自带高杠杆与时间价值衰减，无新闻下暴跌属正常。"
+   "ai_note": "市值仅千万却暴跌近40%无公告，高度疑似融资稀释。"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锂矿开发商走势平稳但缺乏近期催化。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂矿股单月大跌逾三成，行业周期下行且缺乏利好支撑。"
+   "ai_note": "中型锂生产商月跌逾三成无消息，可能存在运营问题。"
   },
   {
    "ticker": "CMCL",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金生产商基本面相对稳健，短期回调属正常市场波动。"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "锂矿开发商逆势微涨，或有潜在融资及项目推进预期。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钾矿开发商走势平稳，需关注巴西项目审批及资金消耗。"
+   "ai_note": "金矿生产商小幅回调，基本面未见异常。"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂矿巨头受累于行业低迷，项目资本开支与融资压力较大。"
+   "ai_note": "锂矿开发商下跌15%无新闻，Thacker Pass进度存疑。"
   },
   {
-   "ticker": "CAMZF",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微盘多金属探索者持续失血且无新闻，存在较高稀释风险。"
-  },
-  {
-   "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "稀有金属项目历史推进缓慢，股价破位下行反映市场失去耐心。"
+   "ticker": "GRO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "巴西钾矿开发商走势平稳，等待项目推进催化。"
   },
   {
    "ticker": "LODE",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿勘探商暴跌32%零公告，需警惕资产减值或融资。"
+  },
+  {
+   "ticker": "SLI",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂矿开发商月跌超30%无消息，项目融资压力显现。"
+  },
+  {
+   "ticker": "CAMZF",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "公司频繁蹭概念热点，主业金矿进展不明，公司治理存疑。"
+   "ai_note": "微型矿企跌近三成无新闻，流动性极差恐遭抛售。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "纳米比亚矿产项目处于早期，股价大跌或暗示资金链紧张。"
+   "ai_note": "金矿生产商跌27%无公告，运营或成本端恐出问题。"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "稀土开发商持续下跌无催化，项目融资不确定性高。"
+  },
+  {
+   "ticker": "OGC",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型金矿商随板块回调，估值尚在合理区间。"
   },
   {
    "ticker": "NC",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "传统煤炭业务承压，锂矿转型尚处早期，估值缺乏向上弹性。"
-  },
-  {
-   "ticker": "SLI",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "提锂商业化受阻且前期合作破裂，面临严峻的融资稀释风险。"
-  },
-  {
-   "ticker": "METCB",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "煤炭生产商单月暴跌逾三成，需警惕业绩不及预期或行业逆风。"
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产商温和回调，无重大异常信号。"
   },
   {
    "ticker": "KGC",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "大型金矿商短期大幅回调，或受金价波动及获利盘了结影响。"
-  },
-  {
-   "ticker": "GLDG",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "黄金勘探公司缺乏高品位钻探突破，股价随板块弱势调整。"
+   "ai_note": "大型金矿商跌26%幅度偏大，需关注成本与产量指引。"
+  },
+  {
+   "ticker": "METCB",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "煤炭生产商暴跌42%零新闻，恐有重大未披露利空。"
   }
  ]
 }
