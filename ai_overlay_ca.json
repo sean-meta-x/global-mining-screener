@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-28T01:09Z",
+ "generated_at": "2026-09-29T02:28Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "VIO.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿勘探股，无新闻却高分，历史上存在推销稀释风险"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "微盘金矿勘探股无消息阴跌，需警惕隐性融资稀释。"
   },
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值仅两千万的多元勘探股，流动性极低，稀释风险高"
+   "ai_note": "市值不足两千万且无新闻，流动性风险与潜在稀释并存。"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股，市值不足一千二百万，无新闻支撑高分"
+   "ai_adjust": -4,
+   "ai_note": "铀矿微型股大幅回调且无公告，恐有钻探失利或资金链紧张。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "两亿市值开发阶段公司月跌22.5%却无新闻，或有未披露问题"
+   "ai_adjust": -5,
+   "ai_note": "开发阶段公司单月跌逾两成且零公告，需排查项目许可或资金风险。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月暴跌69.5%无任何新闻，极可能钻探失败或大规模稀释"
+   "ai_adjust": -10,
+   "ai_note": "单月暴跌七成且无公告，极大概率存在未披露的恶性稀释或钻探失败。"
   },
   {
    "ticker": "V.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股，市值不足三千万，无消息面支撑"
-  },
-  {
-   "ticker": "AMY.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅一千二百万的电池材料微型股，持续稀释历史，生存存疑"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿勘探股月跌20%无新闻，流动性差稀释风险高"
+   "ai_adjust": -4,
+   "ai_note": "铀矿微型股跌幅达两成，缺乏基本面支撑，警惕流动性枯竭。"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "一亿四千万市值金矿生产商，月跌幅温和，暂无明显异常"
+   "ai_note": "黄金生产商抗跌性较好，短期走势平稳，暂无明显负面信号。"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "八亿市值较大勘探公司，月跌6%尚可，但西非运营风险需关注"
-  },
-  {
-   "ticker": "AVL.TO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "先进材料微型勘探股月跌22.4%无新闻，商业化前景不明"
-  },
-  {
-   "ticker": "EMET.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "CSE上市微型股月跌51.3%无任何新闻，高度疑似 promoters 出逃"
+   "ai_adjust": -2,
+   "ai_note": "中大市值金矿股随板块回调，基本面尚可，暂无重大治理风险。"
   },
   {
    "ticker": "GPAC.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "开发阶段金矿公司月跌46.2%无新闻，可能遭遇许可或融资危机"
+   "ai_adjust": -9,
+   "ai_note": "股价腰斩且无消息，量化模型失效，存在严重的隐性利空或融资。"
   },
   {
-   "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型多元勘探股，市值不足一千六百万，长期稀释记录"
+   "ticker": "FAT.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "CSE微盘股暴跌近四成，无公告掩护下的暴跌多为资金盘破裂或稀释。"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "三亿四千万市值较大公司，月跌3.9%温和，但圭亚那运营风险"
+   "ai_note": "中等市值金矿股温和回调，量化评分合理，暂无需过度悲观。"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型股跌幅达两成，无新闻佐证，需防范管理层私下配售稀释。"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": 1,
-   "ai_note": "CSE微型铜矿股月涨30%却无新闻，涨势来源不明需警惕"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "无新闻刺激下微盘股暴涨三成，典型炒作特征，切忌盲目追高。"
+  },
+  {
+   "ticker": "IPT.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "白银生产商受贵金属板块拖累回调，具备一定基本面支撑。"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "三亿六市值黄金生产商月跌21.6%无新闻，巴西运营或有隐忧"
+   "ai_adjust": -3,
+   "ai_note": "生产商单月跌超两成，需关注其巴西矿区是否存在运营或成本问题。"
   },
   {
-   "ticker": "CAF.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型金矿勘探股月零回报无新闻，流动性枯竭风险"
-  },
-  {
-   "ticker": "FAT.CN",
+   "ticker": "EMET.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "CSE微型股月跌37.6%无任何新闻，高度疑似推广后抛售"
+   "ai_adjust": -9,
+   "ai_note": "股价暴跌超四成且零公告，量化高分失效，存在极大概率的恶性稀释。"
   },
   {
-   "ticker": "IPT.V",
+   "ticker": "CCCM.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "走势相对平稳，量化评分与近期表现匹配，暂无明显异常。"
+  },
+  {
+   "ticker": "GLO.TO",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "开发阶段公司大跌三成，需警惕土耳其项目许可延期或资金缺口。"
+  },
+  {
+   "ticker": "OCEN.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "墨西哥银矿生产商，政策风险上升，月跌9.7%需关注"
+   "ai_note": "微盘股成交低迷横盘，流动性极差，量化高分缺乏实际交易支撑。"
+  },
+  {
+   "ticker": "SXTY.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值仅千万的CSE微盘股，阴跌中需防范随时发生的低价融资。"
   }
  ]
 }
