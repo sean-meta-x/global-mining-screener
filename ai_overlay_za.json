@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-28T00:25Z",
+ "generated_at": "2026-09-29T01:41Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿石需求受中国地产拖累，高分红难掩周期下行。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中国需求疲软拖累铁矿石价格，短期基本面承压。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "频繁合资与资本运作复杂，存在潜在股权稀释风险。"
+   "ai_adjust": -4,
+   "ai_note": "市值过小且近期跌幅显著，需警惕流动性与运营风险。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "严重依赖南非电力与物流，限电及运输瓶颈制约产能。"
+  },
+  {
+   "ticker": "THA.JO",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "铬铁产能过剩且公司治理存在历史瑕疵，估值受压。"
+   "ai_note": "铂族金属价格持续低迷，短期抗跌但长期盈利承压。"
+  },
+  {
+   "ticker": "SSW.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "PGM业务深陷亏损，大规模裁员及运营重组带来不确定性。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "极小市值且流动性枯竭，存在壳公司或治理暴雷风险。"
-  },
-  {
-   "ticker": "THA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂族金属价格暴跌重创利润，高成本矿山面临现金流压力。"
-  },
-  {
-   "ticker": "SSW.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂族金属价格崩盘拖累业绩，重组与高成本削弱现金流。"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "业务多元但受累于铂族和铁矿石价格疲软，短期缺乏催化。"
-  },
-  {
-   "ticker": "WEZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "典型讲故事的开发期矿企，历史钻探失败且融资困难。"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锡价坚挺支撑业绩，但刚果金地缘与政策风险不可忽视。"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭现金流充沛，但面临长期ESG融资限制与价格回落风险。"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "动力煤长期需求衰退且ESG约束强，高股息难掩资产贬值。"
-  },
-  {
-   "ticker": "IMP.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂钯价格暴跌导致利润大幅缩水，高杠杆下资产负债表承压。"
+   "ai_note": "市值不足一亿，流动性极差，存在严重的壳公司风险。"
   },
   {
    "ticker": "EUZ.JO",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "勘探期微盘股无基本面支撑却暴涨，高度疑似资金炒作。"
+   "ai_note": "微盘股单月暴涨超50%，无实质利好支撑，典型资金炒作。"
   },
   {
-   "ticker": "SLG.JO",
+   "ticker": "WEZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "极小市值煤炭股，曾面临停牌与流动性危机，治理风险极高。"
+   "ai_adjust": -10,
+   "ai_note": "长期深陷财务困境与业务救援，治理结构存在重大瑕疵。"
   },
   {
-   "ticker": "PAN.JO",
+   "ticker": "ARI.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铂族金属及锰矿价格下跌拖累业绩，短期回调风险未释放。"
+  },
+  {
+   "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金产量稳步增长，但金价处于历史高位，需警惕回调风险。"
+   "ai_note": "虽面临ESG长期压力，但现金流充沛且分红稳定，估值合理。"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铂族金属价格崩盘导致利润大幅缩水，短期缺乏反转催化剂。"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "刚果(金)运营面临地缘与物流风险，但锡价支撑其基本面。"
+  },
+  {
+   "ticker": "TGA.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭资产面临ESG折价，但高股息提供一定安全边际。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金价大涨但股价回调，暗示存在隐性成本上升或产量不及预期。"
+   "ai_note": "金价高位支撑盈利，近期回调属正常波动，长期逻辑未破。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值偏小且煤炭板块整体承压，流动性与抗风险能力较弱。"
   },
   {
    "ticker": "NPH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "虽为低成本铂族矿企，但一篮子金属价格崩盘仍重创其盈利。"
+   "ai_view": "neutral",
+   "ai_adjust": -3,
+   "ai_note": "虽为低成本生产商，但难敌铂族金属价格单边下跌趋势。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "彩色宝石定价不透明且市场极度小众，业绩高增难以持续验证。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "彩色宝石需求复苏带动近期上涨，基本面稳健无明显瑕疵。"
+  },
+  {
+   "ticker": "PAN.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "黄金资产成本低且产量增长明确，近期回调提供布局良机。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "尾矿回收利润率微薄，对金价和运营成本极度敏感，缺乏护城河。"
+   "ai_note": "尾矿回收成本受通胀影响，金价高位下盈利弹性相对有限。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南非深部金矿开采成本高昂，金价红利被通胀与罢工风险吞噬。"
+   "ai_adjust": -4,
+   "ai_note": "南非矿区面临严重的成本通胀与罢工风险，侵蚀利润空间。"
   }
  ]
 }
