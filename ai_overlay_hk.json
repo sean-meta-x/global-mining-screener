@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T01:52Z",
+ "generated_at": "2026-09-30T01:22Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤企流动性差，需警惕潜在治理与财务风险。"
+   "ai_note": "量化高分但月跌13%，小盘煤炭股动能与评分背离"
   },
   {
    "ticker": "2693.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极小市值且主业模糊，典型壳股特征，存在高度不确定性。"
-  },
-  {
-   "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史上有频繁融资与关联交易记录，需警惕股权稀释风险。"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "澳洲金矿资产尚可，但港股流动性匮乏导致估值受限。"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "长期烧钱的勘探公司，南非运营风险高且存在持续稀释历史。"
+   "ai_adjust": -2,
+   "ai_note": "小盘且分类模糊，流动性存疑"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值极小且流动性枯竭，缺乏实质性催化剂，易被边缘化。"
+   "ai_note": "市值仅1.4亿，流动性风险突出"
+  },
+  {
+   "ticker": "0815.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "月跌22%远超评分预期，中国白银曾有治理问题"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金价上涨带动正收益，基本面与动量一致"
+  },
+  {
+   "ticker": "0621.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "开发阶段且月跌19%，Taung Gold长期拖延历史"
   },
   {
    "ticker": "1051.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "虽有重组但历史股性活跃，具典型庄股特征，需防范炒作风险。"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "次新股金矿标的，需警惕上市后的估值泡沫与潜在解禁抛压。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "月跌近25%，G-Resources历史治理问题严重"
   },
   {
    "ticker": "8095.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "创业板边缘企业，主业非矿且市值极小，存在高度壳股风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "公司名称与矿业不符，分类模糊需警惕"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企基本面稳健，但受铝价周期与低ROE拖累，估值承压。"
+   "ai_note": "大型国企铝企，流动性好但弹性有限"
   },
   {
    "ticker": "3636.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值铜企流动性不佳，需关注其实际产能利用率与治理结构。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铜矿生产商，市值适中，小幅回调正常"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "创业板微盘煤企，历史上有过供股摊薄与炒作劣迹，风险极高。"
+   "ai_note": "市值仅5000万，微盘股流动性极差"
+  },
+  {
+   "ticker": "0098.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "兴发铝业市值合理，轻微回调无异常"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小盘煤炭股，月跌8.6%动能偏弱"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "全球最大铝企之一，大盘蓝筹相对安全"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "近期更名，金矿生产商基本面尚可"
+  },
+  {
+   "ticker": "1182.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值仅2亿，Success Dragon历史壳股特征明显"
   },
   {
    "ticker": "8250.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "典型创业板仙股，基本面薄弱且常有异常资金炒作，坚决规避。"
-  },
-  {
-   "ticker": "0166.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "长期作为壳股运作，频繁变更主业与配售，治理结构极差。"
-  },
-  {
-   "ticker": "1182.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "历史上多次转型且主业不清，典型壳公司特征，治理风险极高。"
+   "ai_adjust": -8,
+   "ai_note": "市值仅3800万却月涨25%，典型拉高出货特征"
   },
   {
    "ticker": "1738.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值无烟煤企业，流动性匮乏，缺乏机构关注与催化剂。"
+   "ai_note": "市值不足8000万，小盘煤炭流动性差"
   },
   {
-   "ticker": "0098.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "母公司中国忠旺深陷财务与债务危机，存在严重的连带治理风险。"
+   "ticker": "1029.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "IRC历史债务和运营问题严重，月跌11%"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "资产质量尚可但港股市场给予极高流动性折价，缺乏短期催化。"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "核心资产位于俄罗斯，受地缘政治与制裁影响，面临极大合规与流动性风险。"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "全球铝龙头成本优势显著，虽负债率偏高但盈利韧性强，估值合理。"
+   "ai_adjust": -2,
+   "ai_note": "市值合理但煤炭板块整体承压"
   }
  ]
 }
