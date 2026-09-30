@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T02:03Z",
+ "generated_at": "2026-09-30T01:33Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中铝为大型国企，无新闻催化，随板块回调，量化评分尚可"
-  },
-  {
-   "ticker": "000612.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中小铝企，无异常信息，跟随行业整体走弱"
+   "ai_note": "大型国企铝企，近期回调但无重大利空，估值尚可"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "云铝一月跌幅相对温和，无额外风险信号"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "神火股份无 headlines，跌幅在正常范围内"
+   "ai_adjust": 0,
+   "ai_note": "云南铝业跌幅温和，基本面未见明显异常"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "雅化集团一月跌近19%，多元化业务或存隐忧需警惕"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "天山铝业无特殊新闻，随板块调整"
+   "ai_adjust": -2,
+   "ai_note": "一月跌幅近两成，多元化业务拖累，需警惕基本面恶化"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "鸿图科技跌幅最小但市值偏小，流动性需关注"
+   "ai_note": "小市值铝企，流动性偏弱，跌幅可控但弹性有限"
+  },
+  {
+   "ticker": "000612.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "焦作万方铝业务稳定，回调幅度在合理区间"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "神火股份铝煤双主业，跌幅温和，估值有支撑"
   },
   {
    "ticker": "600157.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭板块承压，永泰能源历史治理问题仍需关注"
+  },
+  {
+   "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "永泰能源为煤炭中坚，无异常信息"
-  },
-  {
-   "ticker": "603876.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "鼎胜新材一月暴跌27%，无 headlines 解释，警惕基本面恶化或治理问题"
-  },
-  {
-   "ticker": "000792.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "盐湖股份锂业务承压，一月跌近18%，锂价低迷持续"
+   "ai_note": "天山铝业产能规模大，成本优势明显，回调后具配置价值"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "山煤国际跌幅可控，煤炭板块整体走弱"
+   "ai_note": "山煤国际煤炭主业稳健，跌幅属板块联动"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中煤能源大型央企，防御性尚可但缺催化"
+   "ai_note": "中煤能源大型央企，高股息防御属性，回调有限"
   },
   {
-   "ticker": "600595.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中孚实业无异常信息，跟随铝板块调整"
+   "ticker": "603876.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -3,
+   "ai_note": "一月暴跌逾26%，鼎胜新材需排查是否存在业绩变脸或减持风险"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "盐湖提锂龙头，锂价下行周期业绩承压明显"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "南山铝业大型铝企，跌幅温和，无负面信号"
+   "ai_note": "南山铝业全产业链布局，跌幅温和，基本面扎实"
   },
   {
-   "ticker": "601677.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "明泰铝业无 headlines，表现中规中矩"
-  },
-  {
-   "ticker": "600971.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "恒源煤电市值偏小，无额外信息支撑加减仓"
-  },
-  {
-   "ticker": "002379.SZ",
+   "ticker": "600595.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中国宏桥一月跌逾14%，铝价承压叠加港股情绪偏弱"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "天齐锂业一月跌近20%，锂价下行周期中高风险标的"
-  },
-  {
-   "ticker": "002978.SZ",
-   "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "安奈格多元化业务，无明确催化或风险信号"
+   "ai_note": "中孚实业资产负债率偏高，行业下行期财务风险上升"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "晋能控股山西煤炭，跌幅温和，无异常"
+   "ai_note": "晋控煤业国企背景，煤炭主业稳定，回调幅度正常"
+  },
+  {
+   "ticker": "600971.SS",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "恒源煤电市值偏小，煤炭板块整体走弱中弹性不足"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "天齐锂业跌幅近两成，锂价低迷叠加高负债风险加大"
+  },
+  {
+   "ticker": "002978.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "交建工程多元化经营，跌幅在板块均值范围内"
+  },
+  {
+   "ticker": "600338.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "珠峰黄金一月跌17%，需关注海外矿产运营及治理风险"
+  },
+  {
+   "ticker": "601677.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "明泰铝业铝板带箔龙头，跌幅温和，基本面未见恶化"
   }
  ]
 }
