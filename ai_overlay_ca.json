@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-30T01:57Z",
+ "generated_at": "2026-10-01T01:59Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "VIO.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘勘探股无消息下跌，警惕隐性稀释或项目停滞"
+   "ai_adjust": -2,
+   "ai_note": "微型金矿勘探股，流动性差，无催化剂支撑，下行风险大"
   },
   {
    "ticker": "MRZL.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "极低市值无新闻，流动性差且缺乏催化剂"
-  },
-  {
-   "ticker": "ENDR.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型勘探股无消息微跌，信息透明度存疑"
-  },
-  {
-   "ticker": "LIFT.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "中大市值无预警暴跌25%，或存在未披露利空"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "市值不足两千万，流动性极低，横盘无方向，观望为主"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿微型勘探股，单月跌两成，资金持续流出需警惕"
+  },
+  {
+   "ticker": "LIFT.V",
+   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型铀矿股大跌无消息，警惕融资稀释风险"
+   "ai_note": "开发商单月跌逾两成，项目推进存疑，估值承压明显"
   },
   {
    "ticker": "CPAU.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘金矿勘探股持续下跌无消息，基本面存疑"
+   "ai_adjust": -2,
+   "ai_note": "市值仅千万级别，金矿勘探无新进展，流动性风险突出"
   },
   {
-   "ticker": "JUGR.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "无消息暴跌近70%，极可能钻探失败或重大稀释"
+   "ticker": "ENDR.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "跌幅相对温和，但市值偏小，缺乏明确催化剂驱动"
+  },
+  {
+   "ticker": "V.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿勘探股单月跌近两成，市场情绪疲软，谨慎对待"
   },
   {
    "ticker": "AVL.TO",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "无预警大跌35%，或存在未公告负面事件"
+   "ai_note": "项目长期拖延历史，单月跌26%，治理与执行力存疑"
   },
   {
-   "ticker": "V.V",
+   "ticker": "JUGR.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "单月暴跌近七成，极可能钻探失败或大幅稀释，高度警惕"
+  },
+  {
+   "ticker": "MMY.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀矿勘探股大跌无消息，需警惕隐性利空"
+   "ai_adjust": -3,
+   "ai_note": "中型矿企单月跌15%，运营效率偏低，需关注成本控制"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值铀矿股，分类信息存疑，跌幅较大需警惕风险"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "无新闻却暴涨26%，CSE上市微盘股，高度疑似拉高出货"
   },
   {
    "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "生产商温和下跌，运营或面临成本压力"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金矿生产商股价持续走弱，运营问题未解，基本面承压"
   },
   {
-   "ticker": "EMET.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "无消息暴跌超55%，微型壳股风险极高"
+   "ticker": "AEMC.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "市值不足千万，单月跌25%，微型勘探股流动性风险极高"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大盘勘探股温和回调，暂无明显异常"
+   "ai_adjust": -2,
+   "ai_note": "实际为生产商却归类为勘探商，跌幅温和但增长乏力"
+  },
+  {
+   "ticker": "OCEN.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值仅千万，多元化勘探方向不明，流动性风险较大"
+  },
+  {
+   "ticker": "EMET.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "单月暴跌54%，CSE上市小盘股，疑似重大利空或稀释"
+  },
+  {
+   "ticker": "FAT.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "单月跌超四成，CSE微盘股无消息面支撑，风险极高"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值多元化勘探股，项目进展缓慢，下行压力持续"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "黄金生产商大跌23%，或存在运营或治理问题"
-  },
-  {
-   "ticker": "FAT.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "无消息暴跌41%，微型股疑似庄股出货"
-  },
-  {
-   "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘多元勘探股下跌13%，缺乏明确催化剂"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无消息暴涨30%，高度疑似炒作拉升"
-  },
-  {
-   "ticker": "IPT.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "白银生产商温和下跌，市场波动所致"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小幅上涨无消息，铀矿概念正常波动"
-  },
-  {
-   "ticker": "GLO.TO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "开发阶段公司大跌31%，或存在许可或融资风险"
-  },
-  {
-   "ticker": "WUC.CN",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "无消息大跌39%，警惕稀释或项目受阻"
+   "ai_note": "生产商单月跌18%，巴西矿山运营挑战持续，基本面偏弱"
   }
  ]
 }
