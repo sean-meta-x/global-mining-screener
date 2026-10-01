@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T01:16Z",
+ "generated_at": "2026-10-01T01:18Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小市值无消息，存在推广或治理风险"
+   "ai_note": "小盘股流动性差且近期异动，需警惕庄家拉高出货风险。"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型市值流动性差，治理隐患较大"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭产能释放平稳，但短期价格承压导致股价回调。"
   },
   {
    "ticker": "MYOH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "持续下跌无消息解释，或有运营问题"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "业绩受煤价波动影响较大，短期缺乏明确上涨催化剂。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "大幅下跌且无新闻，警惕潜在利空"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Astra集团旗下，治理规范，基本面稳健"
+   "ai_adjust": -2,
+   "ai_note": "煤炭业务占比高且近期跌幅较大，需关注其现金流状况。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中等市值无明显异常，维持中性判断"
+   "ai_note": "多元化业务提供一定防御性，但整体增长弹性相对不足。"
   },
   {
    "ticker": "FIRE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值疑似炒作，治理风险较高"
-  },
-  {
-   "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中等规模煤企，小幅回调暂无重大风险"
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "市值极小且持续下跌，存在较高的流动性与退市风险。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中大型煤企，轻微回调属正常波动"
+   "ai_note": "作为煤炭物流与生产龙头，基本面稳健但受宏观周期压制。"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭开采与设备租赁业务稳健，估值合理但缺乏爆发力。"
   },
   {
    "ticker": "HRUM.JK",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "无消息持续下跌，需关注基本面变化"
+   "ai_note": "积极向镍等新能源金属转型，但传统煤炭业务仍拖累估值。"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "镍价承压致回调，Harita集团资质尚可"
+   "ai_adjust": 0,
+   "ai_note": "镍价低迷及印尼政策变动影响利润，但长期产能优势仍在。"
   },
   {
-   "ticker": "PSAB.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金价上涨但股价下跌，或有运营隐忧"
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "背靠Astra集团，重型设备与矿业双轮驱动，防御与分红极佳。"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "暴跌24%无消息，高度疑似重大利空或稀释"
-  },
-  {
-   "ticker": "KKGI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值无故上涨，疑似资金炒作推广"
-  },
-  {
-   "ticker": "PTBA.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "国企背景治理较好，强势上涨有基本面支撑"
+   "ai_note": "股价单月暴跌超两成，可能存在未披露的治理或资金链隐患。"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小市值持续走弱，流动性与治理存疑"
+   "ai_note": "煤炭承包业务竞争激烈，利润率承压且近期资金流出明显。"
+  },
+  {
+   "ticker": "PTBA.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "国企背景且高股息，近期受国内能源保供政策利好资金追捧。"
+  },
+  {
+   "ticker": "GEMS.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭产销量稳定，但估值已充分反映，缺乏进一步向上弹性。"
+  },
+  {
+   "ticker": "KKGI.JK",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "虽有反弹但历史上有过治理争议，需警惕大股东关联交易。"
+  },
+  {
+   "ticker": "IFSH.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "单月暴涨近四成且无实质利好，典型的小盘股游资炒作特征。"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金价格高位运行支撑业绩，但矿山老化导致长期成本上升。"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "锡价走强却暴跌29%，存在严重隐患"
+   "ai_note": "锡价下跌叠加出口政策收紧导致暴跌，需警惕流动性枯竭。"
   },
   {
    "ticker": "INAI.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值大幅下跌，基本面堪忧"
-  },
-  {
-   "ticker": "TINS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国企锡业龙头，涨势良好但治理一般"
-  },
-  {
-   "ticker": "RMKO.JK",
-   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型市值流动性差，治理风险较高"
+   "ai_note": "铝加工业务受原材料价格波动影响大，小市值抗风险能力弱。"
   }
  ]
 }
