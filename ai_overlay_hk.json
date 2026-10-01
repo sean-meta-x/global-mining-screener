@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T01:22Z",
+ "generated_at": "2026-10-01T01:24Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "量化高分但月跌13%，小盘煤炭股动能与评分背离"
+   "ai_note": "小市值煤炭股，ESG压力与流动性风险并存"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘且分类模糊，流动性存疑"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值仅1.4亿，流动性风险突出"
+   "ai_note": "极小市值高岭土生产商，业务单一且流动性差"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "中国银光有历史治理争议，跌幅显著需警惕"
+  },
+  {
+   "ticker": "0621.HK",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "月跌22%远超评分预期，中国白银曾有治理问题"
+   "ai_note": "金矿开发商阶段，许可证与执行风险高企"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金价上涨带动正收益，基本面与动量一致"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "开发阶段且月跌19%，Taung Gold长期拖延历史"
-  },
-  {
-   "ticker": "1051.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌近25%，G-Resources历史治理问题严重"
+   "ai_note": "金矿生产商动量正向，但缺乏明确催化剂确认"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "公司名称与矿业不符，分类模糊需警惕"
+   "ai_adjust": -4,
+   "ai_note": "创业板股票，多元化业务治理透明度存疑"
   },
   {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企铝企，流动性好但弹性有限"
+   "ticker": "0637.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值仅1.4亿，微型股流动性与治理风险高"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铜矿生产商，市值适中，小幅回调正常"
+   "ai_note": "铜矿生产商基本面尚可，无重大异常信号"
   },
   {
-   "ticker": "8203.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅5000万，微盘股流动性极差"
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "大型国企铝企，周期性压力但体量稳健"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "兴发铝业市值合理，轻微回调无异常"
+   "ai_note": "中型铝企，行业周期下行但无特殊风险"
+  },
+  {
+   "ticker": "8203.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值仅五千万的创业板煤炭股，壳股特征明显"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "曾遭做空报告质疑财务，历史治理包袱犹存"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘煤炭股，月跌8.6%动能偏弱"
+   "ai_adjust": -4,
+   "ai_note": "小市值煤炭股，跌幅明显且行业面临政策风险"
   },
   {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "全球最大铝企之一，大盘蓝筹相对安全"
+   "ticker": "1051.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "历史上有稀释与治理问题，近期跌幅较大"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "近期更名，金矿生产商基本面尚可"
+   "ai_note": "新上市金矿股，基本面暂无明显异常"
   },
   {
    "ticker": "1182.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅2亿，Success Dragon历史壳股特征明显"
-  },
-  {
-   "ticker": "8250.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅3800万却月涨25%，典型拉高出货特征"
-  },
-  {
-   "ticker": "1738.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值不足8000万，小盘煤炭流动性差"
+   "ai_adjust": -6,
+   "ai_note": "老牌壳股，频繁重组历史，治理风险极高"
   },
   {
    "ticker": "1029.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "IRC历史债务和运营问题严重，月跌11%"
+   "ai_note": "曾经历财务重组，铁矿石价格波动风险大"
   },
   {
-   "ticker": "1733.HK",
+   "ticker": "2302.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "曾长期停牌，铀矿业务小众，治理记录堪忧"
+  },
+  {
+   "ticker": "1898.HK",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "市值合理但煤炭板块整体承压"
+   "ai_note": "大型国企煤炭，ESG逆风但现金流稳健"
+  },
+  {
+   "ticker": "1208.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Las Bambas矿区社区阻断风险持续影响生产"
   }
  ]
 }
