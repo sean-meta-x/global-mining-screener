@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-09-30T01:33Z",
+ "generated_at": "2026-10-01T01:34Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型国企铝企，近期回调但无重大利空，估值尚可"
+   "ai_adjust": 0,
+   "ai_note": "大型国企铝企，无额外隐藏风险，估值合理"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "云南铝业跌幅温和，基本面未见明显异常"
-  },
-  {
-   "ticker": "002497.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "一月跌幅近两成，多元化业务拖累，需警惕基本面恶化"
-  },
-  {
-   "ticker": "002101.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小市值铝企，流动性偏弱，跌幅可控但弹性有限"
+   "ai_note": "水电铝成本优势明确，基本面稳健"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "焦作万方铝业务稳定，回调幅度在合理区间"
+   "ai_note": "中小铝企流动性偏弱，无特殊催化剂"
+  },
+  {
+   "ticker": "002497.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "曾有财务造假及监管处罚历史，治理风险高"
+  },
+  {
+   "ticker": "002101.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型铝企运营平稳，无显著治理瑕疵"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "神火股份铝煤双主业，跌幅温和，估值有支撑"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭板块承压，永泰能源历史治理问题仍需关注"
+   "ai_adjust": 0,
+   "ai_note": "大型铝企，煤电铝一体化成本可控"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "天山铝业产能规模大，成本优势明显，回调后具配置价值"
+   "ai_adjust": 0,
+   "ai_note": "新疆低电价铝企，成本端有优势"
   },
   {
-   "ticker": "600546.SS",
+   "ticker": "600157.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "山煤国际煤炭主业稳健，跌幅属板块联动"
+   "ai_note": "中型煤企，历史上有过信披违规记录"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中煤能源大型央企，高股息防御属性，回调有限"
+   "ai_adjust": 0,
+   "ai_note": "大型央企煤企，分红稳定无重大风险"
   },
   {
    "ticker": "603876.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -3,
-   "ai_note": "一月暴跌逾26%，鼎胜新材需排查是否存在业绩变脸或减持风险"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "月跌幅超22%异常，需关注是否存在隐性利空"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中型铝企，负债率偏高需留意"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "山西中型煤企，资产注入预期尚不明确"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂价持续低迷，高成本矿山面临减值风险"
   },
   {
    "ticker": "000792.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "盐湖提锂龙头，锂价下行周期业绩承压明显"
+   "ai_adjust": -3,
+   "ai_note": "盐湖提锂成本虽低但锂价下行压制盈利"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南山铝业全产业链布局，跌幅温和，基本面扎实"
+   "ai_adjust": 0,
+   "ai_note": "大型民营铝企，产业链完整运营稳健"
   },
   {
-   "ticker": "600595.SS",
+   "ticker": "601677.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝板带细分龙头，下游需求相对稳定"
+  },
+  {
+   "ticker": "600338.SS",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "中孚实业资产负债率偏高，行业下行期财务风险上升"
+   "ai_adjust": -4,
+   "ai_note": "金矿企业月跌15%异常，高海拔矿山运营风险大"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "晋控煤业国企背景，煤炭主业稳定，回调幅度正常"
+   "ai_note": "山西煤企，历史治理记录一般"
   },
   {
    "ticker": "600971.SS",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "恒源煤电市值偏小，煤炭板块整体走弱中弹性不足"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "天齐锂业跌幅近两成，锂价低迷叠加高负债风险加大"
-  },
-  {
-   "ticker": "002978.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "交建工程多元化经营，跌幅在板块均值范围内"
-  },
-  {
-   "ticker": "600338.SS",
-   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "珠峰黄金一月跌17%，需关注海外矿产运营及治理风险"
+   "ai_note": "小市值煤企流动性差，信息透明度偏低"
   },
   {
-   "ticker": "601677.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "明泰铝业铝板带箔龙头，跌幅温和，基本面未见恶化"
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "港股回A大型铝企，关联交易占比较高"
   }
  ]
 }
