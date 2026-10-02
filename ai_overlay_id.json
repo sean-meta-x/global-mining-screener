@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T01:18Z",
+ "generated_at": "2026-10-02T01:38Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小盘股流动性差且近期异动，需警惕庄家拉高出货风险。"
-  },
-  {
-   "ticker": "UNIQ.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭产能释放平稳，但短期价格承压导致股价回调。"
+   "ai_note": "微盘股流动性差且治理不透明，需防范 promoter 操纵风险。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "业绩受煤价波动影响较大，短期缺乏明确上涨催化剂。"
+   "ai_adjust": 0,
+   "ai_note": "中型煤炭股缺乏明显催化剂，走势随板块波动，暂无额外风险。"
+  },
+  {
+   "ticker": "UNIQ.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值煤炭股基本面薄弱，易受资金炒作影响，存在流动性折价。"
   },
   {
    "ticker": "DWGL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭业务占比高且近期跌幅较大，需关注其现金流状况。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭开采业务稳定但估值平庸，近期回调属正常市场波动。"
+  },
+  {
+   "ticker": "FIRE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值极小且近期无基本面支撑，高度疑似游资炒作或庄股特征。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化业务提供一定防御性，但整体增长弹性相对不足。"
-  },
-  {
-   "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "市值极小且持续下跌，存在较高的流动性与退市风险。"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "作为煤炭物流与生产龙头，基本面稳健但受宏观周期压制。"
-  },
-  {
-   "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭开采与设备租赁业务稳健，估值合理但缺乏爆发力。"
+   "ai_note": "多元化业务提供一定防御性，但煤炭主业增长受限，估值合理。"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "积极向镍等新能源金属转型，但传统煤炭业务仍拖累估值。"
+   "ai_note": "大型煤炭企业治理规范，但面临能源转型长期压力，估值受压。"
   },
   {
-   "ticker": "NCKL.JK",
+   "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "镍价低迷及印尼政策变动影响利润，但长期产能优势仍在。"
+   "ai_note": "煤炭及重型设备业务稳健，分红稳定，量化评分已合理反映现状。"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型煤炭生产商成本控制较好，近期回调提供安全边际，维持中性。"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "背靠Astra集团，重型设备与矿业双轮驱动，防御与分红极佳。"
+   "ai_adjust": 5,
+   "ai_note": "重型机械及矿业蓝筹，治理极佳且具护城河，量化模型低估其价值。"
   },
   {
-   "ticker": "TOBA.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "股价单月暴跌超两成，可能存在未披露的治理或资金链隐患。"
-  },
-  {
-   "ticker": "DOID.JK",
+   "ticker": "NCKL.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "煤炭承包业务竞争激烈，利润率承压且近期资金流出明显。"
+   "ai_note": "镍业龙头但受印尼镍产能过剩及价格低迷压制，短期缺乏上行催化。"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "国企背景且高股息，近期受国内能源保供政策利好资金追捧。"
-  },
-  {
-   "ticker": "GEMS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭产销量稳定，但估值已充分反映，缺乏进一步向上弹性。"
-  },
-  {
-   "ticker": "KKGI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "虽有反弹但历史上有过治理争议，需警惕大股东关联交易。"
-  },
-  {
-   "ticker": "IFSH.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "单月暴涨近四成且无实质利好，典型的小盘股游资炒作特征。"
+   "ai_adjust": 4,
+   "ai_note": "高股息国企煤炭龙头，现金流充沛且治理稳健，量化评分显著偏低。"
   },
   {
    "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金矿项目常受社区及环保许可阻碍，运营不确定性较高，需下调评分。"
+  },
+  {
+   "ticker": "TOBA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "单月暴跌逾两成且无公开利空，需警惕潜在债务违约或隐性治理问题。"
+  },
+  {
+   "ticker": "DOID.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭承包及开采业务平稳，但近期随板块走弱，暂无突出亮点。"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值煤炭股流动性匮乏，业绩波动大，易受大股东资金链影响。"
+  },
+  {
+   "ticker": "KKGI.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金价格高位运行支撑业绩，但矿山老化导致长期成本上升。"
+   "ai_note": "中型煤炭企业资源储量尚可，近期走势抗跌，基本面暂无明显瑕疵。"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "锡价下跌叠加出口政策收紧导致暴跌，需警惕流动性枯竭。"
+   "ai_adjust": -6,
+   "ai_note": "单月重挫超三成，锡矿业务或面临严重环保停产及许可证被吊销风险。"
   },
   {
-   "ticker": "INAI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铝加工业务受原材料价格波动影响大，小市值抗风险能力弱。"
+   "ticker": "IFSH.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "无利好却单月暴涨逾三成，典型的小盘股资金操纵与拉高出货特征。"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "国有锡业龙头受益锡价上涨，但需防范印尼严打非法采矿的政策风险。"
   }
  ]
 }
