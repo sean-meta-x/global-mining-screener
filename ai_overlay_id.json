@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-02T01:38Z",
+ "generated_at": "2026-10-03T01:15Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微盘股流动性差且治理不透明，需防范 promoter 操纵风险。"
+   "ai_adjust": -3,
+   "ai_note": "市值过小且流动性差，量化高分存在幻觉风险。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤炭股缺乏明显催化剂，走势随板块波动，暂无额外风险。"
+   "ai_adjust": -1,
+   "ai_note": "煤炭价格承压，短期跌幅较大，缺乏明确催化剂。"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭股基本面薄弱，易受资金炒作影响，存在流动性折价。"
+   "ai_adjust": -4,
+   "ai_note": "微型煤企单月异常大涨，需警惕游资炒作与流动性陷阱。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭开采业务稳定但估值平庸，近期回调属正常市场波动。"
+   "ai_note": "业绩受煤价回落拖累，估值修复需等待行业拐点。"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值极小且近期无基本面支撑，高度疑似游资炒作或庄股特征。"
+   "ai_adjust": -6,
+   "ai_note": "市值极小且单月暴跌，存在严重的流动性与治理风险。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化业务提供一定防御性，但煤炭主业增长受限，估值合理。"
+   "ai_note": "多元化业务提供一定缓冲，但核心煤炭业务仍承压。"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "阿斯崔集团核心资产，分红稳定，具备较强防御价值。"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型煤炭企业治理规范，但面临能源转型长期压力，估值受压。"
+   "ai_adjust": 0,
+   "ai_note": "中型煤企基本面尚可，但短期受板块情绪拖累回调。"
   },
   {
-   "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭及重型设备业务稳健，分红稳定，量化评分已合理反映现状。"
+   "ticker": "RMKE.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "单月跌幅超两成，需排查是否存在隐性债务或合规问题。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型煤炭生产商成本控制较好，近期回调提供安全边际，维持中性。"
+   "ai_note": "大型煤炭生产商，成本优势明显，但受限于行业周期。"
   },
   {
-   "ticker": "UNTR.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 5,
-   "ai_note": "重型机械及矿业蓝筹，治理极佳且具护城河，量化模型低估其价值。"
+   "ticker": "IFSH.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "单月暴涨近24%缺乏基本面支撑，高度疑似庄股炒作。"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭开采与物流协同较好，但需关注大宗商品周期下行。"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "镍业龙头但受印尼镍产能过剩及价格低迷压制，短期缺乏上行催化。"
+   "ai_adjust": -4,
+   "ai_note": "镍矿供给过剩导致价格低迷，短期难见基本面反转。"
   },
   {
-   "ticker": "PTBA.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "高股息国企煤炭龙头，现金流充沛且治理稳健，量化评分显著偏低。"
+   "ticker": "SMGA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值矿企抗风险能力弱，需警惕大股东质押或稀释。"
   },
   {
    "ticker": "PSAB.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金矿项目常受社区及环保许可阻碍，运营不确定性较高，需下调评分。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金价高位但股价滞涨，需关注矿山品位下降或成本超支。"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "单月暴跌逾两成且无公开利空，需警惕潜在债务违约或隐性治理问题。"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭承包及开采业务平稳，但近期随板块走弱，暂无突出亮点。"
-  },
-  {
-   "ticker": "RMKO.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭股流动性匮乏，业绩波动大，易受大股东资金链影响。"
+   "ai_note": "单月重挫超23%，需警惕煤炭长协价格下调带来的冲击。"
   },
   {
    "ticker": "KKGI.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭企业资源储量尚可，近期走势抗跌，基本面暂无明显瑕疵。"
+   "ai_note": "业务转型中，短期业绩波动大，需观察新矿投产进度。"
   },
   {
-   "ticker": "NICL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "单月重挫超三成，锡矿业务或面临严重环保停产及许可证被吊销风险。"
-  },
-  {
-   "ticker": "IFSH.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "无利好却单月暴涨逾三成，典型的小盘股资金操纵与拉高出货特征。"
-  },
-  {
-   "ticker": "TINS.JK",
+   "ticker": "DOID.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国有锡业龙头受益锡价上涨，但需防范印尼严打非法采矿的政策风险。"
+   "ai_adjust": -1,
+   "ai_note": "煤炭开采承包商受行业资本开支缩减影响，订单承压。"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型煤企单月大跌，流动性枯竭风险极高，建议规避。"
+  },
+  {
+   "ticker": "PTBA.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "印尼国企煤炭龙头，高股息提供安全边际，防御属性强。"
   }
  ]
 }
