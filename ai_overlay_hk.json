@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-02T01:44Z",
+ "generated_at": "2026-10-03T01:21Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1303.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "历史存在财务疑点且市值极小，流动性与治理风险高。"
+  },
+  {
+   "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股，近期跌幅较大，流动性存疑。"
+   "ai_adjust": -4,
+   "ai_note": "债务压力大且曾面临重组，白银价格波动加剧风险。"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "极小市值高岭土生产商，流动性差，治理风险高。"
-  },
-  {
-   "ticker": "0815.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "中国白银集团曾有债务重组及治理问题，跌幅显著。"
+   "ai_adjust": -3,
+   "ai_note": "市值微小且流动性差，高岭土需求受宏观周期压制。"
   },
   {
    "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "开发阶段金矿公司，资金及项目延期风险较高。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "南非金矿项目面临严峻的社区与许可证审批风险。"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "金矿生产商，近期动量正面，基本面尚可。"
+   "ai_adjust": 0,
+   "ai_note": "澳洲金矿运营相对稳定，但港股流动性一般。"
+  },
+  {
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铝业龙头受宏观需求疲软压制，但国企背景提供安全垫。"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "创业板股票，业务多元化，治理结构存疑。"
+   "ai_note": "业务已偏向教育科技，非纯正矿业标的，估值逻辑存疑。"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "极小市值，流动性不足，交易风险较高。"
-  },
-  {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企铝企，估值合理但缺乏催化剂。"
+   "ai_adjust": -4,
+   "ai_note": "市值极小且主业分散，缺乏核心矿业资产支撑。"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铜矿生产商，表现平稳，无明显风险信号。"
+   "ai_note": "铜矿生产稳定，估值合理，缺乏短期显著催化剂。"
+  },
+  {
+   "ticker": "1051.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "曾深陷债务危机与股权稀释，历史治理记录恶劣。"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅五千万，极度缺乏流动性，存在壳股特征。"
+   "ai_adjust": -9,
+   "ai_note": "市值不足一亿且历史上有重大财务造假劣迹，极度危险。"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铝价承压导致短期回调，但产能优势依然稳固。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型煤炭股，流动性枯竭且公司治理透明度不足。"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝型材生产商，行业面临产能过剩压力。"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股，治理透明度低，需警惕。"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "曾被做空机构质疑财务数据，治理风险犹存。"
-  },
-  {
-   "ticker": "1051.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "历史上曾长期停牌并重组，治理记录不佳。"
+   "ai_note": "铝型材龙头，基本面稳健，跟随行业周期波动。"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "新上市金矿公司，运营记录有限，暂中性看待。"
-  },
-  {
-   "ticker": "1182.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "历史上多次更名及资本运作，壳股特征明显。"
+   "ai_note": "次新金矿股，产量处于爬坡期，需关注成本管控。"
   },
   {
    "ticker": "1898.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企煤企，政策风险为主，基本面稳健。"
+   "ai_adjust": -1,
+   "ai_note": "大型央企煤炭股，受煤价回落影响，但股息具吸引力。"
+  },
+  {
+   "ticker": "1029.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "核心资产在俄罗斯，受地缘制裁及出口限制严重拖累。"
   },
   {
    "ticker": "1738.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值不足一亿，流动性极差，投资风险高。"
+   "ai_note": "微型无烟煤股，市值过小且面临能源转型长期压力。"
+  },
+  {
+   "ticker": "1208.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "秘鲁铜矿面临社区封路抗议，产量释放受许可证困扰。"
   },
   {
    "ticker": "1733.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭生产商，曾有财务困难记录，需关注。"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "俄罗斯铁矿商，地缘政治及制裁风险极高。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭资产质量尚可，估值偏低，等待行业周期回暖。"
   }
  ]
 }
