@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T01:18Z",
+ "generated_at": "2026-10-03T00:55Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "高量化分但暴跌无消息，恐有未披露利空"
+   "ai_note": "微型铀矿勘探商，流动性差且面临持续稀释风险。"
   },
   {
    "ticker": "FNUC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "无异常信号，观望"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型多元化勘探企业，缺乏近期催化剂且易受资金消耗影响。"
   },
   {
    "ticker": "WWR",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "历史有稀释记录，略降分"
+   "ai_adjust": 0,
+   "ai_note": "小型勘探公司，基本面平稳但缺乏显著利好驱动。"
   },
   {
    "ticker": "CEXYF",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "微型股横盘，无催化剂"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "极微型铜矿勘探商，市值过低导致极高的流动性与稀释风险。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型股暴跌43%无消息，高度疑似稀释"
+   "ai_adjust": -8,
+   "ai_note": "市值不足千万且单月暴跌，存在严重的流动性危机与退市风险。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中大市值锂企大跌，行业逆风明显"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "暴涨119%却无任何新闻，典型拉高出货特征"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "权证类工具风险极高，暴跌近40%"
+   "ai_note": "锂价持续低迷导致中盘锂企估值大幅承压，需警惕资产减值。"
   },
   {
    "ticker": "IONR",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "开发阶段项目，许可证风险犹存"
+   "ai_note": "虽有项目推进但受累于锂板块整体疲软，短期缺乏爆发力。"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "单月暴涨近翻倍，典型的小盘股炒作特征，需防范高位回调风险。"
   },
   {
    "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钾肥开发商，无明确催化剂"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿生产商走势平稳"
-  },
-  {
-   "ticker": "LODE",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "曾有问题推广历史，大跌需警惕"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型锂开发项目，资金需求大"
+   "ai_note": "钾肥价格回落且项目开发资金需求大，短期面临融资与估值双重压力。"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型勘探股跌26%，流动性风险"
+   "ai_note": "微型勘探股近期大幅回调，需关注其现金流是否足以支撑后续钻探。"
   },
   {
-   "ticker": "NC",
+   "ticker": "LODE",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "黄金勘探股单月大跌，可能隐含项目进展不及预期或资金链紧张。"
+  },
+  {
+   "ticker": "LAC",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭生产商，ESG压力持续"
+   "ai_adjust": -2,
+   "ai_note": "核心项目推进受宏观锂价拖累，融资成本上升压制开发进度。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "稳健的黄金生产商，近期表现平淡，缺乏明显的估值修复催化剂。"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂开发商大跌31%，行业承压"
+   "ai_adjust": -4,
+   "ai_note": "锂价低迷叠加DLE技术商业化验证期，项目延期与融资风险加剧。"
   },
   {
-   "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小型金矿生产商跌30%，基本面存疑"
-  },
-  {
-   "ticker": "IPI",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钾肥生产商，温和下跌"
+   "ticker": "NAMMW",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "作为认股权证而非正股，存在极高的时间价值损耗与流动性折价风险。"
   },
   {
    "ticker": "OGC",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型金矿商，走势稳健"
+   "ai_adjust": 1,
+   "ai_note": "大型金矿企基本面扎实，近期小幅回调属正常波动，具备防御价值。"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭资产面临长期ESG压制与需求结构性下滑，估值难以扩张。"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "关键矿产开发资本开支巨大，在当前高利率环境下项目融资面临挑战。"
+  },
+  {
+   "ticker": "NMG",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "石墨项目融资屡次受阻，高利率下难以推进重资产矿山建设。"
   },
   {
    "ticker": "GLDG",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "金矿勘探股，温和回调"
+   "ai_note": "黄金勘探组合表现平稳，但缺乏高品位核心矿区的短期爆发力。"
   }
  ]
 }
