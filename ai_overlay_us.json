@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T00:55Z",
+ "generated_at": "2026-10-04T00:16Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商，流动性差且面临持续稀释风险。"
+   "ai_note": "微市值铀矿勘探，无新闻且流动性差，警惕稀释与炒作风险。"
   },
   {
    "ticker": "FNUC",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型多元化勘探企业，缺乏近期催化剂且易受资金消耗影响。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "疑似壳公司或SPAC，缺乏实质业务新闻，基本面风险极高。"
   },
   {
    "ticker": "WWR",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小型勘探公司，基本面平稳但缺乏显著利好驱动。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "无新闻且市值偏低，历史上有过重组，需防范股权稀释风险。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "极微型铜矿勘探商，市值过低导致极高的流动性与稀释风险。"
+   "ai_note": "极小市值铜矿勘探，流动性枯竭，无实质进展，谨防仙股陷阱。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值极小且单月暴跌超40%，无新闻支撑，典型拉高出货特征。"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值不足千万且单月暴跌，存在严重的流动性危机与退市风险。"
+   "ai_note": "无新闻却单月暴涨超60%，高度疑似庄家拉高出货或炒作。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂价持续低迷导致中盘锂企估值大幅承压，需警惕资产减值。"
+   "ai_note": "所谓中阶锂企实则市值与跌幅异常，缺乏透明度，需警惕估值陷阱。"
   },
   {
    "ticker": "IONR",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "虽有项目推进但受累于锂板块整体疲软，短期缺乏爆发力。"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "单月暴涨近翻倍，典型的小盘股炒作特征，需防范高位回调风险。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "钾肥价格回落且项目开发资金需求大，短期面临融资与估值双重压力。"
+   "ai_adjust": -2,
+   "ai_note": "核心项目面临环保审批延迟及成本超支风险，锂价低迷雪上加霜。"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型勘探股近期大幅回调，需关注其现金流是否足以支撑后续钻探。"
+   "ai_adjust": -3,
+   "ai_note": "微市值多元化勘探，缺乏新闻与流动性，存在较高的股权稀释风险。"
   },
   {
-   "ticker": "LODE",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "黄金勘探股单月大跌，可能隐含项目进展不及预期或资金链紧张。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "核心项目推进受宏观锂价拖累，融资成本上升压制开发进度。"
+   "ticker": "GRO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "公司治理存在严重历史污点，曾遭SEC调查，管理层信任度极低。"
   },
   {
    "ticker": "CMCL",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "稳健的黄金生产商，近期表现平淡，缺乏明显的估值修复催化剂。"
+   "ai_adjust": -1,
+   "ai_note": "津巴布韦矿山运营稳定但面临国家风险，近期金价波动影响利润。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "核心项目深陷环保诉讼与审批泥潭，资本开支通胀加剧融资压力。"
+  },
+  {
+   "ticker": "LODE",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "公司架构复杂且历史稀释严重，高度依赖概念炒作，基本面堪忧。"
   },
   {
    "ticker": "SLI",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂价低迷叠加DLE技术商业化验证期，项目延期与融资风险加剧。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "作为认股权证而非正股，存在极高的时间价值损耗与流动性折价风险。"
-  },
-  {
-   "ticker": "OGC",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "大型金矿企基本面扎实，近期小幅回调属正常波动，具备防御价值。"
-  },
-  {
-   "ticker": "NC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭资产面临长期ESG压制与需求结构性下滑，估值难以扩张。"
+   "ai_adjust": -2,
+   "ai_note": "提锂技术虽好但资本开支巨大，在当前锂价周期下融资与盈利承压。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "关键矿产开发资本开支巨大，在当前高利率环境下项目融资面临挑战。"
+   "ai_note": "铌钪项目资本开支极高且冶金工艺复杂，项目融资与落地风险大。"
   },
   {
-   "ticker": "NMG",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "石墨项目融资屡次受阻，高利率下难以推进重资产矿山建设。"
+   "ticker": "NAMMW",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "作为微市值金矿公司的权证，流动性极差且杠杆风险极高。"
+  },
+  {
+   "ticker": "OGC",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "菲律宾矿山面临许可证延期风险，整体运营受地缘与环保政策制约。"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微市值金矿生产商，流动性受限且信息披露较少，需防范估值陷阱。"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭业务面临长期ESG转型压力与需求萎缩，估值缺乏向上催化剂。"
   },
   {
    "ticker": "GLDG",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "黄金勘探组合表现平稳，但缺乏高品位核心矿区的短期爆发力。"
+   "ai_note": "资产组合优质但纯勘探阶段烧钱快，无近期新闻，需警惕持续稀释。"
   }
  ]
 }
