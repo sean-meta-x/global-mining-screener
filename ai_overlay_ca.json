@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-02T02:19Z",
+ "generated_at": "2026-10-04T01:15Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "HLU.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "量化高分但一月暴跌且无新闻，警惕未披露的融资稀释或钻探失败。"
-  },
-  {
    "ticker": "MRZL.V",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "股价横盘且缺乏近期新闻催化，流动性可能枯竭，维持中性观察。"
+   "ai_adjust": 0,
+   "ai_note": "横盘无消息，小市值勘探股缺乏催化剂，观望为主"
   },
   {
    "ticker": "VIO.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值偏小且阴跌无新闻，需防范微盘股常见的流动性折价与隐性风险。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "温和下跌无新闻，需警惕隐性稀释或项目停滞"
+  },
+  {
+   "ticker": "V.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "暴跌41%却无公告，极可能存在未披露的稀释或钻探失败"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "一月暴跌近七成却无新闻，极大概率存在未公告的恶性稀释或项目失败。"
+   "ai_adjust": -7,
+   "ai_note": "暴跌68%无任何消息，高度怀疑重大利空未公告"
   },
   {
    "ticker": "CPAU.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "缺乏新闻支撑的阴跌表明市场情绪悲观，需警惕潜在的私募融资压力。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小幅回调属正常波动，小市值勘探股流动性风险需关注"
   },
   {
-   "ticker": "V.V",
+   "ticker": "HLU.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "股价大幅回撤且无消息面配合，量化模型可能误判了铀矿勘探的延期风险。"
+   "ai_adjust": -3,
+   "ai_note": "跌幅较大且无消息支撑，铀矿勘探风险偏高需警惕"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值较大但持续下跌且无新闻，需排查是否存在管理层动荡或许可审批受阻。"
-  },
-  {
-   "ticker": "AVL.TO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "股价显著回调且零新闻，量化高分可能源于滞后的历史数据，需下调预期。"
-  },
-  {
-   "ticker": "MMY.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "作为较大市值标的，阴跌且无新闻提示基本面可能缺乏短期催化剂。"
+   "ai_adjust": -3,
+   "ai_note": "开发商身份却大幅下跌，可能存在许可或融资问题"
   },
   {
    "ticker": "ENDR.V",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "股价停滞且无新闻，属于典型的边缘化微盘股，缺乏资金关注与流动性。"
-  },
-  {
-   "ticker": "LAB.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "横盘无消息，微盘金矿勘探股极易陷入长期流动性陷阱，建议中性观望。"
-  },
-  {
-   "ticker": "FUU.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀矿股大幅下跌却无新闻，需警惕钻探结果不及预期或配股融资风险。"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "名称与业务分类存在出入，且股价下跌无新闻，公司治理或信披存疑。"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "生产商股价阴跌且无新闻，需关注矿山运营是否面临成本超支或品位下降。"
-  },
-  {
-   "ticker": "AEMC.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微盘股大幅下挫且零新闻，极可能是遭遇了未公开的私募融资或期权行权。"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "唯一逆势上涨但无新闻支撑，需警惕游资炒作或流动性极差导致的虚假繁荣。"
+   "ai_note": "跌幅微小，勘探阶段正常波动，暂无明显风险信号"
   },
   {
-   "ticker": "FAT.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴跌近四成且无任何新闻，存在极高的信息不透明风险，建议直接规避。"
+   "ticker": "MMY.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "较大市值却显著下跌，无新闻解释需关注运营风险"
   },
   {
    "ticker": "THX.V",
    "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "大市值勘探股下跌17%，无消息面需警惕隐性利空"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "大市值标的阴跌且无新闻，需排查海外矿山是否面临社区抗议或许可延期。"
+   "ai_note": "跌幅超两成且无公告，关键金属勘探不确定性大"
+  },
+  {
+   "ticker": "IBAT.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "电池金属概念退潮，大幅下跌无新闻需防稀释风险"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值金矿勘探股下跌14%，流动性差需警惕"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "名称与业务标注矛盾，信息混乱反映治理风险"
+  },
+  {
+   "ticker": "AMY.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "跌幅超三成且市值极小，回收技术商业化存疑"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "caution",
+   "ai_adjust": 1,
+   "ai_note": "唯一正收益但无消息驱动，疑似炒作需防回调"
+  },
+  {
+   "ticker": "FAT.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "暴跌41%无任何公告，清洁能源概念壳股风险极高"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "生产商股价回调且无新闻，需关注黄金产量是否不及预期或面临成本压力。"
+   "ai_adjust": -2,
+   "ai_note": "生产商身份却下跌近两成，运营或成本问题需排查"
   },
   {
-   "ticker": "OCEN.V",
+   "ticker": "FUU.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微盘股小幅下跌且无新闻，缺乏实质性催化剂，量化高分可能存在过拟合。"
+   "ai_note": "铀矿股大幅回调，无消息面可能反映行业情绪恶化"
+  },
+  {
+   "ticker": "AEMC.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值下跌17%无新闻，阿拉斯加项目执行风险高"
   }
  ]
 }
