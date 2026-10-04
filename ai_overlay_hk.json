@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-03T01:21Z",
+ "generated_at": "2026-10-04T00:42Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1303.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "历史存在财务疑点且市值极小，流动性与治理风险高。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值过小且无新闻，存在流动性与壳股风险。"
   },
   {
    "ticker": "0815.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "债务压力大且曾面临重组，白银价格波动加剧风险。"
-  },
-  {
-   "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值微小且流动性差，高岭土需求受宏观周期压制。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "白银主业受宏观压制，历史上有过治理争议。"
   },
   {
    "ticker": "0621.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "非洲金矿处于开发阶段，地缘与融资风险较高。"
+  },
+  {
+   "ticker": "2693.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "南非金矿项目面临严峻的社区与许可证审批风险。"
+   "ai_adjust": -6,
+   "ai_note": "市值不足三亿且极度缺乏流动性，警惕边缘化。"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲金矿运营相对稳定，但港股流动性一般。"
+   "ai_note": "澳洲金矿基本面尚可，但近期缺乏明确催化剂。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铝业龙头受宏观需求疲软压制，但国企背景提供安全垫。"
+   "ai_adjust": 0,
+   "ai_note": "大型国企铝企，估值偏低但具备较强安全边际。"
   },
   {
    "ticker": "8095.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "业务已偏向教育科技，非纯正矿业标的，估值逻辑存疑。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "主业非纯矿业且疑似壳股，基本面与合规存疑。"
   },
   {
    "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值极小且主业分散，缺乏核心矿业资产支撑。"
-  },
-  {
-   "ticker": "3636.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铜矿生产稳定，估值合理，缺乏短期显著催化剂。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值微小且为投资控股，流动性枯竭需警惕。"
   },
   {
    "ticker": "1051.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "曾深陷债务危机与股权稀释，历史治理记录恶劣。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "历史上有过严重股权摊薄与庄股炒作痕迹。"
+  },
+  {
+   "ticker": "3636.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小型铜企无新闻披露，需关注隐性债务或稀释。"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
    "ai_adjust": -9,
-   "ai_note": "市值不足一亿且历史上有重大财务造假劣迹，极度危险。"
+   "ai_note": "市值仅五千万的微盘股，流动性极差且壳风险高。"
   },
   {
    "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铝价承压导致短期回调，但产能优势依然稳固。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "全球领先民营铝企，成本优势显著且基本面扎实。"
   },
   {
    "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型煤炭股，流动性枯竭且公司治理透明度不足。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅一亿出头且交易极度清淡，防范流动性陷阱。"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "次新金矿股处于产能爬坡期，需关注实际产量兑现。"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝型材龙头，基本面稳健，跟随行业周期波动。"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "次新金矿股，产量处于爬坡期，需关注成本管控。"
+   "ai_note": "中型铝企基本面平稳，但缺乏短期股价催化剂。"
   },
   {
    "ticker": "1898.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型央企煤炭股，受煤价回落影响，但股息具吸引力。"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "核心资产在俄罗斯，受地缘制裁及出口限制严重拖累。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "央企煤炭龙头，高股息且现金流充裕，防御性强。"
   },
   {
    "ticker": "1738.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型无烟煤股，市值过小且面临能源转型长期压力。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值不足八千万的无烟煤微盘股，流动性近乎枯竭。"
   },
   {
    "ticker": "1208.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "秘鲁铜矿面临社区封路抗议，产量释放受许可证困扰。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "五矿旗下铜企海外资产优质，但受铜价波动影响。"
   },
   {
    "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭资产质量尚可，估值偏低，等待行业周期回暖。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "虽有债务重组但操盘手背景复杂，需防潜在摊薄。"
+  },
+  {
+   "ticker": "0166.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "老牌壳股公司，主业不清且历史治理记录较差。"
   }
  ]
 }
