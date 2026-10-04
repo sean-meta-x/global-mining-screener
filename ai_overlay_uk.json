@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T01:05Z",
+ "generated_at": "2026-10-04T00:26Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "THX.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "巴西与塞内加尔开发商，历史上有稀释行为，无近期催化剂"
+   "ai_note": "西非地缘风险高且近期有融资稀释，需警惕现金流压力。"
+  },
+  {
+   "ticker": "POW.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型勘探股高度依赖持续增发融资，股权稀释风险极大。"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小型金矿生产商，治理记录存疑，市值偏小流动性有限"
-  },
-  {
-   "ticker": "POW.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型勘探公司，市值仅千万级，推广与稀释风险极高"
+   "ai_adjust": -3,
+   "ai_note": "巴西小型金矿运营成本偏高，且管理层历史变动频繁。"
   },
   {
    "ticker": "MET1.L",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "微型勘探公司，市值极低，缺乏实质产出与流动性"
+   "ai_note": "极小市值巴西铁矿勘探股，流动性枯竭且频繁稀释。"
+  },
+  {
+   "ticker": "CAML.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "巴尔干半岛资产面临环保与政策风险，且矿山逐渐老化。"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "实物铀持仓基金，结构透明，走势跟踪铀价属正常波动"
-  },
-  {
-   "ticker": "CAML.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴尔干地区运营，环保许可与政治风险较高，跌幅显著"
+   "ai_adjust": 2,
+   "ai_note": "纯实物铀信托基金无运营风险，仅受铀价波动影响。"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "频繁推广与稀释历史，南非运营风险叠加一月跌近两成"
-  },
-  {
-   "ticker": "CMCL.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦运营，国家风险突出，政策变动可能冲击产量"
+   "ai_adjust": -4,
+   "ai_note": "公司架构复杂且 promoter 风险较高，需警惕隐性稀释。"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅千万级，债务负担重，坦桑尼亚矿面临运营困境"
+   "ai_adjust": -5,
+   "ai_note": "刚经历债务重组且高杠杆，钻石需求疲软致现金流承压。"
   },
   {
-   "ticker": "0ICU.L",
+   "ticker": "CMCL.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "南非尾矿再处理商，品位下降与成本压力持续侵蚀利润"
+   "ai_note": "津巴布韦宏观通胀与外汇管制风险始终存在。"
   },
   {
    "ticker": "LEX.L",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "微型勘探公司，市值不足千万，流动性与基本面均薄弱"
+   "ai_note": "极小市值且流动性极差，存在严重的股权稀释与壳化风险。"
   },
   {
-   "ticker": "SLP.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属生产商逆势上涨，但PGM价格疲软限制上行空间"
+   "ticker": "0ICU.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "南非尾矿回收利润率低，且受当地电力与物流瓶颈制约。"
   },
   {
    "ticker": "RSG.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中型金矿商月跌近两成，马里与西非运营风险需警惕"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南非PGM生产商走势平稳，但行业逆风下缺乏明确催化"
+   "ai_adjust": -4,
+   "ai_note": "核心资产位于马里，当前西非地缘政治与制裁风险极高。"
   },
   {
    "ticker": "KEFI.L",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "单月暴跌四成，埃塞俄比亚许可延迟与执行风险严重"
+   "ai_adjust": -6,
+   "ai_note": "股价单月暴跌超45%，大概率遭遇勘探不及预期或融资受阻。"
   },
   {
    "ticker": "GGP.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "力拓支持Havieron项目，但开发阶段仍存资金与工期风险"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "纽蒙特调整Havieron项目战略导致估值大幅重估。"
   },
   {
-   "ticker": "CAPD.L",
+   "ticker": "SLP.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "西澳金矿生产商小幅上涨，运营稳定但缺乏突出催化剂"
+   "ai_adjust": 1,
+   "ai_note": "运营稳健且分红丰厚，但铂钯价格疲软限制上行空间。"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "资产负债表相对脆弱，且过往存在 promoter 关联交易争议。"
+  },
+  {
+   "ticker": "AFP.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "西非微型勘探股，面临严峻的融资稀释与地缘政治风险。"
   },
   {
    "ticker": "KOD.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "马里锂矿勘探，该国政变后政策不确定性大幅上升"
-  },
-  {
-   "ticker": "AURA.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿勘探商月跌近两成，项目推进缓慢资金消耗持续"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "核心锂矿位于马里，军政府政策突变与地缘风险极高。"
   },
   {
    "ticker": "ORR.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型南非金矿勘探商，市值极低且缺乏实质性进展"
+   "ai_note": "微型西非勘探股，长期依赖增发融资导致严重股权稀释。"
+  },
+  {
+   "ticker": "CAPD.L",
+   "ai_view": "neutral",
+   "ai_adjust": 2,
+   "ai_note": "西澳优质金矿生产商，运营稳健，量化模型或低估其价值。"
   }
  ]
 }
