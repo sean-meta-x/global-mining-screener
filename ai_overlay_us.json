@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T00:16Z",
+ "generated_at": "2026-10-05T00:22Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微市值铀矿勘探，无新闻且流动性差，警惕稀释与炒作风险。"
+   "ai_note": "微型铀矿勘探股流动性差且极易稀释，无消息面支撑。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "疑似壳公司或SPAC，缺乏实质业务新闻，基本面风险极高。"
+   "ai_note": "名称蹭核能热点，微市值且无实质新闻，疑似概念炒作。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "无新闻且市值偏低，历史上有过重组，需防范股权稀释风险。"
+   "ai_note": "关键矿产开发商融资困难，股价持续阴跌需警惕资金链。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "极小市值铜矿勘探，流动性枯竭，无实质进展，谨防仙股陷阱。"
+   "ai_note": "极小市值铜矿勘探股，流动性枯竭且易受庄家拉抬出货。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "市值极小且单月暴跌超40%，无新闻支撑，典型拉高出货特征。"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "无新闻却单月暴涨超60%，高度疑似庄家拉高出货或炒作。"
+   "ai_note": "单月暴跌超四成且市值仅千万，面临极高退市或破产风险。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "所谓中阶锂企实则市值与跌幅异常，缺乏透明度，需警惕估值陷阱。"
+   "ai_note": "锂价低迷期中型生产商面临严重的成本超支与融资压力。"
   },
   {
    "ticker": "IONR",
-   "ai_view": "neutral",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "核心项目受环保审批拖延影响，锂硼双主线面临政策风险。"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "核心项目面临环保审批延迟及成本超支风险，锂价低迷雪上加霜。"
+   "ai_note": "单月暴涨六成疑似游资炒作，格陵兰PGM项目基建风险极高。"
   },
   {
    "ticker": "CAMZF",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微市值多元化勘探，缺乏新闻与流动性，存在较高的股权稀释风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值不足两千万且持续大跌，存在严重的股权稀释与退市风险。"
   },
   {
    "ticker": "GRO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "公司治理存在严重历史污点，曾遭SEC调查，管理层信任度极低。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "巴西钾肥项目屡现管理层动荡与工期延误，治理风险较高。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "巨型锂矿项目资本开支庞大，但已获部分政府贷款支持。"
+  },
+  {
+   "ticker": "SLI",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "直接提锂技术尚未完全验证，高资本开支令市场担忧其现金流。"
   },
   {
    "ticker": "CMCL",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "津巴布韦矿山运营稳定但面临国家风险，近期金价波动影响利润。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "核心项目深陷环保诉讼与审批泥潭，资本开支通胀加剧融资压力。"
+   "ai_adjust": 1,
+   "ai_note": "津巴布韦地缘风险虽存，但作为在产金矿具备一定分红支撑。"
   },
   {
    "ticker": "LODE",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "公司架构复杂且历史稀释严重，高度依赖概念炒作，基本面堪忧。"
-  },
-  {
-   "ticker": "SLI",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "提锂技术虽好但资本开支巨大，在当前锂价周期下融资与盈利承压。"
-  },
-  {
-   "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "铌钪项目资本开支极高且冶金工艺复杂，项目融资与落地风险大。"
+   "ai_note": "内华达金矿项目推进缓慢，管理层频繁增发稀释股东权益。"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "作为微市值金矿公司的权证，流动性极差且杠杆风险极高。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "权证类资产波动极大且无实际矿产支撑，纯属投机炒作标的。"
   },
   {
-   "ticker": "OGC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "菲律宾矿山面临许可证延期风险，整体运营受地缘与环保政策制约。"
+   "ticker": "NC",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭资产面临长期结构性衰退及ESG融资限制，缺乏成长催化。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微市值金矿生产商，流动性受限且信息披露较少，需防范估值陷阱。"
+   "ai_note": "极小市值金矿生产商通常隐含高昂的维持性资本开支与治理瑕疵。"
   },
   {
-   "ticker": "NC",
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "稀土铌矿项目长期拖延且融资困难，商业化落地遥遥无期。"
+  },
+  {
+   "ticker": "OGC",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "煤炭业务面临长期ESG转型压力与需求萎缩，估值缺乏向上催化剂。"
+   "ai_adjust": 0,
+   "ai_note": "菲律宾Didipio矿社区关系与审批存忧，但整体基本面尚可。"
   },
   {
    "ticker": "GLDG",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "资产组合优质但纯勘探阶段烧钱快，无近期新闻，需警惕持续稀释。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "资产多为期权项目且历史稀释严重，缺乏核心高品位在产矿山。"
   }
  ]
 }
