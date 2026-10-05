@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-04T01:15Z",
+ "generated_at": "2026-10-05T01:23Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "横盘无消息，小市值勘探股缺乏催化剂，观望为主"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "无新闻且市值极小，需警惕流动性枯竭与炒作风险。"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "温和下跌无新闻，需警惕隐性稀释或项目停滞"
+   "ai_adjust": -2,
+   "ai_note": "缺乏催化剂导致阴跌，基本面未见显著改善。"
   },
   {
    "ticker": "V.V",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "暴跌41%却无公告，极可能存在未披露的稀释或钻探失败"
+   "ai_adjust": -8,
+   "ai_note": "暴跌逾四成且无公告，极可能遭遇融资稀释或钻探失败。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴跌68%无任何消息，高度怀疑重大利空未公告"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小幅回调属正常波动，小市值勘探股流动性风险需关注"
-  },
-  {
-   "ticker": "HLU.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "跌幅较大且无消息支撑，铀矿勘探风险偏高需警惕"
+   "ai_adjust": -10,
+   "ai_note": "股价崩盘式下跌超六成，大概率存在未披露的重大利空或稀释。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "开发商身份却大幅下跌，可能存在许可或融资问题"
+   "ai_adjust": -4,
+   "ai_note": "作为开发商跌幅较大，需关注项目推进延迟或资金链压力。"
+  },
+  {
+   "ticker": "CPAU.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "微盘股正常波动，缺乏实质性利好驱动。"
+  },
+  {
+   "ticker": "HLU.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铀矿勘探股大幅回撤，警惕流动性差及融资摊薄风险。"
   },
   {
    "ticker": "ENDR.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "跌幅微小，勘探阶段正常波动，暂无明显风险信号"
+   "ai_adjust": -1,
+   "ai_note": "走势平稳但缺乏新闻催化，维持观望。"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "较大市值却显著下跌，无新闻解释需关注运营风险"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大市值勘探股下跌17%，无消息面需警惕隐性利空"
+   "ai_adjust": -3,
+   "ai_note": "市值较大但持续阴跌，需排查矿山运营或成本超支隐患。"
   },
   {
    "ticker": "AVL.TO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "跌幅超两成且无公告，关键金属勘探不确定性大"
+   "ai_adjust": -4,
+   "ai_note": "跌幅明显，关键金属勘探面临融资与许可双重压力。"
   },
   {
    "ticker": "IBAT.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池金属概念退潮，大幅下跌无新闻需防稀释风险"
+   "ai_adjust": -5,
+   "ai_note": "电池金属概念退潮，股价大幅下挫需防范稀释风险。"
   },
   {
-   "ticker": "LAB.V",
-   "ai_view": "caution",
+   "ticker": "THX.V",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "小市值金矿勘探股下跌14%，流动性差需警惕"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "名称与业务标注矛盾，信息混乱反映治理风险"
+   "ai_note": "非洲金矿生产商受宏观及成本影响，短期承压。"
   },
   {
    "ticker": "AMY.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "跌幅超三成且市值极小，回收技术商业化存疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "暴跌且市值极低，电池回收概念多为炒作，谨防退市。"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "纽芬兰金矿勘探随板块回调，暂无明显基本面恶化。"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铀矿股随大盘调整，需关注后续钻探结果能否扭转颓势。"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": 1,
-   "ai_note": "唯一正收益但无消息驱动，疑似炒作需防回调"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "唯一逆势上涨，但缺乏公告证实具体催化剂，维持中性。"
   },
   {
    "ticker": "FAT.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "暴跌41%无任何公告，清洁能源概念壳股风险极高"
+   "ai_adjust": -9,
+   "ai_note": "暴跌超四成，极大概率遭遇私募融资稀释或项目停滞。"
   },
   {
    "ticker": "SBI.TO",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "生产商身份却下跌近两成，运营或成本问题需排查"
+   "ai_note": "黄金生产商受金价波动及运营成本影响，表现中规中矩。"
   },
   {
    "ticker": "FUU.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿股大幅回调，无消息面可能反映行业情绪恶化"
+   "ai_adjust": -4,
+   "ai_note": "铀矿股大幅回调，需关注高估值回归及后续资金需求。"
   },
   {
-   "ticker": "AEMC.V",
-   "ai_view": "caution",
+   "ticker": "NAM.V",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "小市值下跌17%无新闻，阿拉斯加项目执行风险高"
+   "ai_note": "多元化勘探股随板块下行，缺乏独立催化剂。"
   }
  ]
 }
