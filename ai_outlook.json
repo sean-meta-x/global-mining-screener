@@ -1,66 +1,66 @@
 {
- "generated_at": "2026-10-05T00:06Z",
+ "generated_at": "2026-10-06T01:51Z",
  "model": "qwen3.7-plus",
  "outlook": {
   "Gold": {
    "multiplier": 1.15,
-   "note": "Central bank buying and macro hedging support elevated prices."
+   "note": "Strong central bank buying and safe-haven demand amid rate cut expectations."
   },
   "Silver": {
    "multiplier": 1.18,
-   "note": "Industrial solar demand and monetary premium drive outperformance."
+   "note": "Dual tailwinds from precious metal rally and robust industrial solar demand."
   },
   "Copper": {
-   "multiplier": 1.2,
-   "note": "Structural supply deficits and grid electrification demand remain robust."
+   "multiplier": 1.22,
+   "note": "Structural supply deficits and strong electrification demand from AI and EVs."
   },
   "Uranium": {
    "multiplier": 1.25,
-   "note": "Long-term utility contracting and primary supply deficits support strong upside."
+   "note": "Persistent primary supply deficits and renewed global nuclear build-outs."
   },
   "Lithium": {
-   "multiplier": 0.85,
-   "note": "Near-term oversupply and moderating EV growth rates pressure prices."
+   "multiplier": 0.82,
+   "note": "Persistent oversupply from new capacity outpacing slowing EV battery demand."
   },
   "Nickel": {
-   "multiplier": 0.8,
-   "note": "Persistent Indonesian supply surplus and LFP battery substitution weigh on outlook."
+   "multiplier": 0.78,
+   "note": "Severe Indonesian supply surplus overwhelming sluggish battery-grade demand."
   },
   "Zinc": {
    "multiplier": 1.1,
-   "note": "Tight mine supply and low smelter treatment charges support producer margins."
+   "note": "Tight concentrate markets and smelter treatment charge squeezes supporting prices."
   },
   "Iron Ore": {
-   "multiplier": 0.95,
-   "note": "Chinese property sector weakness offsets resilient infrastructure steel demand."
+   "multiplier": 0.85,
+   "note": "Ongoing weakness in Chinese property sector dampening steelmaking demand."
   },
   "Coal": {
-   "multiplier": 0.9,
-   "note": "Long-term energy transition headwinds despite near-term Asian demand resilience."
+   "multiplier": 0.92,
+   "note": "Steady near-term thermal demand offset by long-term energy transition headwinds."
   },
   "Rare Earths": {
-   "multiplier": 0.95,
-   "note": "Geopolitical supply risks are offset by soft near-term EV and wind turbine demand."
+   "multiplier": 1.0,
+   "note": "Balanced geopolitical supply risks against currently soft permanent magnet demand."
   },
   "Manganese": {
    "multiplier": 1.0,
-   "note": "Stable steel production provides a neutral baseline for battery-grade demand."
+   "note": "Stable steel production requirements offsetting lack of major battery catalysts."
   },
   "PGM": {
-   "multiplier": 0.85,
-   "note": "Structural decline in internal combustion engine volumes pressures auto-catalyst demand."
+   "multiplier": 0.9,
+   "note": "Weak internal combustion engine sales pressuring traditional automotive catalyst demand."
   },
   "Potash": {
    "multiplier": 1.05,
-   "note": "Steady global agricultural application rates and normalized supply chains support pricing."
+   "note": "Resilient global agricultural application rates following supply chain normalization."
   },
   "Aluminum": {
-   "multiplier": 1.15,
-   "note": "Capacity caps in China and rising green-energy demand tighten the supply balance."
+   "multiplier": 1.12,
+   "note": "Tight primary smelter capacity in China coupled with strong lightweighting demand."
   },
   "Diversified": {
    "multiplier": 1.05,
-   "note": "Balanced exposure to both bullish base metals and defensive precious metals."
+   "note": "Balanced exposure to bulk and battery metals mitigating single-commodity volatility."
   }
  }
 }
