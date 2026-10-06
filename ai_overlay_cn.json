@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-05T01:00Z",
+ "generated_at": "2026-10-06T02:44Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "601600.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中铝为大型国企，长期产能过剩、负债高企，治理效率低下拖累估值"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型国企铝企基本面稳健，周期承压但无隐忧"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "云南铝业依赖水电，干旱年限电风险已被市场部分定价"
+   "ai_adjust": 0,
+   "ai_note": "云南铝企无重大异常信号，估值合理"
   },
   {
    "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "焦作万方存在关联交易和治理隐患，中小铝企抗风险能力偏弱"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中小铝企无消息面风险，走势平稳"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "雅化集团月跌18%且锂矿概念炒作痕迹明显，治理与信披存疑"
+   "ai_adjust": -3,
+   "ai_note": "月跌18%却无公告，警惕隐性利空或治理问题"
   },
   {
    "ticker": "002101.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "广东鸿图市值偏小，历史上有治理及关联交易争议"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "广东鸿图铝压铸业务稳定，无异常"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "神火股份为河南国企，铝煤双主业，治理尚可但无突出亮点"
+   "ai_adjust": 0,
+   "ai_note": "神火股份大型铝企，基本面尚可"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "天山铝业为希望集团旗下，民营管理效率较高，无明显治理瑕疵"
+   "ai_note": "天山铝业产能稳定，无重大风险信号"
   },
   {
    "ticker": "600157.SS",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "永泰能源历史上有财务违规及监管处罚记录，治理风险突出"
+   "ai_adjust": -5,
+   "ai_note": "永泰能源曾发生债务违约，治理风险极高"
+  },
+  {
+   "ticker": "603876.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "月跌23%无任何公告披露，高度可疑"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中煤能源为大型央企，治理稳健但煤炭行业长期面临政策压力"
-  },
-  {
-   "ticker": "603876.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "鼎胜新材月跌近23%，财务压力大且曾遭监管关注，风险显著"
+   "ai_note": "中煤能源月跌15%主要受煤价下行拖累"
   },
   {
    "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "中孚实业曾有退市风险警示历史，治理和持续经营能力存疑"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中孚实业铝加工业务平稳运行"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "山煤国际为山西国企，治理中规中矩，无重大负面"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "天齐锂业收购SQM背负巨额债务，锂价下行周期财务风险加剧"
-  },
-  {
-   "ticker": "000792.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "盐湖股份为青海国企，钾锂资源禀赋好，治理尚可"
+   "ai_adjust": 0,
+   "ai_note": "山煤国际煤炭业务无重大异常"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南山铝业产业链完整、治理较好，民企中管理质量靠前"
+   "ai_note": "南山铝业产业链完整，跌幅可控"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "天齐锂业月跌19%，锂价低迷拖累业绩预期"
   },
   {
    "ticker": "601677.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "明泰铝业铝板带箔细分龙头，经营稳健，无明显治理风险"
+   "ai_note": "明泰铝业铝板带箔业务稳健"
   },
   {
-   "ticker": "600971.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "恒源煤电市值偏小，安徽国企治理尚可但流动性一般"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "晋能控股为山西煤企重组平台，治理过渡期需关注"
+   "ticker": "000792.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "盐湖股份月跌16%，锂盐价格持续承压"
   },
   {
    "ticker": "600338.SS",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "西藏珠峰矿区位于高海拔敏感地带，环评审批和运营风险较高"
+   "ai_adjust": -3,
+   "ai_note": "西藏珠峰小盘金矿股月跌15%，流动性堪忧"
   },
   {
-   "ticker": "600740.SS",
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "宏桥控股月跌10%且评分偏低，关注债务"
+  },
+  {
+   "ticker": "601001.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "山西焦化为山西国企，焦化行业周期性强但治理无重大瑕疵"
+   "ai_adjust": 0,
+   "ai_note": "晋能控股煤炭业务平稳，无异常"
+  },
+  {
+   "ticker": "600971.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "恒源煤电月跌11%，中小煤企经营承压"
   }
  ]
 }
