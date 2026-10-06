@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T00:49Z",
+ "generated_at": "2026-10-06T02:33Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤炭股，流动性差且治理存疑，跌幅明显"
+   "ai_note": "小市值煤矿无新闻覆盖，流动性与治理风险被量化忽略"
+  },
+  {
+   "ticker": "0621.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "黄金开发商无收入，非洲项目执行力存疑，下跌无消息"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "历史上关联交易频繁，治理风险较高，持续下跌"
+   "ai_note": "白银生产商持续下跌无消息，可能存在未披露问题"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "极小市值，流动性极差，主营高岭土偏冷门"
+   "ai_adjust": -3,
+   "ai_note": "市值不足三亿，微盘股流动性差，量化难以反映真实风险"
   },
   {
-   "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "长期开发延迟、反复稀释，南非项目风险极高"
-  },
-  {
-   "ticker": "2600.HK",
+   "ticker": "1712.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企铝企，基本面稳健但受政策周期影响"
+   "ai_adjust": -1,
+   "ai_note": "澳洲金矿商市值适中，基本面尚可但缺乏催化剂"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "创业板上市，主业不清晰，治理透明度低"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "澳洲金矿商，运营稳定，逆势上涨动能良好"
+   "ai_adjust": -4,
+   "ai_note": "创业板股票跌幅较大无消息，信息披露质量堪忧"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "极小市值，业务多元化但缺乏明确矿业催化剂"
+   "ai_note": "市值仅一亿多，正收益但体量过小存在操纵风险"
   },
   {
    "ticker": "1051.HK",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "单月暴跌逾两成，历史上有融资稀释前科"
+   "ai_note": "月跌逾两成无任何消息，极可能存在隐性稀释或利空"
   },
   {
-   "ticker": "3636.HK",
+   "ticker": "2600.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铜矿生产商，跌幅温和，暂无明显异常信号"
-  },
-  {
-   "ticker": "8203.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足五千万，流动性近乎丧失，风险极高"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "全球最大民营铝企，产能过剩风险已被市场消化"
+   "ai_adjust": -1,
+   "ai_note": "大型国企铝企，估值合理但缺乏明确上涨催化剂"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铝型材生产商，跌幅有限但缺乏增长催化剂"
+   "ai_note": "中型铝企走势平稳，无突出风险也无明显催化剂"
   },
   {
-   "ticker": "1898.HK",
+   "ticker": "1229.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值仅一亿且大幅下跌，微盘煤矿治理风险极高"
+  },
+  {
+   "ticker": "0166.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值正收益但无消息驱动，需警惕短期操纵"
+  },
+  {
+   "ticker": "1378.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企煤企，估值合理但受能源转型压制"
+   "ai_adjust": -1,
+   "ai_note": "全球最大民营铝企，基本面稳健但行业周期承压"
+  },
+  {
+   "ticker": "8203.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值仅五千万创业板股，暴涨无消息极疑似操纵"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "次新金矿股，上市时间短，需更多数据验证"
-  },
-  {
-   "ticker": "1738.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足八千万，流动性极差，微盘股风险大"
+   "ai_adjust": -1,
+   "ai_note": "次新金矿股市值适中，需关注产能释放进度"
   },
   {
    "ticker": "1029.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "俄罗斯铁矿商面临制裁与地缘风险，量化完全未反映"
+  },
+  {
+   "ticker": "3636.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铜矿生产商走势平稳，无突出风险与催化剂"
+  },
+  {
+   "ticker": "2078.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "俄系铁矿商，曾经历财务重组，地缘风险突出"
+   "ai_note": "小市值铝企流动性差，下跌无消息需警惕基本面恶化"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭生产商，跌幅在合理范围，暂无重大异常"
+   "ai_note": "中型煤炭生产商，估值合理但行业政策风险需关注"
   },
   {
-   "ticker": "0166.HK",
+   "ticker": "1738.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "公司历史复杂，曾多次更名转型，治理存疑"
-  },
-  {
-   "ticker": "1208.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "五矿旗下铜企，海外资产受地缘政治风险影响"
+   "ai_note": "市值不足八千万微盘股，流动性极差存在退市风险"
   }
  ]
 }
