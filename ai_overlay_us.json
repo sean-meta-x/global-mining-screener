@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-05T00:22Z",
+ "generated_at": "2026-10-06T02:07Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股流动性差且极易稀释，无消息面支撑。"
-  },
-  {
-   "ticker": "FNUC",
-   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "名称蹭核能热点，微市值且无实质新闻，疑似概念炒作。"
+   "ai_note": "微型铀矿勘探商无新闻却高分，疑似稀释或钻探失败。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "关键矿产开发商融资困难，股价持续阴跌需警惕资金链。"
+   "ai_adjust": -3,
+   "ai_note": "小型多元勘探商股价走弱无催化剂，警惕资金消耗。"
+  },
+  {
+   "ticker": "FNUC",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "核能概念小盘勘探股无实质进展，高分或为技术面虚高。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "极小市值铜矿勘探股，流动性枯竭且易受庄家拉抬出货。"
-  },
-  {
-   "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "单月暴跌超四成且市值仅千万，面临极高退市或破产风险。"
-  },
-  {
-   "ticker": "ELVR",
-   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂价低迷期中型生产商面临严重的成本超支与融资压力。"
+   "ai_note": "微型铜矿勘探商市值极低且无消息，流动性风险大。"
   },
   {
    "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "核心项目受环保审批拖延影响，锂硼双主线面临政策风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "锂矿开发商走势平稳但行业逆风，需关注融资进展。"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "中型生产商单月暴跌33%却无公告，疑似未披露运营或治理问题。"
   },
   {
    "ticker": "GRML",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "单月暴涨六成疑似游资炒作，格陵兰PGM项目基建风险极高。"
-  },
-  {
-   "ticker": "CAMZF",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足两千万且持续大跌，存在严重的股权稀释与退市风险。"
+   "ai_adjust": -8,
+   "ai_note": "格陵兰PGM勘探股无新闻暴涨64%，典型炒作特征高度警惕。"
   },
   {
    "ticker": "GRO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "巴西钾肥项目屡现管理层动荡与工期延误，治理风险较高。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "巴西钾矿开发商走势偏弱但项目推进中，需关注融资与许可。"
   },
   {
    "ticker": "LAC",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巨型锂矿项目资本开支庞大，但已获部分政府贷款支持。"
-  },
-  {
-   "ticker": "SLI",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "直接提锂技术尚未完全验证，高资本开支令市场担忧其现金流。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "津巴布韦地缘风险虽存，但作为在产金矿具备一定分红支撑。"
+   "ai_adjust": -2,
+   "ai_note": "大型锂矿开发商受行业低迷拖累，项目进度与融资是关键。"
   },
   {
    "ticker": "LODE",
    "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "黄金勘探商单月跌近30%且无公告，可能存在稀释或项目风险。"
+  },
+  {
+   "ticker": "SLI",
+   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "内华达金矿项目推进缓慢，管理层频繁增发稀释股东权益。"
+   "ai_note": "锂矿开发商跌幅较大，行业逆风叠加融资压力需密切关注。"
   },
   {
-   "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "权证类资产波动极大且无实际矿产支撑，纯属投机炒作标的。"
+   "ticker": "OGC",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型黄金生产商走势随金价波动，基本面相对稳健。"
   },
   {
-   "ticker": "NC",
+   "ticker": "CAMZF",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭资产面临长期结构性衰退及ESG融资限制，缺乏成长催化。"
-  },
-  {
-   "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "极小市值金矿生产商通常隐含高昂的维持性资本开支与治理瑕疵。"
+   "ai_adjust": -5,
+   "ai_note": "微型多元勘探商市值极低且大幅下跌，流动性与稀释风险高。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "稀土铌矿项目长期拖延且融资困难，商业化落地遥遥无期。"
+   "ai_note": "稀土开发商历史项目多次延期，融资与许可风险长期存在。"
   },
   {
-   "ticker": "OGC",
+   "ticker": "NAMM",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小型黄金生产商市值偏低，运营稳定性与成本控制需验证。"
+  },
+  {
+   "ticker": "NMG",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "菲律宾Didipio矿社区关系与审批存忧，但整体基本面尚可。"
+   "ai_adjust": -2,
+   "ai_note": "石墨开发商受电动车需求放缓影响，项目推进需关注资金状况。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦金矿生产商管辖权风险与汇出限制是长期隐患。"
   },
   {
    "ticker": "GLDG",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "黄金勘探组合项目众多但缺乏近期催化剂，关注核心资产进展。"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭生产商长期面临能源转型压力，短期盈利依赖煤价波动。"
+  },
+  {
+   "ticker": "KGC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "资产多为期权项目且历史稀释严重，缺乏核心高品位在产矿山。"
+   "ai_adjust": -5,
+   "ai_note": "大型金矿商逆金价大跌25%且无公告，需排查运营或治理异常。"
   }
  ]
 }
