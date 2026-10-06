@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-05T00:43Z",
+ "generated_at": "2026-10-06T02:26Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值多元化矿企，流动性差且治理存疑"
+   "ai_adjust": -3,
+   "ai_note": "小市值多元化矿企，流动性差且信息不透明，治理风险偏高"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小型煤企月跌15%无消息，运营或存隐患"
+   "ai_adjust": -4,
+   "ai_note": "月跌逾12%却无公告，小市值煤炭股需警惕隐性稀释或运营问题"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "red_flag",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "微型煤企无利好却暴涨10%，疑似炒作"
+   "ai_note": "极小市值煤炭股无利好却月涨10%，存在典型拉高出货嫌疑"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中小煤企持续下跌，基本面或承压"
-  },
-  {
-   "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型煤企暴跌近20%，流动性和治理风险极高"
+   "ai_adjust": -4,
+   "ai_note": "月跌近14%无新闻，煤炭承包商面临合同流失或应收账款风险"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型多元化矿企温和回调，暂无明显异常"
+   "ai_adjust": -2,
+   "ai_note": "多元化矿企历史治理存疑，温和下跌中缺乏明确催化剂"
   },
   {
-   "ticker": "RMKE.JK",
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 5,
+   "ai_note": "Astra旗下蓝筹矿机龙头，治理优良流动性佳，量化评分偏低"
+  },
+  {
+   "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌24%无任何消息，疑似重大经营问题"
+   "ai_adjust": -6,
+   "ai_note": "极小市值煤炭股月跌逾10%，无新闻无流动性，高度警惕壳股风险"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中型煤企跟随板块走弱，暂无独立利空"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "Astra旗下优质矿企，治理良好估值合理"
+   "ai_adjust": -3,
+   "ai_note": "中型煤企月跌超10%，历史上关联交易频繁，治理折价持续"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤企温和回调，基本面稳健"
-  },
-  {
-   "ticker": "IFSH.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "无利好暴涨24%，典型拉高出货特征"
+   "ai_adjust": -1,
+   "ai_note": "煤炭生产加驳船物流，基本面尚可但板块逆风下估值承压"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型煤企小幅回调，暂无明显风险"
+   "ai_adjust": -2,
+   "ai_note": "煤炭开采与承包业务稳健，但煤价走弱拖累短期预期"
   },
   {
    "ticker": "NCKL.JK",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "镍价低迷拖累大型镍企，短期承压"
+   "ai_note": "Harita旗下镍业龙头治理良好，但镍价低迷压制估值修复"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值矿企流动性不足，治理透明度低"
-  },
-  {
-   "ticker": "KKGI.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤企走势平稳，暂无催化剂"
-  },
-  {
-   "ticker": "TOBA.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌近24%无解释，疑似治理或经营暴雷"
+   "ai_note": "小市值多元化矿企信息稀少，流动性不足加剧下行风险"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金价强势下仍下跌，运营或有问题"
+   "ai_adjust": -3,
+   "ai_note": "金价强势背景下仍跑输，历史运营与治理问题拖累市场信心"
   },
   {
    "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中小煤企跌幅较大，基本面存疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "月跌超15%，公司历史上债务问题严重，财务持续性存重大疑问"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "极小市值月暴跌23%无公告，高度疑似稀释或丢失核心合同"
+  },
+  {
+   "ticker": "KKGI.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "股价平稳但历史财务披露争议多，治理折价尚未充分反映"
+  },
+  {
+   "ticker": "TOBA.JK",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "微型煤企暴跌19%，流动性和治理风险极高"
+   "ai_note": "月跌逾18%无新闻，转型中现金流紧张，需警惕增发稀释"
   },
   {
    "ticker": "PTBA.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "国有大型煤企分红慷慨治理规范，量化评分低估其防御价值"
+  },
+  {
+   "ticker": "TINS.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国有大型煤企治理规范，分红稳定"
+   "ai_adjust": 2,
+   "ai_note": "国有锡业龙头受益于锡价走强，治理改善中但弹性有限"
+  },
+  {
+   "ticker": "NICL.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "月暴跌24.5%无公告，锡矿监管趋严叠加潜在稀释，风险极高"
   }
  ]
 }
