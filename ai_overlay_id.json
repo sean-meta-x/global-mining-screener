@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-06T02:26Z",
+ "generated_at": "2026-10-07T01:32Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值多元化矿企，流动性差且信息不透明，治理风险偏高"
+   "ai_adjust": -2,
+   "ai_note": "小盘股流动性差且治理存疑，需防范边缘化风险。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌逾12%却无公告，小市值煤炭股需警惕隐性稀释或运营问题"
+   "ai_adjust": -3,
+   "ai_note": "关联交易频繁，存在潜在利益输送与估值泡沫风险。"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "caution",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "极小市值煤炭股无利好却月涨10%，存在典型拉高出货嫌疑"
+   "ai_note": "无利好却异常放量上涨，高度疑似资金炒作与拉高出货。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌近14%无新闻，煤炭承包商面临合同流失或应收账款风险"
+   "ai_adjust": -2,
+   "ai_note": "业绩缺乏亮点且流动性低迷，存在持续估值下行压力。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "多元化矿企历史治理存疑，温和下跌中缺乏明确催化剂"
+   "ai_adjust": 0,
+   "ai_note": "基本面稳健但缺乏短期催化剂，当前估值已趋于合理。"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
-   "ai_adjust": 5,
-   "ai_note": "Astra旗下蓝筹矿机龙头，治理优良流动性佳，量化评分偏低"
+   "ai_adjust": 3,
+   "ai_note": "集团背书且治理优秀，设备租赁与矿业双主业护城河深。"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "极小市值煤炭股月跌逾10%，无新闻无流动性，高度警惕壳股风险"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中型煤企月跌超10%，历史上关联交易频繁，治理折价持续"
+   "ai_adjust": -4,
+   "ai_note": "典型小盘题材股，极易受游资操控，存在极高炒作风险。"
   },
   {
    "ticker": "MCOL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "财务透明度曾受质疑，需警惕应收账款与现金流恶化风险。"
+  },
+  {
+   "ticker": "HRUM.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭生产加驳船物流，基本面尚可但板块逆风下估值承压"
+   "ai_note": "煤炭转型面临ESG压力，管理层变动带来短期不确定性。"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "煤炭开采与承包业务稳健，但煤价走弱拖累短期预期"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "Harita旗下镍业龙头治理良好，但镍价低迷压制估值修复"
+   "ai_adjust": 1,
+   "ai_note": "煤电多元化布局合理且管理层稳健，具备一定防御属性。"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值多元化矿企信息稀少，流动性不足加剧下行风险"
+   "ai_note": "市值过小且缺乏核心资产，极易沦为壳资源炒作标的。"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金价强势背景下仍跑输，历史运营与治理问题拖累市场信心"
+   "ai_adjust": -2,
+   "ai_note": "金矿勘探进度不及预期，面临持续的资本开支与稀释风险。"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "镍冶炼扩产快但ESG争议大，需高度关注镍价波动风险。"
   },
   {
    "ticker": "DOID.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "月跌超15%，公司历史上债务问题严重，财务持续性存重大疑问"
-  },
-  {
-   "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "极小市值月暴跌23%无公告，高度疑似稀释或丢失核心合同"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "跌幅较大且存在关联方依赖，合同续约与现金流持续承压。"
   },
   {
    "ticker": "KKGI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "股价平稳但历史财务披露争议多，治理折价尚未充分反映"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭资产质量尚可但受宏观煤价影响大，缺乏独立逻辑。"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "深陷非法采矿与贪腐丑闻，面临供应链中断与治理双重暴雷。"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "激进转型导致债务高企，煤炭主业现金流已无法覆盖利息。"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "月跌逾18%无新闻，转型中现金流紧张，需警惕增发稀释"
-  },
-  {
-   "ticker": "PTBA.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "国有大型煤企分红慷慨治理规范，量化评分低估其防御价值"
-  },
-  {
-   "ticker": "TINS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "国有锡业龙头受益于锡价走强，治理改善中但弹性有限"
+   "ai_note": "暴跌且市值微小，工程回款缓慢，存在极高流动性与违约危机。"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月暴跌24.5%无公告，锡矿监管趋严叠加潜在稀释，风险极高"
+   "ai_adjust": -6,
+   "ai_note": "连续大跌暴露基本面恶化，存在严重的治理缺陷与稀释隐患。"
+  },
+  {
+   "ticker": "PTBA.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "国企高股息标的，但煤炭长协价格受限，缺乏业绩爆发力。"
   }
  ]
 }
