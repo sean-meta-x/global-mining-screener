@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T02:33Z",
+ "generated_at": "2026-10-07T01:38Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤矿无新闻覆盖，流动性与治理风险被量化忽略"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "黄金开发商无收入，非洲项目执行力存疑，下跌无消息"
+   "ai_note": "小市值煤炭股，流动性差且存在潜在治理风险。"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "白银生产商持续下跌无消息，可能存在未披露问题"
+   "ai_adjust": -4,
+   "ai_note": "债务高企且历史上有过财务争议，需警惕治理风险。"
   },
   {
-   "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值不足三亿，微盘股流动性差，量化难以反映真实风险"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "澳洲金矿商市值适中，基本面尚可但缺乏催化剂"
+   "ticker": "0621.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "长期项目停滞且频发摊薄融资，开发商风险极高。"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "创业板股票跌幅较大无消息，信息披露质量堪忧"
+   "ai_adjust": -2,
+   "ai_note": "主业非矿业，多为教育科技，量化模型分类有误。"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "澳洲金矿在港流动性极低，估值受限于港股边缘化。"
   },
   {
    "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值仅一亿多，正收益但体量过小存在操纵风险"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "极小市值传统制造控股，缺乏矿业核心催化剂。"
   },
   {
    "ticker": "1051.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌逾两成无任何消息，极可能存在隐性稀释或利空"
+   "ai_adjust": -7,
+   "ai_note": "刚果金资产地缘风险高，曾遭停牌，治理存疑。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型国企铝企，估值合理但缺乏明确上涨催化剂"
+   "ai_adjust": 0,
+   "ai_note": "大型国企铝企，受宏观周期压制，基本面平稳。"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型铝企走势平稳，无突出风险也无明显催化剂"
+   "ai_adjust": 0,
+   "ai_note": "传统铝型材企业，缺乏爆发力，表现中规中矩。"
+  },
+  {
+   "ticker": "0166.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史上有较多资本运作痕迹，壳股特征明显。"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "市值仅一亿且大幅下跌，微盘煤矿治理风险极高"
-  },
-  {
-   "ticker": "0166.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值正收益但无消息驱动，需警惕短期操纵"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "全球最大民营铝企，基本面稳健但行业周期承压"
+   "ai_note": "微型市值煤炭股，流动性枯竭，存在老千股风险。"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅五千万创业板股，暴涨无消息极疑似操纵"
+   "ai_adjust": -8,
+   "ai_note": "创业板微型煤企，历史上有炒作嫌疑，流动性极差。"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "民营铝业龙头，成本优势显著，具备长期配置价值。"
+  },
+  {
+   "ticker": "2693.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型市值业务边缘，缺乏明确矿业催化剂。"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "次新金矿股市值适中，需关注产能释放进度"
+   "ai_adjust": 0,
+   "ai_note": "次新金矿股，基本面尚可但短期缺乏产量爆发催化。"
   },
   {
-   "ticker": "1029.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "俄罗斯铁矿商面临制裁与地缘风险，量化完全未反映"
+   "ticker": "1898.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型央企煤企，高股息防御性强，但缺乏成长弹性。"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铜矿生产商走势平稳，无突出风险与催化剂"
-  },
-  {
-   "ticker": "2078.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值铝企流动性差，下跌无消息需警惕基本面恶化"
-  },
-  {
-   "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型煤炭生产商，估值合理但行业政策风险需关注"
+   "ai_note": "小型铜企，业绩相对平稳，无显著超预期催化剂。"
   },
   {
    "ticker": "1738.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值不足八千万微盘股，流动性极差存在退市风险"
+   "ai_note": "极小市值无烟煤企业，交易极度清淡，流动性折价大。"
+  },
+  {
+   "ticker": "1733.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "管理层改善明显，但煤炭资产在ESG背景下估值受压。"
+  },
+  {
+   "ticker": "1208.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "核心资产优质，但秘鲁社区阻工和许可风险频发。"
   }
  ]
 }
