@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-06T02:07Z",
+ "generated_at": "2026-10-07T01:12Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型铀矿勘探商无新闻却高分，疑似稀释或钻探失败。"
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探股，零新闻伴随大幅下跌，稀释风险极高"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小型多元勘探商股价走弱无催化剂，警惕资金消耗。"
+   "ai_note": "无新闻无催化剂，持续阴跌暗示市场对项目信心不足"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "核能概念小盘勘探股无实质进展，高分或为技术面虚高。"
+   "ai_note": "公司名称泛化可疑，零消息配合下跌，警惕炒作壳公司"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型铜矿勘探商市值极低且无消息，流动性风险大。"
+   "ai_note": "市值仅一千五百万，铜矿勘探零进展，随时可能增发稀释"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "零新闻却暴涨64%，典型庄股拉高出货特征，格陵兰PGM概念炒作"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂矿板块整体承压，月跌超三成且无任何利好对冲"
   },
   {
    "ticker": "IONR",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "锂矿开发商走势平稳但行业逆风，需关注融资进展。"
+   "ai_note": "锂矿开发商走势相对平稳，市值适中暂无明显异常"
   },
   {
-   "ticker": "ELVR",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "中型生产商单月暴跌33%却无公告，疑似未披露运营或治理问题。"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "格陵兰PGM勘探股无新闻暴涨64%，典型炒作特征高度警惕。"
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型市值勘探股，跌幅近三成且零消息，流动性风险突出"
   },
   {
    "ticker": "GRO",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "巴西钾矿开发商走势偏弱但项目推进中，需关注融资与许可。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "大型锂矿开发商受行业低迷拖累，项目进度与融资是关键。"
+   "ai_note": "巴西钾矿开发商，温和下跌但缺乏明确催化剂支撑"
   },
   {
    "ticker": "LODE",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "黄金勘探商单月跌近30%且无公告，可能存在稀释或项目风险。"
+   "ai_adjust": -3,
+   "ai_note": "金矿勘探股月跌近三成，零新闻暗示钻探或融资遇阻"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大市值锂矿开发商，板块逆风但基本面尚可，跌幅可控"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂矿开发商跌幅较大，行业逆风叠加融资压力需密切关注。"
+   "ai_note": "锂矿开发商月跌近三成，零消息配合放量下跌需警惕"
   },
   {
-   "ticker": "OGC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型黄金生产商走势随金价波动，基本面相对稳健。"
-  },
-  {
-   "ticker": "CAMZF",
+   "ticker": "NAMMW",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型多元勘探商市值极低且大幅下跌，流动性与稀释风险高。"
+   "ai_adjust": -3,
+   "ai_note": "权证类工具波动剧烈，底层资产小市值且无新闻支撑"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "稀土开发商历史项目多次延期，融资与许可风险长期存在。"
+   "ai_adjust": -2,
+   "ai_note": "稀土开发商持续阴跌，零新闻反映项目推进缓慢"
+  },
+  {
+   "ticker": "OGC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型金矿生产商，跌幅温和属正常波动，基本面稳健"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小型黄金生产商市值偏低，运营稳定性与成本控制需验证。"
+   "ai_note": "小市值金矿生产商，零新闻且持续走弱，治理存疑"
   },
   {
    "ticker": "NMG",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "石墨开发商受电动车需求放缓影响，项目推进需关注资金状况。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "石墨开发商月跌超17%，零消息暗示融资或许可遇瓶颈"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦金矿生产商管辖权风险与汇出限制是长期隐患。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金矿生产商跌幅温和，运营相对稳定，无明显红旗"
   },
   {
    "ticker": "GLDG",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "黄金勘探组合项目众多但缺乏近期催化剂，关注核心资产进展。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金矿勘探股持续下跌且零消息，钻探结果可能不及预期"
   },
   {
    "ticker": "NC",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "煤炭生产商长期面临能源转型压力，短期盈利依赖煤价波动。"
-  },
-  {
-   "ticker": "KGC",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "大型金矿商逆金价大跌25%且无公告，需排查运营或治理异常。"
+   "ai_adjust": -1,
+   "ai_note": "煤炭生产商跌幅可控，行业虽承压但公司运营正常"
   }
  ]
 }
