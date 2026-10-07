@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-06T02:21Z",
+ "generated_at": "2026-10-07T01:27Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "中性，铁矿石价格疲软且中国需求放缓，量化未充分反映宏观逆风。"
+   "ai_adjust": 0,
+   "ai_note": "铁矿龙头无新闻，基本面稳健但受需求端压制。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铂族金属价格暴跌，小市值流动性差，警惕估值陷阱。"
+   "ai_adjust": -3,
+   "ai_note": "小盘基础金属暴跌逾两成且无新闻，存隐性风险。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铬矿业务稳定，但受南非电力和物流瓶颈制约。"
-  },
-  {
-   "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型勘探股单月暴涨44%，存在高度投机与庄家炒作风险。"
-  },
-  {
-   "ticker": "MTU.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值不足一亿，流动性极差且缺乏实质基本面支撑。"
-  },
-  {
-   "ticker": "THA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂族金属敞口大，行业寒冬下利润空间受严重挤压。"
+   "ai_note": "铬铁生产商走势平稳，无明显风险信号。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "铂族金属暴跌叠加南非高昂劳工成本，重组风险高。"
+   "ai_adjust": -3,
+   "ai_note": "铂族金属板块重挫，叠加历史治理隐忧。"
+  },
+  {
+   "ticker": "THA.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铂族金属生产商相对抗跌，暂无明显利空。"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值仅六千万，微型股流动性差且稀释风险高。"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型勘探股暴涨四五成却零新闻，高度疑似炒作。"
   },
   {
    "ticker": "ARI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "管理层优秀且资产多元，但难逃南非系统性宏观风险。"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "煤炭现金流好但面临长期ESG融资约束，估值受压。"
+   "ai_note": "多元矿业巨头跌幅较大，治理结构存历史争议。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铂价低迷导致盈利大幅缩水，量化模型可能高估其韧性。"
+   "ai_adjust": -3,
+   "ai_note": "铂族金属龙头暴跌逾两成，行业寒冬信号明显。"
   },
   {
-   "ticker": "APH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锡价表现尚可，但刚果金地缘政治与物流风险被低估。"
+   "ticker": "EXX.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭巨头受ESG压制但现金流尚可，风险可控。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金价高位但南非深井矿成本失控，单月跌幅暗示资金出逃。"
+   "ai_adjust": -2,
+   "ai_note": "金价高位却大跌两成，或存成本失控或汇率风险。"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型锡矿生产商走势温和，无异常信号。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "深井金矿运营风险高，近期股价疲软反映市场对成本的担忧。"
+   "ai_adjust": -2,
+   "ai_note": "中金企金价强势期反跌，运营或存隐性问题。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "彩色宝石需求周期性波动，缺乏明确催化剂。"
+   "ai_note": "彩色宝石生产商逆势小涨，表现相对稳健。"
   },
   {
    "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微型煤炭股流动性枯竭，存在极高的退市或老千股风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型煤炭股运营地在津巴布韦，国别风险高。"
   },
   {
    "ticker": "NPH.JO",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铂矿龙头但受困于行业周期底部，短期难有超额收益。"
+   "ai_note": "中型铂族金属商受板块拖累大跌，短期承压。"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "尾矿金项目成本可控，但整体板块受南非宏观拖累。"
+   "ai_adjust": 0,
+   "ai_note": "黄金生产商随板块调整，暂无特殊风险。"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小盘铂族金属商跌幅有限，暂观察。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "尾矿回收业务抗风险较强，但金价回调预期下缺乏弹性。"
+   "ai_note": "尾矿金企表现平稳，无特殊催化或风险。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "动力煤出口受限于物流瓶颈，且面临长期ESG撤资风险。"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铂族金属基本面恶化，量化模型未充分计入价格下行风险。"
+   "ai_adjust": -2,
+   "ai_note": "动力煤商面临ESG与转型风险，估值承压。"
   }
  ]
 }
