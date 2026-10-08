@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T01:50Z",
+ "generated_at": "2026-10-08T02:06Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中铝历史包袱重，盈利弹性弱，缺乏短期催化剂。"
+   "ai_note": "大型国企铝企，基本面稳健，无明显隐性风险。"
+  },
+  {
+   "ticker": "000612.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中小铝企，市值偏小流动性一般，略降分。"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "云南水电成本受枯水期影响大，业绩波动风险需警惕。"
-  },
-  {
-   "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "焦作万方历史治理瑕疵多，股权纠纷频发压制估值。"
+   "ai_note": "水电铝成本优势明显，绿色铝溢价支撑估值。"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "雅化集团跨界锂电产能过剩，面临存货减值与稀释风险。"
+   "ai_adjust": -3,
+   "ai_note": "月跌超15%且无任何公告解释，需警惕隐性利空。"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "广东鸿图受新能源车压铸件价格战影响，毛利承压。"
+   "ai_note": "小市值铝压延企业，治理结构一般，略降分。"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "神火股份煤电铝一体化优势在，但周期下行期弹性受限。"
+   "ai_note": "大型煤电铝一体化企业，经营稳健估值合理。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "天山铝业新疆产能成本优，但物流半径与疆煤外运存瓶颈。"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "永泰能源历史债务违约且转型新能源进展缓慢，治理堪忧。"
+   "ai_note": "新疆大型铝企，电力成本优势突出。"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中煤能源长协煤占比高，业绩稳健但缺乏向上弹性。"
+   "ai_note": "大型煤炭国企，高股息但长协煤价承压。"
   },
   {
    "ticker": "603876.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "月跌近20%无任何公告，高度警惕财务暴雷风险。"
+  },
+  {
+   "ticker": "600157.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "鼎胜新材铝箔扩产激进，可转债稀释及行业价格战风险高。"
+   "ai_adjust": -2,
+   "ai_note": "历史上存在治理和重组问题，基本面存疑。"
   },
   {
    "ticker": "600595.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "中孚实业长期主业盈利能力差，依赖债务重组，基本面脆弱。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "债务负担较重，历史财务表现波动大。"
   },
   {
-   "ticker": "600546.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "山煤国际资产注入预期已部分兑现，煤价中枢下移压制估值。"
+   "ticker": "000792.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "锂价暴跌冲击业绩，量化或低估周期下行幅度。"
   },
   {
    "ticker": "002466.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "天齐锂业巨额并购导致财务费用高企，锂价暴跌下风险极大。"
-  },
-  {
-   "ticker": "600219.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南山铝业涉房建及航空铝材，地产拖累明显，需关注需求端。"
+   "ai_adjust": -3,
+   "ai_note": "高杠杆收购SQM叠加锂价崩盘，偿债压力极大。"
   },
   {
    "ticker": "601677.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "明泰铝业铝板带箔龙头，基本面扎实，但受宏观需求拖累。"
+   "ai_note": "铝板带箔细分龙头，经营相对稳健。"
   },
   {
-   "ticker": "000792.SZ",
+   "ticker": "600546.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "盐湖股份钾肥利润丰厚，但提锂技术成本偏高，锂价承压。"
+   "ai_adjust": 0,
+   "ai_note": "山西煤炭国企，经营平稳无明显风险。"
   },
   {
    "ticker": "600338.SS",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "西藏珠峰高海拔开采环保审批严，盐湖提锂项目屡遭延期。"
-  },
-  {
-   "ticker": "600971.SS",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "恒源煤电体量较小，历史存在违规担保等治理瑕疵，流动性差。"
+   "ai_note": "金价历史新高却大跌，西藏小矿企存治理隐忧。"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "晋控煤业国企背景稳健，但老矿井成本偏高，缺乏成长性。"
+   "ai_note": "山西煤炭国企，走势平稳，无异常信号。"
   },
   {
-   "ticker": "002379.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "宏创控股关联交易频繁，盈利质量差，存在大股东掏空风险。"
+   "ticker": "600971.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中小煤企，市值偏小，流动性一般。"
+  },
+  {
+   "ticker": "600361.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "历史上有财务与治理问题，需谨慎对待。"
+  },
+  {
+   "ticker": "601899.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "矿业龙头，金铜强势但短期回调属正常波动。"
   }
  ]
 }
