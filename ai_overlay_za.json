@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T01:27Z",
+ "generated_at": "2026-10-08T01:44Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿龙头无新闻，基本面稳健但受需求端压制。"
+   "ai_note": "铁矿石需求平稳，高成本结构限制弹性，维持中性。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小盘基础金属暴跌逾两成且无新闻，存隐性风险。"
+   "ai_note": "微盘股流动性匮乏，历史资本运作频繁，需警惕稀释风险。"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "彩宝需求疲软且市值极小，流动性折价明显，建议规避。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬铁生产商走势平稳，无明显风险信号。"
+   "ai_adjust": -1,
+   "ai_note": "铬铁冶炼受南非限电严重拖累，成本优势削弱，中性看待。"
   },
   {
    "ticker": "SSW.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂族金属板块重挫，叠加历史治理隐忧。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "铂族金属价格崩盘叠加高杠杆与激进并购，下行风险极大。"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属生产商相对抗跌，暂无明显利空。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铂价下跌侵蚀利润，但铬业务提供一定缓冲，下调预期。"
   },
   {
-   "ticker": "MTU.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅六千万，微型股流动性差且稀释风险高。"
+   "ticker": "IMP.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "铂钯价格深度回调导致利润暴跌，基本面恶化趋势未止。"
   },
   {
    "ticker": "EUZ.JO",
    "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "极小市值勘探股短期暴涨44%，典型资金炒作，谨防杀猪盘。"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "微型勘探股暴涨四五成却零新闻，高度疑似炒作。"
+   "ai_note": "市值不足一亿兰特，流动性枯竭且基本面不透明，直接规避。"
   },
   {
    "ticker": "ARI.JO",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "多元矿业巨头跌幅较大，治理结构存历史争议。"
-  },
-  {
-   "ticker": "IMP.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂族金属龙头暴跌逾两成，行业寒冬信号明显。"
+   "ai_note": "核心资产优质但管理层资本配置屡受争议，估值难有溢价。"
   },
   {
    "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭巨头受ESG压制但现金流尚可，风险可控。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭资产面临长期ESG折价与需求见顶风险，压制长期估值。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金价高位却大跌两成，或存成本失控或汇率风险。"
+   "ai_adjust": -3,
+   "ai_note": "金价高位难掩成本通胀与南非电力短缺对利润率的侵蚀。"
   },
   {
-   "ticker": "APH.JO",
+   "ticker": "NPH.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型锡矿生产商走势温和，无异常信号。"
+   "ai_adjust": -2,
+   "ai_note": "虽受铂价下跌拖累，但成本管控行业领先，抗风险能力较强。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中金企金价强势期反跌，运营或存隐性问题。"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "彩色宝石生产商逆势小涨，表现相对稳健。"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型煤炭股运营地在津巴布韦，国别风险高。"
+   "ai_note": "深井开采成本居高不下，金价上涨带来的利润弹性受限。"
   },
   {
-   "ticker": "NPH.JO",
+   "ticker": "APH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "核心矿区品位下降趋势显现，需关注未来产量接替与成本。"
+  },
+  {
+   "ticker": "EPS.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中型铂族金属商受板块拖累大跌，短期承压。"
+   "ai_adjust": -4,
+   "ai_note": "市值过小且缺乏成本优势，在铂价下行周期中生存压力巨大。"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金生产商随板块调整，暂无特殊风险。"
+   "ai_note": "尾矿回收模式成本可控，但缺乏大型矿山注入，成长受限。"
   },
   {
-   "ticker": "EPS.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小盘铂族金属商跌幅有限，暂观察。"
+   "ticker": "SLG.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "极小市值煤炭股面临严重的流动性风险与ESG融资困境。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "尾矿金企表现平稳，无特殊催化或风险。"
+   "ai_adjust": -1,
+   "ai_note": "尾矿回收业务受限于地表资源枯竭，长期产量增长缺乏动力。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "动力煤商面临ESG与转型风险，估值承压。"
+   "ai_adjust": -3,
+   "ai_note": "剥离资产缺乏长期资本开支，热煤出口面临物流与需求瓶颈。"
   }
  ]
 }
