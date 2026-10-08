@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T01:38Z",
+ "generated_at": "2026-10-08T01:55Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤炭股，流动性差且存在潜在治理风险。"
+   "ai_note": "微型煤矿股，流动性差，信息不透明，治理存疑"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "债务高企且历史上有过财务争议，需警惕治理风险。"
+   "ai_note": "债务负担重，曾涉太阳能转型失败，重组风险高"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "长期项目停滞且频发摊薄融资，开发商风险极高。"
+   "ai_note": "长期未投产开发商，南非政治风险大，持续融资稀释"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "主业非矿业，多为教育科技，量化模型分类有误。"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "澳洲金矿在港流动性极低，估值受限于港股边缘化。"
+   "ai_adjust": -3,
+   "ai_note": "GEM板股票，主营教育非矿业，分类误导风险"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "极小市值传统制造控股，缺乏矿业核心催化剂。"
+   "ai_adjust": 0,
+   "ai_note": "铜加工商非矿企，市值极小但无重大负面"
   },
   {
    "ticker": "1051.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "刚果金资产地缘风险高，曾遭停牌，治理存疑。"
+   "ai_adjust": -6,
+   "ai_note": "曾停牌，历史治理问题多，近期大幅配售稀释"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，受宏观周期压制，基本面平稳。"
+   "ai_note": "大型国企铝企，周期性下行但无重大治理风险"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "传统铝型材企业，缺乏爆发力，表现中规中矩。"
+   "ai_adjust": -1,
+   "ai_note": "铝型材加工商，非上游矿企，估值逻辑不同"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "历史上有较多资本运作痕迹，壳股特征明显。"
+   "ai_note": "小市值壳股特征，业务杂乱，治理透明度低"
   },
   {
    "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值煤炭股，流动性枯竭，存在老千股风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值不足1.2亿，微型煤矿，流动性和治理堪忧"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "澳洲金矿生产商，运营相对稳定，无重大风险"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "创业板微型煤企，历史上有炒作嫌疑，流动性极差。"
+   "ai_adjust": -7,
+   "ai_note": "市值仅五千万，GEM板壳股，曾有配售前科"
   },
   {
    "ticker": "1378.HK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "民营铝业龙头，成本优势显著，具备长期配置价值。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "全球最大民营铝企，曾涉财务争议但已改善"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型市值业务边缘，缺乏明确矿业催化剂。"
+   "ai_note": "小市值高岭土企业，业务单一，流动性不足"
+  },
+  {
+   "ticker": "1029.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "俄罗斯铁矿商，曾陷财务困境，地缘风险高"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "次新金矿股，基本面尚可但短期缺乏产量爆发催化。"
-  },
-  {
-   "ticker": "1898.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型央企煤企，高股息防御性强，但缺乏成长弹性。"
+   "ai_adjust": -1,
+   "ai_note": "次新金矿股，上市时间短，需观察运营持续性"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "小型铜企，业绩相对平稳，无显著超预期催化剂。"
+   "ai_note": "铜生产商，近期走势平稳，无突出风险信号"
   },
   {
    "ticker": "1738.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "极小市值无烟煤企业，交易极度清淡，流动性折价大。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值不足八千万，微型无烟煤矿，壳股嫌疑大"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "管理层改善明显，但煤炭资产在ESG背景下估值受压。"
+   "ai_adjust": -1,
+   "ai_note": "蒙古煤炭生产商，有一定运营规模但地缘风险"
   },
   {
-   "ticker": "1208.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "核心资产优质，但秘鲁社区阻工和许可风险频发。"
+   "ticker": "1898.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型国企煤炭龙头，估值合理，无重大隐忧"
   }
  ]
 }
