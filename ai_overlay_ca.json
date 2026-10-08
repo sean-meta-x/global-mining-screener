@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-07T02:13Z",
+ "generated_at": "2026-10-08T02:29Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "缺乏新闻且市值微小，需警惕隐性稀释或流动性风险。"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无新闻伴随大幅下跌，可能存在未公开的融资或钻探失利。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "微型勘探股，无新闻流，流动性风险一般"
   },
   {
    "ticker": "CPAU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型市值叠加无消息的暴跌，极大概率存在隐性融资或基本面恶化。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值仅1200万且月跌17%，无消息面支撑，警惕稀释"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小幅回调，无异常信号，暂观望"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "Monument历史运营问题频出，月跌25%无公告，疑有隐性风险"
   },
   {
    "ticker": "ENDR.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "缺乏消息面的显著回撤，需防范私募配售带来的股权稀释风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "跌幅温和，无负面催化，维持中性"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "中盘股无利空却大跌，需警惕管理层运作或项目许可延期风险。"
-  },
-  {
-   "ticker": "MMY.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "产量型公司无预警大跌，可能隐藏了运营事故或成本超支等利空。"
+   "ai_adjust": -3,
+   "ai_note": "锂板块持续低迷，开发商阶段融资压力大，月跌20%"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿微型股无量阴跌且无新闻，流动性枯竭与潜在稀释风险并存。"
-  },
-  {
-   "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无消息面的大幅回调，需防范概念炒作退潮后的资金撤离与稀释。"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铜矿勘探股无新闻大跌，需警惕钻探结果不及预期或融资摊薄。"
-  },
-  {
-   "ticker": "FAT.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "近腰斩且毫无消息，极可能是资金盘崩盘、严重稀释或项目流产。"
-  },
-  {
-   "ticker": "AVL.TO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "跌幅显著且无新闻支撑，需防范项目推进受阻或隐性股权稀释。"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "大盘生产股无预警下跌，需警惕海外矿山运营干扰或品位下滑。"
-  },
-  {
-   "ticker": "IBAT.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "电池金属概念退潮，无新闻大跌暗示可能存在内部人抛售或稀释。"
-  },
-  {
-   "ticker": "JUGR.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "暴跌超六成且无公告，极大概率遭遇恶性稀释、钻探失败或治理问题。"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅相对温和，但无新闻的阴跌仍需关注潜在的运营或成本压力。"
+   "ai_adjust": -5,
+   "ai_note": "微型铀矿股月跌27%，无新闻，高度疑似稀释或钻探失败"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "生产型金矿无预警大跌，需防范海外矿区许可、社区或运营风险。"
+   "ai_adjust": -3,
+   "ai_note": "生产商月跌22%却无公告，Palito矿或存运营/治理隐患"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "月跌32%无任何消息，极可能遭遇融资稀释或项目终止"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "尼日利亚Segilola矿地缘政治风险高，月跌18%需警惕"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂和稀土项目估值承压，月跌21%，开发商资金链存疑"
+  },
+  {
+   "ticker": "V.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型铀矿股月跌17%，无新闻，流动性差需警惕"
+  },
+  {
+   "ticker": "JUGR.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "月暴跌60%无任何公告，几乎确定遭遇重大稀释或钻探失败"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "生产商月跌16%无消息，需关注矿山运营稳定性"
   },
   {
    "ticker": "GPAC.V",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "暴跌超四成且无消息，高度怀疑存在未披露的融资或核心项目受挫。"
+   "ai_note": "开发商月跌43%无公告，极可能许可失败或融资破裂"
   },
   {
-   "ticker": "SR.V",
+   "ticker": "MANU.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值缺乏流动性，无消息下跌多为资金自然流失或隐性摊薄。"
+   "ai_adjust": -4,
+   "ai_note": "行业分类与名称矛盾（铀/金），月跌24%，治理存疑"
   },
   {
-   "ticker": "STUD.V",
+   "ticker": "OCEN.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值仅千万且零成交，典型壳公司流动性极差"
+  },
+  {
+   "ticker": "TITI.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "月跌25%无新闻，微型银矿勘探股高度疑似稀释"
+  },
+  {
+   "ticker": "IPT.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "墨西哥银矿生产商月跌15%，社区与环保许可风险"
+  },
+  {
+   "ticker": "NAM.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿股横盘抗跌且无新闻，基本面暂无明显恶化，维持中性观察。"
-  },
-  {
-   "ticker": "AMY.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "电池回收微型股暴跌且无公告，极可能面临资金链断裂或严重稀释。"
+   "ai_adjust": -1,
+   "ai_note": "跌幅温和，微型多元化勘探股，无显著催化"
   }
  ]
 }
