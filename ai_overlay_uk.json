@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T01:22Z",
+ "generated_at": "2026-10-08T01:40Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "THX.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "开发阶段金矿商一月跌近18%，无任何新闻催化，执行风险被低估"
-  },
-  {
-   "ticker": "POW.L",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值仅1270万镑的微型勘探公司，流动性差且存在持续融资稀释风险"
+   "ai_note": "尼日利亚Segilola矿区面临社区与运营风险，需警惕成本超支。"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴西小型金矿生产商历史上有运营和治理问题，跌幅显著"
+   "ai_adjust": -4,
+   "ai_note": "巴西Palito金矿品位下降且现金流紧张，存在潜在稀释风险。"
+  },
+  {
+   "ticker": "POW.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "纯铀矿勘探微盘股，无营收且高度依赖融资，稀释风险极高。"
+  },
+  {
+   "ticker": "RMR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "极小市值边缘勘探公司，流动性差且缺乏核心催化剂，易受资金操纵。"
   },
   {
    "ticker": "MET1.L",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值不足1200万镑的微型勘探股，极易被炒作后遭遇配股稀释"
-  },
-  {
-   "ticker": "JLP.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "一月跌逾23%，公司过往交易结构复杂，存在隐性稀释和治理隐忧"
-  },
-  {
-   "ticker": "YCA.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀现货信托基金，跌幅温和，基本面与铀价挂钩，无明显隐藏风险"
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "Kallak铁矿项目因原住民权益遭政府否决，许可风险已彻底爆发。"
   },
   {
    "ticker": "CAML.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴尔干地区铜矿生产商，地缘政治与运营风险在量化模型中体现不足"
-  },
-  {
-   "ticker": "PDL.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅1056万镑且一月暴跌40%，钻石生产商面临严重财务或运营困境"
-  },
-  {
-   "ticker": "CMCL.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "津巴布韦金矿商国别风险偏高，但跌幅有限，暂维持中性"
+   "ai_adjust": -2,
+   "ai_note": "哈萨克斯坦Kounrad铜矿面临税务与环保合规审查，利润受压。"
   },
   {
    "ticker": "KEFI.L",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "一月暴跌46%，埃塞俄比亚和土耳其项目开发受阻，许可或资金存重大隐患"
+   "ai_note": "埃塞俄比亚项目深陷外汇短缺与地缘安全泥潭，投产遥遥无期。"
   },
   {
-   "ticker": "LEX.L",
+   "ticker": "JLP.L",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "南非PGM项目运营复杂，公司频繁重组与增发，治理结构存疑。"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "纯实物铀信托基金，无运营风险，表现完全取决于铀现货价格。"
+  },
+  {
+   "ticker": "PDL.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "坦桑尼亚矿停产且面临巨额债务重组，钻石需求疲软加剧破产风险。"
+  },
+  {
+   "ticker": "SLP.L",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "南非PGM尾矿回收现金流尚可，但铂族金属价格低迷限制估值。"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南非PGM与铬矿综合生产商，运营稳健但受当地电力与政策拖累。"
+  },
+  {
+   "ticker": "RSG.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "市值仅1135万镑的微型金矿勘探股，缺乏新闻关注，稀释风险高"
+   "ai_note": "莫桑比克Syama金矿成本超支且产量不及预期，拖累整体盈利。"
+  },
+  {
+   "ticker": "CMCL.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦Blanket金矿面临严重外汇管制与宏观经济崩溃风险。"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "南非金矿尾矿处理商，运营相对稳定但受南非电力及政策风险拖累"
-  },
-  {
-   "ticker": "RSG.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中型金矿商一月跌近18%，非洲多矿区运营复杂度高，量化难以完全捕捉"
+   "ai_note": "南非金矿尾矿回收商，现金流稳定但受制于当地电力与劳工风险。"
   },
   {
    "ticker": "GGP.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "Havieron项目开发商，此前与Newcrest合并谈判破裂，独立开发风险上升"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "Havieron项目失去Newmont支持后推进缓慢，高估值缺乏基本面支撑。"
   },
   {
-   "ticker": "SLP.L",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "少数逆势上涨的标的，南非PGM生产商成本控制较好，但行业逆风犹存"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南非PGM生产商跌幅温和，运营稳健但受铂族金属价格低迷压制"
+   "ticker": "LEX.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型金矿勘探股，缺乏实质性资产与资金，极易因融资而大幅稀释。"
   },
   {
    "ticker": "AFP.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅1137万镑的微型勘探股，虽近期跌幅小但长期稀释风险不可忽视"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "公司早已被收购或沦为边缘壳资源，流动性枯竭且存在严重治理风险。"
   },
   {
-   "ticker": "CAPD.L",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "澳洲多元化生产商逆势上涨，基本面相对扎实，无明显隐藏风险"
+   "ticker": "ALTN.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "极小市值金矿股，资产质量与持续经营能力存疑，需防范退市或稀释。"
   },
   {
    "ticker": "ORR.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅1346万镑的微型金矿勘探股，流动性差且存在持续融资需求"
-  },
-  {
-   "ticker": "AURA.L",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铀矿勘探商市值不足5000万镑，项目推进依赖融资，稀释概率较高"
+   "ai_note": "南非金矿勘探开发推进缓慢，微盘股流动性差且高度依赖后续融资。"
   }
  ]
 }
