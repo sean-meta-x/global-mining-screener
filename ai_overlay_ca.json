@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-08T02:29Z",
+ "generated_at": "2026-10-09T02:39Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "微型勘探股，无新闻流，流动性风险一般"
-  },
-  {
-   "ticker": "CPAU.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值仅1200万且月跌17%，无消息面支撑，警惕稀释"
+   "ai_adjust": -3,
+   "ai_note": "微型矿企缺乏新闻支撑，存在隐性稀释风险。"
   },
   {
    "ticker": "VIO.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小幅回调，无异常信号，暂观望"
-  },
-  {
-   "ticker": "MMY.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "Monument历史运营问题频出，月跌25%无公告，疑有隐性风险"
+   "ai_note": "长期低迷且无实质进展，需警惕过度炒作后的回调。"
   },
   {
-   "ticker": "ENDR.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "跌幅温和，无负面催化，维持中性"
+   "ticker": "CPAU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值过小且流动性差，融资稀释风险极高。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂板块持续低迷，开发商阶段融资压力大，月跌20%"
+   "ai_note": "锂电板块整体承压，公司过往有炒作嫌疑需防范。"
   },
   {
    "ticker": "HLU.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型铀矿股月跌27%，无新闻，高度疑似稀释或钻探失败"
+   "ai_adjust": -2,
+   "ai_note": "铀矿概念虽热但公司体量太小，资金链脆弱。"
   },
   {
-   "ticker": "SBI.TO",
+   "ticker": "ENDR.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "历史上有重度营销记录，频繁私募稀释股东权益。"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "转型勘探后缺乏核心资产，管理层执行力存疑。"
+  },
+  {
+   "ticker": "V.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "生产商月跌22%却无公告，Palito矿或存运营/治理隐患"
+   "ai_note": "微型铀矿股缺乏实质项目支撑，易遭资金操纵。"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "长期勘探未见产能转化，烧钱快且频繁融资。"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "具备真实金矿产出且基本面扎实，维持中性评估。"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "墨西哥矿区存在地缘风险，但具备一定生产现金流。"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "月跌32%无任何消息，极可能遭遇融资稀释或项目终止"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "尼日利亚Segilola矿地缘政治风险高，月跌18%需警惕"
-  },
-  {
-   "ticker": "AVL.TO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂和稀土项目估值承压，月跌21%，开发商资金链存疑"
-  },
-  {
-   "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铀矿股月跌17%，无新闻，流动性差需警惕"
+   "ai_note": "CSE挂牌微型股炒作风险极高且缺乏监管透明度。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "月暴跌60%无任何公告，几乎确定遭遇重大稀释或钻探失败"
+   "ai_note": "单月暴跌超50%，极可能是钻探失败或炒作崩盘。"
   },
   {
-   "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "生产商月跌16%无消息，需关注矿山运营稳定性"
-  },
-  {
-   "ticker": "GPAC.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "开发商月跌43%无公告，极可能许可失败或融资破裂"
-  },
-  {
-   "ticker": "MANU.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "行业分类与名称矛盾（铀/金），月跌24%，治理存疑"
-  },
-  {
-   "ticker": "OCEN.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值仅千万且零成交，典型壳公司流动性极差"
+   "ticker": "SBI.TO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "巴西金矿生产商基本面尚可，但受限于规模与地域。"
   },
   {
    "ticker": "TITI.V",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "缺乏实质进展的微型银矿股，需警惕流动性枯竭。"
+  },
+  {
+   "ticker": "OCEN.V",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "月跌25%无新闻，微型银矿勘探股高度疑似稀释"
+   "ai_note": "零收益且市值极低，呈现典型壳公司或死水特征。"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铀矿勘探初期项目，需密切关注后续融资与钻探。"
+  },
+  {
+   "ticker": "AMY.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "电池回收微型股跌幅巨大，技术落地与融资风险高。"
   },
   {
    "ticker": "IPT.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "墨西哥银矿生产商月跌15%，社区与环保许可风险"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "墨西哥银矿生产商，受银价波动及当地政策影响大。"
   },
   {
    "ticker": "NAM.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅温和，微型多元化勘探股，无显著催化"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "历史多次呈现炒作暴跌特征，需警惕庄家出货风险。"
   }
  ]
 }
