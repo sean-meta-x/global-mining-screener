@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-08T01:29Z",
+ "generated_at": "2026-10-09T01:37Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型铀矿勘探商，零新闻且股价持续阴跌，警惕流动性枯竭。"
+   "ai_adjust": -8,
+   "ai_note": "微型铀矿勘探商无新闻无催化剂，高稀释风险，量化评分严重虚高"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "缺乏实质性新闻催化，股价单边下挫，存在价值陷阱风险。"
+   "ai_adjust": -5,
+   "ai_note": "微型市值无新闻流，核矿概念有炒作嫌疑，流动性极差"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无新闻支撑且价格走弱，基本面可能已发生未披露的恶化。"
+   "ai_adjust": -5,
+   "ai_note": "石墨项目长期拖延，历史多次稀释融资，执行力存疑"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "极小市值铜矿勘探，零消息伴随大幅回撤，需防范资金盘。"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "零新闻下暴涨34%，高度疑似庄股炒作或流动性溢价，极度危险。"
+   "ai_adjust": -5,
+   "ai_note": "微型铜矿勘探商市值仅千万，稀释与流动性风险极高"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂价处于周期底部，中盘生产商面临成本与现金流双重压力。"
+   "ai_note": "锂价低迷叠加单月暴跌近四成，中期产能过剩压力大"
   },
   {
-   "ticker": "CAMZF",
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "零新闻却月涨四成，典型拉高出货模式，格陵兰环保许可风险大"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型市值清洁能源概念炒作嫌疑重，无实质项目进展"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "塞拉皮尔项目有政府支持但环保诉讼缠身，许可不确定性高"
+  },
+  {
+   "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型多金属勘探商，无新闻且跌幅显著，存在隐性稀释风险。"
+   "ai_note": "融资历史不佳多次稀释，锂项目资金缺口仍然显著"
   },
   {
    "ticker": "GRO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "钾矿开发商暂无重大负面，但缺乏新闻导致估值修复缓慢。"
+   "ai_note": "SPAC上市钾肥项目开发周期长，执行风险中等可控"
   },
   {
-   "ticker": "IONR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锂矿开发商走势相对抗跌，基本面尚可，维持中性观察。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "核心资产优质但受锂价拖累，暂无明显治理或融资风险。"
-  },
-  {
-   "ticker": "LODE",
+   "ticker": "CAMZF",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金勘探商无新闻且大幅回调，可能存在未披露的钻探失败。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "认股权证具有极高稀释性和时间损耗，纯投机标的，建议规避。"
+   "ai_adjust": -4,
+   "ai_note": "微型勘探商无新闻无催化剂，持续稀释风险较高"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂矿开发商跌幅较大，需关注其项目融资进度与现金流状况。"
+   "ai_adjust": -5,
+   "ai_note": "核心合作伙伴退出，DLE技术未经验证，执行风险显著"
   },
   {
-   "ticker": "GLDG",
+   "ticker": "LODE",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金勘探商缺乏新闻催化，股价阴跌，需警惕项目推进停滞。"
+   "ai_adjust": -5,
+   "ai_note": "历史上有治理问题和炒作记录，合规与信披风险需关注"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "权证工具本身具高稀释性和时间衰减，风险显著高于正股"
   },
   {
    "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金生产商无新闻且股价疲软，需关注其矿山品位与成本变化。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小型金矿生产商运营相对稳定，但规模有限抗风险能力弱"
   },
   {
-   "ticker": "IMPUY",
+   "ticker": "NEXM",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "多元勘探商无实质进展披露，市值偏小流动性差"
+  },
+  {
+   "ticker": "NMG",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "铂族金属面临电动车替代的结构性需求衰退，长期逻辑受损。"
+   "ai_note": "石墨项目多次融资稀释资金需求大，魁北克项目推进缓慢"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "数十年拖延技术未验证多次稀释，典型问题股票量化严重高估"
   },
   {
    "ticker": "OGC",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型黄金生产商基本面稳健，短期回调属正常宏观波动。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金生产商走势相对平稳，无重大负面消息，维持中性。"
+   "ai_note": "大型金矿商菲律宾许可存忧但整体基本面稳健，无需调整"
   },
   {
    "ticker": "NC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭生产商面临长期的结构性需求下降，缺乏长期投资逻辑。"
-  },
-  {
-   "ticker": "FSM",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型白银生产商走势平稳，无突发负面，维持中性评级。"
+   "ai_adjust": -1,
+   "ai_note": "煤炭生产商面临ESG逆风但现金流稳定，估值已反映利空"
   }
  ]
 }
