@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-08T01:44Z",
+ "generated_at": "2026-10-09T01:51Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿石需求平稳，高成本结构限制弹性，维持中性。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "南非Transnet物流危机严重制约出口，量化模型难以捕捉"
   },
   {
    "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘股流动性匮乏，历史资本运作频繁，需警惕稀释风险。"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "彩宝需求疲软且市值极小，流动性折价明显，建议规避。"
-  },
-  {
-   "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铬铁冶炼受南非限电严重拖累，成本优势削弱，中性看待。"
-  },
-  {
-   "ticker": "SSW.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "铂族金属价格崩盘叠加高杠杆与激进并购，下行风险极大。"
-  },
-  {
-   "ticker": "THA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂价下跌侵蚀利润，但铬业务提供一定缓冲，下调预期。"
-  },
-  {
-   "ticker": "IMP.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "铂钯价格深度回调导致利润暴跌，基本面恶化趋势未止。"
-  },
-  {
-   "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "极小市值勘探股短期暴涨44%，典型资金炒作，谨防杀猪盘。"
-  },
-  {
-   "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "市值不足一亿兰特，流动性枯竭且基本面不透明，直接规避。"
+   "ai_note": "公司长期存在推销炒作和股权稀释历史，治理风险极高"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "核心资产优质但管理层资本配置屡受争议，估值难有溢价。"
+   "ai_note": "Motsepe关联交易风险存在但整体运营尚可"
   },
   {
-   "ticker": "EXX.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭资产面临长期ESG折价与需求见顶风险，压制长期估值。"
-  },
-  {
-   "ticker": "GFI.JO",
+   "ticker": "MRF.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "金价高位难掩成本通胀与南非电力短缺对利润率的侵蚀。"
+   "ai_note": "依赖单一买家Glencore，小市值治理存疑"
   },
   {
-   "ticker": "NPH.JO",
+   "ticker": "GML.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "虽受铂价下跌拖累，但成本管控行业领先，抗风险能力较强。"
+   "ai_adjust": 0,
+   "ai_note": "有色宝石细分龙头，治理改善中，无明显盲点"
+  },
+  {
+   "ticker": "THA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "PGM价格暴跌冲击大，但管理层相对稳健"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "市值仅六千万，极度缺乏流动性，微盘股风险高"
+  },
+  {
+   "ticker": "SSW.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "管理层激进并购屡次毁灭价值，安全隐患频发"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "深井开采成本居高不下，金价上涨带来的利润弹性受限。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "南非金矿成本压力大，但资产质量在改善"
   },
   {
-   "ticker": "APH.JO",
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "多座矿井进入维护状态，PGM面临结构性衰退"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭ESG长期承压，但短期现金流依然强劲"
+  },
+  {
+   "ticker": "GFI.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "核心矿区品位下降趋势显现，需关注未来产量接替与成本。"
-  },
-  {
-   "ticker": "EPS.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值过小且缺乏成本优势，在铂价下行周期中生存压力巨大。"
+   "ai_note": "资产质量优良，南非运营风险为唯一主要盲点"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "尾矿回收模式成本可控，但缺乏大型矿山注入，成长受限。"
+   "ai_adjust": -1,
+   "ai_note": "尾矿再处理低成本运营，基本面相对稳健"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "刚果金政治与治理风险极高，量化完全无法捕捉"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "高成本PGM矿在价格暴跌中承压严重"
   },
   {
    "ticker": "SLG.JO",
-   "ai_view": "red_flag",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "极小市值煤炭股面临严重的流动性风险与ESG融资困境。"
+   "ai_note": "市值不足四亿，微盘煤炭股流动性极差"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "尾矿回收业务受限于地表资源枯竭，长期产量增长缺乏动力。"
+   "ai_note": "尾矿处理模式风险较低，运营相对稳定"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "极小市值PGM生产商，流动性和运营风险并存"
+  },
+  {
+   "ticker": "VAL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "公司身份存疑，市值与名称不匹配需核实"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "剥离资产缺乏长期资本开支，热煤出口面临物流与需求瓶颈。"
+   "ai_note": "煤炭出口受Transnet物流瓶颈制约，ESG逆风"
   }
  ]
 }
