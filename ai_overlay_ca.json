@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-10T02:24Z",
+ "generated_at": "2026-10-11T01:38Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无新闻且阴跌，微盘股流动性差，警惕隐性稀释。"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "缺乏催化剂导致动量衰减，需等待实质性钻探进展。"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值过小且无消息，极易受资金操纵或面临融资稀释。"
+   "ai_adjust": -4,
+   "ai_note": "微型市值无新闻却下跌，疑似隐性稀释或流动性陷阱"
   },
   {
    "ticker": "V.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴跌近三成却无公告，极大概率是定向增发或钻探失败。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铀矿勘探股月跌近30%无消息，恐遭融资稀释"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "金矿勘探温和回调，无重大异常信号"
   },
   {
    "ticker": "LIFT.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "开发者阶段缺乏近期催化，短期动量疲软属中性偏弱。"
-  },
-  {
-   "ticker": "ENDR.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微盘勘探股无新闻支撑，纯靠技术面打分存在失真风险。"
+   "ai_note": "开发商阶段却大幅下跌无公告，需警惕运营风险"
   },
   {
    "ticker": "HLU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值不足两千万且大跌，流动性枯竭风险极高建议规避。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "千万市值铀矿壳股急跌，稀释风险极高"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值较大但跌幅显著，缺乏基本面新闻支撑维持谨慎。"
+   "ai_adjust": -5,
+   "ai_note": "两亿市值却标为勘探阶段，治理与定位存疑"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "多元勘探无消息下跌，可能钻探失利"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "相对大盘股但近期回调，无重大利空则视为中性震荡。"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "生产阶段企业抗风险能力较强，短期回调无碍长期逻辑。"
+   "ai_adjust": -2,
+   "ai_note": "较大市值金矿股回调属板块轮动，基本面尚可"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铜矿勘探无新进展且大幅回撤，警惕项目延期或融资。"
-  },
-  {
-   "ticker": "JUGR.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月暴跌超三成且零公告，典型的融资稀释或利好落空。"
+   "ai_adjust": -5,
+   "ai_note": "铜矿微型股暴跌无公告，高度疑似融资稀释"
   },
   {
    "ticker": "TITI.V",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "跌幅巨大且无消息面配合，存在未披露的负面基本面变化。"
+   "ai_note": "银矿微型股月跌30%无消息，典型稀释或拉高出货特征"
+  },
+  {
+   "ticker": "FUU.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铀矿股无消息大跌两成，恐有未公告利空"
   },
   {
    "ticker": "OCEN.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值极小且横盘，缺乏机构关注，量化高分缺乏基本面支撑。"
+   "ai_adjust": -3,
+   "ai_note": "千万市值零波动零消息，典型僵尸壳股特征"
   },
   {
-   "ticker": "GPAC.V",
+   "ticker": "JUGR.V",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "暴跌四成无公告，几乎确认为恶性融资或核心项目受挫。"
+   "ai_adjust": -7,
+   "ai_note": "金矿微型股暴跌31%无公告，极可能钻探失败或稀释"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铀矿概念近期退潮，无新消息下估值面临向下重估风险。"
+   "ai_note": "铀矿公司被标为金矿勘探，信息混乱需谨慎"
   },
   {
-   "ticker": "FUU.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿股回调较深，需关注行业铀价走势及公司资金状况。"
+   "ticker": "GPAC.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "金矿股月跌40%无消息，重大利空未披露可能性极高"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金矿生产商小幅回调，无异常信号"
   },
   {
    "ticker": "AMY.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "电池材料概念退潮且暴跌，微盘股面临极大的融资风险。"
+   "ai_adjust": -7,
+   "ai_note": "电池材料微型股暴跌33%，典型炒作退潮特征"
   },
   {
    "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "跌幅较小但无新闻，量化模型可能过度拟合了历史波动。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金矿勘探股微跌，无明显风险信号"
   },
   {
    "ticker": "EMET.CN",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "唯一正收益但市值极小，持续性存疑"
+  },
+  {
+   "ticker": "MANU.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘股逆势微涨但无公告，需警惕拉高出货或流动性陷阱。"
+   "ai_adjust": -4,
+   "ai_note": "铀矿公司被标为金矿勘探，行业分类混乱需警惕"
   }
  ]
 }
