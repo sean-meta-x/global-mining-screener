@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T02:02Z",
+ "generated_at": "2026-10-11T01:03Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤炭股，单月跌近两成，治理与流动性存疑"
+   "ai_note": "量化高分但月跌近两成，可能存在未反映的隐性风险"
   },
   {
    "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "极小市值多元化公司，信息透明度不足"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "市值极小且多元化业务模糊，流动性风险需关注"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "中国银集团历史关联交易频繁，治理风险较高"
+   "ai_note": "月跌超15%且中国白银集团历史上有治理争议"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "兴发铝业为正规铝型材企业，下跌系行业周期所致"
+   "ai_note": "铝行业整体回调，兴发铝业基本面尚可"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "创业板股票，信息披露要求较低，治理风险偏高"
+   "ai_adjust": -2,
+   "ai_note": "创业板小盘股，信息透明度较低需警惕"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "金矿仍处开发阶段，南非运营存在执行与政策风险"
-  },
-  {
-   "ticker": "0166.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值公司，业务频繁变更，持续经营能力存疑"
+   "ai_note": "黄金开发商无营收，非洲资产面临许可与政治风险"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，下跌为行业beta，基本面稳健"
+   "ai_note": "大型国企铝企，下跌系行业周期性调整"
+  },
+  {
+   "ticker": "0166.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "市值偏小且业务多元，缺乏明确催化剂"
   },
   {
    "ticker": "1378.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型民营铝企，虽有治理争议但规模优势明显"
+   "ai_adjust": 0,
+   "ai_note": "中国宏桥为铝行业龙头，下跌属板块联动"
+  },
+  {
+   "ticker": "8203.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值仅五千万且创业板上市，逆势上涨疑似炒作"
   },
   {
    "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值高岭土企业，流动性有限"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小盘多元化矿业，流动性有限"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲上市金矿企业，运营相对规范"
-  },
-  {
-   "ticker": "8203.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值不足五千万且逆势上涨，疑似庄家炒作"
-  },
-  {
-   "ticker": "1051.HK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "曾遭停牌及财务困境，历史治理记录极差"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铁矿石资产位于俄罗斯，面临制裁与地缘风险"
-  },
-  {
-   "ticker": "1182.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "多次借壳重组历史，治理结构不稳定"
+   "ai_note": "黄金生产商表现相对稳健，跌幅可控"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型煤炭股，市值仅一亿出头，透明度极低"
+   "ai_note": "市值仅一亿出头的小盘煤炭股，流动性风险大"
+  },
+  {
+   "ticker": "1051.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌超16%，G-Resources历史上有融资稀释记录"
+  },
+  {
+   "ticker": "1029.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铁矿石生产商IRC曾经历财务困境和债务重组"
+  },
+  {
+   "ticker": "1182.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "成功国际历史上多次更名重组，典型壳股特征"
+  },
+  {
+   "ticker": "8250.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值仅四千万月涨近28%，典型仙股炒作模式"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "次新小市值铜企，需关注股东质押与稀释风险"
+   "ai_note": "月跌12%且铜价波动大，需关注成本压力"
   },
   {
-   "ticker": "2489.HK",
+   "ticker": "1733.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "次新金矿股，基本面尚可但上市时间短"
+   "ai_note": "煤炭生产商跌幅温和，基本面暂无明显恶化"
   },
   {
-   "ticker": "8250.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "市值仅四千万且月涨近三成，典型仙股炒作特征"
-  },
-  {
-   "ticker": "2078.HK",
+   "ticker": "1738.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小市值铝企，流动性与治理均需关注"
+   "ai_note": "市值不足八千万的无烟煤小盘股，流动性堪忧"
   }
  ]
 }
