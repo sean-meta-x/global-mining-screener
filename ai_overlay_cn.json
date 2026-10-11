@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T02:13Z",
+ "generated_at": "2026-10-11T01:14Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铝企基本面稳健，无异常负面消息，维持中性观察。"
+   "ai_note": "大型国企，运营稳定，周期波动属正常"
   },
   {
    "ticker": "000612.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型铝企近期随板块回调，未见明显治理或稀释风险。"
+   "ai_note": "中型铝企，无明显治理或债务隐患"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "跨界锂电业务面临行业周期下行，需警惕估值回调风险。"
+   "ai_note": "月跌近12%，锂业务叠加历史治理争议"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝加工板块正常波动，未发现管理层或项目层面的异常。"
+   "ai_note": "铝压铸企业，运营正常无显著风险"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "水电铝成本优势明显，短期回调属板块共振，暂无风险。"
+   "ai_note": "水电铝成本优势明显，绿色铝概念"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "产能规模较大，近期走势随大盘波动，未见特殊利空。"
+   "ai_note": "新疆低成本产能，运营正常"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤铝双主业提供业绩韧性，量化模型未捕捉到治理瑕疵。"
+   "ai_note": "煤电铝一体化，经营稳健"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "曾有债券违约历史，治理风险犹存"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "近期跌幅较大，需关注铝箔业务需求疲软及潜在产能过剩。"
+   "ai_note": "月跌近12%，需关注基本面是否恶化"
   },
   {
    "ticker": "600595.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型铝企走势平稳，无增发稀释或项目失败等隐性风险。"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭主业现金流稳定，短期下跌为市场情绪影响，无异常。"
-  },
-  {
-   "ticker": "000792.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂盐价格持续低迷拖累业绩，量化模型易忽视行业周期拐点。"
+   "ai_adjust": -2,
+   "ai_note": "历史债务负担较重，财务稳健性存疑"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企煤炭龙头分红稳定，基本面扎实，无需额外风险调整。"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "海外锂矿并购带来高负债压力，锂价下跌下财务风险凸显。"
+   "ai_note": "大型央企，运营稳定，分红可靠"
   },
   {
    "ticker": "601677.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝板带箔龙头地位稳固，近期回调正常，未见隐性利空。"
+   "ai_note": "铝加工龙头，经营稳健无异常"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "锂价下行周期，重整后仍受价格拖累"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂价低迷叠加SQM收购高负债压力"
   },
   {
    "ticker": "002379.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "虽为铝业龙头但历史负债率偏高，需警惕宏观需求放缓风险。"
+   "ai_note": "全球最大铝企但负债率高，治理存疑"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "逆势上涨属资金防御行为，无实质性催化剂，维持中性。"
-  },
-  {
-   "ticker": "600338.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "西藏小型金矿企面临较高环保与采矿权审批等隐性合规风险。"
-  },
-  {
-   "ticker": "600361.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝加工业务随行业波动，无异常资本运作或治理风险。"
+   "ai_note": "月涨5%动能正向，运营正常"
   },
   {
    "ticker": "600971.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "地方煤炭企业运营平稳，未见项目停滞或管理层动荡迹象。"
+   "ai_note": "中型煤企，运营正常无显著风险"
+  },
+  {
+   "ticker": "600361.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝加工企业，运营正常无异常"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝产业链完整，近期表现抗跌，未发现量化模型遗漏的风险。"
+   "ai_note": "铝产业链完整，经营稳健"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "月涨8%动能强劲，运营正常"
   }
  ]
 }
