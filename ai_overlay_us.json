@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-09T01:37Z",
+ "generated_at": "2026-10-11T00:38Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型铀矿勘探商无新闻无催化剂，高稀释风险，量化评分严重虚高"
+   "ai_adjust": -5,
+   "ai_note": "微型铀企无新闻，高评分忽视稀释与现金流风险"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型市值无新闻流，核矿概念有炒作嫌疑，流动性极差"
+   "ai_adjust": -3,
+   "ai_note": "微型核矿企无消息，下跌中或面临融资稀释"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "石墨项目长期拖延，历史多次稀释融资，执行力存疑"
+   "ai_adjust": -2,
+   "ai_note": "小市值多元勘探商缺乏催化，历史上有过问题"
   },
   {
    "ticker": "CEXYF",
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "市值仅一千六百万，无新闻，生存与稀释风险极高"
+  },
+  {
+   "ticker": "GRML",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型铜矿勘探商市值仅千万，稀释与流动性风险极高"
+   "ai_adjust": -3,
+   "ai_note": "格陵兰PGM无新闻却涨35%，疑似投机炒作，许可风险大"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂价低迷叠加单月暴跌近四成，中期产能过剩压力大"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "零新闻却月涨四成，典型拉高出货模式，格陵兰环保许可风险大"
+   "ai_adjust": -3,
+   "ai_note": "锂企一月暴跌37%，行业逆风叠加估值压力"
   },
   {
    "ticker": "FMST",
-   "ai_view": "caution",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "微型市值清洁能源概念炒作嫌疑重，无实质项目进展"
+   "ai_note": "市值仅千万级无新闻大幅下跌，壳公司风险高"
   },
   {
    "ticker": "LAC",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "塞拉皮尔项目有政府支持但环保诉讼缠身，许可不确定性高"
+   "ai_note": "Thacker Pass许可不确定性大，融资压力持续"
   },
   {
    "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "融资历史不佳多次稀释，锂项目资金缺口仍然显著"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "Rhyolite Ridge许可延迟但相对抗跌，观望为主"
   },
   {
    "ticker": "GRO",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "SPAC上市钾肥项目开发周期长，执行风险中等可控"
+   "ai_note": "巴西钾矿开发进度慢，融资历史存疑"
   },
   {
    "ticker": "CAMZF",
-   "ai_view": "caution",
+   "ai_view": "red_flag",
    "ai_adjust": -4,
-   "ai_note": "微型勘探商无新闻无催化剂，持续稀释风险较高"
+   "ai_note": "微型矿企无消息暴跌三成，稀释与退市风险高"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "核心合作伙伴退出，DLE技术未经验证，执行风险显著"
+   "ai_adjust": -3,
+   "ai_note": "阿肯色DLE项目技术挑战大，融资前景不明"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦国家风险高，运营受政策干扰"
   },
   {
    "ticker": "LODE",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "历史上有治理问题和炒作记录，合规与信披风险需关注"
+   "ai_adjust": -3,
+   "ai_note": "Comstock历史上有推广与治理争议需警惕"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "权证工具本身具高稀释性和时间衰减，风险显著高于正股"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "认股权证本身即稀释工具，无基本面支撑"
   },
   {
    "ticker": "NAMM",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小型金矿生产商运营相对稳定，但规模有限抗风险能力弱"
+   "ai_adjust": 0,
+   "ai_note": "小型金矿生产商跌幅温和，暂无明显额外风险"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "NioCorp多年未投产，许可与融资风险长期存在"
   },
   {
    "ticker": "NEXM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "多元勘探商无实质进展披露，市值偏小流动性差"
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "微型多元勘探商无新闻大跌，现金流堪忧"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "石墨项目多次融资稀释资金需求大，魁北克项目推进缓慢"
+   "ai_adjust": -2,
+   "ai_note": "石墨开发商多次融资，魁北克项目推进缓慢"
   },
   {
-   "ticker": "NB",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "数十年拖延技术未验证多次稀释，典型问题股票量化严重高估"
-  },
-  {
-   "ticker": "OGC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型金矿商菲律宾许可存忧但整体基本面稳健，无需调整"
-  },
-  {
-   "ticker": "NC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭生产商面临ESG逆风但现金流稳定，估值已反映利空"
+   "ticker": "GLDG",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "多项目金矿勘探商持续稀释，需关注资金状况"
   }
  ]
 }
