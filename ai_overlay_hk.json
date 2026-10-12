@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T01:03Z",
+ "generated_at": "2026-10-12T01:23Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "量化高分但月跌近两成，可能存在未反映的隐性风险"
+   "ai_note": "市值极小且流动性差，小煤企存在治理与退市风险。"
+  },
+  {
+   "ticker": "0815.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "曾遭做空机构狙击，财务透明度与治理结构存疑。"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值极小且多元化业务模糊，流动性风险需关注"
-  },
-  {
-   "ticker": "0815.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌超15%且中国白银集团历史上有治理争议"
+   "ai_adjust": 0,
+   "ai_note": "市值微小流动性枯竭，缺乏实质性业务催化剂。"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝行业整体回调，兴发铝业基本面尚可"
+   "ai_note": "兴发铝业基本面尚可，但港股流动性溢价较低。"
+  },
+  {
+   "ticker": "0621.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "长期停留在开发阶段，屡现稀释与治理问题。"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "创业板小盘股，信息透明度较低需警惕"
+   "ai_note": "创业板小盘股，投机属性强，需警惕流动性陷阱。"
   },
   {
-   "ticker": "0621.HK",
+   "ticker": "0166.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "黄金开发商无营收，非洲资产面临许可与政治风险"
+   "ai_adjust": -3,
+   "ai_note": "市值微小，历史上存在频繁的股本稀释与治理瑕疵。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，下跌系行业周期性调整"
-  },
-  {
-   "ticker": "0166.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值偏小且业务多元，缺乏明确催化剂"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中国宏桥为铝行业龙头，下跌属板块联动"
+   "ai_note": "大型国企铝企，基本面稳健但受宏观周期压制。"
   },
   {
    "ticker": "8203.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅五千万且创业板上市，逆势上涨疑似炒作"
-  },
-  {
-   "ticker": "2693.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小盘多元化矿业，流动性有限"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "创业板微盘股，近期异动疑似资金炒作，警惕杀猪盘。"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金生产商表现相对稳健，跌幅可控"
+   "ai_note": "澳洲金矿股，基本面正常但港股流动性严重不足。"
   },
   {
-   "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值仅一亿出头的小盘煤炭股，流动性风险大"
+   "ticker": "1378.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "全球铝业龙头，成本优势显著，具备长期配置价值。"
   },
   {
    "ticker": "1051.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌超16%，G-Resources历史上有融资稀释记录"
+   "ai_note": "历史包袱重，重组后基本面改善但仍具壳股特征。"
+  },
+  {
+   "ticker": "2693.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "微盘股流动性极差，高岭土业务缺乏想象空间。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值不足两亿，典型的港股老千股特征，极高风险。"
   },
   {
    "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铁矿石生产商IRC曾经历财务困境和债务重组"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "涉俄铁矿资产，面临地缘政治制裁与沉重债务风险。"
   },
   {
    "ticker": "1182.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "成功国际历史上多次更名重组，典型壳股特征"
-  },
-  {
-   "ticker": "8250.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅四千万月涨近28%，典型仙股炒作模式"
+   "ai_adjust": -8,
+   "ai_note": "典型壳股，曾长期停牌且管理层信誉不佳，极高风险。"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "月跌12%且铜价波动大，需关注成本压力"
+   "ai_note": "刚更名不久，小盘铜矿企业估值偏高且缺乏透明度。"
+  },
+  {
+   "ticker": "8250.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "创业板微盘股暴涨，典型庄股拉升特征，谨防高位接盘。"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "次新小盘金矿股，估值偏高且存在过度包装嫌疑。"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭生产商跌幅温和，基本面暂无明显恶化"
-  },
-  {
-   "ticker": "1738.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值不足八千万的无烟煤小盘股，流动性堪忧"
+   "ai_adjust": 0,
+   "ai_note": "煤炭资产盈利尚可且分红高，但面临长期能源转型风险。"
   }
  ]
 }
