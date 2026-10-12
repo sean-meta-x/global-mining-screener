@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-11T00:52Z",
+ "generated_at": "2026-10-12T01:12Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铁矿石受中国需求疲软拖累，量化模型未充分计入宏观逆风。"
-  },
-  {
-   "ticker": "GML.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "莫桑比克矿区存ESG与社区关系隐患，宝石价格波动大。"
+   "ai_note": "中国地产需求疲软拖累铁矿石价格，高股息难掩基本面下行。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "铂族金属价格暴跌拖累业绩，多元化未能完全对冲风险。"
+   "ai_note": "铂族金属价格暴跌重创多元化业务，需警惕盈利大幅下修风险。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值极小且流动性差，存在微盘股特有的稀释与治理风险。"
+   "ai_adjust": -8,
+   "ai_note": "市值极小且流动性枯竭，存在严重的微观结构风险与退市隐患。"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "彩色宝石利基市场受宏观消费降级影响，基本面表现中规中矩。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铬铁业务相对稳定，但历史财务透明度与治理结构存疑。"
-  },
-  {
-   "ticker": "IMP.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铂族金属篮子价格崩盘，量化模型严重滞后于现货市场。"
-  },
-  {
-   "ticker": "SSW.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "美国PGM业务拖累，南非电力与成本通胀侵蚀黄金利润。"
+   "ai_adjust": 0,
+   "ai_note": "铬铁冶炼业务稳定但缺乏增长催化剂，估值合理但缺乏弹性。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "公司架构复杂且常有过度营销嫌疑，需警惕估值泡沫。"
+   "ai_adjust": -5,
+   "ai_note": "历史上有激进并购与稀释股本记录，复杂的公司治理结构需折价。"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "铂族金属价格崩盘导致利润空间被严重压缩，高固定成本成拖累。"
+  },
+  {
+   "ticker": "SSW.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "债务高企且铂族金属敞口过大，重组阵痛期现金流面临严峻考验。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "铬业务提供一定缓冲，但整体仍受困于PGM价格低迷。"
+   "ai_note": "铬矿副产品提供一定成本缓冲，但整体仍受制于铂族金属低迷。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "煤炭现金流虽好，但面临长期ESG撤资与转型风险。"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "虽为低成本矿企，但PGM价格跌破部分矿山成本线。"
+   "ai_note": "煤炭资产现金流强劲但面临ESG撤资压力，长期转型风险被低估。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金价上涨受益但南非深部矿井成本高昂，利润释放不及预期。"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "neutral",
    "ai_adjust": -3,
-   "ai_note": "金价创新高但南非深井矿成本飙升，利润空间受挤压。"
+   "ai_note": "虽为低成本机械化铂矿标杆，但在行业寒冬中仍难逃盈利缩水。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "全球资产分散了部分风险，但南非本土运营依然承压。"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "刚果(金)单一矿区面临严峻的管辖权与地缘政治风险。"
+   "ai_adjust": 0,
+   "ai_note": "海外资产对冲了南非风险，但整体估值已充分反映金价上涨预期。"
   },
   {
    "ticker": "PAN.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "尾矿项目成本可控，但南非宏观环境限制估值上限。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "核心金矿品位优异且成本控制良好，是金价上行期的优质标的。"
   },
   {
-   "ticker": "VAL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "作为新拆分PGM实体，缺乏独立运营历史与流动性。"
+   "ticker": "APH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "锡价强势且Bisie矿山品位极高，具备量价齐升的实质性催化剂。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型煤炭股流动性极差，存在极高的治理与退市风险。"
+   "ai_adjust": -8,
+   "ai_note": "微型煤炭股流动性极差，基本面透明度低，极易受资金操纵。"
+  },
+  {
+   "ticker": "VAL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "作为大型铂族金属生产商，在行业周期底部面临严峻的利润挤压。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "尾矿回收利润率微薄，对南非电力和人工成本极度敏感。"
+   "ai_adjust": 0,
+   "ai_note": "尾矿回收模式成本低廉，但矿山寿命受限，缺乏长期成长故事。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭资产面临长期需求萎缩，且存在较高的ESG合规成本。"
+   "ai_note": "动力煤高分红虽诱人，但能源转型背景下长期资产搁浅风险极高。"
   },
   {
    "ticker": "ANG.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "黄金业务基本面稳健，但南非本土矿山老化与成本上升。"
+   "ai_adjust": 2,
+   "ai_note": "剥离南非不良资产后基本面改善，但重组成本短期压制量化评分。"
   }
  ]
 }
