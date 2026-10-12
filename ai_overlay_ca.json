@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-11T01:38Z",
+ "generated_at": "2026-10-12T02:00Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值无新闻却下跌，疑似隐性稀释或流动性陷阱"
-  },
-  {
-   "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铀矿勘探股月跌近30%无消息，恐遭融资稀释"
+   "ai_adjust": -3,
+   "ai_note": "微型矿企无新闻却阴跌，流动性与潜在稀释风险需警惕"
   },
   {
    "ticker": "VIO.V",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "金矿勘探温和回调，无重大异常信号"
+   "ai_note": "金矿探索股无消息面支撑持续下跌，关注潜在融资稀释"
+  },
+  {
+   "ticker": "V.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "铀矿微型股暴跌近30%无任何公告，高度可疑存在稀释"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "开发商阶段却大幅下跌无公告，需警惕运营风险"
-  },
-  {
-   "ticker": "HLU.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "千万市值铀矿壳股急跌，稀释风险极高"
+   "ai_note": "较大市值却无新闻下跌，可能隐含未披露的运营风险"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "两亿市值却标为勘探阶段，治理与定位存疑"
-  },
-  {
-   "ticker": "AVL.TO",
-   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "多元勘探无消息下跌，可能钻探失利"
+   "ai_note": "Monument历史治理问题频发，下跌或反映运营隐忧"
   },
   {
    "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "较大市值金矿股回调属板块轮动，基本面尚可"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "西非政治风险叠加无消息下跌，需警惕许可与社区问题"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铜矿微型股暴跌无公告，高度疑似融资稀释"
-  },
-  {
-   "ticker": "TITI.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "银矿微型股月跌30%无消息，典型稀释或拉高出货特征"
-  },
-  {
-   "ticker": "FUU.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀矿股无消息大跌两成，恐有未公告利空"
-  },
-  {
-   "ticker": "OCEN.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "千万市值零波动零消息，典型僵尸壳股特征"
-  },
-  {
-   "ticker": "JUGR.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "金矿微型股暴跌31%无公告，极可能钻探失败或稀释"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿公司被标为金矿勘探，信息混乱需谨慎"
-  },
-  {
-   "ticker": "GPAC.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "金矿股月跌40%无消息，重大利空未披露可能性极高"
+   "ai_adjust": -6,
+   "ai_note": "CSE微型铜矿股暴跌23%无公告，疑似稀释或钻探失败"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金矿生产商小幅回调，无异常信号"
+   "ai_note": "金矿生产商表现相对稳定，跌幅温和暂无明显异常信号"
+  },
+  {
+   "ticker": "TITI.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型银矿股暴跌30%无任何消息，红旗警告疑似稀释"
+  },
+  {
+   "ticker": "JUGR.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "金矿探索股暴跌31%无公告，极可能存在未披露融资"
+  },
+  {
+   "ticker": "GPAC.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "暴跌40%为全场最惨，极可能遭遇融资稀释或钻探失败"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "分类与名称不符存疑，无消息下跌需关注基本面变化"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "CSE上市微型股虽跌幅小但流动性堪忧，信息透明度低"
+  },
+  {
+   "ticker": "FUU.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "F3铀矿下跌超20%，铀价波动与项目进展不及预期"
+  },
+  {
+   "ticker": "SAM.TO",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "Starcore墨西哥运营及治理风险持续发酵，跌幅显著"
   },
   {
    "ticker": "AMY.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "电池材料微型股暴跌33%，典型炒作退潮特征"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "金矿勘探股微跌，无明显风险信号"
+   "ai_adjust": -8,
+   "ai_note": "电池材料概念微型股暴跌33%，炒作退潮信号明显"
   },
   {
    "ticker": "EMET.CN",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "唯一正收益但市值极小，持续性存疑"
+   "ai_adjust": 1,
+   "ai_note": "唯一正收益标的但CSE微型股，持续性存疑暂中性"
   },
   {
-   "ticker": "MANU.V",
+   "ticker": "SBI.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "巴西金矿生产商下跌，关注运营成本及汇率风险"
+  },
+  {
+   "ticker": "FAT.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "CSE微型股暴跌28%无公告，高度警惕私下融资稀释"
+  },
+  {
+   "ticker": "YMC.CN",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "铀矿公司被标为金矿勘探，行业分类混乱需警惕"
+   "ai_note": "育空金属公司下跌19%无消息，需关注项目进展与资金"
   }
  ]
 }
