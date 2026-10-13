@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-12T01:12Z",
+ "generated_at": "2026-10-13T03:13Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中国地产需求疲软拖累铁矿石价格，高股息难掩基本面下行。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铁矿石价格回调，但基本面稳健，量化评分合理反映现状。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂族金属价格暴跌重创多元化业务，需警惕盈利大幅下修风险。"
-  },
-  {
-   "ticker": "MTU.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极小且流动性枯竭，存在严重的微观结构风险与退市隐患。"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "彩色宝石利基市场受宏观消费降级影响，基本面表现中规中矩。"
+   "ai_adjust": -3,
+   "ai_note": "单月暴跌超两成，铂族金属价格下行压力未在量化中充分体现。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铬铁冶炼业务稳定但缺乏增长催化剂，估值合理但缺乏弹性。"
+   "ai_note": "铬矿业务稳定，单月抗跌，基本面与量化评分匹配。"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值不足一亿，流动性极差且缺乏透明度，存在微盘股陷阱。"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "彩宝业务受宏观消费影响，近期跌幅温和，无明显异常。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "历史上有激进并购与稀释股本记录，复杂的公司治理结构需折价。"
+   "ai_adjust": -3,
+   "ai_note": "公司历史上有过度宣传与频繁融资稀释记录，需警惕治理风险。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "铂族金属价格崩盘导致利润空间被严重压缩，高固定成本成拖累。"
+   "ai_adjust": -3,
+   "ai_note": "铂族金属价格崩盘致单月大跌，量化模型未能及时反映盈利恶化。"
   },
   {
    "ticker": "SSW.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "债务高企且铂族金属敞口过大，重组阵痛期现金流面临严峻考验。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "管理层资本配置激进且治理屡受争议，叠加PGM价格下行风险。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铬矿副产品提供一定成本缓冲，但整体仍受制于铂族金属低迷。"
+   "ai_adjust": 0,
+   "ai_note": "单月仅微跌，业务结构相对均衡，抗周期能力在量化中已体现。"
   },
   {
    "ticker": "EXX.JO",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "煤炭资产现金流强劲但面临ESG撤资压力，长期转型风险被低估。"
+   "ai_note": "煤炭业务短期现金流好但面临长期ESG与转型风险，量化评分偏高。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金价上涨受益但南非深部矿井成本高昂，利润释放不及预期。"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -3,
-   "ai_note": "虽为低成本机械化铂矿标杆，但在行业寒冬中仍难逃盈利缩水。"
+   "ai_note": "金价高企但南非深井矿成本高昂，单月回调属正常估值修复。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "海外资产对冲了南非风险，但整体估值已充分反映金价上涨预期。"
-  },
-  {
-   "ticker": "PAN.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "核心金矿品位优异且成本控制良好，是金价上行期的优质标的。"
+   "ai_note": "资产国际化布局较好，单月跌幅与黄金板块整体走势一致。"
   },
   {
    "ticker": "APH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "锡价强势且Bisie矿山品位极高，具备量价齐升的实质性催化剂。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "锡价波动影响近期表现，但基本面扎实，量化评分合理。"
+  },
+  {
+   "ticker": "PAN.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金业务成本可控，单月回调幅度在合理区间，无明显瑕疵。"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "作为纯PGM生产商受价格暴跌冲击最大，单月大跌暗示基本面恶化。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型煤炭股流动性极差，基本面透明度低，极易受资金操纵。"
+   "ai_adjust": -5,
+   "ai_note": "市值极小且煤炭资产单一，流动性枯竭与合规风险极高。"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "作为大型铂族金属生产商，在行业周期底部面临严峻的利润挤压。"
+   "ai_adjust": -2,
+   "ai_note": "市值数据存在异常或公司面临重大重组，基本面透明度存疑。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "尾矿回收模式成本低廉，但矿山寿命受限，缺乏长期成长故事。"
+   "ai_note": "尾矿回收业务成本低，受金价支撑，近期表现符合行业特征。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "动力煤高分红虽诱人，但能源转型背景下长期资产搁浅风险极高。"
+   "ai_adjust": -2,
+   "ai_note": "高股息掩盖了煤炭资产长期衰退风险，量化模型易被短期现金流误导。"
   },
   {
    "ticker": "ANG.JO",
    "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "剥离南非不良资产后基本面改善，但重组成本短期压制量化评分。"
+   "ai_adjust": 0,
+   "ai_note": "已大幅剥离南非资产，国际化运营平滑了近期板块的整体回调。"
   }
  ]
 }
