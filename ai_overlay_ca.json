@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T02:00Z",
+ "generated_at": "2026-10-13T04:00Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型矿企无新闻却阴跌，流动性与潜在稀释风险需警惕"
+   "ai_note": "微型勘探企无新闻且阴跌，警惕流动性枯竭与隐性稀释。"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金矿探索股无消息面支撑持续下跌，关注潜在融资稀释"
+   "ai_adjust": -3,
+   "ai_note": "缺乏近期催化剂，高量化评分或为历史动量陷阱，建议观望。"
   },
   {
    "ticker": "V.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "铀矿微型股暴跌近30%无任何公告，高度可疑存在稀释"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铀矿勘探股单月暴跌近三成且无新闻，疑有未披露的利空或融资。"
   },
   {
    "ticker": "LIFT.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "较大市值却无新闻下跌，可能隐含未披露的运营风险"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "作为开发商体量尚可，但近期无进展披露，量化高分缺乏基本面支撑。"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Monument历史治理问题频发，下跌或反映运营隐忧"
+   "ai_adjust": -3,
+   "ai_note": "老牌矿企近期表现疲软且无新闻，量化模型可能忽略了运营或资金风险。"
   },
   {
    "ticker": "THX.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "西非政治风险叠加无消息下跌，需警惕许可与社区问题"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "市值相对最大，但单月跌幅超一成，需关注西非矿区地缘及运营风险。"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "CSE微型铜矿股暴跌23%无公告，疑似稀释或钻探失败"
+   "ai_note": "CSE微型铜矿股无新闻且大跌，极可能是炒作退潮或面临定增稀释。"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿生产商表现相对稳定，跌幅温和暂无明显异常信号"
+   "ai_adjust": -2,
+   "ai_note": "作为金矿生产商基本面尚可，但缺乏近期新闻，量化评分存在滞后性。"
   },
   {
    "ticker": "TITI.V",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "微型银矿股暴跌30%无任何消息，红旗警告疑似稀释"
+   "ai_note": "CSE微型银矿股单月暴跌三成且零新闻，典型的高风险庄股或面临稀释。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "金矿探索股暴跌31%无公告，极可能存在未披露融资"
-  },
-  {
-   "ticker": "GPAC.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "暴跌40%为全场最惨，极可能遭遇融资稀释或钻探失败"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "分类与名称不符存疑，无消息下跌需关注基本面变化"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "CSE上市微型股虽跌幅小但流动性堪忧，信息透明度低"
+   "ai_adjust": -6,
+   "ai_note": "金矿勘探股单月跌超三成且无消息，高度怀疑钻探失败或资金链断裂。"
   },
   {
    "ticker": "FUU.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "F3铀矿下跌超20%，铀价波动与项目进展不及预期"
+   "ai_adjust": -3,
+   "ai_note": "铀矿概念近期退潮，单月跌超两成且无新闻，警惕量化模型的风格错配。"
   },
   {
-   "ticker": "SAM.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "Starcore墨西哥运营及治理风险持续发酵，跌幅显著"
-  },
-  {
-   "ticker": "AMY.V",
+   "ticker": "GPAC.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "电池材料概念微型股暴跌33%，炒作退潮信号明显"
+   "ai_note": "单月暴跌超四成且无新闻，大概率已发生严重的股权稀释或项目失败。"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "CSE微型铀矿股缺乏流动性与新闻，量化高分纯属技术面噪音。"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "CSE微型金矿股交易清淡，无新闻支撑的量化高分极易遭遇流动性杀跌。"
   },
   {
    "ticker": "EMET.CN",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "唯一正收益标的但CSE微型股，持续性存疑暂中性"
+   "ai_adjust": 0,
+   "ai_note": "唯一正收益的CSE微盘股，但市值过小且无实质新闻，仅具投机价值。"
+  },
+  {
+   "ticker": "SAM.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "近期跌幅较大且无新闻，需排查其墨西哥矿区的运营或社区问题。"
   },
   {
    "ticker": "SBI.TO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴西金矿生产商下跌，关注运营成本及汇率风险"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "塞拉比黄金为成熟生产商，近期下跌或受金价波动及英国上市地影响。"
   },
   {
    "ticker": "FAT.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "CSE微型股暴跌28%无公告，高度警惕私下融资稀释"
+   "ai_adjust": -7,
+   "ai_note": "CSE微型多元勘探股单月暴跌近三成，典型的缺乏基本面支撑的垃圾股。"
   },
   {
-   "ticker": "YMC.CN",
+   "ticker": "AVL.TO",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "量化模型市值数据严重错误（实际仅数千万），数据源污染需直接剔除。"
+  },
+  {
+   "ticker": "GLO.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "育空金属公司下跌19%无消息，需关注项目进展与资金"
+   "ai_adjust": -3,
+   "ai_note": "多元开发商单月跌近三成，需关注其达夫拉磷矿项目的资金与许可进度。"
   }
  ]
 }
