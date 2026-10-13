@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-12T00:59Z",
+ "generated_at": "2026-10-13T02:58Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商，无新闻且大跌，需警惕流动性枯竭与定增稀释。"
+   "ai_adjust": -4,
+   "ai_note": "微型铀矿勘探商，无新闻支撑高分，稀释风险大"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "缺乏新闻催化且持续下跌，微型勘探公司存在较高融资稀释风险。"
+   "ai_adjust": -3,
+   "ai_note": "核能矿产勘探商，无新闻且大幅下跌，流动性差"
   },
   {
    "ticker": "WWR",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "阿拉巴马州石墨项目融资困难，管理层屡现资金缺口，存在重大稀释风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿项目面临环保许可风险，量化评分偏高"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "锂矿生产商月跌近四成，可能存在运营或财务问题"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铜矿勘探股，无实质利好且跌幅超两成，需防范资金链断裂风险。"
-  },
-  {
-   "ticker": "ELVR",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "锂价低迷下无预警暴跌近四成，基本面或存隐忧，警惕隐藏利空。"
+   "ai_adjust": -4,
+   "ai_note": "微型铜矿勘探商，市值极低，稀释风险极高"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "无新闻却异常暴涨，格陵兰PGM项目面临极高ESG与审批风险，疑似炒作。"
-  },
-  {
-   "ticker": "FMST",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型清洁能源矿企，无新闻且大幅回撤，流动性差且易遭恶意稀释。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "虽有通用汽车背书，但锂市寒冬下无新闻且阴跌，融资与审批压力犹存。"
+   "ai_adjust": -8,
+   "ai_note": "月涨91%无新闻支撑，典型炒作拉升特征"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "硼锂项目受环保审批及融资双重掣肘，无新闻反映项目推进停滞。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "钾矿项目推进缓慢，IPO或SPAC计划受阻，需关注现金流消耗。"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型多元化勘探股，无新闻伴随大幅下跌，存在较高的股本稀释风险。"
+   "ai_note": "Rhyolite Ridge项目面临濒危物种许可障碍"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "阿肯色州提锂项目资本开支巨大，在当前锂价下难以寻得合适合资方。"
+   "ai_note": "DLE技术路线存不确定性，股价大幅回调"
   },
   {
-   "ticker": "CMCL",
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Thacker Pass项目遭原住民反对，许可风险高"
+  },
+  {
+   "ticker": "GRO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "津巴布韦金矿生产商，虽在产但面临国家风险，无新闻掩盖了潜在运营压力。"
+   "ai_note": "巴西钾矿开发商，跌幅温和，基本面尚可"
   },
   {
    "ticker": "LODE",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "历史上有频繁稀释和可疑公司行为记录，内华达项目推进存疑。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "转型科技能源分散主业，金价下跌拖累明显"
+  },
+  {
+   "ticker": "NMG",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "石墨市场疲软，融资挑战持续，项目推进缓慢"
+  },
+  {
+   "ticker": "GLDG",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金矿勘探组合稳定，跌幅温和，无明显风险"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "权证结构风险高于普通股，月跌超35%"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "作为微型金矿股的认股权证，正股无新闻且大跌，杠杆风险极高。"
+   "ai_note": "煤炭生产商面临ESG逆风和长期需求下降"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型多元勘探商，市值低且大跌，稀释风险高"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型金矿生产商，缺乏新闻催化且持续下跌，需警惕流动性与稀释风险。"
+   "ai_note": "小型金矿生产商，市值偏低，流动性有限"
   },
   {
    "ticker": "NB",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "稀土铌项目长期面临巨大资金缺口，管理层过度承诺，稀释风险极高。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "稀土项目开发周期长，融资和技术风险持续"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦运营面临政治和汇率风险"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型多元化勘探股，无新闻且大幅回撤，基本面支撑薄弱。"
-  },
-  {
-   "ticker": "NMG",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "魁北克石墨矿二期融资艰难，无新闻反映资金到位存疑，需下调预期。"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "拥有优质金锑资产，但作为微型勘探股缺乏短期催化，流动性一般。"
+   "ai_note": "小型多元勘探商，月跌25%，基本面存疑"
   }
  ]
 }
