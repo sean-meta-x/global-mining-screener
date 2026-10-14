@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-13T03:13Z",
+ "generated_at": "2026-10-14T01:01Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿石价格回调，但基本面稳健，量化评分合理反映现状。"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "单月暴跌超两成，铂族金属价格下行压力未在量化中充分体现。"
+   "ai_adjust": -2,
+   "ai_note": "铁矿石需求疲软，中国宏观逆风压制估值。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铬矿业务稳定，单月抗跌，基本面与量化评分匹配。"
+   "ai_note": "铬铁价格平稳，无明显催化或重大风险。"
   },
   {
-   "ticker": "MTU.JO",
+   "ticker": "JBL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小盘股流动性折价，多金属项目执行风险存疑。"
+  },
+  {
+   "ticker": "EUZ.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足一亿，流动性极差且缺乏透明度，存在微盘股陷阱。"
+   "ai_adjust": -8,
+   "ai_note": "微盘股无利好却暴涨，高度疑似资金炒作或流动性陷阱。"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铂族金属价格崩盘叠加南非电力短缺，成本压力剧增。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "彩宝业务受宏观消费影响，近期跌幅温和，无明显异常。"
-  },
-  {
-   "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "公司历史上有过度宣传与频繁融资稀释记录，需警惕治理风险。"
-  },
-  {
-   "ticker": "IMP.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂族金属价格崩盘致单月大跌，量化模型未能及时反映盈利恶化。"
+   "ai_note": "有色宝石供需独立，基本面稳健但缺乏短期催化。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "管理层资本配置激进且治理屡受争议，叠加PGM价格下行风险。"
+   "ai_adjust": -5,
+   "ai_note": "铂族金属价格暴跌，且南非深部矿井面临严峻电力与劳工风险。"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "单月仅微跌，业务结构相对均衡，抗周期能力在量化中已体现。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铂族金属行业逆风明显，利润空间受大宗商品价格下跌挤压。"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值极小且缺乏流动性，存在严重的治理与退市风险隐患。"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铂钯价格大幅下挫，高成本结构导致盈利能力快速恶化。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭业务短期现金流好但面临长期ESG与转型风险，量化评分偏高。"
+   "ai_adjust": -3,
+   "ai_note": "煤炭面临长期ESG融资约束，且出口物流瓶颈限制销量。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金价高企但南非深井矿成本高昂，单月回调属正常估值修复。"
+   "ai_note": "尽管金价高企，但南非兰特走强及成本上升抵消了利润弹性。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "资产国际化布局较好，单月跌幅与黄金板块整体走势一致。"
+   "ai_note": "黄金资产优质，但近期股价回调反映了对南非宏观成本的担忧。"
+  },
+  {
+   "ticker": "PAN.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "黄金业务稳健，但尾矿项目资本开支增加可能压制短期现金流。"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铂族金属价格崩盘重创利润，且南非基础设施瓶颈影响产出。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型煤炭股，流动性枯竭且面临严格的ESG与环保合规压力。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "锡价波动影响近期表现，但基本面扎实，量化评分合理。"
-  },
-  {
-   "ticker": "PAN.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金业务成本可控，单月回调幅度在合理区间，无明显瑕疵。"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "作为纯PGM生产商受价格暴跌冲击最大，单月大跌暗示基本面恶化。"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值极小且煤炭资产单一，流动性枯竭与合规风险极高。"
+   "ai_note": "锡矿资产优质，但刚果(金)地缘政治与物流风险需持续折价。"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值数据存在异常或公司面临重大重组，基本面透明度存疑。"
+   "ai_adjust": -4,
+   "ai_note": "处于向铂族金属转型的阵痛期，叠加行业下行，风险较高。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "尾矿回收业务成本低，受金价支撑，近期表现符合行业特征。"
+   "ai_note": "尾矿回收模式成本低，但受限于黄金处理量与资本开支周期。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "高股息掩盖了煤炭资产长期衰退风险，量化模型易被短期现金流误导。"
-  },
-  {
-   "ticker": "ANG.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "已大幅剥离南非资产，国际化运营平滑了近期板块的整体回调。"
+   "ai_adjust": -3,
+   "ai_note": "煤炭出口高度依赖Transnet铁路，物流瓶颈是最大运营风险。"
   }
  ]
 }
