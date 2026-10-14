@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-13T03:18Z",
+ "generated_at": "2026-10-14T01:07Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值煤炭股，无新闻支撑，流动性风险高"
+   "ai_adjust": -2,
+   "ai_note": "极小市值煤炭股，流动性差且存在治理隐患。"
+  },
+  {
+   "ticker": "MINE.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "多元化业务缺乏明确催化剂，维持中性观望。"
   },
   {
    "ticker": "MYOH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌近13%无公告，可能存在未披露利空"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭产量稳定但近期随板块回调，无特殊风险。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "月跌超16%无消息，小市值治理存疑"
-  },
-  {
-   "ticker": "MINE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "无新闻却涨13%，微型股疑似炒作拉升"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Astra旗下大型综合企业，基本面稳健"
+   "ai_adjust": -3,
+   "ai_note": "股价大幅回调且市值偏小，需警惕基本面恶化。"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "极小市值暴跌18%，无新闻，高度警惕"
+   "ai_adjust": -8,
+   "ai_note": "极小市值且暴跌，极易受资金操纵及流动性枯竭。"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "阿斯特朗格旗下核心资产，治理优良，错杀可买。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中等市值温和回调，无异常信号"
+   "ai_adjust": 0,
+   "ai_note": "业务平稳，量化评分合理，无显著额外风险。"
   },
   {
-   "ticker": "SMGA.JK",
+   "ticker": "RMKE.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值下跌10%，无公告需关注"
+   "ai_adjust": -4,
+   "ai_note": "单月跌幅超两成，可能存在未披露的运营或合规问题。"
   },
   {
    "ticker": "HRUM.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中型煤炭股回调11%，行业承压但公司尚可"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型煤企基本面稳健，随大盘波动，暂无需调整。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型煤企小幅回调，无重大异常"
+   "ai_adjust": 0,
+   "ai_note": "头部煤企抗风险能力强，当前估值与基本面匹配。"
   },
   {
-   "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤矿服务商稳健，回调幅度正常"
+   "ticker": "SMGA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小市值多元化矿企，需防范大股东掏空及稀释风险。"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "大型镍企回调11%，镍价承压所致"
+   "ai_note": "镍价承压导致回调，但哈立达产能释放具长期价值。"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "虽有金价支撑，但历史遗留的治理与合规瑕疵犹存。"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微型股暴跌34%无公告，极高风险"
-  },
-  {
-   "ticker": "PSAB.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型金矿股温和回调，无异常"
+   "ai_note": "暴跌超三成且市值极小，高度疑似庄家出货或暴雷。"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌超20%无公告，需警惕潜在利空"
+   "ai_adjust": -3,
+   "ai_note": "激进扩张导致杠杆偏高，在行业下行期脆弱性增加。"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值煤企跌18%无消息，风险较高"
+   "ai_adjust": -3,
+   "ai_note": "跌幅显著，需关注其采矿承包商业务的现金流压力。"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "国有大型锡企，回调幅度温和可控"
-  },
-  {
-   "ticker": "KKGI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值微涨3%，无催化剂支撑"
+   "ai_adjust": 0,
+   "ai_note": "国企背景锡业龙头，受宏观周期影响，治理尚可。"
   },
   {
    "ticker": "PTBA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国有大型煤企逆势上涨，基本面较好"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "国企高股息煤炭龙头，防御属性强，量化低估其价值。"
   },
   {
-   "ticker": "NICL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "月跌25%无公告，锡矿股异常波动"
+   "ticker": "KKGI.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "逆势微涨，基本面平稳，无显著超预期催化剂。"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "管理层优秀且与Pama协同好，抗周期能力强于同行。"
   }
  ]
 }
