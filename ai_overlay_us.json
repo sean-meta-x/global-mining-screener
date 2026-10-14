@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-13T02:58Z",
+ "generated_at": "2026-10-14T00:46Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型铀矿勘探商，无新闻支撑高分，稀释风险大"
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探商，无新闻支撑高分，警惕稀释与资金枯竭"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "核能矿产勘探商，无新闻且大幅下跌，流动性差"
+   "ai_note": "实体信息极少，无新闻流，治理与融资风险不透明"
   },
   {
    "ticker": "WWR",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿项目面临环保许可风险，量化评分偏高"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "勘探阶段现金消耗大，但量化分尚可"
   },
   {
    "ticker": "ELVR",
-   "ai_view": "caution",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "锂矿生产商月跌近四成，可能存在运营或财务问题"
+   "ai_note": "中型生产商单月暴跌38%却无新闻，疑似隐藏治理或运营问题"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型铜矿勘探商，市值极低，稀释风险极高"
+   "ai_adjust": -2,
+   "ai_note": "微型铜矿勘探商，流动性差且面临持续稀释风险"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "月涨91%无新闻支撑，典型炒作拉升特征"
+   "ai_note": "单月暴涨91%无任何新闻，典型拉高出货特征，格陵兰许可风险极高"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Rhyolite Ridge项目面临濒危物种许可障碍"
+   "ai_adjust": -2,
+   "ai_note": "Rhyolite Ridge项目面临BLM许可延迟与社区反对"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "DLE技术路线存不确定性，股价大幅回调"
+   "ai_adjust": -2,
+   "ai_note": "DLE技术规模化存疑，锂价下行拖累估值"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "Thacker Pass项目遭原住民反对，许可风险高"
+   "ai_note": "Thacker Pass遭原住民强烈反对，法律与治理风险突出"
   },
   {
    "ticker": "GRO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "巴西钾矿开发商，跌幅温和，基本面尚可"
+   "ai_note": "钾矿开发商融资压力存在但项目有战略价值"
   },
   {
    "ticker": "LODE",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "转型科技能源分散主业，金价下跌拖累明显"
+   "ai_adjust": -2,
+   "ai_note": "Comstock历史上多次转型，推广嫌疑与执行力存疑"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "石墨市场疲软，融资挑战持续，项目推进缓慢"
+   "ai_adjust": -2,
+   "ai_note": "Matawinie项目供电协议与许可进度落后于预期"
   },
   {
    "ticker": "GLDG",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿勘探组合稳定，跌幅温和，无明显风险"
+   "ai_adjust": -1,
+   "ai_note": "资产组合分散但历史上有股权稀释记录"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "权证结构风险高于普通股，月跌超35%"
+   "ai_adjust": -5,
+   "ai_note": "权证类标的单月跌35%，时间价值衰减与流动性风险极高"
   },
   {
    "ticker": "NC",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭生产商面临ESG逆风和长期需求下降"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型多元勘探商，市值低且大跌，稀释风险高"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产商面临ESG逆风但经营稳定"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小型金矿生产商，市值偏低，流动性有限"
+   "ai_adjust": -2,
+   "ai_note": "小型金矿生产商单月跌幅显著，运营或资金面存隐忧"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "稀土项目开发周期长，融资和技术风险持续"
+   "ai_note": "Elk Creek项目多次融资困难，执行与资金风险极高"
   },
   {
    "ticker": "CMCL",
    "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦Blanket矿面临汇率管制与政策不确定性"
+  },
+  {
+   "ticker": "ATLX",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "津巴布韦运营面临政治和汇率风险"
+   "ai_note": "微型锂矿勘探商，推广痕迹明显且锂市低迷"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小型多元勘探商，月跌25%，基本面存疑"
+   "ai_adjust": -2,
+   "ai_note": "小型多金属勘探商无新闻流，现金消耗与稀释风险高"
   }
  ]
 }
