@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T03:24Z",
+ "generated_at": "2026-10-14T01:14Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值偏小且一月跌幅近两成，流动性与基本面存疑"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化业务缺乏明确主线，无显著催化或风险信号"
+   "ai_note": "小市值煤炭股月跌近27%无消息，存在信息不透明风险"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "中国白银集团历史治理争议多，银价波动下盈利承压"
+   "ai_adjust": -3,
+   "ai_note": "中国白银集团历史上有频繁配售摊薄记录"
   },
   {
    "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "Taung Gold长期开发停滞，非洲项目许可与融资风险极高"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "开发阶段金矿公司面临融资与执行力风险"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "兴发铝业盈利受铝价与原材料成本双向挤压，表现平稳"
+   "ai_note": "兴发铝业为成熟铝型材生产商，基本面稳健"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "新时代集团业务杂乱，历史上有配售摊劣记录"
+   "ai_adjust": -2,
+   "ai_note": "新时代小市值多元化公司，业务透明度低"
   },
   {
    "ticker": "8095.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "北大青鸟多元化转型成效不明，GEM板流动性差"
-  },
-  {
-   "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中铝作为国企效率偏低，铝价下行周期盈利弹性有限"
+   "ai_note": "北大青鸟非纯矿业标的，业务偏科技教育"
+  },
+  {
+   "ticker": "0637.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "利记控股市值仅1.4亿，小盘股治理存疑"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Dragon Mining澳洲金矿运营稳定，但增长空间有限"
+   "ai_adjust": 1,
+   "ai_note": "澳洲金矿商运营稳健，基本面尚可"
   },
   {
-   "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金岩高岭土业务单一且市值微小，信息披露透明度低"
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中铝为国企大型铝企，经营稳定但效率一般"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值不足五千万且近期异动，典型细价股炒作特征"
+   "ai_note": "凯顺能源曾有重大收购失败及监管处罚记录"
   },
   {
    "ticker": "1051.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "G-Resources过去多年亏损，金矿资产品位与成本待验证"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "G-Resources前高管欺诈定罪，治理风险极高"
   },
   {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中国宏桥成本优势突出，但高杠杆与铝价周期风险并存"
+   "ticker": "2693.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "金岩高岭土小市值，信息有限需警惕"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "南南资源市值仅1.2亿，小盘煤炭股透明度低"
   },
   {
    "ticker": "1029.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "IRC Limited铁石矿受中国需求疲软及债务重组困扰"
+   "ai_adjust": -4,
+   "ai_note": "IRC在俄资产面临地缘政治风险，估值承压"
   },
   {
    "ticker": "1182.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "德兴集团历史治理不佳，小盘金矿需谨慎"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中国宏桥曾被做空机构质疑财务真实性"
+  },
+  {
+   "ticker": "8250.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "成功宝石多次更名转型，金矿资产实质进展存疑"
+   "ai_adjust": -8,
+   "ai_note": "嘟嘟控股市值仅4千万月涨42%无消息，疑似炒作"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "易大宗煤炭业务稳健，但受内地能源政策与价格调控影响"
+   "ai_adjust": -1,
+   "ai_note": "易大宗曾经历债务重组，需关注杠杆风险"
   },
   {
-   "ticker": "1229.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "南南资源市值极低，煤矿资产老旧且信息披露不足"
+   "ticker": "1738.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "丰山无烟煤市值不足8千万，流动性风险高"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "持久黄金新上市，产能爬坡中，短期无重大风险信号"
-  },
-  {
-   "ticker": "8250.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "一月暴涨近两成但市值仅四千万，高度疑似庄股操纵"
-  },
-  {
-   "ticker": "1738.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "飞尚无烟煤市值微小，长期成交清淡，退市风险需警惕"
+   "ai_note": "绩海黄金为次新股金矿商，基本面待观察"
   }
  ]
 }
