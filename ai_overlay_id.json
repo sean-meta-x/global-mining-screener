@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T01:07Z",
+ "generated_at": "2026-10-15T00:39Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "极小市值煤炭股，流动性差且存在治理隐患。"
-  },
-  {
-   "ticker": "MINE.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化业务缺乏明确催化剂，维持中性观望。"
+   "ai_note": "微型煤炭股，业务单一且缺乏规模效应，抗周期风险能力弱。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭产量稳定但近期随板块回调，无特殊风险。"
+   "ai_adjust": 0,
+   "ai_note": "中小型煤炭生产商，估值合理，但缺乏显著的产量增长催化剂。"
   },
   {
    "ticker": "DWGL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "近期股价回调明显，需关注其煤炭销售合同续约及利润率变化。"
+  },
+  {
+   "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "股价大幅回调且市值偏小，需警惕基本面恶化。"
+   "ai_adjust": -2,
+   "ai_note": "多元化业务缺乏核心竞争力，历史财务数据透明度有待提高。"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "极小市值且暴跌，极易受资金操纵及流动性枯竭。"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "阿斯特朗格旗下核心资产，治理优良，错杀可买。"
+   "ai_adjust": -5,
+   "ai_note": "微盘股流动性枯竭，警惕庄股杀跌与退市风险。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "业务平稳，量化评分合理，无显著额外风险。"
+   "ai_note": "业务多元化分散了单一煤炭周期风险，但整体资本回报率平庸。"
   },
   {
-   "ticker": "RMKE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "单月跌幅超两成，可能存在未披露的运营或合规问题。"
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "阿斯特朗集团旗下核心蓝筹，基本面扎实，量化评分偏低。"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤企基本面稳健，随大盘波动，暂无需调整。"
+   "ai_note": "积极布局新能源与镍矿，但传统煤炭资产仍占营收主导。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "外资大股东背景提供治理保障，煤炭长协比例高，业绩稳健。"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "镍冶炼产能扩张面临ESG审查与印尼政策变动风险。"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值极小且近期暴跌，存在大股东质押爆仓或流动性危机。"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "金矿开采许可证及社区关系复杂，产量释放存在不确定性。"
+  },
+  {
+   "ticker": "TOBA.JK",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "头部煤企抗风险能力强，当前估值与基本面匹配。"
+   "ai_note": "正向地热转型，但传统煤炭现金流承压，需观察资本开支。"
+  },
+  {
+   "ticker": "DOID.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "历史债务重组遗留问题仍需警惕，承包商业务利润率持续受压。"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小市值多元化矿企，需防范大股东掏空及稀释风险。"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "镍价承压导致回调，但哈立达产能释放具长期价值。"
-  },
-  {
-   "ticker": "PSAB.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "虽有金价支撑，但历史遗留的治理与合规瑕疵犹存。"
-  },
-  {
-   "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "暴跌超三成且市值极小，高度疑似庄家出货或暴雷。"
-  },
-  {
-   "ticker": "TOBA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "激进扩张导致杠杆偏高，在行业下行期脆弱性增加。"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "跌幅显著，需关注其采矿承包商业务的现金流压力。"
+   "ai_note": "市值偏小且股权结构集中，需防范大股东关联交易与利益输送。"
   },
   {
    "ticker": "TINS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企背景锡业龙头，受宏观周期影响，治理尚可。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "锡矿非法开采与贪腐丑闻频发，政策与合规风险极高。"
   },
   {
    "ticker": "PTBA.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "国企高股息煤炭龙头，防御属性强，量化低估其价值。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "国企煤炭高股息具备防御性，但面临长期ESG资金撤出压力。"
   },
   {
    "ticker": "KKGI.JK",
    "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "盐林集团控股，资源禀赋优越，煤矿开采成本在行业内具优势。"
+  },
+  {
+   "ticker": "INDY.JK",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "逆势微涨，基本面平稳，无显著超预期催化剂。"
+   "ai_note": "煤炭主业稳健，但绿色转型投资庞大，短期拖累自由现金流。"
   },
   {
    "ticker": "ABMM.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "管理层优秀且与Pama协同好，抗周期能力强于同行。"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "管理层治理优秀，资产负债表健康，是印尼煤炭板块的优质标的。"
   }
  ]
 }
