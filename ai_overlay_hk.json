@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T01:14Z",
+ "generated_at": "2026-10-15T00:46Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤炭股月跌近27%无消息，存在信息不透明风险"
+   "ai_note": "市值极小且流动性差，存在典型的港股仙股壳资源特征。"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中国白银集团历史上有频繁配售摊薄记录"
+   "ai_adjust": -2,
+   "ai_note": "债务负担较重且资本开支大，历史治理与财务透明度存疑。"
   },
   {
    "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "开发阶段金矿公司面临融资与执行力风险"
-  },
-  {
-   "ticker": "0098.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "兴发铝业为成熟铝型材生产商，基本面稳健"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "南非金矿项目推进缓慢，历史上存在严重股权稀释与治理问题。"
   },
   {
    "ticker": "0166.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "新时代小市值多元化公司，业务透明度低"
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "长期缺乏实质性主营业务，具有明显的港股老壳股特征。"
   },
   {
    "ticker": "8095.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "北大青鸟非纯矿业标的，业务偏科技教育"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "创业板小市值公司，业务边缘化，需警惕流动性与退市风险。"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "利记控股市值仅1.4亿，小盘股治理存疑"
+   "ai_note": "市值微小且交易极度清淡，缺乏机构关注，存在壳公司嫌疑。"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "澳洲金矿商运营稳健，基本面尚可"
+   "ai_adjust": 0,
+   "ai_note": "澳洲金矿资产质量尚可，但港股流动性一般，基本面相对稳健。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中铝为国企大型铝企，经营稳定但效率一般"
+   "ai_note": "大型国企铝业龙头，治理规范但受宏观周期与政策调控影响大。"
+  },
+  {
+   "ticker": "0098.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铝型材生产商，受房地产周期拖累，基本面平庸且缺乏催化剂。"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "凯顺能源曾有重大收购失败及监管处罚记录"
+   "ai_adjust": -6,
+   "ai_note": "创业板极小市值煤炭股，历史上有频繁供股摊薄记录，风险极高。"
   },
   {
    "ticker": "1051.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "G-Resources前高管欺诈定罪，治理风险极高"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "虽经历重组，但历史包袱重，需警惕大股东动作及潜在摊薄风险。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值微小且长期缺乏成交量，业务边缘化，存在壳资源炒作风险。"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "金岩高岭土小市值，信息有限需警惕"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南南资源市值仅1.2亿，小盘煤炭股透明度低"
+   "ai_note": "高岭土及多元化业务，市值小且流动性差，缺乏核心成长逻辑。"
   },
   {
    "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "IRC在俄资产面临地缘政治风险，估值承压"
-  },
-  {
-   "ticker": "1182.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "德兴集团历史治理不佳，小盘金矿需谨慎"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "俄罗斯铁矿资产面临地缘制裁风险，且公司历史上多次严重摊薄。"
   },
   {
    "ticker": "1378.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中国宏桥曾被做空机构质疑财务真实性"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "全球最大铝企之一，规模优势显著，但需关注其高负债与环保合规。"
   },
   {
    "ticker": "8250.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "嘟嘟控股市值仅4千万月涨42%无消息，疑似炒作"
+   "ai_note": "创业板微盘股，近期暴涨缺乏基本面支撑，极大概率为资金炒作。"
   },
   {
-   "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "易大宗曾经历债务重组，需关注杠杆风险"
-  },
-  {
-   "ticker": "1738.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "丰山无烟煤市值不足8千万，流动性风险高"
+   "ticker": "1182.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "典型港股老壳股，频繁通过配售融资，中小股东权益极易被摊薄。"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "次新股黄金生产商，需密切关注基石投资者锁定期满后的抛压风险。"
+  },
+  {
+   "ticker": "3636.HK",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "绩海黄金为次新股金矿商，基本面待观察"
+   "ai_note": "铜矿生产商，基本面平稳，但港股流动性溢价低，缺乏显著催化剂。"
+  },
+  {
+   "ticker": "1208.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "五矿系铜矿龙头，资产优质但海外项目面临社区阻挠与地缘政策风险。"
   }
  ]
 }
