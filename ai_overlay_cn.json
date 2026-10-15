@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-14T01:24Z",
+ "generated_at": "2026-10-15T00:57Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中等市值铝企，跌幅与板块同步，无异常信号"
+   "ai_adjust": 0,
+   "ai_note": "量化评分领先但动量偏弱，铝行业整体承压，暂无明显催化剂。"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型央企铝企，流动性好，表现符合行业趋势"
+   "ai_note": "大型国企铝企，估值稳定但缺乏上行驱动，动量温和下行。"
   },
   {
    "ticker": "002497.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近18%远超同行，无消息面支撑或存隐性利空"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "一月跌幅近20%远超同行，多元化业务未能提供缓冲，警惕基本面恶化。"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "小市值铝企，跌幅温和，暂无明显风险"
+   "ai_note": "小市值铝企，跌幅温和但流动性有限，需关注下游需求变化。"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大市值铝企抗跌性较好，仅跌1.5%"
+   "ai_note": "大市值铝企，动量相对稳定，云南水电铝成本优势仍在。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "大型铝企跌幅略超均值，需关注成本端压力"
+   "ai_note": "大型铝企跟随板块回调，量化评分偏低，暂无独立催化。"
+  },
+  {
+   "ticker": "603876.SS",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "一月跌近19%属异常下跌，中期铝企抗风险能力较弱，需排查个股风险。"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铝企跌幅可控，基本面未见异常"
-  },
-  {
-   "ticker": "603876.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌15.7%显著偏离同行，无公开消息需警惕"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中等市值铝企，跌幅在合理范围内"
+   "ai_note": "大型铝企动量仅微跌，基本面稳健，量化评分中等偏上。"
   },
   {
    "ticker": "601677.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中等市值铝企，跌幅与板块基本一致"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭中企跌幅温和，无突出风险"
+   "ai_note": "明泰铝业为铝板带龙头，跌幅与板块同步，暂无额外风险信号。"
   },
   {
    "ticker": "000792.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂业巨头月跌逾13%，锂价持续承压拖累业绩预期"
+   "ai_note": "锂盐价格持续低迷，盐湖提锂成本优势被削弱，大市值亦难挡行业逆风。"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中孚实业量化评分偏低，氧化铝业务受价格波动影响，动量温和下行。"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "一月跌近17%叠加锂行业下行周期，海外矿资产减值风险仍悬而未决。"
   },
   {
    "ticker": "002379.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铝业龙头月跌15%偏大，但大市值有一定安全垫"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "煤炭板块中少数逆势上涨，显示资金青睐"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤企跌幅温和，防御属性较好"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂业龙头月跌15%，锂价低迷下基本面承压明显"
+   "ai_note": "中国宏桥跌15%偏离大市值稳健特征，需关注海外铝土矿供应链风险。"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭板块整体承压，永泰能源跌幅温和但历史治理问题仍需警惕。"
   },
   {
    "ticker": "600338.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金股逆势大跌12.7%，小市值无消息支撑需警惕"
+   "ai_adjust": -4,
+   "ai_note": "金价强势背景下仍跌12.5%，严重跑输黄金板块，可能存在未披露问题。"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型煤企跌幅可控，板块整体走弱所致"
+   "ai_adjust": 0,
+   "ai_note": "霍林河露天煤业动量稳定，大市值煤炭股防御属性尚可。"
   },
   {
    "ticker": "600546.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "煤炭股中逆势上涨4.6%，相对强势明显"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "唯一正动量煤炭股，逆板块走强或有资金提前布局，值得关注。"
   },
   {
    "ticker": "600740.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "小市值焦煤企业，跌幅温和无异常"
+   "ai_note": "小市值焦煤企业，跌幅可控但流动性不足，量化评分偏低。"
+  },
+  {
+   "ticker": "600971.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "恒源煤电跌幅温和，中小市值煤炭股跟随板块调整，暂无亮点。"
+  },
+  {
+   "ticker": "301219.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "腾远钴业跌逾11%，钴价低迷叠加次新股波动，中期基本面承压。"
   }
  ]
 }
