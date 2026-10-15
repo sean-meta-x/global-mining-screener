@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T00:46Z",
+ "generated_at": "2026-10-15T00:19Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商，无新闻支撑高分，警惕稀释与资金枯竭"
+   "ai_note": "微盘铀矿勘探商无消息且大跌，警惕融资稀释风险。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "实体信息极少，无新闻流，治理与融资风险不透明"
+   "ai_note": "微型多元勘探股无新闻且持续下跌，需防范流动性与稀释风险。"
   },
   {
    "ticker": "WWR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "勘探阶段现金消耗大，但量化分尚可"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小盘勘探股无量下跌且无消息，基本面或存隐忧。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "中型生产商单月暴跌38%却无新闻，疑似隐藏治理或运营问题"
+   "ai_note": "所谓中型锂生产商单月暴跌逾三成且无新闻，极不寻常需警惕。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型铜矿勘探商，流动性差且面临持续稀释风险"
+   "ai_note": "极小市值铜矿勘探股缺乏消息支撑，下行风险较高。"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月暴涨91%无任何新闻，典型拉高出货特征，格陵兰许可风险极高"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "Rhyolite Ridge项目面临BLM许可延迟与社区反对"
+   "ai_adjust": -6,
+   "ai_note": "无新闻支撑下暴涨近七成，典型炒作特征需高度警惕。"
   },
   {
    "ticker": "SLI",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "DLE技术规模化存疑，锂价下行拖累估值"
+   "ai_note": "锂业开发商随板块回调，无独立利空但需关注资金面。"
   },
   {
    "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Thacker Pass遭原住民强烈反对，法律与治理风险突出"
-  },
-  {
-   "ticker": "GRO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "钾矿开发商融资压力存在但项目有战略价值"
+   "ai_note": "锂矿开发商受累于锂价低迷，基本面稳健但短期承压。"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "锂矿开发商走势平稳，无显著催化剂或负面消息。"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型勘探股大幅下挫且无公告，警惕资金链断裂风险。"
   },
   {
    "ticker": "LODE",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "Comstock历史上多次转型，推广嫌疑与执行力存疑"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "黄金勘探股随金价波动回调，缺乏独立基本面催化。"
   },
   {
    "ticker": "NMG",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "Matawinie项目供电协议与许可进度落后于预期"
-  },
-  {
-   "ticker": "GLDG",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "资产组合分散但历史上有股权稀释记录"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "权证类标的单月跌35%，时间价值衰减与流动性风险极高"
-  },
-  {
-   "ticker": "NC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭生产商面临ESG逆风但经营稳定"
+   "ai_note": "石墨开发商受新能源材料需求疲软拖累，短期缺乏催化。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小型金矿生产商单月跌幅显著，运营或资金面存隐忧"
+   "ai_note": "小型黄金生产商流动性较差，下跌或反映产量或成本问题。"
   },
   {
-   "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Elk Creek项目多次融资困难，执行与资金风险极高"
+   "ticker": "GRO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "钾肥开发商走势相对抗跌，基本面暂无明显恶化迹象。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦Blanket矿面临汇率管制与政策不确定性"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金生产商表现稳健，小幅回调属正常市场波动。"
   },
   {
-   "ticker": "ATLX",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型锂矿勘探商，推广痕迹明显且锂市低迷"
+   "ticker": "GLDG",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "黄金勘探股随板块调整，需关注核心项目钻探进展。"
   },
   {
-   "ticker": "NEXM",
+   "ticker": "NAMMW",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "认股权证跌幅远超正股，反映市场对正股流动性极度悲观。"
+  },
+  {
+   "ticker": "IMPUY",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "小型多金属勘探商无新闻流，现金消耗与稀释风险高"
+   "ai_note": "铂族金属巨头受累于金属价格下跌，大盘股流动性无忧。"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产商走势平稳，传统能源需求支撑其基本面。"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "稀土开发商小幅回调，项目推进仍需大量资金关注。"
   }
  ]
 }
