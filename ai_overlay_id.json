@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T00:25Z",
+ "generated_at": "2026-10-17T00:23Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微盘煤炭股流动性极差，存在潜在治理与操纵风险。"
-  },
-  {
-   "ticker": "DWGL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "近期跌幅较大且市值偏小，需警惕煤炭周期下行与流动性折价。"
-  },
-  {
-   "ticker": "MYOH.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "基本面尚可但缺乏明确催化剂，受累于板块整体估值回调。"
+   "ai_note": "小盘煤炭股流动性差，需警惕庄股炒作与流动性风险。"
   },
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "逆势上涨但市值过小，多元化业务缺乏核心壁垒，谨防游资炒作。"
+   "ai_note": "业务庞杂且缺乏核心矿产壁垒，基本面透明度较低。"
   },
   {
-   "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极小且单月暴跌近两成，典型仙股特征，存在极高操纵风险。"
-  },
-  {
-   "ticker": "DKFT.JK",
+   "ticker": "DWGL.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "走势平稳但量化得分一般，煤炭与镍矿业务受宏观周期压制。"
+   "ai_adjust": -1,
+   "ai_note": "煤炭业务受价格波动影响大，设备租赁利润率承压。"
+  },
+  {
+   "ticker": "MYOH.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "产能扩张期资本开支大，需关注潜在股权稀释风险。"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "印尼重型机械与煤炭龙头，基本面稳健，但受累于煤价回落预期。"
+   "ai_adjust": 2,
+   "ai_note": "阿斯特里集团背书治理优良，设备与采矿协同抗周期。"
   },
   {
-   "ticker": "TOBA.JK",
-   "ai_view": "caution",
+   "ticker": "FIRE.JK",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "单月重挫逾两成，反映市场对其中小盘煤炭资产盈利下滑的担忧。"
+   "ai_note": "极小市值煤炭股，存在严重的流动性折价与治理隐患。"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "煤炭主业受价格下行压制，虽有镍矿转型预期但短期难见业绩贡献。"
+   "ai_adjust": 1,
+   "ai_note": "传统煤炭现金流稳健，镍业务转型提供一定估值弹性。"
   },
   {
-   "ticker": "RMKE.JK",
+   "ticker": "DKFT.JK",
    "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "股价持续阴跌且市值较小，煤炭开采成本上升叠加环保合规压力。"
+   "ai_adjust": -2,
+   "ai_note": "煤炭储量有限且面临环保政策收紧，长期增长受限。"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "镍价低迷导致利润承压，但作为印尼镍业龙头具备长期成本优势。"
+   "ai_adjust": -1,
+   "ai_note": "镍价低迷与高资本开支压制利润，但集团背景提供支撑。"
   },
   {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭产销量稳定，但高股息预期已部分兑现，估值缺乏向上弹性。"
+   "ticker": "TINS.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "国企背景但历史治理瑕疵较多，锡价波动直接影响业绩。"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值偏小且业务分散，镍矿与煤炭资产均面临行业周期下行风险。"
+   "ai_note": "市值较小且业务多元化缺乏亮点，需警惕边缘化风险。"
   },
   {
-   "ticker": "TINS.JK",
+   "ticker": "TOBA.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "作为国有锡企受非法采矿打击与出口政策影响，短期业绩不确定性高。"
+   "ai_note": "激进转型新能源导致债务高企，煤炭现金流难以覆盖。"
   },
   {
-   "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "近期跌幅较大，煤炭承包商业务受下游矿企资本开支缩减拖累。"
+   "ticker": "DEWA.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "采矿承包商模式利润率较低，高度依赖大客户订单。"
   },
   {
-   "ticker": "RMKO.JK",
+   "ticker": "MCOL.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "穆西马斯集团背书治理规范，煤炭与物流协同效应显著。"
+  },
+  {
+   "ticker": "PTBA.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "国企高股息提供安全边际，但长期面临能源转型压力。"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "采矿服务业务多元化且治理良好，盈利确定性较强。"
+  },
+  {
+   "ticker": "KKGI.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "单月暴跌近三成且市值极小，存在严重的流动性危机与基本面恶化风险。"
+   "ai_adjust": -6,
+   "ai_note": "创始人历史争议较多，公司治理与中小股东权益存疑。"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金价高位震荡下股价逆势下跌，反映其金矿品位下降与开采成本失控。"
-  },
-  {
-   "ticker": "PTBA.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "国企煤炭龙头，逆势上涨彰显高股息防御属性，长协煤价提供业绩支撑。"
-  },
-  {
-   "ticker": "KKGI.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "走势抗跌但量化得分平庸，煤炭资产规模较小且面临印尼DMO政策限制。"
-  },
-  {
-   "ticker": "MBMA.JK",
-   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "受累于新能源金属价格整体回调，电池材料业务短期盈利承压。"
+   "ai_note": "黄金产量受品位下降影响，高成本矿山拖累整体盈利。"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "承包商业务壁垒低且应收账款周期长，现金流承压。"
+  },
+  {
+   "ticker": "NICL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "锡矿开采受环保监管趋严影响，产量与合规成本上升。"
   }
  ]
 }
