@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T00:23Z",
+ "generated_at": "2026-10-17T23:56Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小盘煤炭股流动性差，需警惕庄股炒作与流动性风险。"
+   "ai_note": "极小市值煤炭股，流动性与治理风险高"
   },
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "业务庞杂且缺乏核心矿产壁垒，基本面透明度较低。"
+   "ai_note": "小市值多元化矿企，缺乏信息透明度"
   },
   {
    "ticker": "DWGL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭业务受价格波动影响大，设备租赁利润率承压。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值且月跌27%，无消息解释下跌原因"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "产能扩张期资本开支大，需关注潜在股权稀释风险。"
+   "ai_adjust": -2,
+   "ai_note": "小市值煤炭股，潜在治理风险需关注"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "neutral",
    "ai_adjust": 2,
-   "ai_note": "阿斯特里集团背书治理优良，设备与采矿协同抗周期。"
+   "ai_note": "Astra旗下优质大型矿企，量化评分偏低"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极小市值煤炭股，存在严重的流动性折价与治理隐患。"
+   "ai_adjust": -7,
+   "ai_note": "市值仅1240亿印尼盾，月跌31%，典型庄股特征"
   },
   {
    "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "传统煤炭现金流稳健，镍业务转型提供一定估值弹性。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌23.5%，中期煤炭股波动大且缺乏催化"
   },
   {
    "ticker": "DKFT.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭储量有限且面临环保政策收紧，长期增长受限。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值但跌幅温和，暂无明显异常信号"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "镍价低迷与高资本开支压制利润，但集团背景提供支撑。"
-  },
-  {
-   "ticker": "TINS.JK",
-   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "国企背景但历史治理瑕疵较多，锡价波动直接影响业绩。"
+   "ai_note": "镍价承压致大跌，Harita集团背景尚可"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值较小且业务多元化缺乏亮点，需警惕边缘化风险。"
+   "ai_adjust": -4,
+   "ai_note": "市值仅6120亿印尼盾，流动性极差"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "国企锡业龙头，治理较好但受锡价波动拖累"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "激进转型新能源导致债务高企，煤炭现金流难以覆盖。"
-  },
-  {
-   "ticker": "DEWA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "采矿承包商模式利润率较低，高度依赖大客户订单。"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "穆西马斯集团背书治理规范，煤炭与物流协同效应显著。"
+   "ai_adjust": -5,
+   "ai_note": "月跌近37%，能源转型战略不确定性高"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "neutral",
+   "ai_adjust": 2,
+   "ai_note": "国企煤炭龙头高分红，量化评分明显偏低"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "国企高股息提供安全边际，但长期面临能源转型压力。"
+   "ai_note": "跌幅最小仅5.2%，经营韧性优于同行"
   },
   {
    "ticker": "ABMM.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "采矿服务业务多元化且治理良好，盈利确定性较强。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中等市值煤炭承包商，表现中规中矩"
+  },
+  {
+   "ticker": "DEWA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "月跌32%且无消息面解释，需警惕基本面恶化"
   },
   {
    "ticker": "KKGI.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "创始人历史争议较多，公司治理与中小股东权益存疑。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值煤企，历史上有治理与关联交易争议"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "黄金产量受品位下降影响，高成本矿山拖累整体盈利。"
+   "ai_adjust": -3,
+   "ai_note": "金矿股逆金价下跌，基本面或产量存疑"
   },
   {
    "ticker": "RMKO.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "承包商业务壁垒低且应收账款周期长，现金流承压。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅3040亿印尼盾，月跌41%，极高风险"
   },
   {
    "ticker": "NICL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锡矿开采受环保监管趋严影响，产量与合规成本上升。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "小市值锡矿股月跌38%，无消息解释暴跌"
   }
  ]
 }
