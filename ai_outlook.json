@@ -1,66 +1,66 @@
 {
- "generated_at": "2026-10-17T23:20Z",
+ "generated_at": "2026-10-18T23:33Z",
  "model": "qwen3.7-plus",
  "outlook": {
   "Gold": {
    "multiplier": 1.15,
-   "note": "Central bank buying and macro hedging sustain bullish momentum despite elevated spot levels."
+   "note": "Central bank accumulation and rate cut expectations support upside."
   },
   "Silver": {
    "multiplier": 1.1,
-   "note": "Strong industrial demand from solar and gold correlation support upside despite slight pullback."
+   "note": "Strong solar panel demand offsets slight recent underperformance versus gold."
   },
   "Copper": {
    "multiplier": 1.2,
-   "note": "Structural concentrate deficits and green transition demand outstrip smelter capacity."
+   "note": "Structural supply deficits and robust electrification demand drive bullish outlook."
   },
   "Uranium": {
    "multiplier": 1.25,
-   "note": "Nuclear renaissance and structural mine supply deficits tighten long-term contract markets."
+   "note": "Persistent structural supply deficit and strong utility contracting support higher prices."
   },
   "Lithium": {
    "multiplier": 0.85,
-   "note": "Slowing EV growth and new supply from Australia and South America flood the market."
+   "note": "Near-term oversupply and slowing EV demand growth weigh on sentiment."
   },
   "Nickel": {
    "multiplier": 0.8,
-   "note": "Indonesian supply growth continues to overwhelm sluggish stainless and battery demand."
+   "note": "Continued Indonesian supply growth and LFP battery substitution pressure prices."
   },
   "Zinc": {
-   "multiplier": 1.05,
-   "note": "Mine closures tighten supply but galvanized steel demand remains muted by weak property."
+   "multiplier": 1.1,
+   "note": "Mine supply disruptions and tight treatment charges support a constructive view."
   },
   "Iron Ore": {
    "multiplier": 0.9,
-   "note": "Chinese property sector weakness and high port inventories cap upside potential."
+   "note": "Weak Chinese property sector and steel demand offset by resilient seaborne supply."
   },
   "Coal": {
    "multiplier": 0.95,
-   "note": "Adequate global inventories and renewable energy substitution limit thermal coal price upside."
+   "note": "Peaking thermal demand and ample seaborne supply cap upside potential."
   },
   "Rare Earths": {
    "multiplier": 1.05,
-   "note": "Chinese export controls and strategic stockpiling provide a floor despite weak EV motor demand."
+   "note": "Geopolitical supply risks and long-term EV motor demand provide a slight premium."
   },
   "Manganese": {
-   "multiplier": 1.0,
-   "note": "Balanced supply from South Africa and Gabon meets steady global steelmaking demand."
+   "multiplier": 1.05,
+   "note": "Steady steelmaking demand and intermittent South African logistics constraints."
   },
   "PGM": {
-   "multiplier": 0.9,
-   "note": "Weak auto production and platinum-palladium substitution effects weigh on near-term demand."
+   "multiplier": 1.0,
+   "note": "Balanced view with offsetting weak auto sales and strong long-term hydrogen potential."
   },
   "Potash": {
-   "multiplier": 1.05,
-   "note": "Geopolitical supply risks from Russia and Belarus support prices amid steady agricultural demand."
+   "multiplier": 1.0,
+   "note": "Normalized agricultural application rates and stable global supply balance the market."
   },
   "Aluminum": {
-   "multiplier": 1.1,
-   "note": "Smelter curtailments in China and tight alumina supply support prices despite soft consumer demand."
+   "multiplier": 1.15,
+   "note": "Chinese production caps and rising green energy demand tighten the market balance."
   },
   "Diversified": {
    "multiplier": 1.05,
-   "note": "Broad portfolio exposure to copper and iron ore provides balanced macro sensitivity."
+   "note": "Balanced exposure to copper and gold offsets weaker iron ore and coal segments."
   }
  }
 }
