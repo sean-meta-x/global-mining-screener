@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T00:29Z",
+ "generated_at": "2026-10-18T00:02Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤炭股单月暴跌近28%且无任何消息，恐存隐性治理或流动性风险"
+   "ai_note": "小市值煤炭股流动性差，无新闻催化，估值陷阱风险高"
   },
   {
    "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非金矿勘探商持续烧钱，无新闻覆盖下稀释风险极高"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "壳股特征明显，长期无实质业务进展，治理风险极高"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型央企铝企，基本面透明，行业周期下行属正常波动"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "民营铝龙头，市值大流动性好，历史财务争议已逐步消化"
+   "ai_adjust": -1,
+   "ai_note": "大型国企铝企受宏观周期压制，短期缺乏独立催化"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "白银生产商单月跌近18%，历史上存在关联交易及治理隐忧"
+   "ai_note": "白银生产商盈利受价格波动大，近期跌幅反映基本面疲软"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "宏桥基本面稳健但受铝价及能源成本周期压制，暂无明显催化"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "老牌壳股特征明显，业务杂而不聚焦，投机属性远大于投资属性"
+   "ai_adjust": -6,
+   "ai_note": "多元化壳股，业务模糊，市值萎缩严重，治理存疑"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝型材生产商业务清晰，估值合理，无重大异常信号"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值仅1.4亿的微型股，流动性极差，量化评分参考价值有限"
+   "ai_adjust": -1,
+   "ai_note": "兴发铝业盈利稳定但缺乏增长催化，估值合理但无上行空间"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金矿生产商走势平稳，近期跌幅温和，暂无明显异常"
+   "ai_note": "澳洲金矿运营商运营稳定，金价支撑下跌幅有限"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值仅1.1亿的微型煤炭股，流动性风险突出，机构覆盖为零"
+   "ai_adjust": -4,
+   "ai_note": "极小市值煤炭股，流动性极差，信息不透明，规避为宜"
   },
   {
    "ticker": "1029.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "俄罗斯铁矿石商，受制裁及债务重组影响，地缘与信用风险极高"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "IRC长期受困于债务及运营问题，铁矿价格低迷加剧压力"
   },
   {
    "ticker": "8095.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "创业板上市，主业与矿业关联度存疑，信息透明度不足"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "非核心矿业资产，业务混杂，GEM板流动性差，治理风险高"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "高岭土小型生产商，市值不足3亿，市场关注度极低"
+   "ai_adjust": -3,
+   "ai_note": "高岭土小众矿种，市场关注度低，缺乏估值催化"
   },
   {
    "ticker": "1208.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "五矿旗下铜矿主力平台，资产质量尚可，回调属板块联动"
+   "ai_adjust": -1,
+   "ai_note": "五矿资源铜矿运营正常但受铜价波动影响，暂无独立催化"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅5000万的仙股级煤炭公司，壳化风险极高，应直接回避"
+   "ai_adjust": -8,
+   "ai_note": "市值不足五千万，壳股特征显著，历史有配售摊薄记录"
   },
   {
    "ticker": "1051.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "金矿生产商单月跌近18%，过往管理层变动频繁，治理存疑"
+   "ai_note": "金矿资产质量参差，近期大跌反映市场对资产减值担忧"
   },
   {
    "ticker": "2302.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿概念股本月逆势大跌17%，与铀价走强背离，恐有内情"
+   "ai_adjust": -2,
+   "ai_note": "铀矿概念受核能政策驱动但短期无实质业绩兑现"
   },
   {
    "ticker": "2489.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "次新金矿股上市不久，经营记录短，估值锚定尚不充分"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "次新金矿股运营初期，金价高位支撑但需观察产量爬坡"
   },
   {
    "ticker": "1182.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "长期停牌复牌的历史壳股，多次更名转型，基本面极度不可靠"
+   "ai_adjust": -6,
+   "ai_note": "老牌壳股反复转型，金矿业务规模小，治理记录差"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭生产商走势平稳，跌幅温和，暂无突出风险信号"
+   "ai_note": "蒙古煤炭生产商运营稳定，但受中蒙边境政策及煤价影响"
+  },
+  {
+   "ticker": "3636.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "少数逆势上涨标的，铜矿资产受益金价联动，关注产量增长"
   }
  ]
 }
