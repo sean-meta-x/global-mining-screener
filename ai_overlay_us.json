@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T23:36Z",
+ "generated_at": "2026-10-18T23:50Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商无新闻且持续阴跌，警惕隐性稀释。"
+   "ai_note": "微型铀矿勘探股无新闻且股价大跌，需警惕现金消耗与稀释风险。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "多元化勘探股暴跌且零新闻，极可能存在未披露利空。"
+   "ai_note": "名称蹭核能热点且无实质新闻，疑似概念炒作与资金盘，风险极高。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "股价回撤近三成但无新闻，量化未捕捉到基本面恶化。"
+   "ai_adjust": -4,
+   "ai_note": "历史上有过治理与稀释问题，量化模型难以捕捉其管理层信用风险。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂矿中盘股大幅回调且无消息，需防范产能或资金风险。"
+   "ai_adjust": -3,
+   "ai_note": "锂价低迷期且无新进展，中盘生产商标签存疑，需防范估值陷阱。"
   },
   {
    "ticker": "CEXYF",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微型铜矿勘探股流动性差且无催化剂，维持中性观望态度。"
+  },
+  {
+   "ticker": "LODE",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "市值仅一千五百万的铜矿微盘股，流动性枯竭且无新闻。"
+   "ai_note": "公司历史上有严重的过度推销和频繁合股稀释记录，基本面极差。"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "暴涨翻倍却无任何新闻支撑，典型的庄家拉高出货或炒作。"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金勘探股跌超三成且无新闻，可能面临钻探失败或融资。"
+   "ai_note": "无新闻支撑下月内暴涨翻倍，呈现典型的低流动性微盘股拉高出货特征。"
   },
   {
    "ticker": "IONR",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锂矿开发商随板块回调，无异常新闻，基本面暂无大碍。"
+   "ai_adjust": -2,
+   "ai_note": "核心项目面临许可审批延迟且资金需求大，短期缺乏实质性催化剂。"
   },
   {
    "ticker": "SLI",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "标准锂业跌幅较大且无新闻，需关注项目推进与资金消耗。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锂行业处于下行周期，直接提锂技术虽好但需等待行业拐点。"
   },
   {
    "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴西钾肥开发商温和回调，无负面新闻，保持中性观察。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "巴西钾矿项目面临环保许可和融资双重压力，开发进度存在不确定性。"
   },
   {
    "ticker": "LAC",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "锂美洲跌幅超两成且无新闻，警惕项目审批或融资延期。"
+   "ai_note": "核心项目优质但资本开支巨大，未来股权稀释风险较高。"
   },
   {
    "ticker": "CAMZF",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足两千万的微盘股，无新闻且持续下跌，流动性极差。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微型多金属勘探股市值过小且无近期新闻，缺乏短期交易逻辑。"
   },
   {
    "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金生产商跌超两成且无新闻，需排查矿山运营或成本问题。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "纳米比亚矿产公司实际偏早期开发阶段，缺乏明确的短期催化剂。"
   },
   {
    "ticker": "NEXM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "多元化勘探股大跌且无新闻，警惕隐性稀释或探矿受挫。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微型多金属勘探股股价大幅回调且无新闻，需警惕流动性枯竭。"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "石墨开发商跌超三成且无新闻，需关注其融资与项目进度。"
+   "ai_adjust": -4,
+   "ai_note": "石墨开发商面临融资困难和承购协议落地风险，量化模型低估了资金链压力。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "黄金生产商抗跌性较好，仅微跌且无新闻，维持中性评级。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "核心金矿运营稳定且派息良好，近期表现抗跌，具备基本面支撑。"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "认股权证随正股大跌且无新闻，杠杆风险放大，建议规避。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "作为权证工具会放大正股的下行与稀释风险，属于极高风险资产。"
   },
   {
    "ticker": "GLDG",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "黄金勘探股跌超两成且无新闻，需警惕勘探结果不及预期。"
+   "ai_adjust": -5,
+   "ai_note": "长期依赖增发融资维持勘探导致股东权益被严重稀释，量化模型未计入此折价。"
   },
   {
    "ticker": "TMCR",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "金属特许权公司暴跌超半数且无新闻，大概率遭遇重大利空。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金属特许权公司单月暴跌超50%，可能存在未披露的资产减值或治理问题。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "稀土开发商跌幅较大且无新闻，需关注项目融资与审批进度。"
+   "ai_adjust": -5,
+   "ai_note": "稀土开发商资本开支巨大且融资困难，过去常有过度宣传嫌疑需警惕。"
   }
  ]
 }
