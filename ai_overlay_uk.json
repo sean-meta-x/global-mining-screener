@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-17T23:46Z",
+ "generated_at": "2026-10-19T00:00Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
    "ticker": "THX.L",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "塞吉罗拉金矿成本承压，金价高企下股价逆势下跌需警惕运营风险。"
+   "ai_note": "金矿项目推进正常，但开发阶段资本开支与执行风险仍需警惕。"
   },
   {
    "ticker": "POW.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘勘探股流动性极差，无实质新闻支撑，存在估值陷阱风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型铀矿勘探股，流动性极差且存在频繁稀释与 promoter 炒作风险。"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "帕利托金矿近期表现疲软，需防范潜在的运营瓶颈或管理层变动。"
+   "ai_adjust": -5,
+   "ai_note": "巴西帕利托金矿历史治理不佳且成本偏高，短期业绩反转仍需验证。"
   },
   {
    "ticker": "CAML.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "巴尔干地区铜锌矿受地缘政治及当地政策不确定性压制。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中亚金属基本面稳健且分红良好，短期回调主要受大宗商品周期影响。"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "纯物理铀基金，走势紧跟铀价，无额外杠杆或运营风险。"
+   "ai_note": "作为实物铀信托基金无运营风险，股价波动纯粹反映铀价周期变化。"
   },
   {
    "ticker": "AURA.L",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "非洲铀矿地缘风险极高，股价单月暴跌逾两成，存在流动性危机。"
+   "ai_adjust": -9,
+   "ai_note": "毛里塔尼亚铀矿项目长期停滞，公司历史充满稀释与开发失败记录。"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "津巴布韦矿区面临严重通胀与政策治理风险，折价难以消除。"
+   "ai_note": "津巴布韦布兰基特金矿面临较高国家风险，近期运营偶有扰动。"
   },
   {
    "ticker": "RSG.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "非洲资产表现不佳拖累整体业绩，近期重组反映成本压力。"
+   "ai_adjust": -4,
+   "ai_note": "马里Syama金矿运营成本偏高且曾出现运营问题，压制了整体估值。"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "钻石需求疲软致市值暴跌至千万级，债务违约与重组风险极高。"
+   "ai_adjust": -10,
+   "ai_note": "坦桑尼亚矿场停产叠加巨额债务，公司面临严重的股权稀释与生存危机。"
   },
   {
    "ticker": "MET1.L",
    "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "瑞典铁矿勘探阶段微型股，无营收且面临较高的股权稀释风险。"
+  },
+  {
+   "ticker": "JLP.L",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型勘探股缺乏资金储备，无新闻背景下极易遭资金抛弃。"
+   "ai_note": "业务多元但公司架构复杂且常有过度宣传之嫌，需警惕 promoter 风险。"
   },
   {
    "ticker": "SLP.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非铂族金属矿企，受当地电力及罢工风险压制，但抗跌性尚可。"
+   "ai_adjust": 0,
+   "ai_note": "南非PGM生产商基本面扎实，近期股价疲软主要受铂族金属价格下跌拖累。"
   },
   {
-   "ticker": "JLP.L",
+   "ticker": "XTR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "几内亚微型勘探股，流动性枯竭，存在极高的 promoter 操纵与稀释风险。"
+  },
+  {
+   "ticker": "GGP.L",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "唯一正收益标的，多金属组合提供一定缓冲，但市值偏小。"
+   "ai_adjust": 0,
+   "ai_note": "Havieron金铜矿资产优质且由Newmont主导开发，短期无重大负面催化。"
+  },
+  {
+   "ticker": "KEFI.L",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "埃塞俄比亚项目受地缘冲突与许可审批严重拖延，且公司频繁稀释。"
   },
   {
    "ticker": "THS.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南非PGM生产商，股价表现相对抗跌，基本面暂无明显恶化。"
-  },
-  {
-   "ticker": "XTR.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "非洲微型金矿勘探商，资金链脆弱，无新闻印证存在信息盲区。"
-  },
-  {
-   "ticker": "GGP.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "Havieron项目体量巨大，但开发融资进度及合作方博弈压制估值。"
-  },
-  {
-   "ticker": "KEFI.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "埃塞俄比亚及土耳其项目面临严峻的地缘政治与外汇管制风险。"
+   "ai_note": "南非PGM生产商资产负债表健康，当前估值已充分反映铂族金属弱势。"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "非洲微盘多金属勘探股，流动性匮乏，量化模型易高估其溢价。"
+   "ai_adjust": -5,
+   "ai_note": "马里锂矿项目面临军政府政策变动与矿业法修改的严重地缘政治风险。"
   },
   {
    "ticker": "ORR.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型金矿勘探股，市值过小导致机构资金无法介入，流动性折价。"
+   "ai_adjust": -4,
+   "ai_note": "南非微型金矿股流动性差，历史上有频繁折价配股与稀释记录。"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非尾矿回收商，受当地电价上涨及运营成本攀升的长期压制。"
+   "ai_adjust": 0,
+   "ai_note": "南非黄金尾矿处理商现金流稳定，但需关注当地电力与劳工运营风险。"
   },
   {
    "ticker": "AAU.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "土耳其资产受里拉暴跌及当地矿业政策收紧双重打击，风险剧增。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "土耳其金矿受当地高通胀与里拉贬值拖累，实际盈利与估值承压。"
   }
  ]
 }
