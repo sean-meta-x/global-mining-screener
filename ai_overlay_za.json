@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T23:51Z",
+ "generated_at": "2026-10-19T00:03Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿石巨头基本面稳健，无显著隐藏风险。"
+   "ai_note": "大型铁矿石生产商，无重大新闻，基本面稳定。"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史治理问题频发，小市值铬矿商风险偏高。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铬矿生产商，市值较小但无异常波动。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "PGM价格承压但运营相对稳定，中性看待。"
+   "ai_adjust": 0,
+   "ai_note": "铂族金属生产商，近期表现平稳。"
   },
   {
    "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "激进收购伴随稀释风险，无消息面暴涨存疑。"
-  },
-  {
-   "ticker": "SSW.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "高负债叠加PGM低迷，运营挑战被量化模型低估。"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "无利好却月涨17%，疑似炒作拉升需警惕。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "基础金属生产商，月涨幅超10%，或有潜在利好。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微型市值流动性极差，信息不透明风险极高。"
+   "ai_note": "市值极小且月跌近10%，流动性风险高。"
+  },
+  {
+   "ticker": "SSW.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铂族金属巨头，月跌逾9%，行业承压明显。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "关联方交易与治理隐忧，月跌15%反映市场担忧。"
+   "ai_adjust": -4,
+   "ai_note": "多元化矿业龙头，月跌超15%，需警惕下行趋势。"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "彩色宝石及PGM生产商，月涨17%，势头强劲。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "矿山运营问题频出，PGM行业逆风被低估。"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "管理良好成本控制优，行业逆风中相对稳健。"
+   "ai_note": "铂族金属主要生产商，月跌近20%，行业低迷。"
   },
   {
    "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭龙头分红丰厚，ESG压力已被充分定价。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭巨头，月跌逾12%，能源转型压力持续。"
   },
   {
-   "ticker": "EPS.JO",
+   "ticker": "NPH.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小型PGM生产商规模有限，抗风险能力弱。"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锡矿基本面扎实，刚果金管辖风险可控。"
+   "ai_note": "铂族金属中型生产商，月跌超15%，基本面趋弱。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金巨头资产优质，回调属正常波动。"
+   "ai_adjust": -1,
+   "ai_note": "黄金主要生产商，月跌10%，受金价波动影响。"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "锡矿中型生产商，月涨近5%，或有需求支撑。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "成本偏高但黄金敞口好，小幅调整合理。"
+   "ai_note": "黄金中型生产商，月跌10%，跟随金价调整。"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "铂族金属小市值生产商，月跌近10%，流动性差。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型煤炭股流动性枯竭，信息极度不透明。"
+   "ai_adjust": -5,
+   "ai_note": "煤炭小市值生产商，市值不足5亿，风险较高。"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金生产商运营稳定，估值合理无明显风险。"
+   "ai_note": "黄金生产商，月跌不足2%，表现相对抗跌。"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "勘探阶段公司，市值极小，月涨36%或为炒作。"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "PGM板块整体承压，大市值亦难避行业下行。"
-  },
-  {
-   "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微型勘探股无消息暴涨35%，典型炒作特征。"
+   "ai_note": "铂族金属主要生产商，月跌12%，行业整体承压。"
   },
   {
    "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "高负债煤炭企业，行业长期衰退风险被低估。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭主要生产商，月涨2.4%，基本面尚可。"
   }
  ]
 }
