@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-19T00:26Z",
+ "generated_at": "2026-10-20T01:26Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "量化分最高但铝价承压，无明确催化剂"
-  },
-  {
-   "ticker": "002497.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂盐价格持续下行，业绩承压明显"
+   "ai_note": "历史控制权纠纷频发，治理结构存隐患"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企铝业龙头，估值合理但缺乏弹性"
+   "ai_note": "央企背景稳健但效率偏低，无突出催化"
+  },
+  {
+   "ticker": "002497.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌幅超两成且无利好，诉讼风险待察"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "绿电铝有溢价优势，基本面尚可"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "跌幅较大，治理结构需关注"
-  },
-  {
-   "ticker": "002101.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝压铸零部件企业，表现相对抗跌"
+   "ai_note": "绿电铝成本优势明显，估值合理可持有"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "电池铝箔需求受锂电下行拖累"
+   "ai_note": "跌幅显著，可转债及扩产融资压力较大"
+  },
+  {
+   "ticker": "002532.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "借壳上市遗留关联交易需持续关注"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "资产重组推进中，煤电铝协同改善盈利"
+  },
+  {
+   "ticker": "002101.SZ",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤铝双主业对冲风险，表现中规中矩"
+   "ai_note": "小市值铝压铸企业，流动性一般无亮点"
   },
   {
    "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史治理问题较多，基本面偏弱"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "前高管涉贪腐案件，治理风险为重大红旗"
   },
   {
    "ticker": "601677.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝板带箔龙头，经营稳健"
-  },
-  {
-   "ticker": "002379.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "单月暴跌28%，需警惕基本面恶化"
+   "ai_adjust": 1,
+   "ai_note": "铝板带龙头经营稳健，治理较规范"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 1,
-   "ai_note": "航空铝材布局领先，治理较好"
+   "ai_note": "全产业链布局完整，民企治理相对良好"
   },
   {
    "ticker": "600157.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "曾发生债券违约，债务重组后信用仍弱"
+  },
+  {
+   "ticker": "002379.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "历史债务问题未完全解决"
+   "ai_note": "月跌逾两成，母公司债务压力传导风险"
   },
   {
    "ticker": "000792.SZ",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "钾肥稳定但锂业务拖累整体"
+   "ai_note": "锂价下行周期承压，但盐湖资源壁垒高"
   },
   {
    "ticker": "002466.SZ",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "高杠杆叠加锂价暴跌风险极大"
+   "ai_note": "SQM收购遗留高杠杆，财务风险需警惕"
   },
   {
-   "ticker": "600546.SS",
+   "ticker": "600740.SS",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "高股息煤炭股，防御性较好"
-  },
-  {
-   "ticker": "301219.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "钴价低迷叠加次新股波动风险"
+   "ai_adjust": 0,
+   "ai_note": "焦化业务平稳，无突出风险与催化"
   },
   {
    "ticker": "600961.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "跌幅超20%，经营存不确定性"
+   "ai_note": "大跌且环保合规压力较大，需保持谨慎"
+  },
+  {
+   "ticker": "600338.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "阿根廷锂项目延期受阻，海外治理堪忧"
+  },
+  {
+   "ticker": "603993.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "海外资产优质但地缘风险高，估值合理"
   },
   {
    "ticker": "600361.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "借壳转型后治理仍需观察"
-  },
-  {
-   "ticker": "002738.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "单月暴跌近28%，锂矿开发风险集中释放"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝加工业务平稳，无显著风险或催化"
   }
  ]
 }
