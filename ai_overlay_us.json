@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T23:50Z",
+ "generated_at": "2026-10-20T00:49Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股无新闻且股价大跌，需警惕现金消耗与稀释风险。"
+   "ai_note": "微型铀矿勘探商，无新闻且跌幅大，稀释风险高"
   },
   {
    "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "名称蹭核能热点且无实质新闻，疑似概念炒作与资金盘，风险极高。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型核矿勘探商，无消息且暴跌，警惕炒作退潮"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史上有过治理与稀释问题，量化模型难以捕捉其管理层信用风险。"
+   "ai_adjust": -2,
+   "ai_note": "有推广历史，勘探阶段无收入，稀释风险持续"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂价低迷期且无新进展，中盘生产商标签存疑，需防范估值陷阱。"
+   "ai_note": "号称中型生产商却暴跌39%无新闻，数据存疑"
   },
   {
    "ticker": "CEXYF",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型铜矿勘探股流动性差且无催化剂，维持中性观望态度。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型铜矿勘探商，流动性差，稀释风险极高"
   },
   {
    "ticker": "LODE",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "公司历史上有严重的过度推销和频繁合股稀释记录，基本面极差。"
+   "ai_adjust": -5,
+   "ai_note": "Comstock有推广和治理劣迹，暴跌无新闻支撑"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "无新闻支撑下月内暴涨翻倍，呈现典型的低流动性微盘股拉高出货特征。"
+   "ai_note": "月涨101%却无任何新闻，典型拉高出货特征"
   },
   {
    "ticker": "IONR",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "核心项目面临许可审批延迟且资金需求大，短期缺乏实质性催化剂。"
+   "ai_note": "锂开发商面临许可风险和行业逆风"
   },
   {
    "ticker": "SLI",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锂行业处于下行周期，直接提锂技术虽好但需等待行业拐点。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "失去Lanxess合作，DLE技术商业化存疑"
   },
   {
    "ticker": "GRO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "巴西钾矿项目面临环保许可和融资双重压力，开发进度存在不确定性。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "巴西钾矿开发商，融资有挑战但项目有战略价值"
   },
   {
    "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "核心项目优质但资本开支巨大，未来股权稀释风险较高。"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型多金属勘探股市值过小且无近期新闻，缺乏短期交易逻辑。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "债务沉重且有多次稀释历史，现金流压力大"
   },
   {
    "ticker": "NAMM",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "纳米比亚矿产公司实际偏早期开发阶段，缺乏明确的短期催化剂。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "号称生产商却大跌且无新闻，体量过小存疑"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型多元勘探商，流动性差稀释风险高"
   },
   {
    "ticker": "NEXM",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型多金属勘探股股价大幅回调且无新闻，需警惕流动性枯竭。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌36%无新闻，勘探阶段资金消耗风险大"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "石墨开发商面临融资困难和承购协议落地风险，量化模型低估了资金链压力。"
+   "ai_adjust": -3,
+   "ai_note": "石墨开发商有稀释历史，行业逆风持续"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "核心金矿运营稳定且派息良好，近期表现抗跌，具备基本面支撑。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "实际黄金生产商表现稳健，津巴布韦国别风险"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "作为权证工具会放大正股的下行与稀释风险，属于极高风险资产。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "权证放大NAMM所有风险，流动性更差"
   },
   {
    "ticker": "GLDG",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "长期依赖增发融资维持勘探导致股东权益被严重稀释，量化模型未计入此折价。"
-  },
-  {
-   "ticker": "TMCR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金属特许权公司单月暴跌超50%，可能存在未披露的资产减值或治理问题。"
+   "ai_adjust": -2,
+   "ai_note": "黄金勘探商有稀释融资历史，勘探风险高"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "稀土开发商资本开支巨大且融资困难，过去常有过度宣传嫌疑需警惕。"
+   "ai_adjust": -3,
+   "ai_note": "稀土开发商周期长融资难，有推广痕迹"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭生产商相对稳定，ESG逆风是结构性问题"
   }
  ]
 }
