@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-19T00:47Z",
+ "generated_at": "2026-10-20T01:49Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型市值勘探商，一月跌20%且零新闻，疑遭稀释或缺乏催化剂"
+   "ai_adjust": -3,
+   "ai_note": "微型矿企跌25%无消息，存在稀释风险"
   },
   {
    "ticker": "CPAU.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值不足1100万，暴跌25%无消息面支撑，流动性风险极高"
+   "ai_adjust": -3,
+   "ai_note": "市值仅千万且大跌25%，流动性差稀释风险高"
   },
   {
    "ticker": "ENDR.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型金矿勘探商，跌15%无新闻，量化分高但缺乏实质催化"
+   "ai_adjust": -2,
+   "ai_note": "微型勘探公司跌19%无新闻催化，需警惕"
   },
   {
    "ticker": "MMY.V",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值2.6亿相对较大但跌23%无新闻，需关注运营层面隐忧"
+   "ai_note": "市值2.6亿却标为勘探商，分类存疑且跌24%"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值不足2000万，跌近28%零消息，疑似融资稀释或钻探失利"
+   "ai_adjust": -3,
+   "ai_note": "微型金矿股暴跌32%无任何消息，高度警惕"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "neutral",
-   "ai_adjust": -3,
-   "ai_note": "开发商阶段但一月跌25%无任何新闻，市场情绪极度悲观"
+   "ai_adjust": -1,
+   "ai_note": "中型锂开发商，跌幅或为板块联动所致"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "生产商仅跌4.8%表现最稳，但零新闻流仍需保持警惕"
+   "ai_adjust": 0,
+   "ai_note": "黄金生产商，跌幅温和，基本面尚可"
   },
   {
-   "ticker": "V.V",
+   "ticker": "AVL.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀矿微型勘探商跌14%无消息，板块虽热但个股缺乏催化"
+   "ai_adjust": -2,
+   "ai_note": "知名勘探商但月跌31%无消息，需关注融资"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
-   "ai_adjust": -3,
-   "ai_note": "市值近7亿为最大标的，跌16%无新闻，需排查治理或许可风险"
+   "ai_adjust": 0,
+   "ai_note": "实际为黄金生产商，大市值跌幅合理"
   },
   {
-   "ticker": "VIO.V",
+   "ticker": "MANU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "铀矿公司却被标为金矿勘探，分类错误且暴跌35%"
+  },
+  {
+   "ticker": "V.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "跌10%无新闻，市值偏小，勘探阶段无消息流属负面信号"
+   "ai_note": "微型铀矿勘探商跌22%无消息，融资风险大"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴跌近29%且零新闻，微型铀矿勘探商极可能遭遇配股稀释"
+   "ai_adjust": -5,
+   "ai_note": "铀矿公司标为金矿勘探，分类异常且跌26%"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铜矿微型勘探商跌17%无消息，CNSX上市流动性存疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "名称缩写可疑，CN板微盘股跌16%需警惕"
   },
   {
-   "ticker": "GPAC.V",
+   "ticker": "SBI.TO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "正规黄金生产商，大市值跌幅在合理范围"
+  },
+  {
+   "ticker": "FAT.CN",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "开发商暴跌33%零新闻，市值仅2600万，高度疑似融资或钻探失败"
+   "ai_note": "名称可疑且暴跌41%，疑似壳公司或庄股"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "月跌幅仅5%为最小，走势相对稳健"
   },
   {
    "ticker": "EMET.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "一月暴跌46%为最差表现，市值不足1100万，极高风险警示"
+   "ai_adjust": -7,
+   "ai_note": "名称可疑且暴跌50%，极高风险标的"
   },
   {
    "ticker": "IRV.CN",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "CNSX上市微型金矿勘探商，跌10%无新闻，流动性风险突出"
-  },
-  {
-   "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "多元微型勘探商跌14%零消息，市值仅1400万稀释风险高"
+   "ai_note": "CN板缩写名称可疑，跌10%需关注治理"
   },
   {
    "ticker": "SR.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值不足1100万跌24%无新闻，微型壳公司特征明显"
-  },
-  {
-   "ticker": "SBI.TO",
-   "ai_view": "neutral",
    "ai_adjust": -3,
-   "ai_note": "金矿生产商市值3.3亿跌13%，无新闻但生产端或存隐忧"
+   "ai_note": "市值仅千万跌28%，微型股流动性风险极高"
   },
   {
-   "ticker": "API.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "稀土铀矿勘探商暴跌36%零消息，CNSX上市叠加微型市值极危险"
-  },
-  {
-   "ticker": "TITI.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴跌32%无任何新闻，微型多元勘探商高度疑似配股或项目受阻"
+   "ticker": "NAM.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "已知PGE勘探商，跌幅温和属板块调整"
   }
  ]
 }
