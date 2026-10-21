@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-20T01:15Z",
+ "generated_at": "2026-10-21T00:45Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "1303.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近28%无消息，小盘煤企流动性存疑"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非金矿勘探商，稀释与钻探失败风险高"
-  },
-  {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中铝大型国企，铝价周期下行拖累"
+   "ticker": "0166.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "频繁配售摊薄股权，公司治理存疑，警惕老千股特征。"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中国白银关联交易频繁，治理风险需警惕"
+   "ai_adjust": -5,
+   "ai_note": "历史上有激进融资及关联交易记录，存在股权摊薄风险。"
   },
   {
    "ticker": "1378.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "宏桥集团铝龙头，基本面稳健"
+   "ai_adjust": -2,
+   "ai_note": "宏桥作为铝业龙头基本面尚可，但需关注高负债及宏观周期。"
   },
   {
-   "ticker": "0166.HK",
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中铝为大型国企，受政策及宏观影响大，估值修复受限。"
+  },
+  {
+   "ticker": "0621.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "新时代公司历史上多次转型壳股特征明显"
+   "ai_adjust": -10,
+   "ai_note": "典型仙股，长期缺乏实质业务且频繁供股摊薄，流动性极差。"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小型金矿股，流动性不足且易受金价波动及单一矿山风险影响。"
+  },
+  {
+   "ticker": "2078.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值微小且流动性匮乏，基本面缺乏透明度，存在边缘化风险。"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "兴发铝业受行业周期回落影响"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金龙矿业跌幅温和，金矿生产稳定"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南南资源市值仅一亿，流动性风险大"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "IRC历史债务问题严重，铁矿业绩承压"
-  },
-  {
-   "ticker": "8095.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "北大青鸟非纯矿业，业务分散"
-  },
-  {
-   "ticker": "2693.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "金岩高岭土小盘多元业务缺乏聚焦"
-  },
-  {
-   "ticker": "1208.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "五矿资源铜业龙头，铜价回调所致"
-  },
-  {
-   "ticker": "8203.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "凯顺控股市值不足五千万，壳股风险极高"
+   "ai_note": "兴发铝业基本面相对稳健，但市值较小，缺乏显著催化剂。"
   },
   {
    "ticker": "1051.HK",
    "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "业务频繁变更，历史上有摊薄及资金炒作痕迹，需谨慎。"
+  },
+  {
+   "ticker": "3636.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值铜矿股，流动性差且信息披露透明度有待提高。"
+  },
+  {
+   "ticker": "1208.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "五矿资源资产优质，但海外矿山面临地缘及社区停产风险。"
+  },
+  {
+   "ticker": "2693.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值极小且流动性枯竭，基本面不透明，存在壳股特征。"
+  },
+  {
+   "ticker": "8095.HK",
+   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "G-Resources历史上多次配股稀释严重"
+   "ai_note": "原为教育科技股，转型后主业模糊，市值小且缺乏流动性。"
+  },
+  {
+   "ticker": "8203.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "典型微盘煤炭股，历史上多次合股及配售，严重摊薄股东权益。"
   },
   {
    "ticker": "2302.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中核国际铀矿业务受政策及价格波动大"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中核国际背靠国企，但铀矿业务规模小，股价受限于流动性。"
+  },
+  {
+   "ticker": "1898.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中煤能源为大型国企，盈利稳定但受煤炭政策限价及周期压制。"
   },
   {
    "ticker": "2489.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "济海金矿跌幅可控，暂无明显催化剂"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "次新金矿股，需关注实际产能兑现及是否存在 promoter 溢价。"
   },
   {
    "ticker": "1182.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "胜龙国际历来壳股炒作特征，治理堪忧"
+   "ai_adjust": -10,
+   "ai_note": "老牌壳股，频繁重组且主业涣散，治理结构极差，坚决规避。"
   },
   {
    "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "易大宗煤炭业务平稳，跌幅温和"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "易大宗曾经历债务重组，虽有煤炭产能但需关注其资产负债表。"
   },
   {
-   "ticker": "3636.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锦鑫资源逆势微涨，但缺乏实质催化"
+   "ticker": "1029.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "IRC曾经历严重债务危机，虽完成重组但铁矿石业务盈利能力弱。"
   }
  ]
 }
