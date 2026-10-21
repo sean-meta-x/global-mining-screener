@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-20T01:09Z",
+ "generated_at": "2026-10-21T00:39Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股单月暴跌超30%且无任何新闻，存在流动性陷阱或内部人抛售风险"
-  },
-  {
-   "ticker": "MYOH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘煤矿股跌幅显著且零信息覆盖，治理透明度存疑"
+   "ai_adjust": -4,
+   "ai_note": "小市值煤炭股暴跌无消息，疑似庄家出货"
   },
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值仅约十亿美元且无新闻，多元化标签模糊，警惕壳公司风险"
-  },
-  {
-   "ticker": "UNIQ.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅约两亿美元微型股，暴跌且零曝光，高度疑似庄家出货"
+   "ai_note": "小市值多元化矿企持续下跌，流动性堪忧"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足一亿美元，单月暴跌36%无任何公告，典型仙股崩盘特征"
+   "ai_adjust": -8,
+   "ai_note": "微型市值煤炭股暴跌近四成，典型庄股崩盘特征"
   },
   {
-   "ticker": "TINS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "国有锡业龙头，跌幅受锡价周期影响，治理风险相对可控"
+   "ticker": "UNIQ.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型煤炭股缩量阴跌，基本面存疑"
+  },
+  {
+   "ticker": "MYOH.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值煤炭生产商跌幅明显，需警惕治理风险"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Astra集团旗下大型矿机公司，跌幅最小，基本面稳健"
+   "ai_adjust": 2,
+   "ai_note": "阿斯特朗集团旗下优质矿企，治理良好估值合理"
+  },
+  {
+   "ticker": "DKFT.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中型矿企温和下跌，无明确催化剂支撑"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中型煤企单月跌27%无新闻，需关注是否存在未披露的融资或诉讼"
+   "ai_adjust": -4,
+   "ai_note": "中型煤炭股大幅回调，行业逆风明显"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值多元化矿企跌幅较大且无信息，业务透明度不足"
+   "ai_note": "小市值矿企持续走弱，信息透明度低"
   },
   {
-   "ticker": "DKFT.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值尚可跌幅温和，但零新闻覆盖仍需保持警惕"
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿股在金价牛市逆势下跌，运营或有问题"
+  },
+  {
+   "ticker": "TOBA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "中型煤炭股暴跌逾三成，可能存在未披露风险"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "国有锡业巨头大幅下挫，锡价疲软叠加治理隐忧"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "ABM Investama为知名矿服企业，跌幅在合理范围内"
+   "ai_note": "中型煤炭股温和调整，暂无重大异常"
   },
   {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型镍企受镍价低迷拖累，市值大治理相对规范"
-  },
-  {
-   "ticker": "TOBA.JK",
+   "ticker": "RMKO.JK",
    "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型煤炭股暴跌超四成，流动性极差疑似崩盘"
+  },
+  {
+   "ticker": "DEWA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "中型煤炭股跌幅近三成，需关注债务与合规风险"
+  },
+  {
+   "ticker": "NICL.JK",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "单月暴跌38%无任何公告，小市值煤企高度疑似内幕交易或资金出逃"
+   "ai_note": "锡矿股暴跌近四成，基本面或出现重大恶化"
+  },
+  {
+   "ticker": "MBMA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "电池材料大盘股大跌，镍价低迷拖累业绩预期"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "跌幅仅4.4%为全场最小，大市值煤炭物流龙头表现相对抗跌"
+   "ai_note": "大型煤炭生产商表现相对稳定，暂无明显异常"
   },
   {
-   "ticker": "RMKE.JK",
+   "ticker": "NCKL.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤矿股暴跌近30%且零信息，治理与流动性风险高"
-  },
-  {
-   "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足两亿美元，单月暴跌44%无公告，典型微盘股崩盘信号"
-  },
-  {
-   "ticker": "DEWA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中型煤企跌幅超三分之一且无新闻，需排查是否有隐性稀释或诉讼"
+   "ai_note": "镍业龙头随镍价走弱回调，短期承压"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤矿承包商单月跌31%零曝光，警惕应收账款坏账风险"
-  },
-  {
-   "ticker": "KKGI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘煤企跌幅中等但无新闻覆盖，信息不对称风险存在"
-  },
-  {
-   "ticker": "NICL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "锡矿股单月暴跌42%无任何公告，市值偏小，高度疑似操纵后崩盘"
+   "ai_adjust": -4,
+   "ai_note": "小市值煤炭股跌幅超两成，治理与流动性风险高"
   }
  ]
 }
