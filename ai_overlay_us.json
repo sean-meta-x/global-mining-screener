@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-21T00:19Z",
+ "generated_at": "2026-10-22T00:24Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微市值铀矿无新闻暴跌，警惕隐性稀释或流动性枯竭。"
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探商，无新闻且股价大跌，警惕现金流断裂与稀释风险。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "一月腰斩且无公告，极大概率存在未披露的稀释或钻探失败。"
+   "ai_note": "名称带有核能概念，疑似炒作微盘股，缺乏实质资产支撑，极度危险。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "跌幅偏离大盘且无消息，需防范管理层私下增发或项目受阻。"
+   "ai_adjust": -4,
+   "ai_note": "铀与石墨项目推进缓慢，历史上有过稀释记录，需防范融资摊薄。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂矿生产商重挫，警惕成本超支或产量不及预期等基本面恶化。"
+   "ai_adjust": -3,
+   "ai_note": "锂矿生产商但缺乏近期消息，股价大幅回撤，基本面或存隐性瑕疵。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "极小市值铜矿流动性差，无量阴跌需防范隐性融资或权证行权。"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "金价强势下逆势大跌，公司治理或资产质量存疑，需避开价值陷阱。"
+   "ai_note": "市值仅一千四百万的铜矿勘探商，流动性极差，存在极高稀释风险。"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "无新闻支撑的短期翻倍属典型炒作，量化动量指标失效，谨防杀猪盘。"
+   "ai_adjust": -7,
+   "ai_note": "格陵兰岛PGM项目面临极高的ESG阻力与社区许可风险，推进艰难。"
   },
   {
    "ticker": "IONR",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "锂板块整体承压，项目处于开发期需关注后续资本开支与审批风险。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钾矿开发周期长，短期回调属正常波动，关注产能扩建进度。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "锂硼项目受困于美国联邦土地许可审批延迟，短期缺乏催化剂。"
   },
   {
    "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "宏观锂价疲软拖累，大型项目开发期估值承压，等待美联储降息催化。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "巨型锂矿开发面临持续的环保诉讼与高昂资本开支，估值承压。"
+  },
+  {
+   "ticker": "LODE",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "公司架构复杂且常有 promoter 活动痕迹，需警惕隐性稀释与治理风险。"
   },
   {
    "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "小型金矿生产商逆势重挫，需排查矿山品位下降或社区罢工风险。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "纳米比亚小型金矿生产商，缺乏新闻且流动性一般，维持中性观察。"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "借壳上市以来面临资源量估算质疑与治理争议，存在较高下行风险。"
+  },
+  {
+   "ticker": "NC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭生产商基本面尚可，但受限于化石能源行业的长期结构性衰退。"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微市值勘探股流动性匮乏，量化高分易受资金操纵，建议观望。"
-  },
-  {
-   "ticker": "NEXM",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "跌幅显著且无公告，警惕探矿权续期受阻或核心技术人员流失。"
-  },
-  {
-   "ticker": "NMG",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "石墨需求受电动车增速放缓影响，开发商面临较大的融资与去库压力。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "权证受正股拖累且具时间价值损耗，流动性折价属合理现象。"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "金价高位震荡，勘探股回调属正常洗盘，关注后续钻探结果验证。"
+   "ai_note": "微型多金属勘探股，无实质进展且市值过低，极易受资金面冲击。"
   },
   {
    "ticker": "CMCL",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金价强势期表现稳健，产量与成本控制良好，无明显治理瑕疵。"
+   "ai_note": "津巴布韦金矿运营稳健且具分红能力，近期抗跌，基本面相对扎实。"
   },
   {
-   "ticker": "NC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭周期下行且面临ESG折价，估值受压但现金流尚可，维持中性。"
+   "ticker": "NMG",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "魁北克石墨项目面临电池材料需求放缓与项目融资双重压力。"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂价低迷叠加DLE技术商业化不确定性，项目推进面临资金瓶颈。"
+   "ai_note": "直接提锂技术资本开支巨大，技术商业化与融资稀释风险高。"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "作为金矿公司的认股权证，杠杆风险更高，且正股缺乏上涨动能。"
+  },
+  {
+   "ticker": "NEXM",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "多元化勘探初期阶段，无新闻披露，需警惕早期勘探失败及稀释。"
   },
   {
    "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "稀土项目资本开支巨大且审批繁琐，需警惕长期融资稀释风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "稀土项目长期依赖概念炒作，屡次融资失败且股本严重稀释，极度危险。"
+  },
+  {
+   "ticker": "AREC",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "煤炭与稀土概念混杂，历史上有过频繁反向拆股与 promoter 炒作痕迹。"
   }
  ]
 }
