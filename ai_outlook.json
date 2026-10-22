@@ -1,66 +1,66 @@
 {
- "generated_at": "2026-10-21T00:03Z",
+ "generated_at": "2026-10-22T00:08Z",
  "model": "qwen3.7-plus",
  "outlook": {
   "Gold": {
    "multiplier": 1.15,
-   "note": "Central bank buying and macro hedging drive safe-haven demand."
+   "note": "Central bank buying and expected rate cuts support upside"
   },
   "Silver": {
    "multiplier": 1.05,
-   "note": "Industrial solar demand offsets slight precious metal pullback."
+   "note": "Industrial demand softness offsets precious metal tailwinds"
   },
   "Copper": {
    "multiplier": 1.2,
-   "note": "Structural supply deficits align with accelerating electrification demand."
+   "note": "Tight concentrates market and robust electrification demand"
   },
   "Uranium": {
    "multiplier": 1.25,
-   "note": "Nuclear renaissance and primary supply deficits support strong price momentum."
+   "note": "Structural supply deficit amid rising global nuclear power demand"
   },
   "Lithium": {
-   "multiplier": 0.95,
-   "note": "Near-term oversupply and battery chemistry shifts weigh on margins."
+   "multiplier": 0.85,
+   "note": "Persistent oversupply from new global capacity additions"
   },
   "Nickel": {
-   "multiplier": 0.85,
-   "note": "Indonesian supply surge and LFP battery substitution pressure prices."
+   "multiplier": 0.8,
+   "note": "Massive Indonesian supply growth pressures prices"
   },
   "Zinc": {
    "multiplier": 1.1,
-   "note": "Tight concentrate markets and smelter treatment charge cuts support prices."
+   "note": "Smelter treatment charges hit record lows indicating tight supply"
   },
   "Iron Ore": {
    "multiplier": 0.95,
-   "note": "Chinese property sector weakness offsets resilient steelmaking demand."
+   "note": "Weak Chinese property sector offsets resilient steelmaking demand"
   },
   "Coal": {
    "multiplier": 1.0,
-   "note": "Thermal demand peak balances against tight seaborne met coal supply."
+   "note": "Balanced seaborne market with steady Asian power demand"
   },
   "Rare Earths": {
-   "multiplier": 1.1,
-   "note": "Strategic export controls and EV motor demand tighten supply."
+   "multiplier": 1.0,
+   "note": "Geopolitical supply risks balanced by soft permanent magnet demand"
   },
   "Manganese": {
-   "multiplier": 1.0,
-   "note": "Steady steel alloy demand balances with ample South African supply."
+   "multiplier": 1.05,
+   "note": "Logistical constraints in South Africa tighten seaborne supply"
   },
   "PGM": {
-   "multiplier": 1.05,
-   "note": "Hydrogen economy potential offsets near-term auto production headwinds."
+   "multiplier": 0.9,
+   "note": "Slowing global auto production and high recycling rates pressure prices"
   },
   "Potash": {
-   "multiplier": 1.1,
-   "note": "Geopolitical supply risks and global food security needs support pricing."
+   "multiplier": 0.95,
+   "note": "Recovering global supply chains ease previous fertilizer shortages"
   },
   "Aluminum": {
-   "multiplier": 1.15,
-   "note": "Chinese production caps and green transition drive structural deficit."
+   "multiplier": 1.1,
+   "note": "Strict Chinese production caps limit supply growth amid green demand"
   },
   "Diversified": {
    "multiplier": 1.05,
-   "note": "Broad exposure to copper and gold offsets iron ore and coal weakness."
+   "note": "Diversified earnings benefit from mixed but generally resilient commodity cycles"
   }
  }
 }
