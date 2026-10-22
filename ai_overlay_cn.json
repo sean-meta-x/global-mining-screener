@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T00:56Z",
+ "generated_at": "2026-10-22T01:02Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "000612.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "量化评分尚可，无异常新闻，维持中性判断。"
+   "ai_note": "量化评分领先同行，无异常信号，维持中性"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌幅近19%无新闻解释，锂业波动大需警惕隐性风险。"
+   "ai_adjust": -3,
+   "ai_note": "月跌21%远超同行，锂盐业务承压且无消息对冲"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企铝龙头，经营稳健，无显著风险信号。"
+   "ai_note": "央企龙头，波动温和，无额外风险暴露"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铝企基本面稳定，月跌幅温和，中性看待。"
+   "ai_note": "煤电铝一体化对冲周期，表现平稳"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "水电铝绿色优势明显，基本面略优于同行。"
+   "ai_adjust": 0,
+   "ai_note": "绿电铝概念支撑，跌幅属行业正常波动"
   },
   {
    "ticker": "603876.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "月跌19.4%无任何公告解释，疑似隐性利空或庄股崩塌。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌23%为全场最大，铝箔加工利润受挤压"
+  },
+  {
+   "ticker": "601677.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月跌11%偏大，中小市值铝加工抗风险能力弱"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "月跌超13%且无新闻，需关注是否有未披露风险。"
+   "ai_note": "月跌13.5%显著，新疆产能外运成本隐忧"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "小市值铝加工企，月跌幅仅0.5%，走势相对平稳。"
-  },
-  {
-   "ticker": "601677.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝板带加工龙头，经营正常，跌幅属行业正常波动。"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史上有财务困难记录，月跌10%需保持谨慎。"
+   "ai_note": "月仅跌2%相对抗跌，铝压铸业务稳健"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤企经营平稳，月跌幅较小，中性看待。"
-  },
-  {
-   "ticker": "603993.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌超20%，海外资产风险及治理问题需重点关注。"
-  },
-  {
-   "ticker": "600219.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝产业链一体化布局，经营稳健，无显著异常。"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "曾有债务重组历史，信用风险仍需持续关注。"
-  },
-  {
-   "ticker": "002379.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月暴跌21.3%无任何新闻，高度疑似治理或资金链问题。"
+   "ai_note": "山西煤企估值合理，无额外治理风险"
   },
   {
    "ticker": "000792.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "曾经历破产重整，治理历史存瑕疵，略偏谨慎。"
+   "ai_note": "锂价持续低迷，盐湖提锂成本优势收窄"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中孚实业历史盈利波动大，资产负债率偏高"
   },
   {
    "ticker": "002466.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "天齐锂业背负巨额并购债务，治理与偿债风险突出"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "南山铝业产业链完整，跌幅属板块联动"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "唯一正收益煤企，晋能重组后经营改善"
+  },
+  {
+   "ticker": "600157.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "收购SQM背负高债务，锂价下行期财务压力较大。"
+   "ai_note": "永泰能源曾有债务违约前科，治理信用存疑"
+  },
+  {
+   "ticker": "603993.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌21%异常，铜钴价格回调叠加海外资产风险"
   },
   {
    "ticker": "600740.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "焦化行业正常波动，无特殊风险信号。"
+   "ai_note": "焦化板块跟随煤价波动，无独立利空"
   },
   {
-   "ticker": "600961.SS",
+   "ticker": "002379.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌17.7%幅度较大，需关注是否有隐性问题。"
+   "ai_adjust": -3,
+   "ai_note": "全球最大铝企月跌近20%，需关注产能过剩风险"
   },
   {
-   "ticker": "600361.SS",
+   "ticker": "000983.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "月跌幅温和，无异常新闻，维持中性判断。"
+   "ai_note": "西山煤电经营稳健，跌幅在行业正常范围"
   }
  ]
 }
