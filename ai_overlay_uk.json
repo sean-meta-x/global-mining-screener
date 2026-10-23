@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T00:34Z",
+ "generated_at": "2026-10-23T00:32Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "THX.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "开发者阶段无近期催化，高量化分与-21%月回报背离，警惕融资稀释"
+   "ai_note": "高量化分但大跌，开发者执行风险高，西非政策不稳"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小市值金矿生产商缺乏新闻覆盖，流动性与治理透明度存疑"
+   "ai_note": "巴西运营监管环保风险，表现明显弱于量化评分"
   },
   {
    "ticker": "POW.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "千万级市值勘探公司，无新闻无收入，稀释风险极高"
-  },
-  {
-   "ticker": "CAML.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中亚产区地缘与运营风险被量化分低估，月跌15.5%信号负面"
+   "ai_adjust": -4,
+   "ai_note": "微型勘探股无消息面，稀释和流动性风险高"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀实物信托大市值，结构透明，月跌幅温和，暂无明显风险"
+   "ai_note": "铀现货投资工具，基本面相对稳定"
+  },
+  {
+   "ticker": "CAML.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "保加利亚环保许可风险，表现明显弱于量化评分"
   },
   {
    "ticker": "AURA.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "小市值铀勘探股月跌逾30%，无新闻支撑，疑似融资或项目受挫"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀勘探微型股大幅下跌无消息，资金链存疑"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦矿区治理与汇兑风险长期压制估值，量化模型难捕捉"
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦政治和汇率风险极高"
   },
   {
    "ticker": "PDL.L",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月跌57%至千万市值，钻石生产商面临债务或稀释危机，极度危险"
-  },
-  {
-   "ticker": "JLP.L",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "唯一正月回报，多元化生产商动量向好，但市值偏小需观察"
+   "ai_adjust": -10,
+   "ai_note": "暴跌51%无任何消息，严重财务困境或退市风险"
   },
   {
    "ticker": "GGP.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大市值开发商Havieron项目有Newmont背书，但月跌13%缺乏催化"
+   "ai_adjust": 0,
+   "ai_note": "大市值开发商，Havieron项目正常推进中"
   },
   {
    "ticker": "RSG.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "中型金矿商月跌11%，非洲运营风险与成本压力量化分未充分体现"
+   "ai_note": "马里安全风险上升，西非运营压力增大"
+  },
+  {
+   "ticker": "JLP.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "正回报表现尚可，南非运营相对稳定"
   },
   {
    "ticker": "SLP.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铂族金属板块持续疲软，南非电力与政策风险被模型低估"
-  },
-  {
-   "ticker": "TIN.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌41%至七千万市值，锡铜开发商资金链承压，稀释概率大"
-  },
-  {
-   "ticker": "MET1.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "千万级市值勘探公司，项目早期无收入，持续融资稀释风险高"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "PGM价格疲软拖累，南非运营风险可控"
   },
   {
    "ticker": "THS.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铂族金属生产商月跌仅2.6%，表现相对稳健，但板块逆风持续"
+   "ai_note": "南非PGM生产商，表现相对稳定"
   },
   {
    "ticker": "KEFI.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "埃塞俄比亚与土耳其双矿区治理风险高，开发商阶段资金需求大"
+   "ai_note": "埃塞俄比亚政治安全风险较高"
   },
   {
-   "ticker": "EMH.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌近40%至千万市值，锂矿勘探商融资环境恶化，红旗信号"
+   "ticker": "MET1.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型勘探股流动性差，消息面空白"
+  },
+  {
+   "ticker": "RMR.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型勘探股推广风险高，无实质进展"
   },
   {
    "ticker": "KAV.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值多金属勘探商，纳米比亚项目尚早，稀释与流动性风险并存"
-  },
-  {
-   "ticker": "KOD.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "马里锂矿项目面临地缘政策风险，小市值勘探商月涨不足以掩盖"
+   "ai_note": "历史上有稀释和推广问题，需警惕"
   },
   {
    "ticker": "ALTN.L",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "哈萨克斯坦运营风险，大幅跑输量化评分"
+  },
+  {
+   "ticker": "EMH.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "暴跌46%无消息，可能钻探失败或融资困难"
+  },
+  {
+   "ticker": "ORR.L",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "哈萨克斯坦金矿商月跌15%，产区治理与税务风险量化模型难定价"
+   "ai_note": "微型勘探股流动性风险高"
   }
  ]
 }
