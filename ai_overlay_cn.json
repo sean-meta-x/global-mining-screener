@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-22T01:02Z",
+ "generated_at": "2026-10-23T00:58Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "量化评分领先同行，无异常信号，维持中性"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史治理争议频出，量化难察隐性风险"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌21%远超同行，锂盐业务承压且无消息对冲"
+   "ai_adjust": -4,
+   "ai_note": "锂盐价格暴跌叠加跌幅近两成，行业逆风明显"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企龙头，波动温和，无额外风险暴露"
+   "ai_note": "央企龙头抗跌性尚可，无重大负面信号"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤电铝一体化对冲周期，表现平稳"
+   "ai_adjust": -1,
+   "ai_note": "煤电铝一体化格局稳健，回调幅度温和"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "绿电铝概念支撑，跌幅属行业正常波动"
+   "ai_adjust": -1,
+   "ai_note": "绿电铝概念有支撑，但板块整体承压"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭板块轮动下行，中期需求存隐忧"
   },
   {
    "ticker": "603876.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌23%为全场最大，铝箔加工利润受挤压"
-  },
-  {
-   "ticker": "601677.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌11%偏大，中小市值铝加工抗风险能力弱"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌13.5%显著，新疆产能外运成本隐忧"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "单月暴跌逾两成且无利好对冲，警惕流动性风险"
   },
   {
    "ticker": "002101.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "月仅跌2%相对抗跌，铝压铸业务稳健"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "山西煤企估值合理，无额外治理风险"
+   "ai_adjust": -1,
+   "ai_note": "小市值铝压铸企业，跌幅有限但关注度低"
   },
   {
    "ticker": "000792.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂价持续低迷，盐湖提锂成本优势收窄"
+   "ai_adjust": -3,
+   "ai_note": "锂价持续低迷叠加历史重整包袱，反弹乏力"
   },
   {
-   "ticker": "600595.SS",
+   "ticker": "601677.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中孚实业历史盈利波动大，资产负债率偏高"
+   "ai_adjust": -3,
+   "ai_note": "铝板带箔竞争激烈，跌幅偏大需关注盈利压力"
   },
   {
-   "ticker": "002466.SZ",
+   "ticker": "002532.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "新疆产能受限电扰动，跌幅超一成显示资金撤离"
+  },
+  {
+   "ticker": "600157.SS",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "天齐锂业背负巨额并购债务，治理与偿债风险突出"
-  },
-  {
-   "ticker": "600219.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南山铝业产业链完整，跌幅属板块联动"
+   "ai_note": "历史债务重组前科，信用风险量化模型难以捕捉"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "唯一正收益煤企，晋能重组后经营改善"
+   "ai_adjust": -1,
+   "ai_note": "山西国资煤企，回调温和无突发利空"
   },
   {
-   "ticker": "600157.SS",
+   "ticker": "600595.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "永泰能源曾有债务违约前科，治理信用存疑"
+   "ai_note": "中孚实业盈利波动大，治理透明度不足"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南山铝业全产业链布局，回撤幅度可控"
+  },
+  {
+   "ticker": "002379.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "中国宏桥月跌逾两成，历史上曾有审计争议"
+  },
+  {
+   "ticker": "600971.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值煤电股，跌幅属板块联动无独立利空"
+  },
+  {
+   "ticker": "600740.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "焦化行业环保政策趋严，长期成本压力上升"
+  },
+  {
+   "ticker": "603937.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "微盘股流动性差，跌幅极小但参考意义有限"
   },
   {
    "ticker": "603993.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌21%异常，铜钴价格回调叠加海外资产风险"
-  },
-  {
-   "ticker": "600740.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "焦化板块跟随煤价波动，无独立利空"
-  },
-  {
-   "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "全球最大铝企月跌近20%，需关注产能过剩风险"
-  },
-  {
-   "ticker": "000983.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "西山煤电经营稳健，跌幅在行业正常范围"
+   "ai_adjust": -4,
+   "ai_note": "铜价回调叠加海外项目执行风险，跌幅偏大"
   }
  ]
 }
