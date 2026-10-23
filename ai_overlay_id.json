@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T00:44Z",
+ "generated_at": "2026-10-23T00:40Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "DWGL.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤企单月暴跌逾30%无消息，警惕流动性陷阱"
+   "ai_note": "小市值煤企流动性差，无新闻掩护下的大跌需警惕隐性利空。"
   },
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小盘多元化矿企跌幅显著，信息不透明需谨慎"
+   "ai_note": "多元化小盘股基本面存疑，缺乏新闻支撑的下跌暗示抛压。"
+  },
+  {
+   "ticker": "UNIQ.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小盘煤炭股表现平稳，暂无明显基本面催化剂或重大风险。"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅千亿盾级别且暴跌35%，微盘股操纵风险极高"
-  },
-  {
-   "ticker": "UNIQ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘煤炭股单月跌近10%，基本面或存隐忧"
+   "ai_adjust": -6,
+   "ai_note": "无新闻伴随暴跌超35%，极可能存在未披露的增发或大股东套现。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤企跌幅温和，无重大异常信号"
+   "ai_adjust": -1,
+   "ai_note": "中型煤企基本面尚可，但近期资金流出明显，需观察支撑位。"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Astra旗下蓝筹矿机龙头，治理优良估值合理"
-  },
-  {
-   "ticker": "PSAB.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金矿股跌幅较大，印尼金矿治理风险需关注"
-  },
-  {
-   "ticker": "TOBA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中型煤企单月跌超33%，抛售或反映基本面恶化"
+   "ai_adjust": 4,
+   "ai_note": "阿斯特朗旗下核心资产，治理优良，量化低估了其周期防御价值。"
   },
   {
    "ticker": "HRUM.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中型煤企历史治理存疑，跌幅偏大需警惕"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金光集团背景提供安全垫，但短期受煤炭周期拖累，表现中性。"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "多元化矿企走势平稳，暂无明显风险信号"
+   "ai_adjust": -1,
+   "ai_note": "多元化矿企估值合理，近期跌幅温和，缺乏明确的方向性催化。"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "历史债务与治理问题虽经重组仍有余波，金价上涨未能提振股价。"
+  },
+  {
+   "ticker": "DEWA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "虽有金光集团背书，但单月大跌超30%且无消息，需防范机构出货。"
+  },
+  {
+   "ticker": "SMGA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小盘矿企易受游资操控，缺乏实质业绩支撑的波动存在庄家炒作风险。"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "国企锡业龙头，治理尚可但效率偏低"
-  },
-  {
-   "ticker": "DEWA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中型煤企单月跌近26%，抛压沉重需回避"
-  },
-  {
-   "ticker": "SMGA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘矿企流动性差，跌幅较大需警惕"
-  },
-  {
-   "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤企跌幅温和，业务多元化提供缓冲"
+   "ai_note": "国有锡企受政策与合规监管较多，锡价波动下股价表现中规中矩。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "大型煤企走势稳健，抗跌性显示基本面扎实"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤企单月跌25%，小盘股抛压或反映内部问题"
+   "ai_adjust": 0,
+   "ai_note": "煤炭开采承包商业务稳定，近期抗跌性较好，量化评分合理。"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "无消息面暴跌近40%，典型的庄股崩盘或隐蔽性股权稀释特征。"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "管理层治理在中型煤企中较优，基本面扎实，可适度上调评分。"
+  },
+  {
+   "ticker": "DOID.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭开采业务受行业周期影响大，近期大幅回调需警惕订单下滑。"
+  },
+  {
+   "ticker": "IFSH.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "无利好消息下短期暴涨近30%，高度疑似游资炒作或拉高出货。"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "锡矿股单月暴跌36%为全场之最，风险极高"
+   "ai_note": "小市值煤炭股流动性枯竭，无新闻伴随的暴跌暗示严重的内部抛压。"
   },
   {
-   "ticker": "MBMA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池材料赛道遇冷，大市值也难挡31%跌幅"
-  },
-  {
-   "ticker": "RMKE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘煤企跌超25%，信息真空期需防暴雷"
-  },
-  {
-   "ticker": "INDY.JK",
+   "ticker": "TOBA.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中型煤企转型中，跌幅偏大但集团实力尚可"
+   "ai_note": "正推进新能源转型但煤炭仍占主导，短期受传统能源周期压制。"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "哈立达旗下镍业龙头，治理规范，但受镍价低迷拖累，表现中性。"
   }
  ]
 }
