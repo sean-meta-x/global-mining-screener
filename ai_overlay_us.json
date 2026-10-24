@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T00:21Z",
+ "generated_at": "2026-10-24T00:13Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商，无新闻且跌幅显著，流动性风险高"
+   "ai_note": "微型铀矿勘探商无消息且暴跌，警惕股权稀释与流动性陷阱。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "名称疑似推广壳公司，一月暴跌超50%且无任何消息"
+   "ai_adjust": -8,
+   "ai_note": "蹭核能热点且无消息暴跌，极大概率为 promoter 壳公司或存在严重稀释。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "石墨项目许可延迟频发，量化模型未反映审批风险"
+   "ai_adjust": -2,
+   "ai_note": "石墨与铀概念受炒作，缺乏实质新闻支撑，需警惕估值回落。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "所谓生产商却无运营消息，大跌或隐含基本面问题"
+   "ai_adjust": -4,
+   "ai_note": "锂价低迷期无消息且大跌，暗示项目运营或资金链存在隐患。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铜矿勘探商，无催化剂，纯投机标的"
+   "ai_adjust": -3,
+   "ai_note": "市值仅千万的铜矿勘探商，无新闻伴随下跌，面临极高稀释风险。"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "巴西钾矿开发面临复杂审批与环保阻力，无消息下跌暗示进展受阻。"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "格陵兰岛PGM项目面临极高ESG与审批风险，暴跌且无消息属重大红旗。"
   },
   {
    "ticker": "LODE",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "公司有长期稀释和操纵历史，治理风险严重"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "格陵兰采矿许可极难获取，暴跌56%反映市场担忧"
+   "ai_adjust": -7,
+   "ai_note": "公司历史上有严重炒作与稀释劣迹，无消息暴跌需坚决规避。"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型多元勘探商，无新闻无催化剂"
+   "ai_adjust": -3,
+   "ai_note": "微型多金属勘探商缺乏新闻催化，股价阴跌反映流动性与融资困境。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂硼项目受濒危物种法案许可阻碍，进度堪忧"
+   "ai_adjust": -5,
+   "ai_note": "Rhyolite Ridge 项目面临漫长审批与资金缺口，无消息下跌反映市场担忧。"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铌与稀土项目冶金复杂且长期缺钱，无消息下跌暗示融资进展不顺。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "津巴布韦金矿虽有国家风险，但作为成熟生产商基本面相对稳健。"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "大型锂项目面临原住民诉讼及环保法律挑战"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦金矿运营，地缘政治与政策风险被低估"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "巴西钾矿项目拖延十余年，管理层反复变动执行堪忧"
+   "ai_adjust": -4,
+   "ai_note": "Thacker Pass 项目面临巨额资本开支与法律诉讼，股权稀释风险极高。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小型金矿生产商，一月跌36%无消息解释"
+   "ai_note": "微型金矿商无新闻且大跌，需警惕管理层增发稀释或项目不及预期。"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "石墨项目融资困难，经济性存疑"
+   "ai_adjust": -5,
+   "ai_note": "石墨矿开发近期遭遇严重融资困境与大幅稀释，无消息下跌印证担忧。"
   },
   {
-   "ticker": "NC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭结构性衰退但运营稳定，风险有限"
-  },
-  {
-   "ticker": "NAMMW",
+   "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "NAMM权证，流动性差且杠杆放大母公司的风险"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "黄金勘探组合有稀释历史，需警惕融资摊薄"
+   "ai_adjust": -4,
+   "ai_note": "阿肯色州DLE项目面临技术延期与资金缺口，无消息下跌反映落地艰难。"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小型多元勘探商，市值不足5千万美元"
-  },
-  {
-   "ticker": "IMPUY",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属大型生产商，价格疲软但基本面稳健"
+   "ai_adjust": -3,
+   "ai_note": "微型多金属勘探商无新闻伴随大跌，存在较高的隐性稀释与流动性风险。"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "稳健的中型银矿生产商，运营多元化分散风险"
+   "ai_note": "中型银矿商基本面扎实，近期下跌主要受贵金属板块整体回调影响。"
+  },
+  {
+   "ticker": "IMPUY",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铂族金属巨头受累于PGE价格低迷，但作为大型生产商具备抗风险能力。"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "作为微型金矿商的权证，标的暴跌且无消息，杠杆风险与流动性极差。"
   }
  ]
 }
