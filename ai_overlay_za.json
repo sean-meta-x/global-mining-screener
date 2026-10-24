@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-23T00:35Z",
+ "generated_at": "2026-10-24T00:27Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铁矿石需求受中国钢铁减产压制，量化未反映价格下行风险"
+   "ai_adjust": 0,
+   "ai_note": "铁矿业龙头，基本面稳健但受大宗商品周期压制"
+  },
+  {
+   "ticker": "THA.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铂族金属板块整体承压，中等市值流动性一般"
+  },
+  {
+   "ticker": "JBL.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "基础金属逆势上涨，动量正面但需关注小盘流动性"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铬矿小盘股，流动性有限但无明确负面信号"
-  },
-  {
-   "ticker": "THA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂族金属价格持续低迷，南非电力与成本压力加剧"
-  },
-  {
-   "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小盘股单月暴涨18%却无任何新闻，疑似炒作推动"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近15%且零新闻，可能存在未披露的运营或治理问题"
+   "ai_note": "铬矿生产稳定，走势平稳无明显风险信号"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂族金属龙头月跌近20%，行业逆风叠加南非运营风险"
-  },
-  {
-   "ticker": "MTU.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅5500万兰特，微型股流动性极差，存在退市风险"
+   "ai_adjust": -3,
+   "ai_note": "铂族金属价格持续走弱，大型生产商利润承压明显"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "铂族金属业务承压，历史上有减值与治理争议记录"
+   "ai_note": "历史上有频繁稀释融资记录，治理结构复杂需警惕"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌超16%且存在管理层治理争议，下行风险较大"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值仅5500万且暴跌19%，微型股流动性极差高度危险"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "有色宝石细分龙头，走势平稳无异常信号"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "有色宝石板块逆势走强，动量信号积极"
   },
   {
    "ticker": "NPH.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铂族金属板块整体走弱，月跌超15%反映行业困境"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锡矿中盘股，走势稳健，无明显风险信号"
-  },
-  {
-   "ticker": "GFI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "金价高位但南非矿企受成本与ESG约束跑输大盘"
+   "ai_note": "铂族金属行业逆风，中型生产商成本压力上升"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "黄金生产商随板块回调，暂无额外风险"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型煤炭股面临ESG撤资与流动性双重风险"
+   "ai_note": "黄金生产商回调但南非运营风险溢价持续存在"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金价强势下仍跌超12%，南非矿企成本与运营拖累明显"
-  },
-  {
-   "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭龙头短期稳定，但长期面临能源转型压力"
+   "ai_note": "中型金矿商随金价波动，南非运营环境一般"
   },
   {
-   "ticker": "EPS.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型铂族金属股，行业逆风下生存能力存疑"
+   "ticker": "APH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "锡矿资产稀缺性支撑，动量微正且市值适中"
+  },
+  {
+   "ticker": "GFI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型金矿商分散化布局，但板块整体回调拖累"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂族金属板块深度回调，月跌超12%且无利好对冲"
+   "ai_adjust": -3,
+   "ai_note": "铂族金属大型生产商受行业低迷拖累严重"
   },
   {
-   "ticker": "EUZ.JO",
+   "ticker": "EPS.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型铂矿商流动性差，行业逆风下抗风险能力弱"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "煤炭龙头逆势微涨，但ESG长期压力不容忽视"
+  },
+  {
+   "ticker": "SLG.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "勘探股单月暴跌71.5%，极可能钻探失败或融资摊薄"
+   "ai_adjust": -6,
+   "ai_note": "市值不足4亿且为微型煤炭股，疑似炒作需极度警惕"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "尾矿再处理模式风险较低，走势平稳"
+   "ai_note": "尾矿金回收模式成本可控，走势相对平稳"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型勘探股暴跌67%且无消息，极可能钻探失败或融资稀释"
   }
  ]
 }
