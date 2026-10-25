@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T00:47Z",
+ "generated_at": "2026-10-25T00:15Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1303.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值煤炭股月跌近三成，无新闻披露，警惕流动性与治理风险"
+   "ai_note": "小盘煤企单月暴跌近三成且零消息，警惕隐性利空或流动性陷阱"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "中国银集团历史关联交易频繁，月跌逾两成，需关注治理隐患"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值不足一亿港元，微型壳股特征明显，稀释与操纵风险极高"
-  },
-  {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中铝大型国企，行业周期下行致回调，基本面尚可"
+   "ai_note": "中国白银历史上有治理争议，大幅回调无消息面支撑需警惕"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲金矿生产商运营正常，月跌温和，无重大异常"
+   "ai_note": "金龙矿业跌幅温和，澳洲上市金企治理相对规范"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值不足一亿港元的微型煤企暴跌两成，高度疑似老千股特征"
   },
   {
    "ticker": "0166.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "新时代公司市值偏小且跌幅显著，治理结构存疑"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "宏桥集团全球铝业龙头，回调属行业beta无特殊风险"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "新时代公司曾为壳股，治理记录差，大跌无消息需防稀释"
   },
   {
    "ticker": "1051.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌逾两成，项目执行与运营效率需持续跟踪"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "颐海集团有长期稀释和关联交易黑历史，量化难以捕捉治理风险"
   },
   {
-   "ticker": "3636.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值铜企信息透明度低，市场关注度不足"
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中铝为央企大盘股，回调幅度与板块一致，无异常信号"
   },
   {
    "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值仅一亿四千万港元，微型股流动性风险突出"
-  },
-  {
-   "ticker": "1208.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "五矿资源大型铜企国企背景，回调受铜价拖累无特殊风险"
+   "ai_note": "利记集团跌幅有限，小型 diversified 生产商暂无明显红旗"
   },
   {
    "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值高岭土企业务单一，关注度低流动性差"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金岩高岭土市值偏小且信息透明度低，略降分以反映流动性折价"
   },
   {
-   "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "仅为勘探阶段金矿公司，零收入高稀释风险，红旗警示"
+   "ticker": "1208.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "五矿资源跌幅偏大，海外矿山运营风险需关注但属国企体系"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中等市值铝企跌幅温和，无重大利空信号"
+   "ai_note": "兴发铝业跌幅温和，铝加工企业主营稳定"
   },
   {
-   "ticker": "1898.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中煤能源大型国企煤企，行业调整期回调属正常"
+   "ticker": "0621.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "汤加金矿为勘探阶段公司，项目失败和融资稀释风险高"
   },
   {
    "ticker": "2302.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "中核国际月跌超两成，铀矿小市值波动剧烈需谨慎"
+   "ai_note": "中核国际暴跌逾两成且无消息，铀业务透明度低需警惕"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中国宏桥为民营铝龙头，回调与行业周期一致，估值合理"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "次新金矿股上市时间短，公开信息有限保持观望"
+   "ai_note": "持久黄金上市时间短，治理和信息披露尚待市场验证"
+  },
+  {
+   "ticker": "3636.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金讯资源跌幅中等，铜生产商基本面暂无明显异常"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅五千万港元，典型仙股特征，操纵与退市风险极高"
+   "ai_adjust": -4,
+   "ai_note": "市值仅五千万的GEM板煤企，壳股风险极高，流动性极差"
+  },
+  {
+   "ticker": "1898.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中煤能源为央企大盘股，跌幅属板块系统性调整"
   },
   {
    "ticker": "1733.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "曾有债务重组历史，信用风险未完全消除需警惕"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "易大宗跌幅温和，煤炭生产商经营相对稳定"
   },
   {
-   "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "IRC有债务违约及重组前科，铁矿基本面脆弱"
+   "ticker": "1182.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "顺兴集团为serial shell公司，长期存在配股稀释和治理问题"
   }
  ]
 }
