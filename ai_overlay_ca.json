@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-24T01:15Z",
+ "generated_at": "2026-10-25T00:50Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微盘勘探股单月暴跌41%却零新闻，极可能已发生稀释或钻探失败"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值勘探公司，量化高分但近期暴跌36%，无新闻支撑，存稀释风险"
   },
   {
    "ticker": "CPAU.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型金矿勘探股跌25%无任何消息面，流动性风险显著"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值近6亿但单月跌27%且零新闻，需警惕未披露运营问题"
+   "ai_adjust": -2,
+   "ai_note": "极小市值金矿勘探，无新闻动态，流动性差且融资稀释风险高"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂电开发商跌34%无消息，可能存在融资稀释或项目延期"
+   "ai_adjust": -3,
+   "ai_note": "公司名称疑似炒作包装，市值大但月跌34%，需警惕推广股特征"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "市值最大但Seguela矿山运营存挑战，无新闻披露令人担忧"
   },
   {
    "ticker": "ENDR.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型金矿股跌23%无新闻，信息真空期需防范隐性利空"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值长期勘探项目，催化剂有限但资产质量尚可"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "标为生产商却跌20%且零新闻，生产端可能存在问题"
+   "ai_note": "中国境内金矿生产商，政策与管辖权风险较高，月跌20%"
   },
   {
    "ticker": "JUGR.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微盘金矿勘探股跌28%无消息，典型的信息不对称标的"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值金矿勘探，项目早期阶段，无重大负面但催化剂不足"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "金矿生产商跌25%无新闻，需关注海外矿区运营风险"
+   "ai_note": "巴西矿山运营，历史治理问题频发，月跌25%需警惕"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "标为勘探但市值2.5亿，分类存疑且跌26%无消息"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅仅5.6%相对温和，但零新闻仍反映市场关注度低"
-  },
-  {
-   "ticker": "AVL.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "工业矿物勘探股暴跌37%零新闻，高度疑似融资稀释"
+   "ai_adjust": -4,
+   "ai_note": "Monument长期表现不佳，项目反复延期，管理层执行力存疑"
   },
   {
    "ticker": "MANU.V",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "名称含铀却标为金矿，单月暴跌54%，数据质量与基本面均存严重疑问"
+   "ai_adjust": -7,
+   "ai_note": "名称为铀矿但分类为金矿，严重信息错配，月跌54%极度危险"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "Avalon长期依赖融资存活，数十年持续稀释股东权益"
   },
   {
    "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀矿勘探股跌22%无新闻，行业周期敏感且信息不透明"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值铀矿勘探，行业周期性强，无明确负面但催化剂不足"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "铜矿勘探股跌33%零消息，微盘股暴跌无解释属高风险信号"
-  },
-  {
-   "ticker": "IRO.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "跌幅9.5%相对可控，但零新闻反映机构覆盖缺失"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "极小市值铜矿勘探，名称泛化，月跌33%且无新闻支撑"
   },
   {
    "ticker": "IRV.CN",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "金矿勘探股跌17%无消息，微盘流动性风险需警惕"
+   "ai_note": "公司名称过于泛化疑似推广壳，市值小且缺乏实质进展"
   },
   {
-   "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值仅1100万跌28%，极微盘股信息真空期风险极高"
+   "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "唯一月收益持平，表现相对稳健，但小市值勘探股流动性仍差"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "名称为铀矿却标为金矿，暴跌46%零新闻，分类错误叠加暴跌高度可疑"
-  },
-  {
-   "ticker": "LAB.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅8.3%为最小之一，但微盘零新闻仍需谨慎对待"
+   "ai_adjust": -6,
+   "ai_note": "名称为铀矿却归类金矿，信息严重错配，月跌46%需回避"
   },
   {
    "ticker": "YMC.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "金矿勘探股暴跌43%零消息，市值近4000万却无新闻披露属重大警示"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "公司名称泛化如推广壳，月跌43%且无新闻，基本面堪忧"
+  },
+  {
+   "ticker": "IPT.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "墨西哥银矿生产商，运营挑战持续，月跌21%需关注成本"
+  },
+  {
+   "ticker": "KTN.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "分类为金矿开发实为银矿公司，La Colorada矿山问题频发"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "New Age名称疑似推广，极小市值多金属勘探，稀释风险高"
   }
  ]
 }
