@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T23:49Z",
+ "generated_at": "2026-10-25T23:45Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商，市值极低且无近期利好，存在较高融资稀释风险。"
+   "ai_note": "微盘铀企无端暴跌，警惕隐性融资或钻探失败。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "核能矿产概念微型股，近期暴跌且无消息，极大概率是资金盘或面临严重稀释。"
+   "ai_note": "一月腰斩且零新闻，极大概率遭遇恶性稀释或暴雷。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂矿生产商受锂价低迷拖累，短期业绩承压且缺乏明确反弹催化剂。"
+   "ai_note": "锂企随板块大跌，但无消息暴跌需防范基本面恶化。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型勘探企业，流动性差且面临持续的股权融资稀释压力。"
+   "ai_note": "石墨探险企流动性差，无消息下跌多为隐性融资所致。"
   },
   {
    "ticker": "CEXYF",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅千万级别的铜矿勘探商，极度缺乏流动性，存在退市或合股风险。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "极小市值铜矿企，无新闻暴跌暗示内部人抛售或稀释。"
   },
   {
    "ticker": "GRO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "巴西钾矿开发商面临较高的当地环保审批与项目融资双重不确定性。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "钾矿开发商面临资本开支压力，无消息下跌属正常回调。"
   },
   {
    "ticker": "LODE",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "管理层有频繁合股与稀释股东权益的劣迹，典型的 promoter 操纵标的。"
+   "ai_adjust": -6,
+   "ai_note": "公司素有激进促销与稀释恶名，无消息暴跌需极度警惕。"
   },
   {
    "ticker": "CMCL",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦金矿生产商，虽有产量但面临较高的国家政治与运营风险。"
+   "ai_adjust": 0,
+   "ai_note": "稳健金矿生产商，下跌主要受宏观金价回调影响。"
   },
   {
    "ticker": "GRML",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "格陵兰岛PGM勘探项目面临极其严苛且漫长的当地环保审批阻力。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "格陵兰采矿政策收紧，无消息暴跌暗示许可或融资受挫。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "核心锂矿项目因美国鱼类及野生动物保护局的干预而面临严重审批延期。"
+   "ai_adjust": -3,
+   "ai_note": "锂硼项目面临环保审批延迟，下跌反映市场对许可的担忧。"
   },
   {
    "ticker": "NB",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "稀土项目拖延十余年仍未投产，管理层执行力存疑且面临巨大资金缺口。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "稀土项目开发周期长且资本密集，需警惕远期稀释风险。"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂价下行周期中DLE技术规模化量产仍存疑，项目推进与融资压力大。"
+   "ai_note": "锂价低迷叠加合作方变数，无消息暴跌暗示项目遇阻。"
   },
   {
    "ticker": "LAC",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "Thacker Pass项目虽在推进但面临环保诉讼，且当前锂价难以支撑高昂资本开支。"
-  },
-  {
-   "ticker": "FSM",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "治理良好的中型银矿生产商，基本面稳健，但受贵金属价格波动影响。"
+   "ai_note": "大型锂矿受行业周期拖累，但项目质地尚可，小幅下调。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型金矿生产商，资产规模小且抗风险能力弱，需警惕运营与资金风险。"
+   "ai_note": "小市值金矿探险企，无消息下跌多为流动性枯竭或融资。"
   },
   {
    "ticker": "CAMZF",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值不足两千万的微型勘探股，流动性枯竭，极易遭遇恶意增发或老千股陷阱。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "极小市值多金属企，流动性极差，无消息下跌风险极高。"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型银矿商基本面扎实，下跌纯属板块系统性回调。"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型多金属勘探商，缺乏核心亮点资产，依赖持续融资维持运营。"
-  },
-  {
-   "ticker": "IMPUY",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "南非铂族金属巨头，受当地电力短缺、罢工及政策不确定性压制。"
+   "ai_adjust": -4,
+   "ai_note": "多金属探险企市值偏小，无消息暴跌暗示隐性稀释。"
   },
   {
    "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微型矿企的认股权证，流动性极差且极易在到期时归零，投机风险极高。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "作为母公司权证，流动性更差且杠杆极高，风险放大。"
   },
   {
    "ticker": "GLDG",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "长期依赖增发股票来维持勘探支出，股东权益被严重稀释。"
+   "ai_adjust": -3,
+   "ai_note": "黄金探险企历史稀释频繁，无消息下跌需防范增发。"
+  },
+  {
+   "ticker": "NMG",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "石墨项目资本开支巨大，在弱锂价下融资风险显著上升。"
   }
  ]
 }
