@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-26T00:44Z",
+ "generated_at": "2026-10-26T22:57Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微盘股一月暴跌36%却无新闻，极可能存在隐性稀释或钻探失败"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅千万且月跌25%，量化分与价格走势严重背离，警惕融资稀释"
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "量化高分与暴跌40%严重背离，微盘股疑有暴雷。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值较大但月跌近34%无任何消息面，可能存在未披露的利空"
+   "ai_adjust": -6,
+   "ai_note": "量化80分却月跌35%，模型未捕捉近期利空。"
+  },
+  {
+   "ticker": "CPAU.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "高分微盘股跌25%，警惕钻探失败或稀释。"
   },
   {
    "ticker": "THX.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值六亿却月跌26%无新闻，量化模型可能使用滞后数据"
+   "ai_adjust": -4,
+   "ai_note": "大市值金矿股跌26%与高分背离，需查基本面。"
+  },
+  {
+   "ticker": "SBI.TO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "生产商月跌27%与高分矛盾，或有运营隐患。"
   },
   {
    "ticker": "ENDR.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微盘勘探股月跌23%且零新闻，高度怀疑存在私下配售或 assay 不及预期"
+   "ai_note": "微盘勘探股跌23%与高分背离，流动性堪忧。"
+  },
+  {
+   "ticker": "JUGR.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微盘金矿股跌17%，量化模型或滞后于市场。"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "生产商月跌20%无消息，需排查运营或成本问题，量化分虚高"
+   "ai_note": "生产商跌20%与量化矛盾，需核实生产数据。"
   },
   {
-   "ticker": "JUGR.V",
+   "ticker": "AVL.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微盘金矿勘探股月跌27%，量化高分与暴跌矛盾，疑似推广退潮"
-  },
-  {
-   "ticker": "SBI.TO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "生产商标的月跌25%无新闻，量化分可能未反映近期运营风险"
+   "ai_adjust": -5,
+   "ai_note": "多元勘探股跌近30%，模型未反映近期恶化。"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "两亿市值月跌26%零消息，量化模型或遗漏潜在稀释与许可风险"
+   "ai_note": "月跌26%与量化76分背离，警惕资源量问题。"
   },
   {
    "ticker": "V.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微盘铀矿勘探股月跌22%，无新闻支撑高分，警惕资金流出"
+   "ai_adjust": -3,
+   "ai_note": "铀矿微盘股跌22%，量化未捕捉行业逆风。"
+  },
+  {
+   "ticker": "MANU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "暴跌48%全场最差，微盘股疑似融资失败暴雷。"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "微盘铜矿勘探股月跌33%无任何消息，量化分严重失真"
+   "ai_note": "铜矿微盘股跌28%与高分背离，模型严重滞后。"
   },
   {
-   "ticker": "IRV.CN",
-   "ai_view": "neutral",
+   "ticker": "LAB.V",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "月跌17%为本组最小跌幅，但仍需关注微盘流动性风险"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "唯一月涨跌为零的标的，量化分与实际走势一致，暂无额外风险"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "月跌46%为本组最差，名称与行业标注矛盾，极可能存在重大未披露利空"
-  },
-  {
-   "ticker": "YMC.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌43%且微盘无新闻，量化高分完全失效，高度怀疑稀释或钻探失败"
-  },
-  {
-   "ticker": "KTN.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌33%且行业标注与公司名称矛盾（银矿标为金矿），数据质量存疑"
-  },
-  {
-   "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微盘多元勘探股月跌25%零新闻，量化分可能基于过时数据"
-  },
-  {
-   "ticker": "TITI.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微盘月跌36%无任何消息面，极可能存在未公告的融资或利空"
-  },
-  {
-   "ticker": "FUU.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿勘探股月跌22%，市值相对较大但仍需警惕推广退潮风险"
+   "ai_note": "微盘金矿股跌17%，背离程度相对温和。"
   },
   {
    "ticker": "IPT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "银矿生产商月跌21%无新闻，量化分未反映近期价格下行压力"
+   "ai_note": "银矿生产商跌23%，量化未反映运营风险。"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "月收益持平与量化一致，无明显异常信号。"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "暴跌40%与量化严重背离，微盘股风险极高。"
+  },
+  {
+   "ticker": "CCCM.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月跌18%与量化轻度背离，需持续观察。"
+  },
+  {
+   "ticker": "FUU.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿股跌23%与量化背离，模型或过于乐观。"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微盘多元勘探股跌24%，警惕资金链风险。"
   }
  ]
 }
