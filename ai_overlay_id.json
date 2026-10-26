@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-26T00:07Z",
+ "generated_at": "2026-10-26T22:16Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘股无消息即大跌，流动性及治理存疑"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "多元化生产商表现平稳，无异常信号"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "跌幅温和，暂无明显异常信号"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值煤炭股流动性差，无新闻支撑涨幅存疑"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无利空却暴跌逾26%，疑似内部人抛售或运营问题"
+   "ai_adjust": -4,
+   "ai_note": "月跌近两成且无任何消息，可能存在未披露风险"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅中等，煤炭板块整体承压所致"
+   "ai_adjust": -2,
+   "ai_note": "温和下跌，小盘煤炭股需关注治理风险"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金价走强背景下仍大跌，矿区或运营存隐患"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "极小市值且暴跌，高度疑似庄股或流动性陷阱"
+   "ai_adjust": -6,
+   "ai_note": "极小市值煤炭股暴跌，典型炒作后回落特征"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中型煤企跌幅偏大，需关注permits及合规风险"
+   "ai_adjust": -4,
+   "ai_note": "中型煤企月跌近两成，需排查 permits 或债务问题"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "走势平稳，量化评分基本反映基本面"
-  },
-  {
-   "ticker": "PSAB.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "金价上涨却逆势大跌，公司治理或矿山运营存重大隐患"
+   "ai_adjust": -1,
+   "ai_note": "跌幅温和，多元化业务提供一定缓冲"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "Astra旗下优质资产，逆势上涨，基本面扎实"
+   "ai_adjust": 3,
+   "ai_note": "Astra 旗下蓝筹设备商，正回报体现基本面韧性"
   },
   {
-   "ticker": "DEWA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无消息暴跌26%，需警惕permit或股权稀释风险"
-  },
-  {
-   "ticker": "SMGA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘股跌幅可控，但信息透明度低"
+   "ticker": "NICL.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "月跌近三七成，锡价上行却暴跌，高度可疑"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "国企锡矿大幅回调，锡价波动及政策风险需关注"
-  },
-  {
-   "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅温和，煤炭板块系统性风险为主"
+   "ai_adjust": -3,
+   "ai_note": "国企锡业龙头大跌，或受出口政策及库存压力影响"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "无利好却暴涨30%，高度疑似拉高出货或炒作"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘煤企暴跌21%，治理及融资风险较高"
-  },
-  {
-   "ticker": "NICL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "暴跌36%无任何公告，极可能存在未披露重大利空"
-  },
-  {
-   "ticker": "RMKE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘股无消息暴跌24%，疑似庄股出货"
+   "ai_note": "无新闻却月涨两成，典型拉高出货 promotion 特征"
   },
   {
    "ticker": "MDKA.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "大盘铜金股暴跌28%，矿山运营或融资存重大问题"
+   "ai_adjust": -6,
+   "ai_note": "铜金矿龙头月跌超三成，可能存在 dilution 或项目受阻"
   },
   {
-   "ticker": "NCKL.JK",
+   "ticker": "SMGA.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "镍价承压叠加板块回调，跌幅尚在合理范围"
+   "ai_adjust": -3,
+   "ai_note": "小市值多元化股跌幅温和但流动性堪忧"
   },
   {
-   "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
+   "ticker": "DEWA.JK",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "极小市值暴跌近30%，高度疑似庄股或退市风险"
+   "ai_note": "月跌两成七，中型煤企需警惕债务或合规风险"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "跌幅有限，煤炭及物流业务提供一定支撑"
+  },
+  {
+   "ticker": "DOID.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "月跌逾两成，采矿承包商需关注合同续约风险"
+  },
+  {
+   "ticker": "MBMA.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "电池材料龙头月跌近三成，HPAL 项目或遇阻"
+  },
+  {
+   "ticker": "RMKE.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值煤企跌超两成，治理及融资风险较高"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "跌幅极小，大型煤炭生产商运营相对稳定"
   }
  ]
 }
