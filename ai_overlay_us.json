@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-25T23:45Z",
+ "generated_at": "2026-10-26T21:57Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘铀企无端暴跌，警惕隐性融资或钻探失败。"
+   "ai_adjust": -5,
+   "ai_note": "微型铀矿勘探股，零新闻流伴随31%暴跌，恐有隐性稀释或钻探失利"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "一月腰斩且零新闻，极大概率遭遇恶性稀释或暴雷。"
+   "ai_adjust": -9,
+   "ai_note": "市值仅2300万却暴跌56%且无任何新闻，高度疑似融资稀释或项目失败"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂企随板块大跌，但无消息暴跌需防范基本面恶化。"
+   "ai_adjust": -5,
+   "ai_note": "标为生产商却零新闻且跌40%，锂行业逆风下运营状况存疑"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "石墨探险企流动性差，无消息下跌多为隐性融资所致。"
+   "ai_adjust": -4,
+   "ai_note": "小市值勘探商无任何消息披露，信息透明度极低需警惕"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "巴西钾矿开发商跌近30%却无新闻，许可审批或社区关系或有隐患"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "极小市值铜矿企，无新闻暴跌暗示内部人抛售或稀释。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "钾矿开发商面临资本开支压力，无消息下跌属正常回调。"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "公司素有激进促销与稀释恶名，无消息暴跌需极度警惕。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "稳健金矿生产商，下跌主要受宏观金价回调影响。"
+   "ai_adjust": -5,
+   "ai_note": "市值仅1300万的铜矿勘探股，零新闻流加28%跌幅暗示资金出逃"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "格陵兰采矿政策收紧，无消息暴跌暗示许可或融资受挫。"
+   "ai_adjust": -9,
+   "ai_note": "格陵兰PGM勘探股暴跌60%且无新闻，极地许可风险极高或已钻探失败"
   },
   {
-   "ticker": "IONR",
+   "ticker": "LODE",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂硼项目面临环保审批延迟，下跌反映市场对许可的担忧。"
+   "ai_adjust": -6,
+   "ai_note": "Comstock有推销历史，零新闻伴随34%跌幅，治理与稀释风险并存"
   },
   {
-   "ticker": "NB",
-   "ai_view": "caution",
+   "ticker": "CMCL",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "稀土项目开发周期长且资本密集，需警惕远期稀释风险。"
+   "ai_note": "在产金矿商跌幅相对温和，但零新闻流仍需关注运营是否平稳"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型多元化勘探商无新闻披露，流动性差且信息真空风险大"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "Thacker Pass开发商跌27%无新闻，锂价低迷叠加融资压力需警惕"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂价低迷叠加合作方变数，无消息暴跌暗示项目遇阻。"
+   "ai_note": "DLE技术开发商跌25%零新闻，技术路线商业化验证存不确定性"
   },
   {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "大型锂矿受行业周期拖累，但项目质地尚可，小幅下调。"
+   "ticker": "IONR",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "Rhyolite Ridge项目面临审批挑战，跌18%无新闻或许可进展受阻"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值金矿探险企，无消息下跌多为流动性枯竭或融资。"
+   "ai_adjust": -5,
+   "ai_note": "小市值金矿生产商跌30%无新闻，纳米比亚运营细节不明需警惕"
   },
   {
-   "ticker": "CAMZF",
+   "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "极小市值多金属企，流动性极差，无消息下跌风险极高。"
-  },
-  {
-   "ticker": "FSM",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型银矿商基本面扎实，下跌纯属板块系统性回调。"
+   "ai_adjust": -4,
+   "ai_note": "稀土开发商市值4亿却无新闻，项目推进节奏不透明治理存疑"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "多金属探险企市值偏小，无消息暴跌暗示隐性稀释。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "作为母公司权证，流动性更差且杠杆极高，风险放大。"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金探险企历史稀释频繁，无消息下跌需防范增发。"
+   "ai_note": "多元化勘探商跌38%零新闻，小市值流动性枯竭风险显著"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "石墨项目资本开支巨大，在弱锂价下融资风险显著上升。"
+   "ai_note": "魁北克石墨开发商跌30%无新闻，电池级石墨需求不及预期"
+  },
+  {
+   "ticker": "IMPUY",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "PGM大型生产商受铂族金属价格疲软影响，跌幅温和属行业系统性风险"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "中型银矿生产商有实际现金流，20%跌幅反映贵金属板块整体回调"
+  },
+  {
+   "ticker": "GLDG",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿勘探商零新闻流伴随24%跌幅，资产组合进展不透明"
   }
  ]
 }
