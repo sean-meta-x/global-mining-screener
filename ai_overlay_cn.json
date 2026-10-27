@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-26T22:34Z",
+ "generated_at": "2026-10-27T22:31Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝行业中游，无特殊风险信号"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "一月跌幅超14%无消息面支撑，警惕隐性利空"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "多元化业务分散，月跌幅近20%需警惕"
+   "ai_adjust": -3,
+   "ai_note": "锂电业务承压叠加一月跌逾20%，基本面存疑"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企，走势相对稳健"
+   "ai_note": "大型国企铝企走势平稳无异常"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铝企，跌幅温和"
+   "ai_note": "铝业龙头走势温和暂无明显风险信号"
+  },
+  {
+   "ticker": "603876.SS",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "电池铝箔赛道竞争激烈单月暴跌23%需警惕"
+  },
+  {
+   "ticker": "002532.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "跌幅温和大型铝企基本面尚可"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭板块整体承压中小煤企风险偏高"
   },
   {
    "ticker": "002466.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂价低迷叠加高负债，下行风险大"
+   "ai_note": "锂价低迷叠加历史高负债下行风险未消"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "水电铝成本优势，基本面尚可"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭板块整体承压"
+   "ai_note": "绿色铝龙头跌幅可控暂无异常"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭板块整体承压"
+   "ai_note": "国企煤炭跌幅温和暂无突出风险"
   },
   {
-   "ticker": "603876.SS",
+   "ticker": "600157.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌幅超21%，可能存在未披露风险"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大型铝企但跌幅较大"
-  },
-  {
-   "ticker": "002101.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小盘铝企，走势平稳"
-  },
-  {
-   "ticker": "601677.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌幅较大，需关注基本面"
-  },
-  {
-   "ticker": "000792.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂价下行周期，盐湖提锂承压"
-  },
-  {
-   "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大型铝企但月跌幅近19%"
-  },
-  {
-   "ticker": "600508.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘煤炭股跌幅较大"
+   "ai_note": "历史债务重组前科治理风险需持续关注"
   },
   {
    "ticker": "600961.SS",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "月跌幅近24%无消息，可能存在重大隐患"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭板块整体承压"
-  },
-  {
-   "ticker": "600971.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小盘煤炭股，跌幅温和"
+   "ai_note": "单月暴跌近30%无公告高度警惕潜在暴雷"
   },
   {
    "ticker": "603937.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "开发商阶段企业，流动性风险高"
+   "ai_note": "小市值铝加工股流动性风险偏高"
+  },
+  {
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "全球最大铝企但治理争议多跌17%需警惕"
   },
   {
    "ticker": "600711.SS",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "曾涉会计争议跌超20%或反映治理隐忧"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "锂钾龙头但锂价下行拖累跌幅偏大"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "镍价波动大，月跌幅近19%"
+   "ai_note": "小市值煤炭股单月跌17%流动性风险高"
+  },
+  {
+   "ticker": "002540.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铝加工细分龙头跌幅温和暂无异常"
+  },
+  {
+   "ticker": "601677.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铝板带龙头但单月跌近15%需求端承压"
+  },
+  {
+   "ticker": "301219.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "钴价持续低迷中小矿企抗风险能力弱"
   }
  ]
 }
