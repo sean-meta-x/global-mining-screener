@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-26T22:22Z",
+ "generated_at": "2026-10-27T22:20Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1303.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股月跌近三成且零新闻，恐存未披露经营风险"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "小市值煤炭股单月暴跌逾三成且无消息，警惕隐性治理或稀释风险"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中国银光历史有关连交易及治理争议，股价急跌需警惕"
+   "ai_adjust": -4,
+   "ai_note": "中国白银单月跌近三成，小市值无消息面支撑，基本面存疑"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "澳洲上市在华金矿运营曾遇困难，暂无重大新催化"
-  },
-  {
-   "ticker": "9696.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "锂价暴跌叠加收购SQM遗留高负债，财务风险极大"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值仅一亿余港元，港股微型 diversified 企业流动性差治理存疑"
-  },
-  {
-   "ticker": "1051.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "G-Resources有反复配售摊薄前科，治理风险高"
-  },
-  {
-   "ticker": "1208.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "五矿资源Las Bambas矿屡遭社区封路阻断，生产中断风险持续"
+   "ai_note": "金龙矿业回调幅度温和，无重大异常信号"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国企铝企经营平稳，铝价承压但无额外隐藏风险"
+   "ai_note": "中铝为大型国企，跌幅属铝板块联动，无额外风险"
+  },
+  {
+   "ticker": "0637.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "力劲集团市值极小但跌幅有限，流动性风险为主"
+  },
+  {
+   "ticker": "1051.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "G-Resources历史上有停牌重组记录，治理瑕疵需折价"
+  },
+  {
+   "ticker": "2302.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀板块波动大，中核国际单月跌超两成需警惕"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "微型高岭土企业成交量极低，信息透明度不足"
+   "ai_note": "金岩高岭土市值微小，流动性不足且跌幅偏大"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "新时代公司历经多次重组，治理及业务持续性存疑"
+   "ai_note": "新时代能源单月跌近两成，小市值多元化公司风险高"
+  },
+  {
+   "ticker": "1208.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "五矿资源Las Bambas矿区屡遭社区封锁，运营风险持续"
+  },
+  {
+   "ticker": "2078.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "亚洲铝业市值不足两亿且暴跌，或反映基本面恶化"
+  },
+  {
+   "ticker": "0621.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "汤加黄金为勘探阶段公司，无产量支撑估值脆弱"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "南南资源市值仅一亿，煤炭小盘股暴跌需警惕"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "兴发铝业为正常铝型材企业，无显著额外风险"
-  },
-  {
-   "ticker": "2078.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值仅一亿出头，微型铝企流动性及信息风险高"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "初级金矿勘探持续烧钱，资产单一融资风险高"
+   "ai_note": "兴发铝业跌幅温和，铝板块整体调整所致"
   },
   {
    "ticker": "2489.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "次新金矿企业运营历史短，暂无明显风险信号"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "集海黄金上市不久，金价回调带动下跌需观察"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型铜企运营平稳，无突出风险或催化剂"
+   "ai_note": "锦鑫资源跌幅有限，铜板块正常波动范围"
   },
   {
-   "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值仅一亿港元，煤炭小企流动性极差"
-  },
-  {
-   "ticker": "8203.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足五千万曾合股，微型煤矿流动性极高风险极大"
+   "ticker": "9696.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "天齐锂业下跌主因锂价低迷，属行业周期因素"
   },
   {
    "ticker": "1378.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "全球最大铝企负债仍高但改善中，铝价承压整体中性"
+   "ai_note": "中国宏桥为铝业龙头，跌幅温和属板块联动"
   },
   {
-   "ticker": "1898.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国企大型煤企经营稳健分红良好，估值合理"
+   "ticker": "1205.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中信资源单月跌近一成五，煤炭板块整体承压"
   },
   {
-   "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤企运营正常，无显著隐藏风险或利好"
+   "ticker": "1182.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "胜龙金矿市值微小且历史有治理问题，需谨慎"
   }
  ]
 }
