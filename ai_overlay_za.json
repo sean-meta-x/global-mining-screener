@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-26T22:11Z",
+ "generated_at": "2026-10-27T22:07Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
+   "ticker": "THA.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铂族金属价格疲软，基本面稳健但缺乏短期催化剂。"
+  },
+  {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿巨头，基本面稳健，中国需求放缓已部分反映在价格中"
-  },
-  {
-   "ticker": "THA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "PGM价格持续疲软，月跌近10%，行业逆风明显"
-  },
-  {
-   "ticker": "JBL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "基础金属生产商，跌幅温和，无重大异常信号"
+   "ai_note": "铁矿石需求受中国钢铁行业拖累，高股息提供安全边际。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "PGM板块整体承压，月跌14.5%，钯金需求不振"
+   "ai_note": "铂价低迷叠加重组成本，短期盈利预期面临下修风险。"
+  },
+  {
+   "ticker": "JBL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "历史上有激进并购与稀释股权记录，需警惕 promoter 风险。"
+  },
+  {
+   "ticker": "SSW.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "债务高企且面临劳资与电力成本压力，基本面持续恶化。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬矿表现相对抗跌，月涨1.5%，暂无明显风险"
-  },
-  {
-   "ticker": "SSW.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "PGM与黄金双线承压，南非运营风险持续存在"
+   "ai_adjust": -1,
+   "ai_note": "铬铁合金利润受挤压，作为生产商缺乏定价权与增长弹性。"
   },
   {
    "ticker": "ARI.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "多元化矿业月跌11%，估值回调幅度偏大"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "多元化资产抗风险能力强，但受宏观与大宗商品周期压制。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值仅5800万，月跌23%，微型股流动性与治理风险极高"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "数据标注有误，实为彩色宝石商而非PGM，需核实基本面"
+   "ai_note": "市值极小且流动性枯竭，存在严重的退市或治理隐患。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型矿企跌幅有限，锡价支撑基本面，暂无异常"
+   "ai_note": "锡价表现相对坚挺，但单一资产依赖度高且估值已合理。"
   },
   {
    "ticker": "NPH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "PGM中型生产商月跌近13%，行业景气度下行"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "铂族金属板块中最优质资产，成本控制优异，可逢低关注。"
   },
   {
-   "ticker": "PAN.JO",
+   "ticker": "GML.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "金价高位却月跌13%，或隐含南非运营成本压力"
+   "ai_note": "主营有色宝石而非铂族金属，模型分类有误且小盘流动性差。"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "黄金股跑输金价，南非深井矿运营挑战不容忽视"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金产量增长但维持性资本开支高，金价上涨已部分计价。"
   },
   {
    "ticker": "GFI.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大型金矿商月跌14%，表现弱于金价，存隐性成本压力"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "全球化布局分散了南非地域风险，金价上行期具备弹性。"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "PGM板块系统性走弱，大型铂企难以独善其身"
+   "ai_note": "标的信息模糊且市值异常庞大，需核实数据真实性与流动性。"
+  },
+  {
+   "ticker": "PAN.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "黄金尾矿项目提供低成本现金流，管理层资本配置能力优秀。"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足7亿且PGM低迷，微型生产商抗风险能力极弱"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "煤炭板块月涨5.5%，能源转型背景下现金流尚可"
+   "ai_adjust": -7,
+   "ai_note": "微型铂矿企业现金流紧张，面临严峻的生存与持续经营风险。"
   },
   {
    "ticker": "EUZ.JO",
    "ai_view": "red_flag",
    "ai_adjust": -9,
-   "ai_note": "微型勘探股月跌42%，无收入无现金流，融资风险极高"
+   "ai_note": "单月暴跌近六成，大概率遭遇勘探失败或融资稀释双重打击。"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭业务现金流充沛但面临长期ESG撤资压力，估值受抑。"
   },
   {
    "ticker": "SLG.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小市值煤炭股月涨7.8%，短期动量正面但需关注流动性"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型煤炭企业治理结构薄弱，股价异动需警惕庄股操纵风险。"
   },
   {
-   "ticker": "ANG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金价强势下仍月跌14%，AISC上升与非洲运营风险值得警惕"
+   "ticker": "DRD.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "黄金尾矿回收成本极低，在金价高位运行下具备强劲自由现金流。"
   }
  ]
 }
