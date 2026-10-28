@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-27T22:53Z",
+ "generated_at": "2026-10-28T22:54Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值暴跌无新闻，疑似定增稀释或钻探失败"
+   "ai_adjust": -5,
+   "ai_note": "微型勘探股暴跌36%无消息，疑似融资稀释或钻探失败"
   },
   {
-   "ticker": "LIFT.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "更名壳公司无新闻大幅下跌，疑似融资稀释风险"
-  },
-  {
-   "ticker": "SBI.TO",
+   "ticker": "ENDR.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "高成本短寿命矿山生产商，运营风险量化模型未捕捉"
+   "ai_adjust": -5,
+   "ai_note": "微型金矿勘探股跌35%无新闻，存在隐性稀释风险"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "生产型企业下跌25%无公告，运营或成本问题存疑"
+  },
+  {
+   "ticker": "LIFT.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "开发商跌26%无消息，可能面临融资或许可证风险"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "标注生产商实为勘探阶段，分类误导需警惕"
+   "ai_note": "较大市值勘探股跌20%，无新闻支撑需警惕隐性利空"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "印尼许可证风险高，运营不确定性被量化忽略"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Seguela已产金，下跌或为获利回吐，基本面尚可"
+   "ai_note": "中型勘探股跌23%无公告，量化模型未捕捉潜在风险"
   },
   {
    "ticker": "CPAU.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值勘探公司无消息，流动性及稀释风险高"
+   "ai_adjust": -5,
+   "ai_note": "微型勘探股跌17%，市值过小流动性差存在稀释风险"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型铜矿勘探股跌30%无消息，高度疑似融资稀释"
   },
   {
    "ticker": "V.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探无新闻，下跌原因不明需谨慎"
+   "ai_adjust": -4,
+   "ai_note": "微型铀矿勘探股跌25%，无新闻或暗示钻探结果不佳"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "跌幅相对温和，Sturec项目有一定基本面支撑"
+   "ai_note": "微型勘探股仅跌6%相对抗跌，但市值小仍需观察"
   },
   {
-   "ticker": "CEXY.CN",
+   "ticker": "SBI.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型铜矿无消息暴跌，疑似定增稀释"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "板块普跌中持平，或有内部资金支撑或待发布消息"
+   "ai_adjust": -3,
+   "ai_note": "生产型企业跌27%无公告，运营成本或产量问题存疑"
   },
   {
    "ticker": "SAM.TO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "Starcore历史治理问题多，San Martin矿持续亏损"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值无新闻，信息透明度差需谨慎"
-  },
-  {
-   "ticker": "YMC.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "暴跌近40%无任何新闻公告，高度可疑"
+   "ai_adjust": -4,
+   "ai_note": "小市值勘探股跌31%无消息，可能存在未披露利空"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "名称铀矿却标注金矿勘探，暴跌40%无新闻极可疑"
+   "ai_note": "微型股暴跌44%无任何消息，极大概率融资失败或钻探失利"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "唯一零跌幅个股相对强势明显，或有未公开利好支撑"
+  },
+  {
+   "ticker": "IPT.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "银矿生产商跌17%幅度温和，基本面或相对稳健"
+  },
+  {
+   "ticker": "YMC.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值勘探股跌34%无新闻，需警惕稀释或钻探失败"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型勘探股跌15%跌幅可控但无消息仍需谨慎对待"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微型勘探股仅跌8%相对抗跌，拉布拉多项目有支撑"
   },
   {
    "ticker": "IBAT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "多元化勘探方向不明，无新闻支撑下跌"
+   "ai_note": "小市值多元勘探股跌17%无消息支撑需保持谨慎"
   },
   {
-   "ticker": "NAM.V",
+   "ticker": "VCU.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型市值无新闻，历史稀释频繁需警惕"
-  },
-  {
-   "ticker": "NVO.TO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Novo长期稀释历史，Guyana项目反复无果"
-  },
-  {
-   "ticker": "DEF.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "名称银矿却标注金矿，暴跌39%无新闻极可疑"
-  },
-  {
-   "ticker": "FUU.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "F3为萨省知名铀矿商，跌幅可控基本面尚可"
+   "ai_note": "中型勘探股跌35%无公告，跌幅远超同类需警惕风险"
   }
  ]
 }
