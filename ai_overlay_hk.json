@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-27T22:20Z",
+ "generated_at": "2026-10-28T22:19Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1303.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "小市值煤炭股单月暴跌逾三成且无消息，警惕隐性治理或稀释风险"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值过小且流动性差，存在潜在治理与壳股风险。"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "中国白银单月跌近三成，小市值无消息面支撑，基本面存疑"
+   "ai_note": "历史资本开支大且债务沉重，存在持续摊薄风险。"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "金龙矿业回调幅度温和，无重大异常信号"
+   "ai_adjust": 0,
+   "ai_note": "澳洲小型金矿股，港股流动性极差，缺乏催化剂。"
   },
   {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中铝为大型国企，跌幅属铝板块联动，无额外风险"
+   "ticker": "2693.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微型市值且主业边缘，流动性枯竭，警惕老千股风险。"
+  },
+  {
+   "ticker": "2078.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铝型材小盘股，流动性不足，缺乏实质性利好驱动。"
   },
   {
    "ticker": "0637.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "力劲集团市值极小但跌幅有限，流动性风险为主"
+   "ai_note": "传统铜加工小盘股，股价长期低迷，缺乏增长弹性。"
+  },
+  {
+   "ticker": "0166.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "历史上有频繁配股摊薄记录，典型壳股特征，风险极高。"
   },
   {
    "ticker": "1051.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "G-Resources历史上有停牌重组记录，治理瑕疵需折价"
-  },
-  {
-   "ticker": "2302.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀板块波动大，中核国际单月跌超两成需警惕"
-  },
-  {
-   "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金岩高岭土市值微小，流动性不足且跌幅偏大"
-  },
-  {
-   "ticker": "0166.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "新时代能源单月跌近两成，小市值多元化公司风险高"
-  },
-  {
-   "ticker": "1208.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "五矿资源Las Bambas矿区屡遭社区封锁，运营风险持续"
-  },
-  {
-   "ticker": "2078.HK",
-   "ai_view": "red_flag",
    "ai_adjust": -4,
-   "ai_note": "亚洲铝业市值不足两亿且暴跌，或反映基本面恶化"
+   "ai_note": "虽经历重组，但历史摊薄严重，资产质量仍需观察。"
   },
   {
-   "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "汤加黄金为勘探阶段公司，无产量支撑估值脆弱"
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型国企铝企，经营稳健但缺乏短期爆发催化剂。"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "南南资源市值仅一亿，煤炭小盘股暴跌需警惕"
+   "ai_adjust": -5,
+   "ai_note": "微型煤炭股，流动性极差，存在较高的基本面不确定性。"
+  },
+  {
+   "ticker": "1029.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "俄罗斯铁矿受制裁及债务重组影响，面临严重摊薄与运营风险。"
+  },
+  {
+   "ticker": "3636.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小盘铜矿股，流动性欠佳，需警惕隐性治理风险。"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "兴发铝业跌幅温和，铝板块整体调整所致"
+   "ai_note": "中铝旗下铝型材企业，基本面尚可但缺乏独立催化剂。"
   },
   {
    "ticker": "2489.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "集海黄金上市不久，金价回调带动下跌需观察"
-  },
-  {
-   "ticker": "3636.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "锦鑫资源跌幅有限，铜板块正常波动范围"
+   "ai_note": "次新小金矿股，产能释放与业绩兑现仍需时间验证。"
+  },
+  {
+   "ticker": "1208.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "核心资产常受秘鲁社区封路及许可困扰，运营存扰。"
+  },
+  {
+   "ticker": "0621.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "南非金矿项目屡遭挫折，历史治理极差，典型老千股。"
   },
   {
    "ticker": "9696.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "天齐锂业下跌主因锂价低迷，属行业周期因素"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂价大跌叠加前期高杠杆并购，资产负债表承压严重。"
   },
   {
    "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中国宏桥为铝业龙头，跌幅温和属板块联动"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "民营铝业龙头，成本优势显著，基本面优于同行。"
   },
   {
    "ticker": "1205.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中信资源单月跌近一成五，煤炭板块整体承压"
+   "ai_adjust": -3,
+   "ai_note": "虽有中信背景，但历史资产减值频繁，治理效能一般。"
   },
   {
-   "ticker": "1182.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "胜龙金矿市值微小且历史有治理问题，需谨慎"
+   "ticker": "1898.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型央企煤企，盈利稳定且分红较好，防御属性强。"
   }
  ]
 }
