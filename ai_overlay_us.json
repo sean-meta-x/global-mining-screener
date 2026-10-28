@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-27T21:52Z",
+ "generated_at": "2026-10-28T21:52Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "高分却暴跌近27%，微型铀矿勘探商无消息或隐含稀释风险"
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探商，无新闻催化，存在稀释风险"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月跌46%且无任何消息，极可能存在未披露的利空或融资稀释"
-  },
-  {
-   "ticker": "WWR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "量化高分但回报大幅背离，无新闻支撑需警惕隐性风险"
+   "ai_adjust": -5,
+   "ai_note": "月跌43%且零新闻，名称含\"I\"疑似壳公司或促销工具"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型铜矿勘探商跌26%无消息，流动性差稀释风险高"
+   "ai_adjust": -2,
+   "ai_note": "市值仅1300万的铜矿勘探商，缺乏可见催化剂"
+  },
+  {
+   "ticker": "WWR",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "勘探阶段无新闻，跌幅温和，暂无明显红旗"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂矿中型生产商月跌32%无消息，行业逆风叠加隐性利空"
+   "ai_adjust": -3,
+   "ai_note": "标称中型生产商却月跌35%，锂价低迷叠加运营隐忧"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月跌超52%无消息，格陵兰PGM勘探商或遇钻探失败或许可问题"
+   "ai_adjust": -5,
+   "ai_note": "月跌近半，格陵兰PGM项目面临严峻许可证与物流风险"
   },
   {
    "ticker": "LODE",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "Comstock有推广历史，跌28%无消息需警惕治理与稀释"
+   "ai_adjust": -3,
+   "ai_note": "Comstock有促销与稀释历史，无新闻佐证基本面"
   },
   {
    "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "巴西钾矿开发商温和下跌，许可进度存疑但无重大异常"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "锂矿开发商随板块调整，跌幅温和无明显异常信号"
-  },
-  {
-   "ticker": "NAMM",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型金矿生产商跌24%无消息，小市值流动性风险偏高"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "津巴布韦金矿商跌幅温和，治理风险已知且已部分反映"
+   "ai_adjust": -2,
+   "ai_note": "巴西钾矿开发商，过往同类项目执行风险较高"
   },
   {
    "ticker": "FMST",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅千万的微型勘探商，无消息支撑高稀释风险"
+   "ai_adjust": -3,
+   "ai_note": "市值仅千万且冠以\"清洁能源\"名称，促销嫌疑较大"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "实际黄金生产商，津巴布韦管辖风险已被市场消化"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Rhyolite Ridge项目面临许可延迟与环保诉讼风险"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型矿企跌近20%无消息，低市值高稀释与推广风险"
+   "ai_adjust": -2,
+   "ai_note": "市值不足2000万的多元勘探商，流动性与稀释风险高"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小型黄金生产商月跌18.5%，需关注成本与产量稳定性"
+  },
+  {
+   "ticker": "IMPUY",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "PGM需求受电动车替代结构性压制，南非运营风险持续"
   },
   {
    "ticker": "LAC",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "锂矿开发商随行业回调，Thacker Pass许可风险已知"
-  },
-  {
-   "ticker": "IMPUY",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "PGM巨头受铂族金属价格低迷影响，跌幅温和属正常调整"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "权证波动放大风险，正回报或为投机驱动非基本面改善"
+   "ai_adjust": -1,
+   "ai_note": "Thacker Pass许可基本落地，但融资与建设执行风险犹存"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "白银中型生产商跌幅温和，基本面稳健无明显异常"
+   "ai_adjust": 0,
+   "ai_note": "合规中型白银生产商，跌幅温和无异常信号"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "权证月涨71%纯属投机炒作，非基本面驱动"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "多元勘探商月跌30%无消息，微型市值或隐含融资稀释"
-  },
-  {
-   "ticker": "SLI",
-   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "锂矿开发商随板块回调，阿肯色项目进展需持续跟踪"
+   "ai_note": "多元勘探商无新闻催化，跌幅超20%需警惕"
   },
   {
    "ticker": "GLDG",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "金矿勘探商跌幅温和，资产组合分散风险相对可控"
+   "ai_note": "黄金勘探商零新闻，月跌近20%，可能存在未披露问题"
+  },
+  {
+   "ticker": "TMCR",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "月跌45%且无任何新闻解释，高度疑似隐含重大利空"
   }
  ]
 }
