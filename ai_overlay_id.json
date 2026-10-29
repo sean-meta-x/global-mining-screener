@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-28T22:12Z",
+ "generated_at": "2026-10-29T22:11Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "印尼小盘矿企流动性与治理风险较高。"
-  },
-  {
-   "ticker": "MYOH.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭周期承压且缺乏近期催化剂。"
+   "ai_adjust": -3,
+   "ai_note": "小盘无新闻覆盖，流动性风险需警惕"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "单月大跌近两成，警惕小盘煤炭股流动性折价。"
+   "ai_note": "煤炭生产商跌幅较大且无消息面支撑"
+  },
+  {
+   "ticker": "MYOH.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "跌幅温和但缺乏催化剂和新闻关注"
   },
   {
    "ticker": "IFSH.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月暴跌逾三成，疑似资金出逃或隐藏利空。"
-  },
-  {
-   "ticker": "UNIQ.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "极小盘股单月暴涨，典型游资炒作特征。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "单月暴跌近35%无任何消息，疑有治理问题"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "蓝筹白马治理规范，估值已反映基本面。"
+   "ai_adjust": -1,
+   "ai_note": "大型蓝筹Astra旗下，回调幅度可控"
+  },
+  {
+   "ticker": "UNIQ.JK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "极小盘无消息却暴涨25%，疑似炒作拉升"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中盘矿企走势平稳，缺乏明确上行催化。"
-  },
-  {
-   "ticker": "SMGA.JK",
-   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小市值矿企抗风险能力弱，需警惕流动性风险。"
+   "ai_note": "跌幅温和市值适中，暂无明显异常信号"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "黄金股逆势大跌，需排查未披露的运营或治理隐患。"
-  },
-  {
-   "ticker": "NICL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月暴跌超三成，基本面或治理恐存重大隐患。"
+   "ai_note": "黄金生产商大幅下跌无消息，治理存疑"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭价格承压导致中大盘股回调，需关注煤价走势。"
+   "ai_note": "中型煤炭股跌幅两成且无新闻覆盖"
   },
   {
    "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型市值煤炭股流动性极差，存在高度操纵风险。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "极小市值暴跌近19%无消息，流动性堪忧"
+  },
+  {
+   "ticker": "SMGA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小盘股跌幅超两成无消息面，风险较高"
   },
   {
    "ticker": "DEWA.JK",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "单月重挫近三成，警惕煤炭业务利润率恶化或丢单。"
+   "ai_note": "中型煤炭股暴跌34%无任何消息，高度警惕"
   },
   {
-   "ticker": "MBMA.JK",
-   "ai_view": "caution",
+   "ticker": "NICL.JK",
+   "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "电池金属周期下行，镍价低迷拖累大盘股估值。"
+   "ai_note": "锡生产商暴跌近38%无消息，疑似重大利空"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "国有锡企回调两成，需关注政策及治理风险"
   },
   {
    "ticker": "MDKA.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "铜金价格波动及项目资本开支压力拖累股价。"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "单月暴跌逾三成，小盘煤炭股存在资金链或治理风险。"
+   "ai_note": "大型铜金股暴跌33%无消息，项目风险存疑"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "印尼镍产能过剩压制估值，需等待行业出清信号。"
+   "ai_adjust": -3,
+   "ai_note": "大型镍企回调17%，行业周期下行压力"
   },
   {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大盘煤炭股走势相对抗跌，基本面暂稳。"
+   "ticker": "DOID.JK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "煤炭股暴跌超30%无消息，基本面堪忧"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "极小盘暴跌37%无消息，疑似稀释或治理问题"
+  },
+  {
+   "ticker": "MBMA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "电池材料股暴跌37%无消息，项目进展存疑"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中盘煤炭股回调温和，缺乏显著催化剂。"
-  },
-  {
-   "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型盘暴跌超三成，高度警惕庄股崩盘与流动性枯竭。"
+   "ai_note": "跌幅最小仅4.6%，相对稳健但缺乏催化"
   }
  ]
 }
