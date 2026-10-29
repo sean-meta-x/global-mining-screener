@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:52Z",
+ "generated_at": "2026-10-29T21:52Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商，无新闻催化，存在稀释风险"
+   "ai_note": "微型铀矿勘探商，高量化分与负收益背离，疑似推广"
+  },
+  {
+   "ticker": "WWR",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "石墨概念有推广历史，无新闻支撑跌幅需警惕"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "一月暴跌44%却无任何新闻，高度可疑"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "月跌43%且零新闻，名称含\"I\"疑似壳公司或促销工具"
+   "ai_note": "标榜生产商却暴跌40%无公告，疑有未披露问题"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "市值仅1300万的铜矿勘探商，缺乏可见催化剂"
+   "ai_note": "微型铜矿勘探商，流动性差且无新闻催化"
   },
   {
-   "ticker": "WWR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "勘探阶段无新闻，跌幅温和，暂无明显红旗"
-  },
-  {
-   "ticker": "ELVR",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "标称中型生产商却月跌35%，锂价低迷叠加运营隐忧"
+   "ticker": "LODE",
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "Comstock管理层有推广和资本运作劣迹"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌近半，格陵兰PGM项目面临严峻许可证与物流风险"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Comstock有促销与稀释历史，无新闻佐证基本面"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "巴西钾矿开发商，过往同类项目执行风险较高"
-  },
-  {
-   "ticker": "FMST",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值仅千万且冠以\"清洁能源\"名称，促销嫌疑较大"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "实际黄金生产商，津巴布韦管辖风险已被市场消化"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Rhyolite Ridge项目面临许可延迟与环保诉讼风险"
+   "ai_adjust": -6,
+   "ai_note": "格陵兰PGM暴跌52%，疑钻探失败或融资稀释"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "市值不足2000万的多元勘探商，流动性与稀释风险高"
+   "ai_note": "微型多金属勘探商，无新闻且跌幅显著"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "津巴布韦金矿生产商，跌幅与金价波动一致"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小型黄金生产商月跌18.5%，需关注成本与产量稳定性"
+   "ai_adjust": -3,
+   "ai_note": "小型金矿生产商跌幅近20%无解释，需关注"
   },
   {
-   "ticker": "IMPUY",
+   "ticker": "GRO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "PGM需求受电动车替代结构性压制，南非运营风险持续"
+   "ai_note": "SPAC上市后钾肥项目面临市场与融资压力"
   },
   {
-   "ticker": "LAC",
+   "ticker": "FMST",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "Thacker Pass许可基本落地，但融资与建设执行风险犹存"
+   "ai_note": "微型市值波动有限，无显著风险信号"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Rhyolite Ridge项目面临BLM许可证审批风险"
   },
   {
    "ticker": "FSM",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "合规中型白银生产商，跌幅温和无异常信号"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中型银矿商跌幅超16%，需关注运营或成本问题"
+  },
+  {
+   "ticker": "SLI",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "阿肯色DLE项目进展缓慢，锂价低迷加剧压力"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Thacker Pass项目融资与原住民反对风险犹存"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "权证月涨71%纯属投机炒作，非基本面驱动"
+   "ai_adjust": -4,
+   "ai_note": "正股跌20%权证却涨21%，异常背离疑稀释"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "多元勘探商无新闻催化，跌幅超20%需警惕"
+   "ai_adjust": -3,
+   "ai_note": "多元勘探商一月跌25%无新闻，流动性堪忧"
   },
   {
    "ticker": "GLDG",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "黄金勘探商零新闻，月跌近20%，可能存在未披露问题"
-  },
-  {
-   "ticker": "TMCR",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "月跌45%且无任何新闻解释，高度疑似隐含重大利空"
+   "ai_note": "GoldMining有长期稀释和推广劣迹，跌幅合理"
+  },
+  {
+   "ticker": "OGC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型金矿商跌幅温和，基本面相对稳定"
   }
  ]
 }
