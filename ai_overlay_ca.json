@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T22:52Z",
+ "generated_at": "2026-10-30T22:51Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MRZL.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "量化高分但一月暴跌35%且零新闻，高度疑似融资稀释或钻探失败。"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "生产商身份却一月跌20%且无新闻，运营或成本端或存隐忧。"
+   "ai_note": "微市值暴跌40%且零新闻，疑似稀释或项目失败"
   },
   {
    "ticker": "THX.V",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "市值超六亿却跌逾22%且零消息，大市值勘探商回调幅度异常。"
+   "ai_note": "5.8亿市值却无任何新闻覆盖，高分存疑"
   },
   {
-   "ticker": "LIFT.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "开发阶段公司跌近25%且无任何催化新闻，项目推进或遇阻。"
-  },
-  {
-   "ticker": "MMY.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "勘探商一月跌26%且无新闻，市场或已提前定价负面预期。"
-  },
-  {
-   "ticker": "AVL.TO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "稀有金属勘探商跌15%且无消息，流动性差的小盘股抛压明显。"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅1200万的微型勘探股跌17%且零新闻，高度疑似配股融资。"
-  },
-  {
-   "ticker": "SAM.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "一月暴跌35%且无任何公告，量化高分严重失真，疑似重大利空。"
-  },
-  {
-   "ticker": "SBI.TO",
+   "ticker": "MJS.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "金矿生产商跌25%且无新闻，巴西运营或面临成本与汇率压力。"
-  },
-  {
-   "ticker": "JUGR.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘勘探股跌13%但无新闻，板块轮动所致，风险相对可控。"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "一月跌超31%且零消息，微型铜矿勘探股疑似融资或项目失败。"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "铀矿勘探股一月跌近30%且无新闻，高度疑似私募融资稀释。"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "板块普跌中该股持平，相对强势但缺乏催化，维持中性观望。"
-  },
-  {
-   "ticker": "IPT.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "银矿生产商跌17%且无消息，墨西哥运营或受政策与成本困扰。"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘金矿勘探股跌11%且无新闻，流动性风险值得关注。"
+   "ai_note": "生产商身份但零新闻且跌25%，运营或有隐忧"
   },
   {
    "ticker": "YMC.CN",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "一月暴跌34.5%且零公告，量化模型完全无法捕捉的隐性利空。"
+   "ai_note": "小市值暴跌42%无新闻，流动性风险极高"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "2.4亿市值跌19%无消息，市场信心不足"
+  },
+  {
+   "ticker": "LIFT.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "开发商跌29%无新闻，许可或融资存疑"
+  },
+  {
+   "ticker": "SBI.TO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "生产商跌近30%零新闻，基本面或恶化"
+  },
+  {
+   "ticker": "CEXY.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "1500万市值跌37.5%无新闻，壳公司风险"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "跌幅仅5.6%相对抗跌，但零新闻仍需谨慎"
+  },
+  {
+   "ticker": "CPAU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅1000万且跌23%，极度缺乏流动性"
+  },
+  {
+   "ticker": "MANU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "1480万市值暴跌36%无新闻，勘探或失败"
+  },
+  {
+   "ticker": "SAM.TO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "2400万市值跌37.5%零新闻，治理风险高"
+  },
+  {
+   "ticker": "JUGR.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值跌12%无新闻，市场关注度极低"
+  },
+  {
+   "ticker": "AVL.TO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "多元化勘探商跌16%无消息，进展不明"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "小市值跌30%无新闻，疑似稀释或弃矿"
+  },
+  {
+   "ticker": "MSV.TO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "2680万市值跌26%零新闻，催化剂缺失"
   },
   {
    "ticker": "VCU.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值七千万却跌近35%且无新闻，大比例回调暗示重大负面事件。"
+   "ai_adjust": -6,
+   "ai_note": "7000万市值跌37%无新闻，大市值也失守"
   },
   {
-   "ticker": "NAM.V",
+   "ticker": "GPAC.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型多元化勘探股跌20%且无消息，融资风险与流动性风险并存。"
+   "ai_adjust": -5,
+   "ai_note": "开发商跌29%无新闻，许可推进存疑"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "唯一正收益但市值过小，持续性待观察"
   },
   {
    "ticker": "V.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铀矿勘探股仅跌8%表现抗跌，板块热度支撑但缺具体催化。"
-  },
-  {
-   "ticker": "IBAT.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池金属勘探股跌11%且无新闻，概念退潮后估值承压明显。"
+   "ai_note": "铀矿勘探仅跌1.5%相对稳健，暂无催化"
   }
  ]
 }
