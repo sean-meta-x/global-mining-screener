@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T22:11Z",
+ "generated_at": "2026-10-30T22:12Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小盘无新闻覆盖，流动性风险需警惕"
+   "ai_note": "微盘股流动性差，缺乏基本面催化，警惕流动性折价。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭生产商跌幅较大且无消息面支撑"
-  },
-  {
-   "ticker": "MYOH.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "跌幅温和但缺乏催化剂和新闻关注"
+   "ai_note": "煤炭小盘股，业绩受煤价波动影响大，存在治理风险。"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "单月暴跌近35%无任何消息，疑有治理问题"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型蓝筹Astra旗下，回调幅度可控"
+   "ai_adjust": -4,
+   "ai_note": "跌幅显著，多元化业务缺乏核心亮点，需防范基本面恶化。"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "极小盘无消息却暴涨25%，疑似炒作拉升"
-  },
-  {
-   "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "跌幅温和市值适中，暂无明显异常信号"
+   "ai_adjust": 2,
+   "ai_note": "逆势抗跌，煤炭主业现金流尚可，短期具备防御价值。"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "黄金生产商大幅下跌无消息，治理存疑"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "中型煤炭股跌幅两成且无新闻覆盖"
+   "ai_note": "金价高位但股价大跌，可能存在隐性成本超支或品位下降。"
   },
   {
-   "ticker": "FIRE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "极小市值暴跌近19%无消息，流动性堪忧"
+   "ticker": "MYOH.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "跌幅较小，长协煤比例高，业绩确定性相对较强。"
   },
   {
-   "ticker": "SMGA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小盘股跌幅超两成无消息面，风险较高"
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "阿斯特拉旗下核心资产，基本面扎实，量化低估了其龙头溢价。"
   },
   {
    "ticker": "DEWA.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "中型煤炭股暴跌34%无任何消息，高度警惕"
+   "ai_adjust": -4,
+   "ai_note": "跌幅居前，煤炭外包业务利润率承压，需警惕应收账款风险。"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "估值已回落至合理区间，但煤炭周期下行仍需时间消化。"
+  },
+  {
+   "ticker": "FIRE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "极小市值，流动性极差，存在典型的壳资源炒作与治理风险。"
+  },
+  {
+   "ticker": "SMGA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "多元化转型成效未显，主业盈利能力弱，防范边缘化风险。"
   },
   {
    "ticker": "NICL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "锡生产商暴跌近38%无消息，疑似重大利空"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锡价波动剧烈，小矿企抗风险能力弱，警惕环保停产风险。"
   },
   {
    "ticker": "TINS.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "国有锡企回调两成，需关注政策及治理风险"
-  },
-  {
-   "ticker": "MDKA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "大型铜金股暴跌33%无消息，项目风险存疑"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "国企背景提供安全边际，但体制僵化导致效率偏低，中性看待。"
   },
   {
    "ticker": "NCKL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "大型镍企回调17%，行业周期下行压力"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "煤炭股暴跌超30%无消息，基本面堪忧"
-  },
-  {
-   "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "极小盘暴跌37%无消息，疑似稀释或治理问题"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "镍价低迷拖累业绩，但RKEF产能释放仍具长期看点。"
   },
   {
    "ticker": "MBMA.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "电池材料股暴跌37%无消息，项目进展存疑"
+   "ai_note": "新能源金属周期下行，前期资本开支大，警惕债务与稀释风险。"
   },
   {
-   "ticker": "ABMM.JK",
+   "ticker": "INDY.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭主业承压，新能源转型尚处投入期，短期业绩缺乏支撑。"
+  },
+  {
+   "ticker": "MDKA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铜金项目资本开支巨大，存在潜在股权稀释与工期延误风险。"
+  },
+  {
+   "ticker": "DOID.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭开采成本上升，利润率收窄，需关注大股东质押情况。"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值极小且暴跌，基本面薄弱，高度疑似资金盘炒作，坚决规避。"
+  },
+  {
+   "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅最小仅4.6%，相对稳健但缺乏催化"
+   "ai_adjust": 1,
+   "ai_note": "逆势微涨，资产注入预期仍在，但需警惕重组不及预期风险。"
   }
  ]
 }
