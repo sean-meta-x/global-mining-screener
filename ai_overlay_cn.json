@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-29T22:29Z",
+ "generated_at": "2026-10-30T22:30Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "股东纠纷长期未解，治理风险被量化模型忽略。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铝价波动叠加无消息大跌，需关注隐性利空"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂电下行叠加异常大跌，需警惕基本面恶化。"
+   "ai_adjust": -4,
+   "ai_note": "锂价下行周期，月跌近24%反映基本面恶化"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企经营稳健，无重大治理瑕疵。"
-  },
-  {
-   "ticker": "000737.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌幅达30%远超同行，可能存在未披露风险。"
-  },
-  {
-   "ticker": "603876.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "电池铝箔需求承压，大跌或反映产能过剩隐忧。"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "跌幅温和，基本面相对稳健，无明显异常。"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "天齐巨额债务叠加锂价暴跌，财务风险较高。"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "国企煤炭经营稳定，煤价下行影响有限。"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "跌幅温和，大型铝企经营平稳。"
+   "ai_note": "中铝作为龙头表现稳健，短期调整属正常"
   },
   {
    "ticker": "600490.SS",
    "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "海外矿产治理存疑，大跌或反映项目风险"
+  },
+  {
+   "ticker": "603876.SS",
+   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "鹏欣资源历史关联交易频繁，治理存疑且大跌。"
+   "ai_note": "铝箔产能过剩压力显现，月跌超25%需警惕"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "天齐高负债收购后遗症叠加锂价暴跌，风险积聚"
+  },
+  {
+   "ticker": "000737.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "无消息暴跌超31%，疑似存在未披露重大风险"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "云铝股份经营稳定，跌幅温和无异常。"
+   "ai_note": "云铝股份走势平稳，基本面暂无明显异常"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭行业承压但公司稳健，小幅回调可接受"
+  },
+  {
+   "ticker": "002532.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "天山铝业走势平稳，大型铝企抗风险能力强"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "神火股份月线几乎持平，经营稳定性较好"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南山铝业产业链完整，治理较规范。"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "国企煤炭，经营平稳但煤价承压。"
-  },
-  {
-   "ticker": "600961.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近29%，跌幅异常需关注经营变化。"
-  },
-  {
-   "ticker": "000792.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "曾有破产重整历史，治理改善但仍有隐患。"
-  },
-  {
-   "ticker": "600508.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大跌超21%，小市值煤炭股流动性风险需警惕。"
-  },
-  {
-   "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "控股股东质押率高，治理风险被量化低估。"
+   "ai_note": "南山铝业小幅回调，产业链一体化优势明显"
   },
   {
    "ticker": "600711.SS",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "盛屯矿业财务造假被处罚，重大治理红旗。"
+   "ai_note": "盛屯矿业曾有财务问题前科，暴跌需高度警惕"
   },
   {
-   "ticker": "600157.SS",
+   "ticker": "600546.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "山煤国际回调幅度适中，煤炭板块整体承压"
+  },
+  {
+   "ticker": "600508.SS",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "永泰能源曾债券违约，信用风险尚未完全出清。"
+   "ai_note": "大屯能源月跌超21%异常，煤炭股不应如此"
+  },
+  {
+   "ticker": "600971.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "恒源煤电跌幅偏大，需关注是否有隐性问题"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "盐湖钾锂龙头受锂价拖累，但资源禀赋优越"
+  },
+  {
+   "ticker": "002379.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "宏桥作为铝龙头回调幅度可控，基本面扎实"
   },
   {
    "ticker": "301219.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "次新股钴业公司，信息有限暂给中性。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "腾远钴业小盘股暴跌近28%，流动性风险大"
+  },
+  {
+   "ticker": "601958.SS",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金钼股份月跌超24%，钼价下行压力显现"
   }
  ]
 }
