@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T21:52Z",
+ "generated_at": "2026-10-30T21:52Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商，高量化分与负收益背离，疑似推广"
-  },
-  {
-   "ticker": "WWR",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "石墨概念有推广历史，无新闻支撑跌幅需警惕"
+   "ai_note": "微型铀矿勘探股，无新闻且大幅回调，存在流动性与稀释风险。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "一月暴跌44%却无任何新闻，高度可疑"
+   "ai_note": "一月暴跌超四成且无消息，极可能存在增发稀释或钻探失败。"
   },
   {
    "ticker": "ELVR",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "标榜生产商却暴跌40%无公告，疑有未披露问题"
-  },
-  {
-   "ticker": "CEXYF",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铜矿勘探商，流动性差且无新闻催化"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "red_flag",
    "ai_adjust": -4,
-   "ai_note": "Comstock管理层有推广和资本运作劣迹"
+   "ai_note": "标榜为锂生产商却遭重挫，需警惕基本面恶化或财务造假风险。"
   },
   {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "格陵兰PGM暴跌52%，疑钻探失败或融资稀释"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型多金属勘探商，无新闻且跌幅显著"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "津巴布韦金矿生产商，跌幅与金价波动一致"
-  },
-  {
-   "ticker": "NAMM",
+   "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小型金矿生产商跌幅近20%无解释，需关注"
+   "ai_note": "多元化勘探小盘股，缺乏近期催化剂，资金面承压易遭稀释。"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "SPAC上市后钾肥项目面临市场与融资压力"
+   "ai_adjust": -3,
+   "ai_note": "巴西钾矿开发商，面临环保审批与社区关系等潜在许可风险。"
   },
   {
-   "ticker": "FMST",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型市值波动有限，无显著风险信号"
+   "ticker": "LODE",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "历史上常有过度营销与频繁增发记录，需高度警惕治理与稀释风险。"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "格陵兰PGM勘探股单月暴跌近半，无新闻掩护下恐有重大利空。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "津巴布韦金矿生产商，需警惕当地政策变动及外汇管制等管辖风险。"
+  },
+  {
+   "ticker": "CEXYF",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值仅千万级别的铜矿微盘股，流动性极差且面临持续融资压力。"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿生产商大幅下挫，需排查是否存在未披露的运营或成本问题。"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值多元化勘探股，缺乏新闻支撑，易受市场情绪拖累而下行。"
   },
   {
    "ticker": "IONR",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锂矿开发商抗跌，但Rhyolite Ridge项目仍面临融资与许可不确定性。"
+  },
+  {
+   "ticker": "IMPUY",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铂族金属巨头受累于金属价格疲软，南非与津巴布韦运营风险犹存。"
+  },
+  {
+   "ticker": "FMST",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "Rhyolite Ridge项目面临BLM许可证审批风险"
+   "ai_note": "千万市值的清洁能源勘探微盘股，流动性枯竭风险大于基本面风险。"
   },
   {
    "ticker": "FSM",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "中型银矿商跌幅超16%，需关注运营或成本问题"
+   "ai_note": "中型银矿商随贵金属板块回调，宏观利率预期反复压制估值。"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "阿肯色DLE项目进展缓慢，锂价低迷加剧压力"
+   "ai_adjust": -4,
+   "ai_note": "直接提锂技术开发商资本开支大，在锂价低迷期面临严峻融资考验。"
+  },
+  {
+   "ticker": "KGC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型金矿商基本面稳健，近期回调属板块正常联动，无重大瑕疵。"
   },
   {
    "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Thacker Pass项目融资与原住民反对风险犹存"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "虽有能源部贷款支持，但Thacker Pass项目资本开支巨大，仍需关注进度。"
   },
   {
    "ticker": "NAMMW",
    "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "正股跌20%权证却涨21%，异常背离疑稀释"
-  },
-  {
-   "ticker": "NEXM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "多元勘探商一月跌25%无新闻，流动性堪忧"
+   "ai_adjust": -5,
+   "ai_note": "权证本身具有极高杠杆与稀释属性，正股大跌时权证流动性将枯竭。"
   },
   {
    "ticker": "GLDG",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "GoldMining有长期稀释和推广劣迹，跌幅合理"
-  },
-  {
-   "ticker": "OGC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型金矿商跌幅温和，基本面相对稳定"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金矿勘探股缺乏近期钻探或并购消息，随板块下行且存在摊薄风险。"
   }
  ]
 }
