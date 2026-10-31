@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T21:52Z",
+ "generated_at": "2026-10-31T21:52Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股，无新闻且大幅回调，存在流动性与稀释风险。"
+   "ai_note": "铀矿微型勘探股无新闻且大跌，需警惕融资稀释风险。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "一月暴跌超四成且无消息，极可能存在增发稀释或钻探失败。"
+   "ai_adjust": -5,
+   "ai_note": "多元化微型勘探股暴跌且零消息，极可能存在项目停滞或稀释。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "标榜为锂生产商却遭重挫，需警惕基本面恶化或财务造假风险。"
+   "ai_adjust": -3,
+   "ai_note": "锂企股价大跌且无消息，需警惕基本面恶化或流动性风险。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "多元化勘探小盘股，缺乏近期催化剂，资金面承压易遭稀释。"
+   "ai_adjust": -2,
+   "ai_note": "资源勘探股持续下跌且无催化剂，需防范资金链断裂风险。"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴西钾矿开发商，面临环保审批与社区关系等潜在许可风险。"
+   "ai_adjust": -2,
+   "ai_note": "钾肥开发商股价回调且无新闻，需关注项目融资与审批进度。"
   },
   {
    "ticker": "LODE",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "历史上常有过度营销与频繁增发记录，需高度警惕治理与稀释风险。"
+   "ai_adjust": -4,
+   "ai_note": "黄金勘探股暴跌近四成且零消息，警惕管理层问题或项目失败。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金生产商随板块回调，基本面尚可，暂无明显负面催化。"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "格陵兰PGM勘探股单月暴跌近半，无新闻掩护下恐有重大利空。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "津巴布韦金矿生产商，需警惕当地政策变动及外汇管制等管辖风险。"
+   "ai_adjust": -6,
+   "ai_note": "铂族金属微型股暴跌且无消息，极大概率面临流动性枯竭或稀释。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "市值仅千万级别的铜矿微盘股，流动性极差且面临持续融资压力。"
+   "ai_note": "铜矿微型勘探股大跌且无新闻，需警惕高稀释率与项目停滞。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金矿生产商大幅下挫，需排查是否存在未披露的运营或成本问题。"
+   "ai_adjust": -3,
+   "ai_note": "黄金生产商股价大跌且缺乏消息，需警惕运营成本上升或品位下降。"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值多元化勘探股，缺乏新闻支撑，易受市场情绪拖累而下行。"
+   "ai_adjust": -2,
+   "ai_note": "多元化微型勘探股阴跌且无新闻，需防范持续融资稀释股东权益。"
   },
   {
    "ticker": "IONR",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "锂矿开发商抗跌，但Rhyolite Ridge项目仍面临融资与许可不确定性。"
-  },
-  {
-   "ticker": "IMPUY",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铂族金属巨头受累于金属价格疲软，南非与津巴布韦运营风险犹存。"
+   "ai_note": "锂矿开发商抗跌性较好，但缺乏短期催化剂，维持中性观望。"
   },
   {
    "ticker": "FMST",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "千万市值的清洁能源勘探微盘股，流动性枯竭风险大于基本面风险。"
+   "ai_note": "清洁能源微型勘探股缺乏消息且下跌，需警惕资金消耗过快。"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "中型银矿商随贵金属板块回调，宏观利率预期反复压制估值。"
+   "ai_adjust": 0,
+   "ai_note": "中型白银生产商随贵金属板块回调，无重大负面消息，中性看待。"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "直接提锂技术开发商资本开支大，在锂价低迷期面临严峻融资考验。"
+   "ai_adjust": -2,
+   "ai_note": "锂矿开发商股价回调，需关注项目融资进度及锂价波动影响。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "锂矿开发商受锂价低迷拖累，需关注项目推进与资金消耗情况。"
+  },
+  {
+   "ticker": "IMPUY",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铂族金属巨头随板块调整，基本面稳健，暂无需过度悲观。"
   },
   {
    "ticker": "KGC",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型金矿商基本面稳健，近期回调属板块正常联动，无重大瑕疵。"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "虽有能源部贷款支持，但Thacker Pass项目资本开支巨大，仍需关注进度。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "权证本身具有极高杠杆与稀释属性，正股大跌时权证流动性将枯竭。"
+   "ai_note": "黄金巨头随金价回调，成本管控良好，无重大治理或运营风险。"
   },
   {
    "ticker": "GLDG",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "金矿勘探股缺乏近期钻探或并购消息，随板块下行且存在摊薄风险。"
+   "ai_note": "黄金勘探股大跌且无新闻，需警惕项目延期或股权稀释风险。"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "认股权证流动性较差且正股大跌，需警惕杠杆风险与时间价值损耗。"
   }
  ]
 }
