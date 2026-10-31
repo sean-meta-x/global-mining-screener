@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-30T22:30Z",
+ "generated_at": "2026-10-31T22:30Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铝价波动叠加无消息大跌，需关注隐性利空"
+   "ai_note": "历史关联交易频繁，治理存疑，一月跌幅较大需警惕。"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂价下行周期，月跌近24%反映基本面恶化"
+   "ai_adjust": -3,
+   "ai_note": "锂价下行拖累多元业务，单月暴跌近24%基本面或恶化。"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中铝作为龙头表现稳健，短期调整属正常"
-  },
-  {
-   "ticker": "600490.SS",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "海外矿产治理存疑，大跌或反映项目风险"
+   "ai_note": "央企背景铝龙头，经营稳健但缺乏短期催化剂。"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铝箔产能过剩压力显现，月跌超25%需警惕"
+   "ai_adjust": -3,
+   "ai_note": "铝箔龙头但治理争议多，一月跌超25%需警惕风险。"
+  },
+  {
+   "ticker": "600490.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "海外矿产执行风险高，治理问题频出，红旗警示。"
   },
   {
    "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "天齐高负债收购后遗症叠加锂价暴跌，风险积聚"
-  },
-  {
-   "ticker": "000737.SZ",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "无消息暴跌超31%，疑似存在未披露重大风险"
+   "ai_adjust": -5,
+   "ai_note": "巨额债务收购SQM叠加锂价崩盘，财务风险极高。"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "云铝股份走势平稳，基本面暂无明显异常"
+   "ai_adjust": 1,
+   "ai_note": "水电绿铝优势明显，国企背景稳健，略偏积极。"
   },
   {
-   "ticker": "601001.SS",
+   "ticker": "000737.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "单月暴跌31%为全场最差，或存未反映的基本面恶化。"
+  },
+  {
+   "ticker": "000792.SZ",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭行业承压但公司稳健，小幅回调可接受"
+   "ai_note": "钾肥提供安全垫但锂价承压，重组后仍需观察。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "天山铝业走势平稳，大型铝企抗风险能力强"
+   "ai_note": "大型铝企经营平稳，无明显催化或风险。"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "煤铝双主业抗周期，一月几乎持平表现最优。"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "神火股份月线几乎持平，经营稳定性较好"
+   "ai_note": "国企煤炭平稳运行，无突出亮点或风险。"
+  },
+  {
+   "ticker": "600157.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "曾有债券违约和债务重组历史，治理风险犹存。"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南山铝业小幅回调，产业链一体化优势明显"
-  },
-  {
-   "ticker": "600711.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "盛屯矿业曾有财务问题前科，暴跌需高度警惕"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "山煤国际回调幅度适中，煤炭板块整体承压"
+   "ai_note": "产业链完整但母公司关联交易历史需关注。"
   },
   {
    "ticker": "600508.SS",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "大屯能源月跌超21%异常，煤炭股不应如此"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中煤子公司，单月跌超21%需关注煤价下行压力。"
   },
   {
    "ticker": "600971.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "恒源煤电跌幅偏大，需关注是否有隐性问题"
-  },
-  {
-   "ticker": "000792.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "盐湖钾锂龙头受锂价拖累，但资源禀赋优越"
-  },
-  {
-   "ticker": "002379.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "宏桥作为铝龙头回调幅度可控，基本面扎实"
+   "ai_adjust": 0,
+   "ai_note": "小型煤企，经营中规中矩无特殊风险。"
   },
   {
    "ticker": "301219.SZ",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "腾远钴业小盘股暴跌近28%，流动性风险大"
+   "ai_adjust": -3,
+   "ai_note": "钴价低迷叠加次新股流动性差，单月暴跌27%。"
   },
   {
-   "ticker": "601958.SS",
+   "ticker": "600546.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "山西国企煤炭，运行平稳无突出风险。"
+  },
+  {
+   "ticker": "002379.SZ",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金钼股份月跌超24%，钼价下行压力显现"
+   "ai_adjust": -2,
+   "ai_note": "民营铝巨头曾遭做空，关联交易风险仍需警惕。"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "历史亏损严重财务基础薄弱，持续经营能力存疑。"
   }
  ]
 }
