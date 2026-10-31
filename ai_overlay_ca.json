@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T22:51Z",
+ "generated_at": "2026-10-31T22:52Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MRZL.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微市值暴跌40%且零新闻，疑似稀释或项目失败"
+   "ai_note": "微型市值无新闻且暴跌40%，高度疑似融资稀释或钻探失败"
   },
   {
    "ticker": "THX.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "5.8亿市值却无任何新闻覆盖，高分存疑"
+   "ai_adjust": -3,
+   "ai_note": "大市值勘探公司零新闻流且月跌24%，信息真空令人不安"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "生产商身份但零新闻且跌25%，运营或有隐忧"
+   "ai_adjust": -3,
+   "ai_note": "标注为生产商却无任何运营新闻，月跌20%需警惕"
   },
   {
    "ticker": "YMC.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "小市值暴跌42%无新闻，流动性风险极高"
-  },
-  {
-   "ticker": "MMY.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "2.4亿市值跌19%无消息，市场信心不足"
+   "ai_adjust": -7,
+   "ai_note": "小市值零新闻暴跌42%，量化高分与走势严重背离"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "开发商跌29%无新闻，许可或融资存疑"
+   "ai_adjust": -3,
+   "ai_note": "开发商阶段零新闻月跌29%，缺乏催化剂支撑"
   },
   {
-   "ticker": "SBI.TO",
+   "ticker": "MMY.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "生产商跌近30%零新闻，基本面或恶化"
+   "ai_adjust": -3,
+   "ai_note": "2.4亿市值勘探公司无新闻，月跌18%信号偏弱"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "1500万市值跌37.5%无新闻，壳公司风险"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "跌幅仅5.6%相对抗跌，但零新闻仍需谨慎"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅1000万且跌23%，极度缺乏流动性"
-  },
-  {
-   "ticker": "MANU.V",
-   "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "1480万市值暴跌36%无新闻，勘探或失败"
+   "ai_note": "微型市值铜矿勘探零新闻暴跌38%，流动性风险极高"
   },
   {
-   "ticker": "SAM.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "2400万市值跌37.5%零新闻，治理风险高"
-  },
-  {
-   "ticker": "JUGR.V",
+   "ticker": "SBI.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值跌12%无新闻，市场关注度极低"
+   "ai_adjust": -3,
+   "ai_note": "生产商零新闻月跌近30%，运营或合规可能存隐患"
   },
   {
    "ticker": "AVL.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "多元化勘探商跌16%无消息，进展不明"
+   "ai_adjust": -3,
+   "ai_note": "小市值多元勘探零新闻月跌16%，缺乏可见催化剂"
+  },
+  {
+   "ticker": "SAM.TO",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "小市值零新闻暴跌38%，量化评分虚高需人工复核"
+  },
+  {
+   "ticker": "JUGR.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值金矿勘探零新闻月跌12%，暂无明确利好"
   },
   {
    "ticker": "IRV.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "小市值跌30%无新闻，疑似稀释或弃矿"
+   "ai_adjust": -5,
+   "ai_note": "小市值零新闻月跌30%，信息空白加剧下行风险"
+  },
+  {
+   "ticker": "CPAU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微型市值仅一千万零新闻月跌18%，壳股特征明显"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "月线持平无新闻，暂无明显利好或利空信号"
   },
   {
    "ticker": "MSV.TO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "2680万市值跌26%零新闻，催化剂缺失"
+   "ai_adjust": -3,
+   "ai_note": "小市值银矿勘探零新闻月跌25%，缺乏驱动因素"
   },
   {
    "ticker": "VCU.V",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "7000万市值跌37%无新闻，大市值也失守"
+   "ai_note": "七千万市值零新闻暴跌37%，量化评分与实际严重脱节"
   },
   {
    "ticker": "GPAC.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "开发商跌29%无新闻，许可推进存疑"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "唯一正收益但市值过小，持续性待观察"
+   "ai_adjust": -3,
+   "ai_note": "小市值开发商零新闻月跌29%，项目推进存疑"
   },
   {
    "ticker": "V.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铀矿勘探仅跌1.5%相对稳健，暂无催化"
+   "ai_note": "铀矿勘探零新闻但月线仅微跌，走势相对抗跌"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "名称为铀矿却归类金矿，分类错误暗示数据质量问题"
+  },
+  {
+   "ticker": "SLV.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型市值零新闻月跌25%，流动性与信息双重匮乏"
   }
  ]
 }
