@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-30T22:03Z",
+ "generated_at": "2026-10-31T22:03Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
    "ticker": "THX.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "开发阶段执行风险高，单月大跌无消息面支撑"
+   "ai_adjust": -2,
+   "ai_note": "开发商阶段执行风险高，一月跌幅显著"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值金矿生产商，单月跌25%流动性风险突出"
+   "ai_note": "小市值金矿商跌幅最大，运营风险凸显"
   },
   {
    "ticker": "POW.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型市值铀矿勘探商，稀释与推广风险极高"
-  },
-  {
-   "ticker": "CMCL.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦Blanket矿面临政策与汇兑结构性风险"
+   "ai_note": "微型市值勘探公司，稀释风险极高"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "巴尔干运营面临环保许可与运营挑战"
+   "ai_note": "哈萨克斯坦地缘政治风险被量化模型低估"
   },
   {
-   "ticker": "THS.L",
+   "ticker": "CMCL.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "PGM价格疲软叠加南非电力与劳工运营风险"
+   "ai_note": "津巴布韦国家风险高，政策不确定性大"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "小市值PGM生产商，历史存在治理与推广争议"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "公司频繁融资稀释股东权益"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铂族金属价格疲软但基本面尚可"
   },
   {
    "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "铀实物信托，纯铀敞口工具，表现稳健"
-  },
-  {
-   "ticker": "SLP.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南非PGM尾矿处理商，PGM板块整体承压"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "实物铀持仓结构透明，走势相对稳健"
   },
   {
    "ticker": "AURA.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型市值铀矿勘探商，毛里塔尼亚项目执行风险大"
+   "ai_note": "铀矿勘探阶段风险高，跌幅明显"
   },
   {
    "ticker": "KEFI.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "埃塞俄比亚项目面临显著地缘政治与安全风险"
+   "ai_adjust": -3,
+   "ai_note": "埃塞俄比亚政治风险叠加开发阶段不确定性"
+  },
+  {
+   "ticker": "SLP.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南非铂族金属生产商受行业周期影响"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲多元化生产商，金铁双轮驱动表现相对稳定"
+   "ai_note": "跌幅温和，暂无明显额外风险"
   },
   {
    "ticker": "RSG.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "马里Syama矿面临军政府矿业法变更管辖风险"
+   "ai_adjust": -2,
+   "ai_note": "马里矿区运营挑战持续"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非金矿尾矿处理，地表作业风险较低但受南非拖累"
+   "ai_adjust": 0,
+   "ai_note": "尾矿处理模式稳定，跌幅可控"
   },
   {
    "ticker": "ALTN.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "哈萨克斯坦金矿商，管辖风险上升叠加显著跌幅"
+   "ai_adjust": -2,
+   "ai_note": "跌幅较大但信息有限，需持续关注"
   },
   {
    "ticker": "HOC.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "秘鲁阿根廷运营，社区冲突与资本管制风险突出"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "治理问题和运营困难持续，跌幅显著"
   },
   {
    "ticker": "ECOR.L",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "多元化版税模式降低运营风险，但新上市尚待验证"
-  },
-  {
-   "ticker": "VALT.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南非PGM大型生产商，PGM价格疲软与运营风险并存"
+   "ai_adjust": 0,
+   "ai_note": "特许权使用费模式提供下行保护"
   },
   {
    "ticker": "KAV.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型市值勘探商，历史推广争议与稀释风险突出"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型市值勘探公司，流动性风险高"
   },
   {
    "ticker": "PAF.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南非金矿商，地下开采安全与运营风险持续存在"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南非金矿商，行业逆风但运营稳定"
+  },
+  {
+   "ticker": "GGP.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "收购过渡期，不确定性尚存"
   }
  ]
 }
