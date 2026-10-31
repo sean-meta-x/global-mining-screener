@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T22:12Z",
+ "generated_at": "2026-10-31T22:12Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微盘股流动性差，缺乏基本面催化，警惕流动性折价。"
+   "ai_note": "小盘股无新闻流，流动性与治理风险需警惕"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭小盘股，业绩受煤价波动影响大，存在治理风险。"
-  },
-  {
-   "ticker": "IFSH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "跌幅显著，多元化业务缺乏核心亮点，需防范基本面恶化。"
+   "ai_note": "煤炭股跌幅超板块均值，无消息面支撑需警惕"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "逆势抗跌，煤炭主业现金流尚可，短期具备防御价值。"
-  },
-  {
-   "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金价高位但股价大跌，可能存在隐性成本超支或品位下降。"
+   "ai_adjust": -4,
+   "ai_note": "极小盘煤炭股，流动性差且缺乏信息透明度"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "跌幅较小，长协煤比例高，业绩确定性相对较强。"
+   "ai_adjust": -1,
+   "ai_note": "跌幅温和属板块联动，暂无明显异常信号"
+  },
+  {
+   "ticker": "IFSH.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "跌幅近三七成且无任何消息，疑似隐藏利空"
   },
   {
    "ticker": "UNTR.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "阿斯特拉旗下核心资产，基本面扎实，量化低估了其龙头溢价。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型蓝筹跌幅温和，属板块系统性回调"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "黄金股逆势大跌，或存运营或品位问题"
   },
   {
    "ticker": "DEWA.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "跌幅居前，煤炭外包业务利润率承压，需警惕应收账款风险。"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "估值已回落至合理区间，但煤炭周期下行仍需时间消化。"
+   "ai_adjust": -5,
+   "ai_note": "中型煤企暴跌超三五成，需排查隐性利空"
   },
   {
    "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "极小市值，流动性极差，存在典型的壳资源炒作与治理风险。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "极小盘煤炭股，市值仅千亿印尼盾风险极高"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中型煤企跌幅偏大，无新闻披露令人担忧"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "多元化转型成效未显，主业盈利能力弱，防范边缘化风险。"
+   "ai_adjust": -4,
+   "ai_note": "小盘多元化矿企，跌幅偏大且信息不透明"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锡价波动剧烈，小矿企抗风险能力弱，警惕环保停产风险。"
+   "ai_note": "锡业股暴跌逾三成，需关注是否存在隐性风险"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企背景提供安全边际，但体制僵化导致效率偏低，中性看待。"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "镍价低迷拖累业绩，但RKEF产能释放仍具长期看点。"
-  },
-  {
-   "ticker": "MBMA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "新能源金属周期下行，前期资本开支大，警惕债务与稀释风险。"
+   "ai_adjust": -2,
+   "ai_note": "国有锡业龙头，跌幅属板块联动暂无异常"
   },
   {
    "ticker": "INDY.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭主业承压，新能源转型尚处投入期，短期业绩缺乏支撑。"
+   "ai_adjust": -4,
+   "ai_note": "中型煤企跌幅超三成，无消息面或藏利空"
   },
   {
    "ticker": "MDKA.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铜金项目资本开支巨大，存在潜在股权稀释与工期延误风险。"
+   "ai_adjust": -5,
+   "ai_note": "大盘铜金股暴跌三四成，需警惕稀释或项目风险"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "镍业龙头跌幅温和，属板块系统性调整"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭开采成本上升，利润率收窄，需关注大股东质押情况。"
+   "ai_adjust": -4,
+   "ai_note": "煤炭股跌幅近三成，无新闻披露需保持警惕"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极小且暴跌，基本面薄弱，高度疑似资金盘炒作，坚决规避。"
+   "ai_adjust": -7,
+   "ai_note": "极小盘煤企暴跌近四成，流动性与治理风险极高"
+  },
+  {
+   "ticker": "MBMA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "大盘电池材料股暴跌三七成，警惕稀释风险"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "逆势微涨，资产注入预期仍在，但需警惕重组不及预期风险。"
+   "ai_adjust": 0,
+   "ai_note": "逆势微涨跑赢板块，暂无明显负面信号"
   }
  ]
 }
