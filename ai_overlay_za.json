@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-30T22:07Z",
+ "generated_at": "2026-10-31T22:07Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "PGM价格疲软，月跌14%反映行业逆风"
-  },
-  {
-   "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史频繁稀释融资，治理与资本分配存疑"
+   "ai_adjust": 0,
+   "ai_note": "PGM价格低迷叠加南非电力物流瓶颈，基本面承压，量化未充分反映宏观逆风。"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铁矿石需求承压，但大型生产商相对稳定"
+   "ai_adjust": -2,
+   "ai_note": "铁矿石需求疲软且分红预期下调，高股息吸引力下降，需防范价格下行风险。"
+  },
+  {
+   "ticker": "JBL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值偏小且频繁资本运作，流动性差，量化模型易忽视其频繁增发与治理风险。"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小型铬矿商，流动性有限，依赖格伦科"
-  },
-  {
-   "ticker": "IMP.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "PGM板块整体疲软，月跌近12%需警惕"
+   "ai_adjust": -3,
+   "ai_note": "铬铁合金高度依赖稳定电力，南非限电严重拖累产能，量化未计入停产风险。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "运营成本高企，劳资关系紧张，治理风险突出"
+   "ai_adjust": -5,
+   "ai_note": "PGM业务严重拖累整体盈利，深井矿安全与电力成本居高不下，下行风险大。"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "纯PGM标的受金属价格暴跌冲击最大，且南非运营成本高企，盈利弹性丧失。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅5500万，流动性极差，微盘股风险极高"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "刚果(金)政治风险高，锡价波动大"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "管理层资本配置存疑，但多元化提供缓冲"
+   "ai_adjust": -8,
+   "ai_note": "市值仅五千万且毫无流动性，微盘股极易被操纵或面临融资困境，纯属炒作。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "有色宝石商非PGM，分类存疑，小盘股"
+   "ai_adjust": 0,
+   "ai_note": "有色宝石与PGM双主业受宏观消费降级影响，基本面平稳但缺乏短期催化剂。"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "锡价波动剧烈且刚果金地缘与物流风险高，量化模型难以准确定价此类尾部风险。"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "煤炭与PGM资产均处周期逆风，本土化政策增加合规成本，短期缺乏向上动能。"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非金矿成本高，金价强势但利润率受限"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金价高位回调叠加南非深井矿成本失控，利润率受挤压，需警惕盈利不及预期。"
   },
   {
    "ticker": "PAN.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "产量增长稳健，尾矿再处理提供成本优势"
-  },
-  {
-   "ticker": "EPS.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小盘PGM商，历史财务不佳，流动性差"
+   "ai_note": "黄金资产受金价回调拖累，且南非电力与劳动力问题持续侵蚀现金流。"
   },
   {
    "ticker": "NPH.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "PGM行业中管理较好，但板块整体承压"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "新分拆上市，月跌11%，PGM逆风明显"
+   "ai_note": "虽为PGM优质标的，但行业整体逆风难挡，估值修复需等待金属价格企稳。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "全球资产分散风险，金价高位支撑业绩"
+   "ai_note": "海外资产分散了南非风险，金价回调下仍具韧性，但短期缺乏大幅上涨催化。"
   },
   {
-   "ticker": "SLG.JO",
+   "ticker": "EPS.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值微小且历史上有财务与治理瑕疵，流动性枯竭，量化高分属典型的数据陷阱。"
+  },
+  {
+   "ticker": "VAL.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型煤炭股，ESG压力加大，流动性堪忧"
-  },
-  {
-   "ticker": "EUZ.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "勘探股月暴跌52%，疑钻探失败或融资稀释"
+   "ai_note": "刚分拆的PGM巨头面临行业寒冬，资产庞大但盈利受抑，需观察重组后成本削减。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "尾矿回收模式风险较低，月涨2%显韧性"
+   "ai_adjust": -1,
+   "ai_note": "尾矿回收业务受金价支撑，但南非电价上涨大幅推升运营成本，利润空间受限。"
   },
   {
-   "ticker": "EXX.JO",
+   "ticker": "SLG.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微盘煤炭股流动性极差且ESG风险高，短期暴涨多为游资炒作，谨防流动性陷阱。"
+  },
+  {
+   "ticker": "ANG.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "短期涨势强但煤炭长期面临ESG退出压力"
+   "ai_adjust": 0,
+   "ai_note": "全球化布局对冲了部分南非风险，金价回调属正常波动，长期基本面依然稳健。"
+  },
+  {
+   "ticker": "EUZ.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "单月暴跌超50%且市值极小，极大概率遭遇钻探失败或恶性稀释，典型勘探股雷区。"
   }
  ]
 }
