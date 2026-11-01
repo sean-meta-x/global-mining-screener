@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-31T22:12Z",
+ "generated_at": "2026-11-01T22:11Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘股无新闻流，流动性与治理风险需警惕"
+   "ai_adjust": -5,
+   "ai_note": "微市值矿企无新闻，流动性与治理风险高"
   },
   {
    "ticker": "DWGL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭股跌幅超板块均值，无消息面支撑需警惕"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "小市值煤企跌幅较大，需关注流动性"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "极小盘煤炭股，流动性差且缺乏信息透明度"
+   "ai_adjust": -6,
+   "ai_note": "逆市上涨无消息支撑，警惕炒作拉升"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "跌幅温和属板块联动，暂无明显异常信号"
+   "ai_note": "跌幅温和基本面尚可但市值偏小"
   },
   {
    "ticker": "IFSH.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "跌幅近三七成且无任何消息，疑似隐藏利空"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "暴跌近三七成且无消息，存经营隐患"
   },
   {
    "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型蓝筹跌幅温和，属板块系统性回调"
+   "ai_view": "bullish",
+   "ai_adjust": 1,
+   "ai_note": "阿斯特新矿旗下龙头，治理与流动性最佳"
   },
   {
-   "ticker": "PSAB.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "黄金股逆势大跌，或存运营或品位问题"
+   "ticker": "FIRE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值不足千万美元，壳公司与操纵风险极高"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "萨林集团旗下中型煤企，跌幅属正常范围"
   },
   {
    "ticker": "DEWA.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "中型煤企暴跌超三五成，需排查隐性利空"
-  },
-  {
-   "ticker": "FIRE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "极小盘煤炭股，市值仅千亿印尼盾风险极高"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中型煤企跌幅偏大，无新闻披露令人担忧"
+   "ai_adjust": -4,
+   "ai_note": "暴跌逾三五成无消息解释，需警惕"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "小盘多元化矿企，跌幅偏大且信息不透明"
+   "ai_note": "微市值多元化矿企，信息透明度低"
+  },
+  {
+   "ticker": "PSAB.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金价高位却大跌，或存产量与成本问题"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锡业股暴跌逾三成，需关注是否存在隐性风险"
+   "ai_note": "锡价承压叠加暴跌，基本面存疑"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "国有锡业龙头，跌幅属板块联动暂无异常"
-  },
-  {
-   "ticker": "INDY.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "中型煤企跌幅超三成，无消息面或藏利空"
-  },
-  {
-   "ticker": "MDKA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "大盘铜金股暴跌三四成，需警惕稀释或项目风险"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "镍业龙头跌幅温和，属板块系统性调整"
+   "ai_note": "国企锡业龙头，受锡价下行拖累"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "煤炭股跌幅近三成，无新闻披露需保持警惕"
+   "ai_note": "小市值煤矿承包商，跌幅显著"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "极小盘煤企暴跌近四成，流动性与治理风险极高"
+   "ai_adjust": -8,
+   "ai_note": "市值极小且暴跌近四成，壳风险高"
   },
   {
    "ticker": "MBMA.JK",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "大盘电池材料股暴跌三七成，警惕稀释风险"
+   "ai_note": "电池材料概念退潮，暴跌三七成"
+  },
+  {
+   "ticker": "MDKA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "默迪卡系铜金矿企跌幅过大需关注"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "哈立达镍业龙头，跌幅相对温和"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "逆势微涨跑赢板块，暂无明显负面信号"
+   "ai_note": "逆市微涨基本面平稳但无催化剂"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型煤企跌幅温和，基本面稳健"
   }
  ]
 }
