@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-10-31T22:30Z",
+ "generated_at": "2026-11-01T22:27Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史关联交易频繁，治理存疑，一月跌幅较大需警惕。"
+   "ai_adjust": -3,
+   "ai_note": "铝价承压且公司治理历史包袱较重，短期动量破位。"
   },
   {
    "ticker": "002497.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂价下行拖累多元业务，单月暴跌近24%基本面或恶化。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "锂盐价格持续探底，业绩预期大幅下修，跌幅异常需警惕。"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企背景铝龙头，经营稳健但缺乏短期催化剂。"
+   "ai_note": "行业龙头抗跌性较强，但受宏观需求疲软拖累，维持中性。"
   },
   {
-   "ticker": "603876.SS",
+   "ticker": "000792.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铝箔龙头但治理争议多，一月跌超25%需警惕风险。"
-  },
-  {
-   "ticker": "600490.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "海外矿产执行风险高，治理问题频出，红旗警示。"
+   "ai_adjust": -2,
+   "ai_note": "钾肥业务提供安全垫，但锂业务拖累整体估值修复。"
   },
   {
    "ticker": "002466.SZ",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "巨额债务收购SQM叠加锂价崩盘，财务风险极高。"
+   "ai_note": "锂价低迷叠加高财务杠杆，盈利空间受严重挤压。"
   },
   {
-   "ticker": "000807.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "水电绿铝优势明显，国企背景稳健，略偏积极。"
-  },
-  {
-   "ticker": "000737.SZ",
+   "ticker": "603876.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "单月暴跌31%为全场最差，或存未反映的基本面恶化。"
-  },
-  {
-   "ticker": "000792.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钾肥提供安全垫但锂价承压，重组后仍需观察。"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铝企经营平稳，无明显催化或风险。"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "煤铝双主业抗周期，一月几乎持平表现最优。"
+   "ai_adjust": -4,
+   "ai_note": "电池铝箔加工费持续下行，产能过剩风险压制估值。"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企煤炭平稳运行，无突出亮点或风险。"
+   "ai_adjust": -1,
+   "ai_note": "煤价中枢下移，但长协比例高提供一定业绩韧性。"
+  },
+  {
+   "ticker": "600490.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "海外矿产项目存争议且公司治理薄弱，暴跌或反映隐性风险。"
   },
   {
    "ticker": "600157.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "曾有债券违约和债务重组历史，治理风险犹存。"
+   "ai_note": "历史债务违约阴影仍在，转型新能源进展需持续跟踪。"
   },
   {
-   "ticker": "600219.SS",
+   "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "产业链完整但母公司关联交易历史需关注。"
+   "ai_adjust": 1,
+   "ai_note": "绿电铝成本优势显著，抗跌性强，具备一定防御价值。"
+  },
+  {
+   "ticker": "000737.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "无利空公告下股价闪崩，需警惕未披露的业绩暴雷或资金链风险。"
+  },
+  {
+   "ticker": "002532.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "一体化成本优势稳固，股价表现相对坚挺，维持中性。"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤电铝协同效应良好，股价极度抗跌，基本面扎实。"
   },
   {
    "ticker": "600508.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中煤子公司，单月跌超21%需关注煤价下行压力。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭板块整体回调，该股跌幅偏大，需关注产能接续情况。"
   },
   {
    "ticker": "600971.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小型煤企，经营中规中矩无特殊风险。"
-  },
-  {
-   "ticker": "301219.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "钴价低迷叠加次新股流动性差，单月暴跌27%。"
+   "ai_adjust": -1,
+   "ai_note": "区域煤炭龙头，业绩受煤价波动影响，估值处于合理区间。"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西国企煤炭，运行平稳无突出风险。"
+   "ai_note": "动力煤长协占比高，业绩确定性强，随板块正常调整。"
+  },
+  {
+   "ticker": "301219.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "钴价持续低迷且下游需求疲软，次新股流动性折价显现。"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "航空铝材及汽车板需求稳健，高端化转型支撑估值。"
   },
   {
    "ticker": "002379.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "民营铝巨头曾遭做空，关联交易风险仍需警惕。"
+   "ai_adjust": -3,
+   "ai_note": "控股股东变更后的整合期，历史重组包袱需警惕治理风险。"
   },
   {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史亏损严重财务基础薄弱，持续经营能力存疑。"
+   "ticker": "600740.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "焦化行业利润受上下游挤压，需求端复苏缓慢压制弹性。"
   }
  ]
 }
