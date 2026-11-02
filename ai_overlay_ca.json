@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-01T22:50Z",
+ "generated_at": "2026-11-02T22:51Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "高分暴跌40%无任何消息，极可能已融资稀释"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微盘勘探股无量阴跌，警惕隐性融资稀释。"
   },
   {
    "ticker": "THX.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值最大但跌24%且无新闻，需警惕流动性风险"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "中大盘金矿股随板块回调，暂无明显基本面恶化。"
   },
   {
-   "ticker": "LIFT.V",
+   "ticker": "MJS.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "黄金生产商近期回调，具备一定抗跌属性。"
+  },
+  {
+   "ticker": "YMC.CN",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "开发阶段公司跌29%无消息，项目或遇阻"
+   "ai_adjust": -5,
+   "ai_note": "小盘勘探股跌幅异常，需防范钻探不及预期风险。"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "跌幅相对可控，中盘金矿股正常市场波动。"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微盘暴跌37%零消息，高度疑似稀释或钻探失败"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "标为生产商却跌20%无新闻，运营或存隐忧"
-  },
-  {
-   "ticker": "AVL.TO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "跌幅相对温和但无催化剂，关注许可证进展"
-  },
-  {
-   "ticker": "YMC.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "暴跌42%全板块最惨且无消息，极高风险"
-  },
-  {
-   "ticker": "MMY.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "2.4亿市值跌18%无新闻，需排查治理问题"
-  },
-  {
-   "ticker": "SBI.TO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "生产商跌近30%无消息，矿山运营或出问题"
-  },
-  {
-   "ticker": "SAM.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微盘暴跌37%零消息，疑似融资或项目失败"
-  },
-  {
-   "ticker": "JUGR.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "跌幅较小但微盘无消息，流动性风险仍存"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微盘跌30%无新闻，高度疑似稀释或钻探失败"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅千万跌18%无消息，壳公司风险极高"
-  },
-  {
-   "ticker": "MANU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "铀矿勘探暴跌33%无消息，钻探结果或极差"
-  },
-  {
-   "ticker": "SLV.CN",
-   "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "微盘跌25%零消息，融资稀释可能性大"
+   "ai_note": "微盘铜矿流动性枯竭，极易遭遇定向增发稀释。"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "唯一零跌幅但无消息，横盘或等待催化剂"
+   "ai_note": "跌幅相对温和，但小盘股仍需关注后续资金面。"
   },
   {
-   "ticker": "TITI.V",
+   "ticker": "AVL.TO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "稀有金属勘探股随大盘调整，暂无突发利空。"
+  },
+  {
+   "ticker": "CPAU.V",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "微盘暴跌38%无消息，高度疑似稀释或失败"
+   "ai_note": "市值不足两千万，流动性极差且面临极高稀释风险。"
+  },
+  {
+   "ticker": "LIFT.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂电材料板块持续疲软，开发期项目资金消耗大。"
+  },
+  {
+   "ticker": "JUGR.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "走势相对抗跌，但微盘股需警惕流动性折价。"
+  },
+  {
+   "ticker": "SBI.TO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "黄金生产商受金价波动影响，基本面暂无大碍。"
   },
   {
    "ticker": "MSV.TO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "跌25%无新闻，小盘白银勘探风险较大"
+   "ai_note": "小盘金矿股放量下跌，需排查是否存在未披露利空。"
   },
   {
-   "ticker": "V.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "仅跌1.5%表现最佳，铀矿板块或有支撑"
-  },
-  {
-   "ticker": "IBAT.V",
+   "ticker": "IRV.CN",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "电池金属概念跌11%无消息，需关注融资动向"
+   "ai_note": "边缘小盘金矿，市场关注度低，易受资金抛弃。"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微盘股缺乏机构覆盖，需警惕隐性治理或资金风险。"
+  },
+  {
+   "ticker": "TITI.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "单月暴跌四成且无新闻，极大概率存在未披露利空。"
+  },
+  {
+   "ticker": "IPT.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "白银生产商随贵金属板块调整，现金流尚可。"
+  },
+  {
+   "ticker": "SAM.TO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "跌幅显著偏离大盘，需防范项目延期或融资摊薄。"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微盘多元化勘探股流动性差，存在较高的生存风险。"
+  },
+  {
+   "ticker": "VCU.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "近期跌幅过大，量化模型未能反映资金出逃现状。"
   }
  ]
 }
