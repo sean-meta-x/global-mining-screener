@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-01T22:11Z",
+ "generated_at": "2026-11-02T22:13Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微市值矿企无新闻，流动性与治理风险高"
+   "ai_adjust": -2,
+   "ai_note": "量化高分但月跌15%，小盘无消息面支撑需警惕"
   },
   {
    "ticker": "DWGL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤企跌幅较大，需关注流动性"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌25%无新闻解释，煤炭小盘流动性风险大"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "逆市上涨无消息支撑，警惕炒作拉升"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "走势平稳但市值偏小，缺乏催化剂观望为主"
   },
   {
-   "ticker": "MYOH.JK",
+   "ticker": "UNTR.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅温和基本面尚可但市值偏小"
+   "ai_adjust": 0,
+   "ai_note": "阿斯特朗系大盘蓝筹，回调温和基本面稳健"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "暴跌近三七成且无消息，存经营隐患"
+   "ai_adjust": -3,
+   "ai_note": "月跌超30%无利好对冲，需排查未披露风险"
   },
   {
-   "ticker": "UNTR.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "阿斯特新矿旗下龙头，治理与流动性最佳"
+   "ticker": "MYOH.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "走势平稳无异常，煤炭板块承压下表现中性"
   },
   {
    "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值不足千万美元，壳公司与操纵风险极高"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值仅1270亿极小盘，月跌16%流动性堪忧"
   },
   {
    "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "萨林集团旗下中型煤企，跌幅属正常范围"
-  },
-  {
-   "ticker": "DEWA.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "暴跌逾三五成无消息解释，需警惕"
+   "ai_adjust": -2,
+   "ai_note": "中型煤炭股月跌14%，板块弱势缺乏独立行情"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微市值多元化矿企，信息透明度低"
+   "ai_adjust": -3,
+   "ai_note": "小盘月跌21%无新闻，需防治理或稀释风险"
+  },
+  {
+   "ticker": "NICL.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "月暴跌35%零消息，锡矿股或存未披露重大利空"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金价高位却大跌，或存产量与成本问题"
-  },
-  {
-   "ticker": "NICL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锡价承压叠加暴跌，基本面存疑"
+   "ai_adjust": -2,
+   "ai_note": "黄金股月跌21%跑输金价，需关注产量成本问题"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "国企锡业龙头，受锡价下行拖累"
+   "ai_adjust": -1,
+   "ai_note": "国企锡业龙头大盘股，回调属板块联动暂无异常"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值煤矿承包商，跌幅显著"
+   "ai_adjust": -3,
+   "ai_note": "月跌近30%无消息，煤炭承包商需防应收风险"
   },
   {
-   "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极小且暴跌近四成，壳风险高"
-  },
-  {
-   "ticker": "MBMA.JK",
+   "ticker": "DEWA.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "电池材料概念退潮，暴跌三七成"
-  },
-  {
-   "ticker": "MDKA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "默迪卡系铜金矿企跌幅过大需关注"
+   "ai_adjust": -3,
+   "ai_note": "月跌近30%无利好，煤炭弱势中小盘承压明显"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "哈立达镍业龙头，跌幅相对温和"
+   "ai_note": "镍业大盘股回调温和，新能源需求逻辑未变"
+  },
+  {
+   "ticker": "ANTM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "国企综合矿业龙头，回调幅度合理估值有支撑"
+  },
+  {
+   "ticker": "INAI.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值仅735亿极小盘月跌24%，铝加工流动性极差"
   },
   {
    "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "逆市微涨基本面平稳但无催化剂"
+   "ai_adjust": 1,
+   "ai_note": "少数正收益标的逆势走强，或有基本面支撑"
   },
   {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤企跌幅温和，基本面稳健"
+   "ticker": "RMKO.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值2790亿月暴跌34%零消息，典型小盘陷阱"
+  },
+  {
+   "ticker": "MDKA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "大盘铜金股月跌31%超预期，需排查项目进度"
   }
  ]
 }
