@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-01T22:01Z",
+ "generated_at": "2026-11-02T22:02Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
    "ticker": "THX.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "科特迪瓦金矿开发阶段，资本开支大且存稀释风险。"
+   "ai_adjust": -4,
+   "ai_note": "尼日利亚司法风险高，开发阶段执行不确定性大，量化评分偏高"
   },
   {
    "ticker": "SRB.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "巴西小市值金矿商，历史运营与流动性风险较高。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "巴西小型金矿商，产量有限且缺乏资产多元化"
   },
   {
    "ticker": "POW.L",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "极小市值铀矿勘探商，无营收且存在极高炒作与融资风险。"
+   "ai_adjust": -5,
+   "ai_note": "市值仅1270万英镑的微型勘探公司，量化评分严重偏高"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴尔干半岛铜锌矿商，基本面稳健但受地缘政治压制。"
+   "ai_adjust": -1,
+   "ai_note": "北马其顿铜矿生产商，铜价波动敏感但运营相对稳定"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦金矿商，虽然分红稳定但面临较高辖区风险。"
+   "ai_adjust": -4,
+   "ai_note": "津巴布韦运营面临严重司法与政策风险，量化模型低估"
   },
   {
    "ticker": "THS.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦铂族金属矿商，受当地政策与汇率风险拖累。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "铂族金属价格崩溃，南非运营成本攀升，行业逆风严重"
   },
   {
    "ticker": "JLP.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "业务结构复杂且并购激进，存在隐性债务与股权稀释风险。"
+   "ai_adjust": -3,
+   "ai_note": "南非铂族金属小盘股，行业低迷叠加流动性风险"
   },
   {
    "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "纯铀价敞口信托，无运营风险，近期抗跌显韧性。"
-  },
-  {
-   "ticker": "SLP.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南非尾矿铂族金属商，成本低但受南非宏观环境制约。"
+   "ai_note": "实物铀基金，铀市场基本面稳健，估值合理"
   },
   {
    "ticker": "AURA.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "毛里塔尼亚铀矿勘探商，项目处于早期且资金链脆弱。"
+   "ai_note": "毛里塔尼亚勘探阶段公司，无收入且司法风险较高"
+  },
+  {
+   "ticker": "SLP.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "南非铂族金属生产商，PGM价格暴跌严重冲击盈利前景"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "西澳多元矿商，业绩平稳但股票流动性较差。"
-  },
-  {
-   "ticker": "KEFI.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "埃塞俄比亚金铜开发商，辖区风险极高且面临严峻融资挑战。"
-  },
-  {
-   "ticker": "ECOR.L",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "铜锌royalty公司，抗风险能力强但缺乏黄金弹性。"
+   "ai_adjust": -1,
+   "ai_note": "澳大利亚金矿生产商，司法稳定但近期表现平淡"
   },
   {
    "ticker": "RSG.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "马里矿区安全局势恶化，政变后外资风险剧增"
+  },
+  {
+   "ticker": "KEFI.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "马里金矿中坚，高品位难掩当地地缘与社区干预风险。"
+   "ai_note": "埃塞俄比亚开发阶段项目，融资与许可风险并存"
   },
   {
-   "ticker": "KAV.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "纳米比亚极小市值勘探商，纯概念炒作，失败概率极高。"
+   "ticker": "PAF.L",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "南非深部金矿成本压力大，但资产组合相对多元"
   },
   {
-   "ticker": "0ICU.L",
+   "ticker": "GEM.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "南非尾矿金商，成本低廉但受制于南非电力与政策风险。"
-  },
-  {
-   "ticker": "ALTN.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "吉尔吉斯斯坦小市值金矿商，辖区政治与社区风险突出。"
-  },
-  {
-   "ticker": "VALT.L",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铂族金属巨头，但当前PGM价格低迷压制整体估值。"
-  },
-  {
-   "ticker": "HOC.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "拉美金矿中坚，近期运营成本上升及社区问题拖累利润。"
+   "ai_note": "有色宝石小众市场，莫桑比克运营但股价相对稳定"
   },
   {
    "ticker": "MET1.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型勘探股无新闻却月涨19%，疑似炒作需警惕回调"
+  },
+  {
+   "ticker": "AAU.L",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "瑞典铁矿开发商，短期动量强劲，但长期需关注资金落实。"
+   "ai_adjust": -2,
+   "ai_note": "土耳其矿业许可审批历史延误频繁，需关注进度"
+  },
+  {
+   "ticker": "GGP.L",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "Newmont持股Havieron项目，开发推进为实质催化剂"
+  },
+  {
+   "ticker": "ALTN.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "哈萨克斯坦金矿商，司法尚可但近期跌幅较大"
+  },
+  {
+   "ticker": "TIN.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "月跌39%的开发阶段公司无收入，极可能面临融资稀释"
   }
  ]
 }
