@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-01T22:16Z",
+ "generated_at": "2026-11-02T22:20Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "1303.HK",
+   "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值煤炭股单月暴跌近三成且无公告，疑似隐性稀释或经营恶化"
+   "ai_adjust": -3,
+   "ai_note": "债务高企且公司治理存历史瑕疵，需警惕流动性风险。"
   },
   {
    "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "金矿生产商跌幅温和，基本面暂无明显异常信号"
-  },
-  {
-   "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "中国白银集团历史债务压力大、治理存疑，跌幅异常需警惕"
-  },
-  {
-   "ticker": "2693.HK",
-   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "小市值高岭土生产商流动性差，跌幅尚在合理范围"
+   "ai_note": "小盘金矿股流动性差，西澳项目运营及融资存在不确定性。"
   },
   {
-   "ticker": "9696.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "天齐锂业收购SQM遗留高杠杆，锂价下行周期偿债压力凸显"
-  },
-  {
-   "ticker": "3636.HK",
+   "ticker": "0098.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铜矿生产商跌幅与板块同步，暂无额外风险信号"
+   "ai_adjust": 0,
+   "ai_note": "国企背景基本面稳健，但铝价受宏观需求疲软压制。"
   },
   {
    "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值仅一亿港元的微型煤炭股，流动性极差且跌幅显著"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微盘煤炭股流动性枯竭，存在极高的退市与治理风险。"
   },
   {
-   "ticker": "0166.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "新时代公司历史上多次更名、治理记录差，属典型壳股特征"
+   "ticker": "3636.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小盘铜企信息透明度低，需防范隐性债务与股权稀释。"
   },
   {
    "ticker": "1029.HK",
    "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "涉俄资产受地缘制裁重创，面临极高的流动性与合规风险。"
+  },
+  {
+   "ticker": "0166.HK",
+   "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "IRC Limited曾进入破产管理程序，铁矿项目反复受阻，信用风险高"
+   "ai_note": "老牌壳股特征明显，主业涣散且公司治理风险极高。"
+  },
+  {
+   "ticker": "1182.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "历史上有严重壳股炒作劣迹，基本面缺乏实质性支撑。"
+  },
+  {
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型央企抗风险能力强，但受限于行业周期与高负债。"
+  },
+  {
+   "ticker": "0621.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "南非金矿项目长期面临资金短缺，股权稀释风险极高。"
+  },
+  {
+   "ticker": "1051.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "虽复牌但历史财务造假阴影仍在，治理结构仍需观察。"
+  },
+  {
+   "ticker": "2302.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "央企背景铀矿标的，但股性呆滞且受限于核能审批周期。"
+  },
+  {
+   "ticker": "9696.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "收购SQM遗留巨额债务，叠加锂价下行，财务压力剧增。"
+  },
+  {
+   "ticker": "8203.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微盘煤炭股，长期缺乏实质业绩，存在典型的壳股风险。"
   },
   {
    "ticker": "1208.HK",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "五矿资源为大型铜企，跌幅主要受铜价回调驱动"
+   "ai_note": "核心矿山受秘鲁社区阻工及环保许可制约，产量存隐忧。"
   },
   {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中铝为央企，跌幅温和，系统性风险较低"
-  },
-  {
-   "ticker": "2302.HK",
+   "ticker": "2489.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中核国际铀矿业务受地缘政治及核能政策不确定性影响"
-  },
-  {
-   "ticker": "0098.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "兴发铝业跌幅与铝板块一致，无额外负面信号"
-  },
-  {
-   "ticker": "1051.HK",
-   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "G-Resources经历重组后运营趋稳，跌幅属正常波动"
+   "ai_note": "次新股金矿标的，产能爬坡期面临成本超支与融资压力。"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "北大青鸟通用业务多元化，跌幅有限无明显异常"
-  },
-  {
-   "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "易大宗商品煤炭业务稳定，跌幅与板块同步"
+   "ai_note": "业务庞杂非纯正矿企，多元化主业分散且缺乏核心催化。"
   },
   {
    "ticker": "1898.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中煤能源为央企大市值煤企，跌幅温和风险可控"
+   "ai_adjust": 0,
+   "ai_note": "高股息央企煤炭龙头，但长期面临能源转型与双碳压力。"
   },
   {
-   "ticker": "2078.HK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "盘亚铝业市值不足两亿港元且单月暴跌超26%，疑似流动性危机"
-  },
-  {
-   "ticker": "8203.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅四千七百万港元的微型煤炭股，典型仙股特征需高度警惕"
-  },
-  {
-   "ticker": "0621.HK",
+   "ticker": "2693.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "Taung Gold为初级勘探公司，南非项目许可及融资风险持续存在"
+   "ai_note": "微盘高岭土企业，市值极小且日均成交低迷，流动性差。"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "民营铝企龙头，虽成本优势显著但受能耗双控政策压制。"
   }
  ]
 }
