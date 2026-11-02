@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T21:51Z",
+ "generated_at": "2026-11-02T21:52Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,115 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铀矿微型股缺乏新闻，警惕融资稀释风险。"
+   "ai_note": "铀矿微型勘探股，流动性差且面临极高稀释风险。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "跌幅巨大且无新闻，疑似概念炒作与资金盘。"
+   "ai_adjust": -5,
+   "ai_note": "名称带有炒作嫌疑，微型核矿股缺乏实质基本面支撑。"
   },
   {
    "ticker": "ELVR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂价低迷且无利好催化，基本面持续承压。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "锂价低迷期，作为生产商仍面临成本与利润双重压力。"
   },
   {
    "ticker": "WWR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史上有频繁转型与稀释记录，需警惕治理风险。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "钾肥价格疲软，巴西项目审批进度存在不确定性。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "历史上有过度宣传劣迹，资源量估算存疑，需警惕。"
   },
   {
    "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "格陵兰岛ESG与环保审批风险极高，跌幅异常。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "格陵兰岛采矿面临严峻的政治与环保审批风险。"
   },
   {
-   "ticker": "LODE",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "管理层有过度宣传与频繁稀释劣迹，治理堪忧。"
+   "ticker": "GRO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "钾矿开发阶段资本开支巨大，存在较高的融资风险。"
   },
   {
    "ticker": "CMCL",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦项目面临地缘政治与管辖权治理风险。"
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦矿区面临潜在的地缘政治与政策干预风险。"
+  },
+  {
+   "ticker": "LODE",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "公司架构复杂且常有炒作行为，基本面难以验证。"
   },
   {
    "ticker": "CEXYF",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型铜矿股流动性差，极易发生股权稀释。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值极小且流动性枯竭，随时面临股权稀释危机。"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "早期勘探企业现金消耗快，若无重大发现易遭稀释。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂矿项目面临当地社区与环保组织的强烈抵制。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂项目受濒危物种法案影响，审批面临延期风险。"
+   "ai_note": "核心项目遭遇长期法律诉讼与原住民抗议，推进受阻。"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型银矿生产商基本面稳健，但受贵金属板块整体拖累。"
   },
   {
    "ticker": "CAMZF",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "微型勘探股流动性不足，缺乏短期催化剂。"
+  },
+  {
+   "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型矿企流动性枯竭，需防范私下配售稀释。"
+   "ai_adjust": -2,
+   "ai_note": "直接提锂技术尚未在大规模生产中验证，资本开支高。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "名字蹭清洁能源概念，实为微型壳公司炒作。"
+   "ai_note": "无新闻却逆势上涨，典型微型股炒作特征，谨防杀猪盘。"
   },
   {
-   "ticker": "SLI",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "DLE技术尚未大规模验证，锂价下跌拖累估值。"
+   "ticker": "GLDG",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "长期依赖增发融资维持勘探，股东权益稀释严重。"
   },
   {
-   "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "虽资源量大，但资本开支巨大且面临环保诉讼。"
-  },
-  {
-   "ticker": "NAMM",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型金矿股单月暴跌，大概率遭遇融资或钻探失败。"
-  },
-  {
-   "ticker": "FSM",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "哥伦比亚项目审批困难，且银价波动影响现金流。"
+   "ticker": "NAMMW",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "权证杠杆放大了正股的下跌风险与潜在稀释效应。"
   },
   {
    "ticker": "ATLX",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "历史上有严重炒作与稀释劣迹，管理层诚信存疑。"
-  },
-  {
-   "ticker": "NEXM",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型多元矿企缺乏新闻，流动性差且易被稀释。"
-  },
-  {
-   "ticker": "TMCR",
-   "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "流媒体公司股价暴跌，暗示底层资产质量或融资出问题。"
+   "ai_note": "管理层有激进推销前科，频繁增发导致严重稀释。"
+  },
+  {
+   "ticker": "OGC",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "菲律宾矿区存在许可证续期风险，但整体作为大矿企较稳。"
   }
  ]
 }
