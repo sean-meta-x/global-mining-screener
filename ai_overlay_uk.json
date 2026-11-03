@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-02T22:02Z",
+ "generated_at": "2026-11-03T22:02Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
    "ticker": "THX.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "尼日利亚司法风险高，开发阶段执行不确定性大，量化评分偏高"
+   "ai_adjust": -2,
+   "ai_note": "尼日利亚地缘风险高且历史上有过稀释。"
   },
   {
    "ticker": "SRB.L",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "巴西小型金矿商，产量有限且缺乏资产多元化"
+   "ai_note": "巴西项目审批存不确定性，需警惕资本开支超支。"
   },
   {
    "ticker": "POW.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅1270万英镑的微型勘探公司，量化评分严重偏高"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探商，资金链脆弱且高度依赖钻探结果。"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "北马其顿铜矿生产商，铜价波动敏感但运营相对稳定"
+   "ai_adjust": 0,
+   "ai_note": "哈萨克斯坦政治风险溢价已被市场充分定价。"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "津巴布韦运营面临严重司法与政策风险，量化模型低估"
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦政策风险极大，高股息难掩主权违约隐患。"
   },
   {
    "ticker": "THS.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "铂族金属价格崩溃，南非运营成本攀升，行业逆风严重"
-  },
-  {
-   "ticker": "JLP.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非铂族金属小盘股，行业低迷叠加流动性风险"
-  },
-  {
-   "ticker": "YCA.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "实物铀基金，铀市场基本面稳健，估值合理"
+   "ai_adjust": -4,
+   "ai_note": "南非电力危机叠加铂族金属价格低迷，基本面承压。"
   },
   {
    "ticker": "AURA.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "毛里塔尼亚勘探阶段公司，无收入且司法风险较高"
+   "ai_adjust": -3,
+   "ai_note": "毛里塔尼亚项目融资困难，微盘股存在较高炒作风险。"
+  },
+  {
+   "ticker": "JLP.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "管理层有过度营销历史，南非运营环境恶劣且结构复杂。"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "纯铀价敞口基金，管理层稳健，是铀牛市的优质工具。"
   },
   {
    "ticker": "SLP.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "南非铂族金属生产商，PGM价格暴跌严重冲击盈利前景"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "现金流尚可但受制于南非宏观环境及铂价周期。"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "澳大利亚金矿生产商，司法稳定但近期表现平淡"
+   "ai_adjust": 0,
+   "ai_note": "澳洲多元矿企基本面稳健，但微盘股流动性稍显不足。"
   },
   {
    "ticker": "RSG.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "马里矿区安全局势恶化，政变后外资风险剧增"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "马里地缘政治风险急剧恶化，西非矿区运营面临重创。"
+  },
+  {
+   "ticker": "0ICU.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "尾矿项目现金流稳定，但南非整体营商环境持续恶化。"
   },
   {
    "ticker": "KEFI.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "埃塞俄比亚开发阶段项目，融资与许可风险并存"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "埃塞俄比亚内战风险极高，项目资金链断裂与稀释严重。"
   },
   {
-   "ticker": "PAF.L",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "南非深部金矿成本压力大，但资产组合相对多元"
+   "ticker": "RMR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "典型微盘炒作股，缺乏实质产量支撑，存在高度稀释风险。"
   },
   {
    "ticker": "GEM.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "有色宝石小众市场，莫桑比克运营但股价相对稳定"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "彩色宝石需求疲软且过往公司治理存在一定瑕疵。"
   },
   {
    "ticker": "MET1.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型勘探股无新闻却月涨19%，疑似炒作需警惕回调"
+   "ai_note": "早期铁矿勘探商，高度依赖股权融资，稀释风险较大。"
   },
   {
-   "ticker": "AAU.L",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "土耳其矿业许可审批历史延误频繁，需关注进度"
+   "ticker": "HOC.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "秘鲁社区抗议频发导致停产，社会许可风险严重拖累生产。"
   },
   {
-   "ticker": "GGP.L",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "Newmont持股Havieron项目，开发推进为实质催化剂"
-  },
-  {
-   "ticker": "ALTN.L",
+   "ticker": "PAF.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "哈萨克斯坦金矿商，司法尚可但近期跌幅较大"
+   "ai_note": "管理层优秀但无法完全对冲南非深部开采与宏观风险。"
   },
   {
-   "ticker": "TIN.L",
+   "ticker": "XTR.L",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "月跌39%的开发阶段公司无收入，极可能面临融资稀释"
+   "ai_note": "津巴布韦微盘金矿，政策风险极高且流动性极差。"
   }
  ]
 }
