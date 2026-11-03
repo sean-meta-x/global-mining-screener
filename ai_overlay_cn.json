@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-02T22:31Z",
+ "generated_at": "2026-11-03T22:31Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "无新闻却月跌11%，需警惕隐性利空或资金出逃。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "治理存隐忧但无急性风险，维持中性。"
   },
   {
    "ticker": "002497.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌超20%且无消息，可能存在未披露的稀释或治理问题。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂价下行叠加无缘由大跌，需警惕未披露风险。"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企铝业龙头，走势平稳，无明显风险。"
-  },
-  {
-   "ticker": "000807.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "水电铝成本优势明显，近期走势稳健。"
+   "ai_note": "央企铝业龙头，走势平稳，无额外催化。"
   },
   {
    "ticker": "603876.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌26%无新闻，高度警惕潜在暴雷风险。"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "走势平稳微涨，短期无明显异常。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "电池铝箔需求存疑，单月暴跌逾两成需警惕。"
   },
   {
    "ticker": "600490.SS",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "月跌近22%，历史治理问题叠加无新闻，风险较大。"
+   "ai_note": "海外矿产执行风险高且治理堪忧，暴跌为危险信号。"
   },
   {
-   "ticker": "600546.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌13%，煤炭板块承压，需关注政策风险。"
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "煤电铝一体化龙头，动量正向，略加分。"
   },
   {
-   "ticker": "601001.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌7.6%，煤企整合背景下需留意债务压力。"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史债务问题未清，月跌6.8%，治理存疑。"
+   "ticker": "000807.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "水电铝绿色溢价优势，走势稳健。"
   },
   {
    "ticker": "000737.SZ",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌近27%无消息，极可能隐藏重大利空。"
+   "ai_adjust": -5,
+   "ai_note": "单月暴跌23%且重组背景复杂，治理红旗。"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "天齐债务沉重叠加锂价低迷，下行风险未消。"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "国企煤炭受政策压制，无显著催化。"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "钾锂双主业重组后趋稳，暂无明显风险。"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭板块走弱致大幅回调，下调评分。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "走势相对平稳，短期无明显风险信号。"
-  },
-  {
-   "ticker": "000792.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂价低迷拖累，月跌7.6%，行业周期承压。"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "高负债叠加锂价下行，月跌15%需警惕。"
+   "ai_note": "铝业大厂动量正向，暂无额外风险。"
   },
   {
    "ticker": "301219.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌23%无新闻，小市值钴企风险集中释放。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "钴价过剩叠加小盘暴跌两成，需回避。"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "走势平稳，铝加工龙头基本面尚可。"
+   "ai_note": "全产业链铝业龙头，经营稳健中性看待。"
   },
   {
-   "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌12%，历史治理争议犹存，需保持谨慎。"
-  },
-  {
-   "ticker": "603979.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌21%无消息，矿业服务板块异常下跌。"
-  },
-  {
-   "ticker": "600508.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌19%无新闻，小市值煤企流动性风险高。"
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "央企煤炭龙头，分红稳定，无额外风险。"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "历史治理瑕疵较多，虽跌幅不大仍需警惕。"
+   "ai_note": "历史债务问题频发，财务健康存疑。"
+  },
+  {
+   "ticker": "600971.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小市值煤炭股，无显著亮点或风险。"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "无缘由暴跌近两成，或存未披露经营问题。"
+  },
+  {
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "关联交易频繁，治理折价需警惕。"
   }
  ]
 }
