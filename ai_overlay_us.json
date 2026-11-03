@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T21:52Z",
+ "generated_at": "2026-11-03T21:51Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铀矿微型勘探股，流动性差且面临极高稀释风险。"
+   "ai_note": "微型铀矿勘探商无消息却下跌，存在隐性稀释风险"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "名称带有炒作嫌疑，微型核矿股缺乏实质基本面支撑。"
+   "ai_adjust": -6,
+   "ai_note": "一月暴跌43%却无任何消息，极可能存在融资稀释"
   },
   {
    "ticker": "ELVR",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "锂价低迷期，作为生产商仍面临成本与利润双重压力。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "标称生产商却暴跌41%无消息，基本面恐有重大问题"
   },
   {
    "ticker": "WWR",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "历史上有过度宣传劣迹，资源量估算存疑，需警惕。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小型勘探商缺乏催化剂，流动性风险较高"
   },
   {
    "ticker": "GRML",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "格陵兰岛采矿面临严峻的政治与环保审批风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "格陵兰PGM勘探面临严峻许可风险，暴跌无消息"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "钾矿开发阶段资本开支巨大，存在较高的融资风险。"
+   "ai_note": "巴西钾矿开发面临长期许可审批和政治不确定性"
   },
   {
    "ticker": "CMCL",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦矿区面临潜在的地缘政治与政策干预风险。"
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦矿山运营存在治理和管辖权溢价风险"
   },
   {
    "ticker": "LODE",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "公司架构复杂且常有炒作行为，基本面难以验证。"
-  },
-  {
-   "ticker": "CEXYF",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值极小且流动性枯竭，随时面临股权稀释危机。"
-  },
-  {
-   "ticker": "NAMM",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "早期勘探企业现金消耗快，若无重大发现易遭稀释。"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂矿项目面临当地社区与环保组织的强烈抵制。"
+   "ai_note": "暴跌39%无任何消息，勘探商可能存在融资或钻探失败"
   },
   {
    "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "Thacker Pass项目面临巨额资本需求和许可挑战"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锂价疲软但Rhyolite Ridge有DOE贷款进展支撑"
+  },
+  {
+   "ticker": "CAMZF",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "核心项目遭遇长期法律诉讼与原住民抗议，推进受阻。"
+   "ai_adjust": -3,
+   "ai_note": "微型市值勘探商稀释风险高，缺乏流动性"
+  },
+  {
+   "ticker": "CEXYF",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "千万市值以下微型勘探商，流动性极差风险极高"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型银矿生产商基本面稳健，但受贵金属板块整体拖累。"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "微型勘探股流动性不足，缺乏短期催化剂。"
+   "ai_note": "中型银矿生产商基本面尚可，板块整体承压所致"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "直接提锂技术尚未在大规模生产中验证，资本开支高。"
-  },
-  {
-   "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "无新闻却逆势上涨，典型微型股炒作特征，谨防杀猪盘。"
-  },
-  {
-   "ticker": "GLDG",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "长期依赖增发融资维持勘探，股东权益稀释严重。"
-  },
-  {
-   "ticker": "NAMMW",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "权证杠杆放大了正股的下跌风险与潜在稀释效应。"
+   "ai_note": "锂市场持续疲软，开发商面临融资和成本压力"
   },
   {
    "ticker": "ATLX",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "管理层有激进推销前科，频繁增发导致严重稀释。"
+   "ai_adjust": -5,
+   "ai_note": "微型锂矿勘探商暴跌近39%无任何消息支撑"
   },
   {
-   "ticker": "OGC",
+   "ticker": "NAMM",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "标称生产商却暴跌40%无消息，基本面严重存疑"
+  },
+  {
+   "ticker": "NAMMW",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "权证放大下行风险，与正股同面临基本面不确定性"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型市值无消息却暴涨28%，疑似炒作拉升需警惕"
+  },
+  {
+   "ticker": "IMPUY",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "菲律宾矿区存在许可证续期风险，但整体作为大矿企较稳。"
+   "ai_note": "PGM价格低迷但大型生产商具备成本优势和分红能力"
+  },
+  {
+   "ticker": "KGC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型金矿商基本面稳健，近期回调属板块正常波动"
   }
  ]
 }
