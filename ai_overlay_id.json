@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-02T22:13Z",
+ "generated_at": "2026-11-03T22:12Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "量化高分但月跌15%，小盘无消息面支撑需警惕"
+   "ai_adjust": -3,
+   "ai_note": "小盘股，一月跌逾两成且零新闻，流动性风险需警惕"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌25%无新闻解释，煤炭小盘流动性风险大"
+   "ai_adjust": -4,
+   "ai_note": "煤炭板块系统性走弱，无新闻支撑，下行风险未释放"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值仅2600亿印尼盾，暴跌38%且无任何消息，疑似流动性陷阱"
+  },
+  {
+   "ticker": "IFSH.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "一月暴跌48%为全场最惨，零新闻披露，存在未公告利空"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "走势平稳但市值偏小，缺乏催化剂观望为主"
+   "ai_note": "唯一个月正收益标的，但市值偏小，需观察持续性"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "阿斯特朗系大盘蓝筹，回调温和基本面稳健"
+   "ai_adjust": -1,
+   "ai_note": "大市值蓝筹跌幅最小，基本面相对稳健，但板块逆风明显"
   },
   {
-   "ticker": "IFSH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌超30%无利好对冲，需排查未披露风险"
+   "ticker": "FIRE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微型煤炭股跌近26%，零新闻，治理与流动性双重风险"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "走势平稳无异常，煤炭板块承压下表现中性"
-  },
-  {
-   "ticker": "FIRE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值仅1270亿极小盘，月跌16%流动性堪忧"
+   "ai_adjust": -2,
+   "ai_note": "煤炭股中跌幅最小仅2%，相对抗跌，但板块整体承压"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中型煤炭股月跌14%，板块弱势缺乏独立行情"
+   "ai_adjust": -4,
+   "ai_note": "中型煤炭股跌21%，无新闻催化，煤价下行周期承压"
   },
   {
-   "ticker": "SMGA.JK",
+   "ticker": "TINS.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小盘月跌21%无新闻，需防治理或稀释风险"
+   "ai_note": "国有锡企跌近27%，锡价波动叠加政策不确定性"
   },
   {
-   "ticker": "NICL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月暴跌35%零消息，锡矿股或存未披露重大利空"
+   "ticker": "ANTM.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "国有综合矿企跌25%，受印尼矿业出口政策变动影响"
   },
   {
    "ticker": "PSAB.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "黄金股月跌21%跑输金价，需关注产量成本问题"
+   "ai_adjust": -4,
+   "ai_note": "金矿股跌25%有悖金价强势，或存在公司治理隐忧"
   },
   {
-   "ticker": "TINS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "国企锡业龙头大盘股，回调属板块联动暂无异常"
+   "ticker": "SMGA.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "小盘综合矿企跌26%，市值不足6000亿，信息极度不透明"
+  },
+  {
+   "ticker": "NICL.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "锡矿股暴跌40%，跌幅仅次于IFSH，需排查是否存在未披露风险"
+  },
+  {
+   "ticker": "MBMA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "电池材料龙头跌39%，镍价低迷叠加产能过剩担忧"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近30%无消息，煤炭承包商需防应收风险"
+   "ai_adjust": -4,
+   "ai_note": "煤炭承包商跌35%，行业景气下行直接冲击订单"
   },
   {
    "ticker": "DEWA.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近30%无利好，煤炭弱势中小盘承压明显"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "镍业大盘股回调温和，新能源需求逻辑未变"
-  },
-  {
-   "ticker": "ANTM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "国企综合矿业龙头，回调幅度合理估值有支撑"
+   "ai_adjust": -4,
+   "ai_note": "中型煤炭股跌36%，无新闻，需关注是否存在隐性负债"
   },
   {
    "ticker": "INAI.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值仅735亿极小盘月跌24%，铝加工流动性极差"
+   "ai_adjust": -7,
+   "ai_note": "市值仅680亿印尼盾为全场最小，跌31%且零披露，极高风险"
   },
   {
-   "ticker": "DKFT.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "少数正收益标的逆势走强，或有基本面支撑"
-  },
-  {
-   "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值2790亿月暴跌34%零消息，典型小盘陷阱"
-  },
-  {
-   "ticker": "MDKA.JK",
+   "ticker": "NCKL.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "大盘铜金股月跌31%超预期，需排查项目进度"
+   "ai_note": "镍业龙头跌17%相对温和，但印尼镍过剩格局未改"
+  },
+  {
+   "ticker": "CITA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铝土矿股跌17%，受印尼矿石出口禁令政策反复影响"
   }
  ]
 }
