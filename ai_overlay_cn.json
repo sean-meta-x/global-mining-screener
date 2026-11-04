@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-03T22:31Z",
+ "generated_at": "2026-11-04T22:29Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "治理存隐忧但无急性风险，维持中性。"
-  },
-  {
-   "ticker": "002497.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂价下行叠加无缘由大跌，需警惕未披露风险。"
+   "ai_note": "历史治理问题频出，动量转弱需警惕潜在利空"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企铝业龙头，走势平稳，无额外催化。"
+   "ai_note": "央企铝龙头走势稳健，估值合理暂无明显催化"
+  },
+  {
+   "ticker": "002497.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂盐价格低迷叠加月跌超16%，基本面承压明显"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池铝箔需求存疑，单月暴跌逾两成需警惕。"
-  },
-  {
-   "ticker": "600490.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "海外矿产执行风险高且治理堪忧，暴跌为危险信号。"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "煤电铝一体化龙头，动量正向，略加分。"
+   "ai_adjust": -4,
+   "ai_note": "月跌幅超两成，铝加工需求疲软或存未披露风险"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "绿电铝成本优势突出，走势平稳可适度关注"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "水电铝绿色溢价优势，走势稳健。"
-  },
-  {
-   "ticker": "000737.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "单月暴跌23%且重组背景复杂，治理红旗。"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "天齐债务沉重叠加锂价低迷，下行风险未消。"
+   "ai_note": "煤铝双主业经营稳健，短期无明显风险或催化"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企煤炭受政策压制，无显著催化。"
+   "ai_adjust": -1,
+   "ai_note": "煤价中枢下移预期压制估值，缺乏上行驱动"
   },
   {
-   "ticker": "000792.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "钾锂双主业重组后趋稳，暂无明显风险。"
+   "ticker": "000737.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "月跌逾两成且无利好对冲，警惕基本面恶化"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "煤炭板块走弱致大幅回调，下调评分。"
+   "ai_note": "跌幅较大需关注是否有未披露的运营或安全风险"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "海外矿产投资亏损风险犹存，锂价持续低迷"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "钾锂双龙头地位稳固，回调幅度可控暂无大碍"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝业大厂动量正向，暂无额外风险。"
+   "ai_adjust": 1,
+   "ai_note": "走势微正显示资金认可，低成本产能优势明显"
   },
   {
-   "ticker": "301219.SZ",
+   "ticker": "600490.SS",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "大跌叠加历史治理瑕疵，风险收益比显著恶化"
+  },
+  {
+   "ticker": "002996.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "钴价过剩叠加小盘暴跌两成，需回避。"
+   "ai_note": "小市值开发商流动性差，业绩波动大且缺催化"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "全产业链铝业龙头，经营稳健中性看待。"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "央企煤炭龙头，分红稳定，无额外风险。"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史债务问题频发，财务健康存疑。"
-  },
-  {
-   "ticker": "600971.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "小市值煤炭股，无显著亮点或风险。"
+   "ai_adjust": 1,
+   "ai_note": "铝产业链一体化优势突出，走势温和向好"
   },
   {
    "ticker": "600508.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "无缘由暴跌近两成，或存未披露经营问题。"
+   "ai_note": "月跌一成六，中小煤企经营压力或超市场预期"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "央企煤炭龙头高股息防御性强，走势平稳"
   },
   {
    "ticker": "002379.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "关联交易频繁，治理折价需警惕。"
+   "ai_note": "关联交易结构复杂，月跌近一成需防治理风险"
+  },
+  {
+   "ticker": "600971.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "跌幅温和但缺乏上行催化，维持中性观察"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "历史财务问题频发，铝价下行期更需审慎对待"
   }
  ]
 }
