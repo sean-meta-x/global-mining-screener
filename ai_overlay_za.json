@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T22:07Z",
+ "generated_at": "2026-11-04T22:07Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "THA.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铂族金属价格持续低迷，短期业绩承压，建议观望。"
+   "ai_note": "PGM板块承压，月跌13%无消息解释，存运营隐患"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铁矿石价格受中国需求疲软影响走弱，中性看待。"
+   "ai_adjust": 0,
+   "ai_note": "铁矿龙头基本面稳健，月跌幅温和，暂无明显催化"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "项目执行风险较高且常有融资需求，需警惕稀释。"
+   "ai_note": "小市值基础金属公司，历史上有频繁融资稀释记录"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铬矿业务尚可，但公司治理与复杂架构存在隐患。"
-  },
-  {
-   "ticker": "IMP.JO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铂族金属价格暴跌严重侵蚀利润，基本面恶化。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铬矿生产商运营平稳，月跌幅极小，无明显风险"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "美国铂族金属资产减值及南非成本通胀拖累业绩。"
+   "ai_adjust": -4,
+   "ai_note": "PGM巨头面临价格下行与成本压力，月跌11%超预期"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值极小且流动性枯竭，近期暴跌显示存在基本面风险。"
+   "ai_note": "微市值公司月暴跌50%，流动性极差，存在退市或欺诈风险"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "彩色宝石业务利基市场表现尚可，但缺乏核心催化剂。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "有色宝石商曾有治理争议，板块分类存疑需核实"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "PGM板块整体承压，月跌9%反映行业困境"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "管理层优秀但多金属组合受累于铂族和铁矿石下跌。"
+   "ai_adjust": -1,
+   "ai_note": "多元化矿业巨头，治理结构需关注但基本面尚可"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "刚果金高品位锡矿面临地缘政治与锡价波动双重风险。"
+   "ai_note": "刚果(金)锡矿运营商，地缘政治风险高，月跌近9%"
   },
   {
    "ticker": "PAN.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "金价创历史新高提供支撑，但南非老旧矿山成本偏高。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金价强势下仍月跌11%，可能存在未披露运营问题"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金产量增长良好，但通胀推高全维持成本需警惕。"
+   "ai_adjust": -1,
+   "ai_note": "黄金中型生产商，月跌10%略超预期但体量较大"
   },
   {
    "ticker": "VAL.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "从Implats分拆的纯铂族金属公司，在行业寒冬中风险极高。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "PGM板块承压，月跌13%需关注成本与价格风险"
   },
   {
    "ticker": "NPH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "虽为南非最优铂族矿企，但难逆行业整体价格下行趋势。"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型煤炭股流动性极差，存在严重的估值与退市风险。"
-  },
-  {
-   "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭业务现金流强劲，但ESG限制导致长期估值受压。"
+   "ai_note": "管理较好的PGM生产商，但行业逆风下仍月跌7%"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "黄金巨头基本面稳健，但新矿投产延期及成本超支。"
+   "ai_adjust": 0,
+   "ai_note": "黄金巨头表现相对稳定，月仅跌1.2%，防御性较好"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微市值煤炭生产商，ESG压力下融资困难风险高"
+  },
+  {
+   "ticker": "DRD.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "尾矿回收金矿商，成本可控，月跌幅温和"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "煤炭股逆势月涨10.4%，或有短期催化但ESG长期承压"
   },
   {
    "ticker": "ANG.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "运营频频遇阻导致近期跑输同行，需观察管理层改善。"
-  },
-  {
-   "ticker": "DRD.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "尾矿回收业务利润率微薄，对成本上升极为敏感。"
+   "ai_note": "黄金巨头月跌12.2%严重跑输金价，存运营或治理隐忧"
   },
   {
    "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "纯动力煤资产虽分红慷慨，但面临长期ESG撤资风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产商月微涨1.1%，ESG风险与短期动量对冲"
   }
  ]
 }
