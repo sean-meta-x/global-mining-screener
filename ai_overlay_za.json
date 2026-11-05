@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T22:07Z",
+ "generated_at": "2026-11-05T22:06Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "THA.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "PGM板块承压，月跌13%无消息解释，存运营隐患"
+   "ai_note": "PGM价格持续低迷，单一品类风险集中，短期动量恶化明显"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿龙头基本面稳健，月跌幅温和，暂无明显催化"
+   "ai_adjust": -2,
+   "ai_note": "中国钢铁需求疲软压制铁矿价格，高成本结构限制利润弹性"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值基础金属公司，历史上有频繁融资稀释记录"
+   "ai_adjust": -3,
+   "ai_note": "小市值公司历史上存在频繁配股稀释，需警惕股权摊薄风险"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬矿生产商运营平稳，月跌幅极小，无明显风险"
+   "ai_adjust": -1,
+   "ai_note": "铬铁价格承压但Glencore合资背景提供一定运营稳定性"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "一月暴跌50%且市值仅3500万，极可能存在严重经营或流动性危机"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "PGM巨头面临价格下行与成本压力，月跌11%超预期"
-  },
-  {
-   "ticker": "MTU.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微市值公司月暴跌50%，流动性极差，存在退市或欺诈风险"
+   "ai_note": "PGM低谷叠加高负债率，历史稀释记录多，转型尚需时间验证"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "有色宝石商曾有治理争议，板块分类存疑需核实"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "彩色宝石细分龙头，基本面平稳但流动性有限、催化剂不足"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "PGM行业逆风叠加Impala运营挑战，利润率承压显著"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "PGM板块整体承压，月跌9%反映行业困境"
+   "ai_note": "刚果(金)锡矿运营良好但地缘风险溢价高，估值已相对充分"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "多元化矿业巨头，治理结构需关注但基本面尚可"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "刚果(金)锡矿运营商，地缘政治风险高，月跌近9%"
+   "ai_note": "多矿种分散布局和管理层信誉是优势，但收购债务仍需消化"
   },
   {
    "ticker": "PAN.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金价强势下仍月跌11%，可能存在未披露运营问题"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "南非金矿成本管控改善，尾矿项目贡献增量，但金价回调拖累"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "黄金中型生产商，月跌10%略超预期但体量较大"
+   "ai_note": "巴新矿山贡献稳定产量，金价支撑估值但南非深井成本偏高"
   },
   {
-   "ticker": "VAL.JO",
+   "ticker": "EPS.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "PGM板块承压，月跌13%需关注成本与价格风险"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "管理较好的PGM生产商，但行业逆风下仍月跌7%"
+   "ai_adjust": -4,
+   "ai_note": "微型市值PGM生产商，行业下行期抗风险能力极弱，流动性差"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "黄金巨头表现相对稳定，月仅跌1.2%，防御性较好"
+   "ai_note": "全球化资产组合分散风险，金价高位运行提供利润支撑"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微市值煤炭生产商，ESG压力下融资困难风险高"
+   "ai_note": "小型煤炭生产商面临ESG融资收紧和长期需求萎缩双重压力"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "PGM行业中管理效率最优者之一，低成本运营可在周期底部存活"
+  },
+  {
+   "ticker": "VAL.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "从Impala分拆后债务沉重且矿井老化，PGM低迷下财务风险突出"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "月涨10%动量强劲，煤炭现金流充沛且镍矿布局提供成长期权"
+  },
+  {
+   "ticker": "ANG.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 2,
+   "ai_note": "资产组合优化后质量提升，金价高位下跌幅或过度，存在修复空间"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "尾矿回收金矿商，成本可控，月跌幅温和"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "煤炭股逆势月涨10.4%，或有短期催化但ESG长期承压"
-  },
-  {
-   "ticker": "ANG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金巨头月跌12.2%严重跑输金价，存运营或治理隐忧"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭生产商月微涨1.1%，ESG风险与短期动量对冲"
+   "ai_adjust": -1,
+   "ai_note": "地表尾矿回收模式低风险低增长，金价敏感度高但缺乏扩张弹性"
   }
  ]
 }
