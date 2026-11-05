@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-04T22:52Z",
+ "generated_at": "2026-11-05T22:50Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "最高量化分却跌30%，微型市值无新闻，疑似隐性稀释或流动性陷阱"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型市值暴跌35%却无新闻，高度疑似稀释或钻探失败"
   },
   {
    "ticker": "CEXY.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "CSE微盘铜勘探，跌36%且零新闻，模型无法捕捉的流动性与融资风险"
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "一月跌超40%无任何公告，典型壳股崩盘特征"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "名称异常似改名包装，开发商身份无新闻支撑，警惕推广型公司"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大市值金矿股跌幅温和，无新闻属板块联动，暂无额外风险信号"
+   "ai_adjust": -5,
+   "ai_note": "市值较大但跌幅显著，无催化剂支撑反弹"
   },
   {
    "ticker": "UTWO.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型铀矿股暴跌33%无消息，疑似增发或项目受阻"
+  },
+  {
+   "ticker": "STUD.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘无新闻跌近28%，能源壳公司特征明显，可能存在增发稀释"
+   "ai_adjust": -5,
+   "ai_note": "微型金矿勘探股跌29%，无新闻透明度差"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "生产商跌20%无公告，需关注运营成本或产量问题"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中等市值金矿股跌幅可控，Monument有运营历史，暂无重大治理瑕疵"
+   "ai_adjust": -2,
+   "ai_note": "较大市值生产商跌幅温和，基本面尚可"
   },
   {
-   "ticker": "STUD.V",
-   "ai_view": "red_flag",
+   "ticker": "JUGR.V",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "铀矿公司被标为金矿勘探，分类错误叠加暴跌32%，高度疑似壳公司"
+   "ai_note": "微型勘探股跌23%无消息，流动性风险高"
+  },
+  {
+   "ticker": "V.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铀矿股仅跌5%表现抗跌，板块相对强势"
   },
   {
    "ticker": "YMC.CN",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "CSE微盘跌34%零新闻，缩写公司名称透明度极低，推广嫌疑大"
+   "ai_adjust": -5,
+   "ai_note": "跌27%无新闻，育空地区金矿勘探不确定性大"
   },
   {
-   "ticker": "MANU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "铀矿公司误标金矿，月跌40%为全场最惨，典型失败钻探或融资陷阱"
+   "ticker": "FUU.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铀矿勘探股跌28%无催化剂，等待钻探结果"
   },
   {
    "ticker": "SBI.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "巴西金矿生产商跌17%，需关注汇率及运营风险"
+  },
+  {
+   "ticker": "THX.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "TSX上市黄金生产商，跌幅属板块正常波动，Serabi有实际产量支撑"
+   "ai_adjust": -2,
+   "ai_note": "较大市值跌幅温和，塞拉利昂项目有产出支撑"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型金矿股跌17%无消息，纽芬兰勘探风险高"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "跌幅仅5.6%为最小，微盘但相对稳定，暂无明显负面信号"
+   "ai_note": "唯一零回报但无催化剂，横盘观望为主"
   },
   {
    "ticker": "IRV.CN",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "CSE微盘跌25%零新闻，公司名称模糊不清，治理与透明度存疑"
+   "ai_adjust": -5,
+   "ai_note": "微型金矿股跌18%无公告，信息严重不对称"
   },
   {
-   "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "生产商身份跌幅温和，中等市值有一定基本面，但零新闻需持续观察"
-  },
-  {
-   "ticker": "FUU.V",
+   "ticker": "IPT.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铀矿勘探股跌25%无新闻，板块热度退潮后流动性风险显现"
+   "ai_adjust": -4,
+   "ai_note": "墨西哥银矿生产商跌17%，社区及许可风险"
   },
   {
-   "ticker": "JUGR.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "跌幅仅4.8%相对抗跌，微盘但走势平稳，暂无明显异常信号"
-  },
-  {
-   "ticker": "LAB.V",
+   "ticker": "LAC.TO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微盘金矿跌17%零新闻，Labrador有勘探历史但资金关注度极低"
+   "ai_adjust": -4,
+   "ai_note": "大型锂开发商跌28%，锂价低迷融资压力大"
   },
   {
    "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘多元勘探跌25%，New Age名称带推广色彩，无新闻佐证基本面"
-  },
-  {
-   "ticker": "IBAT.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "电池金属概念退潮，跌12%零新闻，赛道拥挤且缺乏差异化催化剂"
-  },
-  {
-   "ticker": "TITI.V",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "代码TITI极不严肃，暴跌35%零新闻，典型推广失败或壳公司特征"
+   "ai_adjust": -7,
+   "ai_note": "最小市值跌29%无消息，高度疑似稀释或弃矿"
   },
   {
-   "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "唯一正收益但单字母代码异常，零新闻下逆势涨18%疑似短期炒作"
+   "ticker": "RSMX.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值最低跌35%无公告，典型微型壳股风险"
   }
  ]
 }
