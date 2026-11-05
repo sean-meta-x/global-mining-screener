@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-04T21:52Z",
+ "generated_at": "2026-11-05T21:52Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型铀矿勘探商，流动性差且无消息，警惕隐性稀释。"
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探股，无消息却大跌，警惕隐性稀释。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "一月暴跌近四成且无公告，极大概率遭遇融资稀释或钻探失败。"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "格陵兰PGM项目面临严峻的环保与原住民许可风险，下调预期。"
+   "ai_adjust": -7,
+   "ai_note": "一月暴跌超四成且无新闻，极大概率遭遇融资稀释。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "关键矿产开发商，资金链紧张且许可推进缓慢，存在稀释风险。"
-  },
-  {
-   "ticker": "ELVR",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "瑞典锂项目暴跌近四成，欧盟环保审批漫长且可能已暗中增发。"
+   "ai_adjust": -4,
+   "ai_note": "缺乏新闻支撑的下跌，需防范微盘股流动性折价。"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴西钾矿开发受困于当地复杂的环保审批与社区关系，进展缓慢。"
+   "ai_adjust": -5,
+   "ai_note": "钾矿项目面临严峻的环保与社区许可审批风险。"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "格陵兰岛PGM项目面临极高的ESG与许可否决风险。"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂价低迷期，中盘锂矿生产商面临估值与盈利双杀。"
   },
   {
    "ticker": "CEXYF",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值仅千万的铜矿微盘股，流动性枯竭，需防范管理层低位圈钱。"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "历史上有频繁稀释和概念炒作劣迹，内华达金矿项目缺乏实质进展。"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "早期勘探阶段，无实质性催化剂，微盘股波动大，保持中性观望。"
+   "ai_adjust": -4,
+   "ai_note": "微型铜矿勘探股，无利好却重挫，谨防定向增发。"
   },
   {
    "ticker": "LAC",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "虽有美国能源部贷款支持，但锂价疲软拖累整体估值。"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "锂矿项目进度存在不确定性，需关注资金消耗率。"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型多元化勘探股，缺乏催化剂且存在稀释风险。"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铌与稀土项目开发周期长，面临巨大的资金缺口风险。"
+  },
+  {
+   "ticker": "NEXM",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "萨克帕斯项目面临DOE贷款审批延迟及原住民抗议，资本开支压力大。"
+   "ai_note": "股价大幅回撤且无新闻，需警惕勘探不及预期或稀释。"
+  },
+  {
+   "ticker": "AABB",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "历史上有炒作劣迹，微盘稀土股需高度警惕炒作风险。"
   },
   {
    "ticker": "CMCL",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "津巴布韦金矿生产商，虽具现金流但需警惕当地政策与治理风险。"
+   "ai_adjust": 0,
+   "ai_note": "津巴布韦金矿生产商，运营稳定但受宏观金价波动影响。"
   },
   {
-   "ticker": "IONR",
+   "ticker": "LODE",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "依赖美国DOE贷款推进，审批拖延导致资金链承压，下调评级。"
+   "ai_note": "内华达金矿项目推进缓慢，需关注后续资金筹措能力。"
+  },
+  {
+   "ticker": "UROY",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铀矿特许权使用费模式较安全，但近期跌幅过大需观望。"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "阿肯色州DLE技术中试及商业化面临高资本开支与许可不确定性。"
+   "ai_note": "提锂技术商业化仍存疑，且受累于锂价持续下跌。"
+  },
+  {
+   "ticker": "TMCR",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "特许权公司单月暴跌超四成，可能存在资产减值或流动性危机。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "纳米比亚小型金矿生产商，股价异常大跌，需排查隐性运营或融资问题。"
-  },
-  {
-   "ticker": "BMM",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "北欧多金属开发商业绩暴跌超四成，大概率遭遇严重稀释或融资失败。"
+   "ai_adjust": -4,
+   "ai_note": "微型金矿生产商，流动性差且易受非洲地缘政治风险影响。"
   },
   {
    "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "无基本面利好却暴涨近五成，典型微盘股拉高出货与概念炒作特征。"
-  },
-  {
-   "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "早期多元化勘探商，缺乏核心高品位资产，资金消耗快，保持谨慎。"
-  },
-  {
-   "ticker": "TMCR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金属流媒体公司股价重挫，底层资产质量存疑或存在隐性NAV折价。"
-  },
-  {
-   "ticker": "UROY",
-   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "铀矿流媒体巨头，股价大跌或反映铀价预期回调及NAV折价扩大。"
-  },
-  {
-   "ticker": "NB",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "长期停留在开发阶段的画饼公司，融资与环保许可风险极高。"
+   "ai_note": "微盘股逆势大涨缺乏基本面支撑，需防范拉高出货陷阱。"
   }
  ]
 }
