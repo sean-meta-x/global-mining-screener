@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-05T22:18Z",
+ "generated_at": "2026-11-06T22:18Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1303.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微市值煤炭股月跌逾26%，零新闻覆盖，流动性存疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "历史治理差且曾停牌，微盘股流动性枯竭风险极高。"
   },
   {
    "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "中型金矿股无新闻催化，金价强势下跑输需警惕"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金价高位但股价逆势大跌，需警惕隐性债务或产量不及预期。"
   },
   {
-   "ticker": "0098.HK",
+   "ticker": "0637.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铝业生产商基本面尚可，但缺乏新闻与催化剂"
+   "ai_adjust": -2,
+   "ai_note": "传统合金业务缺乏想象空间，市值微小且流动性欠佳。"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值白银股月跌16%，零新闻，治理与流动性风险"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "市值仅1.4亿流动性极差，多元化业务描述模糊"
+   "ai_note": "激进并购导致高负债，管理层治理存疑，需防范债务违约。"
   },
   {
-   "ticker": "1029.HK",
+   "ticker": "0098.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝加工行业利润微薄且受宏观周期压制，基本面平庸。"
+  },
+  {
+   "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌20%且IRC历史治理问题频出，小市值风险高"
+   "ai_adjust": -10,
+   "ai_note": "创业板老千股特征明显，频繁停牌且治理极差，切勿触碰。"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微市值多元化公司零新闻覆盖，信息极度不透明"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值不足1亿煤炭微盘股，流动性极差风险极高"
+   "ai_note": "业务边缘化且市值极小，日均成交低迷，存在流动性折价。"
   },
   {
    "ticker": "0166.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值多元化公司业务模糊，月跌12%无新闻解释"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "历史遗留治理问题多，业务转型未见成效，具壳股炒作风险。"
   },
   {
    "ticker": "3636.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铜矿中型股月跌14%零新闻，需排查未披露利空"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铜价表现强劲但股价疲软，需关注其实际矿产储量与成本优势。"
   },
   {
-   "ticker": "1208.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "大型铜企月跌17%，Las Bambas矿区社区封锁风险持续"
-  },
-  {
-   "ticker": "8203.HK",
+   "ticker": "1029.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅4900万煤炭微盘股，流动性几乎为零"
-  },
-  {
-   "ticker": "1051.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金矿股历史有重组与治理问题，需持续关注"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "勘探阶段金矿南非项目长期拖延，历史记录极差"
+   "ai_adjust": -8,
+   "ai_note": "涉俄资产面临严峻地缘政治与制裁风险，物流与回款受阻。"
   },
   {
    "ticker": "2302.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿股月跌21%跌幅异常，需排查未披露风险"
+   "ai_adjust": -4,
+   "ai_note": "铀价大涨但公司多为贸易业务，实际产能贡献有限且估值溢价过高。"
   },
   {
-   "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭中型生产商跌幅温和，暂无明显异常信号"
+   "ticker": "1208.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "核心矿山屡遭社区堵路，产量受扰且运输成本激增。"
   },
   {
-   "ticker": "1898.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企煤炭龙头跌幅温和，基本面稳健"
-  },
-  {
-   "ticker": "2078.HK",
+   "ticker": "0621.HK",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "市值仅1.2亿月跌23%零新闻，疑似有未披露利空"
+   "ai_note": "南非金矿项目推进缓慢，长期依赖融资稀释股权，现金流极差。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝业龙头市值大流动性好跌幅温和"
+   "ai_note": "国企背景经营稳健，但铝价承压且资本开支大，缺乏爆发弹性。"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "主业非矿业且市值偏小，跨界矿产多为概念炒作，基本面支撑弱。"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "海外金矿项目具备一定成长性，但需关注地缘政策与投产进度。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "GEM板小市值公司，业务与矿业关联度存疑"
+   "ai_note": "越南煤炭项目规模小且流动性枯竭，历史治理记录不佳。"
+  },
+  {
+   "ticker": "2078.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铝加工微盘股，日均成交极度低迷，缺乏机构关注与流动性。"
+  },
+  {
+   "ticker": "1051.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "转型矿业后基本面有所改善，但需持续验证资产注入与盈利质量。"
+  },
+  {
+   "ticker": "9696.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "锂价暴跌重创利润，收购遗留的高额债务与财务费用压力巨大。"
   }
  ]
 }
