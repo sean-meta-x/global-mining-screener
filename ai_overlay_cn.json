@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-05T22:29Z",
+ "generated_at": "2026-11-06T22:29Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "缺乏明确催化剂，铝价波动对业绩影响中性，维持常规观望。"
-  },
-  {
-   "ticker": "601001.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "近一月跌幅超11%且无利好支撑，煤炭需求疲软拖累估值。"
+   "ai_adjust": -3,
+   "ai_note": "历史股东纠纷与治理瑕疵频发，需警惕控制权层面的不确定性。"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "作为行业龙头抗跌性较强，但缺乏超预期业绩催化剂。"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤电铝一体化优势明显，近期走势平稳，量化评分合理。"
+   "ai_note": "大型央企基本面稳健，但受大宗商品周期波动影响，缺乏短期催化。"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "绿电铝成本优势稳固，近期走势平稳，无显著隐藏风险。"
+   "ai_note": "绿电铝优势明显，但需关注云南枯水期电力供应紧张对产能的扰动。"
   },
   {
-   "ticker": "600546.SS",
+   "ticker": "601001.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "近一月大跌近15%，基本面未见恶化但资金持续流出需警惕。"
+   "ai_adjust": -2,
+   "ai_note": "近期跌幅较大，煤炭长协价格承压，需警惕盈利预期下修风险。"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤电铝一体化布局抗风险能力较强，整体估值合理，维持中性观察。"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "多元化业务拖累整体毛利，近期大幅回调需防范流动性风险。"
+   "ai_adjust": -3,
+   "ai_note": "锂盐价格持续低迷导致业绩承压，新能源产业链去库存周期尚未结束。"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "高股息煤炭标的，基本面扎实，但近期大幅回调需等待企稳信号。"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭龙头基本面稳健，但受宏观预期压制，短期缺乏向上弹性。"
-  },
-  {
-   "ticker": "600971.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "近一月跌幅超10%，中小煤企在行业下行期抗风险能力较弱。"
-  },
-  {
-   "ticker": "000737.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "近一月重挫超20%，需警惕铜价下跌叠加潜在的内部治理风险。"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤电铝一体化成本可控，近期走势抗跌，基本面未见异常。"
+   "ai_note": "央企煤炭龙头，长协比例高，业绩确定性强，适合作为防御性底仓。"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "近一月跌幅超12%，铝加工环节利润受压，需关注订单可持续性。"
+   "ai_note": "电池铝箔加工费受下游需求放缓压制，产能扩张期需关注现金流压力。"
   },
   {
-   "ticker": "600740.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "焦煤价格承压导致近期回调，但长协比例高，业绩底线仍在。"
-  },
-  {
-   "ticker": "600219.SS",
+   "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铝加工龙头地位稳固，近期走势平稳，量化模型定价基本合理。"
+   "ai_note": "自备电厂优势显著，成本管控较好，但受行业整体情绪拖累回调。"
   },
   {
-   "ticker": "600508.SS",
+   "ticker": "000737.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "近一月大跌超17%，资金出逃明显，需排查是否有未公告的利空。"
+   "ai_note": "单月暴跌超两成，除铜价波动外，需排查是否存在未披露的矿山生产异常。"
   },
   {
-   "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "近期回调明显，需关注其海外铝土矿供应链稳定性及资金面变化。"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "中孚实业历史债务包袱重且治理存瑕疵，量化模型易低估其风险。"
+   "ticker": "600971.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "地方国企煤炭标的，分红稳定，但市值较小流动性一般，维持中性。"
   },
   {
    "ticker": "002466.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "高位并购遗留巨额债务，叠加锂价崩盘，财务费用与资产减值风险极高。"
+  },
+  {
+   "ticker": "000792.SZ",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "天齐锂业受SQM并购债务及锂价低迷双重压制，财务风险仍存。"
+   "ai_adjust": -2,
+   "ai_note": "虽经历重整，但盐湖提锂成本优势不及矿石，且钾锂价格双弱。"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "民营铝加工龙头，汽车板与航空板等高附加值产品占比提升，具备成长溢价。"
   },
   {
    "ticker": "600490.SS",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "鹏欣矿业历史治理问题频发且资产质量存疑，需大幅下调评分。"
+   "ai_note": "海外矿产并购屡次受挫，公司治理与信披质量堪忧，存在典型大股东风险。"
   },
   {
-   "ticker": "000792.SZ",
+   "ticker": "600595.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "主业盈利长期疲弱，多次依赖资产出售保壳，需警惕基本面恶化与治理风险。"
+  },
+  {
+   "ticker": "603979.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "矿山运营服务商受下游资本开支放缓影响，需关注安全生产及项目延期风险。"
+  },
+  {
+   "ticker": "600508.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "盐湖提锂成本优势显著，近期走势平稳，钾锂双主业提供安全垫。"
+   "ai_note": "中煤旗下核心资产，焦煤业务盈利稳定，但受宏观需求疲软拖累。"
+  },
+  {
+   "ticker": "600740.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "焦化行业受环保限产及焦煤成本高企双重挤压，利润空间收窄，维持中性。"
   }
  ]
 }
