@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-05T22:06Z",
+ "generated_at": "2026-11-06T22:06Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "THA.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "PGM价格持续低迷，单一品类风险集中，短期动量恶化明显"
+   "ai_adjust": -5,
+   "ai_note": "铂族金属需求结构性衰退，量化模型未充分定价长期需求萎缩风险。"
+  },
+  {
+   "ticker": "JBL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "频繁并购与复杂资本结构存在潜在稀释风险，需警惕治理折价。"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "中国钢铁需求疲软压制铁矿价格，高成本结构限制利润弹性"
-  },
-  {
-   "ticker": "JBL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值公司历史上存在频繁配股稀释，需警惕股权摊薄风险"
-  },
-  {
-   "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铬铁价格承压但Glencore合资背景提供一定运营稳定性"
+   "ai_note": "中国钢铁需求疲软压制铁矿石长期预期，高分红难掩宏观逆风。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "一月暴跌50%且市值仅3500万，极可能存在严重经营或流动性危机"
+   "ai_note": "市值极小且单月暴跌45%，存在严重流动性枯竭或基本面暴雷风险。"
   },
   {
-   "ticker": "SSW.JO",
+   "ticker": "MRF.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "PGM低谷叠加高负债率，历史稀释记录多，转型尚需时间验证"
+   "ai_adjust": -3,
+   "ai_note": "复杂的BEE股权结构与历史治理争议是量化模型无法识别的隐患。"
   },
   {
    "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "彩色宝石细分龙头，基本面平稳但流动性有限、催化剂不足"
-  },
-  {
-   "ticker": "IMP.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "PGM行业逆风叠加Impala运营挑战，利润率承压显著"
+   "ai_note": "非洲矿区运营面临潜在ESG与社区治理风险，需防范突发停产冲击。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "刚果(金)锡矿运营良好但地缘风险溢价高，估值已相对充分"
+   "ai_note": "单一矿区依赖度高，锡价波动及刚果(金)地缘政治风险易被低估。"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "长期停产且单月暴跌近四成，基本面极度恶化，属典型价值陷阱。"
+  },
+  {
+   "ticker": "SSW.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "激进并购导致债务高企，铂族金属业务拖累严重，财务风险并存。"
+  },
+  {
+   "ticker": "IMP.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铂族金属价格低迷且缺乏铜镍等转型金属对冲，长期盈利承压。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "多矿种分散布局和管理层信誉是优势，但收购债务仍需消化"
+   "ai_adjust": -2,
+   "ai_note": "控股公司折价与复杂的黑人经济赋权股权结构限制了估值弹性。"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南非金矿成本管控改善，尾矿项目贡献增量，但金价回调拖累"
+   "ai_adjust": -1,
+   "ai_note": "老旧深部矿山面临成本上升与安全隐患，产量增长缺乏核心催化剂。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "巴新矿山贡献稳定产量，金价支撑估值但南非深井成本偏高"
+   "ai_note": "南非深部金矿成本居高不下，海外资产增量贡献仍需时间验证。"
   },
   {
-   "ticker": "EPS.JO",
+   "ticker": "TGA.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型市值PGM生产商，行业下行期抗风险能力极弱，流动性差"
+   "ai_note": "煤炭资产面临长期ESG撤资压力，高分红难弥补估值倍数结构性收缩。"
   },
   {
    "ticker": "GFI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "核心资产品位与寿命优异，管理层资本配置稳健，具备金价上涨弹性。"
+  },
+  {
+   "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "全球化资产组合分散风险，金价高位运行提供利润支撑"
+   "ai_adjust": -2,
+   "ai_note": "基础金属转型战略具看点，但煤炭业务仍受长期ESG撤资与需求压制。"
+  },
+  {
+   "ticker": "VAL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "纯铂族金属标的缺乏电池金属概念，在能源转型中面临需求替代风险。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小型煤炭生产商面临ESG融资收紧和长期需求萎缩双重压力"
+   "ai_adjust": -4,
+   "ai_note": "微小市值煤炭企业流动性差，抗风险能力弱，易受资金面冲击。"
   },
   {
    "ticker": "NPH.JO",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "PGM行业中管理效率最优者之一，低成本运营可在周期底部存活"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "从Impala分拆后债务沉重且矿井老化，PGM低迷下财务风险突出"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "月涨10%动量强劲，煤炭现金流充沛且镍矿布局提供成长期权"
+   "ai_adjust": -2,
+   "ai_note": "虽为低成本优质铂矿，但铂族金属长期需求疲软限制了估值上限。"
   },
   {
    "ticker": "ANG.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "资产组合优化后质量提升，金价高位下跌幅或过度，存在修复空间"
-  },
-  {
-   "ticker": "DRD.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "地表尾矿回收模式低风险低增长，金价敏感度高但缺乏扩张弹性"
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "资产剥离与美洲聚焦战略成效显著，管理层执行力强，金价上行受益者。"
   }
  ]
 }
