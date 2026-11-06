@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-05T22:12Z",
+ "generated_at": "2026-11-06T22:11Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股，流动性差且缺乏新闻，存在治理与退市风险。"
+   "ai_adjust": -2,
+   "ai_note": "小市值多元化矿企，流动性与治理风险较高"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "单月暴跌超六成且无消息，极大概率为庄股崩盘或严重治理问题。"
+   "ai_note": "一月暴跌65%疑似重大利空或股权稀释，需高度警惕"
   },
   {
    "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "单月大跌超四成且无基本面消息，疑似遭遇流动性危机或内幕抛售。"
-  },
-  {
-   "ticker": "DWGL.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "跌幅近四成且无新闻支撑，需警惕大股东减持或合规风险。"
-  },
-  {
-   "ticker": "UNIQ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "逆势上涨但缺乏基本面新闻，小市值煤炭股需防范游资炒作风险。"
+   "ai_adjust": -4,
+   "ai_note": "极小市值煤企单月跌逾四成，风险高度集中"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "行业龙头基本面稳健，近期下跌仅为煤炭板块整体宏观情绪拖累。"
+   "ai_note": "阿斯特朗旗下蓝筹矿服，跌幅温和基本面稳健"
+  },
+  {
+   "ticker": "UNIQ.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "唯一正收益但小市值煤炭股，流动性受限"
+  },
+  {
+   "ticker": "DWGL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭生产商单月跌超三成，需关注经营面变化"
   },
   {
    "ticker": "RMKE.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭生产商跌幅温和，基本面尚可，但需关注煤价下行对利润侵蚀。"
+   "ai_note": "煤企跌幅温和但板块整体承压，无明显催化"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "国有锡企跌幅较大，锡价波动叠加治理隐忧"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "走势相对抗跌，作为中型煤炭生产商具备一定成本优势，维持中性。"
-  },
-  {
-   "ticker": "TINS.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锡价波动及印尼政府打击非法采矿的环保合规压力导致股价承压。"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "中型煤企受煤炭价格回落及ESG资金撤离影响，短期缺乏催化剂。"
+   "ai_note": "股价几乎持平，煤炭生产商表现相对抗跌"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "多元化矿企跌幅较大且无新闻，需警惕其非核心资产的减值风险。"
+   "ai_note": "小市值多元化矿企跌幅超25%，流动性堪忧"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中型煤企跌幅较大，行业逆风下估值承压"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锡矿生产商单月大跌近四成，印尼锡矿出口政策收紧及合规风险加剧。"
+   "ai_adjust": -4,
+   "ai_note": "锡矿商单月暴跌40%，基本面或存重大隐忧"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "煤炭承包商股价大幅回调，需关注应收账款回收及大客户依赖风险。"
+   "ai_note": "小市值煤企跌近四成，经营或存隐患"
+  },
+  {
+   "ticker": "INDY.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中型煤企跌幅超三成，业务转型尚需验证"
   },
   {
    "ticker": "DEWA.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "煤炭开采及运输跌幅较大，需警惕高杠杆扩张下的现金流断裂风险。"
-  },
-  {
-   "ticker": "PTBA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企煤炭龙头分红稳定，近期下跌属行业周期调整，具备防御性。"
+   "ai_adjust": -3,
+   "ai_note": "中型煤企跌近四成，需关注采矿合同持续性"
   },
   {
    "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "极小市值煤炭股流动性极差，无新闻掩护下极易发生闪崩或操纵。"
-  },
-  {
-   "ticker": "CITA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铝土矿生产商受印尼矿石出口禁令及下游冶炼产能过剩预期压制。"
-  },
-  {
-   "ticker": "ABMM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭开采及物流管理层优秀，跌幅可控，具备较好的长期配置价值。"
-  },
-  {
-   "ticker": "AADI.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭巨头治理规范，近期回调主要受全球煤价下跌影响，估值已具吸引力。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "极小市值煤企流动性差且跌幅较大，风险高"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "镍矿巨头受全球镍供应过剩及价格低迷拖累，但长期新能源需求仍在。"
+   "ai_note": "镍业龙头但镍价承压，大市值提供一定安全垫"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型煤炭生产商跌幅温和，基本面尚可"
+  },
+  {
+   "ticker": "PTBA.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "国有大型煤企跌幅可控，但行业逆风未消"
+  },
+  {
+   "ticker": "ABMM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤炭生产商跌幅温和，估值中性无突出催化"
   }
  ]
 }
