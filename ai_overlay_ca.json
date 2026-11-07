@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-06T22:51Z",
+ "generated_at": "2026-11-07T22:52Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极低且无新闻，存在壳公司或隐性稀释风险。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型矿企暴跌且无新闻，大概率遭遇私下配售或流动性枯竭。"
+  },
+  {
+   "ticker": "UTWO.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "缺乏基本面消息支撑的急跌，需警惕隐性稀释或钻探失败。"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "跌幅超四成且零消息，流动性枯竭或钻探失败。"
-  },
-  {
-   "ticker": "UTWO.V",
-   "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微型市值伴随大幅回撤，缺乏基本面消息支撑。"
+   "ai_note": "单月跌幅超40%且无公告，极可能是未披露的融资或核心资产出问题。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "市值尚可但持续阴跌且无新闻，需警惕流动性陷阱。"
+   "ai_adjust": -6,
+   "ai_note": "市值较大但跌幅惨烈，量化模型未捕捉到机构资金出逃或解禁抛压。"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "相对抗跌的中型矿企，暂无明显负面催化剂。"
+   "ai_adjust": -2,
+   "ai_note": "跌幅相对较小，作为老牌金矿企基本面尚可，但需关注近期金价波动。"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "生产商身份但跌幅较大且无消息，需关注运营状况。"
+   "ai_note": "生产端企业近期回调，需警惕运营成本上升或矿山品位不及预期的风险。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型勘探股零消息且持续下跌，存在资金盘出逃风险。"
+   "ai_adjust": -4,
+   "ai_note": "小市值勘探股无量阴跌，通常暗示内部人减持或探矿权续期存在障碍。"
   },
   {
    "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿概念但缺乏实质进展消息，短期缺乏催化剂。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铀矿勘探股跌幅可控，板块整体回调所致，暂无明显治理或融资风险。"
   },
   {
    "ticker": "MANU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极小且大幅下挫，无新闻暗示可能存在未披露利空。"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "市值较大的成熟勘探商，回撤在合理区间内。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿概念近期退潮，小市值公司易受流动性折价影响，建议观望。"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "黄金生产商受大盘拖累，量化分高但需警惕海外矿山的地缘或许可风险。"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "黄金生产商，随板块回调，暂无重大治理或运营风险。"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "走势异常平淡且无新闻，需防范边缘化及流动性丧失。"
-  },
-  {
-   "ticker": "FUU.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铀矿勘探股跌幅超两成且无消息，警惕融资稀释。"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型市值且无新闻，高度疑似缺乏实质资产的壳资源。"
+   "ai_note": "市值最大且跌幅温和，流动性较好，量化评分具备一定参考价值。"
   },
   {
    "ticker": "LAB.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "黄金勘探股缺乏消息驱动，微幅回撤但流动性存疑。"
+   "ai_note": "跌幅明显且无新闻，需排查是否涉及核心钻探结果不佳或管理层变动。"
   },
   {
-   "ticker": "NAM.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "市值不足千万且暴跌，极大概率为缺乏流动性的死壳。"
-  },
-  {
-   "ticker": "IPT.V",
+   "ticker": "VIO.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "白银生产商，受金属价格波动影响，无重大治理瑕疵。"
+   "ai_adjust": 0,
+   "ai_note": "逆势走平缺乏流动性支撑，可能是做市商控盘或处于停牌静默期前兆。"
   },
   {
-   "ticker": "IBAT.V",
+   "ticker": "IRV.CN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "电池金属概念退潮，无新闻且下跌，警惕估值杀跌。"
+   "ai_adjust": -5,
+   "ai_note": "微型金矿股大幅下挫，极大概率存在未公开的私募融资或股权稀释。"
+  },
+  {
+   "ticker": "FUU.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铀矿板块回调中跌幅较大，需警惕前期炒作资金获利了结及流动性缺失。"
   },
   {
    "ticker": "STUD.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "铀矿微型股跌幅超两成且零消息，存在隐性利空。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "勘探阶段公司暴跌且无公告，高度怀疑钻探数据不及预期或遭遇融资困难。"
   },
   {
    "ticker": "EMO.V",
    "ai_view": "red_flag",
    "ai_adjust": -9,
-   "ai_note": "暴跌近半且毫无消息，极可能遭遇钻探失败或融资。"
+   "ai_note": "单月暴跌近50%属于极端异常，极可能涉及重大负面未披露事项或资金链断裂。"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "市值不足千万且跌幅超25%，典型的微盘股流动性陷阱，量化得分失真。"
+  },
+  {
+   "ticker": "IPT.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "白银生产商受金属价格波动影响，需关注墨西哥当地社区或环保许可风险。"
+  },
+  {
+   "ticker": "SAM.TO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "跌幅较大且市值偏小，需警惕老矿山资源枯竭或近期财报不及预期的风险。"
   }
  ]
 }
