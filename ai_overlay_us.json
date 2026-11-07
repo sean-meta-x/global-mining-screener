@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T21:52Z",
+ "generated_at": "2026-11-07T21:52Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商，无新闻且大跌，警惕现金消耗与稀释风险。"
-  },
-  {
-   "ticker": "WWR",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "关键矿产勘探缺乏近期催化剂，股价回调显示市场耐心不足。"
+   "ai_note": "微型铀矿勘探商，无新闻且持续下跌，存在隐性稀释风险。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值极小且单月暴跌近四成，无基本面支撑，高度警惕流动性陷阱。"
+   "ai_note": "毫无消息的微型壳公司，股价暴跌，极大概率为资金盘或面临清算。"
+  },
+  {
+   "ticker": "WWR",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "历史上有过重组和争议，当前无新闻支撑，需警惕管理层信用风险。"
   },
   {
    "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "格陵兰岛采矿许可面临极高环保与政治阻力，项目推进存疑。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "格陵兰岛环保和审批政策极其严苛，项目推进面临巨大不确定性。"
   },
   {
    "ticker": "ELVR",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "锂价低迷叠加高市值，作为生产商面临利润挤压，缺乏短期催化剂。"
+  },
+  {
+   "ticker": "NKOSF",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂价低迷拖累生产商估值，需关注其实际产能爬坡与成本控制。"
+   "ai_note": "微型金矿股在无新闻下逆势上涨，需警惕庄家拉高出货的推广风险。"
   },
   {
    "ticker": "LAC",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "核心项目具战略价值，但受锂价低迷及融资进度拖累。"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "极小市值伴随剧烈下跌且无消息，典型的高风险微盘股特征。"
+   "ai_adjust": -1,
+   "ai_note": "核心项目审批已过，但锂价下行周期内巨额资本开支带来融资压力。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "核心锂硼项目屡遭审批延迟与政策不确定性，需警惕资金链风险。"
+   "ai_adjust": -3,
+   "ai_note": "核心锂矿项目屡遭环保审批延误，政策风险是压制估值的核心因素。"
   },
   {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "巴西钾矿项目基本面尚可，但需关注后续资本开支与融资落地。"
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "缺乏流动性的微型勘探股，无实质进展，存在持续的股权稀释风险。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦运营面临宏观与政策风险，黄金产量虽稳但估值受压。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "津巴布韦地缘与政策风险较高，但作为在产金矿能提供一定现金流。"
   },
   {
-   "ticker": "AABB",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "公司业务庞杂且历史上有强烈推销色彩，基本面极差，坚决规避。"
-  },
-  {
-   "ticker": "TMCR",
+   "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "权益金公司单月暴跌近四成，流动性枯竭或底层资产存在隐患。"
+   "ai_adjust": -2,
+   "ai_note": "钾矿开发阶段资本开支大，在巴西面临融资与项目执行的双重考验。"
   },
   {
    "ticker": "NAMM",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型金矿生产商抗风险能力弱，股价大幅回调或暗示运营遇阻。"
+   "ai_note": "纳米比亚微型生产商，股价大幅回撤且无消息，需警惕运营或资金问题。"
+  },
+  {
+   "ticker": "AABB",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "历史上有严重合规与炒作劣迹，管理层诚信存疑，属于典型的高危标的。"
+  },
+  {
+   "ticker": "TMCR",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "贵金属版税模式虽好，但股价暴跌且无消息，暗示底层资产或流动性恶化。"
+  },
+  {
+   "ticker": "SLI",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "直接提锂技术资本开支巨大，商业化落地与成本控制风险极高。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "项目推进十余年仍处开发阶段，审批与融资落地存在长期不确定性。"
-  },
-  {
-   "ticker": "SLI",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "直接提锂技术具前瞻性，但商业化落地仍需验证大规模资本开支。"
+   "ai_note": "铌矿项目长期拖延且融资困难，管理层执行力屡受市场质疑。"
   },
   {
    "ticker": "BMM",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "电池金属板块整体承压，公司缺乏短期催化剂，估值面临重估风险。"
-  },
-  {
-   "ticker": "GSM",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "硅金属价格周期下行叠加高负债，业绩弹性受压导致股价重挫。"
+   "ai_note": "开发阶段矿企，股价大幅下挫，需警惕项目融资受阻或成本超支风险。"
   },
   {
    "ticker": "UROY",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀价短期回调拖累权益金估值，但底层资产组合质量依然优良。"
+   "ai_adjust": 0,
+   "ai_note": "铀矿版税公司结构优良，但受铀价波动影响大，目前估值相对合理。"
   },
   {
-   "ticker": "LODE",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "公司历史上有浓厚推销色彩且频繁跨界，治理结构与基本面存疑。"
+   "ticker": "GSM",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "硅锰合金受宏观经济与高债务拖累，股价暴跌反映基本面持续承压。"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "极小市值勘探公司缺乏流动性，股价大幅下挫需警惕隐性融资风险。"
+   "ai_adjust": -3,
+   "ai_note": "微型勘探股缺乏流动性与消息面支撑，阴跌走势暗示存在隐性抛压。"
   }
  ]
 }
