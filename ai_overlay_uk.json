@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T22:02Z",
+ "generated_at": "2026-11-08T22:02Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "SRB.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "巴西Palito矿运营成本偏高且微盘股流动性差。"
+   "ai_note": "巴西Palito矿运营成本偏高，近期金价上涨未能有效提振利润。"
   },
   {
    "ticker": "THX.L",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "科特迪瓦Seguela金矿投产，但需警惕西非地缘与社区风险。"
+   "ai_note": "科特迪瓦Seguela矿刚投产，产能爬坡与地缘风险需持续关注。"
   },
   {
    "ticker": "POW.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "典型微盘勘探股，高度依赖融资且常伴随过度营销炒作。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型市值勘探公司，现金流消耗快，存在较高的股权稀释风险。"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "纯实物铀信托基金，无运营风险但完全受限于铀价波动。"
+   "ai_note": "作为实物铀信托基金，基本面受铀价直接驱动，无运营风险。"
   },
   {
    "ticker": "CAML.L",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "巴尔干资产老化且品位下降，近期回调反映对长期盈利的担忧。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "哈萨克斯坦Kounrad铜价受运费及冶炼费波动影响，利润承压。"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "津巴布韦Blanket金矿面临严重的国家电网限电及宏观汇率风险。"
+   "ai_note": "津巴布韦Bikita矿面临当地电力短缺及宏观汇率波动风险。"
   },
   {
    "ticker": "THS.L",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "南非PGM价格暴跌叠加Eskom严重限电，利润空间被大幅压缩。"
+   "ai_note": "南非PGM价格疲软且面临严重的电力与物流基础设施瓶颈。"
   },
   {
    "ticker": "JLP.L",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "资本配置混乱且频繁增发稀释股东，高负债在紧缩周期中风险极大。"
+   "ai_adjust": -6,
+   "ai_note": "股价单月暴跌近26%，南非运营环境恶劣且存在治理与资金风险。"
   },
   {
    "ticker": "SLP.L",
    "ai_view": "neutral",
-   "ai_adjust": -3,
-   "ai_note": "尾矿回收成本优势明显，但仍无法完全规避南非电力与PGM周期风险。"
+   "ai_adjust": -2,
+   "ai_note": "同样受累于南非PGM价格下跌及电力成本上升，但成本控制尚可。"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "西澳铁矿与黄金资产稳健，但市值较小导致流动性与估值折价。"
+   "ai_note": "西澳铁矿与黄金业务稳健，但近期金价与铁矿石价格波动影响预期。"
   },
   {
    "ticker": "ORR.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "南非Murchison项目推进缓慢，微盘股缺乏资金推动且面临融资稀释。"
+   "ai_note": "微型市值南非勘探项目，融资环境差，高度依赖股权稀释维持运营。"
   },
   {
    "ticker": "MET1.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "瑞典Kallak铁矿面临极高的原住民环保抗议与许可证被拒风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "爱尔兰铁矿区勘探进展平稳，但缺乏短期催化剂，估值合理。"
   },
   {
    "ticker": "KEFI.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "埃塞俄比亚Tulu Kapi项目深陷外汇短缺与融资延迟泥潭。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "埃塞俄比亚项目面临外汇管制与许可审批延迟，资金需求较大。"
   },
   {
    "ticker": "XTR.L",
-   "ai_view": "caution",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "津巴布韦早期勘探项目，面临极高的国家风险与持续的资金消耗。"
+   "ai_note": "微型市值且股价大幅下挫，非洲项目面临极高的流动性与融资风险。"
   },
   {
    "ticker": "RSG.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "西非双矿运营逐步改善，但需警惕马里与布基纳法索的安全局势。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "虽近期反弹，但西非马里与布基纳法索的地缘政治风险依然严峻。"
   },
   {
    "ticker": "ECOR.L",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "优质流媒体资产，但底层多为贱金属和PGM，受宏观周期拖累。"
-  },
-  {
-   "ticker": "KAV.L",
-   "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "博茨瓦纳卡拉哈里铜带勘探潜力大，但早期项目需警惕长期资金消耗。"
-  },
-  {
-   "ticker": "TGA.L",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "南非煤炭资产面临Transnet物流瓶颈及严苛的ESG撤资压力。"
+   "ai_note": "Royalty组合受铜锌价格回调影响，但无直接运营风险，估值回落。"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "尾矿回收享受高金价红利，但南非电力与劳工成本持续侵蚀利润。"
+   "ai_adjust": -1,
+   "ai_note": "南非尾矿回收业务受金价支撑，但面临当地电力与劳工成本压力。"
+  },
+  {
+   "ticker": "TGA.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "南非煤炭出口受物流瓶颈限制，且面临长期的ESG与融资压力。"
+  },
+  {
+   "ticker": "KOD.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "马里锂矿项目受当地政局动荡及锂价暴跌双重打击，融资困难。"
   },
   {
    "ticker": "GGP.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "出售Telfer后聚焦Havieron，高度依赖Newmont的注资与开发进度。"
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "Havieron金铜矿项目推进顺利，Newmont接手后开发整合预期向好。"
   }
  ]
 }
