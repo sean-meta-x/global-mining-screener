@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-07T22:18Z",
+ "generated_at": "2026-11-08T22:19Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1303.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘煤炭股流动性差，存在潜在股权稀释与治理风险。"
-  },
-  {
-   "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "金价高位但股价逆势下跌，需警惕隐性运营或成本风险。"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值极小且业务多元，缺乏核心矿业资产支撑，流动性堪忧。"
+   "ai_adjust": -2,
+   "ai_note": "小市值煤炭股流动性差，无新闻却大跌需警惕隐性风险"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "白银冶炼业务利润率低，应收账款与营运资金压力较大。"
+   "ai_adjust": -4,
+   "ai_note": "中国白银历史治理争议多，关联交易频繁，大跌无消息令人担忧"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "金价走强期该股逆势大跌，运营或资产端可能存在问题"
+  },
+  {
+   "ticker": "0637.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "微型市值多元化公司，流动性极低，治理风险偏高"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "创业板微盘壳股特征明显，存在极高的股权稀释与退市风险。"
+   "ai_adjust": -7,
+   "ai_note": "GEM板微型壳股，历史上有可疑配售及交易，高度警惕"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝型材龙头基本面尚可，但受宏观需求疲软拖累，估值中性。"
+   "ai_adjust": -1,
+   "ai_note": "兴发铝业为正规铝型材企业，基本面尚可但增长有限"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "高岭土及多元业务市值过小，缺乏机构关注与流动性支撑。"
+   "ai_note": "小市值高岭土生产商，信息透明度低，治理存疑"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "历史重组频繁且业务庞杂，公司治理与财务透明度存疑。"
+   "ai_note": "新威国际为典型壳股，多次更名转型，治理风险极高"
   },
   {
    "ticker": "1029.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "核心资产位于俄罗斯，面临严峻的地缘政治制裁与出口限制风险。"
+   "ai_adjust": -5,
+   "ai_note": "IRC拥有俄罗斯铁矿资产，地缘政治及制裁风险突出"
   },
   {
    "ticker": "2302.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "铀矿概念炒作退潮，实际海外铀矿资产推进缓慢且面临政策风险。"
+   "ai_note": "中核国际月跌逾25%无消息，铀业务运营或存隐忧"
   },
   {
    "ticker": "3636.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铜矿资产质地尚可，但近期股价大幅回调需关注短期资金流出。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金讯资源大幅下跌无公告，信息不对称风险较高"
   },
   {
    "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "南非金矿项目屡遇勘探不及预期与许可证延迟，存在持续稀释风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Taung Gold仍处勘探阶段，南非政策风险叠加持续融资稀释"
+  },
+  {
+   "ticker": "1208.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "五矿资源Las Bambas矿区社区封锁频发，运营中断风险持续"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企基本面稳健，但受行业周期与产能天花板限制。"
+   "ai_note": "中国铝业为大型国企，基本面稳健但效率一般，无明显催化剂"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "次新金矿股估值合理，但需关注产能爬坡进度与成本管控能力。"
+   "ai_note": "集海黄金新上市不久，运营记录短，需进一步观察"
+  },
+  {
+   "ticker": "8095.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "北大青鸟主业为消防安防非矿业，分类存疑，边缘业务风险"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型煤炭股流动性极差，且面临长期的行业政策与环保合规风险。"
-  },
-  {
-   "ticker": "1208.HK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "核心铜矿屡遭社区封路停产，秘鲁项目许可与运营风险被低估。"
-  },
-  {
-   "ticker": "8095.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "创业板非纯矿业标的，业务转型期业绩波动大，存在炒作风险。"
+   "ai_adjust": -3,
+   "ai_note": "南南资源微型市值煤炭股，流动性差，治理透明度低"
   },
   {
    "ticker": "1051.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史上频繁进行股权融资与资产置换，需警惕隐性稀释与治理风险。"
+   "ai_adjust": -3,
+   "ai_note": "格理集团刚果金铜矿面临管辖权风险，历史财务困难"
   },
   {
    "ticker": "2078.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铝加工微盘股缺乏定价权，受原材料价格波动挤压利润空间。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "攀铝微型市值月跌24%无公告，疑似内幕消息或运营问题"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "蒙古煤炭出口受口岸通关效率制约，业绩弹性受限于物流瓶颈。"
+   "ai_adjust": -1,
+   "ai_note": "易货地产经历重组后趋稳，但煤炭资产长期前景一般"
   }
  ]
 }
