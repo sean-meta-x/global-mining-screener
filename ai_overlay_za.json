@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-07T22:06Z",
+ "generated_at": "2026-11-08T22:07Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "THA.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌13.6%无任何消息，警惕机构抛售或隐性运营风险"
+   "ai_adjust": -2,
+   "ai_note": "PGM价格低迷且处于资本开支扩张期，短期盈利承压。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小盘月跌11.6%，公司历史有过度推广和复杂交易结构问题"
+   "ai_note": "历史项目延期与资本超支频发，管理层执行力存疑。"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型铁矿商表现稳健，基本面扎实无明显风险"
+   "ai_note": "基本面稳健但受限于Transnet物流瓶颈，出口受阻。"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值极小且单月腰斩，流动性枯竭，存在退市或资金链断裂风险。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铬矿商走势平稳，无显著异常信号"
-  },
-  {
-   "ticker": "MTU.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "月暴跌50%市值仅3200万，极可能已严重稀释或运营崩溃"
+   "ai_note": "铬铁价格波动大，且高度依赖南非不稳定的廉价电力供应。"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "走势平稳，无明显催化剂或风险信号"
+   "ai_note": "主营宝石受宏观需求压制，但高股息提供安全垫。"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月暴跌36.8%，长期受困于采矿权纠纷和运营难题"
+   "ai_adjust": -6,
+   "ai_note": "市值微小且主力矿山复产屡次受挫，资金与执行风险极高。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "PGM板块整体承压，温和下跌无异常"
+   "ai_adjust": 0,
+   "ai_note": "行业龙头基本面扎实，但短期受铂族金属价格低迷拖累。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "历史有激进并购和股权稀释记录，需警惕"
+   "ai_adjust": -3,
+   "ai_note": "CEO突然离职引发治理担忧，且美国矿山面临减值风险。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "刚果(金)运营国家风险高，叠加锡价波动月跌11.7%"
+   "ai_adjust": -2,
+   "ai_note": "锡价虽强，但刚果(金)物流瓶颈与地缘政治风险不容忽视。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "走势正面，但Motsepe家族关联交易需持续关注"
+   "ai_note": "管理层优秀且资产多元，但当前估值已包含较高溢价。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤价支撑走势正面，但长期面临ESG退出压力"
+   "ai_note": "煤炭业务现金流充沛，但长期面临ESG撤资与转型压力。"
   },
   {
    "ticker": "PAN.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金生产商走势平稳，无显著异常"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "动力煤面临ESG撤资和转型风险，月跌7.4%"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "运营稳健且成本控制优异，充分受益于金价与铜价上涨。"
   },
   {
    "ticker": "NPH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "PGM中游生产商走势平稳，无显著风险"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "成本控制与运营效率在PGM同行中最优，具备较强抗周期能力。"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "从Impala分拆不久，月跌6.5%需关注独立运营能力"
+   "ai_note": "ticker疑似有误或涉及复杂重组，存在信息不透明与治理折价风险。"
+  },
+  {
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "单一热煤资产面临严峻的ESG融资困境与长期需求萎缩。"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "受益金价上涨月涨4.1%，黄金牛市为实质催化剂"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金价上涨受益，但南非深井矿成本高昂且海外资产仍在整合。"
   },
   {
    "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值仅3.9亿流动性极差，小盘煤炭股风险高"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微盘煤炭股面临严重的ESG融资排斥与流动性枯竭风险。"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "金价强势利好龙头，月涨8.5%为实质催化剂"
+   "ai_adjust": 2,
+   "ai_note": "全球化资产布局分散风险，充分受益于金价强势周期。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "尾矿金企受益金价上涨，走势正面但弹性有限"
+   "ai_adjust": 0,
+   "ai_note": "尾矿回收模式成本低廉，但受限于资源储量与南非电力风险。"
   }
  ]
 }
