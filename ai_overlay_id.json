@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T22:12Z",
+ "generated_at": "2026-11-08T22:12Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值无新闻覆盖，流动性与治理风险被量化忽略"
+   "ai_note": "市值极小且无消息，股价持续下跌，流动性风险高。"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "单月暴跌65%无任何消息，疑似重大利空或治理问题"
+   "ai_note": "单月暴跌65%无公告，疑似重大未披露利空或庄股崩盘。"
   },
   {
    "ticker": "RMKO.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "极小市值暴跌42%无新闻，存在信息不对称风险"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型市值叠加42%暴跌，无新闻覆盖，高度可疑。"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "唯一正收益但小市值无新闻，需警惕炒作风险"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值煤炭股逆势上涨无利好支撑，警惕拉高出货。"
   },
   {
    "ticker": "UNTR.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Astra集团旗下蓝筹，治理规范，量化低估其稳定性"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Astra旗下大型设备商，基本面稳健，回调正常。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "跌幅超30%无新闻，小市值煤企信息透明度不足"
-  },
-  {
-   "ticker": "RMKE.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "温和回调，市值适中，无明显异常信号"
+   "ai_note": "中小市值煤炭股单月跌逾30%，基本面存疑。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "走势平稳，市值合理，无额外风险或催化"
+   "ai_note": "股价平稳，市值适中，暂无明显异常信号。"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "国有锡企大跌26%，受锡价波动及政策风险影响"
+   "ai_note": "国有锡企大幅回调，锡价疲软及治理风险需关注。"
   },
   {
    "ticker": "NICL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "暴跌40%无新闻，锡矿小企存在未披露风险"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "单月暴跌40%无公告，锡矿小市值公司风险极高。"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "中型煤企跌超20%，行业下行压力量化未充分反映"
+   "ai_note": "中型煤企跌幅超20%，行业下行压力明显。"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "小市值跌26%无新闻，多元化业务透明度存疑"
+   "ai_adjust": -4,
+   "ai_note": "微型市值多元化矿企跌25%，流动性及治理堪忧。"
   },
   {
    "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "小市值暴跌39%无消息，煤企运营风险被低估"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "镍价承压致中型回调，大型镍企基本面尚可"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "小市值煤矿股暴跌近40%，无新闻解释，风险极高。"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "跌超21%无新闻，中型煤企转型期不确定性高"
+   "ai_note": "中型煤企跌超20%，煤炭板块整体承压。"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "大型镍企回调15%，镍价低迷拖累估值。"
   },
   {
    "ticker": "INDY.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "跌33%幅度偏大，中型煤企估值修复需时间"
+   "ai_note": "中型煤企跌逾30%，跌幅远超板块均值。"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "极小市值115B暴跌27%，高度疑似壳股或流动性陷阱"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤企跌幅温和，基本面稳健无重大隐忧"
+   "ai_note": "微型市值仅7百万美元，暴跌27%疑为仙股陷阱。"
   },
   {
    "ticker": "DEWA.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "跌37%无新闻，中型煤企运营或治理存隐患"
+   "ai_note": "中型煤企大跌37%，远超同行跌幅，需警惕。"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型煤炭物流商股价平稳，基本面相对可靠。"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "跌幅可控市值适中，煤企整体承压但无特殊风险"
+   "ai_note": "煤矿承包商温和回调，暂无重大异常。"
+  },
+  {
+   "ticker": "MBMA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "大型电池材料股暴跌36%，镍产业链持续恶化。"
   }
  ]
 }
