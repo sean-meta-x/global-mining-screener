@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-08T22:12Z",
+ "generated_at": "2026-11-09T22:13Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值极小且无消息，股价持续下跌，流动性风险高。"
+   "ai_adjust": -5,
+   "ai_note": "微型市值无新闻覆盖，流动性和治理风险被量化模型低估"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "单月暴跌65%无公告，疑似重大未披露利空或庄股崩盘。"
+   "ai_note": "一月暴跌62%且零新闻，极可能存在隐性稀释或经营恶化"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "微型市值叠加42%暴跌，无新闻覆盖，高度可疑。"
-  },
-  {
-   "ticker": "UNIQ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股逆势上涨无利好支撑，警惕拉高出货。"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Astra旗下大型设备商，基本面稳健，回调正常。"
+   "ai_note": "微型煤矿承包商市值不足2亿美元，跌幅剧烈且无信息透明度"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "中小市值煤炭股单月跌逾30%，基本面存疑。"
-  },
-  {
-   "ticker": "MYOH.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "股价平稳，市值适中，暂无明显异常信号。"
+   "ai_note": "小市值煤炭股跌幅超三成，治理与许可风险未被定价"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "国有锡企大幅回调，锡价疲软及治理风险需关注。"
+   "ai_note": "印尼锡矿出口管制与走私整顿构成政策逆风，国企效率存疑"
   },
   {
-   "ticker": "NICL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "单月暴跌40%无公告，锡矿小市值公司风险极高。"
+   "ticker": "UNTR.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "Astra集团旗下多元化龙头，跌幅最小，基本面相对稳健"
+  },
+  {
+   "ticker": "UNIQ.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "逆势上涨但市值极小且无新闻，疑似炒作需警惕回调风险"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "中型煤企跌幅超20%，行业下行压力明显。"
+   "ai_note": "煤炭加镍双主线受大宗商品周期压制，转型进度待观察"
+  },
+  {
+   "ticker": "MYOH.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "走势平稳但煤炭板块整体承压，缺乏明确催化剂"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型市值多元化矿企跌25%，流动性及治理堪忧。"
-  },
-  {
-   "ticker": "DOID.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "小市值煤矿股暴跌近40%，无新闻解释，风险极高。"
+   "ai_note": "小市值多元化矿企跌幅超两成，信息不透明增加尾部风险"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "中型煤企跌超20%，煤炭板块整体承压。"
+   "ai_note": "煤炭向能源转型中但跌幅明显，执行风险与资金压力并存"
   },
   {
-   "ticker": "NCKL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大型镍企回调15%，镍价低迷拖累估值。"
+   "ticker": "DOID.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "一月跌超40%且市值不足十亿，可能存在严重治理或财务问题"
   },
   {
    "ticker": "INDY.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "中型煤企跌逾30%，跌幅远超板块均值。"
-  },
-  {
-   "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型市值仅7百万美元，暴跌27%疑为仙股陷阱。"
+   "ai_note": "中型煤炭股跌幅显著，ESG去煤化趋势压制长期估值"
   },
   {
    "ticker": "DEWA.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "中型煤企大跌37%，远超同行跌幅，需警惕。"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤炭物流商股价平稳，基本面相对可靠。"
+   "ai_note": "煤炭采矿服务跌幅近四成，客户集中度与应收账款风险被忽视"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤矿承包商温和回调，暂无重大异常。"
+   "ai_note": "跌幅相对温和，采矿服务业务有一定防御性但仍受煤价拖累"
+  },
+  {
+   "ticker": "NICL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锡生产商受印尼监管收紧冲击，出口许可不确定性高"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "镍 major producer面临印尼供给过剩压力，价格下行周期未结束"
   },
   {
    "ticker": "MBMA.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "大型电池材料股暴跌36%，镍产业链持续恶化。"
+   "ai_adjust": -3,
+   "ai_note": "电池材料受电动车需求放缓与金属价格回落双重打击"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型煤炭生产商跌幅有限，成本控制与规模优势提供缓冲"
+  },
+  {
+   "ticker": "FIRE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅约1200亿印尼盾的微型股，流动性极差且治理高度不透明"
   }
  ]
 }
