@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-08T22:51Z",
+ "generated_at": "2026-11-09T22:53Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值无新闻催化，月跌三成需警惕流动性风险"
-  },
-  {
-   "ticker": "UTWO.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值无消息面支撑，大幅下跌或隐含稀释风险"
+   "ai_adjust": -4,
+   "ai_note": "微型勘探企无新闻却暴跌三成，量化信号失真"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值较大但月跌三成且无新闻，量化评分或偏高"
+   "ai_adjust": -3,
+   "ai_note": "名称含糊无消息，大市值勘探商需警惕"
+  },
+  {
+   "ticker": "UTWO.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型市值无新闻伴大跌，流动性风险突出"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌逾四成无新闻解释，极可能存在未披露利空"
-  },
-  {
-   "ticker": "MMY.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "相对抗跌但无正面催化，维持中性观察"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "生产商身份但月跌两成无消息，需关注运营问题"
+   "ai_adjust": -8,
+   "ai_note": "月跌五成零新闻，CSE壳公司风险极高"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值勘探商持续下跌无新闻，警惕融资稀释"
+   "ai_adjust": -3,
+   "ai_note": "无新闻持续下跌，勘探风险未被量化反映"
   },
   {
    "ticker": "V.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "单字母代码异常，铀矿勘探缺乏催化"
+  },
+  {
+   "ticker": "YMC.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "名称缩写不规范无新闻，跌幅较大需警惕"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "CSE上市缩写可疑，缺乏基本面支撑"
+  },
+  {
+   "ticker": "CPAU.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "极小市值无新闻，量化高分大概率为噪音"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "唯一正收益且为已知矿企，暂无明显风险"
+  },
+  {
+   "ticker": "MANU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "名铀矿却标金矿勘探，分类矛盾存治理隐患"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "已知金矿公司但无新闻催化，短期观望"
+  },
+  {
+   "ticker": "VIO.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "跌幅相对温和但缺乏催化剂，中性观望"
+   "ai_note": "股价持平无波动，缺催化但暂无明显风险"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "大市值生产商跌幅可控，暂无明显风险信号"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "板块内最大市值且跌幅温和，基本面相对稳定"
-  },
-  {
-   "ticker": "FUU.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌超两成无新闻支撑，小市值铀矿股风险偏高"
-  },
-  {
-   "ticker": "LAB.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型市值金矿勘探商持续走弱，流动性风险大"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "月线持平无波动但缺乏催化，中性等待方向"
-  },
-  {
-   "ticker": "IPT.V",
-   "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "银矿生产商月跌一成五，无新闻需关注基本面"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值无消息面大幅下跌，可能存在隐性风险"
+   "ai_note": "TSX上市黄金生产商，短期回调属正常"
   },
   {
    "ticker": "NAM.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "极小市值月跌超四分之一，无新闻警惕退市风险"
+   "ai_adjust": -4,
+   "ai_note": "微型市值暴跌三成无新闻，存稀释推广风险"
   },
   {
    "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "名称与分类不符且大幅下跌，治理结构存疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "名铀矿却归金矿类，分类错误暗示治理差"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大市值已知矿企小幅回调，无需过度担忧"
   },
   {
    "ticker": "EMO.V",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌近半为全组最差，无新闻解释极可能暴雷"
+   "ai_adjust": -8,
+   "ai_note": "月跌近五成零新闻，存重大未披露风险"
   },
   {
-   "ticker": "SAM.TO",
+   "ticker": "UUU.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "CSE微型铀矿零成交无新闻，流动性极差"
+  },
+  {
+   "ticker": "VIZ.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值月跌近三成无催化，下行风险较大"
-  },
-  {
-   "ticker": "YMC.CN",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值持续下跌无新闻，需警惕潜在利空"
+   "ai_note": "微型PGM勘探无新闻，量化高分不可靠"
   }
  ]
 }
