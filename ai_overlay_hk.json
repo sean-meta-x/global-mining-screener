@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-08T22:19Z",
+ "generated_at": "2026-11-09T22:20Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1303.HK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭股流动性差，无新闻却大跌需警惕隐性风险"
+   "ai_adjust": -3,
+   "ai_note": "小市值煤炭股，无新闻支撑，跌幅显著，流动性存疑。"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "中国白银历史治理争议多，关联交易频繁，大跌无消息令人担忧"
+   "ai_note": "中国白银历史关联交易频繁，治理风险高，跌势未止。"
   },
   {
    "ticker": "1712.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金价走强期该股逆势大跌，运营或资产端可能存在问题"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型市值多元化公司，流动性极低，治理风险偏高"
-  },
-  {
-   "ticker": "8203.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "GEM板微型壳股，历史上有可疑配售及交易，高度警惕"
-  },
-  {
-   "ticker": "0098.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "兴发铝业为正规铝型材企业，基本面尚可但增长有限"
-  },
-  {
-   "ticker": "2693.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值高岭土生产商，信息透明度低，治理存疑"
-  },
-  {
-   "ticker": "0166.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "新威国际为典型壳股，多次更名转型，治理风险极高"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "IRC拥有俄罗斯铁矿资产，地缘政治及制裁风险突出"
-  },
-  {
-   "ticker": "2302.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "中核国际月跌逾25%无消息，铀业务运营或存隐忧"
-  },
-  {
-   "ticker": "3636.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金讯资源大幅下跌无公告，信息不对称风险较高"
+   "ai_adjust": -2,
+   "ai_note": "印尼金矿运营存不确定性，近期回调幅度偏大。"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "Taung Gold仍处勘探阶段，南非政策风险叠加持续融资稀释"
+   "ai_note": "勘探阶段无产出，南非资产政治风险高，纯概念炒作。"
   },
   {
-   "ticker": "1208.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "五矿资源Las Bambas矿区社区封锁频发，运营中断风险持续"
-  },
-  {
-   "ticker": "2600.HK",
+   "ticker": "0637.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中国铝业为大型国企，基本面稳健但效率一般，无明显催化剂"
+   "ai_note": "市值极小，业务多元但主业不清，流动性差。"
   },
   {
-   "ticker": "2489.HK",
+   "ticker": "1029.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "债务危机严重，俄罗斯运营受阻，历史多次配股摊薄。"
+  },
+  {
+   "ticker": "0098.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "集海黄金新上市不久，运营记录短，需进一步观察"
+   "ai_adjust": 0,
+   "ai_note": "兴发铝业为正规铝型材企业，基本面尚可，回调正常。"
+  },
+  {
+   "ticker": "9696.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "天齐锂业收购SQM背负巨额债务，锂价暴跌加剧偿债压力。"
+  },
+  {
+   "ticker": "0166.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "新时代公司历史上有可疑交易记录，治理结构堪忧。"
+  },
+  {
+   "ticker": "3636.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "近期跌幅较大但缺乏具体利空信息，暂观望。"
+  },
+  {
+   "ticker": "8203.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值不足五千万，GEM板微盘股，高度投机。"
   },
   {
    "ticker": "8095.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "北大青鸟非纯正矿业，GEM上市，业务混杂。"
+  },
+  {
+   "ticker": "1182.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "该股历史多次借壳重组和配售，典型庄股特征。"
+  },
+  {
+   "ticker": "2489.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "北大青鸟主业为消防安防非矿业，分类存疑，边缘业务风险"
+   "ai_adjust": -2,
+   "ai_note": "次新股上市时间短，业绩验证不足，估值待观察。"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "南南资源微型市值煤炭股，流动性差，治理透明度低"
+   "ai_note": "市值仅一亿港元，小煤矿企业，政策和安全风险高。"
   },
   {
-   "ticker": "1051.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "格理集团刚果金铜矿面临管辖权风险，历史财务困难"
-  },
-  {
-   "ticker": "2078.HK",
+   "ticker": "2302.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "攀铝微型市值月跌24%无公告，疑似内幕消息或运营问题"
+   "ai_adjust": -8,
+   "ai_note": "中核国际曾停牌，治理不透明，单月暴跌逾两成。"
+  },
+  {
+   "ticker": "2693.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "高岭土小企业，信息有限，关注度低。"
+  },
+  {
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中铝为大型国企，经营稳健但周期下行期盈利承压。"
   },
   {
    "ticker": "1733.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "易货地产经历重组后趋稳，但煤炭资产长期前景一般"
+   "ai_note": "易大宗曾经历债务重组，目前经营有所改善。"
+  },
+  {
+   "ticker": "1051.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "格林资源创始人被捕，刚果金资产存疑，治理灾难。"
   }
  ]
 }
