@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-09T22:13Z",
+ "generated_at": "2026-11-10T22:13Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
-   "ticker": "MINE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型市值无新闻覆盖，流动性和治理风险被量化模型低估"
-  },
-  {
    "ticker": "IFSH.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "一月暴跌62%且零新闻，极可能存在隐性稀释或经营恶化"
+   "ai_note": "单月暴跌近69%却无任何新闻，疑似重大利空或流动性危机"
+  },
+  {
+   "ticker": "MINE.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小盘多元矿业股跌28%无公告，信息极度不透明"
   },
   {
    "ticker": "RMKO.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型煤矿承包商市值不足2亿美元，跌幅剧烈且无信息透明度"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "极小市值煤炭承包商暴跌无消息，需警惕隐藏风险"
+  },
+  {
+   "ticker": "TINS.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "国有锡业龙头跌幅温和，关注锡价走势及出口政策"
+  },
+  {
+   "ticker": "UNTR.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Astra集团旗下大盘蓝筹，表现最为稳健，治理可靠"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "小市值煤炭股跌幅超三成，治理与许可风险未被定价"
+   "ai_note": "小盘煤炭股跌近29%无任何消息，风险偏高"
   },
   {
-   "ticker": "TINS.JK",
+   "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "印尼锡矿出口管制与走私整顿构成政策逆风，国企效率存疑"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "Astra集团旗下多元化龙头，跌幅最小，基本面相对稳健"
+   "ai_note": "小盘多元矿业跌21%无公告，信息真空期风险大"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "逆势上涨但市值极小且无新闻，疑似炒作需警惕回调风险"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭加镍双主线受大宗商品周期压制，转型进度待观察"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "逆势暴涨33%却无任何新闻，高度疑似庄家拉高出货"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "走势平稳但煤炭板块整体承压，缺乏明确催化剂"
+   "ai_note": "煤炭股单月基本持平，无异常波动，暂中性看待"
   },
   {
-   "ticker": "SMGA.JK",
+   "ticker": "HRUM.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值多元化矿企跌幅超两成，信息不透明增加尾部风险"
+   "ai_adjust": -3,
+   "ai_note": "中盘煤炭股跌16%无消息，行业整体承压需关注"
+  },
+  {
+   "ticker": "NICL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "锡业股暴跌33%无公告，跌幅异常需高度警惕"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭向能源转型中但跌幅明显，执行风险与资金压力并存"
+   "ai_note": "中盘煤炭股跌近20%无消息，需关注基本面变化"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "一月跌超40%且市值不足十亿，可能存在严重治理或财务问题"
+   "ai_adjust": -6,
+   "ai_note": "小盘煤炭股暴跌37%无任何消息，高度警惕隐藏利空"
   },
   {
    "ticker": "INDY.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "中型煤炭股跌幅显著，ESG去煤化趋势压制长期估值"
-  },
-  {
-   "ticker": "DEWA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "煤炭采矿服务跌幅近四成，客户集中度与应收账款风险被忽视"
+   "ai_note": "中盘煤炭股跌29%无公告，信息真空风险较大"
   },
   {
    "ticker": "ABMM.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "跌幅相对温和，采矿服务业务有一定防御性但仍受煤价拖累"
+   "ai_note": "中盘煤炭股跌幅仅6%相对稳健，暂无明显异常"
   },
   {
-   "ticker": "NICL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锡生产商受印尼监管收紧冲击，出口许可不确定性高"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "镍 major producer面临印尼供给过剩压力，价格下行周期未结束"
-  },
-  {
-   "ticker": "MBMA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "电池材料受电动车需求放缓与金属价格回落双重打击"
+   "ticker": "AADI.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "大盘煤炭股跌幅可控，关注行业政策及煤价走势"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "大型煤炭生产商跌幅有限，成本控制与规模优势提供缓冲"
+   "ai_note": "大盘煤炭股表现平稳跌幅小，治理相对规范"
+  },
+  {
+   "ticker": "DEWA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "中盘煤炭股跌近30%无消息，需警惕潜在风险"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅约1200亿印尼盾的微型股，流动性极差且治理高度不透明"
+   "ai_adjust": -7,
+   "ai_note": "极小市值仅1210亿印尼盾，暴跌无消息流动性风险极高"
+  },
+  {
+   "ticker": "CITA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铝土矿股跌17%无公告，关注印尼矿业出口政策变化"
   }
  ]
 }
