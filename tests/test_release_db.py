@@ -108,11 +108,14 @@ def test_checks_are_throttled(db):
     assert get.calls == []
 
 
-def test_a_missing_db_is_retried_without_waiting(tmp_path):
-    """Cold start while the asset is being replaced: the next rerun asks again."""
+def test_a_missing_db_is_retried_after_a_short_wait(tmp_path):
+    """Cold start while the asset is being replaced: ask again soon, not in 30 minutes."""
     db = tmp_path / ".release" / "screener_ca.db"
     assert release_db.sync(db, "tok", get=_github(name="screener_us.db")) is None
-    assert release_db.sync(db, "tok", get=_github()) == "2026-11-10T22:00:00Z"
+    get = _github()
+    assert release_db.sync(db, "tok", get=get) is None and get.calls == []
+    release_db._checked_at[db] -= release_db.RETRY_MISSING_S + 1
+    assert release_db.sync(db, "tok", get=get) == "2026-11-10T22:00:00Z"
     assert db.read_bytes() == b"new-db"
 
 

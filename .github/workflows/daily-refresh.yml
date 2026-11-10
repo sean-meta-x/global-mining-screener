@@ -80,7 +80,11 @@ jobs:
       - name: Download database from the db-latest release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release download db-latest -p screener_${{ matrix.market }}.db
+        run: |
+          db=screener_${{ matrix.market }}.db
+          gh release download db-latest -p "$db"
+          # Sunday: keep the pre-refresh DB as this week's fallback copy
+          if [ "$(date -u +%u)" = 7 ]; then cp "$db" "weekly_$db"; fi
 
       - name: Run daily refresh (${{ matrix.market }})
         run: |
@@ -100,22 +104,22 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
         run: python scripts/ai_overlay.py review --market ${{ matrix.market }} || true
 
-      # --clobber deletes the old asset before uploading, so retry: the only
-      # other copies are the Sunday weekly_ copy and what the apps hold.
+      # The refresh swallows its own errors, so check the DB before it replaces
+      # the good one. --clobber deletes the old asset before uploading, so retry:
+      # the only other copies are the Sunday weekly_ copy and what the apps hold.
       - name: Upload database to the db-latest release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           db=screener_${{ matrix.market }}.db
+          python -c "import sqlite3, sys; c = sqlite3.connect(sys.argv[1]); assert c.execute('PRAGMA quick_check').fetchone()[0] == 'ok'; assert c.execute('SELECT COUNT(*) FROM stock_snapshots').fetchone()[0] > 0" "$db"
           for i in 1 2 3; do
             gh release upload db-latest "$db" --clobber && break
             [ "$i" = 3 ] && exit 1
             sleep $((i * 20))
           done
-          if [ "$(date -u +%u)" = 7 ]; then
-            cp "$db" "weekly_$db"
-            gh release upload db-latest "weekly_$db" --clobber
-          fi
+          [ ! -f "weekly_$db" ] || gh release upload db-latest "weekly_$db" --clobber ||
+            echo "::warning::weekly copy of $db not uploaded"
 
       - name: Commit AI overlay
         run: |
