@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T21:52Z",
+ "generated_at": "2026-11-10T21:52Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微盘铀矿股无新闻且持续下跌，需警惕流动性枯竭与隐性稀释风险。"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "格陵兰PGM项目面临极高ESG与审批风险，无新闻叠加下跌暗示融资困难。"
-  },
-  {
-   "ticker": "WWR",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "历史上有过度推销嫌疑且股价低迷，缺乏实质进展，需防范治理与稀释风险。"
+   "ai_note": "微型铀矿勘探股月跌17%且零新闻，流动性堪忧"
   },
   {
    "ticker": "FNUC",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "核能微盘股暴跌且无消息，可能存在未披露的钻探失败或管理层套现。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "月跌超32%无任何消息，疑似钻探失败或稀释"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "格陵兰PGM勘探股暴跌34%无新闻，风险极高"
+  },
+  {
+   "ticker": "WWR",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "跌幅相对温和但零新闻流，需关注资金面"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂矿股大幅回撤且无新闻，瑞典项目审批与资金消耗风险被量化模型忽略。"
-  },
-  {
-   "ticker": "ATLX",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "公司存在复杂架构与过度推销历史，无新闻掩护下的暴跌是典型资金出逃特征。"
+   "ai_note": "锂生产商月跌21%，锂价疲软叠加无催化"
   },
   {
    "ticker": "IONR",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "核心项目面临成本超支与审批延迟，量化高分未能反映实际开发阻力。"
-  },
-  {
-   "ticker": "CAMZF",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘多金属股无消息且流动性差，需警惕隐性稀释与项目停滞风险。"
+   "ai_adjust": -2,
+   "ai_note": "锂开发商温和回调，项目推进尚需观察"
   },
   {
    "ticker": "LAC",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "虽为大型优质项目，但巨额资本开支与DOE贷款落地不确定性被模型低估。"
+   "ai_adjust": -1,
+   "ai_note": "旗舰Thacker Pass推进中，锂价承压但基本面尚可"
   },
   {
-   "ticker": "NAMM",
+   "ticker": "NKOSF",
    "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型金矿股月涨43%却零新闻，典型拉高出货"
+  },
+  {
+   "ticker": "LODE",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿勘探股月跌22%无消息，恐有不利进展"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金矿生产商跌幅可控，运营相对稳定"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "巴西钾矿开发商月跌14%，融资风险需关注"
+  },
+  {
+   "ticker": "NEXM",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "所谓生产商实为微盘股，暴跌且无新闻暗示矿山运营或现金流存在严重问题。"
+   "ai_note": "多元勘探股月跌30%无新闻，警惕稀释风险"
   },
   {
    "ticker": "AABB",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "典型的仙股推销标的，资产质量存疑且历史上有反向拆股记录，极度危险。"
+   "ai_note": "公司历史存疑，名称与业务不符，治理风险高"
   },
   {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "津巴布韦地缘与汇率风险压制估值，但公司基本面稳健，量化得分合理。"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "钾肥项目面临巴西当地环保审批与社区阻力，开发周期拉长风险未被计入。"
-  },
-  {
-   "ticker": "GSM",
+   "ticker": "CAMZF",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "硅铁合金价格暴跌导致业绩承压，量化模型未能及时反映大宗商品周期下行。"
+   "ai_adjust": -4,
+   "ai_note": "微型勘探股月跌23%无消息，流动性极差"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿生产商月跌26%，跌幅异常需警惕"
+  },
+  {
+   "ticker": "USAR",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "三十亿市值月跌33%无新闻，重大利空未披露"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型股月涨23%零新闻，疑似炒作拉高"
   },
   {
    "ticker": "UROY",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀价回调导致royalty估值受损，但无实际运营风险，属正常市场波动。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铀royalty公司月跌26%，铀价回调拖累明显"
   },
   {
-   "ticker": "NEXM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "多金属微盘股缺乏新闻支撑，需防范管理层频繁融资稀释股东权益。"
+   "ticker": "TMCR",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "月跌34%无任何消息，基本面或存重大隐患"
   },
   {
    "ticker": "NMG",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "魁北克石墨项目面临高资本开支与下游电池材料需求放缓的双重压力。"
-  },
-  {
-   "ticker": "EU",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铀价回调叠加ISR产能爬坡不及预期，短期业绩可能无法支撑当前估值。"
-  },
-  {
-   "ticker": "SLI",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "唯一逆势上涨的DLE技术标的，可能隐含锂矿技术突破或并购催化预期。"
-  },
-  {
-   "ticker": "ELBM",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "印尼镍钴项目面临ESG审查与冶炼厂建设延期风险，需警惕资金链压力。"
+   "ai_adjust": -3,
+   "ai_note": "石墨开发商月跌22%，融资与锂价双重承压"
   }
  ]
 }
