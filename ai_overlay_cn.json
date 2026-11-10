@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-09T22:31Z",
+ "generated_at": "2026-11-10T22:31Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "无重大新闻，量化评分尚可，维持中性判断。"
-  },
-  {
-   "ticker": "601600.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企，流动性好，短期跌幅有限，暂无明显风险。"
-  },
-  {
-   "ticker": "002497.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌18%且业务多元，治理结构存疑，需警惕。"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭行业承压，月跌超11%，但无重大负面消息。"
+   "ai_note": "治理结构复杂，历史关联交易频繁，需警惕利益输送"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中铝子公司，跌幅温和，基本面相对稳定。"
+   "ai_note": "国企绿电铝龙头，基本面稳健，无明显治理瑕疵"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "国企煤企重组后整合期，关注资产注入节奏"
+  },
+  {
+   "ticker": "601600.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "大型国企铝企，资本配置效率偏低但系统重要性高"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤电铝一体化经营稳健，治理相对规范"
+  },
+  {
+   "ticker": "002497.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂矿概念炒作痕迹明显，大股东减持需警惕"
+  },
+  {
+   "ticker": "002532.SZ",
+   "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "月跌6%属正常波动，铝行业景气度尚可。"
+   "ai_note": "新疆铝企信息透明度一般，产能扩张期关注资本开支"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月跌幅超18%抛压异常，需排查是否有未披露利空"
+  },
+  {
+   "ticker": "603876.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌近19%，历史存在关联交易和资金占用问题"
   },
   {
    "ticker": "000792.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂价持续下行压制估值，盐湖提锂成本优势减弱。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "破产重整后恢复，钾锂垄断地位稳固但治理仍需观察"
   },
   {
    "ticker": "002466.SZ",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "收购SQM遗留高杠杆，债务压力量化模型难捕捉。"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近19%幅度异常，可能存在未披露风险。"
-  },
-  {
-   "ticker": "603876.SS",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌超21%且市值偏小，需关注流动性及基本面恶化。"
+   "ai_note": "高杠杆海外收购后遗症显现，财务风险较大"
   },
   {
    "ticker": "600971.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤炭股月跌近12%，信息透明度较低。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值国企煤企，流动性一般但治理尚可"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型央企，抗风险能力强，短期波动属行业共性。"
+   "ai_note": "大型国企煤企分红稳定，估值合理无明显瑕疵"
   },
   {
    "ticker": "000737.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌近25%极为异常，可能存在未公开的重大利空。"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "月仅跌1.4%表现稳健，铝价支撑下基本面良好。"
-  },
-  {
-   "ticker": "600508.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股月跌17.5%，需关注经营稳定性。"
-  },
-  {
-   "ticker": "603979.SS",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "月跌26%为全组最大，极可能存在严重治理或经营风险。"
-  },
-  {
-   "ticker": "600157.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "月跌不足5%，煤炭板块整体调整，暂无特殊风险。"
+   "ai_note": "月跌超21%叠加借壳上市背景，治理隐患严重"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "中孚实业历史上有治理和财务问题，月跌7.7%需警惕。"
+   "ai_note": "历史存在财务问题和资金占用，治理风险持续"
   },
   {
-   "ticker": "600740.SS",
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "关联中国宏桥曾有会计争议，需关注审计质量"
+  },
+  {
+   "ticker": "600219.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "山焦股份月跌6.5%属正常范围，焦化行业景气一般。"
+   "ai_adjust": 0,
+   "ai_note": "全产业链铝企治理较好，高端产品占比提升"
+  },
+  {
+   "ticker": "603979.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌23%为板块最惨，需警惕业绩变脸或资金链问题"
   },
   {
    "ticker": "600490.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "鹏欣资源有监管处罚历史，月跌18%或反映治理隐忧。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "海外矿产治理不透明，大股东有资本运作前科"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值煤企子公司，流动性偏低但无重大治理问题"
   }
  ]
 }
