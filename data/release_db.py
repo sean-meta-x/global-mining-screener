@@ -1,9 +1,9 @@
 """Station DB from the repo's `db-latest` GitHub Release instead of git.
 
 The daily refresh uploads screener_<market>.db as a release asset. A cloud app
-that holds STATION_PAT (Contents: read on this repo) downloads it at start and
-re-checks every CHECK_EVERY_S. Without a token, or when GitHub cannot be
-reached, the copy already on disk keeps being served.
+that holds STATION_PAT (Contents: read on this repo) downloads it at start
+into config.RELEASE_DB_PATH and re-checks every CHECK_EVERY_S. Without a token,
+or when GitHub cannot be reached, the copy already on disk keeps being served.
 """
 import logging
 import os
@@ -55,6 +55,7 @@ def sync(db_path, tok: str, get=requests.get) -> str | None:
     auth = {"Authorization": f"Bearer {tok}"}
     tmp = db_path.with_name(f"{db_path.name}.{os.getpid()}.tmp")
     try:
+        db_path.parent.mkdir(parents=True, exist_ok=True)
         r = get(RELEASE_URL, timeout=30,
                 headers={**auth, "Accept": "application/vnd.github+json"})
         if r.status_code != 200:
@@ -81,7 +82,10 @@ def sync(db_path, tok: str, get=requests.get) -> str | None:
             log.warning("%s download truncated", db_path.name)
             return None
         os.replace(tmp, db_path)    # readers never see a half-written file
-        marker.write_text(stamp)
+        try:
+            marker.write_text(stamp)
+        except OSError:             # the new DB is in place — callers must still reload
+            log.warning("%s: could not record the asset stamp", db_path.name)
         return stamp
     except (requests.RequestException, OSError, ValueError, KeyError) as e:
         log.warning("%s sync failed: %s", db_path.name, e)

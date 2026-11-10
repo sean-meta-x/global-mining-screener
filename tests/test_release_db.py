@@ -76,9 +76,21 @@ def test_new_asset_replaces_the_db_and_records_its_stamp(db):
     assert asset_hdr["Accept"] == "application/octet-stream"
 
 
-def test_missing_db_is_downloaded(tmp_path):
-    path = tmp_path / "screener_ca.db"
+def test_missing_db_is_downloaded_into_a_new_directory(tmp_path):
+    path = tmp_path / ".release" / "screener_ca.db"
     assert release_db.sync(path, "tok", get=_github()) and path.read_bytes() == b"new-db"
+
+
+def test_engine_follows_config_db_path_after_reset(tmp_path, monkeypatch):
+    import config
+    from data import database
+    monkeypatch.setattr(config, "DB_PATH", tmp_path / "a.db")
+    database.reset_engine()
+    assert database._engine().url.database.endswith("a.db")
+    monkeypatch.setattr(config, "DB_PATH", tmp_path / "b.db")
+    database.reset_engine()
+    assert database._engine().url.database.endswith("b.db")
+    database.reset_engine()
 
 
 def test_same_stamp_is_not_downloaded_again(db):

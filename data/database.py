@@ -11,7 +11,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.orm import DeclarativeBase, Session
 
-from config import DB_PATH
+import config
 
 log = logging.getLogger(__name__)
 
@@ -21,12 +21,12 @@ _ENGINE = None
 def _engine():
     global _ENGINE
     if _ENGINE is None:
-        _ENGINE = create_engine(f"sqlite:///{DB_PATH}", echo=False)
+        _ENGINE = create_engine(f"sqlite:///{config.DB_PATH}", echo=False)
     return _ENGINE
 
 
 def reset_engine():
-    """Drop pooled connections — the DB file was replaced underneath them."""
+    """Drop pooled connections — the DB file was replaced or config.DB_PATH moved."""
     global _ENGINE
     if _ENGINE is not None:
         _ENGINE.dispose()
@@ -382,7 +382,7 @@ def init_db():
             byproduct_credits REAL, cash_op_cost REAL, total_cash_cost REAL,
             synced_at TEXT, PRIMARY KEY (property_id, period, commodity))"""))
 
-    log.info(f"DB ready at {DB_PATH}")
+    log.info(f"DB ready at {config.DB_PATH}")
 
 
 # ── Write ──────────────────────────────────────────────────────────────────────
