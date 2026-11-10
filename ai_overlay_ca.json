@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-09T22:53Z",
+ "generated_at": "2026-11-10T22:51Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型勘探企无新闻却暴跌三成，量化信号失真"
+   "ai_adjust": -3,
+   "ai_note": "微盘股无消息，大跌或暗示隐性稀释或勘探失败。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "名称含糊无消息，大市值勘探商需警惕"
-  },
-  {
-   "ticker": "UTWO.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值无新闻伴大跌，流动性风险突出"
+   "ai_note": "缺乏催化剂且近期大幅回调，需警惕流动性风险。"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "月跌五成零新闻，CSE壳公司风险极高"
+   "ai_note": "极小市值且单月腰斩，无消息支撑，警惕融资稀释。"
+  },
+  {
+   "ticker": "YMC.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "跌幅显著且无新闻，可能存在未披露的钻探失利。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "无新闻持续下跌，勘探风险未被量化反映"
-  },
-  {
-   "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "单字母代码异常，铀矿勘探缺乏催化"
-  },
-  {
-   "ticker": "YMC.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "名称缩写不规范无新闻，跌幅较大需警惕"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "CSE上市缩写可疑，缺乏基本面支撑"
-  },
-  {
-   "ticker": "CPAU.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "极小市值无新闻，量化高分大概率为噪音"
+   "ai_note": "微型金矿股，无量价利好，下行风险大于量化评分。"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "唯一正收益且为已知矿企，暂无明显风险"
+   "ai_note": "股价停滞且缺乏近期催化，维持中性观望态度。"
   },
   {
-   "ticker": "MANU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "名铀矿却标金矿勘探，分类矛盾存治理隐患"
+   "ticker": "V.V",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "铀矿概念唯一正收益，但市值偏小，给予微调加分。"
+  },
+  {
+   "ticker": "SBI.TO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "作为生产商却大幅跑输板块，或存运营及成本隐患。"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型金矿股，近期跌幅较大且无消息，谨防稀释。"
+  },
+  {
+   "ticker": "FUU.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铀矿勘探股，随板块回调，缺乏独立利好催化。"
   },
   {
    "ticker": "LAB.V",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "已知金矿公司但无新闻催化，短期观望"
+   "ai_note": "市值偏小，近期走弱且无新闻，需防范资金流出。"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "股价持平无波动，缺催化但暂无明显风险"
-  },
-  {
-   "ticker": "SBI.TO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "TSX上市黄金生产商，短期回调属正常"
+   "ai_adjust": 0,
+   "ai_note": "股价横盘无波动，缺乏明确催化剂，维持中性。"
   },
   {
    "ticker": "NAM.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值暴跌三成无新闻，存稀释推广风险"
-  },
-  {
-   "ticker": "STUD.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "名铀矿却归金矿类，分类错误暗示治理差"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大市值已知矿企小幅回调，无需过度担忧"
+   "ai_adjust": -6,
+   "ai_note": "市值极低且暴跌超三成，无消息面，极大概率已稀释。"
   },
   {
    "ticker": "EMO.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "月跌近五成零新闻，存重大未披露风险"
+   "ai_note": "单月暴跌超五成且无公告，基本面或存重大未决瑕疵。"
   },
   {
-   "ticker": "UUU.CN",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "CSE微型铀矿零成交无新闻，流动性极差"
-  },
-  {
-   "ticker": "VIZ.V",
+   "ticker": "STUD.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型PGM勘探无新闻，量化高分不可靠"
+   "ai_note": "铀矿股近期随板块调整，无独立利好，下调评分。"
+  },
+  {
+   "ticker": "MANU.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "市值较小且持续阴跌，缺乏实质性勘探突破。"
+  },
+  {
+   "ticker": "UTWO.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "跌幅较大且无消息，微盘股流动性与融资风险高。"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "板块内大市值标的，抗跌性较好，基本面相对稳健。"
+  },
+  {
+   "ticker": "GLO.TO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "开发者阶段面临融资与审批风险，近期走势偏弱。"
+  },
+  {
+   "ticker": "LAC.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "大型锂矿开发商，受困于许可与资金面双重压力。"
   }
  ]
 }
