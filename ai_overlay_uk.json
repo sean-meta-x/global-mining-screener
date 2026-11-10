@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T22:03Z",
+ "generated_at": "2026-11-10T22:03Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "POW.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探企，流动性差且无近期催化剂，风险较高。"
+   "ai_note": "微型铀矿勘探股，缺乏近期催化剂与流动性风险。"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "巴西小型金矿生产商，运营及宏观风险导致近期大跌。"
+   "ai_note": "黄金生产商近期跌幅较大，需警惕小型矿企运营与现金流风险。"
   },
   {
    "ticker": "THX.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "科特迪瓦金矿已投产，但西非地缘政治风险需持续关注。"
-  },
-  {
-   "ticker": "JLP.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "历史上有严重稀释劣迹，结构复杂且股价近期暴跌。"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "津巴布韦铂族金属矿企，面临极高的政治与ESG风险。"
+   "ai_note": "塞古拉金矿已投产，但近期股价回调，基本面暂无明显异动。"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "欧洲铜锌生产商，基本面稳健但受大宗商品周期压制。"
+   "ai_adjust": -1,
+   "ai_note": "铜锌生产商受金属价格波动影响，近期股价回调但基本面尚可。"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铂族金属价格持续疲软，公司盈利预期承压，需警惕基本面恶化。"
+  },
+  {
+   "ticker": "CMCL.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "津巴布韦矿业政策风险较高，且近期金价回调压制了股价表现。"
+  },
+  {
+   "ticker": "JLP.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "公司结构复杂且具高度推销色彩，近期暴跌暗示流动性或基本面恶化。"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀物理信托基金，走势紧跟铀价，缺乏矿企的超额弹性。"
-  },
-  {
-   "ticker": "CMCL.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "津巴布韦金矿企，分红尚可但面临当地政策与运营风险。"
+   "ai_note": "作为实物铀信托基金基本面稳健，近期随铀价小幅回调属正常波动。"
   },
   {
    "ticker": "SLP.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "南非铂族尾矿处理商，受PGM价格疲软及南非电力危机拖累。"
+   "ai_note": "铂族金属价格低迷导致利润承压，需关注后续分红削减风险。"
+  },
+  {
+   "ticker": "KEFI.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "埃塞俄比亚项目面临严重的外汇管制与审批延迟风险，暴跌需警惕。"
   },
   {
    "ticker": "AURA.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "毛里塔尼亚铀矿勘探企，处于早期阶段且市值极小。"
+   "ai_note": "铀矿勘探股缺乏近期催化剂，且市值较小存在流动性与稀释风险。"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "澳洲多元化矿企，运营平稳但缺乏短期爆发催化剂。"
+   "ai_note": "澳洲多元化生产商经营稳健，近期随大盘回调，无显著负面消息。"
   },
   {
    "ticker": "MET1.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "瑞典铁矿勘探企，面临资金需求与许可证审批的不确定性。"
-  },
-  {
-   "ticker": "KEFI.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "埃塞俄比亚与摩洛哥项目面临极高管辖权风险，市值微小。"
-  },
-  {
-   "ticker": "XTR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "津巴布韦微型矿企，存在持续融资稀释与运营不确定性。"
-  },
-  {
-   "ticker": "GEM.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "彩色宝石生产商，利润率高但受限于利基市场与地缘风险。"
+   "ai_note": "微型勘探股流动性极差，虽逆势微涨但缺乏实质性项目催化剂。"
   },
   {
    "ticker": "ORR.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "南非微型金矿企，面临当地深部开采成本高及流动性问题。"
+   "ai_note": "芬兰金矿勘探股市值过小，缺乏近期钻探亮点，存在流动性折价。"
+  },
+  {
+   "ticker": "XTR.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "津巴布韦微型金矿股面临极高的国家风险与流动性枯竭隐患。"
+  },
+  {
+   "ticker": "GEM.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "彩色宝石需求疲软影响拍卖收入，近期逆势微涨但缺乏长期催化。"
+  },
+  {
+   "ticker": "RSG.L",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "西非中型金矿商产量稳步提升，近期逆势上涨显示资金认可其基本面。"
+  },
+  {
+   "ticker": "0ICU.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "南非尾矿回收商经营稳定，近期股价横盘，无显著异动或催化剂。"
+  },
+  {
+   "ticker": "KOD.L",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "马里地缘政治风险加剧影响矿业运营，需警惕项目受阻或资产减值。"
   },
   {
    "ticker": "TGA.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "南非动力煤生产商，虽现金流好但面临严重ESG与退市风险。"
-  },
-  {
-   "ticker": "KOD.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "马里锂矿项目面临军政府政策突变及极高的地缘政治风险。"
-  },
-  {
-   "ticker": "TIN.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "英国锡矿开发商，资本开支巨大且近期股价遭遇重挫。"
-  },
-  {
-   "ticker": "RSG.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "马里金矿企，受当地军政府政策及运营中断的严重威胁。"
+   "ai_note": "动力煤资产面临长期ESG折价与南非物流瓶颈，基本面承压明显。"
   }
  ]
 }
