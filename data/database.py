@@ -25,6 +25,14 @@ def _engine():
     return _ENGINE
 
 
+def reset_engine():
+    """Drop pooled connections — the DB file was replaced underneath them."""
+    global _ENGINE
+    if _ENGINE is not None:
+        _ENGINE.dispose()
+        _ENGINE = None
+
+
 # ── ORM model ─────────────────────────────────────────────────────────────────
 
 class Base(DeclarativeBase):
