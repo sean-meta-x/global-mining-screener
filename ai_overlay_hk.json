@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-09T22:20Z",
+ "generated_at": "2026-11-10T22:20Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1303.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股，无新闻支撑，跌幅显著，流动性存疑。"
-  },
-  {
-   "ticker": "0815.HK",
-   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "中国白银历史关联交易频繁，治理风险高，跌势未止。"
+   "ai_note": "小市值煤炭股，流动性差且面临环保政策风险，无新闻佐证基本面"
   },
   {
    "ticker": "1712.HK",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "印尼金矿运营存不确定性，近期回调幅度偏大。"
+   "ai_note": "澳洲金矿生产商，月跌幅较大但市值尚可，需关注金价波动影响"
   },
   {
-   "ticker": "0621.HK",
+   "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "勘探阶段无产出，南非资产政治风险高，纯概念炒作。"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "市值极小，业务多元但主业不清，流动性差。"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "债务危机严重，俄罗斯运营受阻，历史多次配股摊薄。"
+   "ai_adjust": -4,
+   "ai_note": "白银生产商市值偏小，月跌近19%无利好支撑，治理风险存疑"
   },
   {
    "ticker": "0098.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "兴发铝业为正规铝型材企业，基本面尚可，回调正常。"
+   "ai_adjust": -1,
+   "ai_note": "兴发铝业市值适中，跌幅温和，铝价周期性波动属正常范围"
   },
   {
-   "ticker": "9696.HK",
+   "ticker": "0637.HK",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "天齐锂业收购SQM背负巨额债务，锂价暴跌加剧偿债压力。"
+   "ai_note": "市值仅1.37亿极度微型，流动性极差，多元化业务缺乏透明度"
+  },
+  {
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中铝为大型国企，市值超千亿，跌幅受宏观铝价压制属正常"
+  },
+  {
+   "ticker": "1029.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "IRC历史上有债务重组记录，铁矿小市值公司运营风险较高"
+  },
+  {
+   "ticker": "3636.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金迅资源月跌近20%且无新闻，铜矿生产持续性存疑"
   },
   {
    "ticker": "0166.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "新时代公司历史上有可疑交易记录，治理结构堪忧。"
+   "ai_note": "新时代公司市值小且业务多元化不聚焦，治理透明度不足"
   },
   {
-   "ticker": "3636.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "近期跌幅较大但缺乏具体利空信息，暂观望。"
+   "ticker": "0621.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "勘探阶段金矿公司无产出，依赖融资存活，稀释风险极高"
   },
   {
    "ticker": "8203.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值不足五千万，GEM板微盘股，高度投机。"
+   "ai_adjust": -8,
+   "ai_note": "市值仅4600万属仙股级别，煤炭小矿面临政策关停风险"
+  },
+  {
+   "ticker": "9696.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "天齐锂业受锂价暴跌拖累，大市值但行业周期下行压力大"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "近期上市金矿公司，信息有限需观察，月跌幅属板块联动"
+  },
+  {
+   "ticker": "1208.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "五矿资源Las Bambas矿山频繁受社区封锁影响，运营中断风险高"
+  },
+  {
+   "ticker": "2302.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "中核国际月跌超22%为板块最大，铀矿小市值公司波动剧烈"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中国宏桥为铝业龙头，市值近两千亿，跌幅温和基本面稳健"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值仅1亿微型煤炭股，信息披露极少，存在壳股嫌疑"
+  },
+  {
+   "ticker": "1051.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "金仁集团金矿生产尚可，月跌7%属正常波动，关注金价走势"
   },
   {
    "ticker": "8095.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "北大青鸟非纯正矿业，GEM上市，业务混杂。"
-  },
-  {
-   "ticker": "1182.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "该股历史多次借壳重组和配售，典型庄股特征。"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "次新股上市时间短，业绩验证不足，估值待观察。"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值仅一亿港元，小煤矿企业，政策和安全风险高。"
-  },
-  {
-   "ticker": "2302.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "中核国际曾停牌，治理不透明，单月暴跌逾两成。"
+   "ai_note": "北大青鸟多元化业务，月跌幅最小仅2.8%，短期相对稳定"
   },
   {
    "ticker": "2693.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "高岭土小企业，信息有限，关注度低。"
-  },
-  {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中铝为大型国企，经营稳健但周期下行期盈利承压。"
-  },
-  {
-   "ticker": "1733.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "易大宗曾经历债务重组，目前经营有所改善。"
-  },
-  {
-   "ticker": "1051.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "格林资源创始人被捕，刚果金资产存疑，治理灾难。"
+   "ai_note": "金岩高岭土市值偏小但跌幅温和， diversified业务提供一定缓冲"
   }
  ]
 }
