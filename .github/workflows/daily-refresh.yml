@@ -29,6 +29,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # the outlook reads 30-day spot changes from the station DBs
+      - name: Download databases from the db-latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download db-latest -p 'screener_*.db'
+
       - name: AI commodity outlook
         env:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
@@ -69,6 +75,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # The DB carries the snapshot history, so a missing asset fails the job
+      # instead of starting an empty one.
+      - name: Download database from the db-latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download db-latest -p screener_${{ matrix.market }}.db
+
       - name: Run daily refresh (${{ matrix.market }})
         run: |
           python - <<'PYEOF'
@@ -87,25 +100,35 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
         run: python scripts/ai_overlay.py review --market ${{ matrix.market }} || true
 
-      - name: Commit updated database + AI overlay
+      # --clobber deletes the old asset before uploading, so retry: the only
+      # other copies are the Sunday weekly_ copy and what the apps hold.
+      - name: Upload database to the db-latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          db=screener_${{ matrix.market }}.db
+          for i in 1 2 3; do
+            gh release upload db-latest "$db" --clobber && break
+            [ "$i" = 3 ] && exit 1
+            sleep $((i * 20))
+          done
+          if [ "$(date -u +%u)" = 7 ]; then
+            cp "$db" "weekly_$db"
+            gh release upload db-latest "weekly_$db" --clobber
+          fi
+
+      - name: Commit AI overlay
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add screener_${{ matrix.market }}.db
           git add ai_overlay_${{ matrix.market }}.json || true
           if git diff --cached --quiet; then
             echo "No data changes."
           else
-            git commit -m "chore(${{ matrix.market }}): daily data refresh ($(date -u +%Y-%m-%d))"
+            git commit -m "chore(${{ matrix.market }}): daily AI overlay ($(date -u +%Y-%m-%d))"
             # retry push in case parallel matrix jobs race
             for i in 1 2 3 4 5; do
               git push && break
               git pull --rebase && sleep $((i * 5))
             done
           fi
-
-      # Stage 5: the cloud apps read the DB from this release (data/release_db.py)
-      - name: Upload database to the db-latest release
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh release upload db-latest screener_${{ matrix.market }}.db --clobber

@@ -1,9 +1,10 @@
 """Station DB from the repo's `db-latest` GitHub Release instead of git.
 
-The daily refresh uploads screener_<market>.db as a release asset. A cloud app
-that holds STATION_PAT (Contents: read on this repo) downloads it at start
-into config.RELEASE_DB_PATH and re-checks every CHECK_EVERY_S. Without a token,
-or when GitHub cannot be reached, the copy already on disk keeps being served.
+The daily refresh keeps screener_<market>.db as a release asset; the files are
+not in the repo. A cloud app needs STATION_PAT (Contents: read on this repo):
+it downloads the asset at start into config.RELEASE_DB_PATH and re-checks every
+CHECK_EVERY_S. When GitHub cannot be reached, the copy already on disk keeps
+being served.
 """
 import logging
 import os
@@ -49,7 +50,8 @@ def sync(db_path, tok: str, get=requests.get) -> str | None:
     None — callers must then drop open connections and cached frames."""
     db_path = Path(db_path)
     with _lock:
-        if not tok or time.time() - _checked_at.get(db_path, 0) < CHECK_EVERY_S:
+        recent = time.time() - _checked_at.get(db_path, 0) < CHECK_EVERY_S
+        if not tok or (recent and db_path.exists()):    # nothing on disk: ask again
             return None
         _checked_at[db_path] = time.time()
     auth = {"Authorization": f"Bearer {tok}"}

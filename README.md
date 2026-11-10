@@ -24,11 +24,12 @@ Sister project: the (private) Australia screener this codebase derives from.
   refinement during the daily refresh.
 - **Scoring**: multi-factor undervaluation score (valuation 30%, balance-sheet
   health 20%, momentum 15%, mining metrics 25%, commodity outlook 5%, stage 5%).
-- **Refresh**: GitHub Actions daily at 21:30 UTC (matrix over all markets),
-  commits each `screener_{market}.db` back → Streamlit Cloud auto-redeploys.
-  It also uploads the DB to the private `db-latest` release; an app whose
-  secrets hold `STATION_PAT` (Contents: read on this repo) serves that copy
-  (`data/release_db.py`) — the first step of moving the DBs out of git.
+- **Refresh**: GitHub Actions daily at 21:30 UTC (matrix over all markets).
+  The databases are **not in git**: each `screener_{market}.db` is an asset of
+  the private `db-latest` release. A job downloads its DB, refreshes it and
+  uploads it back (plus a `weekly_` copy on Sundays). The apps download
+  their DB at start and re-check every 30 minutes (`data/release_db.py`).
+  A new market needs its first DB uploaded by hand.
 - **Optional CIQ overlay**: drop a `spg_{market}.json` (S&P Capital IQ Pro
   Excel add-in export, same schema as the AU screener) into the repo root to
   light up P/NAV, AISC and reserve metrics; `commodity_spots.json` overrides
@@ -38,6 +39,7 @@ Sister project: the (private) Australia screener this codebase derives from.
 
 ```bash
 pip install -r requirements.txt
+gh release download db-latest -p "screener_*.db" --clobber   # the station DBs
 MARKET=ca python serve.py     # http://localhost:8502
 ```
 
@@ -48,4 +50,5 @@ Main file `app.py`, Python 3.12, secrets:
 ```toml
 MARKET = "ca"
 DISABLE_SCHEDULER = "true"
+STATION_PAT = "<fine-grained token: Contents read on this repo>"
 ```

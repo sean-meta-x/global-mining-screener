@@ -8,7 +8,8 @@ __pycache__/
 .venv/
 venv/
 
-# SQLite runtime artifacts (main .db IS committed on purpose)
+# Station DBs live on the db-latest release (see README), not in git
+screener_*.db
 *.db-wal
 *.db-shm
 *.db-journal

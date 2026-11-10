@@ -179,15 +179,18 @@ st.set_page_config(
 )
 
 # ── Cloud: station DB comes from the `db-latest` release, not the git checkout ─────
-# sync() throttles itself; without STATION_PAT the bundled DB is served as is.
-_station_pat = release_db.token(st.secrets)
-if _station_pat and os.getenv("DISABLE_SCHEDULER", "").lower() == "true":
-    _fresh = release_db.sync(config.RELEASE_DB_PATH, _station_pat)
+# sync() throttles itself. Local runs keep building their own DB (scheduler).
+if os.getenv("DISABLE_SCHEDULER", "").lower() == "true":
+    _fresh = release_db.sync(config.RELEASE_DB_PATH, release_db.token(st.secrets))
     if config.RELEASE_DB_PATH.exists() and config.DB_PATH != config.RELEASE_DB_PATH:
         config.DB_PATH, _fresh = config.RELEASE_DB_PATH, True
     if _fresh:
         reset_engine()
         st.cache_data.clear()
+    if not config.DB_PATH.exists():
+        st.error("No data yet — this app reads its database from the db-latest "
+                 "release and needs STATION_PAT in its secrets. Reload in a minute.")
+        st.stop()
 
 # ── One-time startup (scheduler + DB) ─────────────────────────────────────────
 @st.cache_resource
