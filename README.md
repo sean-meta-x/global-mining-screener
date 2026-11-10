@@ -26,6 +26,9 @@ Sister project: the (private) Australia screener this codebase derives from.
   health 20%, momentum 15%, mining metrics 25%, commodity outlook 5%, stage 5%).
 - **Refresh**: GitHub Actions daily at 21:30 UTC (matrix over all markets),
   commits each `screener_{market}.db` back → Streamlit Cloud auto-redeploys.
+  It also uploads the DB to the private `db-latest` release; an app whose
+  secrets hold `STATION_PAT` (Contents: read on this repo) serves that copy
+  (`data/release_db.py`) — the first step of moving the DBs out of git.
 - **Optional CIQ overlay**: drop a `spg_{market}.json` (S&P Capital IQ Pro
   Excel add-in export, same schema as the AU screener) into the repo root to
   light up P/NAV, AISC and reserve metrics; `commodity_spots.json` overrides

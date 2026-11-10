@@ -39,6 +39,9 @@ CURRENCY    = _M["cur"]
 FX_TO_USD   = _M["fx_to_usd"]
 
 DB_PATH       = BASE_DIR / f"screener_{MARKET}.db"
+# Cloud copy downloaded from the db-latest release (data/release_db.py). Kept
+# out of the tracked file's way so the app's git checkout stays clean.
+RELEASE_DB_PATH = BASE_DIR / ".release" / DB_PATH.name
 UNIVERSE_JSON = BASE_DIR / "universes" / f"{MARKET}.json"
 
 # ── Refresh schedule (local exchange time; used only for local APScheduler) ───

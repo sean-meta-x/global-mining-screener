@@ -103,3 +103,9 @@ jobs:
               git pull --rebase && sleep $((i * 5))
             done
           fi
+
+      # Stage 5: the cloud apps read the DB from this release (data/release_db.py)
+      - name: Upload database to the db-latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload db-latest screener_${{ matrix.market }}.db --clobber

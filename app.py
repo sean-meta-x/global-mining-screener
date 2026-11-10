@@ -116,8 +116,9 @@ def _report_to_pdf(markdown_text: str, title: str = "Mining Report") -> bytes:
 
 from data.universe import ALL_COMMODITIES, ALL_STAGES, get_ticker_meta
 import data.snl_client as snl_client
+import data.release_db as release_db
 from data.database import (
-    init_db, load_latest, load_history, load_prev_scores,
+    init_db, reset_engine, load_latest, load_history, load_prev_scores,
     load_sector_trends, load_commodity_price_history,
     load_return_matrix, load_backtest_data,
     last_refresh,
@@ -176,6 +177,17 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+# ── Cloud: station DB comes from the `db-latest` release, not the git checkout ─────
+# sync() throttles itself; without STATION_PAT the bundled DB is served as is.
+_station_pat = release_db.token(st.secrets)
+if _station_pat and os.getenv("DISABLE_SCHEDULER", "").lower() == "true":
+    _fresh = release_db.sync(config.RELEASE_DB_PATH, _station_pat)
+    if config.RELEASE_DB_PATH.exists() and config.DB_PATH != config.RELEASE_DB_PATH:
+        config.DB_PATH, _fresh = config.RELEASE_DB_PATH, True
+    if _fresh:
+        reset_engine()
+        st.cache_data.clear()
 
 # ── One-time startup (scheduler + DB) ─────────────────────────────────────────
 @st.cache_resource
@@ -329,7 +341,8 @@ _IS_CLOUD = os.getenv("DISABLE_SCHEDULER", "").lower() == "true"
 with col_refresh:
     st.markdown("<br>", unsafe_allow_html=True)
     if _IS_CLOUD:
-        st.caption("🔄 Auto-refresh daily ~08:15 Sydney (GitHub Actions)")
+        st.caption("🔄 Auto-refresh daily ~08:15 Sydney (GitHub Actions)"
+                   f" · data: {release_db.source(config.DB_PATH)}")
     elif st.button("🔄 Refresh Now", width="stretch"):
         with st.spinner("Fetching live data… this takes ~2 min"):
             run_daily_refresh()
