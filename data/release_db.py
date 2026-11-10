@@ -1,9 +1,10 @@
 """Station DB from the repo's `db-latest` GitHub Release instead of git.
 
-The daily refresh uploads screener_<market>.db as a release asset. A cloud app
-that holds STATION_PAT (Contents: read on this repo) downloads it at start
-into config.RELEASE_DB_PATH and re-checks every CHECK_EVERY_S. Without a token,
-or when GitHub cannot be reached, the copy already on disk keeps being served.
+The daily refresh keeps screener_<market>.db as a release asset; the files are
+not in the repo. A cloud app needs STATION_PAT (Contents: read on this repo):
+it downloads the asset at start into config.RELEASE_DB_PATH and re-checks every
+CHECK_EVERY_S. When GitHub cannot be reached, the copy already on disk keeps
+being served.
 """
 import logging
 import os
@@ -19,6 +20,7 @@ REPO = "sean-meta-x/global-mining-screener"
 TAG = "db-latest"
 RELEASE_URL = f"https://api.github.com/repos/{REPO}/releases/tags/{TAG}"
 CHECK_EVERY_S = 1800
+RETRY_MISSING_S = 30        # nothing on disk yet (asset mid-replace, bad token)
 
 _checked_at: dict[Path, float] = {}     # db path -> last time the release was asked
 _lock = threading.Lock()
@@ -49,7 +51,8 @@ def sync(db_path, tok: str, get=requests.get) -> str | None:
     None — callers must then drop open connections and cached frames."""
     db_path = Path(db_path)
     with _lock:
-        if not tok or time.time() - _checked_at.get(db_path, 0) < CHECK_EVERY_S:
+        wait = CHECK_EVERY_S if db_path.exists() else RETRY_MISSING_S
+        if not tok or time.time() - _checked_at.get(db_path, 0) < wait:
             return None
         _checked_at[db_path] = time.time()
     auth = {"Authorization": f"Bearer {tok}"}
