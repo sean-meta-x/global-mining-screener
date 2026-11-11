@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-10T22:51Z",
+ "generated_at": "2026-11-11T22:52Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘股无消息，大跌或暗示隐性稀释或勘探失败。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值极低且无端暴跌，警惕隐性稀释或钻探失败。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "缺乏催化剂且近期大幅回调，需警惕流动性风险。"
+   "ai_adjust": -5,
+   "ai_note": "股价大幅回撤且无消息，需防范潜在融资稀释风险。"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "极小市值且单月腰斩，无消息支撑，警惕融资稀释。"
+   "ai_adjust": -9,
+   "ai_note": "市值不足千万且单月腰斩，极大概率为流动性枯竭或暴雷。"
   },
   {
-   "ticker": "YMC.CN",
+   "ticker": "STUD.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "跌幅显著且无新闻，可能存在未披露的钻探失利。"
+   "ai_note": "微型矿企无消息下跌，需警惕管理层隐性增发或项目停滞。"
+  },
+  {
+   "ticker": "SBI.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "黄金生产商单月大跌，需排查是否存矿山运营或品位问题。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿股，无量价利好，下行风险大于量化评分。"
+   "ai_adjust": -4,
+   "ai_note": "勘探阶段微盘股无量阴跌，谨防钻探结果不及预期。"
+  },
+  {
+   "ticker": "V.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铀矿勘探股逆势微涨，量化得分合理，暂无明显异动。"
+  },
+  {
+   "ticker": "YMC.CN",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "股价大幅回调且无公开利空，需防范内部人抛售或稀释。"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型金矿勘探股持续下跌，缺乏基本面支撑，流动性堪忧。"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "股价停滞且缺乏近期催化，维持中性观望态度。"
+   "ai_note": "黄金生产商走势平稳，量化评分客观反映其基本面现状。"
   },
   {
-   "ticker": "V.V",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "铀矿概念唯一正收益，但市值偏小，给予微调加分。"
-  },
-  {
-   "ticker": "SBI.TO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "作为生产商却大幅跑输板块，或存运营及成本隐患。"
-  },
-  {
-   "ticker": "IRV.CN",
+   "ticker": "MANU.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型金矿股，近期跌幅较大且无消息，谨防稀释。"
-  },
-  {
-   "ticker": "FUU.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铀矿勘探股，随板块回调，缺乏独立利好催化。"
+   "ai_note": "微盘股阴跌且无消息，需警惕潜在的资金链断裂风险。"
   },
   {
    "ticker": "LAB.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值偏小，近期走弱且无新闻，需防范资金流出。"
+   "ai_adjust": -4,
+   "ai_note": "勘探公司市值偏低且持续下挫，需防范后续融资摊薄股权。"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "股价横盘无波动，缺乏明确催化剂，维持中性。"
+   "ai_note": "股价横盘且无新闻催化，量化得分处于合理区间，观望为主。"
   },
   {
-   "ticker": "NAM.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值极低且暴跌超三成，无消息面，极大概率已稀释。"
-  },
-  {
-   "ticker": "EMO.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "单月暴跌超五成且无公告，基本面或存重大未决瑕疵。"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿股近期随板块调整，无独立利好，下调评分。"
-  },
-  {
-   "ticker": "MANU.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "市值较小且持续阴跌，缺乏实质性勘探突破。"
-  },
-  {
-   "ticker": "UTWO.V",
+   "ticker": "FUU.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "跌幅较大且无消息，微盘股流动性与融资风险高。"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "板块内大市值标的，抗跌性较好，基本面相对稳健。"
-  },
-  {
-   "ticker": "GLO.TO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "开发者阶段面临融资与审批风险，近期走势偏弱。"
+   "ai_note": "铀矿勘探股大幅回撤，需排查是否因钻探结果不佳。"
   },
   {
    "ticker": "LAC.TO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "大型锂矿开发商，受困于许可与资金面双重压力。"
+   "ai_adjust": -5,
+   "ai_note": "锂矿开发商大跌，需关注锂价波动及项目融资审批进度。"
+  },
+  {
+   "ticker": "NAM.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值极低且暴跌超三成，极大概率为流动性危机或隐性暴雷。"
+  },
+  {
+   "ticker": "EMO.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "单月暴跌近半且无公告，高度疑似重大利空未披露或资金盘崩盘。"
+  },
+  {
+   "ticker": "UTWO.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型矿企无端大跌，需警惕管理层低价增发或项目停滞风险。"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型金矿生产商走势相对稳健，量化评分合理，暂无需调整。"
+  },
+  {
+   "ticker": "GRBM.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微盘股大幅下挫且无消息，需防范潜在的稀释或壳资源炒作结束。"
   }
  ]
 }
