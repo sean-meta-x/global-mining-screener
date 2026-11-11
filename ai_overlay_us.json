@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-10T21:52Z",
+ "generated_at": "2026-11-11T21:52Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股月跌17%且零新闻，流动性堪忧"
+   "ai_adjust": -5,
+   "ai_note": "微型铀矿勘探股，流动性极差且无实质进展，需警惕稀释风险。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌超32%无任何消息，疑似钻探失败或稀释"
+   "ai_adjust": -8,
+   "ai_note": "名称疑似壳公司，缺乏实质资产与新闻，存在极高炒作风险。"
   },
   {
    "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "格陵兰PGM勘探股暴跌34%无新闻，风险极高"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "格陵兰岛PGM项目面临极高的ESG审查与社区许可风险。"
   },
   {
    "ticker": "WWR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "跌幅相对温和但零新闻流，需关注资金面"
-  },
-  {
-   "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂生产商月跌21%，锂价疲软叠加无催化"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂开发商温和回调，项目推进尚需观察"
+   "ai_note": "历史上有过严重稀释与执行问题，石墨项目商业化仍存疑。"
   },
   {
    "ticker": "LAC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "旗舰Thacker Pass推进中，锂价承压但基本面尚可"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "环保组织及原住民反对导致Thacker Pass许可严重受阻。"
   },
   {
-   "ticker": "NKOSF",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型金矿股月涨43%却零新闻，典型拉高出货"
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "津巴布韦金矿运营稳定，但需警惕该国宏观与政策风险。"
   },
   {
    "ticker": "LODE",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "金矿勘探股月跌22%无消息，恐有不利进展"
+   "ai_note": "公司近期频繁跨界炒作数据中心概念，历史稀释严重，估值虚高。"
   },
   {
-   "ticker": "CMCL",
+   "ticker": "ELVR",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "金矿生产商跌幅可控，运营相对稳定"
+   "ai_note": "市值与流动性匹配度存疑，缺乏明确的催化剂与机构关注。"
   },
   {
-   "ticker": "GRO",
+   "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴西钾矿开发商月跌14%，融资风险需关注"
+   "ai_adjust": -4,
+   "ai_note": "Rhyolite Ridge项目面临DOE贷款条件谈判及原住民诉讼风险。"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "多元勘探股月跌30%无新闻，警惕稀释风险"
+   "ai_adjust": -3,
+   "ai_note": "微型多元化勘探股，资金消耗快，存在较高的定向增发风险。"
+  },
+  {
+   "ticker": "GRO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "巴西钾矿项目资产优质，但需关注项目融资进度与建设延期风险。"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "纳米比亚金矿生产商，体量较小，需关注当地矿石品位波动。"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值仅一千五百万的微型股，极易被资金操纵，稀释风险极大。"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "内布拉斯加铌矿项目拖延数十年，管理层频繁稀释且缺乏执行力。"
   },
   {
    "ticker": "AABB",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "公司历史存疑，名称与业务不符，治理风险高"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型勘探股月跌23%无消息，流动性极差"
-  },
-  {
-   "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金矿生产商月跌26%，跌幅异常需警惕"
-  },
-  {
-   "ticker": "USAR",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "三十亿市值月跌33%无新闻，重大利空未披露"
+   "ai_adjust": -9,
+   "ai_note": "典型的非洲微型资源炒作股，基本面薄弱，存在严重的庄家操纵风险。"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "微型股月涨23%零新闻，疑似炒作拉高"
+   "ai_note": "近期在社交媒体上遭到严重炒作，缺乏实质资产支撑，警惕回调。"
+  },
+  {
+   "ticker": "SLI",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "阿肯色州DLE项目资本开支巨大，但现有合作方提供了部分保障。"
   },
   {
    "ticker": "UROY",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀royalty公司月跌26%，铀价回调拖累明显"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "铀矿版税公司资产质量较好，但股价高度依赖铀价周期波动。"
   },
   {
-   "ticker": "TMCR",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌34%无任何消息，基本面或存重大隐患"
+   "ticker": "IMPUY",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铂族金属价格低迷拖累业绩，但作为大型生产商具备一定抗风险能力。"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "石墨开发商月跌22%，融资与锂价双重承压"
+   "ai_note": "魁北克石墨项目面临电池负极材料认证及项目融资的双重挑战。"
   }
  ]
 }
