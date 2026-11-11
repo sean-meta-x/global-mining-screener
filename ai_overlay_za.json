@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-10T22:07Z",
+ "generated_at": "2026-11-11T22:07Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
-   "ticker": "JBL.JO",
+   "ticker": "THA.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "历史配股稀释频繁且项目执行力存疑，需警惕基本面恶化。"
+   "ai_adjust": -3,
+   "ai_note": "PGM价格疲软叠加南非运营风险，一月跌幅显著"
   },
   {
-   "ticker": "THA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铂族金属价格疲软叠加南非物流瓶颈，短期盈利承压。"
+   "ticker": "JBL.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "频繁融资稀释股东，推广过度且运营屡不及预期"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿石基本面稳健且分红慷慨，但受中国需求预期压制。"
+   "ai_adjust": -2,
+   "ai_note": "Transnet物流瓶颈制约出口，铁矿价格承压"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬矿业务稳定但缺乏增长催化剂，流动性一般。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值铬矿商，治理与运营稳定性存疑"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型股单月暴跌超半数，流动性枯竭且存在极高的退市风险。"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "刚果金锡矿基本面尚可，但地缘政治与物流风险需折价。"
-  },
-  {
-   "ticker": "SSW.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "深层矿井成本攀升及劳资关系紧张，转型期阵痛明显。"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "实为有色宝石而非PGM，历史治理瑕疵导致估值折价。"
+   "ai_adjust": -10,
+   "ai_note": "市值仅三千万，流动性极差且暴跌近两成七"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "铂族金属逆风期盈利大幅缩水，南非电力与物流制约产能。"
+   "ai_note": "PGM篮子价格走弱，但运营基本面尚可"
+  },
+  {
+   "ticker": "SSW.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "矿井关闭与高成本问题持续，资本配置受质疑"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "刚果金管辖权风险高，锡价波动剧烈"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "彩色宝石龙头，近期涨幅良好但市值偏小"
+  },
+  {
+   "ticker": "PAN.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金矿有安全事故记录，金价强势提供支撑"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "管理层优秀且资产多元，但当前估值已包含较高溢价。"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "煤炭资产现金流好但面临长期ESG折价与转型风险。"
-  },
-  {
-   "ticker": "PAN.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "受益于金价上涨周期，但南非本土深部开采成本依然偏高。"
+   "ai_note": "多元化矿企表现稳健，但治理结构需关注"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "煤炭业务提供强劲现金流，但长期面临能源转型估值压制。"
+   "ai_adjust": 0,
+   "ai_note": "煤炭ESG压力但现金流强劲，转型布局中"
   },
   {
    "ticker": "HAR.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "充分受益于黄金牛市，产量稳定且成本控制较好。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金价高位利好，历史治理问题已逐步改善"
   },
   {
    "ticker": "NPH.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铂族金属中成本曲线位置较优，抗周期能力相对较强。"
+   "ai_adjust": -1,
+   "ai_note": "南非PGM优质运营商，但行业逆风难以独善"
+  },
+  {
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "物流受限且矿区水管理问题拖累股价"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型煤炭股流动性极差，且面临严峻的ESG融资约束。"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "从Impala分拆不久，缺乏独立长期运营记录与历史数据。"
-  },
-  {
-   "ticker": "MCZ.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "处于开发阶段且无近期新闻，资金消耗与融资稀释风险高。"
+   "ai_adjust": -5,
+   "ai_note": "微型煤炭股流动性堪忧，治理透明度不足"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "资产全球化布局分散了南非风险，金价上涨的直接受益者。"
+   "ai_adjust": 2,
+   "ai_note": "全球化金矿龙头，金价上行周期直接受益"
   },
   {
-   "ticker": "EUZ.JO",
+   "ticker": "MCZ.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微型勘探股无实质收入，单月大跌显示资金盘破裂或流动性危机。"
+   "ai_note": "开发阶段煤企单月暴跌逾三成，执行风险极高"
+  },
+  {
+   "ticker": "VAL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "PGM行业逆风叠加量化评分偏低，需警惕下行"
+  },
+  {
+   "ticker": "DRD.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "尾矿回收成本可控但品位有限，表现平稳"
   }
  ]
 }
