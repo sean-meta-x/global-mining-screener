@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-10T22:03Z",
+ "generated_at": "2026-11-11T22:02Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
-   "ticker": "POW.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股，缺乏近期催化剂与流动性风险。"
-  },
-  {
    "ticker": "SRB.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "黄金生产商近期跌幅较大，需警惕小型矿企运营与现金流风险。"
+   "ai_adjust": -5,
+   "ai_note": "小盘金矿商月跌20%无消息，或存运营或稀释风险"
+  },
+  {
+   "ticker": "POW.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型勘探公司，持续稀释与推广风险高"
   },
   {
    "ticker": "THX.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "塞古拉金矿已投产，但近期股价回调，基本面暂无明显异动。"
-  },
-  {
-   "ticker": "CAML.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铜锌生产商受金属价格波动影响，近期股价回调但基本面尚可。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "尼日利亚运营，地缘与治理风险需警惕"
   },
   {
    "ticker": "THS.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铂族金属价格持续疲软，公司盈利预期承压，需警惕基本面恶化。"
+   "ai_note": "PGM价格疲软叠加南非风险，下行压力较大"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "津巴布韦矿业政策风险较高，且近期金价回调压制了股价表现。"
+   "ai_note": "津巴布韦运营，治理与汇兑风险突出"
+  },
+  {
+   "ticker": "CAML.L",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铜价波动影响，基本面尚可但需观察"
   },
   {
    "ticker": "JLP.L",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "公司结构复杂且具高度推销色彩，近期暴跌暗示流动性或基本面恶化。"
+   "ai_note": "月跌28%无任何消息，高度疑似稀释或运营失败"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "作为实物铀信托基金基本面稳健，近期随铀价小幅回调属正常波动。"
+   "ai_note": "铀现货信托走势平稳，基本面稳健"
   },
   {
    "ticker": "SLP.L",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "铂族金属价格低迷导致利润承压，需关注后续分红削减风险。"
+   "ai_note": "PGM板块整体疲软，南非运营风险犹存"
   },
   {
    "ticker": "KEFI.L",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "开发阶段公司月跌20%，融资与许可风险大"
+  },
+  {
+   "ticker": "ORR.L",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "埃塞俄比亚项目面临严重的外汇管制与审批延迟风险，暴跌需警惕。"
+   "ai_note": "千万市值勘探商月跌22%，稀释风险极高"
+  },
+  {
+   "ticker": "CAPD.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "温和回调，基本面暂无明显异常"
+  },
+  {
+   "ticker": "MET1.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型勘探公司，流动性差且稀释风险高"
   },
   {
    "ticker": "AURA.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铀矿勘探股缺乏近期催化剂，且市值较小存在流动性与稀释风险。"
-  },
-  {
-   "ticker": "CAPD.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "澳洲多元化生产商经营稳健，近期随大盘回调，无显著负面消息。"
-  },
-  {
-   "ticker": "MET1.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型勘探股流动性极差，虽逆势微涨但缺乏实质性项目催化剂。"
-  },
-  {
-   "ticker": "ORR.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "芬兰金矿勘探股市值过小，缺乏近期钻探亮点，存在流动性折价。"
+   "ai_note": "铀勘探小盘股月跌12%，需关注资金面"
   },
   {
    "ticker": "XTR.L",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "津巴布韦微型金矿股面临极高的国家风险与流动性枯竭隐患。"
-  },
-  {
-   "ticker": "GEM.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "彩色宝石需求疲软影响拍卖收入，近期逆势微涨但缺乏长期催化。"
-  },
-  {
-   "ticker": "RSG.L",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "西非中型金矿商产量稳步提升，近期逆势上涨显示资金认可其基本面。"
+   "ai_note": "千万市值金矿勘探商，推广与稀释风险高"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南非尾矿回收商经营稳定，近期股价横盘，无显著异动或催化剂。"
+   "ai_note": "尾矿处理商走势平稳，暂无明显风险"
+  },
+  {
+   "ticker": "RSG.L",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "月涨9%为列表最强，或有潜在催化剂"
+  },
+  {
+   "ticker": "GEM.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "有色宝石小盘股，流动性与治理风险并存"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "马里地缘政治风险加剧影响矿业运营，需警惕项目受阻或资产减值。"
+   "ai_adjust": -3,
+   "ai_note": "勘探阶段公司月跌12%，资金消耗风险"
   },
   {
-   "ticker": "TGA.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "动力煤资产面临长期ESG折价与南非物流瓶颈，基本面承压明显。"
+   "ticker": "ALTN.L",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "哈萨克斯坦金矿商，地缘风险需持续关注"
   }
  ]
 }
