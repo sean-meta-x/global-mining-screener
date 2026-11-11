@@ -113,3 +113,38 @@ def test_scale_break_quarantined_and_idempotent(tmp_path, monkeypatch):
     ok = pd.read_sql("SELECT DISTINCT grade FROM stock_snapshots "
                      "WHERE ticker='OK.TO'", engine)
     assert ok["grade"].tolist() == ["🔵 Buy"]
+
+
+# ── 2026-Q3 review, proposal C: labels the data contradicts ──────────────────
+@pytest.mark.unit
+def test_curated_explorer_or_developer_with_revenue_becomes_a_producer(monkeypatch):
+    import scheduler.jobs as jobs
+    monkeypatch.setattr(jobs, "FX_TO_USD", 1.0)
+    monkeypatch.setattr(jobs, "UNIVERSE_SRC", {t: "curated" for t in ("APM.TO", "GGP.L", "FUU.V", "SLI.V", "URC.TO")})
+    raw = pd.DataFrame({"totalRevenue": [645e6, 1161e6, None, 2e6, 304e6],
+                        "marketCap": [900e6, 6e9, 300e6, 800e6, 400e6]},
+                       index=["APM.TO", "GGP.L", "FUU.V", "SLI.V", "URC.TO"])
+    meta = {"APM.TO": {"stage": "Explorer"}, "GGP.L": {"stage": "Developer"}, "FUU.V": {"stage": "Explorer"},
+            "SLI.V": {"stage": "Developer"}, "URC.TO": {"stage": "Royalty/Streaming"}}
+
+    jobs.refine_stages(raw, meta)
+
+    assert meta["APM.TO"]["stage"] == "Mid-tier Producer"       # by market cap, like screen-sourced names
+    assert meta["GGP.L"]["stage"] == "Major Producer"
+    assert meta["FUU.V"]["stage"] == "Explorer"                 # no revenue: the curated label stands
+    assert meta["SLI.V"]["stage"] == "Developer"                # a little income is not production
+    assert meta["URC.TO"]["stage"] == "Royalty/Streaming"       # other curated stages are never touched
+
+
+@pytest.mark.unit
+@pytest.mark.parametrize("name, commodity, src, expected", [
+    ("AVINO SILVER AND GOLD MINES LTD", "PGM", "screen", "Silver"),
+    ("Some Gold Corp", "PGM", "screen", "Gold"),
+    ("Platinum Group Metals Ltd", "PGM", "screen", "PGM"),
+    ("Tharisa plc", "PGM", "screen", "PGM"),                       # says nothing: left alone
+    ("Silver One Resources", "PGM", "curated", "PGM"),             # curated rows are trusted
+    ("Silvercorp Metals", "Silver", "screen", "Silver"),
+])
+def test_screen_sourced_pgm_label_follows_the_company_name(name, commodity, src, expected):
+    from data.universe import screen_commodity
+    assert screen_commodity(name, commodity, src) == expected
