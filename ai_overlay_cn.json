@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-10T22:31Z",
+ "generated_at": "2026-11-11T22:30Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "治理结构复杂，历史关联交易频繁，需警惕利益输送"
+   "ai_adjust": -2,
+   "ai_note": "治理存疑，关联交易频繁需警惕"
+  },
+  {
+   "ticker": "601600.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "国企大盘铝企，基本面平稳无显著催化"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国企绿电铝龙头，基本面稳健，无明显治理瑕疵"
+   "ai_note": "水电铝成本优势明显，运营稳健"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤铝双主业周期承压，暂无突出风险"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "国企煤企重组后整合期，关注资产注入节奏"
-  },
-  {
-   "ticker": "601600.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "大型国企铝企，资本配置效率偏低但系统重要性高"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤电铝一体化经营稳健，治理相对规范"
+   "ai_note": "山西煤企，行业政策风险需关注"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂矿概念炒作痕迹明显，大股东减持需警惕"
+   "ai_note": "雅化历史财务存疑，锂价下行压力大"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "新疆铝企信息透明度一般，产能扩张期关注资本开支"
+   "ai_adjust": 0,
+   "ai_note": "天山铝业产能扩张有序，估值合理"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌幅超18%抛压异常，需排查是否有未披露利空"
+   "ai_adjust": -3,
+   "ai_note": "月跌近两成异常，需排查基本面隐忧"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近19%，历史存在关联交易和资金占用问题"
+   "ai_adjust": -2,
+   "ai_note": "月跌幅较大，铝加工利润承压明显"
   },
   {
    "ticker": "000792.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "破产重整后恢复，钾锂垄断地位稳固但治理仍需观察"
+   "ai_adjust": 0,
+   "ai_note": "盐湖提锂龙头，成本优势突出"
   },
   {
    "ticker": "002466.SZ",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "高杠杆海外收购后遗症显现，财务风险较大"
+   "ai_note": "高杠杆收购后遗症，锂价低迷加剧风险"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型央企煤企，稳健但缺乏弹性"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中孚实业历史经营波动大，财务需关注"
   },
   {
    "ticker": "600971.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "小市值国企煤企，流动性一般但治理尚可"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企煤企分红稳定，估值合理无明显瑕疵"
-  },
-  {
-   "ticker": "000737.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌超21%叠加借壳上市背景，治理隐患严重"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史存在财务问题和资金占用，治理风险持续"
-  },
-  {
-   "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "关联中国宏桥曾有会计争议，需关注审计质量"
+   "ai_note": "小市值煤企，流动性一般"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "全产业链铝企治理较好，高端产品占比提升"
+   "ai_note": "南山铝业产业链完整，运营稳健"
   },
   {
-   "ticker": "603979.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌23%为板块最惨，需警惕业绩变脸或资金链问题"
-  },
-  {
-   "ticker": "600490.SS",
+   "ticker": "000737.SZ",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "海外矿产治理不透明，大股东有资本运作前科"
+   "ai_note": "月跌超两成无消息，疑似庄股崩盘或基本面恶化"
+  },
+  {
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "宏桥历史治理争议，做空报告阴影犹存"
   },
   {
    "ticker": "600508.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月跌超14%，煤炭板块资金流出明显"
+  },
+  {
+   "ticker": "603979.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "月跌逾23%为全场最差，需警惕治理或合同风险"
+  },
+  {
+   "ticker": "002128.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小市值煤企子公司，流动性偏低但无重大治理问题"
+   "ai_adjust": 0,
+   "ai_note": "月仅微跌，露天煤业经营相对稳定"
   }
  ]
 }
