@@ -162,21 +162,33 @@ def apply_scale_break_quarantine(rescan_days: int = SCALE_BREAK_RESCAN_DAYS) -> 
     return breaks
 
 
+STAGE_PROMOTE_REVENUE_USD = 20e6    # a curated "Explorer" / "Developer" above this is producing
+
+
 def refine_stages(raw_df: pd.DataFrame, meta: dict[str, dict]) -> None:
     """
     Upgrade the market-cap-heuristic stage of screen-sourced tickers using
     fetched fundamentals: real revenue → producer tiers; none → developer or
-    explorer by market cap. Curated tickers keep their hand-assigned stage.
+    explorer by market cap. Curated tickers keep their hand-assigned stage —
+    except a curated Explorer or Developer with real revenue: the label went
+    stale when the mine started (APM.TO: "Explorer" with C$645M of revenue,
+    STGO.TO, GGP.L; 2026-Q3 review, proposal C). Those move to a producer tier.
     """
     n = 0
     for tk, m in meta.items():
-        if UNIVERSE_SRC.get(tk) != "screen" or tk not in raw_df.index:
+        if tk not in raw_df.index:
             continue
         row = raw_df.loc[tk]
         rev  = row.get("totalRevenue")
         mcap = row.get("marketCap")
         rev_usd  = float(rev)  * FX_TO_USD if pd.notna(rev)  else 0.0
         mcap_usd = float(mcap) * FX_TO_USD if pd.notna(mcap) else 0.0
+        if UNIVERSE_SRC.get(tk) != "screen":
+            if m["stage"] in ("Explorer", "Developer") and rev_usd > STAGE_PROMOTE_REVENUE_USD:
+                m["stage"] = ("Major Producer" if mcap_usd >= 5e9 else
+                              "Mid-tier Producer" if mcap_usd >= 5e8 else "Producer")
+                n += 1
+            continue
         if rev_usd >= 10e6:
             stage = ("Major Producer" if mcap_usd >= 5e9 else
                      "Mid-tier Producer" if mcap_usd >= 5e8 else "Producer")
@@ -186,7 +198,7 @@ def refine_stages(raw_df: pd.DataFrame, meta: dict[str, dict]) -> None:
             m["stage"] = stage
             n += 1
     if n:
-        log.info(f"  Stage refinement: {n} screen-sourced tickers updated.")
+        log.info(f"  Stage refinement: {n} tickers updated (screen-sourced, and curated explorers/developers with revenue).")
 
 
 def apply_ai_outlook() -> None:
