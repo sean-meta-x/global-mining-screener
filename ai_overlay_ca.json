@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T22:52Z",
+ "generated_at": "2026-11-12T22:52Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MRZL.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值极低且无端暴跌，警惕隐性稀释或钻探失败。"
+   "ai_note": "市值极低且一月暴跌，缺乏新闻催化，存在流动性枯竭与稀释风险。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "股价大幅回撤且无消息，需防范潜在融资稀释风险。"
+   "ai_note": "市值超亿但一月跌幅显著，无新闻支撑，需警惕管理层隐性稀释。"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
    "ai_adjust": -9,
-   "ai_note": "市值不足千万且单月腰斩，极大概率为流动性枯竭或暴雷。"
+   "ai_note": "一月腰斩且无任何新闻，典型僵尸股特征，量化高分系技术面误导。"
   },
   {
-   "ticker": "STUD.V",
+   "ticker": "IRV.CN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型矿企无消息下跌，需警惕管理层隐性增发或项目停滞。"
-  },
-  {
-   "ticker": "SBI.TO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金生产商单月大跌，需排查是否存矿山运营或品位问题。"
+   "ai_adjust": -6,
+   "ai_note": "微型市值伴随持续阴跌，无实质进展披露，谨防融资稀释风险。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "勘探阶段微盘股无量阴跌，谨防钻探结果不及预期。"
+   "ai_note": "一月跌幅近两成且无新闻，勘探股缺乏催化剂，量化评分虚高。"
+  },
+  {
+   "ticker": "SBI.TO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "作为生产商一月回撤两成，无新闻披露可能掩盖运营或成本压力。"
+  },
+  {
+   "ticker": "UTWO.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅千万且一月大跌，无新闻披露，极大概率面临资金链断裂。"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "生产商一月零涨幅且无新闻，缺乏增长催化剂，表现平庸。"
   },
   {
    "ticker": "V.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀矿勘探股逆势微涨，量化得分合理，暂无明显异动。"
-  },
-  {
-   "ticker": "YMC.CN",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "股价大幅回调且无公开利空，需防范内部人抛售或稀释。"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型金矿勘探股持续下跌，缺乏基本面支撑，流动性堪忧。"
-  },
-  {
-   "ticker": "MMY.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金生产商走势平稳，量化评分客观反映其基本面现状。"
-  },
-  {
-   "ticker": "MANU.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘股阴跌且无消息，需警惕潜在的资金链断裂风险。"
+   "ai_note": "铀矿勘探股一月微涨，无新闻支撑，走势平淡，维持中性观察。"
   },
   {
    "ticker": "LAB.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "勘探公司市值偏低且持续下挫，需防范后续融资摊薄股权。"
+   "ai_adjust": -3,
+   "ai_note": "一月零涨幅且无新闻，黄金勘探缺乏实质性进展，资金关注度低。"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "股价横盘且无新闻催化，量化得分处于合理区间，观望为主。"
-  },
-  {
-   "ticker": "FUU.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀矿勘探股大幅回撤，需排查是否因钻探结果不佳。"
+   "ai_adjust": 1,
+   "ai_note": "一月逆势上涨但无新闻，需警惕游资短期炒作后的一地鸡毛。"
   },
   {
    "ticker": "LAC.TO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锂矿开发商大跌，需关注锂价波动及项目融资审批进度。"
+   "ai_adjust": -4,
+   "ai_note": "锂矿开发商一月大跌，受行业周期压制，无新闻或暗示融资遇阻。"
+  },
+  {
+   "ticker": "FUU.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿勘探股一月下跌且无新闻，缺乏钻探成果支撑，估值承压。"
   },
   {
    "ticker": "NAM.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值极低且暴跌超三成，极大概率为流动性危机或隐性暴雷。"
+   "ai_note": "市值千万且一月大跌四分之一，无新闻披露，存在极高退市或稀释风险。"
   },
   {
    "ticker": "EMO.V",
    "ai_view": "red_flag",
    "ai_adjust": -9,
-   "ai_note": "单月暴跌近半且无公告，高度疑似重大利空未披露或资金盘崩盘。"
+   "ai_note": "一月暴跌近半且毫无音讯，基本面或存在未披露的重大利空。"
   },
   {
-   "ticker": "UTWO.V",
+   "ticker": "MANU.V",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "一月逆势大涨但无新闻，疑似内幕资金炒作，追高风险极大。"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铀矿股一月下跌且无新闻，缺乏核心钻探数据支撑，量化评分失真。"
+  },
+  {
+   "ticker": "IBAT.V",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "微型矿企无端大跌，需警惕管理层低价增发或项目停滞风险。"
+   "ai_note": "电池金属勘探股一月大跌，无新闻披露，需警惕项目停滞或稀释。"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型金矿生产商走势相对稳健，量化评分合理，暂无需调整。"
+   "ai_note": "中型金矿商一月微涨，无重大新闻，运营平稳但缺乏爆发催化剂。"
   },
   {
-   "ticker": "GRBM.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微盘股大幅下挫且无消息，需防范潜在的稀释或壳资源炒作结束。"
+   "ticker": "NEXM.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "一月大跌超三成且无新闻，多元化勘探缺乏焦点，资金正在撤离。"
   }
  ]
 }
