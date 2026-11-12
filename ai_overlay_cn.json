@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T22:30Z",
+ "generated_at": "2026-11-12T22:32Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "000612.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "治理存疑，关联交易频繁需警惕"
+   "ai_note": "关联交易频繁，治理结构存疑，中期跌幅偏大需警惕"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国企大盘铝企，基本面平稳无显著催化"
+   "ai_note": "央企背景稳健，铝价承压但无重大隐性风险"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "水电铝成本优势明显，运营稳健"
+   "ai_note": "中铝旗下运营稳定，无额外治理或稀释风险"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭政策风险叠加异常跌幅，可能隐含经营问题"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤铝双主业周期承压，暂无突出风险"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "山西煤企，行业政策风险需关注"
+   "ai_note": "铝煤双主业对冲，跌幅温和但需关注煤价下行"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "雅化历史财务存疑，锂价下行压力大"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "天山铝业产能扩张有序，估值合理"
+   "ai_adjust": -2,
+   "ai_note": "小市值多元化公司，锂矿概念退潮后流动性堪忧"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌近两成异常，需排查基本面隐忧"
+   "ai_note": "月跌幅超20%异常，煤炭资产减值或业绩变脸风险"
+  },
+  {
+   "ticker": "002532.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "跌幅最小表现稳健，新疆低成本铝无明显治理瑕疵"
+  },
+  {
+   "ticker": "000792.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "锂价持续低迷叠加产能过剩，盐湖提锂成本优势收窄"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "收购SQM背负巨额债务，锂价下行期偿债压力巨大"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "月跌幅较大，铝加工利润承压明显"
+   "ai_note": "铝箔加工毛利薄，异常大跌或暗示订单流失"
   },
   {
-   "ticker": "000792.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "盐湖提锂龙头，成本优势突出"
-  },
-  {
-   "ticker": "002466.SZ",
+   "ticker": "600971.SS",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "高杠杆收购后遗症，锂价低迷加剧风险"
+   "ai_adjust": -1,
+   "ai_note": "小市值煤企，行业下行期抗风险能力较弱"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "大型央企煤企，稳健但缺乏弹性"
+   "ai_note": "央企煤炭龙头，政策压价风险可控但缺乏弹性"
   },
   {
    "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中孚实业历史经营波动大，财务需关注"
-  },
-  {
-   "ticker": "600971.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小市值煤企，流动性一般"
-  },
-  {
-   "ticker": "600219.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南山铝业产业链完整，运营稳健"
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "历史财务困难频发，高负债率叠加异常跌幅警惕退市风险"
   },
   {
    "ticker": "000737.SZ",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌超两成无消息，疑似庄股崩盘或基本面恶化"
+   "ai_adjust": -4,
+   "ai_note": "月跌逾21%极度异常，铜矿品位下降或隐性亏损可能"
   },
   {
-   "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "宏桥历史治理争议，做空报告阴影犹存"
-  },
-  {
-   "ticker": "600508.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌超14%，煤炭板块资金流出明显"
+   "ticker": "600219.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南山铝产业链完整，跌幅温和无重大治理瑕疵"
   },
   {
    "ticker": "603979.SS",
    "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "月跌逾23%为全场最差，需警惕治理或合同风险"
+   "ai_note": "月跌24%为全场最大，矿服合同流失或项目失败信号"
   },
   {
-   "ticker": "002128.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "月仅微跌，露天煤业经营相对稳定"
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "民营铝企龙头，关联交易复杂且海外扩张存不确定性"
+  },
+  {
+   "ticker": "600490.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "海外矿业投资屡遭挫折，治理问题频发需高度警惕"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "隶属中煤集团，煤价下行周期业绩承压但风险可控"
   }
  ]
 }
