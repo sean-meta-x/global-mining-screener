@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-11T21:52Z",
+ "generated_at": "2026-11-12T21:52Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
    "ticker": "JAGU",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型铀矿勘探股，流动性极差且无实质进展，需警惕稀释风险。"
-  },
-  {
-   "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "名称疑似壳公司，缺乏实质资产与新闻，存在极高炒作风险。"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "格陵兰岛PGM项目面临极高的ESG审查与社区许可风险。"
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探商，流动性差且面临持续股权稀释风险。"
   },
   {
    "ticker": "WWR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史上有过严重稀释与执行问题，石墨项目商业化仍存疑。"
+   "ai_adjust": -2,
+   "ai_note": "锑石墨项目面临资金与许可双重压力，短期缺乏催化剂。"
   },
   {
-   "ticker": "LAC",
-   "ai_view": "caution",
+   "ticker": "FNUC",
+   "ai_view": "red_flag",
    "ai_adjust": -5,
-   "ai_note": "环保组织及原住民反对导致Thacker Pass许可严重受阻。"
+   "ai_note": "极小市值铀矿股，极易受资金炒作与稀释影响，风险极高。"
   },
   {
-   "ticker": "CMCL",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "津巴布韦金矿运营稳定，但需警惕该国宏观与政策风险。"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "公司近期频繁跨界炒作数据中心概念，历史稀释严重，估值虚高。"
-  },
-  {
-   "ticker": "ELVR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "市值与流动性匹配度存疑，缺乏明确的催化剂与机构关注。"
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "格陵兰岛采矿面临严苛的政治与环保许可阻力，项目停滞风险大。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "Rhyolite Ridge项目面临DOE贷款条件谈判及原住民诉讼风险。"
+   "ai_note": "锂项目受濒危物种法案影响，环保许可审批存在重大延期风险。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "虽有许可但面临持续环保诉讼与巨额资金缺口，估值承压。"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型多元化勘探股，资金消耗快，存在较高的定向增发风险。"
+   "ai_note": "小市值多金属勘探商，无明确钻探突破，存在较高稀释风险。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "津巴布韦金矿面临主权与电力风险，但作为在产矿企基本面尚可。"
+  },
+  {
+   "ticker": "LODE",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "公司常跨界炒作新概念，管理层治理与过度宣传风险较高。"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "标为生产商但实为早期项目，资本开支巨大且面临融资风险。"
   },
   {
    "ticker": "GRO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "巴西钾矿项目资产优质，但需关注项目融资进度与建设延期风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "巴西钾矿项目面临当地环保审批延迟及社区阻力，推进缓慢。"
   },
   {
-   "ticker": "NAMM",
+   "ticker": "EU",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "纳米比亚金矿生产商，体量较小，需关注当地矿石品位波动。"
+   "ai_note": "铀矿在产但现金流承压，需关注后续融资对股东的稀释效应。"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "市值仅一千五百万的微型股，极易被资金操纵，稀释风险极大。"
+   "ai_adjust": -5,
+   "ai_note": "极小市值且流动性枯竭，纯靠概念炒作，极易遭遇定向增发。"
   },
   {
-   "ticker": "NB",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "内布拉斯加铌矿项目拖延数十年，管理层频繁稀释且缺乏执行力。"
-  },
-  {
-   "ticker": "AABB",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "典型的非洲微型资源炒作股，基本面薄弱，存在严重的庄家操纵风险。"
-  },
-  {
-   "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "近期在社交媒体上遭到严重炒作，缺乏实质资产支撑，警惕回调。"
+   "ticker": "NAMM",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "非洲微型金矿生产商，需警惕隐藏的运营与治理合规风险。"
   },
   {
    "ticker": "SLI",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "阿肯色州DLE项目资本开支巨大，但现有合作方提供了部分保障。"
+   "ai_note": "直接提锂技术尚存不确定性，但股价抗跌，暂维持中性观察。"
   },
   {
-   "ticker": "UROY",
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铌稀土项目历史悠久但屡遭延期，冶金与融资风险长期压制估值。"
+  },
+  {
+   "ticker": "FSM",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "铀矿版税公司资产质量较好，但股价高度依赖铀价周期波动。"
+   "ai_adjust": 0,
+   "ai_note": "中型银矿企基本面稳健，但近期部分矿山运营不及预期拖累股价。"
   },
   {
-   "ticker": "IMPUY",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "铂族金属价格低迷拖累业绩，但作为大型生产商具备一定抗风险能力。"
+   "ticker": "FMST",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "无实质利好下的微盘股暴涨，高度疑似资金操纵与拉高出货。"
   },
   {
-   "ticker": "NMG",
+   "ticker": "REA",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "魁北克石墨项目面临电池负极材料认证及项目融资的双重挑战。"
+   "ai_note": "稀土项目长期受制于资金短缺与许可瓶颈，商业化前景不明。"
+  },
+  {
+   "ticker": "USAR",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "标为生产商实为早期开发，高估值脱离基本面，存在严重泡沫。"
   }
  ]
 }
