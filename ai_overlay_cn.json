@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-12T22:32Z",
+ "generated_at": "2026-11-13T22:31Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "关联交易频繁，治理结构存疑，中期跌幅偏大需警惕"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝企，历史存在股权纠纷，基本面平稳但缺乏弹性。"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企背景稳健，铝价承压但无重大隐性风险"
+   "ai_note": "大型国企，业绩稳健但缺乏高增长催化剂，估值合理。"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中铝旗下运营稳定，无额外治理或稀释风险"
+   "ai_note": "绿电铝优势明显，但受云南枯水期限电影响产能利用率。"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤电铝一体化，分红较好，但受煤炭价格下行拖累。"
+  },
+  {
+   "ticker": "002497.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "锂盐价格大幅下跌导致业绩承压，需警惕存货减值风险。"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "煤炭政策风险叠加异常跌幅，可能隐含经营问题"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铝煤双主业对冲，跌幅温和但需关注煤价下行"
-  },
-  {
-   "ticker": "002497.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值多元化公司，锂矿概念退潮后流动性堪忧"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌幅超20%异常，煤炭资产减值或业绩变脸风险"
+   "ai_note": "煤炭价格中枢下移，短期业绩承压且缺乏向上催化。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "跌幅最小表现稳健，新疆低成本铝无明显治理瑕疵"
+   "ai_note": "新疆煤电铝成本优势显著，但需关注行业产能过剩风险。"
   },
   {
-   "ticker": "000792.SZ",
+   "ticker": "600546.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "锂价持续低迷叠加产能过剩，盐湖提锂成本优势收窄"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "收购SQM背负巨额债务，锂价下行期偿债压力巨大"
+   "ai_note": "煤炭主业受价格下跌影响，高股息逻辑在弱市中受考验。"
   },
   {
    "ticker": "603876.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铝箔加工毛利薄，异常大跌或暗示订单流失"
+   "ai_adjust": -3,
+   "ai_note": "电池铝箔受下游去库存及加工费内卷影响，盈利空间收窄。"
   },
   {
-   "ticker": "600971.SS",
+   "ticker": "603979.SS",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "小市值煤企，行业下行期抗风险能力较弱"
+   "ai_adjust": -2,
+   "ai_note": "矿业服务龙头，但近期跌幅过大，需关注海外项目回款风险。"
   },
   {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "央企煤炭龙头，政策压价风险可控但缺乏弹性"
+   "ticker": "000792.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "碳酸锂价格暴跌重创利润，钾肥主业难以完全弥补锂业亏损。"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "历史财务困难频发，高负债率叠加异常跌幅警惕退市风险"
+   "ai_adjust": -5,
+   "ai_note": "历史财务表现不佳且存在治理瑕疵，盈利稳定性极差。"
   },
   {
-   "ticker": "000737.SZ",
+   "ticker": "002466.SZ",
    "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "月跌逾21%极度异常，铜矿品位下降或隐性亏损可能"
+   "ai_adjust": -6,
+   "ai_note": "锂价崩盘叠加海外高息并购带来的沉重债务，财务风险极高。"
+  },
+  {
+   "ticker": "600490.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "屡次涉及关联交易与海外资产减值，公司治理存在重大瑕疵。"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南山铝产业链完整，跌幅温和无重大治理瑕疵"
+   "ai_adjust": 0,
+   "ai_note": "产业链一体化程度高，航空铝材有亮点，但整体受周期压制。"
   },
   {
-   "ticker": "603979.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌24%为全场最大，矿服合同流失或项目失败信号"
+   "ticker": "600971.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "地方国企煤炭股，分红稳定但市值较小，流动性与弹性一般。"
+  },
+  {
+   "ticker": "000737.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铜矿自给率偏低，近期股价大幅回调反映市场对其成本担忧。"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "央企煤炭龙头，长协煤占比高，业绩确定性强但缺乏弹性。"
   },
   {
    "ticker": "002379.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "民营铝企龙头，关联交易复杂且海外扩张存不确定性"
+   "ai_note": "铝箔业务竞争激烈且加工费承压，近期股价大幅走弱需警惕。"
   },
   {
-   "ticker": "600490.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -4,
-   "ai_note": "海外矿业投资屡遭挫折，治理问题频发需高度警惕"
-  },
-  {
-   "ticker": "600508.SS",
+   "ticker": "603993.SS",
    "ai_view": "caution",
-   "ai_adjust": -1,
-   "ai_note": "隶属中煤集团，煤价下行周期业绩承压但风险可控"
+   "ai_adjust": -3,
+   "ai_note": "铜钴产量大增但钴价暴跌拖累利润，需关注刚果金地缘风险。"
   }
  ]
 }
