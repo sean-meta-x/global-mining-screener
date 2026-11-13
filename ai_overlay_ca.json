@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T22:52Z",
+ "generated_at": "2026-11-13T22:54Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MRZL.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值极低且一月暴跌，缺乏新闻催化，存在流动性枯竭与稀释风险。"
+   "ai_note": "微型市值叠加25%跌幅且零新闻，流动性与项目停滞风险极高"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "市值超亿但一月跌幅显著，无新闻支撑，需警惕管理层隐性稀释。"
+   "ai_note": "月跌逾三成且无任何新闻催化，市场信心明显不足"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
    "ai_adjust": -9,
-   "ai_note": "一月腰斩且无任何新闻，典型僵尸股特征，量化高分系技术面误导。"
+   "ai_note": "暴跌近六成、市值仅千万且零新闻，疑似项目停滞或被弃"
   },
   {
-   "ticker": "IRV.CN",
+   "ticker": "V.V",
    "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "微型市值伴随持续阴跌，无实质进展披露，谨防融资稀释风险。"
+   "ai_adjust": -4,
+   "ai_note": "铀矿小盘月跌近9%且无消息，需警惕资金撤离"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "一月跌幅近两成且无新闻，勘探股缺乏催化剂，量化评分虚高。"
+   "ai_adjust": -5,
+   "ai_note": "金矿小盘月跌25%零新闻，存在被市场边缘化风险"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "黄金生产商月跌17%却无新闻披露，运营或存隐忧"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "作为生产商一月回撤两成，无新闻披露可能掩盖运营或成本压力。"
+   "ai_note": "中型金矿商月跌21%但无负面公告，需关注基本面变化"
   },
   {
    "ticker": "UTWO.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值仅千万且一月大跌，无新闻披露，极大概率面临资金链断裂。"
+   "ai_note": "市值仅1300万且暴跌35%零新闻，或暗示项目遇阻"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "生产商一月零涨幅且无新闻，缺乏增长催化剂，表现平庸。"
+   "ai_note": "金矿生产商月跌不足4%表现相对稳健，暂无明显利空"
   },
   {
-   "ticker": "V.V",
+   "ticker": "YMC.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小盘金矿勘探月跌近25%无新闻，市场关注度极低"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型市值月跌14%且零新闻，流动性与催化剂双缺"
+  },
+  {
+   "ticker": "FUU.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铀矿勘探月跌近30%无消息，板块热度消退需警惕"
+  },
+  {
+   "ticker": "VIO.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铀矿勘探股一月微涨，无新闻支撑，走势平淡，维持中性观察。"
+   "ai_adjust": -2,
+   "ai_note": "金价走强下月线持平且零新闻，缺乏上行驱动力"
   },
   {
    "ticker": "LAB.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "一月零涨幅且无新闻，黄金勘探缺乏实质性进展，资金关注度低。"
+   "ai_note": "微型金矿勘探月线走平无催化，资金关注度不足"
   },
   {
-   "ticker": "VIO.V",
+   "ticker": "IPT.V",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "一月逆势上涨但无新闻，需警惕游资短期炒作后的一地鸡毛。"
+   "ai_adjust": -2,
+   "ai_note": "银矿生产商月跌14%无新闻，需关注产量与成本变化"
   },
   {
    "ticker": "LAC.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂矿开发商一月大跌，受行业周期压制，无新闻或暗示融资遇阻。"
+   "ai_adjust": -5,
+   "ai_note": "大市值锂开发商月跌33%无消息，融资或项目进度存疑"
   },
   {
-   "ticker": "FUU.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿勘探股一月下跌且无新闻，缺乏钻探成果支撑，估值承压。"
+   "ticker": "MANU.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "月涨3%但零新闻催化，涨幅或为投机资金驱动需谨慎"
   },
   {
    "ticker": "NAM.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值千万且一月大跌四分之一，无新闻披露，存在极高退市或稀释风险。"
-  },
-  {
-   "ticker": "EMO.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "一月暴跌近半且毫无音讯，基本面或存在未披露的重大利空。"
-  },
-  {
-   "ticker": "MANU.V",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "一月逆势大涨但无新闻，疑似内幕资金炒作，追高风险极大。"
+   "ai_adjust": -7,
+   "ai_note": "市值仅千万月跌25%零新闻，典型僵尸股特征明显"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "铀矿股一月下跌且无新闻，缺乏核心钻探数据支撑，量化评分失真。"
-  },
-  {
-   "ticker": "IBAT.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "电池金属勘探股一月大跌，无新闻披露，需警惕项目停滞或稀释。"
+   "ai_note": "小盘铀矿月跌11%无消息，板块退潮后易被市场遗忘"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型金矿商一月微涨，无重大新闻，运营平稳但缺乏爆发催化剂。"
-  },
-  {
-   "ticker": "NEXM.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "一月大跌超三成且无新闻，多元化勘探缺乏焦点，资金正在撤离。"
+   "ai_note": "中型金矿商月涨2.4%表现尚可，但零新闻仍需留意"
   }
  ]
 }
