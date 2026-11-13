@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T21:52Z",
+ "generated_at": "2026-11-13T21:51Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商，流动性差且面临持续股权稀释风险。"
-  },
-  {
-   "ticker": "WWR",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锑石墨项目面临资金与许可双重压力，短期缺乏催化剂。"
-  },
-  {
-   "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极小市值铀矿股，极易受资金炒作与稀释影响，风险极高。"
+   "ai_note": "微型铀矿勘探股量价背离严重，警惕稀释风险"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "格陵兰岛采矿面临严苛的政治与环保许可阻力，项目停滞风险大。"
+   "ai_adjust": -7,
+   "ai_note": "一月暴跌近半且无消息，极可能存在增发或钻探失败"
   },
   {
-   "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂项目受濒危物种法案影响，环保许可审批存在重大延期风险。"
-  },
-  {
-   "ticker": "LAC",
+   "ticker": "FNUC",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "虽有许可但面临持续环保诉讼与巨额资金缺口，估值承压。"
+   "ai_note": "小市值勘探股大幅下跌，基本面存疑"
   },
   {
-   "ticker": "NEXM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值多金属勘探商，无明确钻探突破，存在较高稀释风险。"
-  },
-  {
-   "ticker": "CMCL",
+   "ticker": "WWR",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "津巴布韦金矿面临主权与电力风险，但作为在产矿企基本面尚可。"
-  },
-  {
-   "ticker": "LODE",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "公司常跨界炒作新概念，管理层治理与过度宣传风险较高。"
-  },
-  {
-   "ticker": "ELVR",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "标为生产商但实为早期项目，资本开支巨大且面临融资风险。"
+   "ai_note": "跌幅温和，暂无明显异常信号"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "巴西钾矿项目面临当地环保审批延迟及社区阻力，推进缓慢。"
+   "ai_note": "钾肥开发商大幅回调，项目进度或融资存疑"
   },
   {
-   "ticker": "EU",
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂价低迷叠加Thacker Pass审批风险，下行压力大"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Rhyolite Ridge项目面临联邦许可障碍"
+  },
+  {
+   "ticker": "LODE",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "金矿勘探股跌幅偏大，无利好支撑"
+  },
+  {
+   "ticker": "ELVR",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铀矿在产但现金流承压，需关注后续融资对股东的稀释效应。"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极小市值且流动性枯竭，纯靠概念炒作，极易遭遇定向增发。"
-  },
-  {
-   "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "非洲微型金矿生产商，需警惕隐藏的运营与治理合规风险。"
-  },
-  {
-   "ticker": "SLI",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "直接提锂技术尚存不确定性，但股价抗跌，暂维持中性观察。"
-  },
-  {
-   "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铌稀土项目历史悠久但屡遭延期，冶金与融资风险长期压制估值。"
+   "ai_note": "锂生产商温和下跌，行业整体承压"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型银矿企基本面稳健，但近期部分矿山运营不及预期拖累股价。"
+   "ai_note": "中型银矿商跌幅正常，基本面稳健"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "Elk Creek项目长期拖延，融资和执行风险高"
+  },
+  {
+   "ticker": "NEXM",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值勘探股大跌，流动性风险突出"
+  },
+  {
+   "ticker": "NAMM",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "金矿生产商一月跌近三成，极不寻常"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型市值勘探股，下跌且无消息支撑"
+  },
+  {
+   "ticker": "SLI",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "跌幅极小，在锂板块中表现相对抗跌"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦矿区运营，存在管辖权风险"
   },
   {
    "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "无实质利好下的微盘股暴涨，高度疑似资金操纵与拉高出货。"
+   "ai_adjust": -5,
+   "ai_note": "微型股无消息暴涨27%，典型拉高出货特征"
   },
   {
    "ticker": "REA",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "稀土项目长期受制于资金短缺与许可瓶颈，商业化前景不明。"
+   "ai_note": "稀土开发商大幅下跌，项目前景不明"
+  },
+  {
+   "ticker": "UROY",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀royalty公司跌幅超预期，板块波动加剧"
   },
   {
    "ticker": "USAR",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "标为生产商实为早期开发，高估值脱离基本面，存在严重泡沫。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "大市值稀土股一月跌逾25%，基本面或存隐忧"
   }
  ]
 }
