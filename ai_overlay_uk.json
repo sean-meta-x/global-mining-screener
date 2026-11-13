@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-12T22:03Z",
+ "generated_at": "2026-11-13T22:03Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
    "ticker": "SRB.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘金矿股，一月跌18%无消息，巴西运营存隐忧"
+   "ai_adjust": -2,
+   "ai_note": "巴西小型金矿商，近期运营与许可风险显现，需警惕流动性折价。"
   },
   {
    "ticker": "THX.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "科特迪瓦金矿生产商，表现平稳，无重大风险信号"
+   "ai_note": "科特迪瓦金矿投产顺利，但地缘政治风险与金价波动需保持中性观察。"
   },
   {
    "ticker": "POW.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型勘探公司，市值仅1200万，稀释风险极高"
-  },
-  {
-   "ticker": "CMCL.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦Blanket金矿，政权风险显著，估值承压"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型勘探股流动性极差，高度依赖融资，存在持续稀释与项目停滞风险。"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铀实物信托基金，非运营公司，走势稳定中性"
+   "ai_note": "纯实物铀信托基金，无运营风险，表现仅受铀价波动影响，基本面稳健。"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "北马其顿铜矿生产商，基本面尚可，无突出催化"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南非PGM生产商，铂族金属价格疲软拖累股价"
+   "ai_adjust": -1,
+   "ai_note": "铜锌生产商盈利受金属价格下跌拖累，但资产负债表健康且分红稳定。"
   },
   {
    "ticker": "JLP.L",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "一月暴跌29%无公告，历史有过度推广嫌疑，高度警惕"
+   "ai_adjust": -6,
+   "ai_note": "股价暴跌反映运营不及预期，公司结构复杂且历史上有频繁稀释融资劣迹。"
+  },
+  {
+   "ticker": "CMCL.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦国家风险较高，通胀与政策不确定性长期压制估值，需警惕。"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铂族金属价格低迷叠加南非电力短缺，基本面承压，短期难见反转催化剂。"
   },
   {
    "ticker": "SLP.L",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "南非PGM生产商，行业逆风持续，短期承压"
+   "ai_adjust": -3,
+   "ai_note": "同样受制于铂族金属价格疲软与南非运营环境，防御性略优于同行但仍承压。"
+  },
+  {
+   "ticker": "MET1.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -4,
+   "ai_note": "微型爱尔兰勘探股，流动性枯竭，完全依赖概念炒作，存在极高本金永久损失风险。"
   },
   {
    "ticker": "KEFI.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "开发阶段公司，许可和融资风险高，一月跌16%"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "埃塞俄比亚项目面临严峻的安全与许可障碍，融资困难，项目推进存在重大不确定性。"
   },
   {
    "ticker": "CAPD.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "百慕大多元化公司，历史治理争议，需谨慎"
+   "ai_adjust": -2,
+   "ai_note": "多元化生产商近期股价回调，需关注核心资产现金流及管理层资本配置能力。"
   },
   {
-   "ticker": "MET1.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型勘探股，市值仅1200万，流动性极差"
+   "ticker": "RSG.L",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "马里Syama金矿运营稳健，逆势上涨彰显基本面韧性，但需持续关注地缘风险。"
   },
   {
    "ticker": "AURA.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小型铀勘探公司，毛里塔尼亚项目，稀释风险大"
+   "ai_note": "毛里塔尼亚铀矿项目推进缓慢，微盘股融资压力大，需警惕持续稀释与许可风险。"
+  },
+  {
+   "ticker": "ECOR.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "基础金属敞口较大，受宏观经济预期与利率环境影响显著，短期估值承压。"
   },
   {
    "ticker": "0ICU.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南非金矿尾矿处理商，运营稳定，无突出风险"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "南非尾矿回收商利润率微薄，高度依赖金价与南非稳定的运营环境，防御性较弱。"
   },
   {
    "ticker": "KOD.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "马里锂矿项目，该国政局不稳，地缘风险极高"
-  },
-  {
-   "ticker": "RSG.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "马里Syama金矿有地缘风险，但近期走势正面"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "马里锂矿项目面临严峻的地缘政治与融资困境，政策不确定性极易导致项目停滞。"
   },
   {
    "ticker": "XTR.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿勘探股，市值仅1100万，流动性极差"
-  },
-  {
-   "ticker": "LEX.L",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "微型勘探股暴跌近20%，市值仅千万，高度警惕"
+   "ai_adjust": -4,
+   "ai_note": "微型赞比亚勘探股，流动性极差且缺乏实质性运营进展，存在较高的边缘化风险。"
   },
   {
-   "ticker": "PAF.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大盘南非金矿商，运营稳定，无重大异常信号"
+   "ticker": "TIN.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "股价暴跌超四成，反映项目遭遇重大工程挫折或融资断裂，基本面严重恶化。"
   },
   {
-   "ticker": "GGP.L",
+   "ticker": "ALTN.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Havieron项目与纽蒙特合作，大盘股走势平稳"
+   "ai_adjust": -1,
+   "ai_note": "哈萨克斯坦金矿运营稳定，但受地缘政治折价与金价短期波动影响，表现平淡。"
   }
  ]
 }
