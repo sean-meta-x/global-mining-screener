@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T22:13Z",
+ "generated_at": "2026-11-13T22:13Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "IFSH.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "一月暴跌68%，量化模型未能捕捉到基本面恶化或潜在稀释风险"
+   "ai_note": "暴跌伴随流动性枯竭，小市值矿企存在极高治理与退市风险。"
   },
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "小市值叠加26%跌幅，流动性风险与基本面存疑"
+   "ai_note": "缺乏新闻支撑的持续阴跌，需警惕隐性稀释或基本面恶化。"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型煤炭承包商市值不足3000亿印尼盾，跌势凶猛需警惕"
+   "ai_adjust": -3,
+   "ai_note": "煤炭产能过剩叠加股价重挫，小盘股流动性折价风险加剧。"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "国有锡业龙头，跌幅温和，锡价波动为主要风险"
+   "ai_adjust": 0,
+   "ai_note": "锡价波动影响短期业绩，但国企背景提供一定安全边际。"
+  },
+  {
+   "ticker": "UNIQ.JK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "逆势大涨缺乏基本面支撑，高度疑似游资炒作或拉高出货。"
+  },
+  {
+   "ticker": "DWGL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "股价大幅回调且无利好对冲，需防范大股东质押爆仓风险。"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭生产商走势相对平稳，暂无明显异常信号"
+   "ai_note": "业绩相对平稳，但煤炭行业整体面临需求放缓与价格压制。"
   },
   {
-   "ticker": "UNIQ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值逆市上涨19%且无新闻支撑，疑似炒作需警惕"
-  },
-  {
-   "ticker": "DWGL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "煤炭股一月跌28%，量化分数未能反映近期恶化趋势"
+   "ticker": "RMKE.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "走势相对抗跌，但煤炭板块整体估值承压，缺乏明确向上催化。"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "小市值多元化矿企跌超20%，需排查是否存在稀释或治理问题"
+   "ai_note": "多元化业务未能抵御周期下行，股价破位需警惕资产减值风险。"
   },
   {
    "ticker": "UNTR.JK",
    "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": " Astra集团旗下大型设备龙头，走势稳健，估值具吸引力"
+   "ai_adjust": 5,
+   "ai_note": "集团治理优良且设备市占率高，具备穿越周期的核心资产价值。"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中型煤炭企业跌幅温和，基本面尚可但缺乏催化剂"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "镍业龙头受印尼镍供应过剩压制，短期基本面承压"
+   "ai_note": "煤炭主业稳健但新能源转型仍需验证，短期受板块情绪拖累。"
   },
   {
    "ticker": "DOID.JK",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "暴跌37%且市值不足万亿，存在严重基本面或治理隐患"
-  },
-  {
-   "ticker": "INDY.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "跌幅较大且历史上存在关联交易与治理争议"
+   "ai_note": "股价闪崩式下跌且无公开利空，极可能存在未披露的治理或债务危机。"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "正推进能源转型，煤炭主业承压但新业务方向尚不明朗"
+   "ai_adjust": 0,
+   "ai_note": "能源转型布局初见成效，但传统煤炭业务仍受宏观需求压制。"
   },
   {
-   "ticker": "NICL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锡矿商一月跌33%，需排查是否存在经营或合规问题"
+   "ticker": "INDY.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "绿色转型资本开支巨大，短期自由现金流承压拖累股价表现。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型煤炭生产商走势平稳，量化分数基本反映现状"
+   "ai_note": "煤炭物流需求随产量波动，业绩确定性较强但缺乏估值弹性。"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "镍价持续低迷且印尼产能过剩，重资产模式面临较大盈利压力。"
+  },
+  {
+   "ticker": "NICL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锡矿品位下降与环保监管趋严，中小矿企长期生产成本面临考验。"
   },
   {
    "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "市值仅1200亿印尼盾，流动性极差且持续下跌"
+   "ai_note": "极小市值煤炭股，流动性极差且易受庄家操纵，存在高度投机风险。"
   },
   {
    "ticker": "MBAP.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "煤炭股中少有的正收益标的，动量向好值得关注"
-  },
-  {
-   "ticker": "CITA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "印尼铝土矿出口禁令持续影响，政策风险尚未充分定价"
-  },
-  {
-   "ticker": "ABMM.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭生产商跌幅有限，走势相对稳健但缺乏亮点"
+   "ai_adjust": 0,
+   "ai_note": "逆势上涨或受短期资金驱动，但煤炭基本面未现根本性反转。"
+  },
+  {
+   "ticker": "AADI.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "作为Adaro分拆标的，铝土矿与煤炭协同效应尚需时间兑现。"
   }
  ]
 }
