@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-13T22:54Z",
+ "generated_at": "2026-11-14T22:51Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "MRZL.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型市值叠加25%跌幅且零新闻，流动性与项目停滞风险极高"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微盘股流动性差且单月暴跌，警惕融资稀释风险。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "月跌逾三成且无任何新闻催化，市场信心明显不足"
+   "ai_adjust": -4,
+   "ai_note": "单月跌幅超三成且无消息，可能存在未披露的融资或钻探失败。"
   },
   {
    "ticker": "CEXY.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "暴跌近六成、市值仅千万且零新闻，疑似项目停滞或被弃"
+   "ai_adjust": -8,
+   "ai_note": "单月暴跌近六成，极大概率遭遇钻探失败或恶性融资稀释。"
   },
   {
    "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀矿小盘月跌近9%且无消息，需警惕资金撤离"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铀矿勘探股随板块温和回调，暂无明显基本面恶化迹象。"
   },
   {
    "ticker": "JUGR.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "金矿小盘月跌25%零新闻，存在被市场边缘化风险"
+   "ai_adjust": -3,
+   "ai_note": "微型金矿股流动性枯竭导致大幅回撤，需防范后续私募融资。"
   },
   {
    "ticker": "MJS.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金生产商月跌17%却无新闻披露，运营或存隐忧"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小型金矿生产商随金价波动回调，基本面尚需观察生产数据。"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "中型金矿商月跌21%但无负面公告，需关注基本面变化"
+   "ai_note": "虽有产量但单月跌幅较大，可能受成本上升或当地社区问题困扰。"
   },
   {
    "ticker": "UTWO.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅1300万且暴跌35%零新闻，或暗示项目遇阻"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微盘多元化勘探股暴跌，缺乏新闻掩护下需高度警惕资金链断裂。"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "金矿生产商月跌不足4%表现相对稳健，暂无明显利空"
+   "ai_adjust": 0,
+   "ai_note": "跌幅较小且市值适中，作为老牌生产商基本面相对稳健。"
   },
   {
    "ticker": "YMC.CN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小盘金矿勘探月跌近25%无新闻，市场关注度极低"
+   "ai_adjust": -3,
+   "ai_note": "育空地区金矿勘探股大幅回调，需关注冬季钻探进度及资金消耗。"
   },
   {
    "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值月跌14%且零新闻，流动性与催化剂双缺"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "微型金矿股正常波动，但需留意管理层近期是否有减持动作。"
   },
   {
    "ticker": "FUU.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铀矿勘探月跌近30%无消息，板块热度消退需警惕"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "金价走强下月线持平且零新闻，缺乏上行驱动力"
+   "ai_adjust": -3,
+   "ai_note": "铀矿股单月大跌近三成，可能受现货铀价回调或项目延期影响。"
   },
   {
    "ticker": "LAB.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿勘探月线走平无催化，资金关注度不足"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "股价横盘说明缺乏催化剂，勘探股在无新闻时易陷入流动性陷阱。"
   },
   {
    "ticker": "IPT.V",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "银矿生产商月跌14%无新闻，需关注产量与成本变化"
+   "ai_adjust": -1,
+   "ai_note": "银矿生产商受银价波动及墨西哥当地运营风险影响，表现平稳。"
   },
   {
    "ticker": "LAC.TO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "大市值锂开发商月跌33%无消息，融资或项目进度存疑"
+   "ai_adjust": -4,
+   "ai_note": "锂价低迷叠加项目融资及环保审批压力，大型开发商估值承压。"
   },
   {
    "ticker": "MANU.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "月涨3%但零新闻催化，涨幅或为投机资金驱动需谨慎"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "名称含铀却归类为金矿，且微盘股逆势上涨，需高度警惕炒作与稀释。"
   },
   {
-   "ticker": "NAM.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅千万月跌25%零新闻，典型僵尸股特征明显"
+   "ticker": "NOU.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "石墨开发商受电池材料需求疲软及项目资本开支压力影响而回调。"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "小盘铀矿月跌11%无消息，板块退潮后易被市场遗忘"
+   "ai_note": "名称与行业分类不符，微盘股下跌反映市场对其实际资产存疑。"
   },
   {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型金矿商月涨2.4%表现尚可，但零新闻仍需留意"
+   "ticker": "APM.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "玻利维亚矿产生产商面临较高的地缘政治风险与社区干扰隐患。"
+  },
+  {
+   "ticker": "IBAT.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "电池金属概念微盘股大幅下挫，需防范概念炒作退潮后的流动性危机。"
   }
  ]
 }
