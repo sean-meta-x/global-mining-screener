@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-14T22:01Z",
+ "generated_at": "2026-11-15T22:02Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
-   "ticker": "SRB.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴西小型金矿面临环保许可与流动性风险。"
-  },
-  {
    "ticker": "POW.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型铀矿勘探商，股本稀释与融资风险极高。"
+   "ai_adjust": -5,
+   "ai_note": "微盘勘探股流动性差且存持续稀释风险。"
+  },
+  {
+   "ticker": "SRB.L",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "巴西小型金矿运营稳定但规模受限且缺乏扩张。"
   },
   {
    "ticker": "THX.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "塞内加尔金矿运营尚可，需警惕非洲地缘风险。"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "科特迪瓦Seguela金矿投产带来稳定现金流。"
   },
   {
    "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "纯实物铀信托，无稀释风险且直接受益于铀价上涨。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "纯铀现货信托无运营风险，表现仅随铀价波动。"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "巴尔干铜锌矿企运营稳定，但受金属价格波动影响。"
+   "ai_adjust": -1,
+   "ai_note": "铜锌价格回调拖累业绩，但分红依然慷慨。"
   },
   {
    "ticker": "JLP.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "债务高企且资本结构复杂，存在持续稀释与治理风险。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "南非PGM项目受电价及政策干扰，股价大幅回调。"
   },
   {
    "ticker": "THS.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "南非PGM矿企受停电与劳工问题困扰，成本承压。"
-  },
-  {
-   "ticker": "SLP.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "尾矿回收成本优势明显，但仍受制于南非宏观环境。"
+   "ai_note": "南非PGM敞口大，受当地电力与政策风险压制。"
   },
   {
    "ticker": "MET1.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "瑞典微型铁矿开发商，面临资金短缺与审批延迟风险。"
+   "ai_adjust": -3,
+   "ai_note": "瑞典铁矿微盘股，流动性枯竭且融资风险高。"
+  },
+  {
+   "ticker": "SLP.L",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "南非铂族矿渣回收成本优势仍在，但受宏观压制。"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "津巴布韦金矿面临极高的政策变动与外汇管制风险。"
+   "ai_note": "津巴布韦Blanket金矿面临严峻的主权与汇兑风险。"
   },
   {
    "ticker": "CAPD.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "西澳微型金矿企，频繁融资导致严重股本稀释。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "西澳金铜矿运营平稳，但缺乏显著产量增长催化剂。"
   },
   {
    "ticker": "KEFI.L",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "埃塞俄比亚项目深陷许可延迟与地区安全危机。"
-  },
-  {
-   "ticker": "RSG.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "处于资产剥离与项目过渡期，短期缺乏明确催化剂。"
-  },
-  {
-   "ticker": "AURA.L",
-   "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "长期依赖融资与炒作，毛里塔尼亚项目推进缓慢。"
+   "ai_note": "埃塞俄比亚Tulu Kapi项目屡遭延期，地缘风险极高。"
   },
   {
    "ticker": "ECOR.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "特许权模式现金流稳健，但受底层铜铁资产价格拖累。"
+   "ai_adjust": -1,
+   "ai_note": "权益金模式抗风险强，但近期资产组合表现平平。"
+  },
+  {
+   "ticker": "RSG.L",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "马里Syama高品位项目放量，西非运营逐步改善。"
   },
   {
    "ticker": "KOD.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "马里锂矿面临军政府政策突变与极高的地缘政治风险。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "马里锂矿开发受制于当地政局不稳及融资难题。"
   },
   {
    "ticker": "0ICU.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "南非金尾矿回收现金流良好，但受限于当地宏观环境。"
-  },
-  {
-   "ticker": "XTR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "极度微型且流动性差，津巴布韦资产存在治理与融资隐患。"
+   "ai_adjust": -2,
+   "ai_note": "南非金矿尾矿回收盈利稳定，但受限于当地宏观环境。"
   },
   {
    "ticker": "TIN.L",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "股价单月暴跌逾四成，暗示钻探不及预期或面临资金断裂。"
+   "ai_adjust": -8,
+   "ai_note": "股价暴跌暗示融资失败或项目推进遇阻，需警惕稀释。"
   },
   {
    "ticker": "ALTN.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿企流动性极差，需警惕潜在的信息不透明风险。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "哈萨克斯坦金矿运营正常，但缺乏透明度与流动性。"
+  },
+  {
+   "ticker": "GGP.L",
+   "ai_view": "neutral",
+   "ai_adjust": -5,
+   "ai_note": "已被纽蒙特全资收购，量化评分失效，仅剩套利空间。"
+  },
+  {
+   "ticker": "PAF.L",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "南非金矿成本上升压力显现，但管理层分红意愿强。"
   }
  ]
 }
