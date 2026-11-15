@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-14T22:06Z",
+ "generated_at": "2026-11-15T22:07Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值且近期暴跌，存在稀释与流动性风险。"
+   "ai_adjust": -5,
+   "ai_note": "公司治理与复杂合资结构存疑，近期暴跌反映市场对其财务透明度担忧。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铂族金属价格承压，但基本面尚可，维持中性。"
+   "ai_note": "PGM价格持续疲软拖累业绩预期，但公司成本管控尚可，维持中性。"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿石需求疲软，但高股息提供一定安全边际。"
+   "ai_note": "铁矿石价格波动受中国需求压制，但高股息提供安全边际，表现平稳。"
+  },
+  {
+   "ticker": "APH.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "刚果(金)政策与物流风险难以量化，锡价波动叠加地缘风险需警惕。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "极小市值且单月暴跌55%，存在极高退市或暴雷风险。"
+   "ai_note": "市值极小且单月暴跌55%，流动性枯竭与潜在稀释风险极高，坚决规避。"
   },
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铬矿业务稳定，但公司治理与ESG合规存在隐患。"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "锡价波动影响短期业绩，但核心矿山品位优良。"
+   "ai_note": "受南非电力短缺及铬价波动影响，业绩弹性有限，整体表现平稳。"
   },
   {
    "ticker": "IMP.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铂族金属行业整体低迷，高成本矿山面临盈利压力。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "PGM行业处于周期底部，公司副产品贡献一定缓冲，静待周期反转。"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "有色宝石需求受宏观消费降级影响，拍卖价格承压，需关注去库存。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "美国铂矿业务拖累严重，且历史上有过稀释融资劣迹。"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "实为有色宝石而非PGM，莫桑比克矿区存地缘政策风险。"
+   "ai_note": "激进海外并购推高债务，资产减值与资本配置风险是量化未充分定价的。"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "黄金产量稳步增长，管理层执行力强，具备上涨潜力。"
+   "ai_adjust": 1,
+   "ai_note": "南非金矿成本承压，但公司尾矿回收与扩建项目提供产量增长催化剂。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化资产组合稳健，但复杂股权结构限制了估值溢价。"
+   "ai_note": "管理层资本配置能力获市场认可，但估值溢价已反映，维持中性观察。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "黄金资产优质，但全维持成本偏高削弱了金价上涨红利。"
+   "ai_adjust": 0,
+   "ai_note": "金价上涨利好业绩，但南非深井开采成本刚性制约利润弹性。"
   },
   {
    "ticker": "EXX.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭长期面临ESG撤资压力，转型可再生能源进展缓慢。"
-  },
-  {
-   "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "全球化资产布局分散了南非风险，金价上涨直接受益。"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "南非铂矿中成本最低、运营最优的标的，具备显著阿尔法。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭业务提供强劲现金流，但长期ESG转型压力限制估值扩张。"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值极小且流动性差，煤炭资产在ESG背景下缺乏长期逻辑。"
+   "ai_note": "小市值煤炭股流动性差且受ESG资金排斥，长期融资与退出风险高。"
+  },
+  {
+   "ticker": "GFI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "资产全球化分散了南非地域风险，金价上行周期中表现稳健。"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "PGM板块中成本管控与治理最优，具备较强抗周期韧性，可作防御配置。"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "作为新晋或重组铂矿标的，缺乏长期独立运营的历史验证。"
+   "ai_note": "作为Impala分拆的新独立实体，市场定价仍在摸索，且面临PGM逆风。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭资产剥离后债务高企，面临长期退出与转型风险。"
+   "ai_adjust": -5,
+   "ai_note": "分拆后的动力煤资产面临严峻ESG压力与复垦负债，长期价值毁灭风险。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "尾矿回收成本低，但资源储量逐渐枯竭限制长期增长。"
+   "ai_note": "地表尾矿回收模式品位稳定，但受南非通胀与电力成本上升侵蚀利润。"
   },
   {
    "ticker": "ANG.JO",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "全球顶级黄金矿企，资产质量高，充分受益于金价上行。"
+   "ai_note": "主要上市地迁至纽约提升流动性，金价强势背景下基本面扎实，被错杀。"
   }
  ]
 }
