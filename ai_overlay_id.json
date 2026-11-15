@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T22:12Z",
+ "generated_at": "2026-11-15T22:13Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "IFSH.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值极小且单月暴跌超六成，流动性枯竭与退市风险极高。"
+   "ai_note": "月跌62%无新闻，疑似严重稀释或治理暴雷，量化评分严重失真"
   },
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "小市值煤炭股，缺乏流动性且无明确新闻支撑，需警惕阴跌。"
+   "ai_note": "小市值月跌24%无消息，流动性差存稀释风险"
   },
   {
    "ticker": "RMKO.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小型煤炭承包商，受行业周期及回款影响大，基本面脆弱。"
+   "ai_adjust": -4,
+   "ai_note": "微型市值月跌23%，无新闻支撑，警惕流动性陷阱"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "国企锡业龙头，受锡价波动影响，但治理规范，下行空间有限。"
+   "ai_adjust": -2,
+   "ai_note": "国有锡企月跌12%，受锡价下行拖累，板块系统性风险"
   },
   {
    "ticker": "UNIQ.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "逆势大涨的小市值煤炭股，疑似资金炒作，需防范回调风险。"
+   "ai_note": "小市值逆势涨18%无新闻，典型拉高出货特征"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "传统煤炭生产商，近期跌幅较大，需关注其产能利用率及现金流。"
+   "ai_note": "月跌24%无公告，小市值煤炭股存隐性利空"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "走势相对抗跌，基本面尚可，但受限于整体板块情绪，维持中性。"
-  },
-  {
-   "ticker": "RMKE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "逆势微涨的小市值煤企，缺乏实质性利好，警惕游资短线博弈。"
+   "ai_note": "月跌仅0.5%表现稳健，无异常信号"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "多元化矿企近期大幅回调，需排查是否存在隐性债务或项目停滞。"
+   "ai_note": "小市值月跌20%无消息，基本面或存隐忧"
   },
   {
    "ticker": "UNTR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "阿斯特朗旗下核心资产，治理极佳，但量化评分未完全反映其溢价。"
+   "ai_view": "bullish",
+   "ai_adjust": 1,
+   "ai_note": "Astra系蓝筹逆市微涨，质量因子突出"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤炭生产商，成本控制较好，但受煤价下行拖累，表现平稳。"
+   "ai_adjust": -1,
+   "ai_note": "月跌11%属板块正常调整，无额外风险"
   },
   {
    "ticker": "DOID.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "煤炭承包商，历史负债较高且近期暴跌，需警惕债务违约或订单流失。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "月跌33%无公告，小市值存重大治理或稀释隐患"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型煤企，正布局新能源转型，但传统煤炭业务仍受价格周期压制。"
+   "ai_adjust": 0,
+   "ai_note": "月跌3%相对稳定，无异常信号"
   },
   {
    "ticker": "INDY.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "积极转型绿色能源，但煤炭主业利润下滑拖累整体估值，需观察转型。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中盘股月跌21%超板块平均，存隐性利空"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭物流与生产商，业绩相对稳定，但缺乏短期爆发催化剂。"
+   "ai_note": "大盘股月跌2%表现平稳，无异常"
   },
   {
    "ticker": "NCKL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "镍板块承压月跌8%，大盘股相对可控"
+  },
+  {
+   "ticker": "FIRE.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "镍业巨头，但全球镍产能过剩导致价格低迷，短期业绩承压明显。"
+   "ai_note": "微型市值月跌13%，流动性风险极高"
+  },
+  {
+   "ticker": "MBAP.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "月涨9.5%但无新闻催化，暂观望"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锡矿生产商，受锡价回调及印尼出口政策影响，近期跌幅较大。"
-  },
-  {
-   "ticker": "FIRE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型煤炭股，流动性差且基本面薄弱，极易受庄家操纵，建议规避。"
-  },
-  {
-   "ticker": "MBAP.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "逆势上涨的中型煤企，需核实是否有未披露的并购或产能扩张利好。"
+   "ai_note": "月跌20%无公告，锡矿股存治理或稀释风险"
   },
   {
    "ticker": "AADI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "作为Adaro新分拆的煤炭主体，面临指数调整及流动性重估风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Adaro系大盘股月跌5%，重组后正常波动"
+  },
+  {
+   "ticker": "CITA.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铝土矿股月跌12%，受印尼矿业政策不确定性影响"
   }
  ]
 }
