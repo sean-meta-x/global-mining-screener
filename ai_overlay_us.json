@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T21:50Z",
+ "generated_at": "2026-11-15T21:51Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "FNUC",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型市值勘探公司，月跌近三成且零新闻，流动性与稀释风险极高"
+   "ai_note": "微型铀矿勘探股无消息大跌28%，警惕融资稀释风险。"
+  },
+  {
+   "ticker": "WWR",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "小市值勘探股跌幅温和，暂无明显异常信号。"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌近半无消息，格陵兰政治与许可风险叠加，疑似项目遇阻"
-  },
-  {
-   "ticker": "WWR",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "微型勘探公司缺乏新闻催化，量化高分或高估其基本面"
+   "ai_adjust": -5,
+   "ai_note": "格陵兰PGM勘探股暴跌48%无任何消息，疑似钻探失败或大幅稀释。"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "巴西钾矿开发阶段，月跌两成无消息，许可与融资存不确定性"
-  },
-  {
-   "ticker": "JAGU",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "市值仅一千七百万，铀矿勘探股流动性差，稀释风险显著"
+   "ai_note": "巴西钾矿开发商跌20%无消息，许可或融资存隐忧。"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "Thacker Pass项目面临法律诉讼与许可障碍，月跌逾三成"
+   "ai_note": "锂开发商大跌33%，Thacker Pass项目执行及资金风险上升。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "Rhyolite Ridge锂项目许可审批不确定性压制股价。"
+  },
+  {
+   "ticker": "JAGU",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微型铀勘探股跌22%无消息，流动性差且稀释风险高。"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "Rhyolite Ridge项目BLM许可反复延迟，开发时间表不确定"
+   "ai_note": "锂生产商温和下跌，运营层面暂无重大异常。"
   },
   {
    "ticker": "LODE",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "公司历史上有推广炒作与治理争议，月跌两成需警惕"
-  },
-  {
-   "ticker": "ELVR",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锂生产阶段公司，跌幅温和，暂无明显额外风险信号"
-  },
-  {
-   "ticker": "FSM",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型银矿生产商，跌幅主要受银价波动驱动，基本面稳健"
+   "ai_note": "金矿勘探股跌24%无消息，此类标的常见推广稀释。"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "石墨开发公司曾遇融资困难，月跌近两成，资金面承压"
+   "ai_adjust": -3,
+   "ai_note": "魁北克石墨开发商跌17%，融资及许可进度存疑。"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中型银矿生产商随板块回调，基本面暂无明显恶化。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "稀土项目冶金复杂、开发周期长，短期无催化，估值偏高"
+   "ai_adjust": -3,
+   "ai_note": "稀土开发商长期面临融资和执行风险，股价承压。"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值多元勘探公司，月跌近四分之一且零新闻，风险偏高"
+   "ai_note": "小市值多元勘探股跌24%无消息，警惕稀释风险。"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值不足两千万，极微型勘探股，流动性与稀释风险突出"
+   "ai_note": "微型勘探股流动性极差，无消息大跌需防稀释。"
   },
   {
    "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值金矿生产商月跌近三成无消息，运营或融资存隐患"
-  },
-  {
-   "ticker": "FMST",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型股月涨近三成却无任何新闻，典型拉高出货推广特征"
-  },
-  {
-   "ticker": "REA",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "稀土开发公司月跌逾两成无新闻，项目推进存不确定性"
+   "ai_adjust": -5,
+   "ai_note": "小市值生产商暴跌27%无任何公告，治理风险极高。"
   },
   {
    "ticker": "SLI",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "与Lanxess合作开发锂项目，月跌幅小，基本面相对稳定"
+   "ai_note": "锂开发商月内仅跌1.4%，表现相对稳健无异常。"
+  },
+  {
+   "ticker": "ALOY",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "合金开发商温和下跌，项目执行风险尚可控。"
+  },
+  {
+   "ticker": "REA",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "稀土开发商跌22%无消息，融资及许可风险较大。"
   },
   {
    "ticker": "UROY",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀矿 royalties 模式风险较低，但月跌两成反映板块走弱"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀royalty公司大跌25%无消息，资产组合或治理存疑。"
   },
   {
    "ticker": "LAR",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "阿根廷管辖风险叠加锂价低迷，月跌逾两成，政策不确定性高"
+   "ai_adjust": -3,
+   "ai_note": "阿根廷锂开发商跌23%，国家风险及融资压力并存。"
   }
  ]
 }
