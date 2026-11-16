@@ -2145,7 +2145,9 @@ with tab_table:
         "Valuation":         "{:.1f}",
         "Health":            "{:.1f}",
         "Oversold":          "{:.1f}",
-        "⛏️ Mining":         lambda x: f"{x:.1f}" if pd.notna(x) else "—",
+        # no S&P/SNL mining data on the overseas stations: the score is a neutral 50 in the composite,
+        # shown as 缺数据 so nobody reads it as a judgement (Sean, 2026-11-16, Q3 review proposal B)
+        "⛏️ Mining":         lambda x: "缺数据" if pd.notna(x) and x == 50 else (f"{x:.1f}" if pd.notna(x) else "—"),
         "# Rank":            lambda x: f"#{int(x)}" if pd.notna(x) else "—",
         "↑ Upside to NAV%":  lambda x: f"{x:+.0f}%" if pd.notna(x) else "—",
         "↑ P/B Re-rating%":  lambda x: f"{x:+.0f}%" if pd.notna(x) else "—",
@@ -5649,9 +5651,11 @@ with tab_detail:
                 elif pd.notna(_gp):
                     _icon = "✅" if _gp > 0.8 else "⚠️" if _gp > 0.3 else "❌"
                     _min_hints.append(f"⑥ Grade = {_gp:.3f}%  {_icon}  (wt 10%)")
+                _min_label = "⛏️ Mining (S&P)"
                 if not _min_hints:
-                    _min_hints = ["No S&P/SNL data — score is neutral 50"]
-                _score_bar("⛏️ Mining (S&P)", row.get("score_mining"), _expl_cols[1], _min_hints)
+                    _min_hints = ["缺数据：没有 S&P/SNL 矿业数据，按中性 50 计入总分（不是好坏判断）"]
+                    _min_label = "⛏️ Mining (S&P) · 缺数据"
+                _score_bar(_min_label, row.get("score_mining"), _expl_cols[1], _min_hints)
 
                 # Commodity + Stage
                 _comm_hints = [
@@ -6196,7 +6200,7 @@ with tab_detail:
                         ("score_valuation",  "Valuation",      lambda v: f"{v:.1f}" if pd.notna(v) else "—"),
                         ("score_health",     "Health",         lambda v: f"{v:.1f}" if pd.notna(v) else "—"),
                         ("score_momentum",   "Oversold",       lambda v: f"{v:.1f}" if pd.notna(v) else "—"),
-                        ("score_mining",     "⛏️ Mining",      lambda v: f"{v:.1f}" if pd.notna(v) else "—"),
+                        ("score_mining",     "⛏️ Mining",      lambda v: "缺数据" if pd.notna(v) and v == 50 else (f"{v:.1f}" if pd.notna(v) else "—")),
                         ("price",            "Price",          lambda v: f"${v:.3f}" if pd.notna(v) else "—"),
                         ("market_cap",       "Mkt Cap",        lambda v: (f"${v/1e9:.2f}B" if v >= 1e9 else f"${v/1e6:.0f}M") if pd.notna(v) else "—"),
                         ("price_to_book",    "P/B",            lambda v: f"{v:.2f}x" if pd.notna(v) else "—"),
