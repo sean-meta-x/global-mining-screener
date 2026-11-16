@@ -148,3 +148,15 @@ def test_curated_explorer_or_developer_with_revenue_becomes_a_producer(monkeypat
 def test_screen_sourced_pgm_label_follows_the_company_name(name, commodity, src, expected):
     from data.universe import screen_commodity
     assert screen_commodity(name, commodity, src) == expected
+
+
+@pytest.mark.unit
+def test_non_miners_are_out_and_elbm_is_labelled_by_its_business():
+    """Sean, 2026-11-16 (Q3 review, proposal C)."""
+    from data import universe as u
+    tickers = {t for t, *_ in u.MINING_UNIVERSE}
+    assert not tickers & set(u.NOT_MINERS)
+    for t, _, commodity, stage in u.MINING_UNIVERSE:
+        if t in u.RELABEL:
+            assert (commodity, stage) == u.RELABEL[t]
+    assert u._row({"ticker": "ELBM.V", "name": "Electra", "commodity": "Gold", "stage": "Explorer", "src": "curated"})[2:] == ("Cobalt", "Developer")
