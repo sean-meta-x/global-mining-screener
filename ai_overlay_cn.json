@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T22:31Z",
+ "generated_at": "2026-11-16T22:32Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "000612.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型铝企，无异常新闻，板块整体回调属正常波动"
+   "ai_note": "量化分最高但月跌超10%，铝价承压无异常信号维持中性"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大型国企铝企，流动性好，无重大治理隐患"
+   "ai_note": "中铝大盘国企波动正常，无重大利空中性观望"
   },
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "云南铝业跌幅温和，电力成本优势仍在"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近16%却无新闻，煤企治理与转型风险需警惕"
-  },
-  {
-   "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "神火股份跌幅可控，铝煤双主业提供缓冲"
+   "ai_note": "水电铝成本优势明显跌幅温和基本面稳健"
   },
   {
    "ticker": "002497.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "多元化定位模糊，小市值无新闻支撑的下跌存疑"
+   "ai_note": "月跌超10%且无消息面支撑，锂盐业务承压需警惕"
+  },
+  {
+   "ticker": "603876.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌近19%幅度异常无公告解释，存在未披露风险"
+  },
+  {
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "神火国企背景稳健，跌幅在行业正常范围内"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "天山铝业月跌仅1.5%，相对抗跌，基本面尚可"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "山西煤炭国际跌16.5%无任何公告，可能存在未披露风险"
+   "ai_note": "天山铝业跌幅最小之一，新疆产能成本优势突出"
   },
   {
    "ticker": "603979.SS",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌22.8%为全场最大，无新闻解释，高度警惕治理或经营暴雷"
+   "ai_adjust": -5,
+   "ai_note": "月跌近25%为全场最大且无公告解释，高度警惕"
   },
   {
    "ticker": "000792.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂价持续低迷，盐湖提锂成本优势被削弱"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "锂价低迷拖累但钾肥业务提供安全垫"
   },
   {
-   "ticker": "603876.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "小市值铝企跌16.5%无消息，需排查大股东质押与治理问题"
+   "ticker": "600490.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "鹏欣历史治理问题频发，大跌17%需警惕"
   },
   {
-   "ticker": "002466.SZ",
+   "ticker": "600546.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "天齐锂业受锂价下行及海外矿减值压力拖累"
+   "ai_note": "煤炭板块整体走弱，月跌16%反映行业压力"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "河南中孚铝企竞争力偏弱，跌幅超出板块均值"
+   "ai_note": "中孚实业曾有财务问题前科，大跌需保持谨慎"
   },
   {
-   "ticker": "600490.SS",
+   "ticker": "601001.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "晋能控股月跌14.5%，煤炭政策风险持续压制"
+  },
+  {
+   "ticker": "000737.SZ",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "鹏欣资源跌14%无公告，历史上存在信披瑕疵，需重点排查"
+   "ai_adjust": -4,
+   "ai_note": "北方铜业月跌超21%且无任何消息，存在隐性风险"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "天齐锂业债务负担重，锂价下行周期风险放大"
+  },
+  {
+   "ticker": "601677.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "明泰铝业铝板带龙头，跌幅温和基本面尚可"
   },
   {
    "ticker": "600971.SS",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "小市值煤企跌近10%，行业下行期小公司抗风险能力弱"
+   "ai_note": "恒源煤电小市值煤炭股，流动性风险叠加行业压力"
+  },
+  {
+   "ticker": "002379.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "宏桥为全球最大铝企，跌幅温和估值合理"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南山铝业产业链完整，跌幅温和属正常调整"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中煤能源大市值央企，煤价承压但分红稳定"
-  },
-  {
-   "ticker": "000737.SZ",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "北方铜业跌18%无消息，铜矿资源禀赋与治理需核实"
-  },
-  {
-   "ticker": "002379.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "宏桥控股大市值铝龙头，跌幅在合理区间"
+   "ai_note": "南山铝业月跌仅3.2%最抗跌，航空铝材转型有亮点"
   },
   {
    "ticker": "603993.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "洛阳钼业跌19.4%幅度偏大，海外资产运营风险值得关注"
+   "ai_note": "洛钼月跌超21%，铜钴价格波动及刚果金风险需警惕"
   }
  ]
 }
