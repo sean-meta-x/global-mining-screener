@@ -35,11 +35,27 @@ def screen_commodity(name: str, commodity: str, src: str) -> str:
     return commodity
 
 
+# Decided by Sean on 2026-11-16 (2026-Q3 review, proposal C). Applied here, at load time, so a
+# rebuild of universes/*.json by scripts/build_universe.py + merge_curated.py cannot bring them back.
+NOT_MINERS = {
+    "LODE": "Comstock Inc. — left mining for fuels and metal recycling",
+    "POW.TO": "Power Corporation of Canada — a financial holding company",
+    "TOU.TO": "Tourmaline Oil — a natural-gas producer",
+}
+# ticker -> (commodity, stage) by what the company actually does
+RELABEL = {
+    "ELBM": ("Cobalt", "Developer"),      # Electra Battery Materials: cobalt refinery (Ontario) + Iron Creek Co-Cu project
+    "ELBM.V": ("Cobalt", "Developer"),
+}
+
+
+def _row(c: dict) -> tuple:
+    commodity, stage = RELABEL.get(c["ticker"], (screen_commodity(c["name"], c["commodity"], c.get("src", "screen")), c["stage"]))
+    return c["ticker"], c["name"], commodity, stage
+
+
 # Same tuple shape as the original module: (ticker, name, commodity, stage)
-MINING_UNIVERSE = [
-    (c["ticker"], c["name"], screen_commodity(c["name"], c["commodity"], c.get("src", "screen")), c["stage"])
-    for c in _PAYLOAD["companies"]
-]
+MINING_UNIVERSE = [_row(c) for c in _PAYLOAD["companies"] if c["ticker"] not in NOT_MINERS]
 
 # ticker -> "curated" | "screen"
 UNIVERSE_SRC = {c["ticker"]: c.get("src", "screen") for c in _PAYLOAD["companies"]}
