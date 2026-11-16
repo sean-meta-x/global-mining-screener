@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-15T21:51Z",
+ "generated_at": "2026-11-16T21:51Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "FNUC",
+   "ticker": "WWR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股无消息大跌28%，警惕融资稀释风险。"
-  },
-  {
-   "ticker": "WWR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小市值勘探股跌幅温和，暂无明显异常信号。"
+   "ai_note": "微型铀矿勘探商，无催化剂，流动性风险高"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "格陵兰PGM勘探股暴跌48%无任何消息，疑似钻探失败或大幅稀释。"
+   "ai_adjust": -7,
+   "ai_note": "格陵兰采矿许可极难获取，暴跌无消息或涉融资失败"
+  },
+  {
+   "ticker": "FNUC",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅两千万，名称可疑，疑似壳公司或推广股"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴西钾矿开发商跌20%无消息，许可或融资存隐忧。"
+   "ai_adjust": -4,
+   "ai_note": "巴西钾矿项目长期延误，资金链持续紧张"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂开发商大跌33%，Thacker Pass项目执行及资金风险上升。"
+   "ai_adjust": -4,
+   "ai_note": "Thacker Pass面临原住民诉讼和许可审批重大不确定性"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "Rhyolite Ridge锂项目许可审批不确定性压制股价。"
+   "ai_note": "Rhyolite Ridge项目BLM许可审批反复延迟"
   },
   {
    "ticker": "JAGU",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型铀勘探股跌22%无消息，流动性差且稀释风险高。"
+   "ai_note": "微型铀矿勘探股，无实质进展消息"
+  },
+  {
+   "ticker": "NEXM",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "跌幅超三成却无任何新闻，可能存在未披露利空"
   },
   {
    "ticker": "ELVR",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "锂生产商温和下跌，运营层面暂无重大异常。"
-  },
-  {
-   "ticker": "LODE",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "金矿勘探股跌24%无消息，此类标的常见推广稀释。"
+   "ai_note": "标注为生产商但实际仍处开发阶段，信息存疑"
   },
   {
-   "ticker": "NMG",
+   "ticker": "REA",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "魁北克石墨开发商跌17%，融资及许可进度存疑。"
+   "ai_adjust": -5,
+   "ai_note": "稀土勘探股暴跌近三七成，无消息或暗示融资困难"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中型银矿生产商随板块回调，基本面暂无明显恶化。"
+   "ai_note": "中型银矿生产商运营稳健，下跌主要受板块拖累"
+  },
+  {
+   "ticker": "NMG",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "石墨项目融资和环评许可均存在较大不确定性"
+  },
+  {
+   "ticker": "UROY",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "版税模式抗风险较强，铀价波动为主要变量"
+  },
+  {
+   "ticker": "ALOY",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "跌幅超三成且无新闻，开发阶段项目风险积聚"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "稀土开发商长期面临融资和执行风险，股价承压。"
-  },
-  {
-   "ticker": "NEXM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值多元勘探股跌24%无消息，警惕稀释风险。"
+   "ai_adjust": -5,
+   "ai_note": "NioCorp项目拖延多年，反复融资稀释股东权益"
   },
   {
    "ticker": "CAMZF",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型勘探股流动性极差，无消息大跌需防稀释。"
-  },
-  {
-   "ticker": "NAMM",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "小市值生产商暴跌27%无任何公告，治理风险极高。"
+   "ai_note": "微型勘探股市值不足两千万，流动性极差"
   },
   {
    "ticker": "SLI",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "锂开发商月内仅跌1.4%，表现相对稳健无异常。"
+   "ai_note": "DLE技术路线获验证但锂价低迷压制估值"
   },
   {
-   "ticker": "ALOY",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "合金开发商温和下跌，项目执行风险尚可控。"
-  },
-  {
-   "ticker": "REA",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "稀土开发商跌22%无消息，融资及许可风险较大。"
-  },
-  {
-   "ticker": "UROY",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀royalty公司大跌25%无消息，资产组合或治理存疑。"
+   "ticker": "NAMM",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微型金矿生产商暴跌两成五，治理和运营存疑"
   },
   {
    "ticker": "LAR",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "阿根廷锂开发商跌23%，国家风险及融资压力并存。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "Olaroz资产质量尚可，下跌主因锂价周期性走弱"
+  },
+  {
+   "ticker": "AABB",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "公司名称与矿业无关，典型推广型微盘股"
   }
  ]
 }
