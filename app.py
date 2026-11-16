@@ -1431,7 +1431,8 @@ with st.sidebar:
     _wg = st.session_state["weight_gen"]
     w_val = st.slider("Valuation",      0, 100, st.session_state["w_val"], key=f"sl_val_{_wg}")
     w_hlt = st.slider("Health",         0, 100, st.session_state["w_hlt"], key=f"sl_hlt_{_wg}")
-    w_mom = st.slider("Momentum",       0, 100, st.session_state["w_mom"], key=f"sl_mom_{_wg}")
+    w_mom = st.slider("Oversold", 0, 100, st.session_state["w_mom"], key=f"sl_mom_{_wg}",
+                      help="超跌反转分（原名 Momentum）：越接近 52 周低点、RSI 越低、越低于 200 日线，分越高。逆向，不是动量。")
     w_min = st.slider("⛏️ Mining (S&P)", 0, 100, st.session_state["w_min"], key=f"sl_min_{_wg}")
     w_com = st.slider("Commodity",      0, 100, st.session_state["w_com"], key=f"sl_com_{_wg}")
     w_stg = st.slider("Stage",          0, 100, st.session_state["w_stg"], key=f"sl_stg_{_wg}")
@@ -1959,7 +1960,7 @@ with tab_table:
         "has_spg":          "S&P",
         "score_valuation":  "Valuation",
         "score_health":     "Health",
-        "score_momentum":   "Momentum",
+        "score_momentum":   "Oversold",
         "score_mining":     "⛏️ Mining",
         "upside_to_nav":    "↑ Upside to NAV%",
         "pb_peer_upside":   "↑ P/B Re-rating%",
@@ -2116,7 +2117,7 @@ with tab_table:
         if rank <= 3: return "color: #94a3b8; font-weight:600"
         return ""
 
-    _score_cols  = [c for c in ["Score", "🤖 AI Score", "Valuation", "Health", "Momentum", "⛏️ Mining"] if c in tbl.columns]
+    _score_cols  = [c for c in ["Score", "🤖 AI Score", "Valuation", "Health", "Oversold", "⛏️ Mining"] if c in tbl.columns]
     _delta_cols  = ["Δ Score"]           if "Δ Score"           in tbl.columns else []
     _rsi_cols    = ["RSI"]               if "RSI"               in tbl.columns else []
     _ret_cols    = [c for c in ["1M Ret%", "3M Ret%"]         if c in tbl.columns]
@@ -2143,7 +2144,7 @@ with tab_table:
         "S&P":               lambda x: "✅" if x else "—",
         "Valuation":         "{:.1f}",
         "Health":            "{:.1f}",
-        "Momentum":          "{:.1f}",
+        "Oversold":          "{:.1f}",
         "⛏️ Mining":         lambda x: f"{x:.1f}" if pd.notna(x) else "—",
         "# Rank":            lambda x: f"#{int(x)}" if pd.notna(x) else "—",
         "↑ Upside to NAV%":  lambda x: f"{x:+.0f}%" if pd.notna(x) else "—",
@@ -4120,7 +4121,7 @@ with tab_charts:
     ]
     _corr_labels = {
         "score_composite": "Score",   "score_valuation": "Valuation",
-        "score_health":    "Health",   "score_momentum":  "Momentum",
+        "score_health":    "Health",   "score_momentum":  "Oversold",
         "score_mining":    "Mining",   "price_to_book":   "P/B",
         "ev_ebitda":       "EV/EBITDA","spg_p_nav":       "P/NAV",
         "upside_to_nav":   "↑Upside",  "spg_aisc_margin": "AISC Mgn",
@@ -4749,7 +4750,7 @@ with tab_detail:
                 st.markdown("#### Sub-scores vs Peers")
                 _score_keys = ["score_valuation", "score_health", "score_momentum",
                                "score_mining", "score_commodity", "score_stage"]
-                _score_labels = ["Valuation", "Health", "Momentum", "⛏️ Mining", "Commodity", "Stage"]
+                _score_labels = ["Valuation", "Health", "Oversold", "⛏️ Mining", "Commodity", "Stage"]
                 score_data = {
                     lbl: (row.get(k, 0) if pd.notna(row.get(k)) else 0)
                     for k, lbl in zip(_score_keys, _score_labels)
@@ -5501,7 +5502,7 @@ with tab_detail:
                     ("score_composite",  "Composite Score",  False),
                     ("score_valuation",  "Valuation Score",  False),
                     ("score_health",     "Health Score",     False),
-                    ("score_momentum",   "Momentum Score",   False),
+                    ("score_momentum",   "Oversold / Reversal Score (超跌反转)",   False),
                     ("score_mining",     "Mining Score",     False),
                     ("price_to_book",    "P/B Ratio",        True),
                     ("ev_ebitda",        "EV/EBITDA",        True),
@@ -5609,8 +5610,8 @@ with tab_detail:
                 if pd.notna(_rsi):  _mom_hints.append(f"RSI = {_rsi:.0f} {'✅ oversold' if _rsi < 35 else '⚠️' if _rsi < 50 else '—'}")
                 if pd.notna(_wk52): _mom_hints.append(f"52wk pos = {_wk52:.0f}% {'✅ near low' if _wk52 < 25 else '—'}")
                 if pd.notna(_vsma): _mom_hints.append(f"vs 200MA = {_vsma:+.0f}% {'✅' if _vsma < -15 else '—'}")
-                if not _mom_hints:  _mom_hints = ["No momentum data"]
-                _score_bar("Momentum", row.get("score_momentum"), _expl_cols[0], _mom_hints)
+                if not _mom_hints:  _mom_hints = ["No oversold / reversal data"]
+                _score_bar("Oversold", row.get("score_momentum"), _expl_cols[0], _mom_hints)
 
                 # Mining (S&P) — 6 sub-components
                 _min_hints = []
@@ -5914,7 +5915,7 @@ with tab_detail:
                         if _hist_df["score_momentum"].notna().any():
                             _fig_sh.add_trace(go.Scatter(
                                 x=_hist_df["snap_date"], y=_hist_df["score_momentum"],
-                                name="Momentum",
+                                name="Oversold",
                                 line=dict(color="#eab308", width=1.5, dash="dot"),
                                 mode="lines",
                             ))
@@ -5971,7 +5972,7 @@ with tab_detail:
             _wf_sub_cols = [
                 ("score_valuation",  "Valuation"),
                 ("score_health",     "Health"),
-                ("score_momentum",   "Momentum"),
+                ("score_momentum",   "Oversold"),
                 ("score_mining",     "Mining"),
                 ("score_commodity",  "Commodity"),
                 ("score_stage",      "Stage"),
@@ -6194,7 +6195,7 @@ with tab_detail:
                         ("score_composite",  "Score /100",     lambda v: f"{v:.1f}" if pd.notna(v) else "—"),
                         ("score_valuation",  "Valuation",      lambda v: f"{v:.1f}" if pd.notna(v) else "—"),
                         ("score_health",     "Health",         lambda v: f"{v:.1f}" if pd.notna(v) else "—"),
-                        ("score_momentum",   "Momentum",       lambda v: f"{v:.1f}" if pd.notna(v) else "—"),
+                        ("score_momentum",   "Oversold",       lambda v: f"{v:.1f}" if pd.notna(v) else "—"),
                         ("score_mining",     "⛏️ Mining",      lambda v: f"{v:.1f}" if pd.notna(v) else "—"),
                         ("price",            "Price",          lambda v: f"${v:.3f}" if pd.notna(v) else "—"),
                         ("market_cap",       "Mkt Cap",        lambda v: (f"${v/1e9:.2f}B" if v >= 1e9 else f"${v/1e6:.0f}M") if pd.notna(v) else "—"),
@@ -6232,7 +6233,7 @@ with tab_detail:
                     # Radar overlay chart
                     _radar_dims = ["score_valuation", "score_health", "score_momentum",
                                    "score_mining", "score_commodity", "score_stage"]
-                    _radar_labels = ["Valuation", "Health", "Momentum",
+                    _radar_labels = ["Valuation", "Health", "Oversold",
                                      "⛏️ Mining", "Commodity", "Stage"]
                     _radar_colors = ["#3b82f6", "#22c55e", "#f59e0b", "#a855f7"]
                     fig_cmp_radar = go.Figure()
@@ -7137,7 +7138,7 @@ with tab_report:
                 "",
                 f"Scores are based on six weighted factors (current weights): "
                 f"**Valuation** ({_w_val}%, incl. P/NAV), "
-                f"**Financial Health** ({_w_hlt}%), **Price Momentum** ({_w_mom}%), "
+                f"**Financial Health** ({_w_hlt}%), **Oversold / reversal（超跌反转）** ({_w_mom}%: 越接近 52 周低点、RSI 越低、越低于 200 日线，分越高——这是逆向分，不是动量), "
                 f"**Mining Quality** ({_w_min}%, S&P/SNL: AISC margin, reserves backing, "
                 f"NAV discount, EV/oz, reserve life, grade), "
                 f"**Commodity Outlook** ({_w_com}%), and **Development Stage** ({_w_stg}%).",
@@ -7896,7 +7897,7 @@ with tab_watchlist:
             st.markdown("#### Score Comparison (Watchlist)")
             _radar_metrics = ["score_valuation", "score_health", "score_momentum",
                               "score_mining", "score_commodity", "score_stage"]
-            _radar_labels  = ["Valuation", "Health", "Momentum", "⛏️ Mining", "Commodity", "Stage"]
+            _radar_labels  = ["Valuation", "Health", "Oversold", "⛏️ Mining", "Commodity", "Stage"]
             _available_m   = [m for m in _radar_metrics if m in _wl_df.columns]
 
             _fig_wl = go.Figure()
