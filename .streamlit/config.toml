@@ -5,15 +5,40 @@ headless = true
 useStarlette = true
 fileWatcherType = "auto"
 
+# [theme] and [theme.sidebar]: the fund's shared site style, copied from fund-hq (with site_theme.py)
 [theme]
 base = "light"
-primaryColor = "#1a3a5c"
-backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#f4f7fa"
-textColor = "#172033"
+primaryColor = "#0B1F3A"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F6F9"
+textColor = "#1B2430"
+redColor = "#C8102E"
+greenColor = "#1A7F37"
+linkColor = "#16325C"
+borderColor = "#DDE2E8"
+dataframeBorderColor = "#DDE2E8"
+dataframeHeaderBackgroundColor = "#F4F6F9"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+baseFontSize = 14
+baseRadius = "small"
+buttonRadius = "small"
+showWidgetBorder = true
+showSidebarBorder = false
+
+[theme.sidebar]
+backgroundColor = "#0B1F3A"
+secondaryBackgroundColor = "#16325C"
+textColor = "#E8EDF4"
+primaryColor = "#FFFFFF"
+linkColor = "#E8EDF4"
+borderColor = "#2E4A72"
 
 [browser]
 gatherUsageStats = false
 
 [logger]
 level = "info"
+
+[client]
+toolbarMode = "minimal"

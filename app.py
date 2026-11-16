@@ -12,6 +12,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.io as pio
 import streamlit as st
+import site_theme
 
 # Global chart style — light "research report" template, mobile-friendly:
 # compact margins, horizontal legend on top, smaller base fonts.
@@ -232,29 +233,15 @@ st.markdown("""
     --bg-soft: #f4f7fa;
 }
 
-/* ── Global chrome ── */
-#MainMenu, footer { visibility: hidden; }
-header[data-testid="stHeader"] { background: transparent; }
-h1 { color: var(--navy) !important; font-weight: 800; letter-spacing: -0.5px; }
-h2, h3 { color: var(--navy) !important; }
+/* chrome, headings and the sidebar come from site_theme.py (the fund's shared style, 2026-11-16) */
 hr { border-color: var(--line); }
-
-/* ── Sidebar: light panel ── */
-div[data-testid="stSidebar"] {
-    background: var(--bg-soft);
-    border-right: 1px solid var(--line);
-}
-div[data-testid="stSidebar"] [data-testid="stMetricValue"] {
-    font-size: 22px; color: var(--navy); font-weight: 700;
-}
-div[data-testid="stSidebar"] [data-testid="stMetricLabel"] { color: var(--muted); }
 
 /* ── Summary metric cards ── */
 .metric-card {
     background: #ffffff; color: var(--ink);
     border: 1px solid var(--line); border-top: 3px solid var(--navy);
-    border-radius: 10px; padding: 14px 10px; text-align: center;
-    box-shadow: 0 1px 3px rgba(23,32,51,0.06);
+    border-radius: 4px; padding: 10px 8px; text-align: center;
+    font-variant-numeric: tabular-nums;
 }
 .metric-card h3 { margin: 0; font-size: 26px; color: var(--navy); letter-spacing: -0.5px; }
 .metric-card p  { margin: 4px 0 0; font-size: 12px; color: var(--muted); opacity: 1; }
@@ -274,7 +261,7 @@ div[data-baseweb="tab-list"] {
 button[data-baseweb="tab"] { font-weight: 600; white-space: nowrap; }
 
 /* ── Buttons & inputs ── */
-div.stButton > button { border-radius: 8px; font-weight: 600; }
+div.stButton > button { border-radius: 3px; font-weight: 600; }
 
 /* ── Dataframes ── */
 div[data-testid="stDataFrame"] { font-size: 13px; }
@@ -284,9 +271,8 @@ div[data-testid="stDataFrame"] { font-size: 13px; }
     background-color: #ffffff !important;
     border: 1px solid var(--line) !important;
     border-left: 3px solid var(--navy) !important;
-    border-radius: 10px !important;
-    padding: 14px 16px !important;
-    box-shadow: 0 1px 3px rgba(23,32,51,0.06) !important;
+    border-radius: 4px !important;
+    padding: 12px 14px !important;
     color: var(--ink) !important;
 }
 .opp-card * { color: inherit; }
@@ -330,6 +316,7 @@ div[data-testid="stDataFrame"] { font-size: 13px; }
 }
 </style>
 """, unsafe_allow_html=True)
+site_theme.apply()          # after the app's own CSS, so the shared style wins where both set something
 
 # ── Header ─────────────────────────────────────────────────────────────────────
 col_title, col_refresh = st.columns([5, 1])
