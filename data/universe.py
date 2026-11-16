@@ -48,9 +48,27 @@ RELABEL = {
     "ELBM.V": ("Cobalt", "Developer"),
 }
 
+# Screen-sourced rows labelled "PGM" only because Yahoo files them under "Other Precious Metals
+# & Mining" (Q3 review, proposal C; Sean 2026-11-16: fix what the name settles, list the rest —
+# docs/pgm_label_review_2026-11-16.md). The stage stays the screen's unless the name says royalty.
+_ROYALTY = "Royalty/Streaming"
+PGM_BY_NAME = {
+    **dict.fromkeys(["ACDX.CN", "CGNT.V", "PERU.V"], ("Copper", None)),
+    **dict.fromkeys(["ATHA.CN", "ESAU.CN", "GLDS.CN", "MIRA.CN", "PAU.CN", "RGN.CN", "RLGC.CN", "TGLD.CN"], ("Gold", None)),
+    "ICG.CN": ("Silver/Gold", None),
+    **dict.fromkeys(["DIAM.TO", "LUC.TO", "MPVD.TO", "KDR.L"], ("Diamonds", None)),
+    **dict.fromkeys(["GEM.L", "GML.JO"], ("Gemstones", None)),
+    "NEXU.CN": ("Uranium", None),
+    **dict.fromkeys(["ELE.TO", "ELE", "EMPR.V", "STRR.V", "SUM.V", "VMET.TO", "VMET", "VOXR.TO", "VOXR", "MTA"],
+                    ("Diversified", _ROYALTY)),
+}
+
 
 def _row(c: dict) -> tuple:
     commodity, stage = RELABEL.get(c["ticker"], (screen_commodity(c["name"], c["commodity"], c.get("src", "screen")), c["stage"]))
+    if commodity == "PGM" and c.get("src", "screen") == "screen" and c["ticker"] in PGM_BY_NAME:
+        commodity, new_stage = PGM_BY_NAME[c["ticker"]]
+        stage = new_stage or stage
     return c["ticker"], c["name"], commodity, stage
 
 

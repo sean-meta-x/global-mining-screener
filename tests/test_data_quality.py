@@ -160,3 +160,16 @@ def test_non_miners_are_out_and_elbm_is_labelled_by_its_business():
         if t in u.RELABEL:
             assert (commodity, stage) == u.RELABEL[t]
     assert u._row({"ticker": "ELBM.V", "name": "Electra", "commodity": "Gold", "stage": "Explorer", "src": "curated"})[2:] == ("Cobalt", "Developer")
+
+
+@pytest.mark.unit
+@pytest.mark.parametrize("ticker, name, src, expected", [
+    ("CGNT.V", "COPPER GIANT RESOURCES CORP", "screen", ("Copper", "Explorer")),
+    ("VOXR", "Vox Royalty Corp.", "screen", ("Diversified", "Royalty/Streaming")),
+    ("LUC.TO", "LUCARA DIAMOND CORP", "screen", ("Diamonds", "Explorer")),
+    ("PLG", "Platinum Group Metals Ltd.", "screen", ("PGM", "Explorer")),           # the name says PGM: kept
+    ("VOXR", "Vox Royalty Corp.", "curated", ("PGM", "Explorer")),                 # curated rows are trusted
+])
+def test_screen_pgm_labels_settled_by_the_name(ticker, name, src, expected):
+    from data import universe as u
+    assert u._row({"ticker": ticker, "name": name, "commodity": "PGM", "stage": "Explorer", "src": src})[2:] == expected
