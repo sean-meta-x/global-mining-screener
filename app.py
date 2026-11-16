@@ -176,7 +176,7 @@ st.set_page_config(
     page_title=f"{config.MARKET_FLAG} {config.MARKET_NAME} Mining Screener",
     page_icon="⛏️",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="auto",          # phones open with the sidebar folded away
 )
 
 # ── Cloud: station DB comes from the `db-latest` release, not the git checkout ─────
