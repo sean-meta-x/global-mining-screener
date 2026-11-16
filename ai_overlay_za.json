@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-15T22:07Z",
+ "generated_at": "2026-11-16T22:07Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "JBL.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "公司治理与复杂合资结构存疑，近期暴跌反映市场对其财务透明度担忧。"
+   "ai_adjust": -3,
+   "ai_note": "频繁并购且结构复杂，存在股权稀释与执行风险。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "PGM价格持续疲软拖累业绩预期，但公司成本管控尚可，维持中性。"
-  },
-  {
-   "ticker": "KIO.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿石价格波动受中国需求压制，但高股息提供安全边际，表现平稳。"
+   "ai_note": "铂族金属价格低迷拖累盈利，但铬业务提供一定缓冲。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "刚果(金)政策与物流风险难以量化，锡价波动叠加地缘风险需警惕。"
+   "ai_note": "核心矿山位于刚果金，地缘政治与政策风险极高。"
+  },
+  {
+   "ticker": "KIO.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "受铁矿石价格波动影响大，且面临南非物流与电力瓶颈。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "市值极小且单月暴跌55%，流动性枯竭与潜在稀释风险极高，坚决规避。"
+   "ai_note": "市值极小且近期暴跌，流动性枯竭与基本面恶化风险极高。"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "受南非电力短缺及铬价波动影响，业绩弹性有限，整体表现平稳。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "受南非限电严重冲击，铁合金业务现金流与盈利承压。"
   },
   {
    "ticker": "IMP.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "PGM行业处于周期底部，公司副产品贡献一定缓冲，静待周期反转。"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "有色宝石需求受宏观消费降级影响，拍卖价格承压，需关注去库存。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铂族金属价格大跌导致利润暴跌，深部开采安全隐患犹存。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "激进海外并购推高债务，资产减值与资本配置风险是量化未充分定价的。"
+   "ai_adjust": -4,
+   "ai_note": "激进的海外并购与电池金属转型带来高债务与执行风险。"
+  },
+  {
+   "ticker": "GML.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "有色宝石需求波动大，且莫桑比克等新兴市场运营风险较高。"
   },
   {
    "ticker": "PAN.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "南非金矿成本承压，但公司尾矿回收与扩建项目提供产量增长催化剂。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金业务成本控制较好，但南非深层金矿开采成本依然偏高。"
   },
   {
    "ticker": "ARI.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "管理层资本配置能力获市场认可，但估值溢价已反映，维持中性观察。"
+   "ai_adjust": -1,
+   "ai_note": "作为控股公司存在折价，业务庞杂且受南非宏观环境拖累。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金价上涨利好业绩，但南非深井开采成本刚性制约利润弹性。"
-  },
-  {
-   "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭业务提供强劲现金流，但长期ESG转型压力限制估值扩张。"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股流动性差且受ESG资金排斥，长期融资与退出风险高。"
-  },
-  {
-   "ticker": "GFI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "资产全球化分散了南非地域风险，金价上行周期中表现稳健。"
+   "ai_note": "近年成本管控见效，但南非深部矿井的通胀与电力风险仍在。"
   },
   {
    "ticker": "NPH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "管理层相对优秀，但仍难完全抵御铂族金属周期下行的冲击。"
+  },
+  {
+   "ticker": "EXX.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭业务面临巨大的能源转型与ESG撤资压力，长期估值受压。"
+  },
+  {
+   "ticker": "GFI.JO",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "PGM板块中成本管控与治理最优，具备较强抗周期韧性，可作防御配置。"
+   "ai_note": "资产组合全球化分散了南非风险，产量增长与成本控制稳健。"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "作为Impala分拆的新独立实体，市场定价仍在摸索，且面临PGM逆风。"
+   "ai_note": "铂族金属价格低迷，且作为大型生产商面临较高的南非运营风险。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值微小且股价低迷，存在严重的流动性风险与潜在治理问题。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "分拆后的动力煤资产面临严峻ESG压力与复垦负债，长期价值毁灭风险。"
+   "ai_adjust": -4,
+   "ai_note": "高股息难掩煤炭资产长期衰退风险，ESG限制导致再融资困难。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "地表尾矿回收模式品位稳定，但受南非通胀与电力成本上升侵蚀利润。"
+   "ai_note": "尾矿回收业务风险较低，但利润率薄且受金价波动直接影响。"
   },
   {
    "ticker": "ANG.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "主要上市地迁至纽约提升流动性，金价强势背景下基本面扎实，被错杀。"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "全球化布局优化了资产质量，但低分可能反映了近期的成本超支。"
   }
  ]
 }
