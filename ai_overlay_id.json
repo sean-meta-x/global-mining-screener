@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T22:13Z",
+ "generated_at": "2026-11-16T22:12Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "IFSH.JK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "月跌62%无新闻，疑似严重稀释或治理暴雷，量化评分严重失真"
+   "ai_note": "一月暴跌57%，小市值疑似庄股崩盘或重大利空未披露"
   },
   {
    "ticker": "MINE.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值月跌24%无消息，流动性差存稀释风险"
-  },
-  {
-   "ticker": "RMKO.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值月跌23%，无新闻支撑，警惕流动性陷阱"
+   "ai_adjust": -3,
+   "ai_note": "市值不足万亿印尼盾，小矿企流动性差且治理存疑"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "国有锡企月跌12%，受锡价下行拖累，板块系统性风险"
+   "ai_adjust": 0,
+   "ai_note": "国有锡业龙头，基本面稳健但锡价波动限制弹性"
+  },
+  {
+   "ticker": "RMKO.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值仅约2950亿印尼盾，微型煤企抗风险能力极弱"
   },
   {
    "ticker": "UNIQ.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值逆势涨18%无新闻，典型拉高出货特征"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "小市值一月暴涨近39%，典型拉高出货特征需警惕"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌24%无公告，小市值煤炭股存隐性利空"
+   "ai_adjust": -2,
+   "ai_note": "小型煤企月跌逾10%，行业下行期小厂盈利承压明显"
   },
   {
    "ticker": "MYOH.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "月跌仅0.5%表现稳健，无异常信号"
+   "ai_note": "中型煤矿商经营稳定，但缺乏明确催化剂驱动"
+  },
+  {
+   "ticker": "RMKE.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值月涨17%无基本面支撑，疑似游资炒作痕迹"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值月跌20%无消息，基本面或存隐忧"
-  },
-  {
-   "ticker": "UNTR.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 1,
-   "ai_note": "Astra系蓝筹逆市微涨，质量因子突出"
+   "ai_note": "市值不足6000亿印尼盾，多元化矿企体量过小风险高"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "月跌11%属板块正常调整，无额外风险"
+   "ai_adjust": 0,
+   "ai_note": "中型煤企治理尚可，估值合理但缺乏超预期因素"
   },
   {
-   "ticker": "DOID.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "月跌33%无公告，小市值存重大治理或稀释隐患"
+   "ticker": "UNTR.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "阿斯特拉旗下重型设备龙头，治理优良且月涨13%动能强"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "镍业大厂产能释放中，但镍价低迷压制短期估值"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "月跌3%相对稳定，无异常信号"
+   "ai_note": "煤电企业转型新能源尚处早期，执行风险与机遇并存"
   },
   {
    "ticker": "INDY.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中盘股月跌21%超板块平均，存隐性利空"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大盘股月跌2%表现平稳，无异常"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "镍板块承压月跌8%，大盘股相对可控"
-  },
-  {
-   "ticker": "FIRE.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型市值月跌13%，流动性风险极高"
-  },
-  {
-   "ticker": "MBAP.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "月涨9.5%但无新闻催化，暂观望"
+   "ai_adjust": -2,
+   "ai_note": "月跌近10%，绿色转型投入大但煤炭主业现金流承压"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌20%无公告，锡矿股存治理或稀释风险"
+   "ai_note": "锡矿商月跌13%，印尼锡矿政策收紧叠加价格波动风险"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型煤炭物流商运营稳健，但利润率受运费波动影响"
   },
   {
    "ticker": "AADI.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "Adaro系大盘股月跌5%，重组后正常波动"
+   "ai_note": "阿达罗旗下大型煤企，治理规范但增长空间有限"
   },
   {
    "ticker": "CITA.JK",
    "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铝土矿龙头受益于出口政策，但月跌4%需观察需求"
+  },
+  {
+   "ticker": "DEWA.JK",
+   "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "铝土矿股月跌12%，受印尼矿业政策不确定性影响"
+   "ai_note": "中型煤矿承包商月跌6%，合同型业务利润率偏薄"
+  },
+  {
+   "ticker": "FIRE.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值仅1250亿印尼盾属微型股，流动性极差易被操纵"
   }
  ]
 }
