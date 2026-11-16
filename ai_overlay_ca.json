@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-15T22:51Z",
+ "generated_at": "2026-11-16T22:51Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "多元化勘探概念炒作退潮，无新闻支撑需警惕隐性稀释。"
-  },
-  {
-   "ticker": "CEXY.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极小且单月暴跌近六成，流动性枯竭与融资稀释风险极高。"
-  },
-  {
-   "ticker": "V.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀矿勘探小盘股随板块回调，缺乏独立催化剂，表现平庸。"
-  },
-  {
-   "ticker": "JUGR.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微盘金矿勘探股大幅回撤，无新闻披露暗示钻探结果或资金承压。"
+   "ai_adjust": -5,
+   "ai_note": "量化分高但无新闻且大跌，警惕隐性稀释或项目停滞。"
   },
   {
    "ticker": "MJS.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "早期金矿生产商面临成本与产量爬坡压力，估值缺乏安全边际。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "金矿生产商缺乏新闻催化且跌幅显著，需关注运营隐患。"
+  },
+  {
+   "ticker": "V.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型铀矿勘探股零新闻且下跌，极大概率面临融资稀释。"
+  },
+  {
+   "ticker": "JUGR.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值过低且无新闻，勘探股无催化易陷入流动性枯竭。"
   },
   {
    "ticker": "UTWO.V",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "小盘能源勘探股单月暴跌超三成，流动性差且存在极高的稀释风险。"
+   "ai_adjust": -9,
+   "ai_note": "跌幅超三成且毫无音讯，资金链断裂或私募融资风险极高。"
   },
   {
    "ticker": "SBI.TO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "巴西金矿生产商受金价回调及运营成本影响，短期缺乏向上弹性。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "生产商股价大跌且无公告，可能存在未披露的运营问题。"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "勘探股缺乏新闻支撑，量化高分或为历史数据滞后所致。"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型市值叠加无量阴跌，需防范管理层套现或隐性增发。"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿生产商走势相对抗跌，但产量增长乏力，缺乏显著估值催化剂。"
+   "ai_adjust": -1,
+   "ai_note": "生产商相对抗跌但零新闻，基本面缺乏边际改善的催化剂。"
   },
   {
    "ticker": "YMC.CN",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "育空地区金矿勘探股随板块大幅回调，需警惕勘探不及预期风险。"
+   "ai_adjust": -4,
+   "ai_note": "勘探阶段无新闻披露，高量化分掩盖了潜在的钻探失败风险。"
   },
   {
    "ticker": "FUU.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿勘探股受板块情绪拖累大幅回撤，短期缺乏独立钻探催化剂。"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘金矿勘探股流动性欠佳，无新闻支撑下需防范隐性融资稀释。"
-  },
-  {
-   "ticker": "LAC.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "锂价持续低迷，大型锂矿开发商面临严峻的资本开支与融资压力。"
-  },
-  {
-   "ticker": "LAB.V",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "大盘普跌中走势平稳抗跌，暗示有资金护盘或酝酿积极钻探消息。"
+   "ai_adjust": -5,
+   "ai_note": "铀矿勘探股大幅回撤且无消息，警惕高估值后的杀跌与稀释。"
   },
   {
    "ticker": "IPT.V",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "银矿生产商跌幅较大且无公告，需排查海外矿山许可风险。"
+  },
+  {
+   "ticker": "LAC.TO",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "锂矿开发商大跌且无新闻，市场或在定价其高昂的融资风险。"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型金矿生产商走势平稳但无催化，量化分难反映运营细节。"
+  },
+  {
+   "ticker": "OC.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型多元化勘探股零新闻，极易沦为缺乏流动性的僵尸股。"
+  },
+  {
+   "ticker": "LAB.V",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "墨西哥银矿生产商面临社区关系与环保合规风险，成本压力犹存。"
+   "ai_note": "股价横盘且无新闻，微型勘探股需警惕静默期的隐性消耗。"
+  },
+  {
+   "ticker": "CRE.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "锂矿勘探股大跌无消息，需防范前期炒作后的估值回归。"
+  },
+  {
+   "ticker": "NEXM.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "多元化勘探股跌幅近三成且无公告，项目不及预期风险高。"
   },
   {
    "ticker": "NOU.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "石墨负极材料需求疲软，开发商面临高昂资本开支与融资稀释风险。"
-  },
-  {
-   "ticker": "IBAT.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "电池金属概念炒作退潮，微盘勘探股流动性差且面临持续稀释风险。"
+   "ai_adjust": -5,
+   "ai_note": "石墨开发商面临高资本开支，无新闻掩护下需警惕融资稀释。"
   },
   {
-   "ticker": "MANU.V",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "逆势上涨显示资金关注，但需警惕名称与板块不符的跨界炒作风险。"
-  },
-  {
-   "ticker": "NVO.TO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "金矿勘探股走势随大流，缺乏独立催化剂，项目进展需持续跟踪。"
-  },
-  {
-   "ticker": "STUD.V",
+   "ticker": "LI.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "名称与板块分类存在错位，微盘股流动性弱，需防范概念炒作退潮。"
-  },
-  {
-   "ticker": "APM.TO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "玻利维亚矿山面临极高的地缘政治与社区干预风险，运营极不稳定。"
+   "ai_adjust": -5,
+   "ai_note": "锂矿勘探股大幅回调且零新闻，行业寒冬下需防范现金流断裂。"
   }
  ]
 }
