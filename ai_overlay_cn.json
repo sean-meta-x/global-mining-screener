@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T07:01Z",
+ "generated_at": "2026-11-17T22:23Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "000612.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "治理结构存疑，大股东历史占用资金问题未被量化模型捕捉"
+   "ai_note": "历史股权纠纷频发，公司治理存在隐患，需警惕。"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企背景，经营稳健，板块整体回调属正常波动"
+   "ai_note": "央企铝业龙头，基本面稳健，但盘子大弹性较弱。"
   },
   {
    "ticker": "000807.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "依赖云南水电，枯水期限电风险及干旱减产隐患模型未体现"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "绿电铝龙头具备显著成本优势，基本面扎实。"
   },
   {
    "ticker": "000933.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史存在关联交易及治理争议，隐性治理折价未反映在评分中"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "煤铝双主业布局优良，新疆及云南产能盈利强。"
   },
   {
    "ticker": "601001.SS",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌幅超16%，煤炭去产能政策及安全生产风险被低估"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "受动力煤价格波动影响，短期业绩弹性受限。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "新疆产能布局有成本优势，但运输半径及能耗双控风险需关注"
+   "ai_adjust": 0,
+   "ai_note": "新疆电解铝成本优势显著，关注印尼项目进展。"
   },
   {
    "ticker": "600546.SS",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "月跌近20%，煤矿资源接续及安全事故停产风险模型未充分定价"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "高股息标的，近期回调属资金获利了结正常现象。"
   },
   {
    "ticker": "603979.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "月跌超25%且无利好对冲，海外项目执行风险及客户集中度隐患严重"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "自有矿转型期资本开支大，短期业绩兑现存疑。"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史财务表现波动大，资产负债率偏高，偿债压力模型未体现"
-  },
-  {
-   "ticker": "600971.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值煤炭股流动性差，资源枯竭及转型不确定性被低估"
+   "ai_adjust": -2,
+   "ai_note": "历史盈利波动大，电解铝成本优势不及同行。"
   },
   {
    "ticker": "002466.SZ",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂价持续下行叠加收购SQM带来的高负债，财务杠杆风险突出"
+   "ai_note": "锂价持续低迷拖累业绩，高成本矿山面临减值。"
   },
   {
-   "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史债务危机及关联交易争议，治理折价未在量化评分中体现"
+   "ticker": "600971.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "地方国企焦煤标的，市值偏小且流动性一般。"
   },
   {
    "ticker": "600490.SS",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "海外矿产收购屡次受挫，项目落地存疑，治理及执行力堪忧"
+   "ai_note": "海外资产并购屡现纠纷，公司治理及盈利堪忧。"
+  },
+  {
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铝加工业务利润率偏低，且市值数据疑似存在错配。"
   },
   {
    "ticker": "000737.SZ",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "月跌20%且市值偏小，铜矿资源禀赋一般，产能扩张不及预期"
+   "ai_adjust": -2,
+   "ai_note": "自产铜矿比例低，以冶炼为主导致利润率微薄。"
   },
   {
    "ticker": "600219.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铝加工全产业链布局较完整，月跌幅温和，基本面相对扎实"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "全产业链布局完善，高端航空铝材壁垒高。"
   },
   {
    "ticker": "601168.SS",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "月跌超21%，西部矿山开发周期长且成本高，盈利兑现存不确定性"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "玉龙铜矿放量支撑业绩，随板块回调属错杀。"
   },
   {
    "ticker": "603993.SS",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "刚果金项目地缘政治风险及铜钴价格波动，海外运营风险被低估"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "刚果金铜钴项目持续放量，回调后具配置价值。"
   },
   {
    "ticker": "002547.SZ",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微市值且月跌超22%，流动性极差，历史治理问题频发需高度警惕"
+   "ai_adjust": -5,
+   "ai_note": "市值不足20亿且主业存疑，微盘股流动性风险极高。"
   },
   {
    "ticker": "600508.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中煤能源子公司，经营相对稳健但煤炭板块整体承压"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中煤旗下煤炭标的，基本面平稳但缺乏弹性。"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "央企煤炭龙头，分红稳定，板块回调中防御属性较强"
+   "ai_adjust": 0,
+   "ai_note": "央企煤炭龙头，长协比例高业绩稳健，防御性强。"
   }
  ]
 }
