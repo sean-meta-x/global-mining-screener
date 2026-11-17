@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-17T07:25Z",
+ "generated_at": "2026-11-17T22:48Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "LIFT.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "无新闻却暴跌近35%，疑似遭遇严重稀释或钻探失败，建议规避。"
-  },
-  {
-   "ticker": "MJS.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "产量股无故下跌且无新闻，需警惕隐性运营风险或资金流出。"
+   "ai_adjust": -5,
+   "ai_note": "量化分高但单月暴跌且无新闻，警惕静默稀释或流动性枯竭。"
   },
   {
    "ticker": "V.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铀矿勘探股温和回调，缺乏催化剂，维持中性观望。"
-  },
-  {
-   "ticker": "JUGR.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "勘探股大幅回撤且无消息面支撑，可能存在未披露的负面进展。"
+   "ai_note": "单月跌超两成且毫无音讯，微型铀矿股需防范隐性融资或探矿失败。"
+  },
+  {
+   "ticker": "UTWO.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "暴跌四成且无公告，极可能是钻探失败或遭遇隐形稀释，建议规避。"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "单月回撤超三成且零新闻，微型金矿股流动性差，谨防基本面恶化。"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "股价持续阴跌且无消息面支撑，量化模型可能忽略了微盘股的流动性陷阱。"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "作为金矿生产商单月仍跌超一成，无新闻掩盖了潜在的运营或成本压力。"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "生产商股价大跌却无公告，需防范潜在的矿山运营或社区问题。"
+   "ai_note": "生产商单月大跌且无公告，需警惕海外矿山潜在的运营或合规风险。"
   },
   {
-   "ticker": "UTWO.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "暴跌超35%且零新闻，极大概率是流动性枯竭或隐性融资稀释。"
+   "ticker": "MANU.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铀矿股单月跌四分之一且无消息，大概率是勘探不及预期或资金撤离。"
+  },
+  {
+   "ticker": "JUGR.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "缺乏新闻且持续下跌，量化高分无法掩盖微盘金矿股流动性匮乏的现实。"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "生产商走势相对抗跌，基本面未见明显恶化，保持中性。"
+   "ai_adjust": -1,
+   "ai_note": "作为生产商跌幅相对较小，但无新闻支撑的高分仍需下调以反映行业逆风。"
   },
   {
-   "ticker": "IRV.CN",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "勘探股随板块回调，无显著异常，微调负分以反映流动性风险。"
+   "ticker": "FUU.V",
+   "ai_view": "caution",
+   "ai_adjust": -7,
+   "ai_note": "铀矿股单月暴跌三分之一且无公告，高度怀疑存在未披露的融资或利空。"
   },
   {
    "ticker": "YMC.CN",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "跌幅较大且无新闻，警惕勘探结果不及预期或管理层减持。"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "生产商表现平稳，无重大负面消息，量化评分基本可靠。"
-  },
-  {
-   "ticker": "FUU.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铀矿股大幅下挫，需警惕勘探进度落后或资金链紧张风险。"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "股价横盘且无新闻，缺乏上行催化剂，维持中性评级。"
-  },
-  {
-   "ticker": "LAC.TO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锂价低迷叠加无公告暴跌，需警惕项目融资困难或许可延期。"
-  },
-  {
-   "ticker": "LAB.V",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "股价平稳无波动，缺乏短期催化剂，维持中性观望。"
+   "ai_note": "单月跌超两成且零新闻，微盘金矿股需防范管理层不作为或隐性稀释。"
   },
   {
    "ticker": "OC.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "跌幅明显且无消息，需防范早期勘探项目的资金消耗风险。"
+   "ai_note": "多元化微型股持续阴跌且无消息，量化模型未能识别其极差的流动性。"
   },
   {
-   "ticker": "STUD.V",
+   "ticker": "THX.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "名称与分类不符，股价温和下跌，需核实其实际业务与资产。"
+   "ai_note": "大型生产商单月微跌且无新闻，基本面尚可但需小幅下调以匹配板块弱势。"
   },
   {
-   "ticker": "APM.TO",
+   "ticker": "LAC.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "生产商大幅回调，需警惕海外矿山潜在的运营或政策风险。"
+   "ai_adjust": -5,
+   "ai_note": "锂业巨头单月大跌，可能受累于 DOE 贷款条件收紧或锂价持续低迷。"
   },
   {
-   "ticker": "CRE.V",
+   "ticker": "NEXM.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "跌幅较大且无新闻，警惕锂矿项目推进不及预期或融资压力。"
+   "ai_adjust": -7,
+   "ai_note": "单月暴跌超三成且无公告，微盘多元化矿企极可能遭遇了静默稀释。"
   },
   {
-   "ticker": "MD.V",
+   "ticker": "LAB.V",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "股价回撤但无负面公告，可能是板块整体调整，微调负分。"
+   "ai_adjust": 0,
+   "ai_note": "唯一抗跌但同样零新闻，量化高分缺乏基本面催化，维持中性观望。"
   },
   {
-   "ticker": "NOU.TO",
+   "ticker": "EMO.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "单月暴跌近六成且毫无公告，极大概率是钻探失败或遭遇恶性稀释。"
+  },
+  {
+   "ticker": "VCU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "单月暴跌超四成且无消息，铜金矿企基本面可能已严重恶化，建议规避。"
+  },
+  {
+   "ticker": "LI.V",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "石墨开发商大跌，需警惕高资本开支下的融资稀释及需求疲软。"
+   "ai_note": "锂矿股单月跌超两成且无新闻，受累于锂板块整体情绪低迷及资金流出。"
   }
  ]
 }
