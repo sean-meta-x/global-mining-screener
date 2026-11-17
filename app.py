@@ -1264,7 +1264,7 @@ with st.sidebar:
     # Clamp stored value to current max (universe can grow)
     _def_mcap = (int(_def_mcap[0]), min(int(_def_mcap[1]), _mcap_max))
     mcap_lo, mcap_hi = st.slider(
-        "Market Cap Range (M AUD)",
+        f"Market Cap Range ({config.CURRENCY} M)",
         min_value=0, max_value=_mcap_max,
         value=_def_mcap, step=500, key="flt_mcap",
     )
@@ -2057,6 +2057,8 @@ with tab_table:
     tbl = filtered[list(available.keys())].copy()
     tbl["market_cap"] = (tbl["market_cap"] / 1e6).round(1)
     tbl.columns = list(available.values())
+    if "Code" not in tbl.columns:                        # always there, and in the CSV: 3330.HK, not only the name
+        tbl.insert(1 if "Company" in tbl.columns else 0, "Code", filtered["ticker"].values)
     tbl.index = range(1, len(tbl) + 1)
     for _tc in tbl.columns[tbl.dtypes == object]:          # text columns: a missing note reads "—", not "None"
         tbl[_tc] = tbl[_tc].where(tbl[_tc].notna(), "—")
@@ -4255,7 +4257,7 @@ with tab_detail:
                 _delta = row.get("score_delta")
                 _delta_str = f"{_delta:+.1f}" if pd.notna(_delta) else None
                 st.metric("Composite Score", f"{row.get('score_composite', '—')}/100", delta=_delta_str)
-                st.metric("Price", f"${row.get('price', 0):.3f}" if pd.notna(row.get('price')) else "—")
+                st.metric("Price", f"{config.CURRENCY}{row.get('price', 0):.3f}" if pd.notna(row.get('price')) else "—")
                 mcap = row.get('market_cap')
                 st.metric("Market Cap",
                     f"{config.CURRENCY}{mcap/1e9:.2f}B" if pd.notna(mcap) and mcap >= 1e9
@@ -6673,6 +6675,7 @@ with tab_report:
                 f"（全市场 {_RPT_EXCH} **{market_n} 家**），与 Screener 一致。模型识别出：",
                 f"- **{len(strong_buys)} 只强烈买入**（综合评分 ≥ {_cut(0)}）",
                 f"- **{len(buys)} 只买入**（综合评分 ≥ {_cut(1)}）",
+                "- 评级分布（当前筛选）：" + " · ".join(f"{g.split(' ', 1)[1]} {int((universe['grade'] == g).sum())}" for g in ["🟢 Strong Buy", "🔵 Buy", "🟡 Watch", "🟠 Neutral", "🔴 Avoid"]),
                 f"- 当前筛选平均综合评分：**{avg_score:.1f}/100**；本报告所列前 {len(data)} 名平均 **{avg_listed:.1f}/100**",
                 f"- 单只个股最高评分：**{top_score:.1f}/100**",
                 "",
@@ -6691,6 +6694,7 @@ with tab_report:
                 f"the same as the Screener. The model identifies:",
                 f"- **{len(strong_buys)} Strong Buy** (composite score ≥ {_cut(0)})",
                 f"- **{len(buys)} Buy** (composite score ≥ {_cut(1)})",
+                "- Grade distribution (current filter): " + " · ".join(f"{g.split(' ', 1)[1]} {int((universe['grade'] == g).sum())}" for g in ["🟢 Strong Buy", "🔵 Buy", "🟡 Watch", "🟠 Neutral", "🔴 Avoid"]),
                 f"- Average composite score, current filter: **{avg_score:.1f}/100**; top {len(data)} listed: **{avg_listed:.1f}/100**",
                 f"- Highest individual score: **{top_score:.1f}/100**",
                 "",
@@ -6704,12 +6708,18 @@ with tab_report:
             ]
 
         # ── Universe Mining Stats (SPG) ───────────────────────────────────────
-        _has_spg = any(c.startswith("spg_") for c in data.columns)
+        _has_spg = any(c.startswith("spg_") and data[c].notna().any() for c in data.columns)
+        if not _has_spg:
+            lines += (["## 矿业行业统计概览", "", "S&P/SNL 矿业基本面：本站暂无数据。", ""] if zh else
+                      ["## Mining Sector Statistics", "", "S&P/SNL mining fundamentals: no data for this station.", ""])
         if _has_spg:
             _med_aisc_mgn = data["spg_aisc_margin"].median() if "spg_aisc_margin" in data.columns else None
             _med_pnav_r   = data["spg_p_nav"].median()       if "spg_p_nav"       in data.columns else None
-            _n_rli10      = int((data["spg_reserve_life"] >= 10).sum()) if "spg_reserve_life" in data.columns else None
-            _n_ev8k       = int((data["ev_per_oz_prod"] < 8_000).sum()) if "ev_per_oz_prod"   in data.columns else None
+            # None (line hidden) when nobody has the field — "0 companies" would read as a finding
+            _n_rli10      = (int((data["spg_reserve_life"] >= 10).sum())
+                             if "spg_reserve_life" in data.columns and data["spg_reserve_life"].notna().any() else None)
+            _n_ev8k       = (int((data["ev_per_oz_prod"] < 8_000).sum())
+                             if "ev_per_oz_prod" in data.columns and data["ev_per_oz_prod"].notna().any() else None)
             _n_spg_total  = int(data[[c for c in data.columns if c.startswith("spg_")]].notna().any(axis=1).sum())
             _med_cc_oz    = data["spg_cash_cost_oz"].median() if "spg_cash_cost_oz" in data.columns else None
 
