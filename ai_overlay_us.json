@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T06:27Z",
+ "generated_at": "2026-11-17T21:50Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,115 @@
    "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微型市值勘探公司，无消息却暴跌33%，疑似稀释或钻探失败"
+   "ai_note": "微型市值无新闻流，量化高分与暴跌背离，疑似壳公司或推广票"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "巴西钾肥项目开发周期长，无新闻流动，资金风险需警惕"
+   "ai_adjust": -5,
+   "ai_note": "巴西钾矿项目屡遭延期，无新闻验证基本面，高分存疑"
+  },
+  {
+   "ticker": "JAGU",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "铀矿微型探索公司，零新闻支撑82分量化评分，流动性风险大"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "格陵兰采矿许可极难，无消息暴跌42%，高度怀疑稀释"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "塞拉皮耶罗项目许可和资金存不确定性，但市值较大"
-  },
-  {
-   "ticker": "JAGU",
-   "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "微型铀矿勘探股，稀释风险极高，无新闻支撑"
-  },
-  {
-   "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "流纹岩岭项目许可延迟，资金缺口明显，需持续关注"
+   "ai_note": "格陵兰采矿许可及环保风险极高，月跌39%无任何新闻解释"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "小市值勘探公司，无消息大跌32%，疑似融资稀释"
+   "ai_note": "微型多元探索公司，零新闻且月跌35%，量化评分或基于过时数据"
   },
   {
-   "ticker": "ELVR",
+   "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "标注为生产商但名称可疑，需核实实际生产状态"
+   "ai_adjust": -4,
+   "ai_note": "Thacker Pass项目面临持续法律挑战和原住民反对，许可风险未消"
+  },
+  {
+   "ticker": "IONR",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "Rhyolite Ridge许可反复延迟，资金缺口仍存，下跌反映实质风险"
   },
   {
    "ticker": "REA",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "无消息暴跌37%，稀土勘探股稀释或项目风险大"
-  },
-  {
-   "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "长期项目延迟历史，治理结构存疑，需审慎对待"
+   "ai_adjust": -8,
+   "ai_note": "月跌40%为全场最大跌幅且零新闻，高度疑似推广后抛售"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "魁北克石墨项目许可和融资面临挑战，进展缓慢"
+   "ai_note": "魁北克石墨项目融资与许可屡遇障碍，开发进度持续落后"
   },
   {
-   "ticker": "ALOY",
+   "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "无消息大跌32%，开发商资金压力可能较大"
+   "ai_note": "标称生产商但市场几乎无信息覆盖，公司透明度严重不足"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "内布拉斯加稀土项目拖延数十年未投产，典型长期开发陷阱"
+  },
+  {
+   "ticker": "AREC",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "煤炭探索公司曾有推广及会计争议历史，量化高分不可信"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型银矿生产商，跌幅或与银价波动相关，基本面尚可"
+   "ai_adjust": 0,
+   "ai_note": "正规中型银矿商，下跌主要反映银价波动，无特殊治理风险"
   },
   {
    "ticker": "SLI",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "有兰克斯战略合作，相对抗风险，锂价低迷是主因"
-  },
-  {
-   "ticker": "NAMM",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "小市值生产商无新闻，实际运营状态需核实"
-  },
-  {
-   "ticker": "LAR",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "阿根廷国家政策风险叠加锂价低迷，开发不确定性大"
-  },
-  {
-   "ticker": "CAMZF",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型勘探股，流动性差，稀释风险高"
-  },
-  {
-   "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型股无理由上涨17%，无新闻支撑，疑似炒作拉升"
+   "ai_note": "阿肯色DLE项目此前失去合作伙伴，技术路线验证仍存不确定性"
   },
   {
    "ticker": "AABB",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "历史上有炒作前科，治理结构差，典型推广股"
+   "ai_note": "知名推广微盘股，名称与矿业无关，逆市上涨无新闻支撑"
   },
   {
-   "ticker": "CMCL",
+   "ticker": "NAMM",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦国家政策风险，但为在产金矿，相对稳健"
+   "ai_adjust": -5,
+   "ai_note": "微型金矿生产商信息极度匮乏，月跌24%无新闻，治理不透明"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "微型探索公司跌幅温和，但零新闻流限制任何正面判断"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "千万市值暴涨47%零新闻，典型拉高出货特征，极高风险"
+  },
+  {
+   "ticker": "LAR",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "阿根廷锂项目受锂价下行及国家风险压制，下跌属行业常态"
   }
  ]
 }
