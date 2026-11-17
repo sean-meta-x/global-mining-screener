@@ -123,12 +123,7 @@ from data.database import (
     load_sector_trends, load_commodity_price_history,
     load_return_matrix, load_backtest_data,
     last_refresh,
-    get_watchlist, add_to_watchlist, remove_from_watchlist,
-    get_watchlist_note, update_watchlist_note,
-    get_score_weights, save_score_weights,
-    get_positions, upsert_position, delete_position,
-    get_price_target, set_price_target, get_all_price_targets,
-    save_filter_preset, load_filter_presets, delete_filter_preset,
+    get_score_weights,
     add_transaction, get_transactions, delete_transaction,
 )
 from scheduler.jobs import (
@@ -316,13 +311,13 @@ div[data-testid="stDataFrame"] { font-size: 13px; }
 }
 </style>
 """, unsafe_allow_html=True)
-site_theme.apply()          # after the app's own CSS, so the shared style wins where both set something
+site_theme.apply("全球矿业选股")          # after the app's own CSS, so the shared style wins where both set something
 
 # ── Header ─────────────────────────────────────────────────────────────────────
 col_title, col_refresh = st.columns([5, 1])
 with col_title:
     st.markdown(f"# ⛏️ {config.MARKET_NAME} Mining Stock Screener")
-    st.caption(f"{config.MARKET_EXCH} | All commodities | All stages | Last refresh: **{last_refresh()}**")
+    st.caption(f"{config.MARKET_EXCH} | All commodities | All stages | Last refresh: **{str(last_refresh())[:16]}**")
 # On Streamlit Cloud (DISABLE_SCHEDULER=true) in-app refresh is disabled:
 # Yahoo blocks the cloud IP, so a refresh there writes garbage into the
 # ephemeral DB. Data is refreshed by the GitHub Actions workflow instead.
@@ -956,7 +951,7 @@ df["reserve_life_display"] = df["spg_reserve_life"].apply(
 # Requires both analyst_target_mean and current price to be available.
 if "analyst_target_mean" in df.columns and "price" in df.columns:
     _at_mask = (df["analyst_target_mean"].notna() & df["price"].notna()
-                & (df["price"] > 0) & (df["analyst_count"].fillna(0) >= 1))
+                & (df["price"] > 0) & (df["analyst_count"].fillna(0) >= 3))      # >= 3 analysts (2026-11-17)
     df["analyst_upside"] = np.where(
         _at_mask,
         np.clip((df["analyst_target_mean"] / df["price"] - 1) * 100, -200, 500).round(1),
@@ -1190,80 +1185,6 @@ with st.sidebar:
         st.caption(f"As of {_spot_date}")
     st.divider()
 
-    # ── Filter Presets ─────────────────────────────────────────────────────────
-    st.markdown("## 💾 Filter Presets")
-    _all_presets = load_filter_presets()
-    _preset_names = list(_all_presets.keys())
-
-    _prs_col1, _prs_col2 = st.columns([3, 1])
-    _sel_preset = _prs_col1.selectbox(
-        "Load preset", ["— none —"] + _preset_names,
-        key="preset_selector", label_visibility="collapsed",
-    )
-    if _prs_col2.button("📂 Load", use_container_width=True, key="preset_load_btn"):
-        if _sel_preset != "— none —" and _sel_preset in _all_presets:
-            _p = _all_presets[_sel_preset]
-            st.session_state["flt_comm"]    = _p.get("comm", [])
-            st.session_state["flt_stage"]   = _p.get("stage", [])
-            st.session_state["flt_mcap"]    = tuple(_p.get("mcap", [0, 200_000]))
-            st.session_state["flt_score"]   = _p.get("score", 0)
-            st.session_state["flt_grades"]  = _p.get("grades", [])
-            st.session_state["flt_sort"]    = _p.get("sort_col", "score_composite")
-            st.session_state["flt_asc"]     = _p.get("sort_asc", False)
-            st.session_state["flt_pnav"]    = _p.get("pnav_max", 5.0)
-            st.session_state["flt_aisc"]    = _p.get("min_aisc", 0)
-            st.session_state["flt_prod"]    = _p.get("min_prod_koz", 0)
-            st.session_state["flt_rli"]     = _p.get("min_reserve_life", 0)
-            st.session_state["flt_evoz"]    = _p.get("max_ev_oz_prod", 9_999_999)
-            st.session_state["flt_analyst_upside"] = _p.get("min_analyst_upside", 0)
-            st.rerun()
-
-    _save_col1, _save_col2, _save_col3 = st.columns([3, 1, 1])
-    _new_preset_name = _save_col1.text_input(
-        "Preset name", placeholder="e.g. Gold Value", key="preset_name_input",
-        label_visibility="collapsed",
-    )
-
-    def _current_filters_dict():
-        return {
-            "comm":       st.session_state.get("flt_comm",   []),
-            "stage":      st.session_state.get("flt_stage",  []),
-            "mcap":       list(st.session_state.get("flt_mcap", [0, 200_000])),
-            "score":      st.session_state.get("flt_score",  0),
-            "grades":     st.session_state.get("flt_grades", []),
-            "sort_col":   st.session_state.get("flt_sort",   "score_composite"),
-            "sort_asc":   st.session_state.get("flt_asc",    False),
-            "pnav_max":        st.session_state.get("flt_pnav",   5.0),
-            "min_aisc":        st.session_state.get("flt_aisc",   0),
-            "min_prod_koz":    st.session_state.get("flt_prod",   0),
-            "min_reserve_life": st.session_state.get("flt_rli",   0),
-            "max_ev_oz_prod":  st.session_state.get("flt_evoz",   9_999_999),
-            "min_analyst_upside": st.session_state.get("flt_analyst_upside", 0),
-        }
-
-    if _save_col2.button("💾 Save", use_container_width=True, key="preset_save_btn"):
-        if _new_preset_name.strip():
-            save_filter_preset(_new_preset_name.strip(), _current_filters_dict())
-            st.toast(f"Preset '{_new_preset_name}' saved ✓", icon="💾")
-            st.rerun()
-        else:
-            st.warning("Enter a preset name first.")
-    if _save_col3.button("🗑️", use_container_width=True, key="preset_del_btn",
-                         help="Delete selected preset"):
-        if _sel_preset != "— none —":
-            delete_filter_preset(_sel_preset)
-            st.toast(f"Preset '{_sel_preset}' deleted", icon="🗑️")
-            st.rerun()
-
-    st.divider()
-
-    # ── Watchlist toggle ────────────────────────────────────────────────────────
-    _watchlist_tickers = get_watchlist()
-    _wl_only = st.toggle(
-        f"⭐ Watchlist only ({len(_watchlist_tickers)})",
-        value=False,
-        help="Show only your starred companies",
-    )
     _spg_only = st.toggle(
         "📡 S&P data only",
         value=False,
@@ -1414,7 +1335,7 @@ with st.sidebar:
 
     st.divider()
     st.markdown("### 🔬 Score Weights")
-    st.caption("Adjust how the composite score is calculated")
+    st.caption("评分权重：调整只影响本次浏览，不保存、不影响别人看到的排名。")
     _wg = st.session_state["weight_gen"]
     w_val = st.slider("Valuation",      0, 100, st.session_state["w_val"], key=f"sl_val_{_wg}")
     w_hlt = st.slider("Health",         0, 100, st.session_state["w_hlt"], key=f"sl_hlt_{_wg}")
@@ -1424,20 +1345,10 @@ with st.sidebar:
     w_com = st.slider("Commodity",      0, 100, st.session_state["w_com"], key=f"sl_com_{_wg}")
     w_stg = st.slider("Stage",          0, 100, st.session_state["w_stg"], key=f"sl_stg_{_wg}")
 
-    _sw_cols = st.columns(2)
-    if _sw_cols[0].button("💾 Save weights", use_container_width=True):
-        save_score_weights({"valuation": w_val, "health": w_hlt, "momentum": w_mom,
-                            "mining": w_min, "commodity": w_com, "stage": w_stg})
-        st.session_state.update(w_val=w_val, w_hlt=w_hlt, w_mom=w_mom,
-                                w_min=w_min, w_com=w_com, w_stg=w_stg)
-        st.toast("Weights saved ✓", icon="💾")
-    if _sw_cols[1].button("↩️ Reset", use_container_width=True):
-        _defaults = {"valuation": 30, "health": 20, "momentum": 15,
-                     "mining": 25, "commodity": 5, "stage": 5}
+    if st.button("↩️ 恢复默认权重", use_container_width=True):
         st.session_state.update(w_val=30, w_hlt=20, w_mom=15,
                                 w_min=25, w_com=5,  w_stg=5)
         st.session_state["weight_gen"] += 1   # new key suffix → sliders reinitialise
-        save_score_weights(_defaults)
         st.rerun()
 
     st.divider()
@@ -1532,9 +1443,6 @@ if min_analyst_upside > 0 and "analyst_upside" in df.columns:
     mask &= (df["analyst_upside"].notna() & (df["analyst_upside"] >= min_analyst_upside))
 _debug_steps.append((f"analyst_upside>={min_analyst_upside}", int(mask.sum())))
 
-if _wl_only and _watchlist_tickers:
-    mask &= df["ticker"].isin(_watchlist_tickers)
-_debug_steps.append(("watchlist", int(mask.sum())))
 
 if _spg_only and "has_spg" in df.columns:
     mask &= df["has_spg"]
@@ -1561,51 +1469,19 @@ with st.container(key="summary_cards"):
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ── Tabs ────────────────────────────────────────────────────────────────────────
-_wl_count = len(get_watchlist())
-tab_today, tab_table, tab_detail, tab_charts, tab_report, tab_watchlist, tab_snl = st.tabs([
-    "📌 Today", "📋 Screener", "🔍 Company Detail", "📊 Analytics",
-    "📄 Report", f"⭐ Watchlist ({_wl_count})", "🗄️ SNL Data",
+tab_today, tab_table, tab_detail, tab_charts, tab_report = st.tabs([
+    "📌 Today", "📋 Screener", "🔍 Company Detail", "📊 Analytics", "📄 Report",
 ])
 
 # ── TAB 0: Today — the daily answer: what moved, what to look at ────────────
 with tab_today:
-    # ── Price target alerts ────────────────────────────────────────────────────────
-    _all_targets = get_all_price_targets()
-    if _all_targets:
-        _target_hits = []
-        for _tk, _tgt in _all_targets.items():
-            _trow = df[df["ticker"] == _tk]
-            if _trow.empty:
-                continue
-            _tprice = _trow.iloc[0].get("price")
-            if pd.notna(_tprice) and _tprice > 0:
-                _tdist = (_tgt / _tprice - 1) * 100
-                _target_hits.append({"ticker": _tk,
-                                      "name": _trow.iloc[0].get("name", _tk),
-                                      "price": _tprice,
-                                      "target": _tgt,
-                                      "dist_pct": _tdist})
-        _near_target  = [h for h in _target_hits if abs(h["dist_pct"]) <= 10]
-        _hit_target   = [h for h in _target_hits if h["dist_pct"] <= 0]
-        if _hit_target or _near_target:
-            _tgt_parts = []
-            for h in sorted(_hit_target, key=lambda x: x["dist_pct"]):
-                _tgt_parts.append(
-                    f"🎯 **{h['name']}** ({h['ticker']}) hit target "
-                    f"${h['target']:.3f} — now {h['dist_pct']:.1f}% past"
-                )
-            for h in sorted(_near_target, key=lambda x: abs(x["dist_pct"])):
-                if h not in _hit_target:
-                    _tgt_parts.append(
-                        f"⚡ **{h['name']}** ({h['ticker']}) within "
-                        f"{abs(h['dist_pct']):.1f}% of target ${h['target']:.3f}"
-                    )
-            if _tgt_parts:
-                st.info("  ·  ".join(_tgt_parts))
-
-
     # ── Score Movers Banner ──────────────────────────────────────────────────
     _movers_df = df[df["score_delta"].abs() > 2.5].copy() if "score_delta" in df.columns else pd.DataFrame()
+    if not _movers_df.empty:          # a halted name's score freezes and thaws: neither is a move
+        _halted = _movers_df["grade"].eq(STALE_GRADE)
+        if "grade_prev" in _movers_df.columns:
+            _halted |= _movers_df["grade_prev"].eq(STALE_GRADE)
+        _movers_df = _movers_df[~_halted]
     if not _movers_df.empty:
         _upgrades = _movers_df[_movers_df["score_delta"] > 0].nlargest(5, "score_delta")
         _downgrades = _movers_df[_movers_df["score_delta"] < 0].nsmallest(5, "score_delta")
@@ -1629,20 +1505,19 @@ with tab_today:
             )
 
         if _mover_parts_up or _mover_parts_dn:
+            # two columns, one name per line (it was one run-on paragraph of coloured text)
+            def _col(title, parts, color):
+                body = "".join(f"<div style='padding:2px 0'>{p}</div>" for p in parts) or "<div style='color:#4A5565'>—</div>"
+                return (f"<div style='flex:1 1 16rem;min-width:0'><div style='font-weight:700;color:{color};"
+                        f"font-size:.8rem;letter-spacing:.04em;margin-bottom:2px'>{title}</div>{body}</div>")
             _mover_html = (
-                "<div style='background:#f4f7fa;border:1px solid #e3e9f0;"
-                "border-left:3px solid #1a3a5c;"
-                "padding:8px 12px;border-radius:8px;margin-bottom:8px;"
-                "font-size:12px;line-height:1.7'>"
-                "<span style='color:#1a3a5c;font-weight:700;margin-right:8px'>📊 SCORE MOVERS</span>"
-            )
-            if _mover_parts_up:
-                _mover_html += "<span style='color:#16a34a;margin-right:4px'>⬆</span>" + "  ·  ".join(_mover_parts_up)
-            if _mover_parts_up and _mover_parts_dn:
-                _mover_html += "  <span style='color:#cbd5e1;margin:0 6px'>|</span>  "
-            if _mover_parts_dn:
-                _mover_html += "<span style='color:#dc2626;margin-right:4px'>⬇</span>" + "  ·  ".join(_mover_parts_dn)
-            _mover_html += "</div>"
+                "<div style='background:#F4F6F9;border:1px solid #DDE2E8;border-left:4px solid #0B1F3A;"
+                "padding:8px 12px;border-radius:4px;margin-bottom:8px;font-size:.88rem;line-height:1.5'>"
+                "<div style='color:#0B1F3A;font-weight:700;margin-bottom:4px'>评分异动 SCORE MOVERS"
+                "<span style='color:#4A5565;font-weight:400;font-size:.8rem'> · 较上次刷新 · 已排除停牌/复牌</span></div>"
+                "<div style='display:flex;flex-wrap:wrap;gap:6px 24px'>"
+                + _col("⬆ 上升", _mover_parts_up, "#1A7F37") + _col("⬇ 下降", _mover_parts_dn, "#C8102E")
+                + "</div></div>")
             st.markdown(_mover_html, unsafe_allow_html=True)
 
 
@@ -1680,9 +1555,10 @@ with tab_today:
                         unsafe_allow_html=True)
 
     # ── Top Opportunities callout ──────────────────────────────────────────────
-    _top_ops = filtered[filtered["grade"] == "🟢 Strong Buy"].nlargest(6, "score_ai")
-    if _top_ops.empty:
-        _top_ops = filtered[filtered["grade"] == "🔵 Buy"].nlargest(6, "score_ai")
+    # Strong Buy before Buy, each by the ranking score (AI-adjusted) — the score the card shows
+    _top_ops = (filtered[filtered["grade"].isin(["🟢 Strong Buy", "🔵 Buy"])]
+                .assign(_g=lambda x: (x["grade"] == "🟢 Strong Buy").astype(int))
+                .sort_values(["_g", "score_ai"], ascending=[False, False]).head(6))
 
     if not _top_ops.empty:
         st.markdown("#### 🏆 Top Opportunities")
@@ -1711,14 +1587,16 @@ with tab_today:
             _op_ai_note = getattr(_op, "ai_note", None)
             _op_ai_view = getattr(_op, "ai_view", None)
             _op_ai_adj  = getattr(_op, "ai_adjust", 0) or 0
-            _kpis = [f"Score <b>{_op_score:.0f}/100</b>"]
+            _op_rank = getattr(_op, "score_ai", None)
+            _op_rank = _op_rank if _op_rank is not None and pd.notna(_op_rank) else _op_score
+            _kpis = [f"Score <b>{_op_rank:.0f}/100</b>"]
             if _op_ai_adj:
-                _kpis.append(f"🤖 <b>{_op_ai_adj:+.0f}</b>")
+                _kpis.append(f"基础 {_op_score:.0f} · 🤖 <b>{_op_ai_adj:+.0f}</b>")
             if _op_upside and _op_upside > 0:
                 _kpis.append(f"<b>↑{_op_upside:+.0f}% to NAV</b>")
             elif _op_pnav:
                 _kpis.append(f"P/NAV {_op_pnav:.2f}x")
-            if _op_an_up and _op_an_up >= 20 and _op_an_ct and _op_an_ct >= 2:
+            if _op_an_up and _op_an_up >= 20 and _op_an_ct and _op_an_ct >= 3:
                 _kpis.append(f"Analyst <b>↑{_op_an_up:.0f}%</b> ({_op_an_ct})")
             if _op_delta: _kpis.append(f"Δ {_op_delta:+.1f}")
             with _op_cols[_ci]:
@@ -1908,7 +1786,7 @@ with tab_table:
     _med_rli     = filtered["spg_reserve_life"].median() if "spg_reserve_life" in filtered.columns and filtered["spg_reserve_life"].notna().any() else None
     _n_deep_val  = int((filtered["upside_to_nav"].fillna(0) >= 40).sum()) if "upside_to_nav" in filtered.columns else 0
     _med_analyst_up = (
-        filtered.loc[filtered["analyst_count"].fillna(0) >= 2, "analyst_upside"].median()
+        filtered.loc[filtered["analyst_count"].fillna(0) >= 3, "analyst_upside"].median()
         if "analyst_upside" in filtered.columns and "analyst_count" in filtered.columns else None
     )
 
@@ -1925,6 +1803,7 @@ with tab_table:
     _stat_cols = st.columns(len(_stat_items))
     for _si, (_slbl, _sval) in enumerate(_stat_items):
         _stat_cols[_si].metric(_slbl, _sval)
+    st.caption(f"以上统计的口径：当前筛选结果 {_n_total} 家（不是全市场）；分析师上行空间只计 ≥3 家分析师覆盖的公司。")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -2053,10 +1932,6 @@ with tab_table:
     tbl = filtered[list(available.keys())].copy()
     tbl["market_cap"] = (tbl["market_cap"] / 1e6).round(1)
     tbl.columns = list(available.values())
-    # Prepend watchlist star column
-    tbl.insert(0, "⭐", filtered["ticker"].map(
-        lambda t: "⭐" if t in _watchlist_tickers else ""
-    ).values)
     tbl.index = range(1, len(tbl) + 1)
 
     def color_score(val):
@@ -2378,9 +2253,7 @@ with tab_charts:
         fig2.update_layout(height=350)
         st.plotly_chart(fig2, width="stretch")
 
-    col_l2, col_r2 = st.columns(2)
-
-    with col_l2:
+    with st.container():       # was the left half of a row; its right half (Top 20) duplicated the Screener tab
         st.markdown("#### P/B vs EV/EBITDA")
         plot_df = filtered.dropna(subset=["price_to_book", "ev_ebitda"])
         # Keep only sensible positive values; drop negative EBITDA (developers/explorers)
@@ -2429,84 +2302,6 @@ with tab_charts:
                     + ", ".join(_excluded["name"].head(5).tolist())
                     + ("…" if len(_excluded) > 5 else "")
                 )
-
-    with col_r2:
-        st.markdown("#### Top 20 by Composite Score")
-        top20 = filtered.nlargest(20, "score_composite")
-        fig4 = px.bar(
-            top20[::-1],
-            x="score_composite", y="name",
-            color="grade",
-            orientation="h",
-            color_discrete_map={
-                "🟢 Strong Buy": "#22c55e",
-                "🔵 Buy":        "#3b82f6",
-                "🟡 Watch":      "#eab308",
-                "🟠 Neutral":    "#f97316",
-                "🔴 Avoid":      "#ef4444",
-            },
-            labels={"score_composite": "Score", "name": ""},
-            title="Top 20 Companies",
-        )
-        fig4.update_layout(showlegend=False, height=550)
-        st.plotly_chart(fig4, width="stretch")
-
-    # ── Score Movers ──────────────────────────────────────────────────────────
-    _has_delta = "score_delta" in filtered.columns and filtered["score_delta"].notna().any()
-    if _has_delta:
-        _delta_nonzero = filtered[filtered["score_delta"].abs() > 0.4].copy()
-        if not _delta_nonzero.empty:
-            col_mup, col_mdn = st.columns(2)
-            _top_ups = _delta_nonzero.nlargest(12, "score_delta")
-            _top_dns = _delta_nonzero.nsmallest(12, "score_delta")
-
-            with col_mup:
-                st.markdown("#### ⬆️ Score Upgrades (vs prev)")
-                if not _top_ups.empty:
-                    _fig_ups = px.bar(
-                        _top_ups[::-1],
-                        x="score_delta", y="name",
-                        orientation="h",
-                        color="score_composite",
-                        color_continuous_scale="RdYlGn",
-                        range_color=[0, 100],
-                        hover_name="name",
-                        hover_data={"ticker": True, "score_composite": ":.1f",
-                                    "score_delta": ":+.1f", "grade": True},
-                        labels={"score_delta": "Δ Score", "name": "",
-                                "score_composite": "Score"},
-                        title="",
-                    )
-                    _fig_ups.update_layout(
-                        showlegend=False, height=380,
-                        margin=dict(l=10, r=10, t=10, b=10),
-                        coloraxis_showscale=False,
-                    )
-                    st.plotly_chart(_fig_ups, width="stretch")
-
-            with col_mdn:
-                st.markdown("#### ⬇️ Score Downgrades (vs prev)")
-                if not _top_dns.empty:
-                    _fig_dns = px.bar(
-                        _top_dns,
-                        x="score_delta", y="name",
-                        orientation="h",
-                        color="score_composite",
-                        color_continuous_scale="RdYlGn",
-                        range_color=[0, 100],
-                        hover_name="name",
-                        hover_data={"ticker": True, "score_composite": ":.1f",
-                                    "score_delta": ":+.1f", "grade": True},
-                        labels={"score_delta": "Δ Score", "name": "",
-                                "score_composite": "Score"},
-                        title="",
-                    )
-                    _fig_dns.update_layout(
-                        showlegend=False, height=380,
-                        margin=dict(l=10, r=10, t=10, b=10),
-                        coloraxis_showscale=False,
-                    )
-                    st.plotly_chart(_fig_dns, width="stretch")
 
     # ── Analyst Conviction charts ──────────────────────────────────────────────
     _has_analyst = (
@@ -3848,246 +3643,6 @@ with tab_charts:
         )
         st.plotly_chart(fig_vm, width="stretch")
 
-    # ── Score vs Returns cross-section ────────────────────────────────────────
-    st.markdown("#### 📈 Does Score Predict Returns?")
-    st.caption(
-        "Companies binned by composite score quintile.  "
-        "Average 1-month and 3-month price returns per bucket — "
-        "a cross-sectional check on whether the screener leads price."
-    )
-
-    _ret_cols_avail = [c for c in ["return_1m", "return_3m"] if c in df.columns]
-    if not _ret_cols_avail or df[_ret_cols_avail].notna().sum().sum() == 0:
-        st.info("No return data yet — refresh data to populate 1M/3M returns.")
-    else:
-        # Bin by score quintile (label with score range)
-        _score_bins  = [0, 20, 40, 55, 70, 100]
-        _score_labels = ["0–20", "20–40", "40–55", "55–70", "70–100"]
-        _sv_df = df[df["score_composite"].notna()].copy()
-        _sv_df["score_bin"] = pd.cut(
-            _sv_df["score_composite"],
-            bins=_score_bins, labels=_score_labels, right=True,
-        )
-
-        _agg = (
-            _sv_df.groupby("score_bin", observed=True)
-            [[c for c in ["return_1m", "return_3m", "score_composite"]
-              if c in _sv_df.columns]]
-            .agg({"return_1m": ["mean", "count"], "return_3m": "mean",
-                  "score_composite": "mean"})
-        )
-        _agg.columns = ["Avg 1M Ret%", "N", "Avg 3M Ret%", "Avg Score"]
-        _agg = _agg.reset_index().rename(columns={"score_bin": "Score Range"})
-        _agg["N"] = _agg["N"].astype(int)
-
-        _ret_left, _ret_right = st.columns(2)
-
-        with _ret_left:
-            # Bar chart: avg returns by score bin
-            _bar_data = []
-            for _, _rr in _agg.iterrows():
-                for _metric, _col in [("1M Return%", "Avg 1M Ret%"),
-                                       ("3M Return%", "Avg 3M Ret%")]:
-                    if pd.notna(_rr.get(_col)):
-                        _bar_data.append({
-                            "Score Range": str(_rr["Score Range"]),
-                            "Metric": _metric,
-                            "Return%": round(float(_rr[_col]), 2),
-                        })
-
-            if _bar_data:
-                _bar_df = pd.DataFrame(_bar_data)
-                _fig_ret = px.bar(
-                    _bar_df,
-                    x="Score Range", y="Return%", color="Metric",
-                    barmode="group",
-                    color_discrete_map={
-                        "1M Return%": "#3b82f6",
-                        "3M Return%": "#22c55e",
-                    },
-                    title="Avg Return by Score Quintile",
-                    labels={"Return%": "Avg Return (%)", "Score Range": "Score Bucket"},
-                )
-                _fig_ret.add_hline(y=0, line_color="rgba(23,32,51,0.3)",
-                                   line_dash="solid", line_width=1)
-                _fig_ret.update_layout(
-                    height=340,
-                    plot_bgcolor="rgba(0,0,0,0)",
-                    paper_bgcolor="rgba(0,0,0,0)",
-                    legend=dict(orientation="h", y=1.1),
-                    margin=dict(l=40, r=20, t=60, b=40),
-                )
-                st.plotly_chart(_fig_ret, width="stretch")
-
-        with _ret_right:
-            # Summary table
-            _disp_agg = _agg[
-                ["Score Range", "N", "Avg Score", "Avg 1M Ret%", "Avg 3M Ret%"]
-            ].copy()
-
-            def _color_ret_cell(val):
-                if pd.isna(val): return ""
-                return "color: #22c55e; font-weight:600" if val > 0 else "color: #ef4444; font-weight:600"
-
-            _agg_styled = (
-                _disp_agg.style
-                .map(_color_ret_cell, subset=["Avg 1M Ret%", "Avg 3M Ret%"])
-                .format({
-                    "Avg Score":   "{:.1f}",
-                    "Avg 1M Ret%": lambda x: f"{x:+.1f}%" if pd.notna(x) else "—",
-                    "Avg 3M Ret%": lambda x: f"{x:+.1f}%" if pd.notna(x) else "—",
-                }, na_rep="—")
-                .set_properties(**{"text-align": "center"})
-            )
-            st.markdown("**Returns by Score Bucket**")
-            st.dataframe(_agg_styled, width="stretch", height=230)
-
-            # Scatter: score vs 3M return (per company)
-            _scat_df = _sv_df[_sv_df["return_3m"].notna()][
-                ["name", "ticker", "score_composite", "return_3m",
-                 "grade", "commodity"]
-            ].copy()
-            if not _scat_df.empty:
-                _fig_scat = px.scatter(
-                    _scat_df,
-                    x="score_composite", y="return_3m",
-                    color="grade",
-                    hover_name="name",
-                    hover_data={"ticker": True, "commodity": True,
-                                "score_composite": ":.1f", "return_3m": ":.1f"},
-                    color_discrete_map={
-                        "🟢 Strong Buy": "#22c55e",
-                        "🔵 Buy":        "#3b82f6",
-                        "🟡 Watch":      "#eab308",
-                        "🟠 Neutral":    "#f97316",
-                        "🔴 Avoid":      "#ef4444",
-                    },
-                    title="Score vs 3M Return (per company)",
-                    labels={"score_composite": "Score", "return_3m": "3M Return%"},
-                )
-                _fig_scat.add_hline(y=0, line_color="rgba(23,32,51,0.3)",
-                                    line_dash="dash", line_width=1)
-                _fig_scat.update_layout(
-                    height=300,
-                    showlegend=False,
-                    plot_bgcolor="rgba(0,0,0,0)",
-                    paper_bgcolor="rgba(0,0,0,0)",
-                    margin=dict(l=40, r=20, t=60, b=40),
-                )
-                st.plotly_chart(_fig_scat, width="stretch")
-
-    # ── Commodity Heatmap ─────────────────────────────────────────────────────
-    st.markdown("#### 🗃️ Commodity Heatmap — Sector Snapshot")
-    st.caption(
-        "Each cell = universe median for that commodity group. "
-        "Useful for identifying which commodity sectors look cheap or expensive."
-    )
-
-    _hm_metrics = [
-        ("score_composite",   "Score",         False),   # (col, label, invert)
-        ("score_mining",      "Mining Score",  False),
-        ("spg_p_nav",         "P/NAV",         True),    # lower = better → invert for color
-        ("spg_aisc_margin",   "AISC Mgn%",     False),
-        ("upside_to_nav",     "↑NAV Upside%",  False),
-        ("ev_per_oz_prod",    "EV/oz Prod",    True),
-        ("spg_reserve_life",  "Rsv Life (yr)", False),
-        ("return_3m",         "3M Ret%",       False),
-        ("price_to_book",     "P/B",           True),
-    ]
-    _hm_avail = [(c, l, inv) for c, l, inv in _hm_metrics if c in df.columns and df[c].notna().any()]
-
-    if len(_hm_avail) >= 3:
-        _hm_df = df.copy()
-        _hm_df["_comm_grp"] = _hm_df["commodity"].str.split("/").str[0].str.strip()
-        _hm_groups = [g for g in _hm_df["_comm_grp"].dropna().unique()
-                      if _hm_df[_hm_df["_comm_grp"] == g].shape[0] >= 2]
-        _hm_groups.sort()
-
-        if len(_hm_groups) >= 2:
-            _hm_cols   = [l for _, l, _ in _hm_avail]
-            _hm_matrix = []   # rows = commodities, cols = metrics
-            _hm_raw    = []   # raw values for display
-
-            for _grp in _hm_groups:
-                _grp_df = _hm_df[_hm_df["_comm_grp"] == _grp]
-                _row_vals = []
-                _row_raw  = []
-                for _col, _lbl, _inv in _hm_avail:
-                    _med = _grp_df[_col].median()
-                    _row_raw.append(_med)
-                    # Normalise 0–1 within column for colour scale
-                    _all_vals = _hm_df[_hm_df["_comm_grp"].isin(_hm_groups)][_col].dropna()
-                    if len(_all_vals) < 2 or pd.isna(_med):
-                        _row_vals.append(float("nan"))
-                    else:
-                        _pct = (_all_vals < _med).mean()   # percentile among groups
-                        _row_vals.append((1 - _pct) if _inv else _pct)
-                _hm_matrix.append(_row_vals)
-                _hm_raw.append(_row_raw)
-
-            _hm_z    = np.array(_hm_matrix, dtype=float)
-            _hm_raw_arr = np.array(_hm_raw, dtype=float)
-
-            # Format raw values for annotation
-            _fmt_funcs = [
-                (lambda v: f"{v:.1f}"),   # Score
-                (lambda v: f"{v:.1f}"),   # Mining Score
-                (lambda v: f"{v:.2f}x"),  # P/NAV
-                (lambda v: f"{v:.1f}%"),  # AISC Mgn%
-                (lambda v: f"{v:+.0f}%"), # ↑NAV Upside%
-                (lambda v: f"${v:,.0f}"), # EV/oz Prod
-                (lambda v: f"{v:.1f}yr"), # Rsv Life
-                (lambda v: f"{v:+.1f}%"), # 3M Ret%
-                (lambda v: f"{v:.2f}"),   # P/B
-            ]
-            _fmt_funcs = _fmt_funcs[:len(_hm_avail)]
-
-            _text_grid = []
-            for ri in range(len(_hm_groups)):
-                _text_row = []
-                for ci, _ff in enumerate(_fmt_funcs):
-                    _rv = _hm_raw_arr[ri, ci]
-                    try:
-                        _text_row.append(_ff(_rv) if not np.isnan(_rv) else "—")
-                    except Exception:
-                        _text_row.append("—")
-                _text_grid.append(_text_row)
-
-            fig_hm = go.Figure(go.Heatmap(
-                z=_hm_z,
-                x=_hm_cols,
-                y=_hm_groups,
-                text=_text_grid,
-                texttemplate="%{text}",
-                textfont=dict(size=11, color="white"),
-                colorscale=[
-                    [0.0,  "#7f1d1d"],
-                    [0.25, "#b45309"],
-                    [0.5,  "#1e3a5f"],
-                    [0.75, "#166534"],
-                    [1.0,  "#14532d"],
-                ],
-                zmin=0, zmax=1,
-                showscale=False,
-                hovertemplate="%{y} · %{x}: %{text}<extra></extra>",
-            ))
-            fig_hm.update_layout(
-                height=max(220, len(_hm_groups) * 42 + 80),
-                xaxis=dict(tickfont=dict(size=11), tickangle=-30),
-                yaxis=dict(tickfont=dict(size=11), autorange="reversed"),
-                margin=dict(l=100, r=20, t=20, b=60),
-            )
-            st.plotly_chart(fig_hm, width="stretch")
-            st.caption(
-                "Green = better vs universe peers · Red = weaker · "
-                "P/NAV, EV/oz Prod, P/B are inverted (lower = greener). "
-                "Min 2 companies per group."
-            )
-        else:
-            st.info("Need ≥ 2 commodity groups with data to build heatmap.")
-    else:
-        st.info("Not enough metric data for heatmap — refresh data first.")
-
     # ── Correlation Matrix ─────────────────────────────────────────────────────
     st.markdown("#### 🔗 Metric Correlation Matrix")
     st.caption(
@@ -4398,81 +3953,6 @@ with tab_charts:
     st.markdown("---")
     st.markdown("### SNL Industry Analytics")
 
-    # ── 1. AISC Cost Curve ────────────────────────────────────────────────────
-    st.markdown("#### AISC Cost Curve — Producers")
-    _cc_df = filtered.copy()
-    # Pick the best AISC column per company (oz > t > lb)
-    _cc_df["_aisc"] = _cc_df.get("spg_aisc_per_oz", pd.Series(dtype=float))
-    if "spg_aisc_per_t" in _cc_df.columns:
-        _cc_df["_aisc"] = _cc_df["_aisc"].fillna(_cc_df["spg_aisc_per_t"])
-    if "spg_aisc_per_lb" in _cc_df.columns:
-        _cc_df["_aisc"] = _cc_df["_aisc"].fillna(_cc_df["spg_aisc_per_lb"])
-    _cc_df["_prod"] = _cc_df.get("spg_production_oz", pd.Series(dtype=float))
-    if "spg_production_t" in _cc_df.columns:
-        _cc_df["_prod"] = _cc_df["_prod"].fillna(_cc_df["spg_production_t"])
-    if "spg_production_lb" in _cc_df.columns:
-        _cc_df["_prod"] = _cc_df["_prod"].fillna(_cc_df["spg_production_lb"])
-
-    _cc_plot = (
-        _cc_df[_cc_df["_aisc"].notna() & (_cc_df["_aisc"] > 0) & (_cc_df["_aisc"] < 5000)]
-        .sort_values("_aisc")
-        .copy()
-    )
-    if not _cc_plot.empty:
-        _cc_plot["_label"] = _cc_plot["ticker"]
-        _gold_spot = None
-        try:
-            _spot_row = filtered[filtered["commodity"].str.contains("Gold", na=False)].head(1)
-            if not _spot_row.empty and "spg_realized_price_oz" in _spot_row.columns:
-                _gold_spot = float(_spot_row["spg_realized_price_oz"].iloc[0])
-        except Exception:
-            pass
-
-        _fig_cc = px.bar(
-            _cc_plot,
-            x="_label", y="_aisc",
-            color="grade",
-            color_discrete_map={
-                "🟢 Strong Buy": "#22c55e",
-                "🔵 Buy":        "#3b82f6",
-                "🟡 Watch":      "#eab308",
-                "🟠 Neutral":    "#f97316",
-                "🔴 Avoid":      "#ef4444",
-            },
-            hover_name="name",
-            hover_data={
-                "ticker": True, "stage": True, "commodity": True,
-                "_aisc": ":.0f", "_prod": ":,.0f",
-                "score_composite": ":.0f",
-            },
-            labels={"_aisc": "AISC ($/unit)", "_label": ""},
-            title="All-In Sustaining Cost by Company (sorted low→high)",
-        )
-        if _gold_spot and _gold_spot > 0:
-            _fig_cc.add_hline(
-                y=_gold_spot,
-                line_dash="dash", line_color="#FFD700", line_width=2,
-                annotation_text=f"Gold spot ~${_gold_spot:,.0f}",
-                annotation_position="top right",
-                annotation_font_color="#FFD700",
-            )
-        _fig_cc.update_layout(
-            height=420,
-            xaxis=dict(tickangle=-45, tickfont=dict(size=10)),
-            yaxis_title="AISC ($/unit)",
-            showlegend=True,
-            legend=dict(orientation="h", y=-0.22),
-            bargap=0.25,
-        )
-        st.plotly_chart(_fig_cc, use_container_width=True)
-        st.caption(
-            f"AISC shown in native unit ($/oz for precious metals, $/t for base metals, $/lb for uranium). "
-            f"{len(_cc_plot)} companies with AISC data. "
-            f"Gold spot line shown when realized price data available."
-        )
-    else:
-        st.info("No AISC data available — run snl_sync.py to populate.")
-
     # ── 2. Valuation Scatter: EV/oz R&R vs P/In-situ NAV ─────────────────────
     st.markdown("#### Valuation Map — EV/oz R&R vs P/In-situ NAV")
     _vs_needed = ["snl_ev_per_oz_rr", "snl_p_insitu"]
@@ -4639,50 +4119,6 @@ with tab_detail:
         if row is not None:
             c1, c2, c3 = st.columns([1, 1, 2])
             with c1:
-                # Watchlist toggle + note
-                _in_wl = sel_ticker in get_watchlist()
-                _wl_label = "✖️ Remove from Watchlist" if _in_wl else "⭐ Add to Watchlist"
-                if st.button(_wl_label, key=f"wl_{sel_ticker}"):
-                    if _in_wl:
-                        remove_from_watchlist(sel_ticker)
-                    else:
-                        add_to_watchlist(sel_ticker)
-                    st.rerun()
-                if _in_wl:
-                    _current_note = get_watchlist_note(sel_ticker)
-                    _new_note = st.text_area(
-                        "📝 Note", value=_current_note,
-                        height=68, key=f"note_{sel_ticker}",
-                        placeholder="Your thesis / reminder…",
-                    )
-                    if _new_note != _current_note:
-                        update_watchlist_note(sel_ticker, _new_note)
-
-                    # Price target
-                    _stored_pt = get_price_target(sel_ticker)
-                    _cur_price = row.get("price")
-                    _new_pt = st.number_input(
-                        "🎯 Price Target",
-                        min_value=0.0, max_value=9999.0,
-                        value=float(_stored_pt) if _stored_pt else 0.0,
-                        step=0.01, format="%.3f",
-                        key=f"pt_{sel_ticker}",
-                        help="Set 0 to clear the target",
-                    )
-                    if _new_pt != (_stored_pt or 0.0):
-                        set_price_target(sel_ticker, _new_pt if _new_pt > 0 else None)
-                    if _new_pt > 0 and pd.notna(_cur_price) and _cur_price > 0:
-                        _upside_to_pt = (_new_pt / _cur_price - 1) * 100
-                        _pt_color = ("#22c55e" if _upside_to_pt > 5
-                                     else "#ef4444" if _upside_to_pt < -5
-                                     else "#eab308")
-                        _pt_arrow = "↑" if _upside_to_pt > 0 else "↓"
-                        st.markdown(
-                            f"<span style='color:{_pt_color};font-weight:700'>"
-                            f"{_pt_arrow} {abs(_upside_to_pt):.1f}% to target</span>",
-                            unsafe_allow_html=True,
-                        )
-
                 st.markdown(f"### {row.get('name', sel_ticker)}")
                 st.markdown(f"**{row.get('commodity', '')}** · {row.get('stage', '')}")
                 st.markdown(f"**Grade:** {row.get('grade', '—')}")
@@ -4818,7 +4254,8 @@ with tab_detail:
                     metrics["Return on Equity"] = f"{_roe * 100:.1f}%"
                 _op_mgn = row.get("operating_margins")
                 if pd.notna(_op_mgn):
-                    metrics["Operating Margin"] = f"{_op_mgn * 100:.1f}%"
+                    # beyond ±100 % it is a tiny-revenue artefact (-3,621 % seen), not a margin
+                    metrics["Operating Margin"] = f"{_op_mgn * 100:.1f}%" if abs(_op_mgn) <= 1 else "—"
                 _gr_mgn = row.get("gross_margins")
                 if pd.notna(_gr_mgn):
                     metrics["Gross Margin"] = f"{_gr_mgn * 100:.1f}%"
@@ -5933,14 +5370,6 @@ with tab_detail:
                                 fill="tozeroy",
                                 fillcolor="rgba(245,158,11,0.08)",
                             ))
-                            # Price target reference line if set
-                            _hist_pt = get_price_target(sel_ticker)
-                            if _hist_pt:
-                                _fig_ph.add_hline(
-                                    y=_hist_pt, line_dash="dash", line_color="#22c55e",
-                                    annotation_text=f"Target ${_hist_pt:.3f}",
-                                    annotation_position="top right",
-                                )
                             _fig_ph.update_layout(
                                 title="Price History (from snapshots)",
                                 yaxis=dict(title=f"Price ({config.CURRENCY})"),
@@ -7473,9 +6902,9 @@ with tab_report:
         report_en = _generate_report(src, lang="en")
         report_zh = _generate_report(src, lang="zh")
         with col_en:
-            st.markdown(report_en, unsafe_allow_html=False)
+            st.markdown(report_en.replace("$", "\\$"), unsafe_allow_html=False)
         with col_zh:
-            st.markdown(report_zh, unsafe_allow_html=False)
+            st.markdown(report_zh.replace("$", "\\$"), unsafe_allow_html=False)
 
         # Combined bilingual download
         combined_md = (
@@ -7502,7 +6931,7 @@ with tab_report:
     else:
         lang_code = "zh" if lang == "中文" else "en"
         report_md = _generate_report(src, lang=lang_code)
-        st.markdown(report_md, unsafe_allow_html=False)
+        st.markdown(report_md.replace("$", "\\$"), unsafe_allow_html=False)
         fname_md = f"矿业报告_{_date.today()}.md" if lang_code == "zh" else f"mining_report_{_date.today()}.md"
         fname_pdf = f"矿业报告_{_date.today()}.pdf" if lang_code == "zh" else f"mining_report_{_date.today()}.pdf"
         btn_label = "⬇️ 下载报告（.md）" if lang_code == "zh" else "⬇️ Download Report (.md)"
@@ -7524,1299 +6953,3 @@ with tab_report:
             )
         except Exception as _pdf_err:
             _dl_col2.error(f"PDF error: {_pdf_err}")
-
-# ── TAB 5: Watchlist ───────────────────────────────────────────────────────────
-with tab_watchlist:
-    _wl_tickers  = get_watchlist()
-    _positions_df = get_positions()   # ticker, shares, avg_cost, currency
-
-    if not _wl_tickers:
-        st.info("No companies in your watchlist yet.  \n"
-                "Go to **🔍 Company Detail** → select a company → click **⭐ Add to Watchlist**.")
-    else:
-        # Merge market data
-        _wl_df = df[df["ticker"].isin(_wl_tickers)].copy()
-        if "score_composite" in _wl_df.columns:
-            _wl_df = _wl_df.sort_values("score_composite", ascending=False)
-
-        # ── Grade-change alert banner ──────────────────────────────────────────
-        _GRADE_ORD = {"🟢 Strong Buy": 5, "🔵 Buy": 4, "🟡 Watch": 3, "🟠 Neutral": 2, "🔴 Avoid": 1}
-        if "grade_prev" in _wl_df.columns and _wl_df["grade_prev"].notna().any():
-            _wl_ups = _wl_df[
-                _wl_df["grade_prev"].notna() &
-                (_wl_df["grade"].map(_GRADE_ORD).fillna(0) >
-                 _wl_df["grade_prev"].map(_GRADE_ORD).fillna(0))
-            ]
-            _wl_dns = _wl_df[
-                _wl_df["grade_prev"].notna() &
-                (_wl_df["grade"].map(_GRADE_ORD).fillna(0) <
-                 _wl_df["grade_prev"].map(_GRADE_ORD).fillna(0))
-            ]
-            if not _wl_ups.empty:
-                _up_parts = [
-                    f"**{r['name']}** ({r['ticker']}): {r['grade_prev']} → {r['grade']}"
-                    for _, r in _wl_ups.iterrows()
-                ]
-                st.success("⬆️ **Grade upgrades in your watchlist:**  " + "  ·  ".join(_up_parts))
-            if not _wl_dns.empty:
-                _dn_parts = [
-                    f"**{r['name']}** ({r['ticker']}): {r['grade_prev']} → {r['grade']}"
-                    for _, r in _wl_dns.iterrows()
-                ]
-                st.warning("⬇️ **Grade downgrades in your watchlist:**  " + "  ·  ".join(_dn_parts))
-
-        # ── Price-target proximity alerts ──────────────────────────────────────
-        _pt_alerts = []
-        for _t in _wl_tickers:
-            _pt = get_price_target(_t)
-            if not _pt:
-                continue
-            _px_row = _wl_df[_wl_df["ticker"] == _t]
-            if _px_row.empty:
-                continue
-            _px = _px_row.iloc[0].get("price")
-            if pd.isna(_px) or _px <= 0:
-                continue
-            _dist = (_pt / _px - 1) * 100
-            if abs(_dist) <= 5:
-                _nm = _px_row.iloc[0].get("name", _t)
-                _arrow = "↑" if _dist > 0 else "↓"
-                _pt_alerts.append(
-                    f"**{_nm}** ({_t}): ${_px:.3f} — {_arrow}{abs(_dist):.1f}% to target ${_pt:.3f}"
-                )
-        if _pt_alerts:
-            st.info("🎯 **Near price target (±5%):**  " + "  ·  ".join(_pt_alerts))
-
-        # Merge position data
-        if not _positions_df.empty:
-            _wl_df = _wl_df.merge(
-                _positions_df[["ticker", "shares", "avg_cost", "currency"]],
-                on="ticker", how="left",
-            )
-        else:
-            _wl_df["shares"]   = float("nan")
-            _wl_df["avg_cost"] = float("nan")
-            _wl_df["currency"] = None
-
-        # Compute P&L per row (where position data exists)
-        _has_pos = _wl_df["shares"].notna() & (_wl_df["shares"] > 0)
-        _wl_df["mkt_value"]  = np.where(
-            _has_pos & _wl_df["price"].notna(),
-            _wl_df["shares"] * _wl_df["price"], np.nan,
-        )
-        _wl_df["cost_basis"] = np.where(
-            _has_pos & _wl_df["avg_cost"].notna(),
-            _wl_df["shares"] * _wl_df["avg_cost"], np.nan,
-        )
-        _wl_df["pnl_abs"]  = _wl_df["mkt_value"] - _wl_df["cost_basis"]
-        _wl_df["pnl_pct"]  = np.where(
-            _wl_df["cost_basis"].notna() & (_wl_df["cost_basis"] > 0),
-            (_wl_df["pnl_abs"] / _wl_df["cost_basis"] * 100).round(1),
-            np.nan,
-        )
-        _wl_df["port_weight"] = np.where(
-            _wl_df["mkt_value"].notna() & (_wl_df["mkt_value"].sum() > 0),
-            (_wl_df["mkt_value"] / _wl_df["mkt_value"].sum() * 100).round(1),
-            np.nan,
-        )
-
-        # ── Portfolio summary strip ────────────────────────────────────────────
-        _total_val  = _wl_df["mkt_value"].sum()
-        _total_cost = _wl_df["cost_basis"].sum()
-        _total_pnl  = (_total_val - _total_cost) if (_total_val > 0 and _total_cost > 0) else float("nan")
-        _total_pnl_pct = (_total_pnl / _total_cost * 100) if (pd.notna(_total_pnl) and _total_cost > 0) else float("nan")
-        _n_positions = int(_has_pos.sum())
-
-        st.markdown(f"### ⭐ Watchlist · 💼 Portfolio")
-
-        _ps = st.columns(6)
-        _ps[0].metric("Watchlisted", len(_wl_df))
-        _ps[1].metric("Positions", _n_positions)
-        _val_fmt  = f"${_total_val:,.0f}" if _total_val > 0 else "—"
-        _pnl_fmt  = (f"{_total_pnl_pct:+.1f}%" if pd.notna(_total_pnl_pct) else None)
-        _ps[2].metric("Market Value", _val_fmt, delta=_pnl_fmt)
-        _pnl_abs_fmt = f"${_total_pnl:+,.0f}" if pd.notna(_total_pnl) else "—"
-        _ps[3].metric("Total P&L", _pnl_abs_fmt)
-        _avg_score = _wl_df["score_composite"].mean()
-        _ps[4].metric("Avg Score", f"{_avg_score:.1f}" if pd.notna(_avg_score) else "—")
-        _avg_delta = _wl_df["score_delta"].mean() if "score_delta" in _wl_df.columns else float("nan")
-        _ps[5].metric("Avg Δ Score", f"{_avg_delta:+.1f}" if pd.notna(_avg_delta) else "—")
-
-        # ── Portfolio exposure charts ──────────────────────────────────────────
-        _has_any_positions = _n_positions > 0 and _total_val > 0
-        if _has_any_positions:
-            st.divider()
-            st.markdown("#### Portfolio Exposure")
-            _exp_cols = st.columns(3)
-
-            # Commodity breakdown (by market value, fallback to equal weight)
-            with _exp_cols[0]:
-                _comm_val = (
-                    _wl_df[_wl_df["mkt_value"].notna()]
-                    .groupby("commodity")["mkt_value"].sum()
-                    .reset_index()
-                    .rename(columns={"mkt_value": "Value", "commodity": "Commodity"})
-                    .sort_values("Value", ascending=False)
-                )
-                if not _comm_val.empty:
-                    _fig_comm = px.pie(
-                        _comm_val, values="Value", names="Commodity",
-                        title="By Commodity",
-                        hole=0.45,
-                        color_discrete_sequence=px.colors.qualitative.Set2,
-                    )
-                    _fig_comm.update_traces(textposition="outside", textinfo="percent+label")
-                    _fig_comm.update_layout(showlegend=False, height=300,
-                                            margin=dict(l=10, r=10, t=40, b=10))
-                    st.plotly_chart(_fig_comm, width="stretch")
-
-            # Stage breakdown
-            with _exp_cols[1]:
-                _stage_val = (
-                    _wl_df[_wl_df["mkt_value"].notna()]
-                    .groupby("stage")["mkt_value"].sum()
-                    .reset_index()
-                    .rename(columns={"mkt_value": "Value", "stage": "Stage"})
-                    .sort_values("Value", ascending=False)
-                )
-                if not _stage_val.empty:
-                    _fig_stage = px.bar(
-                        _stage_val, x="Value", y="Stage",
-                        orientation="h",
-                        title="By Stage",
-                        color="Stage",
-                        color_discrete_sequence=px.colors.qualitative.Pastel,
-                    )
-                    _fig_stage.update_layout(showlegend=False, height=300,
-                                             margin=dict(l=10, r=10, t=40, b=10),
-                                             xaxis_title="Value ($)")
-                    _fig_stage.update_yaxes(autorange="reversed")
-                    st.plotly_chart(_fig_stage, width="stretch")
-
-            # P&L waterfall per position
-            with _exp_cols[2]:
-                _pnl_df = (
-                    _wl_df[_wl_df["pnl_abs"].notna()]
-                    .sort_values("pnl_abs", ascending=False)
-                    [["name", "pnl_abs", "pnl_pct"]]
-                    .copy()
-                )
-                if not _pnl_df.empty:
-                    _fig_pnl = go.Figure()
-                    _fig_pnl.add_bar(
-                        x=_pnl_df["pnl_abs"],
-                        y=_pnl_df["name"],
-                        orientation="h",
-                        marker_color=_pnl_df["pnl_abs"].apply(
-                            lambda v: "#22c55e" if v >= 0 else "#ef4444"
-                        ).tolist(),
-                        text=_pnl_df["pnl_pct"].apply(
-                            lambda v: f"{v:+.1f}%" if pd.notna(v) else ""
-                        ).tolist(),
-                        textposition="outside",
-                    )
-                    _fig_pnl.update_layout(
-                        title="P&L by Position",
-                        height=300,
-                        margin=dict(l=10, r=60, t=40, b=10),
-                        xaxis_title="P&L ($)",
-                        showlegend=False,
-                    )
-                    _fig_pnl.update_yaxes(autorange="reversed")
-                    st.plotly_chart(_fig_pnl, width="stretch")
-
-        st.divider()
-
-        # ── Company cards ──────────────────────────────────────────────────────
-        st.markdown(f"#### Positions & Notes")
-        for _, _wrow in _wl_df.iterrows():
-            _wtk    = _wrow.get("ticker", "")
-            _wname  = _wrow.get("name", _wtk)
-            _wgrade = _wrow.get("grade", "—")
-            _wscore = _wrow.get("score_composite")
-            _wdelta = _wrow.get("score_delta")
-            _wprice = _wrow.get("price")
-            _wmcap  = _wrow.get("market_cap")
-            _wcomm  = _wrow.get("commodity", "—")
-            _wstage = _wrow.get("stage", "—")
-
-            # Position data
-            _w_shares   = _wrow.get("shares")
-            _w_avgcost  = _wrow.get("avg_cost")
-            _w_mktval   = _wrow.get("mkt_value")
-            _w_pnl_abs  = _wrow.get("pnl_abs")
-            _w_pnl_pct  = _wrow.get("pnl_pct")
-            _w_weight   = _wrow.get("port_weight")
-
-            _score_str = f"{_wscore:.1f}/100" if pd.notna(_wscore) else "—"
-            _delta_str = f"{_wdelta:+.1f}" if pd.notna(_wdelta) else None
-            _price_str = f"${_wprice:.3f}" if pd.notna(_wprice) else "—"
-            _has_pos_row = pd.notna(_w_shares) and float(_w_shares) > 0
-
-            _header_suffix = ""
-            if _has_pos_row and pd.notna(_w_mktval):
-                _pnl_tag = f"  [{_w_pnl_pct:+.1f}%]" if pd.notna(_w_pnl_pct) else ""
-                _header_suffix = f"  ·  💼 ${_w_mktval:,.0f}{_pnl_tag}"
-
-            with st.expander(
-                f"{_wgrade}  {_wname} ({_wtk}) — Score {_score_str}{_header_suffix}",
-                expanded=True,
-            ):
-                _wc1, _wc2, _wc3, _wc4 = st.columns([2, 1, 1, 2])
-
-                with _wc1:
-                    st.markdown(f"**{_wcomm}** · {_wstage}")
-                    _pb     = _wrow.get("price_to_book")
-                    _pnv    = _wrow.get("spg_p_nav")
-                    _aim    = _wrow.get("spg_aisc_margin")
-                    _up     = _wrow.get("upside_to_nav") or _wrow.get("pb_peer_upside")
-                    _w_an_up = _wrow.get("analyst_upside")
-                    _w_an_ct = _wrow.get("analyst_count")
-                    _kpi_parts = []
-                    if pd.notna(_up):  _kpi_parts.append(f"↑{_up:+.0f}% upside")
-                    if pd.notna(_pb):  _kpi_parts.append(f"P/B {_pb:.2f}x")
-                    if pd.notna(_pnv): _kpi_parts.append(f"P/NAV {_pnv:.2f}x")
-                    if pd.notna(_aim): _kpi_parts.append(f"AISC margin {_aim:.0f}%")
-                    if _kpi_parts:
-                        st.caption("  ·  ".join(_kpi_parts))
-                    # Analyst consensus line
-                    if pd.notna(_w_an_up) and pd.notna(_w_an_ct) and float(_w_an_ct) >= 1:
-                        _an_col = "#22c55e" if _w_an_up >= 20 else "#eab308" if _w_an_up >= 0 else "#ef4444"
-                        _an_rec = _wrow.get("analyst_rec_key", "")
-                        _an_rec_str = f" · {_an_rec.replace('-',' ').title()}" if _an_rec else ""
-                        st.markdown(
-                            f"<span style='font-size:11px;color:{_an_col}'>"
-                            f"Analyst: <b>{_w_an_up:+.0f}%</b> ({int(_w_an_ct)} analysts){_an_rec_str}</span>",
-                            unsafe_allow_html=True,
-                        )
-
-                _wc2.metric("Score", _score_str, delta=_delta_str)
-                _wc3.metric("Price", _price_str)
-                # Price target proximity badge
-                _wpt = get_price_target(_wtk)
-                if _wpt and pd.notna(_wprice) and _wprice > 0:
-                    _pt_dist = (_wpt / _wprice - 1) * 100
-                    _pt_icon = "🎯"
-                    _pt_color = ("#22c55e" if _pt_dist > 5
-                                 else "#ef4444" if _pt_dist < -5
-                                 else "#eab308")
-                    _pt_dir = "↑" if _pt_dist > 0 else "↓"
-                    _wc3.markdown(
-                        f"<span style='color:{_pt_color};font-size:12px'>"
-                        f"{_pt_icon} Target: ${_wpt:.3f} ({_pt_dir}{abs(_pt_dist):.1f}%)</span>",
-                        unsafe_allow_html=True,
-                    )
-                elif _wpt:
-                    _wc3.caption(f"🎯 Target: ${_wpt:.3f}")
-                if _has_pos_row and pd.notna(_w_weight):
-                    _wc3.caption(f"Weight: {_w_weight:.1f}%")
-
-                # ── Position editor ───────────────────────────────────────────
-                with st.expander("💼 Position", expanded=_has_pos_row):
-                    _pos_cols = st.columns([2, 2, 1])
-                    _inp_shares = _pos_cols[0].number_input(
-                        "Shares held",
-                        min_value=0.0,
-                        value=float(_w_shares) if pd.notna(_w_shares) else 0.0,
-                        step=100.0,
-                        format="%.0f",
-                        key=f"pos_shares_{_wtk}",
-                    )
-                    _inp_cost = _pos_cols[1].number_input(
-                        "Avg cost / share",
-                        min_value=0.0,
-                        value=float(_w_avgcost) if pd.notna(_w_avgcost) else 0.0,
-                        step=0.01,
-                        format="%.3f",
-                        key=f"pos_cost_{_wtk}",
-                    )
-                    _pos_cols[2].markdown("<br>", unsafe_allow_html=True)
-                    if _pos_cols[2].button("💾", key=f"pos_save_{_wtk}",
-                                           help="Save position"):
-                        upsert_position(
-                            _wtk,
-                            shares=_inp_shares,
-                            avg_cost=_inp_cost if _inp_cost > 0 else None,
-                        )
-                        st.toast(f"Position saved for {_wtk} ✓", icon="💾")
-                        st.rerun()
-
-                    # Live P&L preview (based on current input, not saved values)
-                    if _inp_shares > 0 and pd.notna(_wprice) and _wprice > 0:
-                        _preview_val  = _inp_shares * _wprice
-                        _preview_cost = _inp_shares * _inp_cost if _inp_cost > 0 else None
-                        _preview_pnl  = ((_preview_val - _preview_cost) / _preview_cost * 100
-                                         if _preview_cost else None)
-                        _pnl_color = ("green" if _preview_pnl and _preview_pnl >= 0
-                                      else "red" if _preview_pnl else "gray")
-                        _pnl_str = (f" · P&L: <span style='color:{_pnl_color}'>"
-                                    f"{_preview_pnl:+.1f}%</span>"
-                                    if _preview_pnl is not None else "")
-                        st.markdown(
-                            f"<small>Market value: **${_preview_val:,.0f}**{_pnl_str}</small>",
-                            unsafe_allow_html=True,
-                        )
-
-                # ── Note ──────────────────────────────────────────────────────
-                with _wc4:
-                    _cur_note = get_watchlist_note(_wtk)
-                    _new_note = st.text_area(
-                        "📝 Note", value=_cur_note, height=80,
-                        key=f"wl_note_{_wtk}",
-                        placeholder="Your thesis / reminder…",
-                        label_visibility="collapsed",
-                    )
-                    if _new_note != _cur_note:
-                        update_watchlist_note(_wtk, _new_note)
-
-                # Remove buttons
-                _rm_cols = st.columns([1, 1, 4])
-                if _rm_cols[0].button(f"✖️ Remove", key=f"wl_rm_{_wtk}",
-                                      help="Remove from watchlist"):
-                    remove_from_watchlist(_wtk)
-                    st.rerun()
-                if _has_pos_row and _rm_cols[1].button(
-                    "🗑️ Clear pos", key=f"pos_del_{_wtk}", help="Zero out position"
-                ):
-                    delete_position(_wtk)
-                    st.toast(f"Position cleared for {_wtk}", icon="🗑️")
-                    st.rerun()
-
-        # ── Radar comparison ───────────────────────────────────────────────────
-        if len(_wl_df) >= 2:
-            st.divider()
-            st.markdown("#### Score Comparison (Watchlist)")
-            _radar_metrics = ["score_valuation", "score_health", "score_momentum",
-                              "score_mining", "score_commodity", "score_stage"]
-            _radar_labels  = ["Valuation", "Health", "Oversold", "⛏️ Mining", "Commodity", "Stage"]
-            _available_m   = [m for m in _radar_metrics if m in _wl_df.columns]
-
-            _fig_wl = go.Figure()
-            for _, _wr in _wl_df.iterrows():
-                _vals = [float(_wr.get(m, 50) or 50) for m in _available_m]
-                _labels_used = [_radar_labels[_radar_metrics.index(m)] for m in _available_m]
-                _fig_wl.add_trace(go.Scatterpolar(
-                    r=_vals + [_vals[0]],
-                    theta=_labels_used + [_labels_used[0]],
-                    fill="toself",
-                    opacity=0.4,
-                    name=f"{_wr.get('name', _wr.get('ticker', ''))} ({_wr.get('ticker','')})",
-                ))
-            _fig_wl.update_layout(
-                polar=dict(radialaxis=dict(range=[0, 100])),
-                height=420,
-                margin=dict(l=60, r=60, t=40, b=40),
-            )
-            st.plotly_chart(_fig_wl, width="stretch")
-
-        # ── Mining Metrics Snapshot ───────────────────────────────────────────
-        st.divider()
-        st.markdown("#### ⛏️ Mining Metrics Snapshot")
-        st.caption("Key S&P/SNL metrics for all watchlisted companies — sorted by composite score.")
-        _snap_cols = {
-            "name":                  "Company",
-            "ticker":                "Ticker",
-            "commodity":             "Commodity",
-            "grade":                 "Grade",
-            "score_composite":       "Score",
-            "spg_p_nav":             "P/NAV",
-            "spg_aisc_margin":       "AISC Mgn%",
-            "spg_cash_cost_oz":      "Cash Cost($/oz)",
-            "ev_per_oz_prod":        "EV/oz Prod",
-            "ev_per_oz_reserve":     "EV/oz Rsv",
-            "spg_production_oz":     "Prod(koz/yr)",
-            "spg_reserve_life":      "Rsv Life(yr)",
-            "upside_to_nav":         "↑NAV%",
-            "analyst_upside":        "↑Analyst%",
-            "analyst_count":         "#Analysts",
-            "return_3m":             "3M Ret%",
-        }
-        _snap_avail = {k: v for k, v in _snap_cols.items() if k in _wl_df.columns}
-        if len(_snap_avail) >= 4:
-            _snap_tbl = _wl_df[list(_snap_avail.keys())].copy()
-            if "spg_production_oz" in _snap_tbl.columns:
-                _snap_tbl["spg_production_oz"] = pd.to_numeric(
-                    _snap_tbl["spg_production_oz"], errors="coerce") / 1000
-            _snap_tbl = _snap_tbl.rename(columns=_snap_avail)
-            _snap_tbl.index = range(1, len(_snap_tbl) + 1)
-
-            def _snap_color_score(val):
-                if pd.isna(val): return ""
-                if val >= 70: return "background-color:#dcfce7;color:#14532d;font-weight:700"
-                if val >= 55: return "background-color:#dbeafe;color:#1e3a5f"
-                if val >= 40: return "background-color:#fef9c3;color:#713f12"
-                return "background-color:#fee2e2;color:#7f1d1d"
-
-            def _snap_color_ret(val):
-                if pd.isna(val) or val == 0: return ""
-                return "color:#22c55e;font-weight:600" if val > 0 else "color:#ef4444;font-weight:600"
-
-            _snap_fmt = {
-                "Score":          lambda x: f"{x:.1f}" if pd.notna(x) else "—",
-                "P/NAV":          lambda x: f"{x:.2f}x" if pd.notna(x) else "—",
-                "AISC Mgn%":      lambda x: f"{x:.1f}%" if pd.notna(x) else "—",
-                "Cash Cost($/oz)":lambda x: f"${x:,.0f}" if pd.notna(x) else "—",
-                "EV/oz Prod":     lambda x: f"${x:,.0f}" if pd.notna(x) else "—",
-                "EV/oz Rsv":      lambda x: f"${x:,.0f}" if pd.notna(x) else "—",
-                "Prod(koz/yr)":   lambda x: f"{x:,.1f}" if pd.notna(x) else "—",
-                "Rsv Life(yr)":   lambda x: f"{x:.1f}" if pd.notna(x) else "—",
-                "↑NAV%":          lambda x: f"{x:+.0f}%" if pd.notna(x) else "—",
-                "↑Analyst%":      lambda x: f"{x:+.0f}%" if pd.notna(x) else "—",
-                "#Analysts":      lambda x: f"{int(x)}" if pd.notna(x) else "—",
-                "3M Ret%":        lambda x: f"{x:+.1f}%" if pd.notna(x) else "—",
-            }
-            _snap_score_col = ["Score"] if "Score" in _snap_tbl.columns else []
-            _snap_ret_col   = ["3M Ret%", "↑NAV%", "↑Analyst%"] if "3M Ret%" in _snap_tbl.columns else []
-            _snap_styled = (
-                _snap_tbl.style
-                .map(_snap_color_score, subset=_snap_score_col)
-                .map(_snap_color_ret,   subset=_snap_ret_col)
-                .format({k: v for k, v in _snap_fmt.items() if k in _snap_tbl.columns}, na_rep="—")
-            )
-            st.dataframe(_snap_styled, width="stretch", height=min(80 + len(_snap_tbl) * 35, 500))
-        else:
-            st.info("Run a data refresh to populate S&P/SNL mining metrics.")
-
-        # ── Analyst Consensus Chart ────────────────────────────────────────────
-        _wl_an_df = _wl_df[
-            _wl_df["analyst_upside"].notna() &
-            (_wl_df["analyst_count"].fillna(0) >= 1)
-        ].copy() if "analyst_upside" in _wl_df.columns else pd.DataFrame()
-
-        if not _wl_an_df.empty:
-            st.divider()
-            st.markdown("#### 🎙️ Analyst Consensus Upside (Watchlist)")
-            st.caption("Consensus price target vs current price — bars show upside/downside implied by analyst coverage.")
-            _wl_an_df = _wl_an_df.sort_values("analyst_upside", ascending=True)
-            _wl_an_colors = _wl_an_df["analyst_upside"].apply(
-                lambda v: "#22c55e" if v >= 20 else "#3b82f6" if v >= 0 else "#ef4444"
-            ).tolist()
-            _wl_an_labels = _wl_an_df.apply(
-                lambda r: (
-                    f"{r.get('name', r['ticker'])} ({r['ticker']})"
-                    + (f" — {int(r['analyst_count'])}A" if pd.notna(r.get('analyst_count')) else "")
-                ),
-                axis=1,
-            ).tolist()
-            _fig_wl_an = go.Figure()
-            _fig_wl_an.add_bar(
-                x=_wl_an_df["analyst_upside"].tolist(),
-                y=_wl_an_labels,
-                orientation="h",
-                marker_color=_wl_an_colors,
-                text=_wl_an_df["analyst_upside"].apply(
-                    lambda v: f"{v:+.0f}%"
-                ).tolist(),
-                textposition="outside",
-                customdata=_wl_an_df[["analyst_target_mean", "price"]].values if "analyst_target_mean" in _wl_an_df.columns else None,
-                hovertemplate=(
-                    "<b>%{y}</b><br>Analyst upside: %{x:+.1f}%<br>"
-                    "Target: $%{customdata[0]:.3f}  |  Price: $%{customdata[1]:.3f}<extra></extra>"
-                ) if "analyst_target_mean" in _wl_an_df.columns else None,
-            )
-            _fig_wl_an.add_vline(x=0, line_color="rgba(100,100,100,0.5)", line_width=1)
-            _fig_wl_an.add_vline(x=20, line_color="rgba(34,197,94,0.3)", line_dash="dot", line_width=1)
-            _fig_wl_an.update_layout(
-                height=max(250, 50 + len(_wl_an_df) * 35),
-                margin=dict(l=10, r=80, t=10, b=10),
-                xaxis_title="Analyst Upside (%)",
-                showlegend=False,
-                xaxis=dict(zeroline=False),
-            )
-            st.plotly_chart(_fig_wl_an, width="stretch")
-
-        # ── Portfolio table ────────────────────────────────────────────────────
-        if _n_positions > 0:
-            st.divider()
-            st.markdown("#### Portfolio Summary Table")
-            _ptbl = (
-                _wl_df[_has_pos]
-                [[c for c in ["name", "ticker", "commodity", "stage",
-                               "price", "shares", "avg_cost",
-                               "mkt_value", "cost_basis", "pnl_abs", "pnl_pct",
-                               "port_weight", "score_composite", "grade"]
-                  if c in _wl_df.columns]]
-                .copy()
-                .sort_values("mkt_value", ascending=False)
-                .rename(columns={
-                    "name": "Company", "ticker": "Ticker",
-                    "commodity": "Commodity", "stage": "Stage",
-                    "price": "Price", "shares": "Shares",
-                    "avg_cost": "Avg Cost", "mkt_value": "Mkt Value",
-                    "cost_basis": "Cost Basis", "pnl_abs": "P&L ($)",
-                    "pnl_pct": "P&L %", "port_weight": "Weight %",
-                    "score_composite": "Score", "grade": "Grade",
-                })
-            )
-
-            def _color_pnl(val):
-                if pd.isna(val): return ""
-                return "color: #22c55e; font-weight:600" if val >= 0 else "color: #ef4444; font-weight:600"
-
-            _ptbl_styled = (
-                _ptbl.style
-                .map(_color_pnl, subset=["P&L ($)", "P&L %"] if "P&L ($)" in _ptbl.columns else [])
-                .format({
-                    "Price":      lambda x: f"${x:.3f}" if pd.notna(x) else "—",
-                    "Shares":     lambda x: f"{x:,.0f}" if pd.notna(x) else "—",
-                    "Avg Cost":   lambda x: f"${x:.3f}" if pd.notna(x) else "—",
-                    "Mkt Value":  lambda x: f"${x:,.0f}" if pd.notna(x) else "—",
-                    "Cost Basis": lambda x: f"${x:,.0f}" if pd.notna(x) else "—",
-                    "P&L ($)":    lambda x: f"${x:+,.0f}" if pd.notna(x) else "—",
-                    "P&L %":      lambda x: f"{x:+.1f}%" if pd.notna(x) else "—",
-                    "Weight %":   lambda x: f"{x:.1f}%" if pd.notna(x) else "—",
-                    "Score":      lambda x: f"{x:.1f}" if pd.notna(x) else "—",
-                }, na_rep="—")
-            )
-            st.dataframe(_ptbl_styled, width="stretch",
-                         height=min(100 + len(_ptbl) * 35, 500))
-
-        # ── Portfolio Rebalancing ──────────────────────────────────────────────
-        if _n_positions > 0:
-            st.divider()
-            st.markdown("#### ⚖️ Rebalancing Suggestions")
-            st.caption(
-                "Target weight = each position's score / total score of all held positions. "
-                "Positive gap = underweight (consider adding), negative gap = overweight (consider trimming)."
-            )
-
-            _rb_rows = _wl_df[_has_pos].copy()
-            _rb_rows = _rb_rows[_rb_rows["score_composite"].notna() &
-                                 _rb_rows["mkt_value"].notna()].copy()
-
-            if not _rb_rows.empty:
-                _total_score = _rb_rows["score_composite"].sum()
-                _total_mktval = _rb_rows["mkt_value"].sum()
-
-                _rb_rows["target_weight"] = (
-                    _rb_rows["score_composite"] / _total_score * 100
-                ).round(1)
-                _rb_rows["current_weight"] = (
-                    _rb_rows["mkt_value"] / _total_mktval * 100
-                ).round(1)
-                _rb_rows["weight_gap"] = (
-                    _rb_rows["target_weight"] - _rb_rows["current_weight"]
-                ).round(1)
-                _rb_rows["action"] = _rb_rows["weight_gap"].apply(
-                    lambda g: "➕ Add" if g > 3 else "➖ Trim" if g < -3 else "✅ Hold"
-                )
-
-                # Compute suggested $ to add/trim to reach target (based on total portfolio value)
-                _rb_rows["suggested_$"] = (
-                    _rb_rows["weight_gap"] / 100 * _total_mktval
-                ).round(0)
-
-                _rb_display = (
-                    _rb_rows[["name", "ticker", "grade", "score_composite",
-                               "current_weight", "target_weight", "weight_gap",
-                               "action", "suggested_$"]]
-                    .sort_values("weight_gap", ascending=False)
-                    .rename(columns={
-                        "name": "Company", "ticker": "Ticker",
-                        "grade": "Grade", "score_composite": "Score",
-                        "current_weight": "Current %",
-                        "target_weight": "Target %",
-                        "weight_gap": "Gap %",
-                        "action": "Action",
-                        "suggested_$": "Suggested $",
-                    })
-                )
-
-                def _color_action(val):
-                    if val == "➕ Add":   return "color: #22c55e; font-weight: 700"
-                    if val == "➖ Trim":  return "color: #ef4444; font-weight: 700"
-                    return "color: #94a3b8"
-
-                def _color_gap(val):
-                    if pd.isna(val) or val == 0: return ""
-                    return "color: #22c55e; font-weight:600" if val > 0 else "color: #ef4444; font-weight:600"
-
-                _rb_styled = (
-                    _rb_display.style
-                    .map(_color_action, subset=["Action"])
-                    .map(_color_gap,    subset=["Gap %", "Suggested $"])
-                    .format({
-                        "Score":       "{:.1f}",
-                        "Current %":   "{:.1f}%",
-                        "Target %":    "{:.1f}%",
-                        "Gap %":       "{:+.1f}%",
-                        "Suggested $": lambda x: f"${x:+,.0f}" if pd.notna(x) else "—",
-                    }, na_rep="—")
-                )
-                st.dataframe(_rb_styled, width="stretch",
-                             height=min(100 + len(_rb_display) * 35, 450))
-
-                # Quick visual: waterfall-style bar chart of gaps
-                _rb_chart = _rb_display.sort_values("Gap %")
-                _rb_colors = [
-                    "#22c55e" if g > 3 else "#ef4444" if g < -3 else "#94a3b8"
-                    for g in _rb_chart["Gap %"]
-                ]
-                fig_rb = go.Figure()
-                fig_rb.add_bar(
-                    x=_rb_chart["Gap %"],
-                    y=_rb_chart["Company"] + " (" + _rb_chart["Ticker"] + ")",
-                    orientation="h",
-                    marker_color=_rb_colors,
-                    text=[f"{g:+.1f}%" for g in _rb_chart["Gap %"]],
-                    textposition="outside",
-                    customdata=np.column_stack([
-                        _rb_chart["Score"],
-                        _rb_chart["Current %"],
-                        _rb_chart["Target %"],
-                    ]),
-                    hovertemplate=(
-                        "<b>%{y}</b><br>"
-                        "Score: %{customdata[0]:.1f}<br>"
-                        "Current: %{customdata[1]:.1f}%<br>"
-                        "Target: %{customdata[2]:.1f}%<br>"
-                        "Gap: %{x:+.1f}%<extra></extra>"
-                    ),
-                )
-                fig_rb.add_vline(x=0, line_color="gray", line_width=1)
-                fig_rb.update_layout(
-                    title="Portfolio Weight Gap (Target − Current)",
-                    xaxis_title="Weight Gap % (positive = underweight)",
-                    height=max(280, len(_rb_chart) * 36 + 80),
-                    margin=dict(l=0, r=60, t=40, b=30),
-                    showlegend=False,
-                )
-                st.plotly_chart(fig_rb, width="stretch")
-                st.caption(
-                    f"Total portfolio value: **${_total_mktval:,.0f}** · "
-                    f"Threshold: ±3% gap triggers Add/Trim recommendation."
-                )
-
-        # ── Benchmark Comparison ───────────────────────────────────────────────
-        if _n_positions > 0:
-            st.divider()
-            st.markdown("#### 📊 Portfolio vs Benchmark")
-            st.caption("Compare estimated portfolio cost-basis return against GDX / GDXJ since your first purchase.")
-
-            _bench_opts = {
-                "GDX — VanEck Gold Miners":        "GDX",
-                "GDXJ — VanEck Junior Gold Miners": "GDXJ",
-                "GDX — VanEck Gold Miners ETF": "GDX",
-            }
-            _bench_sel = st.selectbox(
-                "Benchmark", list(_bench_opts.keys()), key="bench_selector"
-            )
-            _bench_sym = _bench_opts[_bench_sel]
-
-            # Compute portfolio average cost-basis date (use earliest position update as proxy)
-            _pos_with_cost = _wl_df[_has_pos & _wl_df["avg_cost"].notna() & (_wl_df["avg_cost"] > 0)]
-            if not _pos_with_cost.empty:
-                _bench_data = _fetch_benchmark(_bench_sym, period="2y")
-                if not _bench_data.empty:
-                    _bench_data["date"] = pd.to_datetime(_bench_data["date"])
-                    _bench_data = _bench_data.sort_values("date")
-
-                    # Normalise benchmark to 100 at start
-                    _bench_start_px = _bench_data.iloc[0]["price"]
-                    _bench_data["bench_idx"] = _bench_data["price"] / _bench_start_px * 100
-
-                    # Portfolio return: current mkt value vs total cost basis
-                    _port_cost  = _wl_df[_has_pos]["cost_basis"].sum()
-                    _port_val   = _wl_df[_has_pos]["mkt_value"].sum()
-                    _port_ret   = (_port_val / _port_cost - 1) * 100 if _port_cost > 0 else None
-
-                    fig_bench = go.Figure()
-                    fig_bench.add_trace(go.Scatter(
-                        x=_bench_data["date"],
-                        y=_bench_data["bench_idx"],
-                        name=_bench_sel.split("—")[0].strip(),
-                        line=dict(color="#94a3b8", width=2, dash="dot"),
-                        mode="lines",
-                    ))
-
-                    if _port_ret is not None:
-                        # Show portfolio as a single endpoint vs benchmark
-                        _bench_latest = _bench_data.iloc[-1]["bench_idx"]
-                        _port_idx = 100 + _port_ret
-                        _port_color = "#22c55e" if _port_idx >= _bench_latest else "#ef4444"
-                        # Horizontal reference line for portfolio return
-                        fig_bench.add_hline(
-                            y=_port_idx,
-                            line_color=_port_color, line_dash="solid", line_width=2,
-                            annotation_text=f"Portfolio: {_port_ret:+.1f}%",
-                            annotation_position="right",
-                            annotation_font_color=_port_color,
-                        )
-                        fig_bench.add_hline(
-                            y=100, line_color="gray", line_dash="dash", line_width=1,
-                            annotation_text="Cost basis",
-                            annotation_position="left",
-                        )
-
-                        _outperform = _port_idx - _bench_latest
-                        _vs_str = f"{'outperforming' if _outperform >= 0 else 'underperforming'} {_bench_sym} by {abs(_outperform):.1f}pts"
-                        st.caption(
-                            f"Portfolio return: **{_port_ret:+.1f}%** vs cost basis — {_vs_str}"
-                        )
-
-                    fig_bench.update_layout(
-                        yaxis_title="Indexed to 100 at start",
-                        xaxis_title="Date",
-                        height=350,
-                        margin=dict(t=10, b=40, l=0, r=100),
-                        showlegend=True,
-                        legend=dict(orientation="h", y=-0.2),
-                    )
-                    st.plotly_chart(fig_bench, width="stretch")
-                else:
-                    st.warning(f"Could not fetch benchmark data for {_bench_sym}.")
-            else:
-                st.info("Enter average cost for your positions to enable benchmark comparison.")
-
-        # ── Transaction Log ────────────────────────────────────────────────────
-        st.divider()
-        st.markdown("#### 📋 Transaction Log")
-
-        _all_tx = get_transactions()
-        # Filter to watchlist tickers only
-        _wl_tx = _all_tx[_all_tx["ticker"].isin(_wl_tickers)] if not _all_tx.empty else _all_tx
-
-        # Add transaction form
-        with st.expander("➕ Add Transaction", expanded=False):
-            _tx_cols = st.columns([2, 1, 1, 1, 1, 2])
-            _tx_tk   = _tx_cols[0].selectbox(
-                "Ticker", sorted(_wl_tickers) if _wl_tickers else ["—"],
-                key="tx_ticker",
-            )
-            _tx_type = _tx_cols[1].selectbox("Type", ["buy", "sell"], key="tx_type")
-            _tx_date = _tx_cols[2].date_input("Date", key="tx_date")
-            _tx_sh   = _tx_cols[3].number_input("Shares", min_value=0.0, step=100.0,
-                                                  format="%.0f", key="tx_shares")
-            _tx_px   = _tx_cols[4].number_input("Price", min_value=0.0, step=0.01,
-                                                  format="%.3f", key="tx_price")
-            _tx_note = _tx_cols[5].text_input("Note (optional)", key="tx_note")
-            if st.button("💾 Save Transaction", key="tx_save"):
-                if _tx_sh > 0 and _tx_px > 0 and _tx_tk not in ("—", ""):
-                    add_transaction(_tx_tk, _tx_date, _tx_sh, _tx_px, _tx_type, _tx_note)
-                    st.toast(f"Transaction saved: {_tx_type.upper()} {_tx_sh:.0f} {_tx_tk} @ ${_tx_px:.3f}", icon="✅")
-                    st.rerun()
-                else:
-                    st.warning("Fill in ticker, shares and price.")
-
-        if not _wl_tx.empty:
-            _tx_display = _wl_tx.rename(columns={
-                "id": "ID", "ticker": "Ticker", "trans_date": "Date",
-                "shares": "Shares", "price": "Price",
-                "trans_type": "Type", "note": "Note",
-            })[["ID", "Ticker", "Date", "Type", "Shares", "Price", "Note"]].copy()
-            _tx_display["Value"] = (_tx_display["Shares"] * _tx_display["Price"]).round(0)
-
-            _tx_styled = (
-                _tx_display.style
-                .map(lambda v: "color:#22c55e;font-weight:700" if v == "buy"
-                     else "color:#ef4444;font-weight:700" if v == "sell" else "",
-                     subset=["Type"])
-                .format({
-                    "Shares": "{:,.0f}",
-                    "Price":  "${:.3f}",
-                    "Value":  "${:,.0f}",
-                }, na_rep="—")
-            )
-            st.dataframe(_tx_styled, width="stretch",
-                         height=min(100 + len(_tx_display) * 35, 400))
-
-            # Delete a transaction
-            _del_id = st.number_input("Delete transaction by ID", min_value=0,
-                                       step=1, value=0, key="tx_del_id")
-            if st.button("🗑️ Delete", key="tx_del_btn") and _del_id > 0:
-                delete_transaction(int(_del_id))
-                st.toast(f"Transaction #{_del_id} deleted", icon="🗑️")
-                st.rerun()
-        else:
-            st.info("No transactions recorded yet. Use the form above to log your trades.")
-
-        # ── Import Positions from CSV ──────────────────────────────────────────
-        st.divider()
-        st.markdown("#### 📥 Import Positions from CSV")
-        st.caption(
-            "Upload a CSV with columns: `ticker`, `shares`, `avg_cost` (optional: `currency`). "
-            "Tickers must match the universe (e.g. ABX.TO, WPM.TO)."
-        )
-        _upload_col1, _upload_col2 = st.columns([3, 1])
-        _uploaded = _upload_col1.file_uploader(
-            "Choose CSV", type=["csv"], key="pos_csv_upload",
-            label_visibility="collapsed",
-        )
-        if _uploaded is not None:
-            try:
-                _csv_df = pd.read_csv(_uploaded)
-                _csv_df.columns = [c.strip().lower() for c in _csv_df.columns]
-                _required = {"ticker", "shares"}
-                if not _required.issubset(set(_csv_df.columns)):
-                    st.error(f"CSV must have columns: {_required}. Found: {list(_csv_df.columns)}")
-                else:
-                    # Validate tickers
-                    _valid_tks = set(df["ticker"].tolist())
-                    _csv_df["ticker"] = _csv_df["ticker"].str.strip().str.upper()
-                    _known   = _csv_df[_csv_df["ticker"].isin(_valid_tks)]
-                    _unknown = _csv_df[~_csv_df["ticker"].isin(_valid_tks)]
-
-                    st.markdown(f"**Preview** — {len(_known)} valid / {len(_unknown)} unrecognised rows")
-                    st.dataframe(_known[["ticker", "shares",
-                                        *[c for c in ["avg_cost", "currency"] if c in _known.columns]]],
-                                 height=min(100 + len(_known) * 35, 300))
-                    if not _unknown.empty:
-                        st.warning(f"Unrecognised tickers (skipped): {', '.join(_unknown['ticker'].tolist())}")
-
-                    if _upload_col2.button("📥 Import", key="pos_import_btn",
-                                           use_container_width=True):
-                        _imported = 0
-                        for _, _ir in _known.iterrows():
-                            _i_cost = float(_ir["avg_cost"]) if "avg_cost" in _ir and pd.notna(_ir["avg_cost"]) else None
-                            _i_cur  = str(_ir["currency"]) if "currency" in _ir and pd.notna(_ir["currency"]) else config.CURRENCY
-                            upsert_position(_ir["ticker"], float(_ir["shares"]),
-                                            _i_cost, _i_cur)
-                            _imported += 1
-                        st.toast(f"Imported {_imported} positions ✓", icon="📥")
-                        st.rerun()
-            except Exception as _csv_err:
-                st.error(f"CSV parse error: {_csv_err}")
-
-
-# ── TAB 6: SNL Data Browser ────────────────────────────────────────────────────
-with tab_snl:
-    import sqlite3 as _sqlite3
-    import pandas as _pd2
-
-    st.markdown("### SNL Metals & Mining — 本地数据库")
-
-    _snl_db_path = str(config.DB_PATH)
-
-    def _snl_conn():
-        c = _sqlite3.connect(_snl_db_path)
-        c.row_factory = _sqlite3.Row
-        return c
-
-    def _snl_df(sql, params=()):
-        with _snl_conn() as _c:
-            return _pd2.read_sql_query(sql, _c, params=params)
-
-    # ── Sync log summary ──────────────────────────────────────────────────────
-    with _snl_conn() as _sc:
-        try:
-            _sync_rows = _sc.execute(
-                "SELECT table_name, last_sync_at, row_count, status FROM snl_sync_log ORDER BY table_name"
-            ).fetchall()
-        except Exception:
-            _sync_rows = []
-
-    if _sync_rows:
-        _total_rows = sum(r["row_count"] or 0 for r in _sync_rows)
-        _ok = sum(1 for r in _sync_rows if r["status"] == "ok")
-        _last = max((r["last_sync_at"] or "") for r in _sync_rows)[:16]
-        st.caption(f"✅ {_ok}/{len(_sync_rows)} tables synced · {_total_rows:,} total rows · last sync {_last} UTC")
-    else:
-        st.warning("SNL 数据尚未同步。请运行：python snl_sync.py")
-        st.stop()
-
-    # ── Mapping ───────────────────────────────────────────────────────────────
-    _snl_mapping = {}
-    _snl_key2ticker = {}
-    _snl_key2name = {}
-    try:
-        import json as _json2
-        with open(os.path.join(os.path.dirname(__file__), "_asx_snl_ticker_mapping.json")) as _mf:
-            _snl_mapping = _json2.load(_mf)
-        _snl_key2ticker = {str(v["snl_key"]): k for k, v in _snl_mapping.items()}
-        _snl_key2name   = {str(v["snl_key"]): v["name"] for k, v in _snl_mapping.items()}
-    except Exception:
-        pass
-
-    def _add_ticker(df, key_col="snl_key"):
-        df.insert(0, "Ticker", df[key_col].map(_snl_key2ticker).fillna("?"))
-        df.insert(1, "Company", df[key_col].map(_snl_key2name).fillna(""))
-        return df
-
-    # ── Ticker filter ─────────────────────────────────────────────────────────
-    _all_tickers = sorted(_snl_mapping.keys())
-    _sel_tickers = st.multiselect(
-        "筛选公司（留空 = 全部）", _all_tickers,
-        default=[], key="snl_ticker_filter", placeholder="选择公司…"
-    )
-    _sel_keys = [str(_snl_mapping[t]["snl_key"]) for t in _sel_tickers] if _sel_tickers else None
-
-    def _kf():
-        if _sel_keys:
-            ph = ",".join("?" * len(_sel_keys))
-            return f"AND snl_key IN ({ph})", tuple(_sel_keys)
-        return "", ()
-
-    def _kfn(col):
-        if _sel_keys:
-            ph = ",".join("?" * len(_sel_keys))
-            return f"AND {col} IN ({ph})", tuple(_sel_keys)
-        return "", ()
-
-    # ── Section tabs ──────────────────────────────────────────────────────────
-    _s1, _s2, _s3, _s4, _s5, _s6, _s7, _s8, _s9 = st.tabs([
-        "生产与成本", "储量资源 R&R", "原位价值",
-        "全球排名", "产量预测", "矿权 & 项目",
-        "可研/FS 研究", "矿山成本拆解", "勘探预算"
-    ])
-
-    # ── 1. 生产与成本 ──────────────────────────────────────────────────────────
-    with _s1:
-        _c1, _c2, _c3 = st.columns(3)
-        _per_opts = [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT period FROM snl_company_production ORDER BY period DESC").fetchall()]
-        _sel_period = _c1.selectbox("期间", _per_opts, key="prod_per")
-        _comm_opts  = [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT commodity FROM snl_company_production ORDER BY commodity").fetchall()]
-        _sel_comm   = _c2.selectbox("矿种", ["全部"] + _comm_opts, key="prod_comm")
-        _unit       = _c3.selectbox("产量单位", ["oz (贵金属)", "t (公吨)", "lb (磅)"], key="prod_unit")
-
-        _kf_s, _kp_s = _kf()
-        _cf  = "AND commodity=?" if _sel_comm != "全部" else ""
-        _cps = (_sel_comm,) if _sel_comm != "全部" else ()
-
-        _df = _snl_df(f"""
-            SELECT snl_key, period, commodity,
-                   prod_oz, prod_t, prod_lb,
-                   cash_cost_oz, cash_cost_t, cash_cost_lb,
-                   aic_oz, aisc_oz, aisc_t, aisc_lb,
-                   realized_price_oz, realized_price_t, realized_price_lb,
-                   revenue_m
-            FROM snl_company_production
-            WHERE period=? {_cf} {_kf_s}
-            ORDER BY prod_oz DESC NULLS LAST
-        """, (_sel_period,) + _cps + _kp_s)
-
-        if _df.empty:
-            st.info("无数据")
-        else:
-            _add_ticker(_df)
-            if _unit == "oz (贵金属)":
-                _show_cols = ["Ticker","Company","commodity","prod_oz",
-                              "cash_cost_oz","aisc_oz","aic_oz","realized_price_oz","revenue_m"]
-                _labels    = ["Ticker","公司","矿种","产量(oz)",
-                              "C1($/oz)","AISC($/oz)","AIC($/oz)","实现价格($/oz)","收入($M)"]
-            elif _unit == "t (公吨)":
-                _show_cols = ["Ticker","Company","commodity","prod_t",
-                              "cash_cost_t","aisc_t","realized_price_t","revenue_m"]
-                _labels    = ["Ticker","公司","矿种","产量(t)",
-                              "C1($/t)","AISC($/t)","实现价格($/t)","收入($M)"]
-            else:
-                _show_cols = ["Ticker","Company","commodity","prod_lb",
-                              "cash_cost_lb","aisc_lb","realized_price_lb","revenue_m"]
-                _labels    = ["Ticker","公司","矿种","产量(lb)",
-                              "C1($/lb)","AISC($/lb)","实现价格($/lb)","收入($M)"]
-
-            _show = _df[[c for c in _show_cols if c in _df.columns]].copy()
-            _show.columns = _labels[:len(_show.columns)]
-            st.dataframe(_show, use_container_width=True, hide_index=True,
-                         column_config={
-                             "产量(oz)": st.column_config.NumberColumn(format="%,.0f"),
-                             "产量(t)":  st.column_config.NumberColumn(format="%,.0f"),
-                             "产量(lb)": st.column_config.NumberColumn(format="%,.0f"),
-                             "收入($M)": st.column_config.NumberColumn(format="$%,.0f"),
-                         })
-
-    # ── 2. 储量资源 R&R ────────────────────────────────────────────────────────
-    with _s2:
-        _c1, _c2 = st.columns(2)
-        _comm_opts2 = [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT commodity FROM snl_company_rr ORDER BY commodity").fetchall()]
-        _sel_comm2 = _c1.selectbox("矿种", _comm_opts2,
-                                   index=_comm_opts2.index("Gold") if "Gold" in _comm_opts2 else 0,
-                                   key="rr_comm")
-        _per_opts2 = [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT period FROM snl_company_rr ORDER BY period DESC LIMIT 12").fetchall()]
-        _sel_per2  = _c2.selectbox("期间", _per_opts2, key="rr_per")
-
-        _kf_s, _kp_s = _kf()
-        _df = _snl_df(f"""
-            SELECT snl_key, period, commodity,
-                   grade_gpt, grade_pct,
-                   contained_reserves_oz/1000       AS reserves_koz,
-                   contained_mi_oz/1000             AS mi_koz,
-                   contained_inferred_oz/1000       AS inferred_koz,
-                   contained_rr_oz/1000             AS rr_koz,
-                   contained_reserves_lb/1e6        AS reserves_mlb,
-                   contained_rr_lb/1e6              AS rr_mlb,
-                   ore_tonnes_reserves/1e6          AS ore_mt_res,
-                   ore_tonnes_rr/1e6                AS ore_mt_rr
-            FROM snl_company_rr
-            WHERE commodity=? AND period=? {_kf_s}
-            ORDER BY contained_rr_oz DESC NULLS LAST
-        """, (_sel_comm2, _sel_per2) + _kp_s)
-
-        if _df.empty:
-            st.info("无数据")
-        else:
-            _add_ticker(_df)
-            _is_precious = _sel_comm2 in ("Gold","Silver","PGM","Platinum","Palladium")
-            if _is_precious:
-                _show = _df[["Ticker","Company","grade_gpt",
-                             "reserves_koz","mi_koz","inferred_koz","rr_koz","ore_mt_rr"]].copy()
-                _show.columns = ["Ticker","公司","品位(g/t)","储量(koz)","M+I(koz)","Inferred(koz)","R&R(koz)","矿石量(Mt)"]
-                _cfg = {"储量(koz)": st.column_config.NumberColumn(format="%,.0f"),
-                        "M+I(koz)":  st.column_config.NumberColumn(format="%,.0f"),
-                        "Inferred(koz)": st.column_config.NumberColumn(format="%,.0f"),
-                        "R&R(koz)":  st.column_config.NumberColumn(format="%,.0f")}
-            else:
-                _show = _df[["Ticker","Company","grade_pct",
-                             "reserves_mlb","rr_mlb","ore_mt_res","ore_mt_rr"]].copy()
-                _show.columns = ["Ticker","公司","品位(%)","储量(Mlb)","R&R(Mlb)","储量矿石(Mt)","R&R矿石(Mt)"]
-                _cfg = {}
-            st.dataframe(_show, use_container_width=True, hide_index=True, column_config=_cfg)
-
-    # ── 3. 原位价值 ────────────────────────────────────────────────────────────
-    with _s3:
-        _kf_s, _kp_s = _kf()
-        _df = _snl_df(f"""
-            SELECT i.snl_key, i.period,
-                   round(i.insitu_reserves_m)  reserves_m,
-                   round(i.insitu_mi_m)         mi_m,
-                   round(i.insitu_inferred_m)   inferred_m,
-                   round(i.insitu_resources_m)  resources_m,
-                   round(i.insitu_rr_m)         rr_m
-            FROM snl_company_insitu i
-            WHERE i.period = (
-                SELECT MAX(period) FROM snl_company_insitu i2 WHERE i2.snl_key=i.snl_key
-            ) {_kf_s}
-            ORDER BY i.insitu_rr_m DESC NULLS LAST
-        """, _kp_s)
-
-        if _df.empty:
-            st.info("无数据")
-        else:
-            _add_ticker(_df)
-            _show = _df[["Ticker","Company","period","reserves_m","mi_m","inferred_m","resources_m","rr_m"]].copy()
-            _show.columns = ["Ticker","公司","期间","储量($M)","M+I($M)","Inferred($M)","总资源($M)","R&R合计($M)"]
-            st.dataframe(_show, use_container_width=True, hide_index=True,
-                         column_config={c: st.column_config.NumberColumn(format="$%,.0f")
-                                        for c in ["储量($M)","M+I($M)","Inferred($M)","总资源($M)","R&R合计($M)"]})
-
-    # ── 4. 全球排名 ────────────────────────────────────────────────────────────
-    with _s4:
-        _c1, _c2, _c3 = st.columns(3)
-        _per_opts4 = [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT period FROM snl_company_ranking ORDER BY period DESC LIMIT 8").fetchall()]
-        _sel_per4  = _c1.selectbox("期间", _per_opts4, key="rank_per")
-        _comm_opts4 = [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT commodity FROM snl_company_ranking ORDER BY commodity").fetchall()]
-        _sel_comm4 = _c2.selectbox("矿种", _comm_opts4,
-                                   index=_comm_opts4.index("Gold") if "Gold" in _comm_opts4 else 0, key="rank_comm")
-        _meth_opts4 = [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT ownership_method FROM snl_company_ranking").fetchall()]
-        _sel_meth4 = _c3.selectbox("持股方式", _meth_opts4,
-                                   index=_meth_opts4.index("Controlled") if "Controlled" in _meth_opts4 else 0, key="rank_meth")
-
-        _kf_s, _kp_s = _kf()
-        _df = _snl_df(f"""
-            SELECT snl_key, global_rank,
-                   prod_oz/1000 koz, prod_t/1000 kt, prod_lb/1e6 mlb
-            FROM snl_company_ranking
-            WHERE period=? AND commodity=? AND ownership_method=? {_kf_s}
-            ORDER BY global_rank NULLS LAST
-        """, (_sel_per4, _sel_comm4, _sel_meth4) + _kp_s)
-
-        if _df.empty:
-            st.info("无数据")
-        else:
-            _add_ticker(_df)
-            _show = _df[["global_rank","Ticker","Company","koz","kt","mlb"]].copy()
-            _show.columns = ["全球排名","Ticker","公司","产量(koz)","产量(kt)","产量(Mlb)"]
-            st.dataframe(_show, use_container_width=True, hide_index=True,
-                         column_config={"全球排名": st.column_config.NumberColumn(format="%d")})
-
-    # ── 5. 产量预测 ────────────────────────────────────────────────────────────
-    with _s5:
-        _kf_s, _kp_s = _kf()
-        _df = _snl_df(f"""
-            SELECT snl_key, estimate_period, description,
-                   prod_high_oz/1000 hi_koz, prod_low_oz/1000 lo_koz,
-                   prod_high_t/1000  hi_kt,  prod_low_t/1000  lo_kt,
-                   aisc_high_oz, aisc_low_oz,
-                   cash_cost_high_oz, cash_cost_low_oz
-            FROM snl_company_projections
-            WHERE estimate_period >= '2024' {_kf_s}
-            ORDER BY snl_key, estimate_period
-        """, _kp_s)
-        if _df.empty:
-            st.info("无数据")
-        else:
-            _add_ticker(_df)
-            _show = _df[["Ticker","Company","estimate_period","description",
-                          "hi_koz","lo_koz","hi_kt","lo_kt",
-                          "aisc_high_oz","aisc_low_oz","cash_cost_high_oz","cash_cost_low_oz"]].copy()
-            _show.columns = ["Ticker","公司","预测期","描述",
-                              "产量上限(koz)","产量下限(koz)","产量上限(kt)","产量下限(kt)",
-                              "AISC上限($/oz)","AISC下限($/oz)","C1上限($/oz)","C1下限($/oz)"]
-            st.dataframe(_show, use_container_width=True, hide_index=True)
-
-    # ── 6. 矿权 & 项目 ─────────────────────────────────────────────────────────
-    with _s6:
-        _c1, _c2 = st.columns(2)
-        _stage_opts6 = ["全部"] + [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT stage FROM snl_property_general WHERE stage IS NOT NULL ORDER BY stage").fetchall()]
-        _sel_stage6 = _c1.selectbox("开发阶段", _stage_opts6, key="prop_stage")
-        _comm_opts6 = ["全部"] + [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT primary_commodity FROM snl_property_general WHERE primary_commodity IS NOT NULL ORDER BY primary_commodity").fetchall()]
-        _sel_comm6 = _c2.selectbox("主矿种", _comm_opts6, key="prop_comm")
-
-        _sf6 = "AND g.stage=?" if _sel_stage6 != "全部" else ""
-        _sp6 = (_sel_stage6,) if _sel_stage6 != "全部" else ()
-        _cf6 = "AND g.primary_commodity=?" if _sel_comm6 != "全部" else ""
-        _cp6 = (_sel_comm6,) if _sel_comm6 != "全部" else ()
-        _kf_s6, _kp_s6 = _kfn("o.snl_key")
-
-        _df = _snl_df(f"""
-            SELECT o.snl_key, g.property_name, g.stage, g.status,
-                   g.primary_commodity, g.country, g.state_province,
-                   round(o.pct_own,1) pct_own,
-                   c.mill_capacity_tpd, c.actual_startup_year
-            FROM snl_property_general g
-            JOIN snl_property_owner o ON o.property_id=g.property_id
-            LEFT JOIN snl_property_capacity c ON c.property_id=g.property_id
-            WHERE 1=1 {_sf6} {_cf6} {_kf_s6}
-            ORDER BY o.snl_key, g.stage, g.property_name
-        """, _sp6 + _cp6 + _kp_s6)
-
-        if _df.empty:
-            st.info("无数据")
-        else:
-            _add_ticker(_df)
-            _show = _df[["Ticker","Company","property_name","stage","status",
-                          "primary_commodity","country","state_province",
-                          "pct_own","mill_capacity_tpd","actual_startup_year"]].copy()
-            _show.columns = ["Ticker","公司","矿权名称","开发阶段","状态",
-                              "主矿种","国家","省/州","持股%","产能(t/d)","投产年"]
-            st.dataframe(_show, use_container_width=True, hide_index=True,
-                         column_config={"产能(t/d)": st.column_config.NumberColumn(format="%,.0f")})
-            st.caption(f"共 {len(_show):,} 条矿权记录")
-
-    # ── 7. 可研/FS 研究 ────────────────────────────────────────────────────────
-    with _s7:
-        _c1, _c2 = st.columns(2)
-        _min_year7 = _c1.slider("研究年份 ≥", 2015, 2025, 2020, key="study_yr")
-        _type_opts7 = ["全部"] + [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT study_type FROM snl_property_studies WHERE study_type IS NOT NULL ORDER BY study_type").fetchall()]
-        _sel_type7 = _c2.selectbox("研究类型", _type_opts7, key="study_type")
-        _tf7 = "AND s.study_type=?" if _sel_type7 != "全部" else ""
-        _tp7 = (_sel_type7,) if _sel_type7 != "全部" else ()
-        _kf_s7, _kp_s7 = _kfn("o.snl_key")
-
-        _df = _snl_df(f"""
-            SELECT o.snl_key, s.property_name, s.study_type, s.study_year,
-                   round(s.posttax_npv_m,0)    npv_m,
-                   round(s.pretax_npv_m,0)     pretax_m,
-                   round(s.posttax_irr_pct,1)  irr,
-                   round(s.mine_life_yrs,0)    life_yr,
-                   round(s.initial_capex_m,0)  capex_m,
-                   round(s.lom_sustaining_m,0) sustaining_m,
-                   s.npv_discount_pct, s.currency
-            FROM snl_property_studies s
-            JOIN snl_property_owner o ON o.property_id=s.property_id
-            WHERE s.study_year >= ? {_tf7} {_kf_s7}
-            ORDER BY s.posttax_npv_m DESC NULLS LAST
-        """, (_min_year7,) + _tp7 + _kp_s7)
-
-        if _df.empty:
-            st.info("无数据")
-        else:
-            _add_ticker(_df)
-            _show = _df[["Ticker","Company","property_name","study_type","study_year",
-                          "npv_m","irr","life_yr","capex_m","sustaining_m","npv_discount_pct","currency"]].copy()
-            _show.columns = ["Ticker","公司","矿权","研究类型","年份",
-                              "税后NPV($M)","IRR(%)","寿命(年)","初始资本($M)","LOM持续资本($M)","折现率(%)","币种"]
-            st.dataframe(_show, use_container_width=True, hide_index=True,
-                         column_config={
-                             "税后NPV($M)":    st.column_config.NumberColumn(format="$%,.0f"),
-                             "初始资本($M)":   st.column_config.NumberColumn(format="$%,.0f"),
-                             "LOM持续资本($M)": st.column_config.NumberColumn(format="$%,.0f"),
-                         })
-
-    # ── 8. 矿山成本拆解 ────────────────────────────────────────────────────────
-    with _s8:
-        _c1, _c2, _c3 = st.columns(3)
-        _tbl8 = _c1.radio("数据表", ["贵金属", "贱金属"], horizontal=True, key="econ_tbl")
-        _per_opts8 = [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT period FROM snl_mine_econ_precious ORDER BY period DESC LIMIT 10").fetchall()]
-        _sel_per8  = _c2.selectbox("期间", _per_opts8, key="econ_per8")
-        _comm_opts8 = ["全部"] + [r[0] for r in _snl_conn().execute(
-            f"SELECT DISTINCT commodity FROM snl_mine_econ_precious ORDER BY commodity").fetchall()]
-        _sel_comm8 = _c3.selectbox("矿种", _comm_opts8, key="econ_comm8")
-        _cf8 = "AND e.commodity=?" if _sel_comm8 != "全部" else ""
-        _cp8 = (_sel_comm8,) if _sel_comm8 != "全部" else ()
-        _tbl8_name = "snl_mine_econ_precious" if _tbl8 == "贵金属" else "snl_mine_econ_base"
-        _kf_s8, _kp_s8 = _kfn("o.snl_key")
-
-        _df = _snl_df(f"""
-            SELECT o.snl_key, e.property_name, e.commodity, e.basis,
-                   round(e.mine_total_cost,0)   mine_c,
-                   round(e.mill_total_cost,0)   mill_c,
-                   round(e.byproduct_credits,0) bp_cr,
-                   round(e.cash_op_cost,0)       cash_op,
-                   round(e.total_cash_cost,0)    c2,
-                   round(e.aisc_oz,0)            aisc,
-                   round(e.sustaining_capex_oz,0) sust_capex,
-                   round(e.commodity_price,2)    spot_price
-            FROM {_tbl8_name} e
-            JOIN snl_property_owner o ON o.property_id=e.property_id
-            WHERE e.period=? {_cf8} {_kf_s8}
-            ORDER BY e.aisc_oz NULLS LAST
-        """, (_sel_per8,) + _cp8 + _kp_s8)
-
-        if _df.empty:
-            st.info("无数据")
-        else:
-            _add_ticker(_df)
-            _show = _df[["Ticker","Company","property_name","commodity","basis",
-                          "mine_c","mill_c","bp_cr","cash_op","c2","aisc","sust_capex","spot_price"]].copy()
-            _show.columns = ["Ticker","公司","矿权","矿种","计价基准",
-                              "矿山成本","选厂成本","副产品抵扣","现金运营成本","C2总成本",
-                              "AISC($/oz)","持续资本($/oz)","矿产品价格"]
-            st.dataframe(_show, use_container_width=True, hide_index=True)
-
-    # ── 9. 勘探预算 ────────────────────────────────────────────────────────────
-    with _s9:
-        _kf_s, _kp_s = _kf()
-        _yr_opts9 = [r[0] for r in _snl_conn().execute(
-            "SELECT DISTINCT fiscal_year FROM snl_exploration_budget ORDER BY fiscal_year DESC").fetchall()]
-        _sel_yr9 = st.selectbox("财政年度", ["全部"] + [str(y) for y in _yr_opts9], key="bud_yr")
-        _yf9 = "AND fiscal_year=?" if _sel_yr9 != "全部" else ""
-        _yp9 = (int(_sel_yr9),) if _sel_yr9 != "全部" else ()
-
-        _df = _snl_df(f"""
-            SELECT snl_key, fiscal_year,
-                   round(total_budget_m,1) budget_m,
-                   round(actual_spent_m,1) spent_m,
-                   commodity, company_class
-            FROM snl_exploration_budget
-            WHERE 1=1 {_yf9} {_kf_s}
-            ORDER BY actual_spent_m DESC NULLS LAST
-        """, _yp9 + _kp_s)
-
-        if _df.empty:
-            st.info("无数据")
-        else:
-            _add_ticker(_df)
-            _show = _df[["Ticker","Company","fiscal_year","budget_m","spent_m","commodity","company_class"]].copy()
-            _show.columns = ["Ticker","公司","财政年度","预算($M)","实际支出($M)","勘探矿种","公司规模"]
-            st.dataframe(_show, use_container_width=True, hide_index=True,
-                         column_config={
-                             "预算($M)":    st.column_config.NumberColumn(format="$%.1f"),
-                             "实际支出($M)": st.column_config.NumberColumn(format="$%.1f"),
-                         })
-
-            try:
-                import plotly.express as _px2
-                _plot = _df[_df["spent_m"].notna()].copy()
-                _plot["Ticker"] = _plot["snl_key"].map(_snl_key2ticker).fillna("?")
-                if not _plot.empty:
-                    _fig9 = _px2.bar(
-                        _plot.sort_values("spent_m", ascending=True).tail(20),
-                        x="spent_m", y="Ticker", orientation="h",
-                        color="company_class", title="勘探实际支出 Top 20 ($M)",
-                        labels={"spent_m": "支出($M)", "Ticker": ""},
-                    )
-                    _fig9.update_layout(height=480)
-                    st.plotly_chart(_fig9, use_container_width=True)
-            except Exception:
-                pass
