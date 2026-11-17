@@ -224,3 +224,11 @@ def get_ticker_meta() -> dict[str, dict]:
         row[0]: {"name": row[1], "commodity": row[2], "stage": row[3]}
         for row in MINING_UNIVERSE
     }
+
+
+# ── Universe review 2026-11-17 (CA/US/UK/ZA/ID/CN): see data/universe_review.py ──
+from data import universe_review as _review  # noqa: E402
+
+MINING_UNIVERSE = _review.apply(MINING_UNIVERSE, _PAYLOAD.get("market"))
+UNIVERSE_SRC.update({r[0]: "curated" for r in _review.ADD.get(_PAYLOAD.get("market"), [])})
+ALL_COMMODITIES = sorted({row[2].split("/")[0] for row in MINING_UNIVERSE})
