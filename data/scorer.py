@@ -654,6 +654,48 @@ def stage_score(stage: str, row: pd.Series) -> float:
 
 # ── composite ──────────────────────────────────────────────────────────────────
 
+# ── Factor coverage ────────────────────────────────────────────────────────────
+# A factor nobody has data for scores everyone at its neutral 50 and only dilutes the
+# others: on 2026-11-17 the S&P/SNL mining inputs covered ~0 % of both universes while
+# the mining factor carried 25 % of the weight. Below MIN_FACTOR_COVERAGE a factor is
+# left out and its weight goes to the others in proportion.
+MIN_FACTOR_COVERAGE = 0.30
+FACTOR_INPUTS = {
+    "valuation": ["priceToBook", "price_to_book", "ev_ebitda", "ebitda", "operatingCashflow",
+                  "operating_cf", "freeCashflow", "free_cashflow"],
+    "health":    ["debtToEquity", "debt_to_equity", "currentRatio", "current_ratio", "totalCash", "total_cash"],
+    "momentum":  ["rsi", "wk52_position"],
+    "mining":    ["spg_p_nav", "spg_reserves_m", "spg_reserve_life", "spg_mine_life", "spg_grade_pct",
+                  "spg_grade_gpt", "spg_global_rank", "spg_aisc_per_t", "spg_aisc_per_oz", "spg_aisc_per_lb",
+                  "snl_prod_growth_pct", "snl_p_insitu", "snl_best_irr"],
+    "commodity": ["commodity"],
+    "stage":     ["stage"],
+}
+
+
+def factor_coverage(df: pd.DataFrame) -> dict[str, float]:
+    """Share of rows (0-1) with at least one input of each factor present."""
+    out = {}
+    for factor, cols in FACTOR_INPUTS.items():
+        have = [c for c in cols if c in df.columns]
+        out[factor] = float(df[have].notna().any(axis=1).mean()) if have and len(df) else 0.0
+    return out
+
+
+def effective_weights(weights: dict[str, float], coverage: dict[str, float],
+                      min_coverage: float = MIN_FACTOR_COVERAGE) -> tuple[dict[str, float], list[str]]:
+    """Weights with under-covered factors set to 0 and the rest scaled up to the same total.
+    Returns (weights, excluded factors). Nothing changes when every factor is covered, or
+    when no factor would be left."""
+    excluded = [f for f, w in weights.items() if w > 0 and coverage.get(f, 1.0) < min_coverage]
+    kept = {f: w for f, w in weights.items() if f not in excluded}
+    kept_total = sum(kept.values())
+    if not excluded or kept_total <= 0:
+        return dict(weights), []
+    scale = sum(weights.values()) / kept_total
+    return {f: (kept.get(f, 0.0) * scale) for f in weights}, excluded
+
+
 def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
     """
     Add score columns to df.
@@ -850,7 +892,7 @@ def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
     df["score_commodity"] = [round(s, 1) for s in c_scores]
     df["score_stage"]     = [round(s, 1) for s in s_scores]
 
-    w = SCORE_WEIGHTS
+    w, _excluded = effective_weights(SCORE_WEIGHTS, factor_coverage(df))
     df["score_composite"] = (
         df["score_valuation"] * w["valuation"] +
         df["score_health"]    * w["health"]    +

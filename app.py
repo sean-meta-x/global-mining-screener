@@ -22,7 +22,7 @@ site_theme = importlib.reload(site_theme)
 # compact margins, horizontal legend on top, smaller base fonts.
 _CHART_COLORWAY = [
     "#1a3a5c", "#2c6e9e", "#4a8ab5", "#e67e22",
-    "#16a34a", "#dc2626", "#7c3aed", "#0891b2",
+    "#1A7F37", "#C8102E", "#7c3aed", "#0891b2",
 ]
 _tmpl = go.layout.Template(pio.templates["plotly_white"])
 _tmpl.layout.update(
@@ -121,6 +121,7 @@ def _report_to_pdf(markdown_text: str, title: str = "Mining Report") -> bytes:
 
 from data.universe import ALL_COMMODITIES, ALL_STAGES, get_ticker_meta
 import data.snl_client as snl_client
+from data.scorer import factor_coverage, effective_weights, MIN_FACTOR_COVERAGE
 import data.release_db as release_db
 from data.database import (
     init_db, reset_engine, load_latest, load_history, load_prev_scores,
@@ -227,7 +228,7 @@ st.markdown("""
     --navy:    #1a3a5c;
     --navy-2:  #2c6e9e;
     --ink:     #172033;
-    --muted:   #5b6b7f;
+    --muted:   #5F6B7A;
     --line:    #e3e9f0;
     --bg-soft: #f4f7fa;
 }
@@ -246,11 +247,11 @@ hr { border-color: var(--line); }
 .metric-card p  { margin: 4px 0 0; font-size: 12px; color: var(--muted); opacity: 1; }
 
 /* ── Grade colours ── */
-.grade-strong { color: #16a34a; font-weight: 700; }
+.grade-strong { color: #1A7F37; font-weight: 700; }
 .grade-buy    { color: var(--navy-2); font-weight: 700; }
 .grade-watch  { color: #b45309; font-weight: 700; }
 .grade-neutral{ color: #ea580c; }
-.grade-avoid  { color: #dc2626; }
+.grade-avoid  { color: #C8102E; }
 
 /* ── Tabs: research-report underline style, swipeable on small screens ── */
 div[data-baseweb="tab-list"] {
@@ -306,6 +307,8 @@ div[data-testid="stDataFrame"] { font-size: 13px; }
         flex: 1 1 calc(33.3% - 8px) !important;
         min-width: calc(33.3% - 8px) !important;
     }
+    /* the bilingual report: one language under the other */
+    .st-key-report_cols div[data-testid="stColumn"] { flex: 1 1 100% !important; min-width: 100% !important; }
     /* Lists inside expanders read better stacked full-width */
     div[data-testid="stExpander"] div[data-testid="stColumn"],
     div[data-testid="stExpander"] div[data-testid="column"] {
@@ -316,6 +319,43 @@ div[data-testid="stDataFrame"] { font-size: 13px; }
 </style>
 """, unsafe_allow_html=True)
 site_theme.apply("全球矿业选股")          # after the app's own CSS, so the shared style wins where both set something
+
+# ── Chart labels: raw field names (score_composite, return_3m, …) never reach a reader ──
+_FIELD_LABELS = {
+    "score_composite": "综合评分", "score_ai": "AI 调整后评分", "score_valuation": "估值分", "score_health": "财务健康分",
+    "score_momentum": "超跌反转分", "score_mining": "矿业分", "score_commodity": "商品分", "score_stage": "阶段分",
+    "score_delta": "评分变化", "return_1m": "1 个月收益 %", "return_3m": "3 个月收益 %", "market_cap": "市值",
+    "spg_p_nav": "P/NAV", "spg_aisc_margin": "AISC 利润率 %", "spg_reserves_m": "储量价值（百万）",
+    "spg_reserve_life": "储量年限", "upside_to_nav": "距 NAV 上行 %", "analyst_upside": "分析师上行 %",
+    "price_to_book": "市净率", "ev_ebitda": "EV/EBITDA", "rsi": "RSI", "wk52_position": "52 周位置 %",
+    "commodity": "商品", "stage": "阶段", "grade": "评级", "name": "公司", "ticker": "代码",
+    "snl_p_insitu": "P/In-situ", "snl_ev_per_oz_rr": "EV/oz R&R", "pct_from_52hi": "距 52 周高点 %",
+}
+
+
+def _humanize(fig):
+    """Swap raw field names for readable ones in axis, legend and colour-bar titles and trace names."""
+    try:
+        lay = fig.layout
+        for key in list(lay.to_plotly_json()):
+            if key.startswith(("xaxis", "yaxis")):
+                t = lay[key].title.text
+                if t in _FIELD_LABELS:
+                    lay[key].title.text = _FIELD_LABELS[t]
+        if lay.legend.title.text in _FIELD_LABELS:
+            lay.legend.title.text = _FIELD_LABELS[lay.legend.title.text]
+        if lay.coloraxis and lay.coloraxis.colorbar and lay.coloraxis.colorbar.title.text in _FIELD_LABELS:
+            lay.coloraxis.colorbar.title.text = _FIELD_LABELS[lay.coloraxis.colorbar.title.text]
+        for tr in fig.data:
+            if getattr(tr, "name", None) in _FIELD_LABELS:
+                tr.name = _FIELD_LABELS[tr.name]
+    except Exception:          # a label tweak must never break a chart
+        pass
+    return fig
+
+
+_plotly_chart = st.plotly_chart
+st.plotly_chart = lambda fig, *a, **k: _plotly_chart(_humanize(fig), *a, **k)
 
 # ── Header ─────────────────────────────────────────────────────────────────────
 col_title, col_refresh = st.columns([5, 1])
@@ -330,8 +370,8 @@ _IS_CLOUD = os.getenv("DISABLE_SCHEDULER", "").lower() == "true"
 with col_refresh:
     st.markdown("<br>", unsafe_allow_html=True)
     if _IS_CLOUD:
-        st.caption("🔄 Auto-refresh daily ~08:15 Sydney (GitHub Actions)"
-                   f" · data: {release_db.source(config.DB_PATH)}")
+        st.markdown("<small style='white-space:nowrap;color:#4A5565'>🔄 每日自动更新 · 美股收盘后</small>",
+                    unsafe_allow_html=True)
     elif st.button("🔄 Refresh Now", width="stretch"):
         with st.spinner("Fetching live data… this takes ~2 min"):
             run_daily_refresh()
@@ -1106,8 +1146,8 @@ with st.sidebar:
             _qs_score_str = f"{_qs_score:.1f}/100" if pd.notna(_qs_score) else "—"
             _qs_price_str = f"${_qs_price:.3f}" if pd.notna(_qs_price) else "—"
             _qs_delta_str = (f"  {_qs_delta:+.1f}" if pd.notna(_qs_delta) else "")
-            _qs_mcap_str  = (f"${_qs_mcap/1e9:.2f}B" if pd.notna(_qs_mcap) and _qs_mcap >= 1e9
-                             else f"${_qs_mcap/1e6:.0f}M" if pd.notna(_qs_mcap) else "—")
+            _qs_mcap_str  = (f"{config.CURRENCY}{_qs_mcap/1e9:.2f}B" if pd.notna(_qs_mcap) and _qs_mcap >= 1e9
+                             else f"{config.CURRENCY}{_qs_mcap/1e6:.0f}M" if pd.notna(_qs_mcap) else "—")
             _qs_peer_rank = _qs.get("peer_rank")
             _qs_peer_n    = _qs.get("peer_n")
             _qs_peer_grp  = _qs.get("peer_group", "")
@@ -1116,9 +1156,9 @@ with st.sidebar:
 
             # Grade colour
             _qs_grade_color = {
-                "🟢 Strong Buy": "#16a34a", "🔵 Buy": "#2c6e9e",
-                "🟡 Watch": "#b45309", "🟠 Neutral": "#ea580c", "🔴 Avoid": "#dc2626",
-            }.get(_qs_grade, "#5b6b7f")
+                "🟢 Strong Buy": "#1A7F37", "🔵 Buy": "#2c6e9e",
+                "🟡 Watch": "#b45309", "🟠 Neutral": "#ea580c", "🔴 Avoid": "#C8102E",
+            }.get(_qs_grade, "#5F6B7A")
 
             st.markdown(
                 f"<div style='background:#ffffff;border:1px solid #e3e9f0;"
@@ -1128,7 +1168,7 @@ with st.sidebar:
                 f"{_qs_grade}</div>"
                 f"<div style='font-size:15px;font-weight:800;color:#1a3a5c;margin:2px 0'>"
                 f"{_qs.get('name', _qs_tk)}</div>"
-                f"<div style='font-size:11px;color:#5b6b7f'>{_qs_comm} · {_qs_stage}</div>"
+                f"<div style='font-size:11px;color:#5F6B7A'>{_qs_comm} · {_qs_stage}</div>"
                 f"<hr style='border-color:#e3e9f0;margin:8px 0'>"
                 f"<div style='display:flex;justify-content:space-between;"
                 f"font-size:13px;color:#172033'>"
@@ -1136,14 +1176,14 @@ with st.sidebar:
                 f"<span>Price <b>{_qs_price_str}</b></span>"
                 f"</div>"
                 f"<div style='display:flex;justify-content:space-between;"
-                f"font-size:12px;color:#5b6b7f;margin-top:4px'>"
+                f"font-size:12px;color:#5F6B7A;margin-top:4px'>"
                 f"<span>Mkt Cap {_qs_mcap_str}</span>"
-                + (f"<span style='color:#16a34a'>↑ {_qs_upside:+.0f}% upside</span>"
+                + (f"<span style='color:#1A7F37'>↑ {_qs_upside:+.0f}% upside</span>"
                    if pd.notna(_qs_upside) and _qs_upside > 0
-                   else f"<span style='color:#dc2626'>{_qs_upside:+.0f}% vs NAV</span>"
+                   else f"<span style='color:#C8102E'>{_qs_upside:+.0f}% vs NAV</span>"
                    if pd.notna(_qs_upside) else "<span></span>") +
                 f"</div>"
-                + (f"<div style='font-size:11px;color:#5b6b7f;margin-top:3px'>"
+                + (f"<div style='font-size:11px;color:#5F6B7A;margin-top:3px'>"
                    f"Analyst target: <span style='color:#2c6e9e'>{_qs_an_up:+.0f}%</span>"
                    f" ({int(_qs_an_ct)} analysts)</div>"
                    if pd.notna(_qs_an_up) and pd.notna(_qs_an_ct) and _qs_an_ct >= 1 else "")
@@ -1250,7 +1290,7 @@ with st.sidebar:
         "price_to_book", "ev_ebitda", "rsi",
         "wk52_position", "market_cap",
     ]
-    _def_sort = st.session_state.pop("flt_sort", "score_ai" if _AI_REVIEW else "score_composite")
+    _def_sort = st.session_state.pop("flt_sort", "score_composite")   # quant score; AI score is its own column
     _sort_idx = _sort_options.index(_def_sort) if _def_sort in _sort_options else 0
     sort_col = st.selectbox(
         "Column", _sort_options, index=_sort_idx, key="flt_sort",
@@ -1376,19 +1416,24 @@ with st.sidebar:
             _refresh_placeholder.error(f"Refresh failed: {_re}")
 
     total_w = w_val + w_hlt + w_mom + w_min + w_com + w_stg
+    _factor_cov = factor_coverage(df)
+    _factor_excluded: list[str] = []
     if total_w > 0:
         # Remember DB-level stale/halted flags before grade gets recomputed
         _stale_mask = (df["grade"].astype(str).str.contains("Stale", na=False)
                        if "grade" in df.columns
                        else pd.Series(False, index=df.index))
         mining_s = df["score_mining"].fillna(50) if "score_mining" in df.columns else pd.Series(50, index=df.index)
+        _ew, _factor_excluded = effective_weights(
+            {"valuation": w_val, "health": w_hlt, "momentum": w_mom,
+             "mining": w_min, "commodity": w_com, "stage": w_stg}, _factor_cov)
         df["score_composite"] = (
-            df["score_valuation"] * w_val / total_w +
-            df["score_health"]    * w_hlt / total_w +
-            df["score_momentum"]  * w_mom / total_w +
-            mining_s              * w_min / total_w +
-            df["score_commodity"] * w_com / total_w +
-            df["score_stage"]     * w_stg / total_w
+            df["score_valuation"] * _ew["valuation"] / total_w +
+            df["score_health"]    * _ew["health"]    / total_w +
+            df["score_momentum"]  * _ew["momentum"]  / total_w +
+            mining_s              * _ew["mining"]    / total_w +
+            df["score_commodity"] * _ew["commodity"] / total_w +
+            df["score_stage"]     * _ew["stage"]     / total_w
         ).round(1)
         # Recompute grade to match the updated score_composite
         def _regrade(s):
@@ -1404,6 +1449,8 @@ with st.sidebar:
             df.loc[_stale_mask, "score_composite"].clip(upper=STALE_SCORE_CAP)
         )
         df.loc[_stale_mask, "grade"] = STALE_GRADE
+        if "ai_adjust" in df.columns:      # the AI score sits on top of the score just recomputed
+            df["score_ai"] = (df["score_composite"] + df["ai_adjust"]).clip(0, 100)
 
 # ── Apply filters ──────────────────────────────────────────────────────────────
 _debug_steps: list[tuple[str, int]] = [("DB total", len(df))]
@@ -1458,11 +1505,11 @@ filtered = df[mask].sort_values(sort_col, ascending=sort_asc)
 with st.container(key="summary_cards"):
     c1, c2, c3, c4, c5 = st.columns(5)
     cards = [
-        (c1, len(filtered),                                         "Companies shown"),
+        (c1, len(filtered),                                         "当前筛选 · 公司数"),
         (c2, (filtered["grade"] == "🟢 Strong Buy").sum(),         "🟢 Strong Buy"),
         (c3, (filtered["grade"] == "🔵 Buy").sum(),                "🔵 Buy"),
-        (c4, round(filtered["score_composite"].mean(), 1),          "Avg Score"),
-        (c5, round(filtered["score_composite"].max(), 1),           "Top Score"),
+        (c4, round(filtered["score_composite"].mean(), 1),          "平均分（当前筛选）"),
+        (c5, round(filtered["score_composite"].max(), 1),           "最高分（当前筛选）"),
     ]
     for col, val, label in cards:
         with col:
@@ -1470,6 +1517,72 @@ with st.container(key="summary_cards"):
                 f'<div class="metric-card"><h3>{val}</h3><p>{label}</p></div>',
                 unsafe_allow_html=True,
             )
+_FACTOR_ZH = {"valuation": "估值", "health": "财务健康", "momentum": "超跌反转",
+              "mining": "矿业（S&P/SNL）", "commodity": "商品", "stage": "阶段"}
+st.caption(f"以上数字的口径：侧栏当前筛选 {len(filtered)} 家，全市场 {len(df)} 家。"
+           + (f" 综合评分本次未计入：{'、'.join(_FACTOR_ZH[f] for f in _factor_excluded)}"
+              f"（数据覆盖不足 {MIN_FACTOR_COVERAGE:.0%}，权重按比例分给其余因子）。" if _factor_excluded else ""))
+
+
+def _snl_last_sync() -> str | None:
+    import sqlite3 as _sq
+    try:
+        with _sq.connect(f"file:{config.DB_PATH}?mode=ro", uri=True) as _c:
+            row = _c.execute("SELECT MAX(last_sync_at) FROM snl_sync_log WHERE row_count > 0").fetchone()
+        return (row[0] or None) and str(row[0])[:10]
+    except Exception:
+        return None
+
+
+def _coverage_strip() -> None:
+    """因子覆盖率: per scoring factor and key S&P/SNL field, the share of the market with data."""
+    site_theme.panel_title("因子覆盖率")
+    parts = []
+    for f, cov in _factor_cov.items():
+        tone = "red" if f in _factor_excluded else "amber" if cov < 0.6 else "green"
+        parts.append(site_theme.badge(f"{_FACTOR_ZH[f]} {cov:.0%}" + ("（未计入）" if f in _factor_excluded else ""), tone))
+    fields = [("P/NAV", ["spg_p_nav"]), ("AISC", ["spg_aisc_per_oz", "spg_aisc_per_t", "spg_aisc_per_lb"]),
+              ("储量", ["spg_reserves_m"]), ("P/In-situ", ["snl_p_insitu"])]
+    for label, cols in fields:
+        have = [c for c in cols if c in df.columns]
+        cov = float(df[have].notna().any(axis=1).mean()) if have and len(df) else 0.0
+        parts.append(site_theme.badge(f"{label} {cov:.0%}", "red" if cov < MIN_FACTOR_COVERAGE else "grey"))
+    last = _snl_last_sync()
+    if last:
+        days = (pd.Timestamp.today().normalize() - pd.Timestamp(last)).days
+        parts.append(site_theme.badge(f"SNL 最后同步 {last}" + (f" · 过期 {days} 天" if days > 30 else ""),
+                                      "amber" if days > 30 else "grey"))
+    else:
+        parts.append(site_theme.badge("本站没有 SNL 数据", "grey"))
+    st.markdown(" ".join(parts), unsafe_allow_html=True)
+    st.caption(f"覆盖率 = 全市场 {len(df)} 家里有该项数据的公司占比。低于 {MIN_FACTOR_COVERAGE:.0%} 的因子不计入综合评分，"
+               "它的权重按比例分给其余因子；数据补齐后自动恢复。")
+
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def _score_return_r(_stamp: str):
+    """Pearson r between the composite score and the return to each name's next snapshot."""
+    bt = load_backtest_data()
+    if bt.empty:
+        return None
+    bt = bt.sort_values(["ticker", "snap_date"])
+    bt["next_px"] = bt.groupby("ticker")["price"].shift(-1)
+    bt = bt.dropna(subset=["next_px"])
+    if len(bt) < 30:
+        return None
+    return float(bt["score_composite"].corr(bt["next_px"] / bt["price"] - 1)), int(len(bt))
+
+
+def _r_caption() -> str:
+    res = _score_return_r(str(last_refresh()))
+    if not res:
+        return "回测样本还不够，评级和未来收益的关系暂时说不清。"
+    r, n = res
+    word = "几乎为零" if abs(r) < 0.1 else "偏弱" if abs(r) < 0.3 else "中等"
+    return (f"回测：综合评分与下一次快照收益的相关系数 r = {r:+.3f}（{n:,} 个样本，{word}）。"
+            "评级是筛选顺序，不是收益预测。")
+
+
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ── Tabs ────────────────────────────────────────────────────────────────────────
@@ -1492,26 +1605,28 @@ with tab_today:
 
         _mover_parts_up = []
         for _, _mr in _upgrades.iterrows():
-            _col = "#15803d" if _mr.get("score_delta", 0) >= 5 else "#16a34a"
+            _col = "#1A7F37" if _mr.get("score_delta", 0) >= 5 else "#1A7F37"
             _mover_parts_up.append(
                 f"<span style='color:{_col};font-weight:700'>{_mr.get('name','?')} "
                 f"({_mr['ticker']})</span> "
-                f"<span style='color:#5b6b7f'>{_mr.get('score_composite',0):.0f} "
+                f"<span style='color:#5F6B7A'>{_mr.get('score_composite',0):.0f} "
                 f"(<span style='color:{_col}'>{_mr.get('score_delta',0):+.1f}</span>)</span>"
             )
         _mover_parts_dn = []
         for _, _mr in _downgrades.iterrows():
             _mover_parts_dn.append(
-                f"<span style='color:#b91c1c;font-weight:700'>{_mr.get('name','?')} "
+                f"<span style='color:#C8102E;font-weight:700'>{_mr.get('name','?')} "
                 f"({_mr['ticker']})</span> "
-                f"<span style='color:#5b6b7f'>{_mr.get('score_composite',0):.0f} "
-                f"(<span style='color:#dc2626'>{_mr.get('score_delta',0):+.1f}</span>)</span>"
+                f"<span style='color:#5F6B7A'>{_mr.get('score_composite',0):.0f} "
+                f"(<span style='color:#C8102E'>{_mr.get('score_delta',0):+.1f}</span>)</span>"
             )
 
         if _mover_parts_up or _mover_parts_dn:
             # two columns, one name per line (it was one run-on paragraph of coloured text)
             def _col(title, parts, color):
-                body = "".join(f"<div style='padding:2px 0'>{p}</div>" for p in parts) or "<div style='color:#4A5565'>—</div>"
+                body = ("<ul style='list-style:none;margin:0;padding:0'>"
+                        + "".join(f"<li style='padding:2px 0'>{p}</li>" for p in parts) + "</ul>"
+                        if parts else "<div style='color:#4A5565'>—</div>")
                 return (f"<div style='flex:1 1 16rem;min-width:0'><div style='font-weight:700;color:{color};"
                         f"font-size:.8rem;letter-spacing:.04em;margin-bottom:2px'>{title}</div>{body}</div>")
             _mover_html = (
@@ -1542,9 +1657,9 @@ with tab_today:
                     _adj = _it.get("ai_adjust", 0)
                     st.markdown(
                         f"{_em} **{_it['ticker']}**  "
-                        f"<span style='color:{'#dc2626' if _adj < 0 else '#16a34a' if _adj > 0 else '#5b6b7f'};"
+                        f"<span style='color:{'#C8102E' if _adj < 0 else '#1A7F37' if _adj > 0 else '#5F6B7A'};"
                         f"font-weight:700'>{_adj:+d}</span>  "
-                        f"<span style='color:#5b6b7f;font-size:13px'>{_it.get('ai_note','')}</span>",
+                        f"<span style='color:#5F6B7A;font-size:13px'>{_it.get('ai_note','')}</span>",
                         unsafe_allow_html=True)
         if _AI_OUTLOOK:
             with st.expander(f"🤖 AI Commodity Outlook — {_AI_OUTLOOK.get('generated_at','')}",
@@ -1552,10 +1667,10 @@ with tab_today:
                 st.caption("Daily multipliers (0.7–1.3) applied to the 5% commodity factor.")
                 for _cm, _o in sorted(_AI_OUTLOOK.get("outlook", {}).items()):
                     _m = _o.get("multiplier", 1.0)
-                    _c = "#16a34a" if _m > 1.02 else "#dc2626" if _m < 0.98 else "#5b6b7f"
+                    _c = "#1A7F37" if _m > 1.02 else "#C8102E" if _m < 0.98 else "#5F6B7A"
                     st.markdown(
                         f"**{_cm}** <span style='color:{_c};font-weight:700'>{_m:.2f}</span> "
-                        f"<span style='color:#5b6b7f;font-size:13px'>{_o.get('note','')}</span>",
+                        f"<span style='color:#5F6B7A;font-size:13px'>{_o.get('note','')}</span>",
                         unsafe_allow_html=True)
 
     # ── Top Opportunities callout ──────────────────────────────────────────────
@@ -1566,6 +1681,7 @@ with tab_today:
 
     if not _top_ops.empty:
         st.markdown("#### 🏆 Top Opportunities")
+        st.caption(_r_caption())
         # Lay cards out 3 per row (2-up grid on mobile via CSS)
         _op_cols = []
         for _ri in range(0, len(_top_ops), 3):
@@ -1586,8 +1702,8 @@ with tab_today:
             _op_an_up    = _op_an_up if pd.notna(_op_an_up) else None
             _op_an_ct    = getattr(_op, "analyst_count", None)
             _op_an_ct    = int(_op_an_ct) if pd.notna(_op_an_ct) else None
-            _mcap_fmt  = (f"${_op_mcap/1e9:.1f}B" if _op_mcap and _op_mcap >= 1e9
-                          else f"${_op_mcap/1e6:.0f}M" if _op_mcap else "—")
+            _mcap_fmt  = (f"{config.CURRENCY}{_op_mcap/1e9:.1f}B" if _op_mcap and _op_mcap >= 1e9
+                          else f"{config.CURRENCY}{_op_mcap/1e6:.0f}M" if _op_mcap else "—")
             _op_ai_note = getattr(_op, "ai_note", None)
             _op_ai_view = getattr(_op, "ai_view", None)
             _op_ai_adj  = getattr(_op, "ai_adjust", 0) or 0
@@ -1605,7 +1721,7 @@ with tab_today:
             if _op_delta: _kpis.append(f"Δ {_op_delta:+.1f}")
             with _op_cols[_ci]:
                 _grade_color = (
-                    "#16a34a" if "Strong Buy" in _op_grade else
+                    "#1A7F37" if "Strong Buy" in _op_grade else
                     "#2563eb" if "Buy"        in _op_grade else
                     "#d97706"
                 )
@@ -1795,10 +1911,7 @@ with tab_table:
     )
 
     _stat_items = [
-        ("Companies", f"{_n_total}"),
         ("S&P Data", f"{_n_spg}"),
-        ("⭐ Buys", f"{_n_strong + _n_buy}  ({_n_strong} Strong)"),
-        ("Avg Score", f"{_avg_score:.1f}" if _avg_score is not None and not pd.isna(_avg_score) else "—"),
         ("Median P/NAV", f"{_med_pnav:.2f}x" if _med_pnav is not None and not pd.isna(_med_pnav) else "—"),
         ("Med Analyst ↑", f"{_med_analyst_up:+.0f}%" if _med_analyst_up is not None and not pd.isna(_med_analyst_up) else "—"),
         (">40% NAV Discount", f"{_n_deep_val}"),
@@ -1808,6 +1921,7 @@ with tab_table:
     for _si, (_slbl, _sval) in enumerate(_stat_items):
         _stat_cols[_si].metric(_slbl, _sval)
     st.caption(f"以上统计的口径：当前筛选结果 {_n_total} 家（不是全市场）；分析师上行空间只计 ≥3 家分析师覆盖的公司。")
+    _coverage_strip()
 
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -1937,6 +2051,8 @@ with tab_table:
     tbl["market_cap"] = (tbl["market_cap"] / 1e6).round(1)
     tbl.columns = list(available.values())
     tbl.index = range(1, len(tbl) + 1)
+    for _tc in tbl.columns[tbl.dtypes == object]:          # text columns: a missing note reads "—", not "None"
+        tbl[_tc] = tbl[_tc].where(tbl[_tc].notna(), "—")
 
     def color_score(val):
         if pd.isna(val): return ""
@@ -1947,7 +2063,7 @@ with tab_table:
 
     def color_delta(val):
         if pd.isna(val) or val == 0: return ""
-        return "color: #22c55e; font-weight:600" if val > 0 else "color: #ef4444; font-weight:600"
+        return "color: #1A7F37; font-weight:600" if val > 0 else "color: #C8102E; font-weight:600"
 
     def color_rsi(val):
         """Green = oversold (<30), amber = leaning oversold (30–45), red = overbought (>70)."""
@@ -1960,15 +2076,15 @@ with tab_table:
     def color_return(val):
         """Soft green for positive returns, soft red for negative."""
         if pd.isna(val) or val == 0: return ""
-        return "color: #22c55e; font-weight:600" if val > 0 else "color: #ef4444; font-weight:600"
+        return "color: #1A7F37; font-weight:600" if val > 0 else "color: #C8102E; font-weight:600"
 
     def color_upside(val):
         """Green = big discount to NAV; amber = modest discount; grey = at/above NAV."""
         if pd.isna(val): return ""
         if val >= 50:  return "background-color: #dcfce7; color: #14532d; font-weight:700"
         if val >= 25:  return "background-color: #dbeafe; color: #1e3a5f; font-weight:600"
-        if val >= 10:  return "color: #22c55e; font-weight:600"
-        if val < 0:    return "color: #ef4444"
+        if val >= 10:  return "color: #1A7F37; font-weight:600"
+        if val < 0:    return "color: #C8102E"
         return ""
 
     def color_peer_rank(val):
@@ -1980,7 +2096,7 @@ with tab_table:
         except ValueError:
             return ""
         if rank == 1: return "background-color: #fef3c7; color: #92400e; font-weight:700"
-        if rank <= 3: return "color: #94a3b8; font-weight:600"
+        if rank <= 3: return "color: #5F6B7A; font-weight:600"
         return ""
 
     _score_cols  = [c for c in ["Score", "🤖 AI Score", "Valuation", "Health", "Oversold", "⛏️ Mining"] if c in tbl.columns]
@@ -2056,12 +2172,14 @@ with tab_table:
         "52wk Pos%":     lambda x: f"{x:.0f}%" if pd.notna(x) else "—",
         "vs 52Lo%":      lambda x: f"{x:+.1f}%" if pd.notna(x) else "—",
         "ROE%":          lambda x: f"{x*100:.1f}%" if pd.notna(x) else "—",
-        "Op Margin%":    lambda x: f"{x*100:.1f}%" if pd.notna(x) else "—",
+        "Op Margin%":    lambda x: f"{x*100:.1f}%" if pd.notna(x) and abs(x) <= 1 else "—",
+        "Net Debt (M)":  lambda x: f"{x:,.0f}" if pd.notna(x) else "—",
         "Gross Margin%": lambda x: f"{x*100:.1f}%" if pd.notna(x) else "—",
     }, na_rep="—")
     )
 
-    st.dataframe(styled, width="stretch", height=600)
+    st.dataframe(styled, width="stretch", height=600,
+                 column_config={"Company": st.column_config.TextColumn(pinned=True)})   # stays put when a phone scrolls sideways
 
     _dl_col1, _dl_col2 = st.columns([1, 1])
     with _dl_col1:
@@ -2288,7 +2406,7 @@ with tab_charts:
             )
             fig3.add_annotation(
                 x=1, y=7.5, text="Value Zone", showarrow=False,
-                font=dict(color="#22c55e", size=11),
+                font=dict(color="#1A7F37", size=11),
             )
             fig3.update_layout(
                 height=380,
@@ -2357,7 +2475,7 @@ with tab_charts:
                 )
                 fig_an.add_annotation(
                     x=75, y=280, text="Conviction Zone",
-                    showarrow=False, font=dict(color="#22c55e", size=10),
+                    showarrow=False, font=dict(color="#1A7F37", size=10),
                 )
                 fig_an.update_layout(height=400)
                 st.plotly_chart(fig_an, width="stretch")
@@ -2394,7 +2512,7 @@ with tab_charts:
                     text="_label",
                     hover_data={"analyst_count": True, "score_composite": ":.1f",
                                 "stage": True, "commodity": True},
-                    title="Top 20: Analyst Consensus Upside (≥2 analysts)",
+                    title="分析师一致预期上行 前 20 名（≥2 家覆盖）",
                     labels={
                         "analyst_upside":   "Analyst Upside %",
                         "name":             "",
@@ -2440,7 +2558,7 @@ with tab_charts:
                     line_width=2,
                     annotation_text="NAV = 1.0×",
                     annotation_position="top right",
-                    annotation_font_color="#ef4444",
+                    annotation_font_color="#C8102E",
                 )
                 # Median line
                 _pnav_med = _pnav_df["spg_p_nav"].median()
@@ -2495,7 +2613,7 @@ with tab_charts:
                 )
                 fig_pnav2.add_annotation(
                     x=0.35, y=100, text="Deep Value",
-                    showarrow=False, font=dict(color="#22c55e", size=10),
+                    showarrow=False, font=dict(color="#1A7F37", size=10),
                 )
                 fig_pnav2.update_layout(height=360)
                 st.plotly_chart(fig_pnav2, width="stretch")
@@ -2550,7 +2668,7 @@ with tab_charts:
             )
             if not _ret_comm.empty:
                 _ret_comm["color"] = _ret_comm["median_ret3m"].apply(
-                    lambda v: "#22c55e" if v >= 0 else "#ef4444"
+                    lambda v: "#1A7F37" if v >= 0 else "#C8102E"
                 )
                 _ret_comm["label"] = _ret_comm["median_ret3m"].map(
                     lambda v: f"{v:+.1f}%"
@@ -2563,7 +2681,7 @@ with tab_charts:
                     text="label",
                     color="median_ret3m",
                     color_continuous_scale=[
-                        [0.0, "#ef4444"], [0.5, "#f3f4f6"], [1.0, "#22c55e"]
+                        [0.0, "#C8102E"], [0.5, "#f3f4f6"], [1.0, "#1A7F37"]
                     ],
                     range_color=[-30, 30],
                     hover_data={"n": True},
@@ -2575,9 +2693,9 @@ with tab_charts:
                     height=400,
                     coloraxis_showscale=False,
                     xaxis=dict(title="3M Return %", zeroline=True,
-                               zerolinecolor="#6b7280", zerolinewidth=1.5),
+                               zerolinecolor="#5F6B7A", zerolinewidth=1.5),
                 )
-                fig_ret.add_vline(x=0, line_width=1.5, line_color="#6b7280")
+                fig_ret.add_vline(x=0, line_width=1.5, line_color="#5F6B7A")
                 st.plotly_chart(fig_ret, width="stretch")
                 st.caption(f"Median 3-month price return across {len(filtered.dropna(subset=['return_3m']))} companies with data.")
 
@@ -2608,10 +2726,10 @@ with tab_charts:
                     fig_mom.add_vline(x=0, line_dash="dot", line_color="gray", opacity=0.5)
                     # Quadrant labels
                     for (tx, ty, label, color) in [
-                        (20, 10, "Acceleration", "#22c55e"),
+                        (20, 10, "Acceleration", "#1A7F37"),
                         (-20, 10, "Recovery", "#3b82f6"),
                         (20, -10, "Fading", "#f97316"),
-                        (-20, -10, "Weakness", "#ef4444"),
+                        (-20, -10, "Weakness", "#C8102E"),
                     ]:
                         fig_mom.add_annotation(
                             x=tx, y=ty, text=label, showarrow=False,
@@ -2696,13 +2814,13 @@ with tab_charts:
                 return "—"
             pct = max(0, min(100, val / max_val * 100))
             if val >= 75:
-                bar_color, badge_bg, badge_fg = "#16a34a", "#dcfce7", "#15803d"
+                bar_color, badge_bg, badge_fg = "#1A7F37", "#dcfce7", "#1A7F37"
             elif val >= 60:
                 bar_color, badge_bg, badge_fg = "#2563eb", "#dbeafe", "#1d4ed8"
             elif val >= 45:
                 bar_color, badge_bg, badge_fg = "#d97706", "#fef3c7", "#b45309"
             else:
-                bar_color, badge_bg, badge_fg = "#dc2626", "#fee2e2", "#b91c1c"
+                bar_color, badge_bg, badge_fg = "#C8102E", "#fee2e2", "#C8102E"
             return (
                 f'<div style="display:flex;align-items:center;gap:8px;">'
                 f'<div style="flex:1;background:#e5e7eb;border-radius:6px;height:9px;overflow:hidden;">'
@@ -2727,7 +2845,7 @@ with tab_charts:
                 f'<td style="padding:8px 14px;font-weight:600;color:#111827;width:140px;'
                 f'white-space:nowrap;">{row["Commodity"]}</td>'
                 f'<td style="padding:8px 14px;">{bar}</td>'
-                f'<td style="padding:8px 14px;text-align:center;color:#6b7280;'
+                f'<td style="padding:8px 14px;text-align:center;color:#5F6B7A;'
                 f'font-variant-numeric:tabular-nums;font-weight:500;">{n}</td>'
                 f'</tr>'
             )
@@ -2783,7 +2901,7 @@ with tab_charts:
                         fig_macro.add_trace(go.Scatter(
                             x=_mdf["snap_date"], y=_mdf["avg_score"],
                             name=_mc,
-                            line=dict(color=_COMM_COLORS.get(_mc, "#94a3b8"), width=2),
+                            line=dict(color=_COMM_COLORS.get(_mc, "#5F6B7A"), width=2),
                             mode="lines+markers", marker=dict(size=5),
                             yaxis="y1",
                         ))
@@ -2920,7 +3038,7 @@ with tab_charts:
         _cc_spot_label = None
 
     if _cc_df.empty:
-        st.info("No AISC data yet. Run _ciq_spg_mining.py then click 🔄 Refresh Now.")
+        st.info("暂无 AISC 数据（S&P 成本数据未覆盖本站公司）。")
     else:
         _cc_df = _cc_df.sort_values(_cc_y)
         _cc_df["_aisc_margin"] = (
@@ -2928,10 +3046,10 @@ with tab_charts:
             if _cc_spot else float("nan")
         )
         _cc_colors = _cc_df["_aisc_margin"].apply(
-            lambda m: "#22c55e" if pd.notna(m) and m > 40
+            lambda m: "#1A7F37" if pd.notna(m) and m > 40
             else "#3b82f6" if pd.notna(m) and m > 20
             else "#eab308" if pd.notna(m) and m > 0
-            else "#ef4444"
+            else "#C8102E"
         )
 
         # Determine cash cost column for this commodity group
@@ -3014,7 +3132,7 @@ with tab_charts:
                     "<b>%{customdata[0]}</b><br>"
                     f"{_cc_ylabel}: $%{{customdata[1]:,.0f}}<br>"
                     "AISC Margin: %{customdata[2]:.1f}%<br>"
-                    "Mkt Cap: $%{customdata[3]:,.0f}M<extra></extra>"
+                    "Mkt Cap: %{customdata[3]:,.0f}M<extra></extra>"
                 ),
             ))
 
@@ -3052,10 +3170,10 @@ with tab_charts:
         st.markdown("#### 📐 P/NAV Ladder")
         _pnav_df = _pnav_df.sort_values("spg_p_nav")
         _pnav_df["_pnav_color"] = _pnav_df["spg_p_nav"].apply(
-            lambda v: "#22c55e" if v < 0.75
+            lambda v: "#1A7F37" if v < 0.75
             else "#3b82f6" if v < 1.0
             else "#eab308" if v < 1.5
-            else "#ef4444"
+            else "#C8102E"
         )
         fig_pnav = go.Figure()
         fig_pnav.add_vline(x=1.0, line_dash="dash", line_color="#FFD700",
@@ -3127,10 +3245,10 @@ with tab_charts:
             _q25 = _ev_oz_df["ev_per_oz_prod"].quantile(0.25)
             _q75 = _ev_oz_df["ev_per_oz_prod"].quantile(0.75)
             _ev_oz_df["_evoz_color"] = _ev_oz_df["ev_per_oz_prod"].apply(
-                lambda v: "#22c55e" if v <= _q25
+                lambda v: "#1A7F37" if v <= _q25
                 else "#3b82f6" if v <= _ev_oz_med
                 else "#eab308" if v <= _q75
-                else "#ef4444"
+                else "#C8102E"
             )
             _ev_oz_df["_label"] = _ev_oz_df["name"] + " (" + _ev_oz_df["ticker"] + ")"
 
@@ -3156,10 +3274,10 @@ with tab_charts:
             ))
             fig_evoz.add_hline(
                 y=_ev_oz_med,
-                line_dash="dash", line_color="#94a3b8", line_width=1.5,
+                line_dash="dash", line_color="#5F6B7A", line_width=1.5,
                 annotation_text=f"Median ${_ev_oz_med:,.0f}",
                 annotation_position="top right",
-                annotation_font_color="#94a3b8",
+                annotation_font_color="#5F6B7A",
             )
             fig_evoz.update_layout(
                 height=420,
@@ -3198,10 +3316,10 @@ with tab_charts:
 
         if not _rli_df.empty:
             _rli_df["_rli_color"] = _rli_df["spg_reserve_life"].apply(
-                lambda v: "#22c55e" if v >= 15
+                lambda v: "#1A7F37" if v >= 15
                 else "#3b82f6" if v >= 10
                 else "#eab308" if v >= 5
-                else "#ef4444"
+                else "#C8102E"
             )
             _rli_df["_label"] = _rli_df["name"] + " (" + _rli_df["ticker"] + ")"
 
@@ -3232,9 +3350,9 @@ with tab_charts:
                 annotation_font_color="#3b82f6",
             )
             fig_rli.add_hline(
-                y=5, line_dash="dot", line_color="#ef4444", line_width=1,
+                y=5, line_dash="dot", line_color="#C8102E", line_width=1,
                 annotation_text="5 yr (caution)", annotation_position="top right",
-                annotation_font_color="#ef4444",
+                annotation_font_color="#C8102E",
             )
             fig_rli.update_layout(
                 height=420,
@@ -3289,10 +3407,10 @@ with tab_charts:
                 _rp_df = _rp_df.sort_values("_premium_pct", ascending=False).head(30)
                 _rp_df["_label"] = _rp_df["name"] + " (" + _rp_df["ticker"] + ")"
                 _rp_df["_color"] = _rp_df["_premium_pct"].apply(
-                    lambda v: "#22c55e" if v >= 5
+                    lambda v: "#1A7F37" if v >= 5
                     else "#3b82f6" if v >= 0
                     else "#eab308" if v >= -5
-                    else "#ef4444"
+                    else "#C8102E"
                 )
                 fig_rp = go.Figure()
                 fig_rp.add_trace(go.Bar(
@@ -3362,11 +3480,11 @@ with tab_charts:
             lambda r: f"{r['name']} ({r['ticker']})", axis=1
         )
         _upside_df["color"] = _upside_df["upside_to_nav"].apply(
-            lambda v: ("#22c55e" if v >= 50 else
+            lambda v: ("#1A7F37" if v >= 50 else
                        "#3b82f6" if v >= 25 else
                        "#eab308" if v >= 10 else
                        "#f97316" if v >= 0  else
-                       "#ef4444")
+                       "#C8102E")
         )
         _upside_df["upside_fmt"] = _upside_df["upside_to_nav"].apply(
             lambda v: f"{v:+.0f}%"
@@ -3397,7 +3515,7 @@ with tab_charts:
         )
         # Reference lines
         fig_upside.add_vline(x=0,  line_color="white",      line_dash="solid", line_width=1.5)
-        fig_upside.add_vline(x=50, line_color="#22c55e",    line_dash="dot",   line_width=1,
+        fig_upside.add_vline(x=50, line_color="#1A7F37",    line_dash="dot",   line_width=1,
                              annotation_text="50%", annotation_position="top")
         fig_upside.add_vline(x=25, line_color="#3b82f6",    line_dash="dot",   line_width=1,
                              annotation_text="25%", annotation_position="top")
@@ -3452,7 +3570,7 @@ with tab_charts:
             _rs_view = pd.concat([_rs_view.head(20), _rs_view.tail(20)])
         _rs_view["label"] = _rs_view["name"] + " (" + _rs_view["ticker"] + ")"
         _rs_view["color"] = _rs_view["rel_strength"].apply(
-            lambda v: "#22c55e" if v > 5 else "#ef4444" if v < -5 else "#94a3b8"
+            lambda v: "#1A7F37" if v > 5 else "#C8102E" if v < -5 else "#5F6B7A"
         )
         _rs_view["comm_grp"] = _rs_view["commodity"].str.split("/").str[0].str.strip()
 
@@ -3514,8 +3632,8 @@ with tab_charts:
                 _gs_df = pd.DataFrame(_grp_summary)
                 st.dataframe(
                     _gs_df.style
-                    .map(lambda v: "color:#22c55e;font-weight:700" if isinstance(v, float) and v > 0
-                         else "color:#ef4444" if isinstance(v, float) and v < 0 else "",
+                    .map(lambda v: "color:#1A7F37;font-weight:700" if isinstance(v, float) and v > 0
+                         else "color:#C8102E" if isinstance(v, float) and v < 0 else "",
                          subset=["3M Ret%", "vs Peers%"])
                     .format({"3M Ret%": "{:+.1f}%", "vs Peers%": "{:+.1f}%", "Score": "{:.1f}"},
                             na_rep="—"),
@@ -3554,13 +3672,13 @@ with tab_charts:
         )
 
         _GRADE_COLORS_VM = {
-            "🟢 Strong Buy": "#22c55e",
+            "🟢 Strong Buy": "#1A7F37",
             "🔵 Buy":        "#3b82f6",
             "🟡 Watch":      "#eab308",
             "🟠 Neutral":    "#f97316",
-            "🔴 Avoid":      "#ef4444",
+            "🔴 Avoid":      "#C8102E",
         }
-        _vm_df["_color"] = _vm_df["grade"].map(_GRADE_COLORS_VM).fillna("#94a3b8")
+        _vm_df["_color"] = _vm_df["grade"].map(_GRADE_COLORS_VM).fillna("#5F6B7A")
 
         fig_vm = go.Figure()
 
@@ -3594,7 +3712,7 @@ with tab_charts:
                 name=grade,
                 marker=dict(
                     size=_g_df["_bubble"].tolist(),
-                    color=_GRADE_COLORS_VM.get(grade, "#94a3b8"),
+                    color=_GRADE_COLORS_VM.get(grade, "#5F6B7A"),
                     opacity=0.8,
                     line=dict(width=1, color="rgba(23,32,51,0.25)"),
                 ),
@@ -3615,7 +3733,7 @@ with tab_charts:
                     "%{customdata[1]} · %{customdata[2]}<br>"
                     "Upside: <b>%{customdata[3]:+.0f}%</b> (%{customdata[4]})<br>"
                     "Score: <b>%{customdata[5]:.1f}</b><br>"
-                    "Mkt Cap: $%{customdata[6]:,.0f}M<extra></extra>"
+                    "Mkt Cap: %{customdata[6]:,.0f}M<extra></extra>"
                 ),
             ))
 
@@ -3763,8 +3881,8 @@ with tab_charts:
                 if _c not in df.columns:
                     continue
                 _pct = df[_c].notna().mean() * 100
-                _bar_color = ("#22c55e" if _pct >= 80 else
-                              "#eab308" if _pct >= 40 else "#ef4444")
+                _bar_color = ("#1A7F37" if _pct >= 80 else
+                              "#eab308" if _pct >= 40 else "#C8102E")
                 _label = _c.replace("spg_", "").replace("score_", "").replace("_", " ")
                 st.markdown(
                     f"<div style='margin-bottom:4px'>"
@@ -3815,6 +3933,7 @@ with tab_charts:
         "Requires ≥ 3 snapshot dates to show meaningful results."
     )
 
+    st.caption(_r_caption())
     _bt_raw = load_backtest_data()
     _bt_dates = sorted(_bt_raw["snap_date"].unique()) if not _bt_raw.empty else []
 
@@ -3822,7 +3941,7 @@ with tab_charts:
         _n_needed = 3 - len(_bt_dates)
         st.info(
             f"Backtest needs ≥ 3 snapshot dates. Currently have **{len(_bt_dates)}**. "
-            f"Run **🔄 Refresh Data Now** on {_n_needed} more day(s) to unlock this chart."
+            f"再积累 {_n_needed} 天的快照后显示。"
         )
     else:
         # For each ticker-date pair, compute return to the next snapshot date
@@ -3870,7 +3989,7 @@ with tab_charts:
 
             with _bt_col1:
                 _bt_colors = [
-                    "#ef4444", "#f97316", "#eab308", "#3b82f6", "#22c55e"
+                    "#C8102E", "#f97316", "#eab308", "#3b82f6", "#1A7F37"
                 ]
                 fig_bt = go.Figure()
                 fig_bt.add_bar(
@@ -3904,7 +4023,7 @@ with tab_charts:
 
                 def _color_bt_return(val):
                     if pd.isna(val) or val == 0: return ""
-                    return "color:#22c55e;font-weight:700" if val > 0 else "color:#ef4444;font-weight:700"
+                    return "color:#1A7F37;font-weight:700" if val > 0 else "color:#C8102E;font-weight:700"
 
                 _bt_tbl_styled = (
                     _bt_display.style
@@ -3920,13 +4039,13 @@ with tab_charts:
 
                 # Pearson r: score vs return
                 _r_val = _bt_df[["score", "return_pct"]].corr().iloc[0, 1]
-                _r_color = "#16a34a" if _r_val > 0.15 else "#dc2626" if _r_val < -0.05 else "#b45309"
+                _r_color = "#1A7F37" if _r_val > 0.15 else "#C8102E" if _r_val < -0.05 else "#b45309"
                 st.markdown(
                     f"<div style='background:#ffffff;border:1px solid #e3e9f0;"
                     f"border-top:3px solid #1a3a5c;border-radius:8px;padding:12px;text-align:center'>"
-                    f"<div style='font-size:12px;color:#5b6b7f'>Score → Return Correlation (Pearson r)</div>"
+                    f"<div style='font-size:12px;color:#5F6B7A'>Score → Return Correlation (Pearson r)</div>"
                     f"<div style='font-size:28px;font-weight:800;color:{_r_color}'>{_r_val:+.3f}</div>"
-                    f"<div style='font-size:11px;color:#5b6b7f'>"
+                    f"<div style='font-size:11px;color:#5F6B7A'>"
                     f"Based on {len(_bt_df)} observations across {len(_bt_dates_list)-1} period(s)</div>"
                     f"</div>",
                     unsafe_allow_html=True,
@@ -3974,11 +4093,11 @@ with tab_charts:
                 size="_mcap_m", size_max=40,
                 color="grade",
                 color_discrete_map={
-                    "🟢 Strong Buy": "#22c55e",
+                    "🟢 Strong Buy": "#1A7F37",
                     "🔵 Buy":        "#3b82f6",
                     "🟡 Watch":      "#eab308",
                     "🟠 Neutral":    "#f97316",
-                    "🔴 Avoid":      "#ef4444",
+                    "🔴 Avoid":      "#C8102E",
                 },
                 hover_name="name",
                 hover_data={
@@ -4008,7 +4127,7 @@ with tab_charts:
                 x=_x_med * 0.05, y=_y_med * 0.95,
                 text="Deep Value Zone",
                 showarrow=False,
-                font=dict(color="#22c55e", size=11),
+                font=dict(color="#1A7F37", size=11),
                 xanchor="left", yanchor="top",
             )
             _fig_vs.add_vline(x=_x_med, line_dash="dot",
@@ -4036,7 +4155,7 @@ with tab_charts:
         else:
             st.info("Not enough SNL valuation data to plot (need EV/oz R&R and P/In-situ NAV).")
     else:
-        st.info("SNL valuation columns not yet available — run snl_sync.py.")
+        st.info("暂无 SNL 估值数据。")
 
     # ── 3. R&R Rankings ───────────────────────────────────────────────────────
     _rr_col_a, _rr_col_b = st.columns(2)
@@ -4056,9 +4175,9 @@ with tab_charts:
                     orientation="h",
                     color="grade",
                     color_discrete_map={
-                        "🟢 Strong Buy": "#22c55e", "🔵 Buy": "#3b82f6",
+                        "🟢 Strong Buy": "#1A7F37", "🔵 Buy": "#3b82f6",
                         "🟡 Watch": "#eab308", "🟠 Neutral": "#f97316",
-                        "🔴 Avoid": "#ef4444",
+                        "🔴 Avoid": "#C8102E",
                     },
                     hover_name="name",
                     hover_data={"snl_rr_koz": ":,.0f", "score_composite": ":.0f"},
@@ -4132,8 +4251,8 @@ with tab_detail:
                 st.metric("Price", f"${row.get('price', 0):.3f}" if pd.notna(row.get('price')) else "—")
                 mcap = row.get('market_cap')
                 st.metric("Market Cap",
-                    f"${mcap/1e9:.2f}B" if pd.notna(mcap) and mcap >= 1e9
-                    else f"${mcap/1e6:.0f}M" if pd.notna(mcap) else "—")
+                    f"{config.CURRENCY}{mcap/1e9:.2f}B" if pd.notna(mcap) and mcap >= 1e9
+                    else f"{config.CURRENCY}{mcap/1e6:.0f}M" if pd.notna(mcap) else "—")
                 # Data freshness indicator
                 _fetched = row.get("fetched_at")
                 if _fetched is not None:
@@ -4158,17 +4277,17 @@ with tab_detail:
                 _cur_px   = row.get("price")
                 if pd.notna(_at_mean) and _at_mean > 0:
                     _at_upside = (_at_mean / _cur_px - 1) * 100 if pd.notna(_cur_px) and _cur_px > 0 else None
-                    _at_color  = "#16a34a" if (_at_upside or 0) > 5 else "#dc2626" if (_at_upside or 0) < -5 else "#b45309"
+                    _at_color  = "#1A7F37" if (_at_upside or 0) > 5 else "#C8102E" if (_at_upside or 0) < -5 else "#b45309"
                     _at_rec_str = _at_rec.replace("-", " ").title() if _at_rec else ""
                     _at_n_str   = f"  ({int(_at_count)} analysts)" if pd.notna(_at_count) else ""
                     st.markdown(
                         f"<div style='background:#ffffff;border:1px solid #e3e9f0;"
                         f"border-left:3px solid #1a3a5c;border-radius:8px;padding:10px 12px;margin-top:8px'>"
-                        f"<div style='font-size:11px;color:#5b6b7f;margin-bottom:4px'>Analyst Consensus{_at_n_str}</div>"
+                        f"<div style='font-size:11px;color:#5F6B7A;margin-bottom:4px'>Analyst Consensus{_at_n_str}</div>"
                         f"<div style='font-size:16px;font-weight:700;color:{_at_color}'>${_at_mean:.3f}"
                         + (f"  <span style='font-size:13px'>({_at_upside:+.1f}%)</span>" if _at_upside is not None else "")
                         + f"</div>"
-                        f"<div style='font-size:11px;color:#5b6b7f;margin-top:3px'>"
+                        f"<div style='font-size:11px;color:#5F6B7A;margin-top:3px'>"
                         f"Range ${_at_low:.3f}–${_at_high:.3f}" if pd.notna(_at_low) and pd.notna(_at_high) else ""
                         + (f" · {_at_rec_str}" if _at_rec_str else "")
                         + f"</div></div>",
@@ -4214,7 +4333,7 @@ with tab_detail:
                         theta=list(_peer_score_data.keys()),
                         fill="toself",
                         fillcolor="rgba(239,68,68,0.08)",
-                        line=dict(color="#ef4444", width=1.5, dash="dot"),
+                        line=dict(color="#C8102E", width=1.5, dash="dot"),
                         name=f"{_radar_primary_comm} median",
                     ))
                 fig_radar.update_layout(
@@ -4261,8 +4380,7 @@ with tab_detail:
                     # beyond ±100 % it is a tiny-revenue artefact (-3,621 % seen), not a margin
                     metrics["Operating Margin"] = f"{_op_mgn * 100:.1f}%" if abs(_op_mgn) <= 1 else "—"
                 _gr_mgn = row.get("gross_margins")
-                if pd.notna(_gr_mgn):
-                    metrics["Gross Margin"] = f"{_gr_mgn * 100:.1f}%"
+                metrics["Gross Margin"] = f"{_gr_mgn * 100:.1f}%" if pd.notna(_gr_mgn) and abs(_gr_mgn) <= 1 else "—"
                 # S&P Mining data (SPG) — shown when available
                 spg_metrics = {}
                 p_nav  = row.get("spg_p_nav")
@@ -4569,7 +4687,7 @@ with tab_detail:
                                         y=_ph_use.dropna(subset=[_hr])[_hr],
                                         name="Realized Price",
                                         mode="lines+markers",
-                                        line=dict(color="#22c55e"),
+                                        line=dict(color="#1A7F37"),
                                     )
                                 _fig_ph.update_layout(height=280, margin=dict(t=40, b=20),
                                                       legend=dict(orientation="h", y=-0.25))
@@ -4707,7 +4825,7 @@ with tab_detail:
                                         st.plotly_chart(_fig_pfa, use_container_width=True)
 
                         _sdconn.close()
-                        st.caption("Source: SNL Metals & Mining via local cache (snl_sync.py)")
+                        st.caption("来源：SNL Metals & Mining")
 
             # ── Cost Structure Waterfall ──────────────────────────────────────
             _wf_comm = str(row.get("commodity", "")).lower()
@@ -4742,11 +4860,11 @@ with tab_detail:
                     _wf_x      = ["Cash Cost", "Sustaining\nCapex", "AISC Total"]
                     _wf_y      = [_wf_cc, _wf_sustaining, 0]          # bar heights
                     _wf_base   = [0, _wf_cc, 0]                        # bar bases
-                    _wf_colors = ["#3b82f6", "#eab308", "#94a3b8"]
+                    _wf_colors = ["#3b82f6", "#eab308", "#5F6B7A"]
                     _wf_text   = [f"${_wf_cc:,.0f}", f"+${_wf_sustaining:,.0f}", f"${_wf_aisc:,.0f}"]
 
                     if _wf_spot and _wf_margin is not None:
-                        _margin_color = "#22c55e" if _wf_margin > 0 else "#ef4444"
+                        _margin_color = "#1A7F37" if _wf_margin > 0 else "#C8102E"
                         _wf_x.append("Margin\nvs Spot")
                         _wf_y.append(abs(_wf_margin))
                         _wf_base.append(_wf_aisc if _wf_margin > 0 else _wf_aisc + _wf_margin)
@@ -4857,14 +4975,14 @@ with tab_detail:
                         if pd.isna(val): return ""
                         if val >= 50:  return "background-color:#dcfce7;color:#14532d;font-weight:700"
                         if val >= 20:  return "background-color:#dbeafe;color:#1e3a5f;font-weight:600"
-                        if val >= 0:   return "color:#16a34a"
-                        return "color:#dc2626"
+                        if val >= 0:   return "color:#1A7F37"
+                        return "color:#C8102E"
 
                     def _color_aisc(val):
                         if pd.isna(val): return ""
-                        if val >= 50: return "color:#22c55e;font-weight:700"
+                        if val >= 50: return "color:#1A7F37;font-weight:700"
                         if val >= 30: return "color:#eab308"
-                        return "color:#ef4444"
+                        return "color:#C8102E"
 
                     _scen_styled = (
                         _scen_df[_display_cols].style
@@ -4974,9 +5092,9 @@ with tab_detail:
                         with _pr_cols[_ci]:
                             for _r in _chunk:
                                 _bw = _r["Pct"]
-                                _bc = ("#22c55e" if _bw >= 75 else
+                                _bc = ("#1A7F37" if _bw >= 75 else
                                        "#3b82f6" if _bw >= 50 else
-                                       "#eab308" if _bw >= 25 else "#ef4444")
+                                       "#eab308" if _bw >= 25 else "#C8102E")
                                 st.markdown(
                                     f"**{_r['Metric']}** ({_r['Value']}) — {_r['Tier']}<br>"
                                     f"<div style='background:#e3e9f0;border-radius:3px;"
@@ -4997,7 +5115,7 @@ with tab_detail:
                         col.markdown(f"**{label}**: —")
                         return
                     s = float(score)
-                    color = "#22c55e" if s >= 70 else "#eab308" if s >= 45 else "#ef4444"
+                    color = "#1A7F37" if s >= 70 else "#eab308" if s >= 45 else "#C8102E"
                     col.markdown(
                         f"**{label}**: {s:.0f}/100<br>"
                         f"<div style='background:#e3e9f0;border-radius:4px;height:8px;width:100%'>"
@@ -5103,15 +5221,15 @@ with tab_detail:
                 _pgrp = row.get("peer_group", "")
                 _ppct = row.get("peer_pct")
                 if pd.notna(_pr) and pd.notna(_pn) and _pn > 0:
-                    _pr_color = "#b45309" if _pr == 1 else "#16a34a" if _pr <= max(2, _pn * 0.25) else "#5b6b7f"
+                    _pr_color = "#b45309" if _pr == 1 else "#1A7F37" if _pr <= max(2, _pn * 0.25) else "#5F6B7A"
                     st.markdown(
                         f"<div style='margin-top:12px;padding:10px 14px;background:#ffffff;"
                         f"border:1px solid #e3e9f0;border-radius:8px;border-left:3px solid {_pr_color}'>"
                         f"<span style='color:{_pr_color};font-weight:700;font-size:15px'>"
                         f"#{int(_pr)} of {int(_pn)}</span>"
-                        f"<span style='color:#5b6b7f;font-size:13px'> in peer group: "
+                        f"<span style='color:#5F6B7A;font-size:13px'> in peer group: "
                         f"<b style='color:#172033'>{_pgrp}</b></span>"
-                        + (f"<span style='color:#5b6b7f;font-size:12px'> · top {100-int(_ppct)}%</span>"
+                        + (f"<span style='color:#5F6B7A;font-size:12px'> · top {100-int(_ppct)}%</span>"
                            if pd.notna(_ppct) else "")
                         + "</div>",
                         unsafe_allow_html=True,
@@ -5145,7 +5263,7 @@ with tab_detail:
                         hist, x="snap_date", y=score_cols,
                         labels={"value": "Score", "snap_date": "Date", "variable": ""},
                         color_discrete_map={
-                            "score_composite":  "#22c55e",
+                            "score_composite":  "#1A7F37",
                             "score_valuation":  "#3b82f6",
                             "score_health":     "#a855f7",
                             "score_momentum":   "#f59e0b",
@@ -5238,12 +5356,7 @@ with tab_detail:
                         pd.to_numeric(_combined_display["Prod(koz/yr)"], errors="coerce") / 1000
                     )
 
-                _combined_styled = (
-                    _combined_display
-                    .drop(columns=["_highlight"])
-                    .style
-                    .apply(_highlight_selected, axis=1)
-                    .format({
+                _peer_fmt = {
                         "Score":           lambda x: f"{x:.1f}" if pd.notna(x) else "—",
                         "P/B":             lambda x: f"{x:.2f}" if pd.notna(x) else "—",
                         "EV/EBITDA":       lambda x: f"{x:.1f}x" if pd.notna(x) else "—",
@@ -5257,8 +5370,14 @@ with tab_detail:
                         "Reserves($M)":    lambda x: f"${x:,.0f}M" if pd.notna(x) else "—",
                         "↑ NAV Upside%":   lambda x: f"{x:+.0f}%" if pd.notna(x) else "—",
                         "RSI":             lambda x: f"{x:.0f}" if pd.notna(x) else "—",
-                    }, na_rep="—")
-                )
+                }
+                _peer_view = _combined_display.drop(columns=["_highlight"]).copy()
+                for _pc in _peer_view.columns:
+                    _pf = _peer_fmt.get(_pc)
+                    _peer_view[_pc] = _peer_view[_pc].map(
+                        lambda x, _pf=_pf: "—" if x is None or (isinstance(x, float) and pd.isna(x))
+                        else (_pf(x) if _pf else x))
+                _combined_styled = _peer_view.style.apply(_highlight_selected, axis=1)
                 st.dataframe(_combined_styled, width="stretch", height=400)
 
                 # ── Visual: selected vs peer median bar chart ─────────────────
@@ -5290,7 +5409,7 @@ with tab_detail:
                         "Selected":      round(_sel_val, 2),
                         "Peer Median":   round(_peer_med, 2),
                         "vs Peer (%)":   round(_display_pct, 1),
-                        "color":         "#22c55e" if _display_pct >= 0 else "#ef4444",
+                        "color":         "#1A7F37" if _display_pct >= 0 else "#C8102E",
                     })
 
                 if _bar_data:
@@ -5341,7 +5460,7 @@ with tab_detail:
                             _fig_sh.add_trace(go.Scatter(
                                 x=_hist_df["snap_date"], y=_hist_df["score_valuation"],
                                 name="Valuation",
-                                line=dict(color="#22c55e", width=1.5, dash="dot"),
+                                line=dict(color="#1A7F37", width=1.5, dash="dot"),
                                 mode="lines",
                             ))
                         if _hist_df["score_momentum"].notna().any():
@@ -5422,9 +5541,9 @@ with tab_detail:
                             _wf_labels.append(_label)
                             _wf_deltas.append(round(_delta, 1))
                             if _col == "score_composite":
-                                _wf_colors.append("#3b82f6" if _delta >= 0 else "#ef4444")
+                                _wf_colors.append("#3b82f6" if _delta >= 0 else "#C8102E")
                             else:
-                                _wf_colors.append("#22c55e" if _delta >= 0 else "#f87171")
+                                _wf_colors.append("#1A7F37" if _delta >= 0 else "#C8102E")
 
                     if _wf_labels:
                         # Build waterfall: sub-scores as absolute bars, composite separately
@@ -5453,14 +5572,14 @@ with tab_detail:
                                 font=dict(size=14),
                             ),
                             yaxis=dict(title="Δ Score (pts)", zeroline=True,
-                                       zerolinecolor="#6b7280", zerolinewidth=1.5),
+                                       zerolinecolor="#5F6B7A", zerolinewidth=1.5),
                             xaxis=dict(title="Sub-score"),
                             height=320,
                             margin=dict(l=0, r=0, t=50, b=0),
                             showlegend=False,
                             plot_bgcolor="rgba(0,0,0,0)",
                         )
-                        _fig_wf.add_hline(y=0, line_width=1, line_color="#6b7280")
+                        _fig_wf.add_hline(y=0, line_width=1, line_color="#5F6B7A")
 
                         _wf_c1, _wf_c2 = st.columns([3, 1])
                         with _wf_c1:
@@ -5468,7 +5587,7 @@ with tab_detail:
                         with _wf_c2:
                             st.markdown("**Composite Score**")
                             _comp_arrow = "▲" if _comp_delta >= 0 else "▼"
-                            _comp_css   = "color:#22c55e" if _comp_delta >= 0 else "color:#ef4444"
+                            _comp_css   = "color:#1A7F37" if _comp_delta >= 0 else "color:#C8102E"
                             st.markdown(
                                 f"<span style='font-size:2rem;{_comp_css}'>"
                                 f"{_comp_arrow} {_comp_delta:+.1f}</span>",
@@ -5526,35 +5645,35 @@ with tab_detail:
                 _rl_cols = st.columns(3)
                 _rl_cols[0].markdown(
                     f"[📂 **ASX Announcements**]({_sedar_url})  \n"
-                    f"<span style='font-size:11px;color:#64748b'>Annual Reports · Quarterly Activities Reports · Press releases</span>",
+                    f"<span style='font-size:11px;color:#5F6B7A'>Annual Reports · Quarterly Activities Reports · Press releases</span>",
                     unsafe_allow_html=True,
                 )
                 _rl_cols[1].markdown(
                     f"[📈 **Stockwatch**]({_sw_url})  \n"
-                    f"<span style='font-size:11px;color:#64748b'>ASX news & quotes</span>",
+                    f"<span style='font-size:11px;color:#5F6B7A'>ASX news & quotes</span>",
                     unsafe_allow_html=True,
                 )
                 _rl_cols[2].markdown(
                     f"[🏛️ **ASX Listing**]({_tsx_url})  \n"
-                    f"<span style='font-size:11px;color:#64748b'>Exchange profile</span>",
+                    f"<span style='font-size:11px;color:#5F6B7A'>Exchange profile</span>",
                     unsafe_allow_html=True,
                 )
                 _rl_cols2 = st.columns(3)
                 _rl_cols2[0].markdown(
                     f"[⛏️ **Mining.com**]({_mining_url})  \n"
-                    f"<span style='font-size:11px;color:#64748b'>Industry news</span>",
+                    f"<span style='font-size:11px;color:#5F6B7A'>Industry news</span>",
                     unsafe_allow_html=True,
                 )
                 _rl_cols2[1].markdown(
                     f"[🔬 **Junior Stock Review**]({_jsr_url})  \n"
-                    f"<span style='font-size:11px;color:#64748b'>ASX focused analysis</span>",
+                    f"<span style='font-size:11px;color:#5F6B7A'>ASX focused analysis</span>",
                     unsafe_allow_html=True,
                 )
                 # Yahoo Finance link (always available)
                 _yf_url = f"https://finance.yahoo.com/quote/{sel_ticker}"
                 _rl_cols2[2].markdown(
                     f"[📊 **Yahoo Finance**]({_yf_url})  \n"
-                    f"<span style='font-size:11px;color:#64748b'>Financials · Options · Holders</span>",
+                    f"<span style='font-size:11px;color:#5F6B7A'>Financials · Options · Holders</span>",
                     unsafe_allow_html=True,
                 )
 
@@ -5583,7 +5702,7 @@ with tab_detail:
                         if _title and _link:
                             st.markdown(
                                 f"**[{_title}]({_link})**  \n"
-                                f"<span style='font-size:11px;color:#64748b'>"
+                                f"<span style='font-size:11px;color:#5F6B7A'>"
                                 f"{_publisher}" + (f" · {_time_str}" if _time_str else "") +
                                 f"</span>",
                                 unsafe_allow_html=True,
@@ -5622,7 +5741,7 @@ with tab_detail:
                         ("score_momentum",   "Oversold",       lambda v: f"{v:.1f}" if pd.notna(v) else "—"),
                         ("score_mining",     "⛏️ Mining",      lambda v: "缺数据" if pd.notna(v) and v == 50 else (f"{v:.1f}" if pd.notna(v) else "—")),
                         ("price",            "Price",          lambda v: f"${v:.3f}" if pd.notna(v) else "—"),
-                        ("market_cap",       "Mkt Cap",        lambda v: (f"${v/1e9:.2f}B" if v >= 1e9 else f"${v/1e6:.0f}M") if pd.notna(v) else "—"),
+                        ("market_cap",       "Mkt Cap",        lambda v: (f"{config.CURRENCY}{v/1e9:.2f}B" if v >= 1e9 else f"{config.CURRENCY}{v/1e6:.0f}M") if pd.notna(v) else "—"),
                         ("price_to_book",    "P/B",            lambda v: f"{v:.2f}x" if pd.notna(v) else "—"),
                         ("ev_ebitda",        "EV/EBITDA",      lambda v: f"{v:.1f}x" if pd.notna(v) else "—"),
                         ("spg_p_nav",        "P/NAV (S&P)",    lambda v: f"{v:.2f}x" if pd.notna(v) else "—"),
@@ -5659,7 +5778,7 @@ with tab_detail:
                                    "score_mining", "score_commodity", "score_stage"]
                     _radar_labels = ["Valuation", "Health", "Oversold",
                                      "⛏️ Mining", "Commodity", "Stage"]
-                    _radar_colors = ["#3b82f6", "#22c55e", "#f59e0b", "#a855f7"]
+                    _radar_colors = ["#3b82f6", "#1A7F37", "#f59e0b", "#a855f7"]
                     fig_cmp_radar = go.Figure()
                     for _ri, _tk in enumerate(_cmp_tickers):
                         if _tk not in _cmp_df.index:
@@ -6700,8 +6819,8 @@ with tab_report:
                 mcap      = row.get("market_cap")
 
                 price_str = f"${price:.3f}" if pd.notna(price) else "N/A"
-                mcap_str  = (f"${mcap/1e9:.2f}B" if pd.notna(mcap) and mcap >= 1e9
-                             else f"${mcap/1e6:.0f}M" if pd.notna(mcap) else "N/A")
+                mcap_str  = (f"{config.CURRENCY}{mcap/1e9:.2f}B" if pd.notna(mcap) and mcap >= 1e9
+                             else f"{config.CURRENCY}{mcap/1e6:.0f}M" if pd.notna(mcap) else "N/A")
 
                 if zh:
                     lines += [
@@ -6836,10 +6955,10 @@ with tab_report:
             _fig_trend = go.Figure()
             _comm_palette = {
                 "Universe (All)": "#f59e0b",
-                "Gold":     "#eab308", "Silver":   "#94a3b8",
-                "Copper":   "#f97316", "Uranium":  "#22c55e",
+                "Gold":     "#eab308", "Silver":   "#5F6B7A",
+                "Copper":   "#f97316", "Uranium":  "#1A7F37",
                 "Nickel":   "#06b6d4", "Lithium":  "#a855f7",
-                "Iron Ore": "#ef4444", "Zinc":     "#3b82f6",
+                "Iron Ore": "#C8102E", "Zinc":     "#3b82f6",
             }
             for _grp in ["Universe (All)"] + _top_comms:
                 _sub = _trend_filtered[_trend_filtered["commodity_group"] == _grp]
@@ -6851,7 +6970,7 @@ with tab_report:
                     mode="lines+markers",
                     name=_grp,
                     line=dict(
-                        color=_comm_palette.get(_grp, "#6b7280"),
+                        color=_comm_palette.get(_grp, "#5F6B7A"),
                         width=3 if _is_univ else 1.5,
                         dash="solid" if _is_univ else "dot",
                     ),
@@ -6902,7 +7021,7 @@ with tab_report:
 
     if lang == "Both / 双语":
         # ── Side-by-side bilingual layout ─────────────────────────────────────
-        col_en, col_zh = st.columns(2)
+        col_en, col_zh = st.container(key="report_cols").columns(2)
         report_en = _generate_report(src, lang="en")
         report_zh = _generate_report(src, lang="zh")
         with col_en:
