@@ -18,7 +18,7 @@ from html import escape
 
 import streamlit as st
 
-THEME_VERSION = "2026-11-17.4"
+THEME_VERSION = "2026-11-17.5"
 
 NAVY = "#0B1F3A"        # top bar, sidebar, headings
 NAVY_2 = "#16325C"      # hover / active in the sidebar
@@ -29,6 +29,18 @@ PANEL = "#F4F6F9"       # panels and table headers
 RED = "#C8102E"         # emphasis and losses — nothing decorative
 GREEN = "#1A7F37"       # gains
 AMBER = "#B26A00"       # warnings
+CAPTION = "#5F6B7A"     # captions and notes (UI review: was effectively #9299A3)
+
+# One colour set for grades and good→bad scales on every page and chart (UI review 2026-11-17:
+# the screeners mixed Tailwind blue/yellow/orange with the brand palette). Text colours pass
+# WCAG AA on white; each has a light tint for badge and cell backgrounds.
+BLUE = "#1F5FAD"        # "good, not best": Buy, second band of a scale
+ORANGE = "#C2410C"      # "weak": Neutral, fourth band of a scale
+GOLD = "#B8860B"        # the commodity gold in charts (#FFD700 is invisible on white)
+TINT = {"green": "#E3F4E8", "blue": "#E6EEF9", "amber": "#FFF2DB", "orange": "#FDEBE1", "red": "#FCE8EB",
+        "grey": "#ECEFF3"}
+GRADE_COLORS = {"🟢 Strong Buy": GREEN, "🔵 Buy": BLUE, "🟡 Watch": AMBER, "🟠 Neutral": ORANGE, "🔴 Avoid": RED}
+SCALE = [GREEN, BLUE, AMBER, ORANGE, RED]   # best → worst
 
 _CSS = f"""
 <style>
@@ -56,7 +68,10 @@ h1 {{ font-size: 1.5rem !important; font-weight: 700 !important; color: var(--na
       margin: 0 0 .2rem !important; padding: 0 !important; letter-spacing: -0.01em; }}
 h2 {{ font-size: 1.15rem !important; color: var(--navy) !important; padding-top: .4rem !important; }}
 h3, h4 {{ font-size: 1rem !important; color: var(--navy) !important; padding-top: .3rem !important; }}
-[data-testid="stCaptionContainer"], .stCaption {{ color: var(--muted) !important; font-size: .84rem !important; line-height: 1.5; }}
+/* Streamlit fades captions to 60 % opacity, which turned #4A5565 into ~#9299A3 (fails contrast): undo it */
+[data-testid="stCaptionContainer"], .stCaption {{ opacity: 1 !important; color: {CAPTION} !important;
+    font-size: .84rem !important; line-height: 1.5; }}
+[data-testid="stCaptionContainer"] p {{ color: {CAPTION} !important; }}
 
 /* numbers: tabular figures everywhere, right-aligned in tables */
 [data-testid="stMetricValue"], [data-testid="stDataFrame"], [data-testid="stTable"], .num {{
@@ -142,6 +157,11 @@ h3, h4 {{ font-size: 1rem !important; color: var(--navy) !important; padding-top
 .ddbar .green {{ background: var(--green); }} .ddbar .amber {{ background: var(--amber); }} .ddbar .red {{ background: var(--red); }}
 
 @media (max-width: 640px) {{
+  /* charts placed side by side (st.columns) get one full row each on a phone: at ~170 px a chart's
+     title is cut and its legend turns into a list over the plot (UI review 2026-11-17) */
+  div[data-testid="stHorizontalBlock"]:has(.js-plotly-plot) {{ flex-wrap: wrap !important; }}
+  div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:has(.js-plotly-plot) {{
+      min-width: 100% !important; width: 100% !important; flex: 1 1 100% !important; }}
   .acct-strip .cell {{ min-width: 48%; border-right: 0; border-bottom: 1px solid #23406A; }}
   .block-container, [data-testid="stMainBlockContainer"] {{ padding-left: 1rem !important; padding-right: 1rem !important; }}
 }}
@@ -159,6 +179,16 @@ def apply(brand: str = "") -> None:
 # status words -> badge colour, for badge() and for turning the old emoji dots into badges
 TONE = {"red": "red", "amber": "amber", "green": "green", "grey": "grey", "navy": "navy"}
 EMOJI_TONE = {"🔴": "red", "🟠": "amber", "🟡": "amber", "🟢": "green", "⚪": "grey", "🔵": "navy"}
+
+
+def pin_first(df, column_config: dict | None = None) -> dict:
+    """column_config for st.dataframe with the first column pinned, so it stays put when a phone
+    scrolls the table sideways (UI review 2026-11-17). Merges into an existing column_config."""
+    cfg = dict(column_config or {})
+    cols = list(getattr(df, "columns", getattr(getattr(df, "data", None), "columns", [])))
+    if cols and cols[0] not in cfg:
+        cfg[cols[0]] = st.column_config.Column(pinned=True)
+    return cfg
 
 
 def badge(text: str, tone: str = "grey") -> str:

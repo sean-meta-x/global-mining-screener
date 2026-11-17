@@ -20,18 +20,22 @@ site_theme = importlib.reload(site_theme)
 
 # Global chart style — light "research report" template, mobile-friendly:
 # compact margins, horizontal legend on top, smaller base fonts.
+# categories (commodities, stages): the brand family only — navy, blue, gold, green, burnt orange,
+# slate, steel blue, brown-red (UI review 2026-11-17). Red stays for losses, so it is not a category colour.
 _CHART_COLORWAY = [
-    "#1a3a5c", "#2c6e9e", "#4a8ab5", "#e67e22",
-    "#1A7F37", "#C8102E", "#7c3aed", "#0891b2",
+    "#0B1F3A", "#1F5FAD", "#B8860B", "#1A7F37",
+    "#C2410C", "#6B7787", "#7FA7D9", "#8C4A3C",
 ]
 _tmpl = go.layout.Template(pio.templates["plotly_white"])
 _tmpl.layout.update(
     colorway=_CHART_COLORWAY,
     font=dict(size=12),
     # automargin keeps the title clear of multi-row top legends
-    title=dict(font=dict(size=15), x=0.0, xanchor="left",
-               y=1.0, yanchor="top", automargin=True, pad=dict(t=8, b=8)),
-    margin=dict(l=10, r=10, t=56, b=10),
+    # title at the top of the figure, legend just above the plot: room for two legend rows between,
+    # so a legend title ("阶段", "商品") no longer lands on the chart title
+    title=dict(font=dict(size=15), x=0.0, xanchor="left", yref="container",
+               y=0.985, yanchor="top", pad=dict(t=4, b=4)),
+    margin=dict(l=10, r=10, t=112, b=10),
     legend=dict(
         orientation="h",
         yanchor="bottom", y=1.02,
@@ -88,8 +92,8 @@ def _report_to_pdf(markdown_text: str, title: str = "Mining Report") -> bytes:
         title=title,
     )
     styles = getSampleStyleSheet()
-    h1 = ParagraphStyle("H1", parent=styles["Heading1"], fontName=font_name, fontSize=16, spaceAfter=10, textColor=colors.HexColor("#1a3a5c"))
-    h2 = ParagraphStyle("H2", parent=styles["Heading2"], fontName=font_name, fontSize=13, spaceAfter=6,  textColor=colors.HexColor("#2c6e9e"))
+    h1 = ParagraphStyle("H1", parent=styles["Heading1"], fontName=font_name, fontSize=16, spaceAfter=10, textColor=colors.HexColor("#0B1F3A"))
+    h2 = ParagraphStyle("H2", parent=styles["Heading2"], fontName=font_name, fontSize=13, spaceAfter=6,  textColor=colors.HexColor("#1F5FAD"))
     h3 = ParagraphStyle("H3", parent=styles["Heading3"], fontName=font_name, fontSize=11, spaceAfter=4,  textColor=colors.HexColor("#4a8ab5"))
     body = ParagraphStyle("Body",   parent=styles["Normal"], fontName=font_name, fontSize=9, spaceAfter=4, leading=14)
     bull = ParagraphStyle("Bullet", parent=body, leftIndent=12, spaceAfter=3)
@@ -227,12 +231,12 @@ if "weight_gen" not in st.session_state:
     st.session_state["weight_gen"] = 0
 
 # ── CSS — light "research report" design system ───────────────────────────────
-# Palette matches the PDF report (#1a3a5c navy / #2c6e9e mid-blue).
+# Palette matches the PDF report (#0B1F3A navy / #1F5FAD mid-blue).
 st.markdown("""
 <style>
 :root {
-    --navy:    #1a3a5c;
-    --navy-2:  #2c6e9e;
+    --navy:    #0B1F3A;
+    --navy-2:  #1F5FAD;
     --ink:     #172033;
     --muted:   #5F6B7A;
     --line:    #e3e9f0;
@@ -255,8 +259,8 @@ hr { border-color: var(--line); }
 /* ── Grade colours ── */
 .grade-strong { color: #1A7F37; font-weight: 700; }
 .grade-buy    { color: var(--navy-2); font-weight: 700; }
-.grade-watch  { color: #b45309; font-weight: 700; }
-.grade-neutral{ color: #ea580c; }
+.grade-watch  { color: #B26A00; font-weight: 700; }
+.grade-neutral{ color: #C2410C; }
 .grade-avoid  { color: #C8102E; }
 
 /* ── Tabs: research-report underline style, swipeable on small screens ── */
@@ -1173,17 +1177,17 @@ with st.sidebar:
 
             # Grade colour
             _qs_grade_color = {
-                "🟢 Strong Buy": "#1A7F37", "🔵 Buy": "#2c6e9e",
-                "🟡 Watch": "#b45309", "🟠 Neutral": "#ea580c", "🔴 Avoid": "#C8102E",
+                "🟢 Strong Buy": "#1A7F37", "🔵 Buy": "#1F5FAD",
+                "🟡 Watch": "#B26A00", "🟠 Neutral": "#C2410C", "🔴 Avoid": "#C8102E",
             }.get(_qs_grade, "#5F6B7A")
 
             st.markdown(
                 f"<div style='background:#ffffff;border:1px solid #e3e9f0;"
-                f"border-left:3px solid #1a3a5c;border-radius:10px;padding:12px 14px;"
+                f"border-left:3px solid #0B1F3A;border-radius:10px;padding:12px 14px;"
                 f"margin-bottom:8px'>"
                 f"<div style='font-size:13px;font-weight:700;color:{_qs_grade_color}'>"
                 f"{_qs_grade}</div>"
-                f"<div style='font-size:15px;font-weight:800;color:#1a3a5c;margin:2px 0'>"
+                f"<div style='font-size:15px;font-weight:800;color:#0B1F3A;margin:2px 0'>"
                 f"{_qs.get('name', _qs_tk)}</div>"
                 f"<div style='font-size:11px;color:#5F6B7A'>{_qs_comm} · {_qs_stage}</div>"
                 f"<hr style='border-color:#e3e9f0;margin:8px 0'>"
@@ -1201,10 +1205,10 @@ with st.sidebar:
                    if pd.notna(_qs_upside) else "<span></span>") +
                 f"</div>"
                 + (f"<div style='font-size:11px;color:#5F6B7A;margin-top:3px'>"
-                   f"Analyst target: <span style='color:#2c6e9e'>{_qs_an_up:+.0f}%</span>"
+                   f"Analyst target: <span style='color:#1F5FAD'>{_qs_an_up:+.0f}%</span>"
                    f" ({int(_qs_an_ct)} analysts)</div>"
                    if pd.notna(_qs_an_up) and pd.notna(_qs_an_ct) and _qs_an_ct >= 1 else "")
-                + (f"<div style='font-size:11px;color:#b45309;margin-top:3px'>"
+                + (f"<div style='font-size:11px;color:#B26A00;margin-top:3px'>"
                    f"⚡ {_qs_peer_str}</div>"
                    if _qs_peer_str else "")
                 + f"</div>",
@@ -1764,13 +1768,13 @@ with tab_today:
             with _op_cols[_ci]:
                 _grade_color = (
                     "#1A7F37" if "Strong Buy" in _op_grade else
-                    "#2563eb" if "Buy"        in _op_grade else
-                    "#d97706"
+                    "#1F5FAD" if "Buy"        in _op_grade else
+                    "#B26A00"
                 )
                 _grade_bg = (
-                    "#dcfce7" if "Strong Buy" in _op_grade else
-                    "#dbeafe" if "Buy"        in _op_grade else
-                    "#fef3c7"
+                    "#E3F4E8" if "Strong Buy" in _op_grade else
+                    "#E6EEF9" if "Buy"        in _op_grade else
+                    "#FFF2DB"
                 )
                 st.markdown(
                     f"<div class='opp-card' style='border-top:4px solid {_grade_color};'>"
@@ -2100,8 +2104,8 @@ with tab_table:
 
     def color_score(val):
         if pd.isna(val): return ""
-        if val >= 75:    return "background-color: #dcfce7; color: #14532d; font-weight:600"
-        if val >= 60:    return "background-color: #dbeafe; color: #1e3a5f"
+        if val >= 75:    return "background-color: #E3F4E8; color: #1A7F37; font-weight:600"
+        if val >= 60:    return "background-color: #E6EEF9; color: #0B1F3A"
         if val >= 45:    return "background-color: #fef9c3; color: #713f12"
         return                  "background-color: #fee2e2; color: #7f1d1d"
 
@@ -2112,7 +2116,7 @@ with tab_table:
     def color_rsi(val):
         """Green = oversold (<30), amber = leaning oversold (30–45), red = overbought (>70)."""
         if pd.isna(val): return ""
-        if val < 30: return "background-color: #dcfce7; color: #14532d; font-weight:600"
+        if val < 30: return "background-color: #E3F4E8; color: #1A7F37; font-weight:600"
         if val > 70: return "background-color: #fee2e2; color: #7f1d1d"
         if val < 45: return "background-color: #fef9c3; color: #713f12"
         return ""
@@ -2125,8 +2129,8 @@ with tab_table:
     def color_upside(val):
         """Green = big discount to NAV; amber = modest discount; grey = at/above NAV."""
         if pd.isna(val): return ""
-        if val >= 50:  return "background-color: #dcfce7; color: #14532d; font-weight:700"
-        if val >= 25:  return "background-color: #dbeafe; color: #1e3a5f; font-weight:600"
+        if val >= 50:  return "background-color: #E3F4E8; color: #1A7F37; font-weight:700"
+        if val >= 25:  return "background-color: #E6EEF9; color: #0B1F3A; font-weight:600"
         if val >= 10:  return "color: #1A7F37; font-weight:600"
         if val < 0:    return "color: #C8102E"
         return ""
@@ -2139,7 +2143,7 @@ with tab_table:
             rank = int(val.split("/")[0].strip())
         except ValueError:
             return ""
-        if rank == 1: return "background-color: #fef3c7; color: #92400e; font-weight:700"
+        if rank == 1: return "background-color: #FFF2DB; color: #92400e; font-weight:700"
         if rank <= 3: return "color: #5F6B7A; font-weight:600"
         return ""
 
@@ -2372,7 +2376,7 @@ with tab_table:
             _fig_aisc.add_hline(
                 y=_gold_spot,
                 line_dash="dot",
-                line_color="#FFD700",
+                line_color="#B8860B",
                 annotation_text=f"Spot ${_gold_spot:,.0f}",
                 annotation_position="top right",
             )
@@ -2397,7 +2401,7 @@ with tab_charts:
             color="stage",
             title="Composite Score Distribution",
             labels={"score_composite": "Score", "count": "# Companies"},
-            color_discrete_sequence=px.colors.qualitative.Set2,
+            color_discrete_sequence=_CHART_COLORWAY,
         )
         fig.update_layout(showlegend=True, height=350)
         st.plotly_chart(fig, width="stretch")
@@ -2445,8 +2449,8 @@ with tab_charts:
             # "Cheap" zone: P/B < 2, EV/EBITDA < 8 — drawn in data coords (linear scale)
             fig3.add_shape(
                 type="rect", x0=0, x1=2, y0=0, y1=8,
-                fillcolor="rgba(34,197,94,0.10)",
-                line=dict(color="rgba(34,197,94,0.6)", dash="dot", width=1.5),
+                fillcolor="rgba(26,127,55,0.10)",
+                line=dict(color="rgba(26,127,55,0.6)", dash="dot", width=1.5),
             )
             fig3.add_annotation(
                 x=1, y=7.5, text="Value Zone", showarrow=False,
@@ -2514,8 +2518,8 @@ with tab_charts:
                 # Highlight conviction zone (top-right)
                 fig_an.add_shape(
                     type="rect", x0=50, x1=100, y0=50, y1=300,
-                    fillcolor="rgba(34,197,94,0.08)",
-                    line=dict(color="rgba(34,197,94,0.5)", dash="dot", width=1),
+                    fillcolor="rgba(26,127,55,0.08)",
+                    line=dict(color="rgba(26,127,55,0.5)", dash="dot", width=1),
                 )
                 fig_an.add_annotation(
                     x=75, y=280, text="Conviction Zone",
@@ -2594,11 +2598,11 @@ with tab_charts:
                     color="stage",
                     title="P/NAV Distribution (S&P Capital IQ)",
                     labels={"spg_p_nav": "P/NAV", "count": "# Companies"},
-                    color_discrete_sequence=px.colors.qualitative.Set2,
+                    color_discrete_sequence=_CHART_COLORWAY,
                 )
                 # Fair value line at 1.0
                 fig_pnav.add_vline(
-                    x=1.0, line_dash="solid", line_color="rgba(239,68,68,0.7)",
+                    x=1.0, line_dash="solid", line_color="rgba(200,16,46,0.7)",
                     line_width=2,
                     annotation_text="NAV = 1.0×",
                     annotation_position="top right",
@@ -2607,11 +2611,11 @@ with tab_charts:
                 # Median line
                 _pnav_med = _pnav_df["spg_p_nav"].median()
                 fig_pnav.add_vline(
-                    x=_pnav_med, line_dash="dot", line_color="rgba(59,130,246,0.7)",
+                    x=_pnav_med, line_dash="dot", line_color="rgba(31,95,173,0.7)",
                     line_width=1.5,
                     annotation_text=f"Median {_pnav_med:.2f}×",
                     annotation_position="top left",
-                    annotation_font_color="#3b82f6",
+                    annotation_font_color="#1F5FAD",
                 )
                 fig_pnav.update_layout(height=360, bargap=0.05)
                 st.plotly_chart(fig_pnav, width="stretch")
@@ -2646,14 +2650,14 @@ with tab_charts:
                     },
                 )
                 # Fair value and score threshold lines
-                fig_pnav2.add_vline(x=1.0, line_dash="dot", line_color="rgba(239,68,68,0.5)")
-                fig_pnav2.add_hline(y=_CUT_B, line_dash="dot", line_color="rgba(34,197,94,0.5)",
+                fig_pnav2.add_vline(x=1.0, line_dash="dot", line_color="rgba(200,16,46,0.5)")
+                fig_pnav2.add_hline(y=_CUT_B, line_dash="dot", line_color="rgba(26,127,55,0.5)",
                                     annotation_text=f"Buy ≥ {_CUT_B:.1f}", annotation_position="right")
                 # Deep value zone: P/NAV < 0.7, Score > 60
                 fig_pnav2.add_shape(
                     type="rect", x0=0, x1=0.7, y0=_CUT_B, y1=105,
-                    fillcolor="rgba(34,197,94,0.08)",
-                    line=dict(color="rgba(34,197,94,0.4)", dash="dot", width=1),
+                    fillcolor="rgba(26,127,55,0.08)",
+                    line=dict(color="rgba(26,127,55,0.4)", dash="dot", width=1),
                 )
                 fig_pnav2.add_annotation(
                     x=0.35, y=100, text="Deep Value",
@@ -2771,8 +2775,8 @@ with tab_charts:
                     # Quadrant labels
                     for (tx, ty, label, color) in [
                         (20, 10, "Acceleration", "#1A7F37"),
-                        (-20, 10, "Recovery", "#3b82f6"),
-                        (20, -10, "Fading", "#f97316"),
+                        (-20, 10, "Recovery", "#1F5FAD"),
+                        (20, -10, "Fading", "#C2410C"),
                         (-20, -10, "Weakness", "#C8102E"),
                     ]:
                         fig_mom.add_annotation(
@@ -2804,7 +2808,7 @@ with tab_charts:
         _trends_main = _trends[_trends["commodity_group"].isin(_main_comms)]
 
         _COMM_COLORS = {
-            "Gold":     "#FFD700",
+            "Gold":     "#B8860B",
             "Silver":   "#C0C0C0",
             "Copper":   "#B87333",
             "Uranium":  "#7CFC00",
@@ -2830,10 +2834,10 @@ with tab_charts:
             hover_data={"n_companies": True},
             title="Average Composite Score by Commodity — Historical",
         )
-        fig_trend.add_hline(y=_CUT_B, line_dash="dot", line_color="rgba(59,130,246,0.4)",
+        fig_trend.add_hline(y=_CUT_B, line_dash="dot", line_color="rgba(31,95,173,0.4)",
                             annotation_text=f"Buy ≥ {_CUT_B:.1f}", annotation_position="right")
         if _CUT_SB != float("inf"):
-            fig_trend.add_hline(y=_CUT_SB, line_dash="dot", line_color="rgba(34,197,94,0.4)",
+            fig_trend.add_hline(y=_CUT_SB, line_dash="dot", line_color="rgba(26,127,55,0.4)",
                                 annotation_text=f"Strong Buy ≥ {_CUT_SB:.1f}", annotation_position="right")
         fig_trend.update_layout(height=420, legend_title_text="Commodity",
                                 hovermode="x unified")
@@ -2859,11 +2863,11 @@ with tab_charts:
                 return "—"
             pct = max(0, min(100, val / max_val * 100))
             if val >= 75:
-                bar_color, badge_bg, badge_fg = "#1A7F37", "#dcfce7", "#1A7F37"
+                bar_color, badge_bg, badge_fg = "#1A7F37", "#E3F4E8", "#1A7F37"
             elif val >= 60:
-                bar_color, badge_bg, badge_fg = "#2563eb", "#dbeafe", "#1d4ed8"
+                bar_color, badge_bg, badge_fg = "#1F5FAD", "#E6EEF9", "#1F5FAD"
             elif val >= 45:
-                bar_color, badge_bg, badge_fg = "#d97706", "#fef3c7", "#b45309"
+                bar_color, badge_bg, badge_fg = "#B26A00", "#FFF2DB", "#B26A00"
             else:
                 bar_color, badge_bg, badge_fg = "#C8102E", "#fee2e2", "#C8102E"
             return (
@@ -3003,7 +3007,7 @@ with tab_charts:
         _cph["indexed"] = _cph.apply(_normalise, axis=1)
 
         _COMM_COLORS_SPOT = {
-            "Gold":    "#FFD700",
+            "Gold":    "#B8860B",
             "Silver":  "#C0C0C0",
             "Copper":  "#B87333",
             "Uranium": "#7CFC00",
@@ -3092,8 +3096,8 @@ with tab_charts:
         )
         _cc_colors = _cc_df["_aisc_margin"].apply(
             lambda m: "#1A7F37" if pd.notna(m) and m > 40
-            else "#3b82f6" if pd.notna(m) and m > 20
-            else "#eab308" if pd.notna(m) and m > 0
+            else "#1F5FAD" if pd.notna(m) and m > 20
+            else "#B26A00" if pd.notna(m) and m > 0
             else "#C8102E"
         )
 
@@ -3124,7 +3128,7 @@ with tab_charts:
                 x=_cc_df["name"],
                 y=_cc_df["_cash_cost_clipped"],
                 name="Cash Cost",
-                marker_color="rgba(59,130,246,0.85)",
+                marker_color="rgba(31,95,173,0.85)",
                 customdata=np.column_stack([
                     _cc_df["name"],
                     _cc_df["_cash_cost_clipped"].round(0),
@@ -3185,11 +3189,11 @@ with tab_charts:
             fig_cc.add_hline(
                 y=_cc_spot,
                 line_dash="dash",
-                line_color="#FFD700",
+                line_color="#B8860B",
                 line_width=2,
                 annotation_text=_cc_spot_label,
                 annotation_position="top right",
-                annotation_font_color="#FFD700",
+                annotation_font_color="#B8860B",
             )
         fig_cc.update_layout(
             height=420,
@@ -3216,14 +3220,14 @@ with tab_charts:
         _pnav_df = _pnav_df.sort_values("spg_p_nav")
         _pnav_df["_pnav_color"] = _pnav_df["spg_p_nav"].apply(
             lambda v: "#1A7F37" if v < 0.75
-            else "#3b82f6" if v < 1.0
-            else "#eab308" if v < 1.5
+            else "#1F5FAD" if v < 1.0
+            else "#B26A00" if v < 1.5
             else "#C8102E"
         )
         fig_pnav = go.Figure()
-        fig_pnav.add_vline(x=1.0, line_dash="dash", line_color="#FFD700",
+        fig_pnav.add_vline(x=1.0, line_dash="dash", line_color="#B8860B",
                            line_width=2, annotation_text="NAV (1.0x)",
-                           annotation_font_color="#FFD700")
+                           annotation_font_color="#B8860B")
         fig_pnav.add_trace(go.Scatter(
             x=_pnav_df["spg_p_nav"],
             y=_pnav_df["name"],
@@ -3291,8 +3295,8 @@ with tab_charts:
             _q75 = _ev_oz_df["ev_per_oz_prod"].quantile(0.75)
             _ev_oz_df["_evoz_color"] = _ev_oz_df["ev_per_oz_prod"].apply(
                 lambda v: "#1A7F37" if v <= _q25
-                else "#3b82f6" if v <= _ev_oz_med
-                else "#eab308" if v <= _q75
+                else "#1F5FAD" if v <= _ev_oz_med
+                else "#B26A00" if v <= _q75
                 else "#C8102E"
             )
             _ev_oz_df["_label"] = _ev_oz_df["name"] + " (" + _ev_oz_df["ticker"] + ")"
@@ -3362,8 +3366,8 @@ with tab_charts:
         if not _rli_df.empty:
             _rli_df["_rli_color"] = _rli_df["spg_reserve_life"].apply(
                 lambda v: "#1A7F37" if v >= 15
-                else "#3b82f6" if v >= 10
-                else "#eab308" if v >= 5
+                else "#1F5FAD" if v >= 10
+                else "#B26A00" if v >= 5
                 else "#C8102E"
             )
             _rli_df["_label"] = _rli_df["name"] + " (" + _rli_df["ticker"] + ")"
@@ -3390,9 +3394,9 @@ with tab_charts:
             ))
             # Threshold lines
             fig_rli.add_hline(
-                y=10, line_dash="dash", line_color="#3b82f6", line_width=1.5,
+                y=10, line_dash="dash", line_color="#1F5FAD", line_width=1.5,
                 annotation_text="10 yr (healthy)", annotation_position="top right",
-                annotation_font_color="#3b82f6",
+                annotation_font_color="#1F5FAD",
             )
             fig_rli.add_hline(
                 y=5, line_dash="dot", line_color="#C8102E", line_width=1,
@@ -3453,8 +3457,8 @@ with tab_charts:
                 _rp_df["_label"] = _rp_df["name"] + " (" + _rp_df["ticker"] + ")"
                 _rp_df["_color"] = _rp_df["_premium_pct"].apply(
                     lambda v: "#1A7F37" if v >= 5
-                    else "#3b82f6" if v >= 0
-                    else "#eab308" if v >= -5
+                    else "#1F5FAD" if v >= 0
+                    else "#B26A00" if v >= -5
                     else "#C8102E"
                 )
                 fig_rp = go.Figure()
@@ -3526,9 +3530,9 @@ with tab_charts:
         )
         _upside_df["color"] = _upside_df["upside_to_nav"].apply(
             lambda v: ("#1A7F37" if v >= 50 else
-                       "#3b82f6" if v >= 25 else
-                       "#eab308" if v >= 10 else
-                       "#f97316" if v >= 0  else
+                       "#1F5FAD" if v >= 25 else
+                       "#B26A00" if v >= 10 else
+                       "#C2410C" if v >= 0  else
                        "#C8102E")
         )
         _upside_df["upside_fmt"] = _upside_df["upside_to_nav"].apply(
@@ -3562,7 +3566,7 @@ with tab_charts:
         fig_upside.add_vline(x=0,  line_color="white",      line_dash="solid", line_width=1.5)
         fig_upside.add_vline(x=50, line_color="#1A7F37",    line_dash="dot",   line_width=1,
                              annotation_text="50%", annotation_position="top")
-        fig_upside.add_vline(x=25, line_color="#3b82f6",    line_dash="dot",   line_width=1,
+        fig_upside.add_vline(x=25, line_color="#1F5FAD",    line_dash="dot",   line_width=1,
                              annotation_text="25%", annotation_position="top")
 
         fig_upside.update_layout(
@@ -3718,9 +3722,9 @@ with tab_charts:
 
         _GRADE_COLORS_VM = {
             "🟢 Strong Buy": "#1A7F37",
-            "🔵 Buy":        "#3b82f6",
-            "🟡 Watch":      "#eab308",
-            "🟠 Neutral":    "#f97316",
+            "🔵 Buy":        "#1F5FAD",
+            "🟡 Watch":      "#B26A00",
+            "🟠 Neutral":    "#C2410C",
             "🔴 Avoid":      "#C8102E",
         }
         _vm_df["_color"] = _vm_df["grade"].map(_GRADE_COLORS_VM).fillna("#5F6B7A")
@@ -3792,7 +3796,7 @@ with tab_charts:
             type="rect",
             x0=_x_mid, x1=_x_range[1],
             y0=_y_mid, y1=100,
-            fillcolor="rgba(34,197,94,0.06)",
+            fillcolor="rgba(26,127,55,0.06)",
             line=dict(width=0),
         )
 
@@ -3884,7 +3888,7 @@ with tab_charts:
         if _corr_pairs:
             _cpdf = pd.DataFrame(_corr_pairs).sort_values("r", key=abs, ascending=False)
             with st.expander("📋 Notable correlations (|r| ≥ 0.5)", expanded=False):
-                st.dataframe(_cpdf, width="stretch", height=300)
+                st.dataframe(_cpdf, column_config=site_theme.pin_first(_cpdf), width="stretch", height=300)
     else:
         st.info("Not enough metric data to compute correlations — refresh data first.")
 
@@ -3927,7 +3931,7 @@ with tab_charts:
                     continue
                 _pct = df[_c].notna().mean() * 100
                 _bar_color = ("#1A7F37" if _pct >= 80 else
-                              "#eab308" if _pct >= 40 else "#C8102E")
+                              "#B26A00" if _pct >= 40 else "#C8102E")
                 _label = _c.replace("spg_", "").replace("score_", "").replace("_", " ")
                 st.markdown(
                     f"<div style='margin-bottom:4px'>"
@@ -3956,7 +3960,7 @@ with tab_charts:
             z=_dq_heat_bin.values,
             x=_col_labels,
             y=_dq_heat_bin.index.tolist(),
-            colorscale=[[0, "#3f0a0a"], [1, "#14532d"]],
+            colorscale=[[0, "#3f0a0a"], [1, "#1A7F37"]],
             showscale=False,
             hovertemplate="<b>%{y}</b><br>%{x}: %{z}<extra></extra>",
             zmin=0, zmax=1,
@@ -4034,7 +4038,7 @@ with tab_charts:
 
             with _bt_col1:
                 _bt_colors = [
-                    "#C8102E", "#f97316", "#eab308", "#3b82f6", "#1A7F37"
+                    "#C8102E", "#C2410C", "#B26A00", "#1F5FAD", "#1A7F37"
                 ]
                 fig_bt = go.Figure()
                 fig_bt.add_bar(
@@ -4080,14 +4084,14 @@ with tab_charts:
                         "Observations":   "{:.0f}",
                     })
                 )
-                st.dataframe(_bt_tbl_styled, width="stretch", height=260)
+                st.dataframe(_bt_tbl_styled, column_config=site_theme.pin_first(_bt_tbl_styled), width="stretch", height=260)
 
                 # Pearson r: score vs return
                 _r_val = _bt_df[["score", "return_pct"]].corr().iloc[0, 1]
-                _r_color = "#1A7F37" if _r_val > 0.15 else "#C8102E" if _r_val < -0.05 else "#b45309"
+                _r_color = "#1A7F37" if _r_val > 0.15 else "#C8102E" if _r_val < -0.05 else "#B26A00"
                 st.markdown(
                     f"<div style='background:#ffffff;border:1px solid #e3e9f0;"
-                    f"border-top:3px solid #1a3a5c;border-radius:8px;padding:12px;text-align:center'>"
+                    f"border-top:3px solid #0B1F3A;border-radius:8px;padding:12px;text-align:center'>"
                     f"<div style='font-size:12px;color:#5F6B7A'>Score → Return Correlation (Pearson r)</div>"
                     f"<div style='font-size:28px;font-weight:800;color:{_r_color}'>{_r_val:+.3f}</div>"
                     f"<div style='font-size:11px;color:#5F6B7A'>"
@@ -4139,9 +4143,9 @@ with tab_charts:
                 color="grade",
                 color_discrete_map={
                     "🟢 Strong Buy": "#1A7F37",
-                    "🔵 Buy":        "#3b82f6",
-                    "🟡 Watch":      "#eab308",
-                    "🟠 Neutral":    "#f97316",
+                    "🔵 Buy":        "#1F5FAD",
+                    "🟡 Watch":      "#B26A00",
+                    "🟠 Neutral":    "#C2410C",
                     "🔴 Avoid":      "#C8102E",
                 },
                 hover_name="name",
@@ -4165,8 +4169,8 @@ with tab_charts:
             _y_med = float(_vs_df["snl_p_insitu"].median())
             _fig_vs.add_shape(
                 type="rect", x0=0, x1=_x_med, y0=0, y1=_y_med,
-                fillcolor="rgba(34,197,94,0.08)",
-                line=dict(color="rgba(34,197,94,0.5)", dash="dot", width=1.5),
+                fillcolor="rgba(26,127,55,0.08)",
+                line=dict(color="rgba(26,127,55,0.5)", dash="dot", width=1.5),
             )
             _fig_vs.add_annotation(
                 x=_x_med * 0.05, y=_y_med * 0.95,
@@ -4220,8 +4224,8 @@ with tab_charts:
                     orientation="h",
                     color="grade",
                     color_discrete_map={
-                        "🟢 Strong Buy": "#1A7F37", "🔵 Buy": "#3b82f6",
-                        "🟡 Watch": "#eab308", "🟠 Neutral": "#f97316",
+                        "🟢 Strong Buy": "#1A7F37", "🔵 Buy": "#1F5FAD",
+                        "🟡 Watch": "#B26A00", "🟠 Neutral": "#C2410C",
                         "🔴 Avoid": "#C8102E",
                     },
                     hover_name="name",
@@ -4322,12 +4326,12 @@ with tab_detail:
                 _cur_px   = row.get("price")
                 if pd.notna(_at_mean) and _at_mean > 0:
                     _at_upside = (_at_mean / _cur_px - 1) * 100 if pd.notna(_cur_px) and _cur_px > 0 else None
-                    _at_color  = "#1A7F37" if (_at_upside or 0) > 5 else "#C8102E" if (_at_upside or 0) < -5 else "#b45309"
+                    _at_color  = "#1A7F37" if (_at_upside or 0) > 5 else "#C8102E" if (_at_upside or 0) < -5 else "#B26A00"
                     _at_rec_str = _at_rec.replace("-", " ").title() if _at_rec else ""
                     _at_n_str   = f"  ({int(_at_count)} analysts)" if pd.notna(_at_count) else ""
                     st.markdown(
                         f"<div style='background:#ffffff;border:1px solid #e3e9f0;"
-                        f"border-left:3px solid #1a3a5c;border-radius:8px;padding:10px 12px;margin-top:8px'>"
+                        f"border-left:3px solid #0B1F3A;border-radius:8px;padding:10px 12px;margin-top:8px'>"
                         f"<div style='font-size:11px;color:#5F6B7A;margin-bottom:4px'>Analyst Consensus{_at_n_str}</div>"
                         f"<div style='font-size:16px;font-weight:700;color:{_at_color}'>${_at_mean:.3f}"
                         + (f"  <span style='font-size:13px'>({_at_upside:+.1f}%)</span>" if _at_upside is not None else "")
@@ -4368,8 +4372,8 @@ with tab_detail:
                     r=list(score_data.values()),
                     theta=list(score_data.keys()),
                     fill="toself",
-                    fillcolor="rgba(59,130,246,0.2)",
-                    line=dict(color="#3b82f6", width=2),
+                    fillcolor="rgba(31,95,173,0.2)",
+                    line=dict(color="#1F5FAD", width=2),
                     name=row.get("name", sel_ticker),
                 ))
                 if _peer_score_data and not _radar_peers.empty:
@@ -4377,7 +4381,7 @@ with tab_detail:
                         r=list(_peer_score_data.values()),
                         theta=list(_peer_score_data.keys()),
                         fill="toself",
-                        fillcolor="rgba(239,68,68,0.08)",
+                        fillcolor="rgba(200,16,46,0.08)",
                         line=dict(color="#C8102E", width=1.5, dash="dot"),
                         name=f"{_radar_primary_comm} median",
                     ))
@@ -4614,7 +4618,7 @@ with tab_detail:
                                     _fig_h = px.bar(
                                         _gold_hist,
                                         x="PERIOD", y="AISC_OZ",
-                                        color_discrete_sequence=["#f0a500"],
+                                        color_discrete_sequence=[site_theme.GOLD],
                                         labels={"AISC_OZ": "AISC ($/oz)", "PERIOD": "Year"},
                                         title="3-Year Gold AISC History (SNL)",
                                     )
@@ -4714,7 +4718,7 @@ with tab_detail:
                                 _fig_ph = px.bar(
                                     _ph_use.dropna(subset=[_ha]),
                                     x="period", y=_ha,
-                                    color_discrete_sequence=["#f0a500"],
+                                    color_discrete_sequence=[site_theme.GOLD],
                                     labels={_ha: f"AISC ({_hu})", "period": ""},
                                     title=f"AISC History ({_hu})",
                                 )
@@ -4830,14 +4834,14 @@ with tab_detail:
                                     _fig_pf.add_trace(go.Scatter(
                                         x=_pf_oz["Period"].tolist() + _pf_oz["Period"].tolist()[::-1],
                                         y=_pf_oz["Prod High(koz)"].tolist() + _pf_oz["Prod Low(koz)"].tolist()[::-1],
-                                        fill="toself", fillcolor="rgba(59,130,246,0.15)",
+                                        fill="toself", fillcolor="rgba(31,95,173,0.15)",
                                         line=dict(color="rgba(0,0,0,0)"), name="Prod Range",
                                     ))
                                     _fig_pf.add_trace(go.Scatter(
                                         x=_pf_oz["Period"],
                                         y=(_pf_oz["Prod High(koz)"].fillna(0) + _pf_oz["Prod Low(koz)"].fillna(0)) / 2,
                                         mode="lines+markers", name="Midpoint",
-                                        line=dict(color="#3b82f6", width=2),
+                                        line=dict(color="#1F5FAD", width=2),
                                     ))
                                     _fig_pf.update_layout(
                                         title="Production Forecast (koz)", height=240,
@@ -4853,14 +4857,14 @@ with tab_detail:
                                         _fig_pfa.add_trace(go.Scatter(
                                             x=_pf_aisc["Period"].tolist() + _pf_aisc["Period"].tolist()[::-1],
                                             y=_pf_aisc["AISC High($/oz)"].tolist() + _pf_aisc["AISC Low($/oz)"].fillna(0).tolist()[::-1],
-                                            fill="toself", fillcolor="rgba(234,179,8,0.15)",
+                                            fill="toself", fillcolor="rgba(178,106,0,0.15)",
                                             line=dict(color="rgba(0,0,0,0)"), name="AISC Range",
                                         ))
                                         _fig_pfa.add_trace(go.Scatter(
                                             x=_pf_aisc["Period"],
                                             y=(_pf_aisc["AISC High($/oz)"].fillna(0) + _pf_aisc["AISC Low($/oz)"].fillna(0)) / 2,
                                             mode="lines+markers", name="Midpoint",
-                                            line=dict(color="#eab308", width=2),
+                                            line=dict(color="#B26A00", width=2),
                                         ))
                                         _fig_pfa.update_layout(
                                             title="AISC Forecast ($/oz)", height=240,
@@ -4905,7 +4909,7 @@ with tab_detail:
                     _wf_x      = ["Cash Cost", "Sustaining\nCapex", "AISC Total"]
                     _wf_y      = [_wf_cc, _wf_sustaining, 0]          # bar heights
                     _wf_base   = [0, _wf_cc, 0]                        # bar bases
-                    _wf_colors = ["#3b82f6", "#eab308", "#5F6B7A"]
+                    _wf_colors = ["#1F5FAD", "#B26A00", "#5F6B7A"]
                     _wf_text   = [f"${_wf_cc:,.0f}", f"+${_wf_sustaining:,.0f}", f"${_wf_aisc:,.0f}"]
 
                     if _wf_spot and _wf_margin is not None:
@@ -4945,10 +4949,10 @@ with tab_detail:
                     if _wf_spot:
                         fig_wf.add_hline(
                             y=_wf_spot,
-                            line_dash="dash", line_color="#FFD700", line_width=1.5,
+                            line_dash="dash", line_color="#B8860B", line_width=1.5,
                             annotation_text=f"Spot ${_wf_spot:,.0f}",
                             annotation_position="top right",
-                            annotation_font_color="#FFD700",
+                            annotation_font_color="#B8860B",
                         )
                     _aisc_margin_pct = ((_wf_spot - _wf_aisc) / _wf_spot * 100) if _wf_spot else None
                     _cc_margin_pct   = ((_wf_spot - _wf_cc)   / _wf_spot * 100) if _wf_spot else None
@@ -5018,15 +5022,15 @@ with tab_detail:
 
                     def _color_upside_scen(val):
                         if pd.isna(val): return ""
-                        if val >= 50:  return "background-color:#dcfce7;color:#14532d;font-weight:700"
-                        if val >= 20:  return "background-color:#dbeafe;color:#1e3a5f;font-weight:600"
+                        if val >= 50:  return "background-color:#E3F4E8;color:#1A7F37;font-weight:700"
+                        if val >= 20:  return "background-color:#E6EEF9;color:#0B1F3A;font-weight:600"
                         if val >= 0:   return "color:#1A7F37"
                         return "color:#C8102E"
 
                     def _color_aisc(val):
                         if pd.isna(val): return ""
                         if val >= 50: return "color:#1A7F37;font-weight:700"
-                        if val >= 30: return "color:#eab308"
+                        if val >= 30: return "color:#B26A00"
                         return "color:#C8102E"
 
                     _scen_styled = (
@@ -5041,11 +5045,11 @@ with tab_detail:
                             "AISC Margin%": lambda x: f"{x:.1f}%" if pd.notna(x) else "—",
                         }, na_rep="—")
                         .apply(lambda _: [
-                            "background-color:#dbeafe;color:#1e3a5f" if _scen_df.loc[i, "_is_base"] else ""
+                            "background-color:#E6EEF9;color:#0B1F3A" if _scen_df.loc[i, "_is_base"] else ""
                             for i in range(len(_scen_df))
                         ], axis=0)
                     )
-                    st.dataframe(_scen_styled, width="stretch", height=380)
+                    st.dataframe(_scen_styled, column_config=site_theme.pin_first(_scen_styled), width="stretch", height=380)
 
                     # Chart: upside% vs gold price
                     _chart_scen = _scen_df[_scen_df["Upside%"].notna()]
@@ -5055,17 +5059,17 @@ with tab_detail:
                             x=_chart_scen["Gold $/oz"],
                             y=_chart_scen["Upside%"],
                             mode="lines+markers",
-                            line=dict(color="#3b82f6", width=2.5),
+                            line=dict(color="#1F5FAD", width=2.5),
                             marker=dict(size=7),
                             name="Upside to NAV%",
                             fill="tozeroy",
-                            fillcolor="rgba(59,130,246,0.08)",
+                            fillcolor="rgba(31,95,173,0.08)",
                         ))
                         fig_nav_sens.add_hline(y=0, line_dash="dash",
                                                line_color="gray", line_width=1)
                         fig_nav_sens.add_vline(
                             x=_base_gold, line_dash="dot",
-                            line_color="#eab308",
+                            line_color="#B26A00",
                             annotation_text=f"Current ${_base_gold:,.0f}",
                             annotation_position="top right",
                         )
@@ -5138,8 +5142,8 @@ with tab_detail:
                             for _r in _chunk:
                                 _bw = _r["Pct"]
                                 _bc = ("#1A7F37" if _bw >= 75 else
-                                       "#3b82f6" if _bw >= 50 else
-                                       "#eab308" if _bw >= 25 else "#C8102E")
+                                       "#1F5FAD" if _bw >= 50 else
+                                       "#B26A00" if _bw >= 25 else "#C8102E")
                                 st.markdown(
                                     f"**{_r['Metric']}** ({_r['Value']}) — {_r['Tier']}<br>"
                                     f"<div style='background:#e3e9f0;border-radius:3px;"
@@ -5160,7 +5164,7 @@ with tab_detail:
                         col.markdown(f"**{label}**: —")
                         return
                     s = float(score)
-                    color = "#1A7F37" if s >= 70 else "#eab308" if s >= 45 else "#C8102E"
+                    color = "#1A7F37" if s >= 70 else "#B26A00" if s >= 45 else "#C8102E"
                     col.markdown(
                         f"**{label}**: {s:.0f}/100<br>"
                         f"<div style='background:#e3e9f0;border-radius:4px;height:8px;width:100%'>"
@@ -5266,7 +5270,7 @@ with tab_detail:
                 _pgrp = row.get("peer_group", "")
                 _ppct = row.get("peer_pct")
                 if pd.notna(_pr) and pd.notna(_pn) and _pn > 0:
-                    _pr_color = "#b45309" if _pr == 1 else "#1A7F37" if _pr <= max(2, _pn * 0.25) else "#5F6B7A"
+                    _pr_color = "#B26A00" if _pr == 1 else "#1A7F37" if _pr <= max(2, _pn * 0.25) else "#5F6B7A"
                     st.markdown(
                         f"<div style='margin-top:12px;padding:10px 14px;background:#ffffff;"
                         f"border:1px solid #e3e9f0;border-radius:8px;border-left:3px solid {_pr_color}'>"
@@ -5293,7 +5297,7 @@ with tab_detail:
                             hist, x="snap_date", y="price",
                             labels={"price": f"Price ({config.CURRENCY})", "snap_date": "Date"},
                         )
-                        fig_price.update_traces(line_color="#3b82f6")
+                        fig_price.update_traces(line_color="#1F5FAD")
                         fig_price.update_layout(height=260, margin=dict(t=10, b=10))
                         st.plotly_chart(fig_price, width="stretch")
                     else:
@@ -5309,7 +5313,7 @@ with tab_detail:
                         labels={"value": "Score", "snap_date": "Date", "variable": ""},
                         color_discrete_map={
                             "score_composite":  "#1A7F37",
-                            "score_valuation":  "#3b82f6",
+                            "score_valuation":  "#1F5FAD",
                             "score_health":     "#a855f7",
                             "score_momentum":   "#f59e0b",
                         },
@@ -5392,7 +5396,7 @@ with tab_detail:
 
                 def _highlight_selected(row_s):
                     if row_s.name in _sel_indices:
-                        return ["background-color: #dbeafe; color: #1e3a5f; font-weight: bold"] * len(row_s)
+                        return ["background-color: #E6EEF9; color: #0B1F3A; font-weight: bold"] * len(row_s)
                     return [""] * len(row_s)
 
                 # Convert production oz → koz for readability
@@ -5423,7 +5427,7 @@ with tab_detail:
                         lambda x, _pf=_pf: "—" if x is None or (isinstance(x, float) and pd.isna(x))
                         else (_pf(x) if _pf else x))
                 _combined_styled = _peer_view.style.apply(_highlight_selected, axis=1)
-                st.dataframe(_combined_styled, width="stretch", height=400)
+                st.dataframe(_combined_styled, column_config=site_theme.pin_first(_combined_styled), width="stretch", height=400)
 
                 # ── Visual: selected vs peer median bar chart ─────────────────
                 _bar_metrics = [
@@ -5498,7 +5502,7 @@ with tab_detail:
                         _fig_sh.add_trace(go.Scatter(
                             x=_hist_df["snap_date"], y=_hist_df["score_composite"],
                             name="Composite",
-                            line=dict(color="#3b82f6", width=2.5),
+                            line=dict(color="#1F5FAD", width=2.5),
                             mode="lines+markers", marker=dict(size=5),
                         ))
                         if _hist_df["score_valuation"].notna().any():
@@ -5512,7 +5516,7 @@ with tab_detail:
                             _fig_sh.add_trace(go.Scatter(
                                 x=_hist_df["snap_date"], y=_hist_df["score_momentum"],
                                 name="Oversold",
-                                line=dict(color="#eab308", width=1.5, dash="dot"),
+                                line=dict(color="#B26A00", width=1.5, dash="dot"),
                                 mode="lines",
                             ))
                         _fig_sh.add_hline(y=55, line_dash="dash", line_color="gray",
@@ -5536,7 +5540,7 @@ with tab_detail:
                                 line=dict(color="#f59e0b", width=2),
                                 mode="lines+markers", marker=dict(size=5),
                                 fill="tozeroy",
-                                fillcolor="rgba(245,158,11,0.08)",
+                                fillcolor="rgba(178,106,0,0.08)",
                             ))
                             _fig_ph.update_layout(
                                 title="Price History (from snapshots)",
@@ -5586,7 +5590,7 @@ with tab_detail:
                             _wf_labels.append(_label)
                             _wf_deltas.append(round(_delta, 1))
                             if _col == "score_composite":
-                                _wf_colors.append("#3b82f6" if _delta >= 0 else "#C8102E")
+                                _wf_colors.append("#1F5FAD" if _delta >= 0 else "#C8102E")
                             else:
                                 _wf_colors.append("#1A7F37" if _delta >= 0 else "#C8102E")
 
@@ -5596,7 +5600,7 @@ with tab_detail:
                         _sub_deltas = _wf_deltas[:-1]
                         _sub_colors = _wf_colors[:-1]
                         _comp_delta = _wf_deltas[-1] if _wf_deltas else 0.0
-                        _comp_color = _wf_colors[-1] if _wf_colors else "#3b82f6"
+                        _comp_color = _wf_colors[-1] if _wf_colors else "#1F5FAD"
 
                         _fig_wf = go.Figure()
 
@@ -5804,14 +5808,14 @@ with tab_detail:
                         f"{_cmp_df.loc[tk, 'name']} ({tk})" if tk in _cmp_df.index else tk
                         for tk in _cmp_tickers
                     ]
-                    st.dataframe(_cmp_tbl, width="stretch")
+                    st.dataframe(_cmp_tbl, column_config=site_theme.pin_first(_cmp_tbl), width="stretch")
 
                     # Radar overlay chart
                     _radar_dims = ["score_valuation", "score_health", "score_momentum",
                                    "score_mining", "score_commodity", "score_stage"]
                     _radar_labels = ["Valuation", "Health", "Oversold",
                                      "⛏️ Mining", "Commodity", "Stage"]
-                    _radar_colors = ["#3b82f6", "#1A7F37", "#f59e0b", "#a855f7"]
+                    _radar_colors = ["#1F5FAD", "#1A7F37", "#f59e0b", "#a855f7"]
                     fig_cmp_radar = go.Figure()
                     for _ri, _tk in enumerate(_cmp_tickers):
                         if _tk not in _cmp_df.index:
@@ -7033,10 +7037,10 @@ with tab_report:
             _fig_trend = go.Figure()
             _comm_palette = {
                 "Universe (All)": "#f59e0b",
-                "Gold":     "#eab308", "Silver":   "#5F6B7A",
-                "Copper":   "#f97316", "Uranium":  "#1A7F37",
+                "Gold":     "#B26A00", "Silver":   "#5F6B7A",
+                "Copper":   "#C2410C", "Uranium":  "#1A7F37",
                 "Nickel":   "#06b6d4", "Lithium":  "#a855f7",
-                "Iron Ore": "#C8102E", "Zinc":     "#3b82f6",
+                "Iron Ore": "#C8102E", "Zinc":     "#1F5FAD",
             }
             for _grp in ["Universe (All)"] + _top_comms:
                 _sub = _trend_filtered[_trend_filtered["commodity_group"] == _grp]
@@ -7063,13 +7067,13 @@ with tab_report:
                 ))
 
             _fig_trend.add_hline(
-                y=_CUT_B, line_dash="dash", line_color="rgba(34,197,94,0.4)",
+                y=_CUT_B, line_dash="dash", line_color="rgba(26,127,55,0.4)",
                 annotation_text=f"Buy threshold ({_CUT_B:.1f})", annotation_position="bottom right",
                 annotation_font_size=10,
             )
             if _CUT_SB != float("inf"):
                 _fig_trend.add_hline(
-                    y=_CUT_SB, line_dash="dash", line_color="rgba(59,130,246,0.4)",
+                    y=_CUT_SB, line_dash="dash", line_color="rgba(31,95,173,0.4)",
                     annotation_text=f"Strong Buy threshold ({_CUT_SB:.1f})", annotation_position="top right",
                     annotation_font_size=10,
                 )
