@@ -1286,7 +1286,7 @@ with st.sidebar:
     # Clamp stored value to current max (universe can grow)
     _def_mcap = (int(_def_mcap[0]), min(int(_def_mcap[1]), _mcap_max))
     mcap_lo, mcap_hi = st.slider(
-        "Market Cap Range (M AUD)",
+        f"Market Cap Range ({config.CURRENCY} M)",
         min_value=0, max_value=_mcap_max,
         value=_def_mcap, step=500, key="flt_mcap",
     )
@@ -2089,6 +2089,8 @@ with tab_table:
     tbl = filtered[list(available.keys())].copy()
     tbl["market_cap"] = (tbl["market_cap"] / 1e6).round(1)
     tbl.columns = list(available.values())
+    if "Code" not in tbl.columns:                        # always there, and in the CSV: 3330.HK, not only the name
+        tbl.insert(1 if "Company" in tbl.columns else 0, "Code", filtered["ticker"].values)
     tbl.index = range(1, len(tbl) + 1)
     for _tc in tbl.columns[tbl.dtypes == object]:          # text columns: a missing note reads "—", not "None"
         tbl[_tc] = tbl[_tc].where(tbl[_tc].notna(), "—")
@@ -4287,7 +4289,7 @@ with tab_detail:
                 _delta = row.get("score_delta")
                 _delta_str = f"{_delta:+.1f}" if pd.notna(_delta) else None
                 st.metric("Composite Score", f"{row.get('score_composite', '—')}/100", delta=_delta_str)
-                st.metric("Price", f"${row.get('price', 0):.3f}" if pd.notna(row.get('price')) else "—")
+                st.metric("Price", f"{config.CURRENCY}{row.get('price', 0):.3f}" if pd.notna(row.get('price')) else "—")
                 mcap = row.get('market_cap')
                 st.metric("Market Cap",
                     f"{config.CURRENCY}{mcap/1e9:.2f}B" if pd.notna(mcap) and mcap >= 1e9
@@ -5657,69 +5659,57 @@ with tab_detail:
             elif not _wf_hist.empty and len(_wf_hist) < 2:
                 st.caption("💡 Score change waterfall will appear once data has been refreshed on at least 2 days.")
 
-            # ── Research Links (ASX Announcements+, IR, etc.) ────────────────────────────
+            # ── Research links (this market's filings, exchange, news) ────────────────────────────
             with st.expander("🔗 Research & Filing Links", expanded=False):
                 _company_name  = row.get("name", sel_ticker)
-                _ticker_clean  = sel_ticker.replace(".TO", "").replace(".V", "").replace(".CN", "")
-
-                # ASX Announcements search URL
+                # each station's own filing system and exchange page (this block was copied from
+                # the ASX station and pointed every market at ASX until 2026-11-17)
                 import urllib.parse as _urlparse
-                _sedar_q   = _urlparse.quote(_company_name)
-                _sedar_url = f"https://www.asx.com.au/asx/research/companiesInfo.do?by=asxCodes&allCompanies=false&name={_sedar_q}"
+                _code = sel_ticker.rsplit(".", 1)[0] if "." in sel_ticker else sel_ticker
+                _q_name, _q_code = _urlparse.quote(str(_company_name)), _urlparse.quote(_code)
+                _filing, _exch = {
+                    "ca": (("SEDAR+ filings", "https://www.sedarplus.ca/landingpage/"),
+                           ("TMX Money", f"https://money.tmx.com/en/quote/{_q_code}")),
+                    "us": (("SEC EDGAR filings", f"https://www.sec.gov/edgar/search/#/q=%22{_q_name}%22"),
+                           ("Yahoo profile", f"https://finance.yahoo.com/quote/{sel_ticker}/profile")),
+                    "uk": (("LSE RNS news", f"https://www.londonstockexchange.com/search?searchTerm={_q_code}"),
+                           ("London Stock Exchange", f"https://www.londonstockexchange.com/search?searchTerm={_q_code}")),
+                    "za": (("JSE SENS", "https://www.jse.co.za/"),
+                           ("JSE", "https://www.jse.co.za/")),
+                    "id": (("IDX filings", f"https://www.idx.co.id/en/listed-companies/company-profiles/{_q_code}"),
+                           ("IDX company profile", f"https://www.idx.co.id/en/listed-companies/company-profiles/{_q_code}")),
+                    "hk": (("HKEXnews filings", "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en"),
+                           ("HKEX quote", f"https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sym={_q_code.lstrip('0') or '0'}&sc_lang=en")),
+                    "cn": (("巨潮资讯 cninfo", f"https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord={_q_code}"),
+                           ("巨潮公司页 cninfo", f"https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord={_q_code}")),
+                }.get(config.MARKET, (("Company filings", f"https://www.google.com/search?q={_q_name}+annual+report"),
+                                      ("Exchange", f"https://finance.yahoo.com/quote/{sel_ticker}")))
+                _mining_url = f"https://www.mining.com/?s={_urlparse.quote(str(_company_name).split(' ')[0])}"
+                _yf_url = f"https://finance.yahoo.com/quote/{sel_ticker}"
 
-                # ASX — Australian mining news aggregator
-                _sw_url = f"https://www.stockwatch.com/Quote/Detail/?U={_ticker_clean}"
-
-                # Mining.com company search
-                _mining_q   = _urlparse.quote(_company_name.split(" ")[0])
-                _mining_url = f"https://www.mining.com/?s={_mining_q}"
-
-                # Junior Stock Review — ASX focused
-                _jsr_url = f"https://www.juniorstockreview.com/?s={_mining_q}"
-
-                # ASX company page
-                _exchange = str(row.get("exchange", ""))
-                _tsx_url = f"https://www.asx.com.au/asx/research/companiesInfo.do?by=asxCodes&allCompanies=false&name={_ticker_clean}"
-
-                _rl_cols = st.columns(3)
+                _rl_cols = st.columns(2)
                 _rl_cols[0].markdown(
-                    f"[📂 **ASX Announcements**]({_sedar_url})  \n"
-                    f"<span style='font-size:11px;color:#5F6B7A'>Annual Reports · Quarterly Activities Reports · Press releases</span>",
+                    f"[📂 **{_filing[0]}**]({_filing[1]})  \n"
+                    f"<span style='font-size:11px;color:#5F6B7A'>Annual reports · results · announcements</span>",
                     unsafe_allow_html=True,
                 )
                 _rl_cols[1].markdown(
-                    f"[📈 **Stockwatch**]({_sw_url})  \n"
-                    f"<span style='font-size:11px;color:#5F6B7A'>ASX news & quotes</span>",
+                    f"[🏛️ **{_exch[0]}**]({_exch[1]})  \n"
+                    f"<span style='font-size:11px;color:#5F6B7A'>{config.MARKET_EXCH} · exchange profile</span>",
                     unsafe_allow_html=True,
                 )
-                _rl_cols[2].markdown(
-                    f"[🏛️ **ASX Listing**]({_tsx_url})  \n"
-                    f"<span style='font-size:11px;color:#5F6B7A'>Exchange profile</span>",
-                    unsafe_allow_html=True,
-                )
-                _rl_cols2 = st.columns(3)
+                _rl_cols2 = st.columns(2)
                 _rl_cols2[0].markdown(
                     f"[⛏️ **Mining.com**]({_mining_url})  \n"
                     f"<span style='font-size:11px;color:#5F6B7A'>Industry news</span>",
                     unsafe_allow_html=True,
                 )
                 _rl_cols2[1].markdown(
-                    f"[🔬 **Junior Stock Review**]({_jsr_url})  \n"
-                    f"<span style='font-size:11px;color:#5F6B7A'>ASX focused analysis</span>",
-                    unsafe_allow_html=True,
-                )
-                # Yahoo Finance link (always available)
-                _yf_url = f"https://finance.yahoo.com/quote/{sel_ticker}"
-                _rl_cols2[2].markdown(
                     f"[📊 **Yahoo Finance**]({_yf_url})  \n"
                     f"<span style='font-size:11px;color:#5F6B7A'>Financials · Options · Holders</span>",
                     unsafe_allow_html=True,
                 )
-
-                st.caption(
-                    "Links open in browser. ASX Announcements is the official Australian securities filing database "
-                    "(replaced legacy ASX Announcements in 2023). JORC Code technical reports are filed there."
-                )
+                st.caption(f"Links open in a new tab; the filing and exchange links are {config.MARKET_NAME}'s own ({config.MARKET_EXCH}).")
 
             # ── News Feed ─────────────────────────────────────────────────────
             with st.expander("📰 Latest News", expanded=False):
@@ -6652,30 +6642,47 @@ with tab_report:
 
         return bullets
 
-    def _generate_report(data: pd.DataFrame, lang: str = "en") -> str:
-        """Generate the full report in English or Chinese (lang='en'|'zh')."""
+    _RPT_EN = config.MARKET_NAME
+    _RPT_ZH = {"ca": "加拿大", "us": "美国", "uk": "英国", "za": "南非", "id": "印尼",
+               "hk": "香港", "cn": "中国 A 股"}.get(config.MARKET, config.MARKET_NAME)
+    _RPT_EXCH, _RPT_CCY = config.MARKET_EXCH, config.CURRENCY
+
+    def _cut(i: int) -> str:
+        """The cutoff the Screener used for grade i (0 = Strong Buy …): calibrated when a factor was left out."""
+        c = _grade_cuts[i] if _grade_cuts else GRADE_CUTOFFS[i][0]
+        return "—" if c == float("inf") else f"{c:.1f}"
+
+    def _generate_report(data: pd.DataFrame, lang: str = "en", universe: pd.DataFrame | None = None,
+                         market_n: int | None = None) -> str:
+        """Generate the full report in English or Chinese (lang='en'|'zh').
+        data = the names listed (top N); universe = the Screener's current filter, which the
+        summary counts are taken from so they match the Screener; market_n = the whole market."""
         zh = (lang == "zh")
+        universe = data if universe is None else universe
+        market_n = len(universe) if market_n is None else market_n
         today = _date.today().strftime("%Y年%m月%d日") if zh else _date.today().strftime("%B %d, %Y")
         lines: list[str] = []
 
         if zh:
             lines += [
-                "# 澳大利亚矿业股票低估值分析报告",
+                f"# {_RPT_ZH}矿业股票低估值分析报告",
                 f"*生成日期：{today} | 数据截至最近一次刷新*",
                 "", "---", "",
             ]
         else:
             lines += [
-                f"# {config.MARKET_NAME} Mining Stock Undervaluation Report",
+                f"# {_RPT_EN} Mining Stock Undervaluation Report",
                 f"*Generated: {today} | Data as of last refresh*",
                 "", "---", "",
             ]
 
         # ── Summary ───────────────────────────────────────────────────────────
-        strong_buys = data[data["grade"] == "🟢 Strong Buy"]
-        buys        = data[data["grade"] == "🔵 Buy"]
-        top_score   = data["score_composite"].max()
-        avg_score   = data["score_composite"].mean()
+        # counts from the Screener's current filter (not from the top N listed), so they match it
+        strong_buys = universe[universe["grade"] == "🟢 Strong Buy"]
+        buys        = universe[universe["grade"] == "🔵 Buy"]
+        top_score   = universe["score_composite"].max()
+        avg_score   = universe["score_composite"].mean()
+        avg_listed  = data["score_composite"].mean()
 
         # Dynamic weights from session state (user may have adjusted sliders)
         _ss = st.session_state
@@ -6696,10 +6703,12 @@ with tab_report:
         if zh:
             lines += [
                 "## 执行摘要", "",
-                f"本次筛选覆盖 ASX 合计 **{len(data)} 家** 矿业公司，模型识别出：",
-                f"- **{len(strong_buys)} 只强烈买入**候选标的（综合评分 ≥ 75/100）",
-                f"- **{len(buys)} 只买入**候选标的（综合评分 ≥ 60/100）",
-                f"- 所有筛选标的平均综合评分：**{avg_score:.1f}/100**",
+                f"范围：本报告列出评分最高的 **前 {len(data)} 名**；评级统计按当前筛选 **{len(universe)} 家**"
+                f"（全市场 {_RPT_EXCH} **{market_n} 家**），与 Screener 一致。模型识别出：",
+                f"- **{len(strong_buys)} 只强烈买入**（综合评分 ≥ {_cut(0)}）",
+                f"- **{len(buys)} 只买入**（综合评分 ≥ {_cut(1)}）",
+                "- 评级分布（当前筛选）：" + " · ".join(f"{g.split(' ', 1)[1]} {int((universe['grade'] == g).sum())}" for g in ["🟢 Strong Buy", "🔵 Buy", "🟡 Watch", "🟠 Neutral", "🔴 Avoid"]),
+                f"- 当前筛选平均综合评分：**{avg_score:.1f}/100**；本报告所列前 {len(data)} 名平均 **{avg_listed:.1f}/100**",
                 f"- 单只个股最高评分：**{top_score:.1f}/100**",
                 "",
                 f"评分基于六大加权维度（当前权重）："
@@ -6712,10 +6721,13 @@ with tab_report:
         else:
             lines += [
                 "## Executive Summary", "",
-                f"Out of **{len(data)} companies** screened across ASX, the model identifies:",
-                f"- **{len(strong_buys)} Strong Buy** candidates (composite score ≥ 75/100)",
-                f"- **{len(buys)} Buy** candidates (composite score ≥ 60/100)",
-                f"- Average composite score across all screened names: **{avg_score:.1f}/100**",
+                f"Scope: this report lists the **top {len(data)}** names; grade counts are over the "
+                f"**{len(universe)}** names in the current filter (**{market_n}** in the whole {_RPT_EXCH} market), "
+                f"the same as the Screener. The model identifies:",
+                f"- **{len(strong_buys)} Strong Buy** (composite score ≥ {_cut(0)})",
+                f"- **{len(buys)} Buy** (composite score ≥ {_cut(1)})",
+                "- Grade distribution (current filter): " + " · ".join(f"{g.split(' ', 1)[1]} {int((universe['grade'] == g).sum())}" for g in ["🟢 Strong Buy", "🔵 Buy", "🟡 Watch", "🟠 Neutral", "🔴 Avoid"]),
+                f"- Average composite score, current filter: **{avg_score:.1f}/100**; top {len(data)} listed: **{avg_listed:.1f}/100**",
                 f"- Highest individual score: **{top_score:.1f}/100**",
                 "",
                 f"Scores are based on six weighted factors (current weights): "
@@ -6728,12 +6740,18 @@ with tab_report:
             ]
 
         # ── Universe Mining Stats (SPG) ───────────────────────────────────────
-        _has_spg = any(c.startswith("spg_") for c in data.columns)
+        _has_spg = any(c.startswith("spg_") and data[c].notna().any() for c in data.columns)
+        if not _has_spg:
+            lines += (["## 矿业行业统计概览", "", "S&P/SNL 矿业基本面：本站暂无数据。", ""] if zh else
+                      ["## Mining Sector Statistics", "", "S&P/SNL mining fundamentals: no data for this station.", ""])
         if _has_spg:
             _med_aisc_mgn = data["spg_aisc_margin"].median() if "spg_aisc_margin" in data.columns else None
             _med_pnav_r   = data["spg_p_nav"].median()       if "spg_p_nav"       in data.columns else None
-            _n_rli10      = int((data["spg_reserve_life"] >= 10).sum()) if "spg_reserve_life" in data.columns else None
-            _n_ev8k       = int((data["ev_per_oz_prod"] < 8_000).sum()) if "ev_per_oz_prod"   in data.columns else None
+            # None (line hidden) when nobody has the field — "0 companies" would read as a finding
+            _n_rli10      = (int((data["spg_reserve_life"] >= 10).sum())
+                             if "spg_reserve_life" in data.columns and data["spg_reserve_life"].notna().any() else None)
+            _n_ev8k       = (int((data["ev_per_oz_prod"] < 8_000).sum())
+                             if "ev_per_oz_prod" in data.columns and data["ev_per_oz_prod"].notna().any() else None)
             _n_spg_total  = int(data[[c for c in data.columns if c.startswith("spg_")]].notna().any(axis=1).sum())
             _med_cc_oz    = data["spg_cash_cost_oz"].median() if "spg_cash_cost_oz" in data.columns else None
 
@@ -6749,7 +6767,7 @@ with tab_report:
                 if _med_pnav_r is not None and not np.isnan(_med_pnav_r):
                     _stat_rows_zh.append(f"- **中位数 P/NAV：** {_med_pnav_r:.2f}x")
                 if _med_cc_oz is not None and not np.isnan(_med_cc_oz):
-                    _stat_rows_zh.append(f"- **中位数现金成本：** ${_med_cc_oz:,.0f}/盎司")
+                    _stat_rows_zh.append(f"- **中位数现金成本：** US${_med_cc_oz:,.0f}/盎司")
                 if _n_rli10 is not None:
                     _stat_rows_zh.append(f"- **储量寿命 ≥ 10 年的公司数：** {_n_rli10} 家")
                 if _n_ev8k is not None:
@@ -6768,7 +6786,7 @@ with tab_report:
                 if _med_pnav_r is not None and not np.isnan(_med_pnav_r):
                     _stat_rows_en.append(f"- **Median P/NAV:** {_med_pnav_r:.2f}x")
                 if _med_cc_oz is not None and not np.isnan(_med_cc_oz):
-                    _stat_rows_en.append(f"- **Median Cash Cost:** ${_med_cc_oz:,.0f}/oz")
+                    _stat_rows_en.append(f"- **Median Cash Cost:** US${_med_cc_oz:,.0f}/oz")
                 if _n_rli10 is not None:
                     _stat_rows_en.append(f"- **Companies with Reserve Life ≥ 10 yr:** {_n_rli10}")
                 if _n_ev8k is not None:
@@ -6788,7 +6806,7 @@ with tab_report:
             _med_an_up  = _an_covered["analyst_upside"].median() if not _an_covered.empty else None
             _n_an_bull  = int((_an_covered["analyst_upside"].fillna(0) >= 30).sum()) if not _an_covered.empty else 0
             _n_strong_conv = int((
-                (_an_covered["score_composite"] >= 60) &
+                (_an_covered["grade"].isin(["🟢 Strong Buy", "🔵 Buy"])) &
                 (_an_covered["analyst_upside"].fillna(0) >= 30)
             ).sum()) if not _an_covered.empty else 0
 
@@ -6802,7 +6820,7 @@ with tab_report:
                 if _med_an_up is not None and not np.isnan(_med_an_up):
                     _an_rows_zh.append(f"- **分析师中位上行空间：** {_med_an_up:+.0f}%")
                 _an_rows_zh.append(f"- **分析师目标上行 ≥ 30% 的公司数：** {_n_an_bull}")
-                _an_rows_zh.append(f"- **量化评分 ≥ 60 且分析师上行 ≥ 30% 的高置信度标的：** {_n_strong_conv}")
+                _an_rows_zh.append(f"- **评级买入及以上且分析师上行 ≥ 30% 的高置信度标的：** {_n_strong_conv}")
                 lines += _an_rows_zh
                 lines += ["", "---", ""]
             else:
@@ -6815,7 +6833,7 @@ with tab_report:
                 if _med_an_up is not None and not np.isnan(_med_an_up):
                     _an_rows_en.append(f"- **Median analyst upside:** {_med_an_up:+.0f}%")
                 _an_rows_en.append(f"- **Companies with analyst upside ≥ 30%:** {_n_an_bull}")
-                _an_rows_en.append(f"- **High-conviction names (score ≥ 60 AND analyst upside ≥ 30%):** {_n_strong_conv}")
+                _an_rows_en.append(f"- **High-conviction names (graded Buy or better AND analyst upside ≥ 30%):** {_n_strong_conv}")
                 lines += _an_rows_en
                 lines += ["", "---", ""]
 
@@ -6857,7 +6875,7 @@ with tab_report:
                 price     = row.get("price")
                 mcap      = row.get("market_cap")
 
-                price_str = f"${price:.3f}" if pd.notna(price) else "N/A"
+                price_str = f"{_RPT_CCY}{price:.3f}" if pd.notna(price) else "N/A"
                 mcap_str  = (f"{config.CURRENCY}{mcap/1e9:.2f}B" if pd.notna(mcap) and mcap >= 1e9
                              else f"{config.CURRENCY}{mcap/1e6:.0f}M" if pd.notna(mcap) else "N/A")
 
@@ -7061,8 +7079,8 @@ with tab_report:
     if lang == "Both / 双语":
         # ── Side-by-side bilingual layout ─────────────────────────────────────
         col_en, col_zh = st.container(key="report_cols").columns(2)
-        report_en = _generate_report(src, lang="en")
-        report_zh = _generate_report(src, lang="zh")
+        report_en = _generate_report(src, lang="en", universe=filtered, market_n=len(df))
+        report_zh = _generate_report(src, lang="zh", universe=filtered, market_n=len(df))
         with col_en:
             st.markdown(report_en.replace("$", "\\$"), unsafe_allow_html=False)
         with col_zh:
@@ -7092,7 +7110,7 @@ with tab_report:
             _dl_col2.error(f"PDF error: {_pdf_err}")
     else:
         lang_code = "zh" if lang == "中文" else "en"
-        report_md = _generate_report(src, lang=lang_code)
+        report_md = _generate_report(src, lang=lang_code, universe=filtered, market_n=len(df))
         st.markdown(report_md.replace("$", "\\$"), unsafe_allow_html=False)
         fname_md = f"矿业报告_{_date.today()}.md" if lang_code == "zh" else f"mining_report_{_date.today()}.md"
         fname_pdf = f"矿业报告_{_date.today()}.pdf" if lang_code == "zh" else f"mining_report_{_date.today()}.pdf"
