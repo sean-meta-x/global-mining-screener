@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-17T06:45Z",
+ "generated_at": "2026-11-17T22:07Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "IFSH.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "小盘股无预警暴跌，警惕流动性枯竭或隐性稀释。"
+   "ai_adjust": -10,
+   "ai_note": "量化高分与月跌54%严重背离，疑似存在未披露重大利空或流动性陷阱"
   },
   {
    "ticker": "TINS.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国企锡业龙头，基本面稳健，量化评分合理。"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "煤炭向新能源转型逻辑顺畅，估值具吸引力。"
-  },
-  {
-   "ticker": "DWGL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小盘煤炭股历史治理记录一般，需防范大股东炒作风险。"
+   "ai_note": "国有锡企基本面稳健，但锡价承压且无明确催化剂"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "镍业小盘股扩产资金需求大，警惕股权稀释风险。"
+   "ai_adjust": -3,
+   "ai_note": "小市值多元化矿企，流动性差且信息透明度低"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭主业现金流稳健，正布局镍业务但尚处早期阶段"
+  },
+  {
+   "ticker": "DWGL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤矿承包商转型生产商，业务模式转型风险需持续关注"
   },
   {
    "ticker": "INDY.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭中盘股，绿色转型布局清晰，治理较规范。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "激进转型绿色能源，执行风险高且煤炭资产面临减值压力"
   },
   {
    "ticker": "TOBA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭业务现金流好，但单一能源转型风险仍存。"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭物流与生产龙头，基本面扎实，无明显瑕疵。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "短期涨幅显著但无基本面催化，警惕游资炒作风险"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "镍业巨头，RKEF产能释放期，资本开支压力较大。"
+   "ai_note": "镍价受印尼供给过剩压制，HPAL项目盈利空间承压"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭生产商基本面平稳，无突出风险亦无超预期催化剂"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锡价虽强，但公司市值偏小，需警惕治理与流动性。"
+   "ai_adjust": -3,
+   "ai_note": "锡价下行叠加个股大幅回调，需排查是否存在经营隐患"
   },
   {
    "ticker": "AADI.JK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "煤炭资产分拆上市，需警惕纯煤炭标的的估值折价。"
+   "ai_note": "从Adaro分拆上市的新实体，估值锚定尚不清晰且投资者基础待验证"
   },
   {
    "ticker": "DEWA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "矿山承包商业务稳定，背靠大集团，基本面尚可。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "所属Bakrie集团历史治理记录不佳，需警惕关联交易风险"
   },
   {
    "ticker": "FIRE.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极小且短期异动无新闻，典型庄股特征。"
+   "ai_adjust": -7,
+   "ai_note": "极小市值煤炭股，流动性极差且信息高度不透明"
   },
   {
    "ticker": "CITA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝土矿选矿业务受益出口政策，基本面较为扎实。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "印尼铝土矿出口禁令政策反复，内销冶炼利润存疑"
   },
   {
    "ticker": "MBAP.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "单月暴涨且无新闻，疑似内幕炒作或面临稀释。"
+   "ai_adjust": -4,
+   "ai_note": "无消息面支撑下月涨28%，高度疑似资金操纵或短线炒作"
   },
   {
    "ticker": "AMMN.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "巨型铜金矿IPO，资本开支庞大，量化未计长期债务。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型铜金矿商受益铜价，但高资本开支和IPO后锁定期需关注"
   },
   {
    "ticker": "ANTM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企多元化矿业，黄金与镍业务提供良好安全边际。"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "国企背景受益下游化政策，镍金价格走强提供实质催化"
   },
   {
    "ticker": "MDKA.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "近期大跌或因高资本开支，关联交易需保持警惕。"
+   "ai_adjust": -5,
+   "ai_note": "无利空消息却暴跌14%，疑似项目进度延误或再融资稀释"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企煤炭龙头，高股息防御性强，量化评分合理。"
+   "ai_adjust": 1,
+   "ai_note": "国有煤炭龙头分红慷慨，但长期能源转型压力不可忽视"
   },
   {
-   "ticker": "MBMA.JK",
+   "ticker": "ITMG.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "电池材料中盘股，受镍价波动影响大，估值中性。"
+   "ai_note": "高股息煤炭股表现平稳，缺乏超预期催化剂"
   }
  ]
 }
