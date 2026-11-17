@@ -136,6 +136,7 @@ from scheduler.jobs import (
     run_daily_refresh, start_scheduler, STALE_GRADE, STALE_SCORE_CAP,
 )
 import config
+import site_links
 from auth import check_auth, current_user, logout
 
 logging.basicConfig(level=logging.INFO,
@@ -1116,6 +1117,17 @@ df["peer_rank_display"] = df.apply(
 
 # ── Sidebar filters ────────────────────────────────────────────────────────────
 with st.sidebar:
+    # ── Front door: the other sites of the fund (the only way there on a phone) ──
+    with st.expander("🌐 全部站点 · All sites", expanded=True):
+        st.link_button("🏛️ 基金指挥台 Fund HQ", site_links.DESK, width="stretch")
+        st.link_button("📰 晨报 Morning brief", site_links.BRIEF, width="stretch")
+        st.link_button("📡 事件雷达 Event Radar", site_links.RADAR, width="stretch")
+        st.link_button("🔬 研究所 Research", site_links.RESEARCH, width="stretch")
+        st.caption("其他选股站 · Other screeners")
+        _cols = st.columns(2)
+        for _i, (_label, _url) in enumerate(site_links.others(f"https://{config.MARKET}-mining-screener.streamlit.app/")):
+            _cols[_i % 2].link_button(_label, _url, width="stretch")
+
     # ── Global Quick Search ────────────────────────────────────────────────────
     st.markdown("## 🔍 Quick Lookup")
     _qs_options = [""] + [
