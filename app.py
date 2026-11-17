@@ -121,7 +121,8 @@ def _report_to_pdf(markdown_text: str, title: str = "Mining Report") -> bytes:
 
 from data.universe import ALL_COMMODITIES, ALL_STAGES, get_ticker_meta
 import data.snl_client as snl_client
-from data.scorer import factor_coverage, effective_weights, MIN_FACTOR_COVERAGE
+from data.scorer import (factor_coverage, effective_weights, MIN_FACTOR_COVERAGE,
+                         calibrated_cutoffs, grade_label, GRADE_CUTOFFS)
 import data.release_db as release_db
 from data.database import (
     init_db, reset_engine, load_latest, load_history, load_prev_scores,
@@ -1418,6 +1419,7 @@ with st.sidebar:
     total_w = w_val + w_hlt + w_mom + w_min + w_com + w_stg
     _factor_cov = factor_coverage(df)
     _factor_excluded: list[str] = []
+    _grade_cuts: list[float] | None = None
     if total_w > 0:
         # Remember DB-level stale/halted flags before grade gets recomputed
         _stale_mask = (df["grade"].astype(str).str.contains("Stale", na=False)
@@ -1427,22 +1429,24 @@ with st.sidebar:
         _ew, _factor_excluded = effective_weights(
             {"valuation": w_val, "health": w_hlt, "momentum": w_mom,
              "mining": w_min, "commodity": w_com, "stage": w_stg}, _factor_cov)
-        df["score_composite"] = (
-            df["score_valuation"] * _ew["valuation"] / total_w +
-            df["score_health"]    * _ew["health"]    / total_w +
-            df["score_momentum"]  * _ew["momentum"]  / total_w +
-            mining_s              * _ew["mining"]    / total_w +
-            df["score_commodity"] * _ew["commodity"] / total_w +
-            df["score_stage"]     * _ew["stage"]     / total_w
-        ).round(1)
-        # Recompute grade to match the updated score_composite
-        def _regrade(s):
-            if s >= 75: return "🟢 Strong Buy"
-            if s >= 60: return "🔵 Buy"
-            if s >= 45: return "🟡 Watch"
-            if s >= 30: return "🟠 Neutral"
-            return "🔴 Avoid"
-        df["grade"] = df["score_composite"].apply(_regrade)
+        _slider_w = {"valuation": w_val, "health": w_hlt, "momentum": w_mom,
+                     "mining": w_min, "commodity": w_com, "stage": w_stg}
+
+        def _comp(wts):
+            return (
+                df["score_valuation"] * wts["valuation"] / total_w +
+                df["score_health"]    * wts["health"]    / total_w +
+                df["score_momentum"]  * wts["momentum"]  / total_w +
+                mining_s              * wts["mining"]    / total_w +
+                df["score_commodity"] * wts["commodity"] / total_w +
+                df["score_stage"]     * wts["stage"]     / total_w
+            ).round(1)
+        df["score_composite"] = _comp(_ew)
+        # Grades: fixed cutoffs, or — when a factor was left out — cutoffs that keep each grade's
+        # share of names under the slider weights as they are (halted names not counted)
+        _grade_cuts = (calibrated_cutoffs(_comp(_slider_w)[~_stale_mask], df.loc[~_stale_mask, "score_composite"])
+                       if _factor_excluded else None)
+        df["grade"] = df["score_composite"].apply(lambda s: grade_label(s, _grade_cuts))
         # Re-apply stale-price penalty — the DB-level cap must survive the
         # weight-slider recompute above (frozen halted price ≠ real signal)
         df.loc[_stale_mask, "score_composite"] = (
@@ -1521,7 +1525,10 @@ _FACTOR_ZH = {"valuation": "估值", "health": "财务健康", "momentum": "超�
               "mining": "矿业（S&P/SNL）", "commodity": "商品", "stage": "阶段"}
 st.caption(f"以上数字的口径：侧栏当前筛选 {len(filtered)} 家，全市场 {len(df)} 家。"
            + (f" 综合评分本次未计入：{'、'.join(_FACTOR_ZH[f] for f in _factor_excluded)}"
-              f"（数据覆盖不足 {MIN_FACTOR_COVERAGE:.0%}，权重按比例分给其余因子）。" if _factor_excluded else ""))
+              f"（数据覆盖不足 {MIN_FACTOR_COVERAGE:.0%}，权重按比例分给其余因子）。"
+              + (" 评级门槛已按分数分布校准，各档家数与原权重下相同："
+                 + "、".join(f"{g.split(' ', 1)[1]} ≥ {c:.1f}" for c, (_, g) in zip(_grade_cuts, GRADE_CUTOFFS) if c != float("inf"))
+                 + "。" if _grade_cuts else "") if _factor_excluded else ""))
 
 
 def _snl_last_sync() -> str | None:

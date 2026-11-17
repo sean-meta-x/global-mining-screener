@@ -696,6 +696,37 @@ def effective_weights(weights: dict[str, float], coverage: dict[str, float],
     return {f: (kept.get(f, 0.0) * scale) for f in weights}, excluded
 
 
+# ── Grades ─────────────────────────────────────────────────────────────────────
+# Fixed cutoffs, as the scores were designed. When a factor is left out (above), the
+# remaining factors push the whole distribution up: on 2026-11-17 AU's Strong Buy went
+# from 11 to 42 while the score's correlation with forward returns was ~0. So in that case
+# each grade keeps the share of names it had under the original weights: the cutoff for a
+# grade becomes the reweighted score of the n-th best name, n = how many reached that
+# grade before. The order within the universe comes from the reweighted score.
+GRADE_CUTOFFS = [(75.0, "🟢 Strong Buy"), (60.0, "🔵 Buy"), (45.0, "🟡 Watch"), (30.0, "🟠 Neutral")]
+GRADE_FLOOR = "🔴 Avoid"
+
+
+def calibrated_cutoffs(reference: pd.Series, scores: pd.Series) -> list[float]:
+    """Cutoffs for `scores` that give each grade as many names as the fixed cutoffs give
+    `reference` (same rows). A grade nobody reached keeps an unreachable cutoff."""
+    ref = pd.to_numeric(reference, errors="coerce").dropna()
+    ranked = pd.to_numeric(scores, errors="coerce").dropna().sort_values(ascending=False)
+    out = []
+    for cut, _ in GRADE_CUTOFFS:
+        n = int((ref >= cut).sum())
+        out.append(float(ranked.iloc[min(n, len(ranked)) - 1]) if n and len(ranked) else float("inf"))
+    return out
+
+
+def grade_label(score: float, cutoffs: list[float] | None = None) -> str:
+    cuts = cutoffs or [c for c, _ in GRADE_CUTOFFS]
+    for cut, (_, label) in zip(cuts, GRADE_CUTOFFS):
+        if score >= cut:
+            return label
+    return GRADE_FLOOR
+
+
 def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
     """
     Add score columns to df.
@@ -893,14 +924,19 @@ def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
     df["score_stage"]     = [round(s, 1) for s in s_scores]
 
     w, _excluded = effective_weights(SCORE_WEIGHTS, factor_coverage(df))
-    df["score_composite"] = (
-        df["score_valuation"] * w["valuation"] +
-        df["score_health"]    * w["health"]    +
-        df["score_momentum"]  * w["momentum"]  +
-        df["score_mining"]    * w["mining"]    +
-        df["score_commodity"] * w["commodity"] +
-        df["score_stage"]     * w["stage"]
-    ).clip(0, 100).round(1)
+
+    def _composite(weights):
+        return (
+            df["score_valuation"] * weights["valuation"] +
+            df["score_health"]    * weights["health"]    +
+            df["score_momentum"]  * weights["momentum"]  +
+            df["score_mining"]    * weights["mining"]    +
+            df["score_commodity"] * weights["commodity"] +
+            df["score_stage"]     * weights["stage"]
+        ).clip(0, 100).round(1)
+
+    df["score_composite"] = _composite(w)
+    _reference = _composite(SCORE_WEIGHTS)      # the original weights: what each grade's share is calibrated to
 
     # ── Market cap floor: micro-caps (<$10M) are too illiquid to rank meaningfully ──
     # Use camelCase (fresh fetch) or snake_case (DB reload) — whichever is available.
@@ -909,16 +945,11 @@ def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
         _mc = pd.to_numeric(_mc, errors="coerce")
         micro_cap_mask = _mc.notna() & (_mc < 10_000_000)
         df.loc[micro_cap_mask, "score_composite"] = 50.0
+        _reference[micro_cap_mask] = 50.0
 
-    # Grade label
-    def grade(s):
-        if s >= 75: return "🟢 Strong Buy"
-        if s >= 60: return "🔵 Buy"
-        if s >= 45: return "🟡 Watch"
-        if s >= 30: return "🟠 Neutral"
-        return             "🔴 Avoid"
-
-    df["grade"] = df["score_composite"].apply(grade)
+    # Grade label: fixed cutoffs, or calibrated ones when a factor was left out (see GRADE_CUTOFFS)
+    _cuts = calibrated_cutoffs(_reference, df["score_composite"]) if _excluded else None
+    df["grade"] = df["score_composite"].apply(lambda s: grade_label(s, _cuts))
 
     # ── Peer group ranking ────────────────────────────────────────────────────
     # Companies are only truly comparable within the same stage × commodity bucket.
