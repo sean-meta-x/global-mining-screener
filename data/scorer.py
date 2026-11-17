@@ -654,6 +654,79 @@ def stage_score(stage: str, row: pd.Series) -> float:
 
 # ── composite ──────────────────────────────────────────────────────────────────
 
+# ── Factor coverage ────────────────────────────────────────────────────────────
+# A factor nobody has data for scores everyone at its neutral 50 and only dilutes the
+# others: on 2026-11-17 the S&P/SNL mining inputs covered ~0 % of both universes while
+# the mining factor carried 25 % of the weight. Below MIN_FACTOR_COVERAGE a factor is
+# left out and its weight goes to the others in proportion.
+MIN_FACTOR_COVERAGE = 0.30
+FACTOR_INPUTS = {
+    "valuation": ["priceToBook", "price_to_book", "ev_ebitda", "ebitda", "operatingCashflow",
+                  "operating_cf", "freeCashflow", "free_cashflow"],
+    "health":    ["debtToEquity", "debt_to_equity", "currentRatio", "current_ratio", "totalCash", "total_cash"],
+    "momentum":  ["rsi", "wk52_position"],
+    "mining":    ["spg_p_nav", "spg_reserves_m", "spg_reserve_life", "spg_mine_life", "spg_grade_pct",
+                  "spg_grade_gpt", "spg_global_rank", "spg_aisc_per_t", "spg_aisc_per_oz", "spg_aisc_per_lb",
+                  "snl_prod_growth_pct", "snl_p_insitu", "snl_best_irr"],
+    "commodity": ["commodity"],
+    "stage":     ["stage"],
+}
+
+
+def factor_coverage(df: pd.DataFrame) -> dict[str, float]:
+    """Share of rows (0-1) with at least one input of each factor present."""
+    out = {}
+    for factor, cols in FACTOR_INPUTS.items():
+        have = [c for c in cols if c in df.columns]
+        out[factor] = float(df[have].notna().any(axis=1).mean()) if have and len(df) else 0.0
+    return out
+
+
+def effective_weights(weights: dict[str, float], coverage: dict[str, float],
+                      min_coverage: float = MIN_FACTOR_COVERAGE) -> tuple[dict[str, float], list[str]]:
+    """Weights with under-covered factors set to 0 and the rest scaled up to the same total.
+    Returns (weights, excluded factors). Nothing changes when every factor is covered, or
+    when no factor would be left."""
+    excluded = [f for f, w in weights.items() if w > 0 and coverage.get(f, 1.0) < min_coverage]
+    kept = {f: w for f, w in weights.items() if f not in excluded}
+    kept_total = sum(kept.values())
+    if not excluded or kept_total <= 0:
+        return dict(weights), []
+    scale = sum(weights.values()) / kept_total
+    return {f: (kept.get(f, 0.0) * scale) for f in weights}, excluded
+
+
+# ── Grades ─────────────────────────────────────────────────────────────────────
+# Fixed cutoffs, as the scores were designed. When a factor is left out (above), the
+# remaining factors push the whole distribution up: on 2026-11-17 AU's Strong Buy went
+# from 11 to 42 while the score's correlation with forward returns was ~0. So in that case
+# each grade keeps the share of names it had under the original weights: the cutoff for a
+# grade becomes the reweighted score of the n-th best name, n = how many reached that
+# grade before. The order within the universe comes from the reweighted score.
+GRADE_CUTOFFS = [(75.0, "🟢 Strong Buy"), (60.0, "🔵 Buy"), (45.0, "🟡 Watch"), (30.0, "🟠 Neutral")]
+GRADE_FLOOR = "🔴 Avoid"
+
+
+def calibrated_cutoffs(reference: pd.Series, scores: pd.Series) -> list[float]:
+    """Cutoffs for `scores` that give each grade as many names as the fixed cutoffs give
+    `reference` (same rows). A grade nobody reached keeps an unreachable cutoff."""
+    ref = pd.to_numeric(reference, errors="coerce").dropna()
+    ranked = pd.to_numeric(scores, errors="coerce").dropna().sort_values(ascending=False)
+    out = []
+    for cut, _ in GRADE_CUTOFFS:
+        n = int((ref >= cut).sum())
+        out.append(float(ranked.iloc[min(n, len(ranked)) - 1]) if n and len(ranked) else float("inf"))
+    return out
+
+
+def grade_label(score: float, cutoffs: list[float] | None = None) -> str:
+    cuts = cutoffs or [c for c, _ in GRADE_CUTOFFS]
+    for cut, (_, label) in zip(cuts, GRADE_CUTOFFS):
+        if score >= cut:
+            return label
+    return GRADE_FLOOR
+
+
 def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
     """
     Add score columns to df.
@@ -850,15 +923,20 @@ def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
     df["score_commodity"] = [round(s, 1) for s in c_scores]
     df["score_stage"]     = [round(s, 1) for s in s_scores]
 
-    w = SCORE_WEIGHTS
-    df["score_composite"] = (
-        df["score_valuation"] * w["valuation"] +
-        df["score_health"]    * w["health"]    +
-        df["score_momentum"]  * w["momentum"]  +
-        df["score_mining"]    * w["mining"]    +
-        df["score_commodity"] * w["commodity"] +
-        df["score_stage"]     * w["stage"]
-    ).clip(0, 100).round(1)
+    w, _excluded = effective_weights(SCORE_WEIGHTS, factor_coverage(df))
+
+    def _composite(weights):
+        return (
+            df["score_valuation"] * weights["valuation"] +
+            df["score_health"]    * weights["health"]    +
+            df["score_momentum"]  * weights["momentum"]  +
+            df["score_mining"]    * weights["mining"]    +
+            df["score_commodity"] * weights["commodity"] +
+            df["score_stage"]     * weights["stage"]
+        ).clip(0, 100).round(1)
+
+    df["score_composite"] = _composite(w)
+    _reference = _composite(SCORE_WEIGHTS)      # the original weights: what each grade's share is calibrated to
 
     # ── Market cap floor: micro-caps (<$10M) are too illiquid to rank meaningfully ──
     # Use camelCase (fresh fetch) or snake_case (DB reload) — whichever is available.
@@ -867,16 +945,11 @@ def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
         _mc = pd.to_numeric(_mc, errors="coerce")
         micro_cap_mask = _mc.notna() & (_mc < 10_000_000)
         df.loc[micro_cap_mask, "score_composite"] = 50.0
+        _reference[micro_cap_mask] = 50.0
 
-    # Grade label
-    def grade(s):
-        if s >= 75: return "🟢 Strong Buy"
-        if s >= 60: return "🔵 Buy"
-        if s >= 45: return "🟡 Watch"
-        if s >= 30: return "🟠 Neutral"
-        return             "🔴 Avoid"
-
-    df["grade"] = df["score_composite"].apply(grade)
+    # Grade label: fixed cutoffs, or calibrated ones when a factor was left out (see GRADE_CUTOFFS)
+    _cuts = calibrated_cutoffs(_reference, df["score_composite"]) if _excluded else None
+    df["grade"] = df["score_composite"].apply(lambda s: grade_label(s, _cuts))
 
     # ── Peer group ranking ────────────────────────────────────────────────────
     # Companies are only truly comparable within the same stage × commodity bucket.

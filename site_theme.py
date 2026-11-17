@@ -18,7 +18,7 @@ from html import escape
 
 import streamlit as st
 
-THEME_VERSION = "2026-11-17.1"
+THEME_VERSION = "2026-11-17.4"
 
 NAVY = "#0B1F3A"        # top bar, sidebar, headings
 NAVY_2 = "#16325C"      # hover / active in the sidebar
@@ -40,7 +40,11 @@ _CSS = f"""
 [data-testid="stHeader"] * {{ color: #fff !important; }}
 [data-testid="stHeader"]::before {{ content: var(--brand); position: absolute; left: 3.4rem; top: .62rem;
     color: #fff; font-weight: 700; font-size: .95rem; letter-spacing: .02em; white-space: nowrap; }}
-[data-testid="stToolbar"], [data-testid="stDecoration"], #MainMenu, footer {{ display: none !important; }}
+/* the toolbar holds the button that opens the sidebar on a phone: hide its actions, never the toolbar */
+[data-testid="stToolbarActions"], [data-testid="stMainMenu"], [data-testid="stAppDeployButton"],
+[data-testid="stDecoration"], #MainMenu, footer {{ display: none !important; }}
+[data-testid="stExpandSidebarButton"] {{ display: inline-flex !important; visibility: visible !important; }}
+[data-testid="stExpandSidebarButton"] svg {{ fill: #fff; color: #fff; width: 1.4rem; height: 1.4rem; }}
 
 /* density: less air around the page and between blocks */
 .block-container, [data-testid="stMainBlockContainer"] {{ padding-top: 3.4rem !important;
@@ -87,9 +91,17 @@ h3, h4 {{ font-size: 1rem !important; color: var(--navy) !important; padding-top
 [data-testid="stSidebarNav"] a[aria-current="page"] {{ background: var(--navy2); box-shadow: inset 3px 0 0 var(--red); }}
 [data-testid="stSidebarNavSeparator"], [data-testid="stNavSectionHeader"] {{ color: #8FA3BF !important;
     font-size: .7rem !important; text-transform: uppercase; letter-spacing: .08em; }}
-[data-testid="stSidebar"] .stButton button, [data-testid="stSidebar"] [data-testid="stLinkButton"] a {{
-    background: transparent; border: 1px solid #2E4A72; color: #E8EDF4 !important; border-radius: 3px; }}
-[data-testid="stSidebar"] .stButton button {{ padding: .2rem .4rem; min-height: 2rem; }}
+/* other-site buttons look like the navigation above them, not like form buttons */
+[data-testid="stSidebar"] .stButton button, [data-testid="stSidebar"] [data-testid="stLinkButton"] a,
+[data-testid="stSidebar"] [data-testid="stPageLink"] a {{
+    background: transparent; border: 0; color: #E8EDF4 !important; border-radius: 3px; justify-content: flex-start;
+    text-align: left; }}
+[data-testid="stSidebar"] .stButton button:hover, [data-testid="stSidebar"] [data-testid="stLinkButton"] a:hover,
+[data-testid="stSidebar"] [data-testid="stPageLink"] a:hover {{ background: var(--navy2); }}
+[data-testid="stSidebar"] [data-testid="stLinkButton"] a > div, [data-testid="stSidebar"] [data-testid="stLinkButton"] a > div > span,
+[data-testid="stSidebar"] .stButton button > div {{ justify-content: flex-start !important; width: 100%; }}
+[data-testid="stSidebar"] [data-testid="stLinkButton"] p {{ font-size: .9rem; }}
+[data-testid="stSidebar"] .stButton button {{ padding: .2rem .5rem; min-height: 2rem; }}
 [data-testid="stSidebar"] .stButton button p {{ font-size: .8rem; white-space: nowrap; }}
 [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3,
 [data-testid="stSidebar"] h4 {{ color: #FFFFFF !important; }}
@@ -105,9 +117,10 @@ h3, h4 {{ font-size: 1rem !important; color: var(--navy) !important; padding-top
 .acct-strip .cell {{ padding: .5rem .9rem; border-right: 1px solid #23406A; flex: 1 1 0; min-width: 7rem; }}
 .acct-strip .cell:last-child {{ border-right: 0; }}
 .acct-strip .lbl {{ font-size: .72rem; color: #9FB3CE; text-transform: uppercase; letter-spacing: .06em; }}
-.acct-strip .val {{ font-size: 1.25rem; font-weight: 600; font-variant-numeric: tabular-nums; }}
-.acct-strip .sub {{ font-size: .78rem; color: #B9C8DC; font-variant-numeric: tabular-nums; }}
-.acct-strip .up {{ color: #4ADE80; }} .acct-strip .down {{ color: #FF6B7D; }}
+.acct-strip .val {{ font-size: 1.25rem; font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; }}
+.acct-strip .sub {{ font-size: .78rem; color: #B9C8DC; font-variant-numeric: tabular-nums; text-align: right; }}
+/* on navy the brand red is too dark to read: the same hue, lighter */
+.acct-strip .up {{ color: #4ADE80; }} .acct-strip .down {{ color: #F2546A; }}
 .panel-title {{ font-size: .86rem; font-weight: 700; color: var(--navy); text-transform: uppercase;
     letter-spacing: .06em; border-bottom: 2px solid var(--navy); padding-bottom: .15rem; margin: .4rem 0 .3rem; }}
 .up {{ color: var(--green); }} .down {{ color: var(--red); }}
@@ -116,6 +129,17 @@ h3, h4 {{ font-size: 1rem !important; color: var(--navy) !important; padding-top
 .badge.red {{ background: #FCE8EB; color: var(--red); }} .badge.amber {{ background: #FFF2DB; color: var(--amber); }}
 .badge.green {{ background: #E3F4E8; color: var(--green); }} .badge.grey {{ background: #ECEFF3; color: var(--muted); }}
 .badge.navy {{ background: var(--navy); color: #fff; }}
+.dcards {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: .6rem; margin: .2rem 0 .4rem; }}
+.dcard {{ border: 1px solid var(--line); border-left: 4px solid var(--navy); border-radius: 4px; padding: .55rem .75rem;
+    background: #fff; }}
+.dcard .t {{ font-weight: 700; color: var(--navy); font-size: 1rem; }}
+.dcard .kv {{ display: grid; grid-template-columns: auto 1fr; gap: .1rem .7rem; margin-top: .35rem; font-size: .86rem; }}
+.dcard .kv span:nth-child(odd) {{ color: var(--muted); }}
+.dcard .kv span:nth-child(even) {{ font-variant-numeric: tabular-nums; text-align: right; }}
+.dcard .s {{ margin-top: .35rem; font-size: .8rem; color: var(--muted); }}
+.ddbar {{ height: .55rem; background: var(--panel); border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }}
+.ddbar > div {{ height: 100%; }}
+.ddbar .green {{ background: var(--green); }} .ddbar .amber {{ background: var(--amber); }} .ddbar .red {{ background: var(--red); }}
 
 @media (max-width: 640px) {{
   .acct-strip .cell {{ min-width: 48%; border-right: 0; border-bottom: 1px solid #23406A; }}
