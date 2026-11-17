@@ -58,9 +58,9 @@ NOT_MINERS = {
     "6885.HK": "Henan Jinma Energy — coke and coking chemicals",
     "8095.HK": "Beida Jade Bird — metals trading and tourism",
     "8250.HK": "Du Du Holdings — fresh produce trading",
-    # scope = metal ores, coal, uranium (Sean 2026-11-17); checked on Bloomberg as well
-    "0166.HK": "New Times — metals trading (Bloomberg: metals & ore traders)",
-    "1205.HK": "CITIC Resources — oil exploration and production first (Bloomberg: E&P)",
+    # scope = metal ores, coal, uranium (Sean 2026-11-17)
+    "0166.HK": "New Times — metals trading",
+    "1205.HK": "CITIC Resources — oil exploration and production first",
     "1380.HK": "China Kingstone — marble, not a metal",
     "2693.HK": "Jinyan Kaolin — kaolin, not a metal",
 }
