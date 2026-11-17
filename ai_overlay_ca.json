@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-16T22:51Z",
+ "generated_at": "2026-11-17T07:25Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
    "ticker": "LIFT.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "量化分高但无新闻且大跌，警惕隐性稀释或项目停滞。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "无新闻却暴跌近35%，疑似遭遇严重稀释或钻探失败，建议规避。"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金矿生产商缺乏新闻催化且跌幅显著，需关注运营隐患。"
+   "ai_adjust": -3,
+   "ai_note": "产量股无故下跌且无新闻，需警惕隐性运营风险或资金流出。"
   },
   {
    "ticker": "V.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型铀矿勘探股零新闻且下跌，极大概率面临融资稀释。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铀矿勘探股温和回调，缺乏催化剂，维持中性观望。"
   },
   {
    "ticker": "JUGR.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值过低且无新闻，勘探股无催化易陷入流动性枯竭。"
-  },
-  {
-   "ticker": "UTWO.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "跌幅超三成且毫无音讯，资金链断裂或私募融资风险极高。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "勘探股大幅回撤且无消息面支撑，可能存在未披露的负面进展。"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "生产商股价大跌且无公告，可能存在未披露的运营问题。"
+   "ai_adjust": -4,
+   "ai_note": "生产商股价大跌却无公告，需防范潜在的矿山运营或社区问题。"
   },
   {
-   "ticker": "VIO.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "勘探股缺乏新闻支撑，量化高分或为历史数据滞后所致。"
-  },
-  {
-   "ticker": "IRV.CN",
+   "ticker": "UTWO.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型市值叠加无量阴跌，需防范管理层套现或隐性增发。"
+   "ai_adjust": -7,
+   "ai_note": "暴跌超35%且零新闻，极大概率是流动性枯竭或隐性融资稀释。"
   },
   {
    "ticker": "MMY.V",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "生产商相对抗跌但零新闻，基本面缺乏边际改善的催化剂。"
+   "ai_adjust": 0,
+   "ai_note": "生产商走势相对抗跌，基本面未见明显恶化，保持中性。"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "勘探股随板块回调，无显著异常，微调负分以反映流动性风险。"
   },
   {
    "ticker": "YMC.CN",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "勘探阶段无新闻披露，高量化分掩盖了潜在的钻探失败风险。"
+   "ai_note": "跌幅较大且无新闻，警惕勘探结果不及预期或管理层减持。"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "生产商表现平稳，无重大负面消息，量化评分基本可靠。"
   },
   {
    "ticker": "FUU.V",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "铀矿勘探股大幅回撤且无消息，警惕高估值后的杀跌与稀释。"
+   "ai_note": "铀矿股大幅下挫，需警惕勘探进度落后或资金链紧张风险。"
   },
   {
-   "ticker": "IPT.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "银矿生产商跌幅较大且无公告，需排查海外矿山许可风险。"
+   "ticker": "VIO.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "股价横盘且无新闻，缺乏上行催化剂，维持中性评级。"
   },
   {
    "ticker": "LAC.TO",
    "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "锂矿开发商大跌且无新闻，市场或在定价其高昂的融资风险。"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型金矿生产商走势平稳但无催化，量化分难反映运营细节。"
-  },
-  {
-   "ticker": "OC.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型多元化勘探股零新闻，极易沦为缺乏流动性的僵尸股。"
+   "ai_adjust": -5,
+   "ai_note": "锂价低迷叠加无公告暴跌，需警惕项目融资困难或许可延期。"
   },
   {
    "ticker": "LAB.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "股价平稳无波动，缺乏短期催化剂，维持中性观望。"
+  },
+  {
+   "ticker": "OC.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "股价横盘且无新闻，微型勘探股需警惕静默期的隐性消耗。"
+   "ai_note": "跌幅明显且无消息，需防范早期勘探项目的资金消耗风险。"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "名称与分类不符，股价温和下跌，需核实其实际业务与资产。"
+  },
+  {
+   "ticker": "APM.TO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "生产商大幅回调，需警惕海外矿山潜在的运营或政策风险。"
   },
   {
    "ticker": "CRE.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锂矿勘探股大跌无消息，需防范前期炒作后的估值回归。"
+   "ai_adjust": -4,
+   "ai_note": "跌幅较大且无新闻，警惕锂矿项目推进不及预期或融资压力。"
   },
   {
-   "ticker": "NEXM.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "多元化勘探股跌幅近三成且无公告，项目不及预期风险高。"
+   "ticker": "MD.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "股价回撤但无负面公告，可能是板块整体调整，微调负分。"
   },
   {
    "ticker": "NOU.TO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "石墨开发商面临高资本开支，无新闻掩护下需警惕融资稀释。"
-  },
-  {
-   "ticker": "LI.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锂矿勘探股大幅回调且零新闻，行业寒冬下需防范现金流断裂。"
+   "ai_adjust": -4,
+   "ai_note": "石墨开发商大跌，需警惕高资本开支下的融资稀释及需求疲软。"
   }
  ]
 }
