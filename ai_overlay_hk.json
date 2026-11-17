@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-16T22:19Z",
+ "generated_at": "2026-11-17T06:51Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "0815.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "银矿股大幅回调且无消息面支撑，需警惕流动性与基本面风险"
-  },
-  {
    "ticker": "1712.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "金矿股单月跌超20%无任何新闻，可能存在未披露的经营问题"
+   "ai_note": "流动性较差，金价大涨下股价背离，需警惕成本上升或估值折价。"
   },
   {
    "ticker": "1303.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小市值煤炭股表现相对抗跌，但ESG长期压力不容忽视"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值极小且长期缺乏流动性，存在典型的仙股特征与老千股风险。"
+  },
+  {
+   "ticker": "0815.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "负债率偏高且近年业绩承压，白银价格弹性未能有效转化为盈利。"
+  },
+  {
+   "ticker": "0433.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "蒙古核心项目长期搁置，公司治理与历史遗留问题导致价值陷阱。"
   },
   {
    "ticker": "3636.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "铜矿股单月暴跌27%且零消息，高度警惕未披露重大利空"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "次新股受铜价波动及解禁压力影响，短期缺乏明确催化剂。"
   },
   {
    "ticker": "1208.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "MMG历史治理问题频发，大幅回调需警惕海外矿山运营风险"
-  },
-  {
-   "ticker": "0166.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值多元化公司透明度低，缺乏新闻关注与机构覆盖"
+   "ai_adjust": -4,
+   "ai_note": "秘鲁Las Bambas矿山频繁遭社区封路，运营中断风险量化难以捕捉。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中铝作为大型央企走势平稳，铝价支撑基本面暂无异常"
+   "ai_note": "大型国企受宏观与铝价周期主导，爆发力弱但下行风险相对可控。"
+  },
+  {
+   "ticker": "0621.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "南非金矿项目长期无实质进展，市值微小，属于典型壳股与治理风险。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅一亿，流动性枯竭，历史合规记录不佳，存在极高本金风险。"
   },
   {
    "ticker": "2302.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铀矿股大幅下跌无消息面解释，需关注核能政策与资产质量"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值不足1亿港元的煤炭股暴跌20%，流动性极差风险极高"
-  },
-  {
-   "ticker": "8095.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "多元化业务非纯矿业标的，走势平稳但缺乏明确催化剂"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金勘探公司无新闻且历史上有融资稀释问题，风险偏高"
-  },
-  {
-   "ticker": "0637.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "极小市值多元化公司，信息透明度不足且无机构关注"
-  },
-  {
-   "ticker": "9696.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锂业龙头受锂价下行周期影响，跌幅在行业合理范围内"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "全球最大民营铝企走势稳健，基本面扎实暂无需过度担忧"
+   "ai_note": "哈萨克斯坦铀矿产量与利润长期不达预期，基本面疲软且周期漫长。"
   },
   {
    "ticker": "3833.HK",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "多元化矿业股大幅回调且无消息，需关注资产减值风险"
+   "ai_note": "长期交易低迷，流动性极差，缺乏实质性业务改善的催化剂。"
+  },
+  {
+   "ticker": "9696.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂价暴跌导致业绩承压，且前期高杠杆并购带来沉重的财务包袱。"
+  },
+  {
+   "ticker": "0975.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "蒙古煤炭出口受中国需求及边境通关效率制约，属正常周期波动。"
   },
   {
    "ticker": "1258.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "大型有色矿企单月跌超23%无消息，警惕海外项目运营风险"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "赞比亚铜矿运营稳健且分红良好，当前估值被量化模型显著低估。"
+  },
+  {
+   "ticker": "1029.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "受地缘政治及制裁影响，远东项目物流与融资面临极大不确定性。"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "次新金矿股走势温和，需关注产能释放进度与成本管控"
+   "ai_adjust": 0,
+   "ai_note": "乌兹别克斯坦金矿处于产能爬坡期，基本面尚可但估值仍需消化。"
   },
   {
-   "ticker": "1051.HK",
+   "ticker": "1378.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "民企成本控制极佳且分红丰厚，受地产拖累但实际质地优于量化评分。"
+  },
+  {
+   "ticker": "2610.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "G-Resources有历史稀释前科，金矿资产质量与治理需验证"
+   "ai_note": "港股子公司流动性差，受母公司关联交易及治理折价影响明显。"
   },
   {
-   "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "IRC有财务困难与债务重组历史，铁矿小市值标的风险较高"
+   "ticker": "1898.HK",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "低估值高股息的防御性标的，量化评分未能充分体现其安全边际。"
   },
   {
-   "ticker": "0098.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铝型材企业走势平稳跌幅有限，基本面尚可但缺乏弹性"
+   "ticker": "0866.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "历史上存在财务争议，虽经重组但市场对其公司治理仍存严重折价。"
   }
  ]
 }
