@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-16T22:32Z",
+ "generated_at": "2026-11-17T07:01Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000612.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "量化分最高但月跌超10%，铝价承压无异常信号维持中性"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "治理结构存疑，大股东历史占用资金问题未被量化模型捕捉"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中铝大盘国企波动正常，无重大利空中性观望"
+   "ai_note": "央企背景，经营稳健，板块整体回调属正常波动"
   },
   {
    "ticker": "000807.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "水电铝成本优势明显跌幅温和基本面稳健"
-  },
-  {
-   "ticker": "002497.SZ",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "月跌超10%且无消息面支撑，锂盐业务承压需警惕"
-  },
-  {
-   "ticker": "603876.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近19%幅度异常无公告解释，存在未披露风险"
+   "ai_note": "依赖云南水电，枯水期限电风险及干旱减产隐患模型未体现"
   },
   {
    "ticker": "000933.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "神火国企背景稳健，跌幅在行业正常范围内"
-  },
-  {
-   "ticker": "002532.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "天山铝业跌幅最小之一，新疆产能成本优势突出"
-  },
-  {
-   "ticker": "603979.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌近25%为全场最大且无公告解释，高度警惕"
-  },
-  {
-   "ticker": "000792.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锂价低迷拖累但钾肥业务提供安全垫"
-  },
-  {
-   "ticker": "600490.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "鹏欣历史治理问题频发，大跌17%需警惕"
-  },
-  {
-   "ticker": "600546.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "煤炭板块整体走弱，月跌16%反映行业压力"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中孚实业曾有财务问题前科，大跌需保持谨慎"
+   "ai_note": "历史存在关联交易及治理争议，隐性治理折价未反映在评分中"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "晋能控股月跌14.5%，煤炭政策风险持续压制"
-  },
-  {
-   "ticker": "000737.SZ",
-   "ai_view": "red_flag",
    "ai_adjust": -4,
-   "ai_note": "北方铜业月跌超21%且无任何消息，存在隐性风险"
+   "ai_note": "月跌幅超16%，煤炭去产能政策及安全生产风险被低估"
   },
   {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "天齐锂业债务负担重，锂价下行周期风险放大"
-  },
-  {
-   "ticker": "601677.SS",
+   "ticker": "002532.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "明泰铝业铝板带龙头，跌幅温和基本面尚可"
+   "ai_adjust": -1,
+   "ai_note": "新疆产能布局有成本优势，但运输半径及能耗双控风险需关注"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "月跌近20%，煤矿资源接续及安全事故停产风险模型未充分定价"
+  },
+  {
+   "ticker": "603979.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "月跌超25%且无利好对冲，海外项目执行风险及客户集中度隐患严重"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "历史财务表现波动大，资产负债率偏高，偿债压力模型未体现"
   },
   {
    "ticker": "600971.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "恒源煤电小市值煤炭股，流动性风险叠加行业压力"
+   "ai_adjust": -3,
+   "ai_note": "小市值煤炭股流动性差，资源枯竭及转型不确定性被低估"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂价持续下行叠加收购SQM带来的高负债，财务杠杆风险突出"
   },
   {
    "ticker": "002379.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "宏桥为全球最大铝企，跌幅温和估值合理"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "历史债务危机及关联交易争议，治理折价未在量化评分中体现"
+  },
+  {
+   "ticker": "600490.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "海外矿产收购屡次受挫，项目落地存疑，治理及执行力堪忧"
+  },
+  {
+   "ticker": "000737.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "月跌20%且市值偏小，铜矿资源禀赋一般，产能扩张不及预期"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南山铝业月跌仅3.2%最抗跌，航空铝材转型有亮点"
+   "ai_adjust": -1,
+   "ai_note": "铝加工全产业链布局较完整，月跌幅温和，基本面相对扎实"
+  },
+  {
+   "ticker": "601168.SS",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "月跌超21%，西部矿山开发周期长且成本高，盈利兑现存不确定性"
   },
   {
    "ticker": "603993.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "洛钼月跌超21%，铜钴价格波动及刚果金风险需警惕"
+   "ai_adjust": -4,
+   "ai_note": "刚果金项目地缘政治风险及铜钴价格波动，海外运营风险被低估"
+  },
+  {
+   "ticker": "002547.SZ",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微市值且月跌超22%，流动性极差，历史治理问题频发需高度警惕"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中煤能源子公司，经营相对稳健但煤炭板块整体承压"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "央企煤炭龙头，分红稳定，板块回调中防御属性较强"
   }
  ]
 }
