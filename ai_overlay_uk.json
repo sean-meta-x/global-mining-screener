@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-16T22:02Z",
+ "generated_at": "2026-11-17T06:36Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
-   "ticker": "SRB.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "巴西项目成本高企且历史上有频繁融资稀释记录。"
+   "ticker": "ZIOC.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "刚果铁矿石开发商，零收入、市值仅2000万，基础设施与许可风险极高，稀释严重"
   },
   {
-   "ticker": "POW.L",
+   "ticker": "SRB.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "微型铀矿勘探股，极度依赖融资且带有强烈推销色彩。"
+   "ai_note": "巴西金矿运营不稳，历史治理问题频发，产量持续低于指引"
   },
   {
    "ticker": "THX.L",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "塞内加尔矿业政策存不确定性，需警惕主权风险。"
+   "ai_adjust": 0,
+   "ai_note": "塞内加尔Seguela金矿投产顺利，运营相对稳健，无明显治理瑕疵"
+  },
+  {
+   "ticker": "POW.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值仅1200万的铀矿勘探公司，高度依赖融资稀释，推广色彩浓厚"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "实物铀持有工具，走势紧跟铀价，无运营风险但无超额催化"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "哈萨克斯坦政策风险与金属价格波动相互抵消。"
-  },
-  {
-   "ticker": "YCA.L",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "纯实物铀信托，无运营风险，是铀牛市的纯净标的。"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "铂族金属价格崩盘叠加南非电力危机，基本面恶化。"
+   "ai_adjust": -1,
+   "ai_note": "哈萨克斯坦Kounrad铜矿运营稳定，但地缘风险压制估值"
   },
   {
    "ticker": "JLP.L",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "公司结构复杂且频繁稀释，南非资产面临运营阻力。"
+   "ai_adjust": -6,
+   "ai_note": "频繁增发稀释股本，管理层承诺常未兑现，南非PGM价格低迷"
+  },
+  {
+   "ticker": "KAP.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "全球最大铀生产商，基本面扎实但哈萨克斯坦政策风险需关注"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "南非PGM生产商，铂钯价格持续疲软，利润空间大幅压缩"
   },
   {
    "ticker": "SLP.L",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "严重依赖铂族金属价格，南非运营环境持续恶化。"
-  },
-  {
-   "ticker": "XTR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "典型的微型炒作股，长期依赖增发稀释股东权益。"
+   "ai_adjust": -3,
+   "ai_note": "同样受PGM价格低迷拖累，南非运营成本高企，盈利承压"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "津巴布韦主权风险极高，利润汇出与政策存隐患。"
-  },
-  {
-   "ticker": "CAPD.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "赞比亚资产流动性差，公司治理与透明度存疑。"
-  },
-  {
-   "ticker": "0ICU.L",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "南非尾矿项目受困于电力与水资源等基建瓶颈。"
+   "ai_note": "津巴布韦Bilta金矿，尽管分红慷慨但该国政策与汇兑风险极高"
   },
   {
    "ticker": "MET1.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值仅1200万的早期铁矿勘探公司，无收入且融资需求迫切"
+  },
+  {
+   "ticker": "XTR.L",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "毛里塔尼亚铁矿项目推进缓慢，存在融资与许可风险。"
+   "ai_adjust": -6,
+   "ai_note": "微型金矿勘探股，津巴布韦资产叠加推广嫌疑，流动性极差"
+  },
+  {
+   "ticker": "RSG.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "马里资产受政变及新矿业法冲击，西非地缘风险显著上升"
   },
   {
    "ticker": "AURA.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "铀矿项目推进极其缓慢，长期面临资金稀释风险。"
-  },
-  {
-   "ticker": "RMR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "早期铜矿勘探股，市值极小且带有明显炒作特征。"
-  },
-  {
-   "ticker": "ECOR.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "特许权使用费模式抗风险强，但基本金属敞口拖累。"
-  },
-  {
-   "ticker": "RSG.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "核心资产位于马里和布基纳法索，地缘政治风险极高。"
-  },
-  {
-   "ticker": "ALTN.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "哈萨克斯坦资产面临政策变动风险及管理层整合。"
+   "ai_note": "毛里塔尼亚铀项目长期拖延，历史多次稀释融资，推进缓慢"
   },
   {
    "ticker": "KEFI.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "埃塞俄比亚项目深陷外汇短缺与安全局势动荡。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "埃塞俄比亚项目面临许可与资金风险，开发商阶段需持续融资"
   },
   {
    "ticker": "KOD.L",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "马里军政府政策多变且安全恶化，锂矿开发受阻。"
+   "ai_adjust": -5,
+   "ai_note": "马里锂矿项目受政变及新矿业法严重影响，管辖风险极高"
+  },
+  {
+   "ticker": "RMR.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "市值仅1500万的微型勘探公司，资产早期阶段，信息极度有限"
+  },
+  {
+   "ticker": "ALTN.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "哈萨克斯坦Bakyrchik金矿历史运营不稳，治理与产量问题频出"
+  },
+  {
+   "ticker": "GGP.L",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "Havieron项目与纽蒙特合作，储量巨大且近期股价正动量良好"
   }
  ]
 }
