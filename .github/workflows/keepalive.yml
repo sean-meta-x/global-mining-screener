@@ -1,0 +1,28 @@
+name: Keep the sites awake
+
+# Streamlit Community Cloud sleeps idle apps; the first visitor then waits 60-70 s.
+# Weekdays only, before the Asian open and twice during the day (UTC+8). This repo is
+# public, so the runs use no Actions quota; one run is ~3 min (10 sites x ~15 s).
+on:
+  schedule:
+    - cron: "30 23 * * 0-4"   # 07:30 UTC+8, Monday-Friday
+    - cron: "0 3 * * 1-5"     # 11:00 UTC+8
+    - cron: "0 6 * * 1-5"     # 14:00 UTC+8
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  wake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: ops/keepalive.py
+          sparse-checkout-cone-mode: false
+      - name: Wake the sites (preinstalled Chrome, no browser download)
+        run: |
+          pip install -q playwright==1.58.0
+          python ops/keepalive.py
