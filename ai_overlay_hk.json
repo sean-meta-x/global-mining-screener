@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-17T06:51Z",
+ "generated_at": "2026-11-17T22:13Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "1712.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "流动性较差，金价大涨下股价背离，需警惕成本上升或估值折价。"
-  },
-  {
    "ticker": "1303.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值极小且长期缺乏流动性，存在典型的仙股特征与老千股风险。"
+   "ai_note": "微型煤矿股月内零成交回报，流动性极差，警惕老千股陷阱"
+  },
+  {
+   "ticker": "1712.HK",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "金价强势下龙资源反跌22%，无消息解释，运营或治理存疑"
   },
   {
    "ticker": "0815.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "负债率偏高且近年业绩承压，白银价格弹性未能有效转化为盈利。"
+   "ai_adjust": -5,
+   "ai_note": "白银集团跌18%无公告，历史上有治理瑕疵，需核实基本面"
+  },
+  {
+   "ticker": "3636.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "铜producer暴跌28%零消息，极可能隐藏未披露的重大问题"
   },
   {
    "ticker": "0433.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "蒙古核心项目长期搁置，公司治理与历史遗留问题导致价值陷阱。"
-  },
-  {
-   "ticker": "3636.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "次新股受铜价波动及解禁压力影响，短期缺乏明确催化剂。"
+   "ai_adjust": -7,
+   "ai_note": "北方矿业有停牌及财务造假前科，治理风险极高不宜触碰"
   },
   {
    "ticker": "1208.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "秘鲁Las Bambas矿山频繁遭社区封路，运营中断风险量化难以捕捉。"
+   "ai_note": "五矿资源Las Bambas社区冲突反复，运营中断风险持续存在"
+  },
+  {
+   "ticker": "2302.HK",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "铀价走强下中核国际逆势跌26%，需排查是否有隐藏利空"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型国企受宏观与铝价周期主导，爆发力弱但下行风险相对可控。"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "南非金矿项目长期无实质进展，市值微小，属于典型壳股与治理风险。"
+   "ai_adjust": -2,
+   "ai_note": "中铝为央企铝业龙头，跌幅温和，风险整体可控"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值仅一亿，流动性枯竭，历史合规记录不佳，存在极高本金风险。"
+   "ai_note": "南南资源市值不足一亿，微型煤矿股流动性近乎为零"
   },
   {
-   "ticker": "2302.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "哈萨克斯坦铀矿产量与利润长期不达预期，基本面疲软且周期漫长。"
-  },
-  {
-   "ticker": "3833.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "长期交易低迷，流动性极差，缺乏实质性业务改善的催化剂。"
-  },
-  {
-   "ticker": "9696.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂价暴跌导致业绩承压，且前期高杠杆并购带来沉重的财务包袱。"
-  },
-  {
-   "ticker": "0975.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "蒙古煤炭出口受中国需求及边境通关效率制约，属正常周期波动。"
-  },
-  {
-   "ticker": "1258.HK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "赞比亚铜矿运营稳健且分红良好，当前估值被量化模型显著低估。"
-  },
-  {
-   "ticker": "1029.HK",
+   "ticker": "0621.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "受地缘政治及制裁影响，远东项目物流与融资面临极大不确定性。"
+   "ai_adjust": -9,
+   "ai_note": "坛金矿业为长期问题勘探商，项目屡次失败管理层信誉差"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "乌兹别克斯坦金矿处于产能爬坡期，基本面尚可但估值仍需消化。"
+   "ai_adjust": -1,
+   "ai_note": "集海黄金次新股已投产，运营相对稳定但需关注估值"
+  },
+  {
+   "ticker": "1029.HK",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "铁货拥有俄罗斯资产，制裁风险叠加财务困境需高度警惕"
+  },
+  {
+   "ticker": "9696.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 2,
+   "ai_note": "锂价低迷天齐跌幅温和属合理调整，估值已大幅压缩"
+  },
+  {
+   "ticker": "1258.HK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "中国有色矿业跌26%幅度较大，虽有央企背景仍需排查原因"
+  },
+  {
+   "ticker": "3833.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "新鑫矿业多元化矿种但跌幅偏大，基本面需进一步验证"
   },
   {
    "ticker": "1378.HK",
    "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "民企成本控制极佳且分红丰厚，受地产拖累但实际质地优于量化评分。"
+   "ai_adjust": 3,
+   "ai_note": "宏桥为铝业龙头月内仅跌2.4%，抗跌性突出彰显经营韧性"
   },
   {
    "ticker": "2610.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "港股子公司流动性差，受母公司关联交易及治理折价影响明显。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "南山铝业国际跟随板块调整，跌幅在合理范围内"
   },
   {
    "ticker": "1898.HK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "低估值高股息的防御性标的，量化评分未能充分体现其安全边际。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中煤能源为央企大矿，运营稳健跌幅温和风险有限"
+  },
+  {
+   "ticker": "0975.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "蒙古矿业受蒙古国政策及物流瓶颈制约，跌19%反映司法风险"
   },
   {
    "ticker": "0866.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "历史上存在财务争议，虽经重组但市场对其公司治理仍存严重折价。"
+   "ai_adjust": -10,
+   "ai_note": "中国秦发单月暴跌30%零消息，极可能存在未披露重大风险"
   }
  ]
 }
