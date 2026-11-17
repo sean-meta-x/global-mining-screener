@@ -18,7 +18,7 @@ from html import escape
 
 import streamlit as st
 
-THEME_VERSION = "2026-11-17.3"
+THEME_VERSION = "2026-11-17.4"
 
 NAVY = "#0B1F3A"        # top bar, sidebar, headings
 NAVY_2 = "#16325C"      # hover / active in the sidebar
@@ -98,6 +98,9 @@ h3, h4 {{ font-size: 1rem !important; color: var(--navy) !important; padding-top
     text-align: left; }}
 [data-testid="stSidebar"] .stButton button:hover, [data-testid="stSidebar"] [data-testid="stLinkButton"] a:hover,
 [data-testid="stSidebar"] [data-testid="stPageLink"] a:hover {{ background: var(--navy2); }}
+[data-testid="stSidebar"] [data-testid="stLinkButton"] a > div, [data-testid="stSidebar"] [data-testid="stLinkButton"] a > div > span,
+[data-testid="stSidebar"] .stButton button > div {{ justify-content: flex-start !important; width: 100%; }}
+[data-testid="stSidebar"] [data-testid="stLinkButton"] p {{ font-size: .9rem; }}
 [data-testid="stSidebar"] .stButton button {{ padding: .2rem .5rem; min-height: 2rem; }}
 [data-testid="stSidebar"] .stButton button p {{ font-size: .8rem; white-space: nowrap; }}
 [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3,
