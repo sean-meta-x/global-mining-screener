@@ -137,6 +137,9 @@ from scheduler.jobs import (
 )
 import config
 import site_links
+# Same as site_theme: a push reruns the new app.py in a process that still holds the old module
+# (2026-11-17: site_links.BRIEF was new, the old module lacked it -> AttributeError on AU).
+site_links = importlib.reload(site_links)
 from auth import check_auth, current_user, logout
 
 logging.basicConfig(level=logging.INFO,
