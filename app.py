@@ -12,7 +12,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.io as pio
 import streamlit as st
+import importlib
 import site_theme
+# A push reruns the new app.py in the running process, which still holds the old
+# site_theme (2026-11-17: apply() gained an argument and every awake app crashed).
+site_theme = importlib.reload(site_theme)
 
 # Global chart style — light "research report" template, mobile-friendly:
 # compact margins, horizontal legend on top, smaller base fonts.
