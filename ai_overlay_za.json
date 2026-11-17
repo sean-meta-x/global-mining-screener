@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-17T06:41Z",
+ "generated_at": "2026-11-17T22:02Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "JBL.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "月跌32%无任何消息，高度疑似稀释或运营危机"
+  },
+  {
+   "ticker": "APH.JO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "尾矿项目执行风险高且存在隐性稀释，量化模型未计入流动性折价。"
+   "ai_note": "刚果(金)政治风险高，锡价波动加剧不确定性"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铁矿石基本面稳健，但受中国需求波动影响，量化得分已合理反映。"
+   "ai_adjust": -1,
+   "ai_note": "铁矿需求受中国地产拖累，但基本面尚可"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铂族金属价格持续低迷，量化未充分计价南非电力短缺对产能的拖累。"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锡价虽有支撑但近期回调，刚果金地缘政治风险在量化模型中被低估。"
+   "ai_note": "津巴布韦政策风险叠加PGM价格持续低迷"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "市值极小且单月暴跌55%，存在严重的流动性枯竭或隐性股本稀释风险。"
+   "ai_note": "市值极小且月暴跌50%，疑似严重经营困境"
   },
   {
    "ticker": "MRF.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬矿业务稳定但缺乏增长催化剂，量化评分客观反映了其防御性特征。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铬矿业务平稳但公司治理历史存疑"
   },
   {
    "ticker": "GML.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "彩色宝石需求平稳，公司治理尚可，当前估值与量化得分匹配度较高。"
+   "ai_adjust": -1,
+   "ai_note": "宝石细分赛道流动性差，跌幅温和可接受"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铂钯价格疲软压制利润，南非劳资关系与电力成本上升是量化盲区。"
+   "ai_note": "PGM价格结构性下行，大型矿企盈利承压"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铂族金属拖累整体业绩，历史遗留的治理与劳工问题需额外风险折价。"
+   "ai_adjust": -4,
+   "ai_note": "成本高企叠加资本配置争议，PGM弱势难改"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "小市值PGM矿商月跌31%，基本面显著恶化"
   },
   {
    "ticker": "ARI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "管理层资本配置能力极强，多元化资产有效对冲单一商品周期风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "管理层优质，业绩平稳无重大风险信号"
   },
   {
    "ticker": "PAN.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "金价处于历史高位，公司成本控制优异，量化低估了其利润弹性。"
-  },
-  {
-   "ticker": "HAR.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "受益于金价上涨且产量稳步增长，但需警惕南非深井矿的运营风险。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金价高位支撑，小幅回调属正常波动"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭现金流充沛但面临长期ESG转型压力，量化得分已合理定价。"
+   "ai_adjust": -1,
+   "ai_note": "煤炭面临ESG逆风但现金流依然稳健"
+  },
+  {
+   "ticker": "HAR.JO",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "金价走强但股价跑输，或存运营层面隐忧"
   },
   {
    "ticker": "SLG.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "市值过小且受煤炭长期需求萎缩压制，流动性折价在量化模型中缺失。"
+   "ai_adjust": -5,
+   "ai_note": "小市值煤炭公司跌10%，流动性风险较大"
+  },
+  {
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭长期需求萎缩，行业面临结构性利空"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "PGM板块中运营较优，跌幅相对可控"
   },
   {
    "ticker": "GFI.JO",
    "ai_view": "bullish",
    "ai_adjust": 2,
-   "ai_note": "全球资产组合分散风险，金价上行周期中具备极强的自由现金流弹性。"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "未做套期保值导致业绩对铂价极度敏感，当前低迷的PGM价格构成实质利空。"
-  },
-  {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "虽依赖出口但受全球煤炭ESG排斥影响，长期融资成本上升未被量化。"
+   "ai_note": "金价利好下表现积极，大型金矿龙头受益"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "从英美铂业分拆后缺乏规模效应，在铂族金属下行周期中抗风险能力弱。"
+   "ai_adjust": -3,
+   "ai_note": "PGM价格持续走弱，大市值亦难以幸免"
   },
   {
    "ticker": "DRD.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "尾矿回收成本极低，金价大涨带来纯利润增量，量化未充分体现其杠杆。"
-  },
-  {
-   "ticker": "ANG.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "全球顶级金矿商，产量增长路径清晰，当前估值在金价牛市中仍具吸引力。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "尾矿提金成本低，金价支撑下表现平稳"
   }
  ]
 }
