@@ -1242,6 +1242,13 @@ with st.sidebar:
         st.caption(f"As of {_spot_date}")
     st.divider()
 
+    # Sean 2026-11-17: the screen shows names a fund could trade; the rest stays one click away
+    _LIQ_MCAP_USD, _LIQ_ADV_USD = 20e6, 25e3
+    _liq_only = st.toggle(
+        "只看可交易规模（市值 ≥ US$20M 且日均成交额 ≥ US$25k）",
+        value=True,
+        help="关闭后显示全部公司（含微盘和不活跃的）。没有市值或成交额数据的公司算作不满足。",
+    )
     _spg_only = st.toggle(
         "📡 S&P data only",
         value=False,
@@ -1513,6 +1520,15 @@ _debug_steps.append((f"analyst_upside>={min_analyst_upside}", int(mask.sum())))
 
 if _spg_only and "has_spg" in df.columns:
     mask &= df["has_spg"]
+if _liq_only and {"market_cap", "avg_turnover"} <= set(df.columns):
+    _fx = config.FX_TO_USD
+    _liq_ok = ((pd.to_numeric(df["market_cap"], errors="coerce") * _fx >= _LIQ_MCAP_USD)
+               & (pd.to_numeric(df["avg_turnover"], errors="coerce") * _fx >= _LIQ_ADV_USD))
+    _n_illiquid = int((mask & ~_liq_ok).sum())
+    mask &= _liq_ok
+else:
+    _n_illiquid = 0
+_debug_steps.append(("liquidity", int(mask.sum())))
 _debug_steps.append(("spg_only", int(mask.sum())))
 
 filtered = df[mask].sort_values(sort_col, ascending=sort_asc)
@@ -1535,7 +1551,8 @@ with st.container(key="summary_cards"):
             )
 _FACTOR_ZH = {"valuation": "估值", "health": "财务健康", "momentum": "超跌反转",
               "mining": "矿业（S&P/SNL）", "commodity": "商品", "stage": "阶段"}
-st.caption(f"以上数字的口径：侧栏当前筛选 {len(filtered)} 家，全市场 {len(df)} 家。"
+st.caption(f"以上数字的口径：侧栏当前筛选 {len(filtered)} 家，全市场 {len(df)} 家"
+           + (f"（{_n_illiquid} 家低于可交易规模未显示，可在侧栏关闭）" if _n_illiquid else "") + "。"
            + (f" 综合评分本次未计入：{'、'.join(_FACTOR_ZH[f] for f in _factor_excluded)}"
               f"（数据覆盖不足 {MIN_FACTOR_COVERAGE:.0%}，权重按比例分给其余因子）。"
               + (" 评级门槛已按分数分布校准，各档家数与原权重下相同："
