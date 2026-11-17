@@ -707,6 +707,27 @@ GRADE_CUTOFFS = [(75.0, "🟢 Strong Buy"), (60.0, "🔵 Buy"), (45.0, "🟡 Wat
 GRADE_FLOOR = "🔴 Avoid"
 
 
+# Tradable = what a fund could trade (Sean 2026-11-17). Micro caps and names that barely trade are
+# still scored and graded, but they do not set the cutoffs: the grades mean the same thing for the
+# names the page shows by default.
+LIQ_MCAP_USD, LIQ_ADV_USD = 20e6, 25e3
+try:
+    from config import FX_TO_USD as _FX_TO_USD
+except ImportError:                                   # ASX station: no FX in its config
+    _FX_TO_USD = 0.65                                 # AUD→USD, approximate (threshold only)
+
+
+def tradable_mask(df: pd.DataFrame, fx: float = _FX_TO_USD) -> pd.Series:
+    """Market cap ≥ US$20M and average daily traded value ≥ US$25k. Missing data = not tradable.
+    Without the columns at all, everything counts as tradable."""
+    mc = df["market_cap"] if "market_cap" in df.columns else df.get("marketCap")
+    to = df.get("avg_turnover")
+    if mc is None or to is None:
+        return pd.Series(True, index=df.index)
+    return ((pd.to_numeric(mc, errors="coerce") * fx >= LIQ_MCAP_USD)
+            & (pd.to_numeric(to, errors="coerce") * fx >= LIQ_ADV_USD))
+
+
 def calibrated_cutoffs(reference: pd.Series, scores: pd.Series) -> list[float]:
     """Cutoffs for `scores` that give each grade as many names as the fixed cutoffs give
     `reference` (same rows). A grade nobody reached keeps an unreachable cutoff."""
@@ -948,7 +969,9 @@ def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
         _reference[micro_cap_mask] = 50.0
 
     # Grade label: fixed cutoffs, or calibrated ones when a factor was left out (see GRADE_CUTOFFS)
-    _cuts = calibrated_cutoffs(_reference, df["score_composite"]) if _excluded else None
+    _trad = tradable_mask(df)                         # calibrated on tradable names only
+    _cuts = (calibrated_cutoffs(_reference[_trad], df.loc[_trad, "score_composite"])
+             if _excluded and _trad.any() else None)
     df["grade"] = df["score_composite"].apply(lambda s: grade_label(s, _cuts))
 
     # ── Peer group ranking ────────────────────────────────────────────────────

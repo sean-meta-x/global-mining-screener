@@ -54,3 +54,21 @@ def test_a_grade_nobody_reached_stays_empty_and_fixed_cutoffs_are_the_default():
     cuts = calibrated_cutoffs(pd.Series([70, 50]), pd.Series([95, 60]))
     assert cuts[0] == float("inf") and grade_label(95, cuts) == "🔵 Buy"
     assert grade_label(75) == "🟢 Strong Buy" and grade_label(29.9) == "🔴 Avoid"
+
+
+# ── cutoffs from tradable names only (Sean 2026-11-17) ──
+from data.scorer import tradable_mask  # noqa: E402
+
+
+def test_tradable_mask_needs_both_size_and_trading():
+    df = pd.DataFrame({"market_cap": [50e6, 50e6, 5e6, None], "avg_turnover": [100e3, 1e3, 100e3, 100e3]})
+    assert tradable_mask(df, fx=1.0).tolist() == [True, False, False, False]      # missing data = not tradable
+
+
+def test_micro_caps_do_not_move_the_cutoffs():
+    tradable = pd.Series([True, True, True, True, False, False])
+    reference = pd.Series([80, 62, 50, 40, 90, 90])            # two hidden micro caps would be Strong Buy
+    shifted = pd.Series([86, 70, 58, 48, 99, 98])
+    cuts = calibrated_cutoffs(reference[tradable], shifted[tradable])
+    assert [grade_label(s, cuts).split(" ", 1)[1] for s in shifted[tradable]] == ["Strong Buy", "Buy", "Watch", "Neutral"]
+    assert grade_label(99, cuts).endswith("Strong Buy")       # hidden names are still graded on the same scale

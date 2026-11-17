@@ -122,7 +122,8 @@ def _report_to_pdf(markdown_text: str, title: str = "Mining Report") -> bytes:
 from data.universe import ALL_COMMODITIES, ALL_STAGES, get_ticker_meta
 import data.snl_client as snl_client
 from data.scorer import (factor_coverage, effective_weights, MIN_FACTOR_COVERAGE,
-                         calibrated_cutoffs, grade_label, GRADE_CUTOFFS)
+                         calibrated_cutoffs, grade_label, GRADE_CUTOFFS,
+                         tradable_mask, LIQ_MCAP_USD, LIQ_ADV_USD)
 import data.release_db as release_db
 from data.database import (
     init_db, reset_engine, load_latest, load_history, load_prev_scores,
@@ -1246,7 +1247,6 @@ with st.sidebar:
     st.divider()
 
     # Sean 2026-11-17: the screen shows names a fund could trade; the rest stays one click away
-    _LIQ_MCAP_USD, _LIQ_ADV_USD = 20e6, 25e3
     _liq_only = st.toggle(
         "只看可交易规模（市值 ≥ US\\$20M 且日均成交额 ≥ US\\$25k）",   # escaped: two $ would be read as a formula
         value=True,
@@ -1465,9 +1465,11 @@ with st.sidebar:
             ).round(1)
         df["score_composite"] = _comp(_ew)
         # Grades: fixed cutoffs, or — when a factor was left out — cutoffs that keep each grade's
-        # share of names under the slider weights as they are (halted names not counted)
-        _grade_cuts = (calibrated_cutoffs(_comp(_slider_w)[~_stale_mask], df.loc[~_stale_mask, "score_composite"])
-                       if _factor_excluded else None)
+        # share of names under the slider weights as they are, counted over tradable names only
+        # (Sean 2026-11-17: micro caps do not set the bar; halted names not counted either)
+        _calib = ~_stale_mask & tradable_mask(df)
+        _grade_cuts = (calibrated_cutoffs(_comp(_slider_w)[_calib], df.loc[_calib, "score_composite"])
+                       if _factor_excluded and _calib.any() else None)
         df["grade"] = df["score_composite"].apply(lambda s: grade_label(s, _grade_cuts))
         # Re-apply stale-price penalty — the DB-level cap must survive the
         # weight-slider recompute above (frozen halted price ≠ real signal)
@@ -1477,6 +1479,9 @@ with st.sidebar:
         df.loc[_stale_mask, "grade"] = STALE_GRADE
         if "ai_adjust" in df.columns:      # the AI score sits on top of the score just recomputed
             df["score_ai"] = (df["score_composite"] + df["ai_adjust"]).clip(0, 100)
+
+# the cutoffs in force, for the chart reference lines (inf = nobody reaches the grade)
+_CUT_SB, _CUT_B = (_grade_cuts[0], _grade_cuts[1]) if _grade_cuts else (GRADE_CUTOFFS[0][0], GRADE_CUTOFFS[1][0])
 
 # ── Apply filters ──────────────────────────────────────────────────────────────
 _debug_steps: list[tuple[str, int]] = [("DB total", len(df))]
@@ -1524,9 +1529,7 @@ _debug_steps.append((f"analyst_upside>={min_analyst_upside}", int(mask.sum())))
 if _spg_only and "has_spg" in df.columns:
     mask &= df["has_spg"]
 if _liq_only and {"market_cap", "avg_turnover"} <= set(df.columns):
-    _fx = config.FX_TO_USD
-    _liq_ok = ((pd.to_numeric(df["market_cap"], errors="coerce") * _fx >= _LIQ_MCAP_USD)
-               & (pd.to_numeric(df["avg_turnover"], errors="coerce") * _fx >= _LIQ_ADV_USD))
+    _liq_ok = tradable_mask(df)
     _n_illiquid = int((mask & ~_liq_ok).sum())
     mask &= _liq_ok
 else:
@@ -2644,11 +2647,11 @@ with tab_charts:
                 )
                 # Fair value and score threshold lines
                 fig_pnav2.add_vline(x=1.0, line_dash="dot", line_color="rgba(239,68,68,0.5)")
-                fig_pnav2.add_hline(y=60, line_dash="dot", line_color="rgba(34,197,94,0.5)",
-                                    annotation_text="Buy", annotation_position="right")
+                fig_pnav2.add_hline(y=_CUT_B, line_dash="dot", line_color="rgba(34,197,94,0.5)",
+                                    annotation_text=f"Buy ≥ {_CUT_B:.1f}", annotation_position="right")
                 # Deep value zone: P/NAV < 0.7, Score > 60
                 fig_pnav2.add_shape(
-                    type="rect", x0=0, x1=0.7, y0=60, y1=105,
+                    type="rect", x0=0, x1=0.7, y0=_CUT_B, y1=105,
                     fillcolor="rgba(34,197,94,0.08)",
                     line=dict(color="rgba(34,197,94,0.4)", dash="dot", width=1),
                 )
@@ -2827,10 +2830,11 @@ with tab_charts:
             hover_data={"n_companies": True},
             title="Average Composite Score by Commodity — Historical",
         )
-        fig_trend.add_hline(y=60, line_dash="dot", line_color="rgba(59,130,246,0.4)",
-                            annotation_text="Buy threshold", annotation_position="right")
-        fig_trend.add_hline(y=75, line_dash="dot", line_color="rgba(34,197,94,0.4)",
-                            annotation_text="Strong Buy", annotation_position="right")
+        fig_trend.add_hline(y=_CUT_B, line_dash="dot", line_color="rgba(59,130,246,0.4)",
+                            annotation_text=f"Buy ≥ {_CUT_B:.1f}", annotation_position="right")
+        if _CUT_SB != float("inf"):
+            fig_trend.add_hline(y=_CUT_SB, line_dash="dot", line_color="rgba(34,197,94,0.4)",
+                                annotation_text=f"Strong Buy ≥ {_CUT_SB:.1f}", annotation_position="right")
         fig_trend.update_layout(height=420, legend_title_text="Commodity",
                                 hovermode="x unified")
         st.plotly_chart(fig_trend, width="stretch")
@@ -6690,8 +6694,19 @@ with tab_report:
             _ss.get("w_val", 30) + _ss.get("w_hlt", 20) + _ss.get("w_mom", 15) +
             _ss.get("w_min", 25) + _ss.get("w_com", 5)  + _ss.get("w_stg", 5), 1
         )
-        def _wpct(key: str, default: int) -> int:
-            return round(_ss.get(key, default) / _tw * 100)
+        # the weights in effect: a factor left out for lack of data gets none, the rest scale up
+        _eff = globals().get("_ew") or {"valuation": _ss.get("w_val", 30), "health": _ss.get("w_hlt", 20),
+                                        "momentum": _ss.get("w_mom", 15), "mining": _ss.get("w_min", 25),
+                                        "commodity": _ss.get("w_com", 5), "stage": _ss.get("w_stg", 5)}
+        _eff_tot = max(sum(_eff.values()), 1)
+        _left_out = list(globals().get("_factor_excluded") or [])
+
+        def _wpct(key: str, _default=None) -> str:
+            factor = {"w_val": "valuation", "w_hlt": "health", "w_mom": "momentum",
+                      "w_min": "mining", "w_com": "commodity", "w_stg": "stage"}[key]
+            if factor in _left_out:
+                return "未计入" if zh else "not counted"
+            return f"{round(_eff[factor] / _eff_tot * 100)}%"
 
         _w_val = _wpct("w_val", 30)
         _w_hlt = _wpct("w_hlt", 20)
@@ -6699,6 +6714,10 @@ with tab_report:
         _w_min = _wpct("w_min", 25)
         _w_com = _wpct("w_com", 5)
         _w_stg = _wpct("w_stg", 5)
+        _left_note = ((f"因数据覆盖不足未计入评分：{'、'.join(_FACTOR_ZH.get(f, f) for f in _left_out)}；"
+                       "其余因子按比例放大，以上为实际生效的权重。") if zh else
+                      (f"Left out for lack of data: {', '.join({'valuation': 'Valuation', 'health': 'Financial Health', 'momentum': 'Oversold', 'mining': 'Mining Quality (S&P/SNL)', 'commodity': 'Commodity Outlook', 'stage': 'Development Stage'}.get(f, f) for f in _left_out)}; the other factors scale up in "
+                       "proportion — the weights above are the ones in effect.")) if _left_out else ""
 
         if zh:
             lines += [
@@ -6712,10 +6731,11 @@ with tab_report:
                 f"- 单只个股最高评分：**{top_score:.1f}/100**",
                 "",
                 f"评分基于六大加权维度（当前权重）："
-                f"**估值**（{_w_val}%，含 P/NAV）、**财务健康**（{_w_hlt}%）、"
-                f"**价格动能/逆向信号**（{_w_mom}%）、"
-                f"**矿业质量**（{_w_min}%，S&P/SNL：AISC利润率、储量支撑、NAV折价、EV/盎司、储量年限、品位）、"
-                f"**大宗商品前景**（{_w_com}%）、**开发阶段**（{_w_stg}%）。",
+                f"**估值**（{_w_val}，含 P/NAV）、**财务健康**（{_w_hlt}）、"
+                f"**价格动能/逆向信号**（{_w_mom}）、"
+                f"**矿业质量**（{_w_min}，S&P/SNL：AISC利润率、储量支撑、NAV折价、EV/盎司、储量年限、品位）、"
+                f"**大宗商品前景**（{_w_com}）、**开发阶段**（{_w_stg}）。",
+                *([_left_note] if _left_note else []),
                 "", "---", "",
             ]
         else:
@@ -6731,11 +6751,12 @@ with tab_report:
                 f"- Highest individual score: **{top_score:.1f}/100**",
                 "",
                 f"Scores are based on six weighted factors (current weights): "
-                f"**Valuation** ({_w_val}%, incl. P/NAV), "
-                f"**Financial Health** ({_w_hlt}%), **Oversold / reversal（超跌反转）** ({_w_mom}%: 越接近 52 周低点、RSI 越低、越低于 200 日线，分越高——这是逆向分，不是动量), "
-                f"**Mining Quality** ({_w_min}%, S&P/SNL: AISC margin, reserves backing, "
+                f"**Valuation** ({_w_val}, incl. P/NAV), "
+                f"**Financial Health** ({_w_hlt}), **Oversold / reversal（超跌反转）** ({_w_mom}: 越接近 52 周低点、RSI 越低、越低于 200 日线，分越高——这是逆向分，不是动量), "
+                f"**Mining Quality** ({_w_min}, S&P/SNL: AISC margin, reserves backing, "
                 f"NAV discount, EV/oz, reserve life, grade), "
-                f"**Commodity Outlook** ({_w_com}%), and **Development Stage** ({_w_stg}%).",
+                f"**Commodity Outlook** ({_w_com}), and **Development Stage** ({_w_stg}).",
+                *([_left_note] if _left_note else []),
                 "", "---", "",
             ]
 
@@ -7042,15 +7063,16 @@ with tab_report:
                 ))
 
             _fig_trend.add_hline(
-                y=60, line_dash="dash", line_color="rgba(34,197,94,0.4)",
-                annotation_text="Buy threshold (60)", annotation_position="bottom right",
+                y=_CUT_B, line_dash="dash", line_color="rgba(34,197,94,0.4)",
+                annotation_text=f"Buy threshold ({_CUT_B:.1f})", annotation_position="bottom right",
                 annotation_font_size=10,
             )
-            _fig_trend.add_hline(
-                y=75, line_dash="dash", line_color="rgba(59,130,246,0.4)",
-                annotation_text="Strong Buy threshold (75)", annotation_position="top right",
-                annotation_font_size=10,
-            )
+            if _CUT_SB != float("inf"):
+                _fig_trend.add_hline(
+                    y=_CUT_SB, line_dash="dash", line_color="rgba(59,130,246,0.4)",
+                    annotation_text=f"Strong Buy threshold ({_CUT_SB:.1f})", annotation_position="top right",
+                    annotation_font_size=10,
+                )
             _fig_trend.update_layout(
                 title="Average Composite Score by Commodity Group Over Time  |  各大宗商品组平均综合评分历史走势",
                 xaxis_title="Snapshot Date / 快照日期",
