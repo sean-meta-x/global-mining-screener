@@ -21,9 +21,13 @@ def test_non_miners_are_out_and_verified_miners_are_in():
     meta = u.get_ticker_meta()
     for t in ("0061.HK", "0098.HK", "1051.HK", "8095.HK", "8250.HK", "1733.HK"):
         assert t not in meta
-    for t in ("2546.HK", "0893.HK", "1370.HK", "0159.HK", "0274.HK"):
+    for t in ("2546.HK", "0893.HK", "1370.HK", "0159.HK", "0433.HK", "9936.HK"):
         assert t in meta
+    for t in ("0166.HK", "1205.HK", "1380.HK", "2693.HK", "0274.HK", "2112.HK", "2212.HK", "8331.HK"):
+        assert t not in meta                                 # scope: metal ores, coal, uranium
     assert meta["2546.HK"]["commodity"] == "Zinc/Lead"
+    assert (meta["3858.HK"]["commodity"], meta["2245.HK"]["commodity"], meta["1091.HK"]["commodity"],
+            meta["1258.HK"]["commodity"]) == ("Tungsten", "Nickel", "Manganese", "Copper")
 
 
 def test_the_three_names_sean_looked_for_are_findable_in_chinese():

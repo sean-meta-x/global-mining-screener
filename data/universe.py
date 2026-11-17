@@ -58,10 +58,19 @@ NOT_MINERS = {
     "6885.HK": "Henan Jinma Energy — coke and coking chemicals",
     "8095.HK": "Beida Jade Bird — metals trading and tourism",
     "8250.HK": "Du Du Holdings — fresh produce trading",
+    # scope = metal ores, coal, uranium (Sean 2026-11-17); checked on Bloomberg as well
+    "0166.HK": "New Times — metals trading (Bloomberg: metals & ore traders)",
+    "1205.HK": "CITIC Resources — oil exploration and production first (Bloomberg: E&P)",
+    "1380.HK": "China Kingstone — marble, not a metal",
+    "2693.HK": "Jinyan Kaolin — kaolin, not a metal",
 }
 # ticker -> (commodity, stage) by what the company actually does
 RELABEL = {
     "2623.HK": ("Iron Ore", "Producer"),  # Hong Kong Gold Industry Group: despite the name, iron and ilmenite ores
+    "3858.HK": ("Tungsten", "Developer"),  # Jiaxin International: Boguty tungsten, Kazakhstan
+    "2245.HK": ("Nickel", "Producer"),     # Lygend: nickel (Indonesia)
+    "1091.HK": ("Manganese", "Producer"),  # South Manganese
+    "1258.HK": ("Copper", "Major Producer"),  # China Nonferrous Mining: copper (Zambia, DRC)
     "ELBM": ("Cobalt", "Developer"),      # Electra Battery Materials: cobalt refinery (Ontario) + Iron Creek Co-Cu project
     "ELBM.V": ("Cobalt", "Developer"),
 }
@@ -95,14 +104,10 @@ def _row(c: dict) -> tuple:
 # description says it explores, mines or produces ore, concentrate or primary metal.
 EXTRA_COMPANIES = [
     ("0159.HK", "Brockman Mining", "Iron Ore", "Developer"),
-    ("0274.HK", "Renaissance Asia Silk Road Group", "Gold", "Explorer"),
     ("0433.HK", "North Mining Shares", "Molybdenum", "Producer"),
     ("0893.HK", "China Vanadium Titano-Magnetite Mining", "Iron Ore", "Producer"),
     ("1370.HK", "Aowei Holding", "Iron Ore", "Producer"),
-    ("2112.HK", "Grace Life-tech Holdings", "Iron Ore", "Producer"),
-    ("2212.HK", "Future Bright Mining Holdings", "Diversified", "Producer"),
     ("2546.HK", "Xizang Zhihui Mining", "Zinc/Lead", "Producer"),
-    ("8331.HK", "P.B. Group", "Diversified", "Producer"),
     ("9936.HK", "Ximei Resources Holding", "Tantalum", "Producer"),
 ]
 # Names Yahoo garbles (counter suffixes such as "-500" are not part of the name)
