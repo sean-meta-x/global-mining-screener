@@ -1248,7 +1248,7 @@ with st.sidebar:
     # Sean 2026-11-17: the screen shows names a fund could trade; the rest stays one click away
     _LIQ_MCAP_USD, _LIQ_ADV_USD = 20e6, 25e3
     _liq_only = st.toggle(
-        "只看可交易规模（市值 ≥ US\$20M 且日均成交额 ≥ US\$25k）",   # escaped: two $ would be read as a formula
+        "只看可交易规模（市值 ≥ US\\$20M 且日均成交额 ≥ US\\$25k）",   # escaped: two $ would be read as a formula
         value=True,
         help="关闭后显示全部公司（含微盘和不活跃的）。没有市值或成交额数据的公司算作不满足。",
     )
