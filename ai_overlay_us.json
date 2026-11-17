@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-16T21:51Z",
+ "generated_at": "2026-11-17T06:27Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "WWR",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探商，无催化剂，流动性风险高"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "格陵兰采矿许可极难获取，暴跌无消息或涉融资失败"
-  },
-  {
    "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值仅两千万，名称可疑，疑似壳公司或推广股"
+   "ai_note": "微型市值勘探公司，无消息却暴跌33%，疑似稀释或钻探失败"
   },
   {
    "ticker": "GRO",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "巴西钾矿项目长期延误，资金链持续紧张"
+   "ai_note": "巴西钾肥项目开发周期长，无新闻流动，资金风险需警惕"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "格陵兰采矿许可极难，无消息暴跌42%，高度怀疑稀释"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Thacker Pass面临原住民诉讼和许可审批重大不确定性"
+   "ai_adjust": -3,
+   "ai_note": "塞拉皮耶罗项目许可和资金存不确定性，但市值较大"
+  },
+  {
+   "ticker": "JAGU",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型铀矿勘探股，稀释风险极高，无新闻支撑"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Rhyolite Ridge项目BLM许可审批反复延迟"
-  },
-  {
-   "ticker": "JAGU",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股，无实质进展消息"
+   "ai_adjust": -4,
+   "ai_note": "流纹岩岭项目许可延迟，资金缺口明显，需持续关注"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "跌幅超三成却无任何新闻，可能存在未披露利空"
+   "ai_adjust": -5,
+   "ai_note": "小市值勘探公司，无消息大跌32%，疑似融资稀释"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "标注为生产商但实际仍处开发阶段，信息存疑"
+   "ai_note": "标注为生产商但名称可疑，需核实实际生产状态"
   },
   {
    "ticker": "REA",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "稀土勘探股暴跌近三七成，无消息或暗示融资困难"
-  },
-  {
-   "ticker": "FSM",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型银矿生产商运营稳健，下跌主要受板块拖累"
-  },
-  {
-   "ticker": "NMG",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "石墨项目融资和环评许可均存在较大不确定性"
-  },
-  {
-   "ticker": "UROY",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "版税模式抗风险较强，铀价波动为主要变量"
-  },
-  {
-   "ticker": "ALOY",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "跌幅超三成且无新闻，开发阶段项目风险积聚"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "无消息暴跌37%，稀土勘探股稀释或项目风险大"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "NioCorp项目拖延多年，反复融资稀释股东权益"
+   "ai_note": "长期项目延迟历史，治理结构存疑，需审慎对待"
   },
   {
-   "ticker": "CAMZF",
+   "ticker": "NMG",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型勘探股市值不足两千万，流动性极差"
+   "ai_note": "魁北克石墨项目许可和融资面临挑战，进展缓慢"
+  },
+  {
+   "ticker": "ALOY",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "无消息大跌32%，开发商资金压力可能较大"
+  },
+  {
+   "ticker": "FSM",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中型银矿生产商，跌幅或与银价波动相关，基本面尚可"
   },
   {
    "ticker": "SLI",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "DLE技术路线获验证但锂价低迷压制估值"
+   "ai_note": "有兰克斯战略合作，相对抗风险，锂价低迷是主因"
   },
   {
    "ticker": "NAMM",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型金矿生产商暴跌两成五，治理和运营存疑"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小市值生产商无新闻，实际运营状态需核实"
   },
   {
    "ticker": "LAR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "Olaroz资产质量尚可，下跌主因锂价周期性走弱"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "阿根廷国家政策风险叠加锂价低迷，开发不确定性大"
+  },
+  {
+   "ticker": "CAMZF",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微型勘探股，流动性差，稀释风险高"
+  },
+  {
+   "ticker": "FMST",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型股无理由上涨17%，无新闻支撑，疑似炒作拉升"
   },
   {
    "ticker": "AABB",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "公司名称与矿业无关，典型推广型微盘股"
+   "ai_adjust": -10,
+   "ai_note": "历史上有炒作前科，治理结构差，典型推广股"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦国家政策风险，但为在产金矿，相对稳健"
   }
  ]
 }
