@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-17T22:02Z",
+ "generated_at": "2026-11-18T22:03Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
-   "ticker": "JBL.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "月跌32%无任何消息，高度疑似稀释或运营危机"
-  },
-  {
-   "ticker": "APH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "刚果(金)政治风险高，锡价波动加剧不确定性"
+   "ticker": "MRF.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "铬矿基本面稳健，但小盘流动性及南非物流风险被低估。"
   },
   {
    "ticker": "KIO.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "铁矿需求受中国地产拖累，但基本面尚可"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铁矿价格走弱且受限于南非铁路物流瓶颈，下调预期。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦政策风险叠加PGM价格持续低迷"
+   "ai_adjust": -4,
+   "ai_note": "铂族金属价格暴跌，量化模型未充分反映盈利下修风险。"
   },
   {
-   "ticker": "MTU.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "市值极小且月暴跌50%，疑似严重经营困境"
-  },
-  {
-   "ticker": "MRF.JO",
+   "ticker": "APH.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铬矿业务平稳但公司治理历史存疑"
-  },
-  {
-   "ticker": "GML.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "宝石细分赛道流动性差，跌幅温和可接受"
+   "ai_adjust": -3,
+   "ai_note": "刚果金地缘政治与物流风险极高，量化模型难以定价。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "PGM价格结构性下行，大型矿企盈利承压"
+   "ai_adjust": -4,
+   "ai_note": "纯铂族金属敞口大，受累于价格低迷与成本上升。"
   },
   {
    "ticker": "SSW.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "成本高企叠加资本配置争议，PGM弱势难改"
-  },
-  {
-   "ticker": "EPS.JO",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "小市值PGM矿商月跌31%，基本面显著恶化"
+   "ai_note": "频繁稀释与深井开采成本失控风险极高，治理存疑。"
   },
   {
-   "ticker": "ARI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "管理层优质，业绩平稳无重大风险信号"
-  },
-  {
-   "ticker": "PAN.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "金价高位支撑，小幅回调属正常波动"
+   "ticker": "JBL.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "股价暴跌且具高度推销色彩，警惕流动性与基本面陷阱。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭面临ESG逆风但现金流依然稳健"
-  },
-  {
-   "ticker": "HAR.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金价走强但股价跑输，或存运营层面隐忧"
+   "ai_note": "煤炭现金流好但面临ESG折价与长期需求衰退，中性看待。"
   },
   {
    "ticker": "SLG.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "微型煤企流动性极差，存在资金链断裂或退市风险。"
+  },
+  {
+   "ticker": "ARI.JO",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "小市值煤炭公司跌10%，流动性风险较大"
+   "ai_adjust": -2,
+   "ai_note": "铂价下跌拖累业绩，但黄金和锰业务提供一定缓冲。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭长期需求萎缩，行业面临结构性利空"
+   "ai_note": "煤炭出口受物流瓶颈制约，且面临长期需求衰退风险。"
+  },
+  {
+   "ticker": "PAN.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "金价高企利好，但南非深井开采成本限制了业绩弹性。"
   },
   {
    "ticker": "NPH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "PGM板块中运营较优，跌幅相对可控"
-  },
-  {
-   "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "金价利好下表现积极，大型金矿龙头受益"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "纯铂族金属敞口大，受累于钯铂价格持续低迷。"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "PGM价格持续走弱，大市值亦难以幸免"
+   "ai_note": "铂族金属行业逆风，估值模型未反映价格下行周期。"
+  },
+  {
+   "ticker": "HAR.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "受益于金价上涨，但南非运营成本高企抵消部分利好。"
+  },
+  {
+   "ticker": "GFI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "资产组合优化且金价处于高位，具备较强业绩弹性。"
+  },
+  {
+   "ticker": "MTU.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "市值极小且股价腰斩，存在严重的流动性与基本面风险。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "尾矿提金成本低，金价支撑下表现平稳"
+   "ai_adjust": 0,
+   "ai_note": "尾矿回收成本低但产量增长受限，表现平稳无惊喜。"
+  },
+  {
+   "ticker": "ANG.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "全球资产布局分散了南非风险，为金价牛市核心标的。"
+  },
+  {
+   "ticker": "EPS.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "市值微小且铂价低迷，缺乏规模效应与抗风险能力。"
   }
  ]
 }
