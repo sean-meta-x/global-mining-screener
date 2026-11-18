@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-17T06:36Z",
+ "generated_at": "2026-11-18T21:59Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
-   "ticker": "ZIOC.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "刚果铁矿石开发商，零收入、市值仅2000万，基础设施与许可风险极高，稀释严重"
+   "ticker": "THX.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "金矿生产商基本面稳健，无异常信号"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "巴西金矿运营不稳，历史治理问题频发，产量持续低于指引"
-  },
-  {
-   "ticker": "THX.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "塞内加尔Seguela金矿投产顺利，运营相对稳健，无明显治理瑕疵"
-  },
-  {
-   "ticker": "POW.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅1200万的铀矿勘探公司，高度依赖融资稀释，推广色彩浓厚"
+   "ai_adjust": -3,
+   "ai_note": "小盘金矿单月跌28%无消息，存隐性风险"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "实物铀持有工具，走势紧跟铀价，无运营风险但无超额催化"
+   "ai_note": "实物铀持仓跟踪铀价，波动正常"
   },
   {
-   "ticker": "CAML.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "哈萨克斯坦Kounrad铜矿运营稳定，但地缘风险压制估值"
-  },
-  {
-   "ticker": "JLP.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "频繁增发稀释股本，管理层承诺常未兑现，南非PGM价格低迷"
-  },
-  {
-   "ticker": "KAP.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "全球最大铀生产商，基本面扎实但哈萨克斯坦政策风险需关注"
+   "ticker": "POW.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型勘探公司评分虚高，稀释风险大"
   },
   {
    "ticker": "THS.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "南非PGM生产商，铂钯价格持续疲软，利润空间大幅压缩"
+   "ai_note": "南非PGM受价格低迷拖累，跌幅显著"
+  },
+  {
+   "ticker": "ZIOC.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "刚果铁矿开发十余年未投产，暴跌无消息"
   },
   {
    "ticker": "SLP.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "同样受PGM价格低迷拖累，南非运营成本高企，盈利承压"
+   "ai_adjust": -2,
+   "ai_note": "南非PGM生产商，行业逆风持续"
+  },
+  {
+   "ticker": "CAML.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铜锌生产商表现平稳，无重大异常"
+  },
+  {
+   "ticker": "KAP.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "全球最大铀企，走势稳健波动小"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "津巴布韦Bilta金矿，尽管分红慷慨但该国政策与汇兑风险极高"
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦金矿，治理与汇率风险高"
+  },
+  {
+   "ticker": "RSG.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型金矿商表现相对稳定"
+  },
+  {
+   "ticker": "GGP.L",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "与纽蒙特合作Havieron项目，基本面扎实"
   },
   {
    "ticker": "MET1.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值仅1200万的早期铁矿勘探公司，无收入且融资需求迫切"
+   "ai_note": "微型铀勘探公司，流动性差稀释风险高"
   },
   {
-   "ticker": "XTR.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型金矿勘探股，津巴布韦资产叠加推广嫌疑，流动性极差"
-  },
-  {
-   "ticker": "RSG.L",
+   "ticker": "ATYM.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "马里资产受政变及新矿业法冲击，西非地缘风险显著上升"
+   "ai_adjust": -2,
+   "ai_note": "西班牙铜矿单月跌21%，需关注运营"
   },
   {
-   "ticker": "AURA.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "毛里塔尼亚铀项目长期拖延，历史多次稀释融资，推进缓慢"
-  },
-  {
-   "ticker": "KEFI.L",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "埃塞俄比亚项目面临许可与资金风险，开发商阶段需持续融资"
-  },
-  {
-   "ticker": "KOD.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "马里锂矿项目受政变及新矿业法严重影响，管辖风险极高"
-  },
-  {
-   "ticker": "RMR.L",
+   "ticker": "TGA.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "市值仅1500万的微型勘探公司，资产早期阶段，信息极度有限"
+   "ai_note": "南非动力煤面临ESG压力与需求萎缩"
+  },
+  {
+   "ticker": "JLP.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "微型PGM暴跌41%无消息，疑似稀释或事故"
+  },
+  {
+   "ticker": "VALT.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "大型PGM受行业低迷影响，估值承压"
   },
   {
    "ticker": "ALTN.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "哈萨克斯坦Bakyrchik金矿历史运营不稳，治理与产量问题频出"
+   "ai_adjust": -2,
+   "ai_note": "哈萨克斯坦金矿跌幅较大，需关注运营"
   },
   {
-   "ticker": "GGP.L",
-   "ai_view": "bullish",
-   "ai_adjust": 4,
-   "ai_note": "Havieron项目与纽蒙特合作，储量巨大且近期股价正动量良好"
+   "ticker": "EDV.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型金矿商西非运营，跌幅在合理范围"
+  },
+  {
+   "ticker": "AAZ.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "阿塞拜疆金矿治理历史存疑，跌幅偏大"
   }
  ]
 }
