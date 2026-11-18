@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-17T22:07Z",
+ "generated_at": "2026-11-18T22:08Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
-   "ticker": "IFSH.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "量化高分与月跌54%严重背离，疑似存在未披露重大利空或流动性陷阱"
-  },
-  {
    "ticker": "TINS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国有锡企基本面稳健，但锡价承压且无明确催化剂"
-  },
-  {
-   "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值多元化矿企，流动性差且信息透明度低"
+   "ai_note": "国企背景但面临非法采矿与出口管制风险，估值承压。"
   },
   {
-   "ticker": "HRUM.JK",
+   "ticker": "IFSH.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "股价单月暴跌超50%，小市值镍企存在流动性与治理隐患。"
+  },
+  {
+   "ticker": "MBAP.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭主业现金流稳健，正布局镍业务但尚处早期阶段"
+   "ai_note": "煤炭中盘股短期涨幅较大，需警惕大宗商品价格回调风险。"
   },
   {
-   "ticker": "DWGL.JK",
+   "ticker": "AADI.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤矿承包商转型生产商，业务模式转型风险需持续关注"
-  },
-  {
-   "ticker": "INDY.JK",
-   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "激进转型绿色能源，执行风险高且煤炭资产面临减值压力"
-  },
-  {
-   "ticker": "TOBA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "短期涨幅显著但无基本面催化，警惕游资炒作风险"
-  },
-  {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "镍价受印尼供给过剩压制，HPAL项目盈利空间承压"
+   "ai_note": "作为分拆实体，需重点关注独立运营后的公司治理与债务结构。"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭生产商基本面平稳，无突出风险亦无超预期催化剂"
-  },
-  {
-   "ticker": "NICL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锡价下行叠加个股大幅回调，需排查是否存在经营隐患"
-  },
-  {
-   "ticker": "AADI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "从Adaro分拆上市的新实体，估值锚定尚不清晰且投资者基础待验证"
-  },
-  {
-   "ticker": "DEWA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "所属Bakrie集团历史治理记录不佳，需警惕关联交易风险"
-  },
-  {
-   "ticker": "FIRE.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "极小市值煤炭股，流动性极差且信息高度不透明"
-  },
-  {
-   "ticker": "CITA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "印尼铝土矿出口禁令政策反复，内销冶炼利润存疑"
-  },
-  {
-   "ticker": "MBAP.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "无消息面支撑下月涨28%，高度疑似资金操纵或短线炒作"
-  },
-  {
-   "ticker": "AMMN.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型铜金矿商受益铜价，但高资本开支和IPO后锁定期需关注"
-  },
-  {
-   "ticker": "ANTM.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "国企背景受益下游化政策，镍金价格走强提供实质催化"
-  },
-  {
-   "ticker": "MDKA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "无利空消息却暴跌14%，疑似项目进度延误或再融资稀释"
+   "ai_note": "煤炭物流与贸易业务受运价及煤价波动影响，基本面相对稳健。"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "国有煤炭龙头分红慷慨，但长期能源转型压力不可忽视"
+   "ai_adjust": 0,
+   "ai_note": "国企煤炭龙头分红稳定，但受国内煤价调控及ESG转型压力。"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "正从煤炭向镍转型，需关注镍项目资本开支及产能释放进度。"
+  },
+  {
+   "ticker": "ADRO.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭主业稳健，积极布局铝与镍等新能源金属，多元化战略清晰。"
+  },
+  {
+   "ticker": "BSSR.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "传统煤炭生产商，业绩受煤价周期影响，缺乏显著的新增长催化剂。"
+  },
+  {
+   "ticker": "NCKL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "镍价低迷拖累业绩，HPAL项目虽推进但需警惕印尼产业政策变动。"
+  },
+  {
+   "ticker": "SMGA.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "小市值镍企股价大幅下挫，需警惕流动性枯竭及大股东质押风险。"
+  },
+  {
+   "ticker": "DWGL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "煤炭小盘股流动性较差，且面临环保合规与矿区特许权续期风险。"
+  },
+  {
+   "ticker": "DKFT.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "短期涨幅较大，但镍行业整体产能过剩，需防范概念炒作后的回调。"
   },
   {
    "ticker": "ITMG.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "高股息煤炭股表现平稳，缺乏超预期催化剂"
+   "ai_note": "背靠Banpu集团，高股息特征明显，但煤炭资产面临长期退出风险。"
+  },
+  {
+   "ticker": "KKGI.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭中盘股表现相对抗跌，需关注其海外资产运营效率及汇率波动。"
+  },
+  {
+   "ticker": "GEMS.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭产能扩张带来业绩弹性，但需关注高负债率及ESG融资限制。"
+  },
+  {
+   "ticker": "NICL.JK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "锡价波动及小市值特征导致股价重挫，需警惕流动性与合规风险。"
+  },
+  {
+   "ticker": "ANTM.JK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "国企背景但治理效率偏低，镍矿出口政策及下游产能过剩是主要隐患。"
+  },
+  {
+   "ticker": "INDY.JK",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "股价单月大跌20%，转型新能源故事尚未兑现，需警惕资金持续流出。"
+  },
+  {
+   "ticker": "TOBA.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭与电力双主业提供现金流，但需关注新能源转型中的资本开支压力。"
   }
  ]
 }
