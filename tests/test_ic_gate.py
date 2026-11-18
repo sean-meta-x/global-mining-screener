@@ -1,4 +1,4 @@
-"""data/ic_gate.py — weekly IC of the trading score and the gate on decision cards (Sean 2026-11-18)."""
+"""data/ic_gate.py v2 — group IC net of metal beta, delisted names kept, >= 12 starts, Q5 vs Q1 (2026-11-18)."""
 import sys
 from pathlib import Path
 
@@ -12,21 +12,27 @@ from data.scorer import valuation_score
 from config import SCORE_WEIGHTS
 
 
-def snaps(n_days=60, n_names=40, signal=1.0, seed=0, start="2026-11-19"):
-    """Daily snapshots (weekends included, like the refresh) scored as valuation 50 / health 50, where
-    the score predicts the next 4 weeks' return with strength `signal`."""
+def snaps(n_days=60, n_names=40, signal=1.0, seed=0, start="2026-11-19", beta_score=False, metal_drift=0.0):
+    """Daily snapshots (weekends included) scored valuation 50 / health 50, half Gold, half Copper.
+    `signal`: score predicts idiosyncratic return. `beta_score`: score = the name's metal beta instead."""
     rng = np.random.default_rng(seed)
     dates = pd.date_range(start, periods=n_days).strftime("%Y-%m-%d")
-    score = rng.uniform(0, 100, n_names)
-    drift = (score - 50) / 50 * 0.01 * signal                     # per day
-    px = 10 * np.exp(np.cumsum(drift + rng.normal(0, 0.01, (n_days, n_names)), axis=0))
+    metal_r = rng.normal(metal_drift, 0.01, n_days)
+    betas = rng.uniform(0.5, 2.5, n_names)
+    score = (betas - 0.5) / 2 * 100 if beta_score else rng.uniform(0, 100, n_names)
+    idio = (score - 50) / 50 * 0.01 * signal * (0 if beta_score else 1)
+    r = betas * metal_r[:, None] + idio + rng.normal(0, 0.01, (n_days, n_names))
+    px = 10 * np.exp(np.cumsum(r, axis=0))
+    metal = 100 * np.exp(np.cumsum(metal_r))
     rows = []
     for i, d in enumerate(dates):
         for j in range(n_names):
             rows.append(dict(ticker=f"T{j}", snap_date=d, price=px[i, j], market_cap=1e9, avg_turnover=1e6,
                              grade="🔵 Buy" if score[j] >= 70 else "🟡 Watch",
+                             commodity="Gold" if j % 2 == 0 else "Copper",
                              **{f: score[j] for f in g.FACTORS}))
-    return pd.DataFrame(rows)
+    m = {"Gold": pd.Series(metal, index=dates), "Copper": pd.Series(metal, index=dates)}
+    return pd.DataFrame(rows), m
 
 
 def test_weights_are_valuation_and_health_only():
@@ -42,50 +48,110 @@ def test_analyst_upside_no_longer_moves_the_valuation_score():
     assert valuation_score(low, peers) == valuation_score(high, peers)
 
 
-def test_a_score_that_predicts_returns_passes_once_there_are_enough_start_dates():
-    short = sum((g.windows(snaps(n_days=90, seed=k), 1.0, m, SCORE_WEIGHTS) for k, m in enumerate(("ca", "us"))), [])
-    v = g.verdict(short)
-    assert v["starts"] == 3 and not v["validated"] and "样本不够" in v["reason"]
-    long = sum((g.windows(snaps(n_days=120, seed=k), 1.0, m, SCORE_WEIGHTS) for k, m in enumerate(("ca", "us", "uk"))), [])
-    v = g.verdict(long)
-    assert v["starts"] >= g.MIN_STARTS and v["windows"] == 3 * v["starts"]      # markets of one date count once
-    assert v["validated"] and v["ic"] > 0.3 and v["buy_excess"] > 0
+def _recs(n_days, markets=("ca", "us", "uk"), **kw):
+    out = []
+    for k, m in enumerate(markets):
+        s, metal = snaps(n_days=n_days, seed=k, **kw)
+        out += g.windows(s, 1.0, m, SCORE_WEIGHTS, metal)
+    return out
+
+
+def test_a_predictive_score_passes_only_with_twelve_start_dates():
+    v = g.verdict(_recs(200))
+    assert v["starts"] < g.MIN_STARTS and not v["validated"] and "样本不够" in v["reason"]
+    v = g.verdict(_recs(370))
+    assert v["starts"] >= g.MIN_STARTS and v["validated"] and v["ic"] > 0.2 and v["q5q1"] > 0
 
 
 def test_a_score_with_no_signal_is_blocked():
-    recs = sum((g.windows(snaps(n_days=120, signal=0.0, seed=10 + k), 1.0, m, SCORE_WEIGHTS)
-                for k, m in enumerate(("ca", "us", "uk"))), [])
-    v = g.verdict(recs)
+    v = g.verdict(_recs(370, signal=0.0))
     assert v["starts"] >= g.MIN_STARTS and not v["validated"]
 
 
+def test_a_score_that_only_picks_metal_beta_has_no_ic_after_the_beta_is_taken_out():
+    adj = g.verdict(_recs(370, beta_score=True, metal_drift=0.004))
+    raw = []                                            # same data, no metal prices: no beta adjustment
+    for k, m in enumerate(("ca", "us", "uk")):
+        s, _ = snaps(n_days=370, seed=k, beta_score=True, metal_drift=0.004)
+        raw += g.windows(s, 1.0, m, SCORE_WEIGHTS, {})
+    raw = g.verdict(raw)
+    # most of it goes; what is left is beta estimation error (60 snapshots) under an extreme +0.4 %/day metal
+    assert raw["ic"] > 0.5 and adj["ic"] < raw["ic"] / 4
+
+
+def test_a_reversed_score_fails_on_q5_vs_q1():
+    v = g.verdict(_recs(370, signal=-1.0))
+    assert not v["validated"] and v["q5q1"] < 0
+
+
 def test_snapshots_from_another_scorer_or_before_the_date_do_not_count():
-    early = g.windows(snaps(n_days=120, start="2026-07-13"), 1.0, "ca", SCORE_WEIGHTS)
-    assert early and g.verdict(early)["windows"] == 0
-    old = snaps(n_days=120)
-    old["score_composite"] = old["score_composite"] * 0.9 + 3              # composites not 50/50 valuation+health
-    recs = g.windows(old, 1.0, "ca", SCORE_WEIGHTS)
-    assert recs and not any(r["live"] for r in recs) and g.verdict(recs)["windows"] == 0
+    s, metal = snaps(n_days=120, start="2026-07-13")
+    assert g.verdict(g.windows(s, 1.0, "ca", SCORE_WEIGHTS, metal))["windows"] == 0
+    s, metal = snaps(n_days=120)
+    s["score_composite"] = s["score_composite"] * 0.9 + 3
+    recs = g.windows(s, 1.0, "ca", SCORE_WEIGHTS, metal)
+    assert recs and not any(r["live"] for r in recs)
 
 
-def test_windows_are_four_calendar_weeks_and_one_week_apart():
-    recs = g.windows(snaps(n_days=60), 1.0, "ca", SCORE_WEIGHTS)
-    assert [r["d0"] for r in recs[:2]] == ["2026-11-19", "2026-11-26"]
-    assert recs[0]["d1"] == "2026-12-17"
+def test_a_name_that_leaves_inside_the_window_stays_at_its_last_price():
+    s, metal = snaps(n_days=40)
+    s = s[~((s.ticker == "T3") & (s.snap_date > "2026-11-25"))]          # delisted / acquired on day 7
+    (r,) = g.windows(s, 1.0, "ca", SCORE_WEIGHTS, metal)[:1]
+    assert r["n"] == 40 and r["left_in_window"] == 1
 
 
-def test_illiquid_stale_unlisted_and_unpriced_names_are_left_out():
-    s = snaps(n_days=30)
+def test_illiquid_stale_and_unlisted_names_are_left_out():
+    s, metal = snaps(n_days=30)
     s.loc[s.ticker == "T0", "market_cap"] = 1e6
     s.loc[s.ticker == "T1", "grade"] = "⏸️ Stale price"
     s.loc[s.ticker == "T2", "grade"] = "⚪ 副上市"
-    s = s[~((s.ticker == "T3") & (s.snap_date > "2026-11-25"))]          # delisted: no end price
-    (r,) = g.windows(s, 1.0, "ca", SCORE_WEIGHTS)[:1]
-    assert r["n"] == 36 and r["dropped"] == 1
+    (r,) = g.windows(s, 1.0, "ca", SCORE_WEIGHTS, metal)[:1]
+    assert r["n"] == 37
 
 
-def test_non_overlapping_windows_start_after_the_previous_end():
-    recs = g.windows(snaps(n_days=120), 1.0, "ca", SCORE_WEIGHTS)
-    picked = g.non_overlapping(recs)
-    assert len(picked) == 4
-    assert all(b["d0"] >= a["d1"] for a, b in zip(picked, picked[1:]))
+def test_windows_are_four_calendar_weeks_and_one_week_apart():
+    s, metal = snaps(n_days=60)
+    recs = g.windows(s, 1.0, "ca", SCORE_WEIGHTS, metal)
+    assert [r["d0"] for r in recs[:2]] == ["2026-11-19", "2026-11-26"] and recs[0]["d1"] == "2026-12-17"
+    assert all(b["d0"] >= a["d1"] for a, b in zip(g.non_overlapping(recs), g.non_overlapping(recs)[1:]))
+
+
+def test_newey_west_t_is_smaller_than_naive_t_on_overlapping_series():
+    rng = np.random.default_rng(3)
+    e = rng.normal(0.02, 0.05, 80)
+    x = pd.Series(e).rolling(4).mean().dropna()                         # overlapping 4-period windows
+    naive = x.mean() / x.std() * np.sqrt(len(x))
+    assert g.newey_west_t(x) < naive
+
+
+def test_small_groups_are_not_ranked_into_fifths():
+    score = pd.Series(range(20), index=[f"T{i}" for i in range(20)], dtype=float)
+    ret = score / 100
+    group = pd.Series(["Gold"] * 15 + ["Zinc"] * 5, index=score.index)
+    rev = ret.copy()
+    rev[group == "Zinc"] = -rev[group == "Zinc"] * 10           # a tiny group with a huge reversed spread
+    assert g._q5q1(score, ret, group) == g._q5q1(score, rev, group)
+
+
+def test_periods_do_not_overlap_across_markets():
+    recs = [dict(market=m, d0=d0, d1=g._plus(d0, 28), score_composite=0.1, q5q1=0.01, q5q1_net=-0.01,
+                 buy_excess=0.0, live=True)
+            for m, off in (("ca", 0), ("us", 3)) for d0 in [g._plus("2026-11-19", off + 7 * k) for k in range(20)]]
+    p = g.independent_periods(recs, "2026-11-19")
+    assert all(b["d0"] >= a["d1"] for a, b in zip(p, p[1:])) and p[0]["markets"] == 2
+    assert len(p) < len(g.by_date(g.non_overlapping(recs, "2026-11-19")))     # the old count double-counted
+
+
+def test_gate_uses_net_q5_minus_q1():
+    recs = [dict(market="ca", d0=g._plus("2026-11-19", 28 * k), d1=g._plus("2026-11-19", 28 * (k + 1)),
+                 score_composite=0.1 + 0.01 * (k % 3), q5q1=0.01, q5q1_net=-0.01, buy_excess=0.0, live=True)
+            for k in range(14)]
+    v = g.verdict(recs)
+    assert v["starts"] == 14 and not v["validated"] and "扣成本" in v["reason"]
+
+
+def test_rules_version_is_the_git_blob_id():
+    import subprocess
+    root = Path(__file__).parent.parent
+    head = subprocess.run(["git", "hash-object", "data/ic_gate.py"], cwd=root, capture_output=True, text=True)
+    assert head.returncode != 0 or head.stdout.strip()[:10] == g.RULES_VERSION

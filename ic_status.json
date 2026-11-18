@@ -3,13 +3,15 @@
  "decision_cards": "blocked",
  "validated": false,
  "since": "2026-11-19",
+ "rules_version": "122e08d606",
  "windows": 0,
  "starts": 0,
  "ic": null,
  "t": null,
  "ic_pos": null,
+ "q5q1": null,
+ "q5q1_net": null,
+ "nw_t": null,
  "buy_excess": null,
- "buy_t": null,
- "buy_dates": 0,
- "reason": "样本不够：新评分 2026-11-19 起只有 0 个不重叠的 20 个交易日窗口起点（需要 ≥4 个）"
+ "reason": "样本不够：新评分 2026-11-19 起只有 0 个跨市场不重叠的 20 个交易日独立期（需要 ≥12 个）"
 }
