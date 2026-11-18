@@ -1575,7 +1575,7 @@ st.caption(f"以上数字的口径：侧栏当前筛选 {len(filtered)} 家，�
            + (f" 综合评分本次未计入：{'、'.join(_FACTOR_ZH[f] for f in _factor_excluded)}"
               f"（数据覆盖不足 {MIN_FACTOR_COVERAGE:.0%}，权重按比例分给其余因子）。" if _factor_excluded else "")
            + (" 评级按名次（可交易名单前 3% Strong Buy、前 25% Buy、前 50% Watch、前 75% Neutral），本次门槛："
-              + "、".join(f"{g.split(' ', 1)[1]} ≥ {c:.1f}" for c, (_, g) in zip(_grade_cuts, GRADE_CUTOFFS))
+              + "、".join(f"{g.split(' ', 1)[1]} ≥ {c:.1f}" for c, (_, g) in zip(_grade_cuts, GRADE_CUTOFFS) if c != float("inf"))
               + "。" if _grade_cuts else ""))
 
 
@@ -1586,6 +1586,9 @@ def _ic_gate_note() -> None:
         v = json.loads((Path(__file__).parent / "ic_status.json").read_text(encoding="utf-8"))
     except (OSError, ValueError):
         v = {"validated": False, "reason": "还没有 IC 周报"}
+    stale = (pd.Timestamp.today() - pd.Timestamp(v.get("as_of", "2000-01-01"))).days > 10
+    if stale:                                     # the weekly check stopped: a passed verdict no longer counts
+        v = {"validated": False, "reason": f"IC 周报已超过 10 天未更新（最后 {v.get('as_of', '无')}）"}
     if not v.get("validated"):
         st.info(f"评级尚未通过 IC 检验（{v.get('reason', '')}），目前仅供研究，不据此生成【决策】卡。"
                 "评分 = 估值 50% + 财务健康 50%；每周一更新。")

@@ -68,8 +68,9 @@ def test_micro_caps_do_not_move_the_cutoffs():
     tradable = pd.Series([True] * 4 + [False] * 2)
     scores = pd.Series([86, 70, 58, 48, 99, 98])
     cuts = share_cutoffs(scores[tradable])
-    assert [grade_label(s, cuts).split(" ", 1)[1] for s in scores[tradable]] == ["Strong Buy", "Watch", "Neutral", "Avoid"]
-    assert grade_label(99, cuts).endswith("Strong Buy")       # hidden names are still graded on the same scale
+    assert [grade_label(s, cuts).split(" ", 1)[1] for s in scores[tradable]] == ["Buy", "Watch", "Neutral", "Avoid"]
+    assert cuts[0] == float("inf")                            # 3 % of 4 names rounds to none: no Strong Buy
+    assert grade_label(99, cuts).endswith("Buy")              # hidden names are still graded on the same scale
 
 
 # ── investor review v2 (2026-11-18) ──

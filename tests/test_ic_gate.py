@@ -13,9 +13,10 @@ from config import SCORE_WEIGHTS
 
 
 def snaps(n_days=60, n_names=40, signal=1.0, seed=0, start="2026-11-19"):
-    """Daily snapshots where score_composite predicts the next 20-day return with strength `signal`."""
+    """Daily snapshots (weekends included, like the refresh) scored as valuation 50 / health 50, where
+    the score predicts the next 4 weeks' return with strength `signal`."""
     rng = np.random.default_rng(seed)
-    dates = pd.bdate_range(start, periods=n_days).strftime("%Y-%m-%d")
+    dates = pd.date_range(start, periods=n_days).strftime("%Y-%m-%d")
     score = rng.uniform(0, 100, n_names)
     drift = (score - 50) / 50 * 0.01 * signal                     # per day
     px = 10 * np.exp(np.cumsum(drift + rng.normal(0, 0.01, (n_days, n_names)), axis=0))
@@ -41,44 +42,50 @@ def test_analyst_upside_no_longer_moves_the_valuation_score():
     assert valuation_score(low, peers) == valuation_score(high, peers)
 
 
-def test_a_score_that_predicts_returns_passes_once_there_are_enough_windows():
-    recs = []
-    for m in ("ca", "us"):
-        recs += g.windows(snaps(seed=1 if m == "ca" else 2), 1.0, m)
-    v = g.verdict(recs)
-    assert v["windows"] == 4 and not v["validated"] and "样本不够" in v["reason"]
-    recs = []
-    for k, m in enumerate(("ca", "us", "uk")):
-        recs += g.windows(snaps(n_days=70, seed=k), 1.0, m)
-    v = g.verdict(recs)
-    assert v["windows"] >= g.MIN_WINDOWS and v["starts"] >= g.MIN_STARTS
+def test_a_score_that_predicts_returns_passes_once_there_are_enough_start_dates():
+    short = sum((g.windows(snaps(n_days=90, seed=k), 1.0, m, SCORE_WEIGHTS) for k, m in enumerate(("ca", "us"))), [])
+    v = g.verdict(short)
+    assert v["starts"] == 3 and not v["validated"] and "样本不够" in v["reason"]
+    long = sum((g.windows(snaps(n_days=120, seed=k), 1.0, m, SCORE_WEIGHTS) for k, m in enumerate(("ca", "us", "uk"))), [])
+    v = g.verdict(long)
+    assert v["starts"] >= g.MIN_STARTS and v["windows"] == 3 * v["starts"]      # markets of one date count once
     assert v["validated"] and v["ic"] > 0.3 and v["buy_excess"] > 0
 
 
 def test_a_score_with_no_signal_is_blocked():
-    recs = []
-    for k, m in enumerate(("ca", "us", "uk")):
-        recs += g.windows(snaps(n_days=70, signal=0.0, seed=10 + k), 1.0, m)
+    recs = sum((g.windows(snaps(n_days=120, signal=0.0, seed=10 + k), 1.0, m, SCORE_WEIGHTS)
+                for k, m in enumerate(("ca", "us", "uk"))), [])
     v = g.verdict(recs)
-    assert v["windows"] >= g.MIN_WINDOWS and not v["validated"]
+    assert v["starts"] >= g.MIN_STARTS and not v["validated"]
 
 
-def test_windows_before_the_new_score_do_not_count():
-    recs = g.windows(snaps(n_days=70, start="2026-07-13"), 1.0, "ca")
-    assert recs and g.verdict(recs)["windows"] == 0
+def test_snapshots_from_another_scorer_or_before_the_date_do_not_count():
+    early = g.windows(snaps(n_days=120, start="2026-07-13"), 1.0, "ca", SCORE_WEIGHTS)
+    assert early and g.verdict(early)["windows"] == 0
+    old = snaps(n_days=120)
+    old["score_composite"] = old["score_composite"] * 0.9 + 3              # composites not 50/50 valuation+health
+    recs = g.windows(old, 1.0, "ca", SCORE_WEIGHTS)
+    assert recs and not any(r["live"] for r in recs) and g.verdict(recs)["windows"] == 0
 
 
-def test_illiquid_stale_and_unlisted_names_are_left_out():
-    s = snaps(n_days=25)
+def test_windows_are_four_calendar_weeks_and_one_week_apart():
+    recs = g.windows(snaps(n_days=60), 1.0, "ca", SCORE_WEIGHTS)
+    assert [r["d0"] for r in recs[:2]] == ["2026-11-19", "2026-11-26"]
+    assert recs[0]["d1"] == "2026-12-17"
+
+
+def test_illiquid_stale_unlisted_and_unpriced_names_are_left_out():
+    s = snaps(n_days=30)
     s.loc[s.ticker == "T0", "market_cap"] = 1e6
     s.loc[s.ticker == "T1", "grade"] = "⏸️ Stale price"
     s.loc[s.ticker == "T2", "grade"] = "⚪ 副上市"
-    (r,) = g.windows(s, 1.0, "ca")
-    assert r["n"] == 37
+    s = s[~((s.ticker == "T3") & (s.snap_date > "2026-11-25"))]          # delisted: no end price
+    (r,) = g.windows(s, 1.0, "ca", SCORE_WEIGHTS)[:1]
+    assert r["n"] == 36 and r["dropped"] == 1
 
 
 def test_non_overlapping_windows_start_after_the_previous_end():
-    recs = g.windows(snaps(n_days=70), 1.0, "ca")
+    recs = g.windows(snaps(n_days=120), 1.0, "ca", SCORE_WEIGHTS)
     picked = g.non_overlapping(recs)
-    assert len(recs) == 10 and len(picked) == 3
+    assert len(picked) == 4
     assert all(b["d0"] >= a["d1"] for a, b in zip(picked, picked[1:]))

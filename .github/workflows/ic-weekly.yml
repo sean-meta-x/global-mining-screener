@@ -46,5 +46,9 @@ jobs:
             echo "No changes."
           else
             git commit -m "chore(ic): weekly IC report ($(date -u +%Y-%m-%d))"
-            git pull --rebase && git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase && git push && exit 0
+              sleep $((i * 15))
+            done
+            exit 1
           fi

@@ -739,11 +739,14 @@ def apply_grade_rules(df: pd.DataFrame, tickers, fx: float = _FX_TO_USD) -> pd.D
 
 
 def share_cutoffs(scores: pd.Series, shares: list[float] = GRADE_SHARES) -> list[float]:
-    """Cutoffs that put the top `shares` (cumulative) of `scores` at or above each grade."""
+    """Cutoffs that put the top `shares` (cumulative) of `scores` at or above each grade. A grade
+    whose share rounds to no name stays empty (a list under 17 names has no Strong Buy). Names tied
+    at a cutoff all get the grade, so a grade can hold slightly more than its share."""
     ranked = pd.to_numeric(scores, errors="coerce").dropna().sort_values(ascending=False)
     if ranked.empty:
         return [c for c, _ in GRADE_CUTOFFS]
-    return [float(ranked.iloc[max(1, round(sh * len(ranked))) - 1]) for sh in shares]
+    ks = [int(sh * len(ranked) + 0.5) for sh in shares]
+    return [float(ranked.iloc[k - 1]) if k else float("inf") for k in ks]
 
 
 def grade_label(score: float, cutoffs: list[float] | None = None) -> str:
