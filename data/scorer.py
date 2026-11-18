@@ -13,6 +13,7 @@ Score architecture (each sub-score 0–100, higher = more undervalued / attracti
 import numpy as np
 import pandas as pd
 
+from data.gold_scenarios import base_gold
 from config import SCORE_WEIGHTS, COMMODITY_OUTLOOK, COMMODITY_SPOT
 
 
@@ -377,7 +378,8 @@ def mining_score(row: pd.Series) -> float:
     aisc_lb = _safe(row.get("spg_aisc_per_lb"))
 
     if not np.isnan(aisc_oz):
-        spot = COMMODITY_SPOT.get(base_commodity, COMMODITY_SPOT.get("Gold", 4821.0))
+        spot = (base_gold(COMMODITY_SPOT.get("Gold", 4821.0)) if base_commodity == "Gold"     # next-year consensus
+                else COMMODITY_SPOT.get(base_commodity, COMMODITY_SPOT.get("Gold", 4821.0)))
         margin = (spot - aisc_oz) / spot
         if   margin > 0.60: s = 95
         elif margin > 0.50: s = 85
@@ -835,7 +837,8 @@ def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
         # Gold / Silver — $/troy oz
         aisc_oz = pd.to_numeric(row.get("spg_aisc_per_oz"), errors="coerce")
         if pd.notna(aisc_oz) and aisc_oz > 0:
-            spot = COMMODITY_SPOT.get(comm, COMMODITY_SPOT.get("Gold", 4821.0))
+            spot = (base_gold(COMMODITY_SPOT.get("Gold", 4821.0)) if comm == "Gold"
+                    else COMMODITY_SPOT.get(comm, COMMODITY_SPOT.get("Gold", 4821.0)))
             return round((spot - aisc_oz) / spot * 100, 1) if spot > 0 else float("nan")
         # Copper / Zinc / Nickel / Iron Ore — $/tonne
         aisc_t = pd.to_numeric(row.get("spg_aisc_per_t"), errors="coerce")

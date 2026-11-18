@@ -909,6 +909,13 @@ def not_graded(market: str | None) -> dict[str, tuple[str, str | None]]:
     return out
 
 
+# Wrong labels, fixed whatever they currently say (2026-11-18): 中色股份 mines lead-zinc; 宝武镁业 mines and
+# smelts magnesium. Both had come in as Aluminum.
+RELABEL_FIX: dict[str, dict[str, str]] = {
+    "cn": {"000758.SZ": "Zinc/Lead", "002182.SZ": "Magnesium"},
+}
+
+
 def apply(rows: list[tuple], market: str | None) -> list[tuple]:
     """rows: (ticker, name, commodity, stage) -> the reviewed list for this market."""
     gone, tags = REMOVE.get(market or "", {}), TAG.get(market or "", {})
@@ -916,4 +923,6 @@ def apply(rows: list[tuple], market: str | None) -> list[tuple]:
     out = [r for r in rows if r[0] not in gone] + [r for r in ADD.get(market or "", []) if r[0] not in have]
     relabel = RELABEL_V2.get(market or "", {})
     out = [(t, n, relabel.get(t, c) if c.split("/")[0] == "Diversified" else c, s) for t, n, c, s in out]
+    fix = RELABEL_FIX.get(market or "", {})
+    out = [(t, n, fix.get(t, c), s) for t, n, c, s in out]
     return [(t, f"{n} · {tags[t]}" if t in tags else n, c, s) for t, n, c, s in out]
