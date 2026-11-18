@@ -124,6 +124,7 @@ def _report_to_pdf(markdown_text: str, title: str = "Mining Report") -> bytes:
     return buf.getvalue()
 
 from data.universe import ALL_COMMODITIES, ALL_STAGES, get_ticker_meta
+from data.gold_scenarios import MIN_DAYS, base_gold, gold_beta, load_consensus, scenario_table
 import data.snl_client as snl_client
 from data.scorer import (factor_coverage, effective_weights, MIN_FACTOR_COVERAGE,
                          calibrated_cutoffs, grade_label, GRADE_CUTOFFS,
@@ -4554,6 +4555,32 @@ with tab_detail:
                     cols_m = st.columns(3)
                     for i, (k, v) in enumerate(metrics.items()):
                         cols_m[i % 3].metric(k, v)
+
+                # ── Gold scenarios: next-year consensus as the base, three what-ifs (not forecasts) ──
+                if str(row.get("commodity", "")).split("/")[0] == "Gold":
+                    _cons = load_consensus()
+                    _base = base_gold(config.COMMODITY_SPOT.get("Gold", 4821.0))
+                    _gh = load_commodity_price_history(days=400)
+                    _gs = (_gh[_gh["commodity"] == "Gold"].set_index("price_date")["price"]
+                           if not _gh.empty else pd.Series(dtype=float))
+                    _ph = load_history(sel_ticker, days=400)
+                    _beta, _n = gold_beta(_ph.set_index("snap_date")["price"] if not _ph.empty else pd.Series(dtype=float), _gs)
+                    st.markdown("#### 金价情景敏感度")
+                    if _cons:
+                        st.caption(f"基准金价 US${_base:,.0f} = {_cons['year']} 年金价年均价的分析师一致预期中位数"
+                                   f"（来源：Bloomberg 一致预期，截至 {_cons['asof']}，只取中位数）。")
+                    else:
+                        st.caption(f"基准金价 US${_base:,.0f}（现货；一致预期暂缺）。")
+                    if np.isfinite(_beta):
+                        _t = scenario_table(_beta, _base)
+                        _t["相对基准"] = _t["相对基准"].map("{:+.1%}".format)
+                        _t["按历史弹性的股价变动"] = _t["按历史弹性的股价变动"].map("{:+.1%}".format)
+                        st.dataframe(_t, hide_index=True, width="stretch")
+                        st.caption(f"历史弹性 β = {_beta:.2f}（近 {_n} 个交易日，股价日收益对金价日收益）。"
+                                   "三档是假设情景，不预测哪一档会发生；股价变动 = (情景金价 ÷ 基准)^β − 1，"
+                                   "只反映历史上跟随金价的程度，不含成本、产量和汇率变化。")
+                    else:
+                        st.caption(f"历史价格不足 {MIN_DAYS} 个交易日（现有 {_n} 个），暂不计算弹性。")
 
                 # ── SNL Live Data (Snowflake) ─────────────────────────────────────
                 if snl_client.is_configured() and snl_client.get_snl_key(sel_ticker):
