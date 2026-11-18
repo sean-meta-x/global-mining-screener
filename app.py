@@ -124,7 +124,7 @@ def _report_to_pdf(markdown_text: str, title: str = "Mining Report") -> bytes:
     return buf.getvalue()
 
 from data.universe import ALL_COMMODITIES, ALL_STAGES, get_ticker_meta
-from data.gold_scenarios import MIN_DAYS, base_gold, gold_beta, load_consensus, scenario_table
+from data.gold_scenarios import MIN_DAYS, gold_beta, is_solid, load_consensus, scenario_table, spot_gold
 import data.snl_client as snl_client
 from data.scorer import (factor_coverage, effective_weights, MIN_FACTOR_COVERAGE,
                          calibrated_cutoffs, grade_label, GRADE_CUTOFFS,
@@ -4556,29 +4556,33 @@ with tab_detail:
                     for i, (k, v) in enumerate(metrics.items()):
                         cols_m[i % 3].metric(k, v)
 
-                # ── Gold scenarios: next-year consensus as the base, three what-ifs (not forecasts) ──
+                # ── Gold scenarios: what-ifs measured from spot (share prices reflect spot), consensus as one of them ──
                 if str(row.get("commodity", "")).split("/")[0] == "Gold":
                     _cons = load_consensus()
-                    _base = base_gold(config.COMMODITY_SPOT.get("Gold", 4821.0))
+                    _spot = spot_gold(config.COMMODITY_SPOT.get("Gold", 4821.0))
                     _gh = load_commodity_price_history(days=400)
                     _gs = (_gh[_gh["commodity"] == "Gold"].set_index("price_date")["price"]
                            if not _gh.empty else pd.Series(dtype=float))
                     _ph = load_history(sel_ticker, days=400)
-                    _beta, _n = gold_beta(_ph.set_index("snap_date")["price"] if not _ph.empty else pd.Series(dtype=float), _gs)
+                    _beta, _n, _tb = gold_beta(_ph.set_index("snap_date")["price"] if not _ph.empty
+                                               else pd.Series(dtype=float), _gs)
                     st.markdown("#### 金价情景敏感度")
-                    if _cons:
-                        st.caption(f"基准金价 US${_base:,.0f} = {_cons['year']} 年金价年均价的分析师一致预期中位数"
-                                   f"（来源：Bloomberg 一致预期，截至 {_cons['asof']}，只取中位数）。")
-                    else:
-                        st.caption(f"基准金价 US${_base:,.0f}（现货；一致预期暂缺）。")
                     if np.isfinite(_beta):
-                        _t = scenario_table(_beta, _base)
-                        _t["相对基准"] = _t["相对基准"].map("{:+.1%}".format)
-                        _t["按历史弹性的股价变动"] = _t["按历史弹性的股价变动"].map("{:+.1%}".format)
+                        _t = scenario_table(_beta, _spot, _cons["median"] if _cons else None)
+                        _fmt = ["{:,.0f}", "{:+.1%}", "{:+.1%}"]
+                        for _i, _f in enumerate(_fmt):
+                            for _c in _t.columns[1:]:
+                                _t.at[_i, _c] = _f.format(_t.at[_i, _c])
                         st.dataframe(_t, hide_index=True, width="stretch")
-                        st.caption(f"历史弹性 β = {_beta:.2f}（近 {_n} 个交易日，股价日收益对金价日收益）。"
-                                   "三档是假设情景，不预测哪一档会发生；股价变动 = (情景金价 ÷ 基准)^β − 1，"
-                                   "只反映历史上跟随金价的程度，不含成本、产量和汇率变化。")
+                        _solid = is_solid(_n, _tb)
+                        st.caption(("" if _solid else "⚠️ 仅供参考：历史弹性样本不足或统计上不显著。")
+                                   + f"历史弹性 β = {_beta:.2f}（t = {_tb:.1f}，近 {_n} 个交易日，股价日收益对金价日收益）。"
+                                   f"基准是现货 US${_spot:,.0f}"
+                                   + (f"（截至 {_cons['spot_asof']}）" if _cons and _cons.get("spot_asof") else "")
+                                   + "，因为当前股价反映的是现货；股价变动 = (情景金价 ÷ 现货)^β − 1。"
+                                   + (f"「一致预期」= {_cons['year']} 年金价年均价的分析师一致预期中位数"
+                                      f"（来源：Bloomberg 一致预期，截至 {_cons['asof']}，只取中位数）。" if _cons else "")
+                                   + "各列都是假设情景，不预测哪一档会发生；只反映历史上跟随金价的程度，不含成本、产量和汇率变化。")
                     else:
                         st.caption(f"历史价格不足 {MIN_DAYS} 个交易日（现有 {_n} 个），暂不计算弹性。")
 
