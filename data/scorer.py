@@ -728,6 +728,31 @@ def tradable_mask(df: pd.DataFrame, fx: float = _FX_TO_USD) -> pd.Series:
             & (pd.to_numeric(to, errors="coerce") * fx >= LIQ_ADV_USD))
 
 
+# Investor review v2 (2026-11-18): a micro cap is never a Strong Buy; physical holders and secondary
+# listings are shown but not graded or ranked (graded only where the primary listing is).
+MICRO_MCAP_USD = 50e6
+PHYSICAL_GRADE = "⚪ 实物持有"
+SECONDARY_GRADE = "⚪ 副上市"
+try:
+    from config import MARKET as _MARKET
+    from data.universe_review import not_graded as _not_graded
+    NOT_GRADED = _not_graded(_MARKET)            # ticker -> (label, link to the primary station)
+except ImportError:                               # ASX station: none of either
+    NOT_GRADED = {}
+
+
+def apply_grade_rules(df: pd.DataFrame, tickers, fx: float = _FX_TO_USD) -> pd.DataFrame:
+    """After grading: micro caps (< US$50M) top out at Buy and are flagged; physical holders and
+    secondary listings get their own label instead of a grade. Ranking stays by score."""
+    mc = df["market_cap"] if "market_cap" in df.columns else df.get("marketCap")
+    tickers = pd.Series(list(tickers), index=df.index)
+    df["micro_cap"] = (pd.to_numeric(mc, errors="coerce") * fx < MICRO_MCAP_USD) if mc is not None else False
+    df.loc[df["micro_cap"] & (df["grade"] == "🟢 Strong Buy"), "grade"] = "🔵 Buy"
+    for t, (label, _link) in NOT_GRADED.items():
+        df.loc[tickers == t, "grade"] = PHYSICAL_GRADE if label == "实物持有" else SECONDARY_GRADE
+    return df
+
+
 def calibrated_cutoffs(reference: pd.Series, scores: pd.Series) -> list[float]:
     """Cutoffs for `scores` that give each grade as many names as the fixed cutoffs give
     `reference` (same rows). A grade nobody reached keeps an unreachable cutoff."""
@@ -969,10 +994,11 @@ def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
         _reference[micro_cap_mask] = 50.0
 
     # Grade label: fixed cutoffs, or calibrated ones when a factor was left out (see GRADE_CUTOFFS)
-    _trad = tradable_mask(df)                         # calibrated on tradable names only
+    _trad = tradable_mask(df) & ~df.index.isin(list(NOT_GRADED))   # tradable, graded names only
     _cuts = (calibrated_cutoffs(_reference[_trad], df.loc[_trad, "score_composite"])
              if _excluded and _trad.any() else None)
     df["grade"] = df["score_composite"].apply(lambda s: grade_label(s, _cuts))
+    df = apply_grade_rules(df, df.index)
 
     # ── Peer group ranking ────────────────────────────────────────────────────
     # Companies are only truly comparable within the same stage × commodity bucket.
