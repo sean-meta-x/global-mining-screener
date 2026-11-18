@@ -7,10 +7,10 @@ import pandas as pd
 from data import gold_scenarios as gs
 
 
-def test_the_committed_file_holds_single_values_not_a_series():
-    d = json.loads(gs.CONSENSUS_FILE.read_text(encoding="utf-8"))
-    assert set(d) == {"year", "median", "asof", "spot", "spot_asof", "source"}
-    assert isinstance(d["median"], float) and isinstance(d["spot"], float)
+def test_no_bloomberg_consensus_in_this_public_repo():
+    root = gs.CONSENSUS_FILE.parent.parent
+    assert "data/gold_consensus.json" in (root / ".gitignore").read_text(encoding="utf-8")
+    assert not gs.CONSENSUS_FILE.exists() and gs.base_gold(3900.0) == 3900.0     # no file: the spot is the base
 
 
 def test_spot_and_consensus_bases(tmp_path, monkeypatch):
