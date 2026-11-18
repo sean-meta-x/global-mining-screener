@@ -1,14 +1,12 @@
 """
-Multi-factor undervaluation scorer for Australian mining stocks.
+Multi-factor scorer for mining stocks (trading score, Sean 2026-11-18).
 
-Score architecture (each sub-score 0–100, higher = more undervalued / attractive):
-  1. Valuation Score   (30%) — P/B, EV/EBITDA, P/CF, P/NAV vs sector peers
-  2. Health Score      (20%) — balance sheet strength, cash runway
-  3. Momentum Score    (15%) — 52-wk position, RSI (contrarian: low = cheap)
-  4. Mining Score      (25%) — S&P/SNL: AISC margin, reserves backing, NAV discount
-  5. Commodity Score   ( 5%) — outlook multiplier per commodity
-  6. Stage Score       ( 5%) — stage-specific opportunity premium
+Score architecture (each sub-score 0–100, higher = more attractive):
+  1. Valuation Score   (50%) — P/B, EV/EBITDA, P/CF, FCF yield, P/NAV vs sector peers
+  2. Health Score      (50%) — balance sheet strength, cash runway
+  3. Oversold, Mining, Commodity, Stage — computed and shown, weight 0 (config.SCORE_WEIGHTS)
   Composite = weighted sum → clamped [0, 100]
+Grades only feed decision cards once data/ic_gate.py says the score ranks forward returns.
 """
 import numpy as np
 import pandas as pd
@@ -106,22 +104,7 @@ def valuation_score(row: pd.Series, peers: pd.DataFrame) -> float:
         else:                     s = 22
         scores.append(s)
 
-    # ── Analyst Consensus Upside ─────────────────────────────────────────────
-    # "The market's forward-looking value gap" — valid for all stages.
-    # Require ≥2 covering analysts to avoid single-analyst distortion.
-    analyst_count = _safe(row.get("analyst_count"))
-    analyst_up    = _safe(row.get("analyst_upside"))
-    if (not np.isnan(analyst_up)
-            and not np.isnan(analyst_count)
-            and analyst_count >= 2):
-        if   analyst_up > 60:  s = 95
-        elif analyst_up > 40:  s = 85
-        elif analyst_up > 25:  s = 70
-        elif analyst_up > 15:  s = 55
-        elif analyst_up > 5:   s = 42
-        elif analyst_up > -5:  s = 30
-        else:                  s = 16
-        scores.append(s)
+    # Analyst target upside is not scored (Sean 2026-11-18: negative IC); it is still shown.
 
     # ── P/NAV: primary mining valuation metric (S&P/SNL data) ──────────────
     p_nav = _safe(row.get("spg_p_nav"))
@@ -699,12 +682,12 @@ def effective_weights(weights: dict[str, float], coverage: dict[str, float],
 
 
 # ── Grades ─────────────────────────────────────────────────────────────────────
-# Fixed cutoffs, as the scores were designed. When a factor is left out (above), the
-# remaining factors push the whole distribution up: on 2026-11-17 AU's Strong Buy went
-# from 11 to 42 while the score's correlation with forward returns was ~0. So in that case
-# each grade keeps the share of names it had under the original weights: the cutoff for a
-# grade becomes the reweighted score of the n-th best name, n = how many reached that
-# grade before. The order within the universe comes from the reweighted score.
+# Grades by rank (trading score, Sean 2026-11-18): among tradable, graded names, the top 3 % are
+# Strong Buy, the top 25 % Buy or better, then Watch to 50 %, Neutral to 75 %, the rest Avoid.
+# Fixed score cutoffs drifted whenever the weights or the inputs changed (2026-11-17: leaving the
+# mining factor out took AU's Strong Buy from 11 to 42; valuation + health alone took CA from 7 to
+# ~100). The IC check is on ranks too. GRADE_CUTOFFS are only the fallback with no tradable names.
+GRADE_SHARES = [0.03, 0.25, 0.50, 0.75]
 GRADE_CUTOFFS = [(75.0, "🟢 Strong Buy"), (60.0, "🔵 Buy"), (45.0, "🟡 Watch"), (30.0, "🟠 Neutral")]
 GRADE_FLOOR = "🔴 Avoid"
 
@@ -755,16 +738,12 @@ def apply_grade_rules(df: pd.DataFrame, tickers, fx: float = _FX_TO_USD) -> pd.D
     return df
 
 
-def calibrated_cutoffs(reference: pd.Series, scores: pd.Series) -> list[float]:
-    """Cutoffs for `scores` that give each grade as many names as the fixed cutoffs give
-    `reference` (same rows). A grade nobody reached keeps an unreachable cutoff."""
-    ref = pd.to_numeric(reference, errors="coerce").dropna()
+def share_cutoffs(scores: pd.Series, shares: list[float] = GRADE_SHARES) -> list[float]:
+    """Cutoffs that put the top `shares` (cumulative) of `scores` at or above each grade."""
     ranked = pd.to_numeric(scores, errors="coerce").dropna().sort_values(ascending=False)
-    out = []
-    for cut, _ in GRADE_CUTOFFS:
-        n = int((ref >= cut).sum())
-        out.append(float(ranked.iloc[min(n, len(ranked)) - 1]) if n and len(ranked) else float("inf"))
-    return out
+    if ranked.empty:
+        return [c for c, _ in GRADE_CUTOFFS]
+    return [float(ranked.iloc[max(1, round(sh * len(ranked))) - 1]) for sh in shares]
 
 
 def grade_label(score: float, cutoffs: list[float] | None = None) -> str:
@@ -972,7 +951,7 @@ def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
     df["score_commodity"] = [round(s, 1) for s in c_scores]
     df["score_stage"]     = [round(s, 1) for s in s_scores]
 
-    w, _excluded = effective_weights(SCORE_WEIGHTS, factor_coverage(df))
+    w, _ = effective_weights(SCORE_WEIGHTS, factor_coverage(df))
 
     def _composite(weights):
         return (
@@ -985,7 +964,6 @@ def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
         ).clip(0, 100).round(1)
 
     df["score_composite"] = _composite(w)
-    _reference = _composite(SCORE_WEIGHTS)      # the original weights: what each grade's share is calibrated to
 
     # ── Market cap floor: micro-caps (<$10M) are too illiquid to rank meaningfully ──
     # Use camelCase (fresh fetch) or snake_case (DB reload) — whichever is available.
@@ -994,12 +972,10 @@ def compute_scores(df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
         _mc = pd.to_numeric(_mc, errors="coerce")
         micro_cap_mask = _mc.notna() & (_mc < 10_000_000)
         df.loc[micro_cap_mask, "score_composite"] = 50.0
-        _reference[micro_cap_mask] = 50.0
 
-    # Grade label: fixed cutoffs, or calibrated ones when a factor was left out (see GRADE_CUTOFFS)
-    _trad = tradable_mask(df) & ~df.index.isin(list(NOT_GRADED))   # tradable, graded names only
-    _cuts = (calibrated_cutoffs(_reference[_trad], df.loc[_trad, "score_composite"])
-             if _excluded and _trad.any() else None)
+    # Grade label: by rank among tradable, graded names (see GRADE_SHARES)
+    _trad = tradable_mask(df) & ~df.index.isin(list(NOT_GRADED))
+    _cuts = share_cutoffs(df.loc[_trad, "score_composite"]) if _trad.any() else None
     df["grade"] = df["score_composite"].apply(lambda s: grade_label(s, _cuts))
     df = apply_grade_rules(df, df.index)
 

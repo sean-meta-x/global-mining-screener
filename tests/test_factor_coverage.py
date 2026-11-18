@@ -37,27 +37,26 @@ def test_factor_coverage_counts_rows_with_any_input():
     assert cov["mining"] == 0.5 and cov["momentum"] == 1.0 and cov["health"] == 0.0
 
 
-# ── grade calibration (2026-11-17: leaving the mining factor out took AU's Strong Buy from 11 to 42) ──
-from data.scorer import calibrated_cutoffs, grade_label  # noqa: E402
+# ── grades by rank among tradable names (2026-11-18; fixed cutoffs drifted with the weights) ──
+from data.scorer import share_cutoffs, grade_label, tradable_mask  # noqa: E402
 
 
-def test_calibrated_cutoffs_keep_each_grades_count():
-    reference = pd.Series([80, 76, 70, 62, 50, 40, 20])          # 2 Strong Buy, 2 Buy, 1 Watch, 1 Neutral, 1 Avoid
-    shifted = pd.Series([90, 88, 86, 80, 70, 60, 45])             # same order, everything higher
-    cuts = calibrated_cutoffs(reference, shifted)
-    grades = [grade_label(s, cuts) for s in shifted]
-    assert [g.split(" ", 1)[1] for g in grades] == ["Strong Buy", "Strong Buy", "Buy", "Buy", "Watch", "Neutral", "Avoid"]
-    assert [grade_label(s) for s in shifted].count("🟢 Strong Buy") == 4   # fixed cutoffs would inflate
+def test_share_cutoffs_grade_by_rank():
+    scores = pd.Series(range(100, 0, -1), dtype=float)                 # 100 names, 100 … 1
+    grades = [grade_label(s, share_cutoffs(scores)).split(" ", 1)[1] for s in scores]
+    assert [grades.count(g) for g in ("Strong Buy", "Buy", "Watch", "Neutral", "Avoid")] == [3, 22, 25, 25, 25]
 
 
-def test_a_grade_nobody_reached_stays_empty_and_fixed_cutoffs_are_the_default():
-    cuts = calibrated_cutoffs(pd.Series([70, 50]), pd.Series([95, 60]))
-    assert cuts[0] == float("inf") and grade_label(95, cuts) == "🔵 Buy"
-    assert grade_label(75) == "🟢 Strong Buy" and grade_label(29.9) == "🔴 Avoid"
+def test_shifting_every_score_up_does_not_inflate_the_grades():
+    scores = pd.Series(np.linspace(20, 80, 40))
+    a = [grade_label(s, share_cutoffs(scores)) for s in scores]
+    b = [grade_label(s, share_cutoffs(scores + 15)) for s in scores + 15]
+    assert a == b and [grade_label(s) for s in scores + 15].count("🟢 Strong Buy") > a.count("🟢 Strong Buy")
 
 
-# ── cutoffs from tradable names only (Sean 2026-11-17) ──
-from data.scorer import tradable_mask  # noqa: E402
+def test_no_names_falls_back_to_fixed_cutoffs():
+    assert grade_label(75, share_cutoffs(pd.Series(dtype=float))) == "🟢 Strong Buy"
+    assert grade_label(29.9) == "🔴 Avoid"
 
 
 def test_tradable_mask_needs_both_size_and_trading():
@@ -66,11 +65,10 @@ def test_tradable_mask_needs_both_size_and_trading():
 
 
 def test_micro_caps_do_not_move_the_cutoffs():
-    tradable = pd.Series([True, True, True, True, False, False])
-    reference = pd.Series([80, 62, 50, 40, 90, 90])            # two hidden micro caps would be Strong Buy
-    shifted = pd.Series([86, 70, 58, 48, 99, 98])
-    cuts = calibrated_cutoffs(reference[tradable], shifted[tradable])
-    assert [grade_label(s, cuts).split(" ", 1)[1] for s in shifted[tradable]] == ["Strong Buy", "Buy", "Watch", "Neutral"]
+    tradable = pd.Series([True] * 4 + [False] * 2)
+    scores = pd.Series([86, 70, 58, 48, 99, 98])
+    cuts = share_cutoffs(scores[tradable])
+    assert [grade_label(s, cuts).split(" ", 1)[1] for s in scores[tradable]] == ["Strong Buy", "Watch", "Neutral", "Avoid"]
     assert grade_label(99, cuts).endswith("Strong Buy")       # hidden names are still graded on the same scale
 
 

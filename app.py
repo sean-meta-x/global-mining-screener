@@ -2,7 +2,9 @@
 Streamlit web app — Global Mining Stock Undervaluation Screener (market set via MARKET env)
 Run: streamlit run app.py
 """
+import json
 import os
+from pathlib import Path
 import sys
 import logging
 import threading
@@ -127,7 +129,7 @@ from data.universe import ALL_COMMODITIES, ALL_STAGES, get_ticker_meta
 from data.gold_scenarios import MIN_DAYS, gold_beta, is_solid, load_consensus, scenario_table, spot_gold
 import data.snl_client as snl_client
 from data.scorer import (factor_coverage, effective_weights, MIN_FACTOR_COVERAGE,
-                         calibrated_cutoffs, grade_label, GRADE_CUTOFFS,
+                         share_cutoffs, grade_label, GRADE_CUTOFFS,
                          tradable_mask, LIQ_MCAP_USD, LIQ_ADV_USD,
                          apply_grade_rules, NOT_GRADED, PHYSICAL_GRADE, SECONDARY_GRADE)
 import data.release_db as release_db
@@ -1426,8 +1428,9 @@ with st.sidebar:
     w_stg = st.slider("Stage",          0, 100, st.session_state["w_stg"], key=f"sl_stg_{_wg}")
 
     if st.button("↩️ 恢复默认权重", use_container_width=True):
-        st.session_state.update(w_val=30, w_hlt=20, w_mom=15,
-                                w_min=25, w_com=5,  w_stg=5)
+        _dw = {k: round(v * 100) for k, v in config.SCORE_WEIGHTS.items()}
+        st.session_state.update(w_val=_dw["valuation"], w_hlt=_dw["health"], w_mom=_dw["momentum"],
+                                w_min=_dw["mining"], w_com=_dw["commodity"], w_stg=_dw["stage"])
         st.session_state["weight_gen"] += 1   # new key suffix → sliders reinitialise
         st.rerun()
 
@@ -1464,8 +1467,6 @@ with st.sidebar:
         _ew, _factor_excluded = effective_weights(
             {"valuation": w_val, "health": w_hlt, "momentum": w_mom,
              "mining": w_min, "commodity": w_com, "stage": w_stg}, _factor_cov)
-        _slider_w = {"valuation": w_val, "health": w_hlt, "momentum": w_mom,
-                     "mining": w_min, "commodity": w_com, "stage": w_stg}
 
         def _comp(wts):
             return (
@@ -1477,12 +1478,10 @@ with st.sidebar:
                 df["score_stage"]     * wts["stage"]     / total_w
             ).round(1)
         df["score_composite"] = _comp(_ew)
-        # Grades: fixed cutoffs, or — when a factor was left out — cutoffs that keep each grade's
-        # share of names under the slider weights as they are, counted over tradable names only
-        # (Sean 2026-11-17: micro caps do not set the bar; halted names not counted either)
+        # Grades by rank among tradable, graded names (data/scorer.py GRADE_SHARES; Sean 2026-11-17:
+        # micro caps do not set the bar; halted names not counted either)
         _calib = ~_stale_mask & tradable_mask(df) & ~df["ticker"].isin(list(NOT_GRADED))
-        _grade_cuts = (calibrated_cutoffs(_comp(_slider_w)[_calib], df.loc[_calib, "score_composite"])
-                       if _factor_excluded and _calib.any() else None)
+        _grade_cuts = share_cutoffs(df.loc[_calib, "score_composite"]) if _calib.any() else None
         df["grade"] = df["score_composite"].apply(lambda s: grade_label(s, _grade_cuts))
         df = apply_grade_rules(df, df["ticker"])          # micro caps ≤ Buy; physical / secondary not graded
         # Re-apply stale-price penalty — the DB-level cap must survive the
@@ -1574,10 +1573,25 @@ _FACTOR_ZH = {"valuation": "估值", "health": "财务健康", "momentum": "超�
 st.caption(f"以上数字的口径：侧栏当前筛选 {len(filtered)} 家，全市场 {len(df)} 家"
            + (f"（{_n_illiquid} 家低于可交易规模未显示，可在侧栏关闭）" if _n_illiquid else "") + "。"
            + (f" 综合评分本次未计入：{'、'.join(_FACTOR_ZH[f] for f in _factor_excluded)}"
-              f"（数据覆盖不足 {MIN_FACTOR_COVERAGE:.0%}，权重按比例分给其余因子）。"
-              + (" 评级门槛已按分数分布校准，各档家数与原权重下相同："
-                 + "、".join(f"{g.split(' ', 1)[1]} ≥ {c:.1f}" for c, (_, g) in zip(_grade_cuts, GRADE_CUTOFFS) if c != float("inf"))
-                 + "。" if _grade_cuts else "") if _factor_excluded else ""))
+              f"（数据覆盖不足 {MIN_FACTOR_COVERAGE:.0%}，权重按比例分给其余因子）。" if _factor_excluded else "")
+           + (" 评级按名次（可交易名单前 3% Strong Buy、前 25% Buy、前 50% Watch、前 75% Neutral），本次门槛："
+              + "、".join(f"{g.split(' ', 1)[1]} ≥ {c:.1f}" for c, (_, g) in zip(_grade_cuts, GRADE_CUTOFFS))
+              + "。" if _grade_cuts else ""))
+
+
+def _ic_gate_note() -> None:
+    """Trading-score gate (data/ic_gate.py, weekly): until the score has shown it ranks forward
+    returns, grades are for research only and no decision card is made from them."""
+    try:
+        v = json.loads((Path(__file__).parent / "ic_status.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        v = {"validated": False, "reason": "还没有 IC 周报"}
+    if not v.get("validated"):
+        st.info(f"评级尚未通过 IC 检验（{v.get('reason', '')}），目前仅供研究，不据此生成【决策】卡。"
+                "评分 = 估值 50% + 财务健康 50%；每周一更新。")
+
+
+_ic_gate_note()
 
 
 def _snl_last_sync() -> str | None:
@@ -6718,7 +6732,7 @@ with tab_report:
         _RPT_EXCH, _RPT_CCY = config.MARKET_EXCH, config.CURRENCY
 
         def _cut(i: int) -> str:
-            """The cutoff the Screener used for grade i (0 = Strong Buy …): calibrated when a factor was left out."""
+            """The cutoff the Screener used for grade i (0 = Strong Buy …): by rank (GRADE_SHARES)."""
             c = _grade_cuts[i] if _grade_cuts else GRADE_CUTOFFS[i][0]
             return "—" if c == float("inf") else f"{c:.1f}"
 
@@ -6808,6 +6822,8 @@ with tab_report:
                     f"**价格动能/逆向信号**（{_w_mom}）、"
                     f"**矿业质量**（{_w_min}，S&P/SNL：AISC利润率、储量支撑、NAV折价、EV/盎司、储量年限、品位）、"
                     f"**大宗商品前景**（{_w_com}）、**开发阶段**（{_w_stg}）。",
+                    "评级按名次：可交易名单前 3% 为强烈买入、前 25% 为买入及以上。"
+                    "交易评分通过每周 IC 检验之前，评级仅供研究，不据此生成【决策】卡。",
                     *([_left_note] if _left_note else []),
                     "", "---", "",
                 ]
@@ -6831,6 +6847,9 @@ with tab_report:
                     f"**Mining Quality** ({_w_min}, S&P/SNL: AISC margin, reserves backing, "
                     f"NAV discount, EV/oz, reserve life, grade), "
                     f"**Commodity Outlook** ({_w_com}), and **Development Stage** ({_w_stg}).",
+                    "Grades are by rank: the top 3% of tradable names are Strong Buy, the top 25% Buy or better. "
+                    "Until the trading score passes the weekly IC check, grades are for research only and no "
+                    "decision card is made from them.",
                     *([_left_note] if _left_note else []),
                     "", "---", "",
                 ]
