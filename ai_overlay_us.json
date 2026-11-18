@@ -1,121 +1,127 @@
 {
- "generated_at": "2026-11-17T21:50Z",
+ "generated_at": "2026-11-18T21:50Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
-   "ticker": "FNUC",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型市值无新闻流，量化高分与暴跌背离，疑似壳公司或推广票"
-  },
-  {
-   "ticker": "GRO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "巴西钾矿项目屡遭延期，无新闻验证基本面，高分存疑"
-  },
-  {
-   "ticker": "JAGU",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铀矿微型探索公司，零新闻支撑82分量化评分，流动性风险大"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "格陵兰采矿许可及环保风险极高，月跌39%无任何新闻解释"
-  },
-  {
-   "ticker": "NEXM",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型多元探索公司，零新闻且月跌35%，量化评分或基于过时数据"
-  },
-  {
-   "ticker": "LAC",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Thacker Pass项目面临持续法律挑战和原住民反对，许可风险未消"
-  },
-  {
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "Rhyolite Ridge许可反复延迟，资金缺口仍存，下跌反映实质风险"
+   "ai_note": "环保审批延迟风险高，量化未充分计入许可不确定性。"
   },
   {
-   "ticker": "REA",
+   "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "月跌40%为全场最大跌幅且零新闻，高度疑似推广后抛售"
-  },
-  {
-   "ticker": "NMG",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "魁北克石墨项目融资与许可屡遇障碍，开发进度持续落后"
-  },
-  {
-   "ticker": "ELVR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "标称生产商但市场几乎无信息覆盖，公司透明度严重不足"
-  },
-  {
-   "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "内布拉斯加稀土项目拖延数十年未投产，典型长期开发陷阱"
-  },
-  {
-   "ticker": "AREC",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "煤炭探索公司曾有推广及会计争议历史，量化高分不可信"
+   "ai_note": "市值极小且近期暴跌，存在高稀释与流动性枯竭风险。"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "正规中型银矿商，下跌主要反映银价波动，无特殊治理风险"
+   "ai_note": "运营平稳，无重大负面，维持中性评估。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦矿区面临潜在的外汇管制与治理风险。"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "格陵兰环保政策收紧，项目面临极高的许可与政治风险。"
+  },
+  {
+   "ticker": "REA",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微盘稀土勘探股，近期大跌需警惕融资稀释风险。"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锂价低迷压制估值，基本面暂无突发恶化。"
+  },
+  {
+   "ticker": "BVN",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "秘鲁社区抗议与政策不确定性持续压制运营。"
+  },
+  {
+   "ticker": "LAC",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "Thacker Pass面临原住民诉讼及环保许可延期风险。"
+  },
+  {
+   "ticker": "NEXM",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "微盘铜矿勘探股，流动性匮乏且存在融资稀释隐患。"
+  },
+  {
+   "ticker": "ALOY",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "稀土板块整体回调，暂无明显个股治理爆雷。"
+  },
+  {
+   "ticker": "IMPUY",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "南非电力短缺与工会问题持续增加运营不确定性。"
+  },
+  {
+   "ticker": "OGC",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "菲律宾矿区许可续期存疑，但近期股价相对抗跌。"
+  },
+  {
+   "ticker": "NMG",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "项目开发资金缺口大，需警惕后续股权稀释。"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "DLE技术商业化验证仍存不确定性，需警惕资本开支超支。"
+  },
+  {
+   "ticker": "NB",
+   "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "阿肯色DLE项目此前失去合作伙伴，技术路线验证仍存不确定性"
+   "ai_note": "项目开发屡次延期，资金链紧张且存在持续稀释风险。"
   },
   {
    "ticker": "AABB",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "知名推广微盘股，名称与矿业无关，逆市上涨无新闻支撑"
+   "ai_note": "典型OTC微盘炒作股，业务存疑，极高稀释与退市风险。"
   },
   {
-   "ticker": "NAMM",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型金矿生产商信息极度匮乏，月跌24%无新闻，治理不透明"
-  },
-  {
-   "ticker": "CAMZF",
+   "ticker": "GAU",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "微型探索公司跌幅温和，但零新闻流限制任何正面判断"
+   "ai_adjust": 0,
+   "ai_note": "运营稳定，无重大负面新闻，维持中性。"
   },
   {
-   "ticker": "FMST",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "千万市值暴涨47%零新闻，典型拉高出货特征，极高风险"
-  },
-  {
-   "ticker": "LAR",
+   "ticker": "IAG",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "阿根廷锂项目受锂价下行及国家风险压制，下跌属行业常态"
+   "ai_adjust": 0,
+   "ai_note": "资产组合稳健，无突发治理或运营风险。"
+  },
+  {
+   "ticker": "ITRG",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "股价回调主要受板块情绪影响，基本面暂无恶化。"
   }
  ]
 }
