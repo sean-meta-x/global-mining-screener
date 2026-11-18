@@ -1,12 +1,12 @@
 """Gold base price and scenario sensitivity for gold miners.
 
-data/gold_consensus.json holds single derived display values exported from the fund's local Bloomberg
-store (gold.export_consensus): next year's analyst consensus median (METFGD <YY> Index) and the latest
-gold spot (xau_spot), each with its as-of date - never a series. Without the file the base falls back
-to the gold spot in config.
+This repo is public, so it carries no Bloomberg data, not even a single consensus number (Sean
+2026-11-18): data/gold_consensus.json is git-ignored and absent here, and the base is the gold spot in
+config (fetched by the station itself). The private ASX station keeps the consensus. The code still
+reads the file if one is ever placed locally: {"year", "median", "asof", "spot", "spot_asof", "source"}.
 
-Base price for valuation (AISC margin): next year's consensus.
-Scenarios: what-ifs, not forecasts - spot, US$3,000 / 3,500 / 4,000 and the consensus. Share prices
+Base price for valuation (AISC margin): next year's consensus when the file exists, else spot.
+Scenarios: what-ifs, not forecasts - spot, US$3,000 / 3,500 / 4,000 (and the consensus with the file). Share prices
 today reflect spot, so every scenario is measured from spot: move = (scenario / spot) ** beta - 1, where
 beta is the miner's historical elasticity to gold (daily log returns on the gold spot over the stored
 snapshots). AISC is not available on these stations, so a margin-based sensitivity cannot be computed.

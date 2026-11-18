@@ -27,3 +27,6 @@ Thumbs.db
 
 # Internal build notes
 BUILD_PLAN.md
+
+# Bloomberg-derived values never go into this public repo (Sean 2026-11-18), not even one number
+data/gold_consensus.json
