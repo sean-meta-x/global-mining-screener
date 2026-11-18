@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-17T22:13Z",
+ "generated_at": "2026-11-18T22:14Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
-   "ticker": "1303.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型煤矿股月内零成交回报，流动性极差，警惕老千股陷阱"
-  },
-  {
    "ticker": "1712.HK",
    "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "金价强势下龙资源反跌22%，无消息解释，运营或治理存疑"
+   "ai_adjust": -3,
+   "ai_note": "金矿项目屡遇许可与社区阻力，成本超支风险高。"
   },
   {
-   "ticker": "0815.HK",
+   "ticker": "1303.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "白银集团跌18%无公告，历史上有治理瑕疵，需核实基本面"
-  },
-  {
-   "ticker": "3636.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "铜producer暴跌28%零消息，极可能隐藏未披露的重大问题"
+   "ai_adjust": -4,
+   "ai_note": "市值极小且流动性枯竭，印尼煤炭出口政策存隐忧。"
   },
   {
    "ticker": "0433.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "北方矿业有停牌及财务造假前科，治理风险极高不宜触碰"
+   "ai_adjust": -10,
+   "ai_note": "长期停产且治理极差，典型老千股，谨防折让配股稀释。"
+  },
+  {
+   "ticker": "9696.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "锂价低迷叠加SQM仲裁风险，周期底部需耐心等待。"
+  },
+  {
+   "ticker": "2489.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "次新股面临解禁抛压，海外矿山地缘与社区风险需警惕。"
   },
   {
    "ticker": "1208.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "五矿资源Las Bambas社区冲突反复，运营中断风险持续存在"
-  },
-  {
-   "ticker": "2302.HK",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "铀价走强下中核国际逆势跌26%，需排查是否有隐藏利空"
+   "ai_note": "核心铜矿屡遭原住民封路抗议，社区许可风险长期存在。"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "中铝为央企铝业龙头，跌幅温和，风险整体可控"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "南南资源市值不足一亿，微型煤矿股流动性近乎为零"
-  },
-  {
-   "ticker": "0621.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "坛金矿业为长期问题勘探商，项目屡次失败管理层信誉差"
-  },
-  {
-   "ticker": "2489.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "集海黄金次新股已投产，运营相对稳定但需关注估值"
-  },
-  {
-   "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "铁货拥有俄罗斯资产，制裁风险叠加财务困境需高度警惕"
-  },
-  {
-   "ticker": "9696.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "锂价低迷天齐跌幅温和属合理调整，估值已大幅压缩"
+   "ai_adjust": 0,
+   "ai_note": "国企治理稳健，主要受铝价周期波动影响，无显著盲区。"
   },
   {
    "ticker": "1258.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "中国有色矿业跌26%幅度较大，虽有央企背景仍需排查原因"
+   "ai_adjust": -3,
+   "ai_note": "赞比亚干旱导致电力短缺，且面临当地矿业税收政策变动。"
   },
   {
-   "ticker": "3833.HK",
+   "ticker": "0621.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "南非金矿项目长期难产，典型仙股，合股供股稀释风险极高。"
+  },
+  {
+   "ticker": "3636.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "新鑫矿业多元化矿种但跌幅偏大，基本面需进一步验证"
+   "ai_adjust": -4,
+   "ai_note": "次新股流动性匮乏，海外矿产项目投产与盈利存不确定性。"
   },
   {
    "ticker": "1378.HK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "宏桥为铝业龙头月内仅跌2.4%，抗跌性突出彰显经营韧性"
-  },
-  {
-   "ticker": "2610.HK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "南山铝业国际跟随板块调整，跌幅在合理范围内"
+   "ai_adjust": 0,
+   "ai_note": "民营铝企龙头，分红丰厚，前期财务质疑已消化，估值合理。"
   },
   {
    "ticker": "1898.HK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中煤能源为央企大矿，运营稳健跌幅温和风险有限"
+   "ai_adjust": 2,
+   "ai_note": "高股息煤炭国企，现金流稳健，量化或低估其红利防御价值。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "市值不足一亿港元，流动性枯竭，越南项目长期停滞。"
   },
   {
    "ticker": "0975.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "蒙古矿业受蒙古国政策及物流瓶颈制约，跌19%反映司法风险"
+   "ai_note": "虽完成债务重组，但蒙古国政策多变，历史治理瑕疵仍存隐忧。"
   },
   {
-   "ticker": "0866.HK",
+   "ticker": "1029.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "中国秦发单月暴跌30%零消息，极可能存在未披露重大风险"
+   "ai_adjust": -8,
+   "ai_note": "受地缘制裁与物流瓶颈双重打击，历史债务重组背景风险未消。"
+  },
+  {
+   "ticker": "2302.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铀矿概念炒作股，实际产量与利润贡献有限，市值小易被操纵。"
+  },
+  {
+   "ticker": "3833.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "镍价下行周期业绩承压，长期边缘化且流动性极差。"
+  },
+  {
+   "ticker": "2099.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "甲玛矿复产初期面临产量爬坡与成本超支，短期业绩难达预期。"
+  },
+  {
+   "ticker": "2362.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "非洲矿山面临利润汇出限制与政策变动，近期跌幅异常需警惕。"
+  },
+  {
+   "ticker": "2610.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "受印尼铝土矿出口禁令影响，海外氧化铝项目资本开支与进度存疑。"
   }
  ]
 }
