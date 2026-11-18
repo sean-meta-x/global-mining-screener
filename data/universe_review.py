@@ -147,6 +147,35 @@ _V2_REMOVE = {
 for _m, _d in _V2_REMOVE.items():
     REMOVE.setdefault(_m, {}).update(_d)
 
+# CN/HK smelters (decided 2026-11-17, checked 2026-11-18 on reported revenue segments): a company whose segments
+# include something upstream of smelting (alumina or bauxite, coal mining, ore concentrate) is integrated and
+# stays, tagged 一体化; one whose segments are only smelted or refined metal, fabrication and trading is out.
+_SMELTER = "pure smelter / refiner — no upstream segment"
+_SMELTER_REMOVE = {
+    "cn": {"000612.SZ": f"焦作万方 — {_SMELTER} (liquid aluminium, ingot, alloy)",
+           "000751.SZ": f"锌业股份 — {_SMELTER} (cathode copper, zinc, lead)",
+           "600531.SS": f"豫光金铅 — {_SMELTER} (lead smelting with silver, gold, copper recovery)"},
+    "hk": {"0815.HK": f"中国白银 — {_SMELTER} (silver refining from recycled material, jewellery retail)"},
+}
+for _m, _d in _SMELTER_REMOVE.items():
+    REMOVE.setdefault(_m, {}).update(_d)
+_INTEGRATED = {
+    "cn": ["601600.SS",   # 中国铝业 — alumina and energy (coal) segments
+           "000807.SZ",   # 云铝股份 — no upstream segment, but its own Wenshan bauxite and alumina feed it in-house
+           "000933.SZ",   # 神火股份 — coal mining segment
+           "600961.SS",   # 株冶集团 — gold concentrate segment (own mine)
+           "002532.SZ",   # 天山铝业 — alumina segment
+           "600219.SS",   # 南山铝业 — alumina segment
+           "002379.SZ"],  # 宏桥控股 — alumina segment
+    "hk": ["2600.HK",     # 中国铝业 H — as 601600
+           "1378.HK",     # 中国宏桥 — alumina segment
+           "2788.HK",     # 创新实业 — alumina segment
+           "2610.HK"],    # 南山铝业国际 — alumina refinery (Indonesia), single segment
+}
+for _m, _ts in _INTEGRATED.items():
+    for _t in _ts:
+        TAG.setdefault(_m, {})[_t] = "一体化"
+
 # 'Diversified' -> the main metal (investor review v2): the metal each company names first in its own public
 # business description of what it explores, mines or produces; the company name where the description names none.
 RELABEL_V2: dict[str, dict[str, str]] = {
