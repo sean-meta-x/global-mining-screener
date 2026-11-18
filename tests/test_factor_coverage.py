@@ -72,3 +72,22 @@ def test_micro_caps_do_not_move_the_cutoffs():
     cuts = calibrated_cutoffs(reference[tradable], shifted[tradable])
     assert [grade_label(s, cuts).split(" ", 1)[1] for s in shifted[tradable]] == ["Strong Buy", "Buy", "Watch", "Neutral"]
     assert grade_label(99, cuts).endswith("Strong Buy")       # hidden names are still graded on the same scale
+
+
+# ── investor review v2 (2026-11-18) ──
+from data.scorer import apply_grade_rules, NOT_GRADED, PHYSICAL_GRADE, SECONDARY_GRADE  # noqa: E402
+
+
+def test_a_micro_cap_tops_out_at_buy_and_is_flagged():
+    df = pd.DataFrame({"market_cap": [30e6, 300e6], "grade": ["🟢 Strong Buy", "🟢 Strong Buy"]})
+    out = apply_grade_rules(df, ["SMALL", "BIG"], fx=1.0)
+    assert out["grade"].tolist() == ["🔵 Buy", "🟢 Strong Buy"]
+    assert out["micro_cap"].tolist() == [True, False]
+
+
+def test_not_graded_names_get_their_label_instead_of_a_grade(monkeypatch):
+    import data.scorer as sc
+    monkeypatch.setattr(sc, "NOT_GRADED", {"YCA": ("实物持有", None), "AAUC": ("副上市 · 主上市 AAUC.TO（加拿大站）", "https://x")})
+    df = pd.DataFrame({"market_cap": [1e9, 1e9, 1e9], "grade": ["🔵 Buy", "🟢 Strong Buy", "🟡 Watch"]})
+    out = sc.apply_grade_rules(df, ["YCA", "AAUC", "OTHER"], fx=1.0)
+    assert out["grade"].tolist() == [PHYSICAL_GRADE, SECONDARY_GRADE, "🟡 Watch"]
