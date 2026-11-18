@@ -176,6 +176,32 @@ for _m, _ts in _INTEGRATED.items():
     for _t in _ts:
         TAG.setdefault(_m, {})[_t] = "一体化"
 
+# CN names labelled Aluminum that only process aluminium (profiles, foil, alloy, parts): no mine and no primary
+# smelting, so out of scope (decided 2026-11-18; judged from each company's public business description).
+_FAB = "aluminium processor — no mine, no primary smelting"
+_ALU_FAB_REMOVE = {
+    "002160.SZ": f"常铝股份 — {_FAB} (foil, heat-transfer materials)",
+    "002333.SZ": f"罗普斯金 — {_FAB} (building profiles)",
+    "002501.SZ": f"利源 — {_FAB} (extruded profiles)",
+    "002540.SZ": f"亚太科技 — {_FAB} (automotive extrusions)",
+    "002547.SZ": f"春兴精工 — {_FAB} (precision light-metal parts)",
+    "002578.SZ": f"闽发铝业 — {_FAB} (building and industrial profiles)",
+    "002824.SZ": f"和胜股份 — {_FAB} (extrusions for electronics and cars)",
+    "002988.SZ": f"豪美新材 — {_FAB} (profiles, systems)",
+    "002996.SZ": f"顺博合金 — {_FAB} (recycled aluminium alloy)",
+    "003038.SZ": f"鑫铂股份 — {_FAB} (EV parts, solar frames, recycled aluminium)",
+    "300337.SZ": f"银邦股份 — {_FAB} (clad and composite materials)",
+    "300428.SZ": f"立中集团 — {_FAB} (casting alloys, wheels)",
+    "300489.SZ": "光智科技 — infrared optics and optoelectronics, not mining",
+    "300828.SZ": f"锐新科技 — {_FAB} (metal products)",
+    "600361.SS": f"创新新材 — {_FAB} (profiles, rods, strip)",
+    "600768.SS": f"富邦新材 — {_FAB} (regional profiles)",
+    "688811.SS": f"有研复材 — {_FAB} (metal composites)",
+}
+REMOVE.setdefault("cn", {}).update(_ALU_FAB_REMOVE)
+TAG["cn"].update({"600595.SS": "一体化",   # 中孚实业 — whole chain from its own energy to electrolytic aluminium
+                  "600888.SS": "一体化"})  # 新疆众和 — energy, alumina, electrolytic aluminium, high-purity aluminium
+
 # 'Diversified' -> the main metal (investor review v2): the metal each company names first in its own public
 # business description of what it explores, mines or produces; the company name where the description names none.
 RELABEL_V2: dict[str, dict[str, str]] = {
