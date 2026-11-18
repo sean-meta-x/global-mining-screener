@@ -68,10 +68,10 @@ def report(recs: list[dict], v: dict, today: str, title: str) -> str:
     out = [f"# {title} · {today}", "",
            f"**评级门：{'✅ 已通过，评级可用于【决策】卡' if v['validated'] else '⛔ 未通过，评级仅供研究，不生成【决策】卡'}**",
            "", f"{v['reason']}。", "",
-           f"规则：只看新评分（估值 + 财务健康）{v['since']} 起真正生效之后、同一市场内不重叠的"
-           f" {g.HORIZON_DAYS} 天（≈20 个交易日）窗口；同一起点的各市场先取平均，按起点检验："
-           f"需要 ≥{g.MIN_STARTS} 个起点，市场×矿种组内、扣金属贝塔后的平均 rank IC ≥{g.MIN_IC}、t ≥{g.MIN_T}，"
-           "且 Q5（组内评分前五分之一）平均不跑输 Q1。名单 = 市值 ≥US$20M、日成交 ≥US$25k、"
+           f"规则：只看新评分（估值 + 财务健康）{v['since']} 起真正生效之后、跨市场互不重叠的"
+           f" {g.HORIZON_DAYS} 天（≈20 个交易日）独立期（每期取各市场在期初 {g.STEP_DAYS} 天内开始的第一个窗口并取平均），"
+           f"需要 ≥{g.MIN_STARTS} 个独立期，市场×矿种组内、扣金属贝塔后的平均 rank IC ≥{g.MIN_IC}、t ≥{g.MIN_T}，"
+           "且扣单边 50bp×4 成本后 Q5（组内评分前五分之一，组 ≥8 家才分档）平均不跑输 Q1。名单 = 市值 ≥US$20M、日成交 ≥US$25k、"
            "不含停牌冻结价 / 实物持有 / 副上市；窗口内退市或被收购的按最后成交价计入，不剔除。"
            f"每周起点（重叠）的 Newey-West t：{_f(v.get('nw_t'), '+.2f')}。规则版本 {v.get('rules_version')}，"
            "每次运行记录在 reports/ic_trials.jsonl。", "",

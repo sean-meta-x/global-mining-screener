@@ -122,3 +122,36 @@ def test_newey_west_t_is_smaller_than_naive_t_on_overlapping_series():
     x = pd.Series(e).rolling(4).mean().dropna()                         # overlapping 4-period windows
     naive = x.mean() / x.std() * np.sqrt(len(x))
     assert g.newey_west_t(x) < naive
+
+
+def test_small_groups_are_not_ranked_into_fifths():
+    score = pd.Series(range(20), index=[f"T{i}" for i in range(20)], dtype=float)
+    ret = score / 100
+    group = pd.Series(["Gold"] * 15 + ["Zinc"] * 5, index=score.index)
+    rev = ret.copy()
+    rev[group == "Zinc"] = -rev[group == "Zinc"] * 10           # a tiny group with a huge reversed spread
+    assert g._q5q1(score, ret, group) == g._q5q1(score, rev, group)
+
+
+def test_periods_do_not_overlap_across_markets():
+    recs = [dict(market=m, d0=d0, d1=g._plus(d0, 28), score_composite=0.1, q5q1=0.01, q5q1_net=-0.01,
+                 buy_excess=0.0, live=True)
+            for m, off in (("ca", 0), ("us", 3)) for d0 in [g._plus("2026-11-19", off + 7 * k) for k in range(20)]]
+    p = g.independent_periods(recs, "2026-11-19")
+    assert all(b["d0"] >= a["d1"] for a, b in zip(p, p[1:])) and p[0]["markets"] == 2
+    assert len(p) < len(g.by_date(g.non_overlapping(recs, "2026-11-19")))     # the old count double-counted
+
+
+def test_gate_uses_net_q5_minus_q1():
+    recs = [dict(market="ca", d0=g._plus("2026-11-19", 28 * k), d1=g._plus("2026-11-19", 28 * (k + 1)),
+                 score_composite=0.1 + 0.01 * (k % 3), q5q1=0.01, q5q1_net=-0.01, buy_excess=0.0, live=True)
+            for k in range(14)]
+    v = g.verdict(recs)
+    assert v["starts"] == 14 and not v["validated"] and "扣成本" in v["reason"]
+
+
+def test_rules_version_is_the_git_blob_id():
+    import subprocess
+    root = Path(__file__).parent.parent
+    head = subprocess.run(["git", "hash-object", "data/ic_gate.py"], cwd=root, capture_output=True, text=True)
+    assert head.returncode != 0 or head.stdout.strip()[:10] == g.RULES_VERSION

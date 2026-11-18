@@ -15,11 +15,15 @@ Method (v2, expert methodology review 2026-11-18):
 - IC inside each market x commodity group (>= MIN_GROUP names), averaged weighted by group size: what is
   left is stock selection, not market or metal exposure.
 - Q5 - Q1: average metal-net return of the top fifth minus the bottom fifth, by within-group score
-  rank; reported gross and net of 50 bp one way on both legs' entry and exit.
-- Gate: windows starting on/after SCORER_SINCE and made by the trading score, non-overlapping within a
-  market, markets of one start date averaged; needs >= MIN_STARTS start dates, mean IC >= MIN_IC with
-  t >= MIN_T, and Q5 - Q1 >= 0 on average. Newey-West t on the weekly (overlapping) series is reported.
-- Every run is appended to reports/ic_trials.jsonl with the rules version (for deflated Sharpe).
+  rank, groups of >= MIN_GROUP names only; reported gross and net of 50 bp one way on both legs' entry
+  and exit.
+- Gate: windows starting on/after SCORER_SINCE and made by the trading score, cut into independent
+  periods that do not overlap across markets (a period takes each market's first window starting
+  within STEP_DAYS of the period start; the next period starts at or after the latest end); needs
+  >= MIN_STARTS periods, mean IC >= MIN_IC with t >= MIN_T, and NET Q5 - Q1 >= 0 on average. Newey-West
+  t on the weekly (overlapping) series is reported.
+- Every run is appended to reports/ic_trials.jsonl with the rules version = the git blob id of this
+  file (`git rev-parse HEAD:data/ic_gate.py`, first 10 characters), so a run maps to a commit.
 """
 from __future__ import annotations
 
@@ -48,7 +52,13 @@ SUB = {"valuation": "score_valuation", "health": "score_health", "momentum": "sc
 METALS = ("Gold", "Copper", "Silver", "Nickel", "Zinc", "Uranium")
 LIQ_MCAP_USD, LIQ_ADV_USD = 20e6, 25e3
 COLUMNS = ["ticker", "snap_date", "price", "market_cap", "avg_turnover", "grade", "commodity"] + FACTORS
-RULES_VERSION = hashlib.sha1(Path(__file__).read_bytes()).hexdigest()[:10]
+def _blob_id(path: Path) -> str:
+    """git's object id of the file as committed (LF line ends), whatever the checkout's line ends."""
+    body = path.read_bytes().replace(b"\r\n", b"\n")
+    return hashlib.sha1(b"blob %d\0" % len(body) + body).hexdigest()
+
+
+RULES_VERSION = _blob_id(Path(__file__))[:10]
 
 
 def _plus(day: str, days: int) -> str:
@@ -103,7 +113,9 @@ def _group_ic(score: pd.Series, ret: pd.Series, group: pd.Series) -> float:
 
 def _q5q1(score: pd.Series, ret: pd.Series, group: pd.Series) -> float:
     """Top fifth minus bottom fifth by within-group score percentile."""
-    pct = score.groupby(group).rank(pct=True)
+    ok0 = score.notna() & ret.notna()
+    size = ok0.groupby(group).transform("sum")
+    pct = score.where(ok0 & (size >= MIN_GROUP)).groupby(group).rank(pct=True)   # small groups: no fifths
     ok = pct.notna() & ret.notna()
     top, bot = ret[ok & (pct > 0.8)], ret[ok & (pct <= 0.2)]
     return float(top.mean() - bot.mean()) if len(top) >= MIN_BUYS and len(bot) >= MIN_BUYS else np.nan
@@ -172,6 +184,29 @@ def non_overlapping(recs: list[dict], since: str | None = None) -> list[dict]:
     return out
 
 
+def independent_periods(recs: list[dict], since: str | None = None,
+                        keys=("score_composite", "q5q1", "q5q1_net", "buy_excess")) -> list[dict]:
+    """Non-overlapping periods across all markets, one averaged record each: a period starts at the
+    earliest remaining window start, takes each market's first window starting within STEP_DAYS of it,
+    and the next period starts at or after the latest end among them."""
+    pool = sorted((r for r in recs if r["d0"] >= (since or "")), key=lambda r: (r["d0"], r["market"]))
+    out, start_from = [], since or ""
+    while True:
+        rest = [r for r in pool if r["d0"] >= start_from]
+        if not rest:
+            return out
+        p0 = rest[0]["d0"]
+        pick = {}
+        for r in rest:
+            if r["d0"] < _plus(p0, STEP_DAYS) and r["market"] not in pick:
+                pick[r["market"]] = r
+        rows = list(pick.values())
+        out.append(dict(d0=p0, d1=max(r["d1"] for r in rows), markets=len(rows),
+                        **{k: float(np.nanmean([r.get(k, np.nan) for r in rows]))
+                           if any(r.get(k) == r.get(k) for r in rows) else np.nan for k in keys}))
+        start_from = out[-1]["d1"]
+
+
 def by_date(recs: list[dict], keys=("score_composite", "q5q1", "q5q1_net", "buy_excess")) -> list[dict]:
     """Average the markets that share a start date into one record per date."""
     if not recs:
@@ -202,25 +237,26 @@ def newey_west_t(values, lags: int = NW_LAGS) -> float:
 
 def verdict(recs: list[dict], since: str = SCORER_SINCE) -> dict:
     """Gate on decision cards: validated (bool), the numbers behind it, and the reason in Chinese."""
-    win = [r for r in non_overlapping([r for r in recs if r.get("live")], since)
-           if not np.isnan(r["score_composite"])]
-    dates = by_date(win)
-    ic, q = stats(dates, "score_composite"), stats(dates, "q5q1")
+    live = [r for r in recs if r.get("live") and not np.isnan(r["score_composite"])]
+    dates = independent_periods(live, since)
+    win = [r for r in live if r["d0"] >= since]
+    ic, q = stats(dates, "score_composite"), stats(dates, "q5q1_net")
     weekly = by_date([r for r in recs if r.get("live") and r["d0"] >= since])
     out = dict(validated=False, since=since, rules_version=RULES_VERSION, windows=len(win), starts=len(dates),
-               ic=ic["mean"], t=ic["t"], ic_pos=ic["pos"], q5q1=q["mean"], q5q1_net=stats(dates, "q5q1_net")["mean"],
+               ic=ic["mean"], t=ic["t"], ic_pos=ic["pos"], q5q1=stats(dates, "q5q1")["mean"], q5q1_net=q["mean"],
                nw_t=newey_west_t([r["score_composite"] for r in weekly]),
                buy_excess=stats(dates, "buy_excess")["mean"])
     if len(dates) < MIN_STARTS:
-        out["reason"] = (f"样本不够：新评分 {since} 起只有 {len(dates)} 个不重叠的 20 个交易日窗口起点"
+        out["reason"] = (f"样本不够：新评分 {since} 起只有 {len(dates)} 个跨市场不重叠的 20 个交易日独立期"
                          f"（需要 ≥{MIN_STARTS} 个）")
     elif not (ic["mean"] >= MIN_IC and ic["t"] >= MIN_T):
         out["reason"] = (f"IC 不够：组内扣金属后平均 rank IC {ic['mean']:+.3f}、t {ic['t']:+.2f}"
                          f"（需要 ≥{MIN_IC} 且 t ≥{MIN_T}）")
     elif not (q["n"] and q["mean"] >= 0):
-        out["reason"] = (f"Q5 跑输 Q1：平均 {q['mean']:+.2%} / 窗口" if q["n"] else "Q5/Q1 名单太小，算不出")
+        out["reason"] = (f"扣成本后 Q5 跑输 Q1：净 {q['mean']:+.2%} / 窗口（单边 50bp×4）" if q["n"]
+                         else "Q5/Q1 名单太小，算不出")
     else:
         out["validated"] = True
         out["reason"] = (f"通过：{len(dates)} 个起点，组内扣金属 rank IC {ic['mean']:+.3f}、t {ic['t']:+.2f}，"
-                         f"Q5−Q1 {q['mean']:+.2%}")
+                         f"净 Q5−Q1 {q['mean']:+.2%}")
     return out
