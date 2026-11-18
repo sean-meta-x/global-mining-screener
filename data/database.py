@@ -852,8 +852,8 @@ def set_setting(key: str, value) -> None:
 
 def get_score_weights() -> dict:
     """Load persisted score weights; returns defaults if never saved."""
-    defaults = {"valuation": 30, "health": 20, "momentum": 15,
-                "mining": 25, "commodity": 5, "stage": 5}
+    from config import SCORE_WEIGHTS
+    defaults = {k: round(v * 100) for k, v in SCORE_WEIGHTS.items()}
     try:
         with _engine().connect() as conn:
             rows = conn.execute(

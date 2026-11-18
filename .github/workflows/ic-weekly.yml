@@ -1,0 +1,54 @@
+name: Weekly IC report
+
+# Trading-score IC check and the decision-card gate (data/ic_gate.py). Mondays 03:00 UTC, after
+# Sunday's daily refresh. Read-only on the station DBs; commits reports/ic_weekly.md + ic_status.json.
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ic-weekly
+  cancel-in-progress: false
+
+jobs:
+  ic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download databases from the db-latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download db-latest -p 'screener_*.db'
+
+      - name: IC report
+        run: python scripts/ic_report.py
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/ic_weekly.md ic_status.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore(ic): weekly IC report ($(date -u +%Y-%m-%d))"
+            for i in 1 2 3 4 5; do
+              git pull --rebase && git push && exit 0
+              sleep $((i * 15))
+            done
+            exit 1
+          fi

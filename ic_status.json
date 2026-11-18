@@ -1,0 +1,15 @@
+{
+ "as_of": "2026-11-18",
+ "decision_cards": "blocked",
+ "validated": false,
+ "since": "2026-11-19",
+ "windows": 0,
+ "starts": 0,
+ "ic": null,
+ "t": null,
+ "ic_pos": null,
+ "buy_excess": null,
+ "buy_t": null,
+ "buy_dates": 0,
+ "reason": "样本不够：新评分 2026-11-19 起只有 0 个不重叠的 20 个交易日窗口起点（需要 ≥4 个）"
+}

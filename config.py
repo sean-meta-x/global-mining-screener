@@ -66,13 +66,17 @@ BLOOMBERG_HOST = os.getenv("BLOOMBERG_HOST", "localhost")
 BLOOMBERG_PORT = int(os.getenv("BLOOMBERG_PORT", 8194))
 
 # ── Scoring weights ───────────────────────────────────────────────────────────
+# Trading score (Sean 2026-11-18, after the 7-station IC review): valuation + health only.
+# 20-trading-day rank IC on the snapshot history: oversold ≈ 0, trend (1m/3m return) negative,
+# stage and analyst target upside negative, commodity ≈ 0 → those carry no weight. The sub-scores
+# are still computed and shown. data/ic_gate.py checks the result weekly.
 SCORE_WEIGHTS = {
-    "valuation":   0.30,   # P/B, EV/EBITDA, P/CF, P/NAV
-    "health":      0.20,   # debt, cash, liquidity
-    "momentum":    0.15,   # 52-wk position, RSI
-    "mining":      0.25,   # CIQ/SNL: AISC margin, reserves backing, NAV discount
-    "commodity":   0.05,   # commodity outlook multiplier
-    "stage":       0.05,   # stage-adjusted potential
+    "valuation":   0.50,   # P/B, EV/EBITDA, P/CF, FCF yield, P/NAV
+    "health":      0.50,   # debt, cash, liquidity
+    "momentum":    0.00,   # oversold / reversal: neutral
+    "mining":      0.00,   # CIQ/SNL: AISC margin, reserves backing (coverage < 30 % anyway)
+    "commodity":   0.00,   # commodity outlook multiplier
+    "stage":       0.00,   # no explorer premium
 }
 
 # ── Spot commodity prices (USD; overwritten at runtime by fetch_spot_prices) ──
