@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T21:50Z",
+ "generated_at": "2026-11-19T21:49Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,115 @@
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "环保审批延迟风险高，量化未充分计入许可不确定性。"
+   "ai_note": "Rhyolite Ridge许可受濒危物种问题拖延，审批风险被量化模型低估"
+  },
+  {
+   "ticker": "REA",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值仅八千万且一月暴跌超50%，疑似壳公司或推广标的"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值极小且近期暴跌，存在高稀释与流动性枯竭风险。"
+   "ai_note": "市值仅一千四百万，名称泛化，高度疑似推广仙股"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "运营平稳，无重大负面，维持中性评估。"
+   "ai_adjust": -2,
+   "ai_note": "中型银矿商基本面稳健，但银价疲软拖累短期表现"
   },
   {
    "ticker": "CMCL",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "津巴布韦矿区面临潜在的外汇管制与治理风险。"
+   "ai_note": "津巴布韦运营面临汇率管制与政策风险，国别折价持续"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "格陵兰环保政策收紧，项目面临极高的许可与政治风险。"
-  },
-  {
-   "ticker": "REA",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微盘稀土勘探股，近期大跌需警惕融资稀释风险。"
+   "ai_note": "格陵兰采矿许可极难获取，微型市值加暴跌显示流动性陷阱"
   },
   {
    "ticker": "ELVR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锂价低迷压制估值，基本面暂无突发恶化。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "标称生产商但市值偏低，实际产量与产能利用率存疑"
   },
   {
    "ticker": "BVN",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "秘鲁社区抗议与政策不确定性持续压制运营。"
+   "ai_note": "秘鲁社区冲突与政策不确定性压制估值，一月跌幅显著"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "Thacker Pass面临原住民诉讼及环保许可延期风险。"
+   "ai_note": "Thacker Pass遭原住民诉讼挑战，许可与融资风险未消"
   },
   {
    "ticker": "NEXM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微盘铜矿勘探股，流动性匮乏且存在融资稀释隐患。"
-  },
-  {
-   "ticker": "ALOY",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "稀土板块整体回调，暂无明显个股治理爆雷。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "市值三千万级勘探公司，一月腰斩，缺乏实质催化剂"
   },
   {
    "ticker": "IMPUY",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非电力短缺与工会问题持续增加运营不确定性。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铂族金属价格低迷周期中，但公司体量大、分红尚可"
   },
   {
    "ticker": "OGC",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "菲律宾矿区许可续期存疑，但近期股价相对抗跌。"
+   "ai_note": "金矿组合分散，菲律宾与新西兰运营稳定，跌幅温和"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "项目开发资金缺口大，需警惕后续股权稀释。"
+   "ai_note": "魁北克Matawinie项目面临环保反对，许可进度落后预期"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "DLE技术商业化验证仍存不确定性，需警惕资本开支超支。"
+   "ai_note": "DLE技术尚未大规模验证，阿肯色项目商业化时间表存疑"
+  },
+  {
+   "ticker": "ITRG",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "标称生产商但市值仅三亿且一月跌37%，运营或资产质量存疑"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "项目开发屡次延期，资金链紧张且存在持续稀释风险。"
+   "ai_note": "Elk Creek项目开发数十年未投产，融资与执行风险极高"
   },
   {
    "ticker": "AABB",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "典型OTC微盘炒作股，业务存疑，极高稀释与退市风险。"
+   "ai_adjust": -7,
+   "ai_note": "公司名称与业务不符、市值极小且逆势上涨，高度疑似推广票"
+  },
+  {
+   "ticker": "SSRM",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "管理层频繁更替及资产减值历史令市场持续给予折价"
   },
   {
    "ticker": "GAU",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "运营稳定，无重大负面新闻，维持中性。"
-  },
-  {
-   "ticker": "IAG",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "资产组合稳健，无突发治理或运营风险。"
-  },
-  {
-   "ticker": "ITRG",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "股价回调主要受板块情绪影响，基本面暂无恶化。"
+   "ai_adjust": -2,
+   "ai_note": "加纳Asanko矿运营正常，金价高位支撑但增长有限"
   }
  ]
 }
