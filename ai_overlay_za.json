@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T22:03Z",
+ "generated_at": "2026-11-19T22:03Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MRF.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铬矿基本面稳健，但小盘流动性及南非物流风险被低估。"
+   "ai_note": "铬矿小盘股流动性欠佳，无明确催化剂，维持中性。"
   },
   {
    "ticker": "KIO.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铁矿价格走弱且受限于南非铁路物流瓶颈，下调预期。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铁矿石需求受中国地产拖累，高分红难掩基本面承压。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂族金属价格暴跌，量化模型未充分反映盈利下修风险。"
+   "ai_adjust": -3,
+   "ai_note": "铂钯价格持续低迷，南非电力与物流成本侵蚀利润。"
   },
   {
    "ticker": "APH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "刚果金地缘政治与物流风险极高，量化模型难以定价。"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "锡价坚挺且Bisie矿山品位高，具备逆势上涨潜力。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "纯铂族金属敞口大，受累于价格低迷与成本上升。"
+   "ai_adjust": -2,
+   "ai_note": "铂族金属价格疲软，南非运营成本高企压制盈利。"
   },
   {
    "ticker": "SSW.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "频繁稀释与深井开采成本失控风险极高，治理存疑。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "资产结构复杂且成本居高不下，存在潜在稀释风险。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "股价暴跌且具高度推销色彩，警惕流动性与基本面陷阱。"
+   "ai_note": "股价暴跌且公司常有过度宣传之嫌，基本面风险极高。"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "市值极小且煤炭面临ESG压力，流动性与治理风险高。"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "管理层优秀但受累于铂族金属周期下行，表现相对稳健。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "煤炭现金流好但面临ESG折价与长期需求衰退，中性看待。"
+   "ai_note": "煤炭资产优质且现金流好，但长期面临ESG估值折价。"
   },
   {
-   "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型煤企流动性极差，存在资金链断裂或退市风险。"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "铂价下跌拖累业绩，但黄金和锰业务提供一定缓冲。"
+   "ticker": "PAN.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "黄金资产稳健但近期金价回调导致股价随板块下挫。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "煤炭出口受物流瓶颈制约，且面临长期需求衰退风险。"
-  },
-  {
-   "ticker": "PAN.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "金价高企利好，但南非深井开采成本限制了业绩弹性。"
+   "ai_note": "严重依赖理查兹湾出口码头，物流瓶颈制约产销。"
   },
   {
    "ticker": "NPH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "纯铂族金属敞口大，受累于钯铂价格持续低迷。"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂族金属行业逆风，估值模型未反映价格下行周期。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "成本控制较好但难敌铂族金属价格整体下行趋势。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "受益于金价上涨，但南非运营成本高企抵消部分利好。"
+   "ai_note": "产量增长预期良好，但南非深部开采成本依然偏高。"
+  },
+  {
+   "ticker": "VAL.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "新上市且债务结构复杂，市场对其独立运营能力存疑。"
   },
   {
    "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "资产组合优化且金价处于高位，具备较强业绩弹性。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "全球化布局分散了风险，但整体估值受限于南非折价。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -9,
-   "ai_note": "市值极小且股价腰斩，存在严重的流动性与基本面风险。"
+   "ai_note": "市值不足四千万且股价腰斩，流动性枯竭与治理堪忧。"
+  },
+  {
+   "ticker": "ANG.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "资产组合优化见效，但金价高位震荡限制进一步上行。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "尾矿回收成本低但产量增长受限，表现平稳无惊喜。"
-  },
-  {
-   "ticker": "ANG.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "全球资产布局分散了南非风险，为金价牛市核心标的。"
+   "ai_adjust": -1,
+   "ai_note": "尾矿回收成本低但受限于处理规模，金价敏感度极高。"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "市值微小且铂价低迷，缺乏规模效应与抗风险能力。"
+   "ai_adjust": -6,
+   "ai_note": "矿山长期处于维护状态，复产资金需求大且前景不明。"
   }
  ]
 }
