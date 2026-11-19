@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-18T22:23Z",
+ "generated_at": "2026-11-19T22:23Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝企一体化布局稳健，行业承压但无重大隐性风险"
-  },
-  {
-   "ticker": "601600.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "国企背景但历史治理欠佳，冗员与成本管控仍待改善"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "晋能控股煤企，中期转型压力存在但近期现金流尚可"
+   "ai_adjust": 2,
+   "ai_note": "水电铝ESG优势突出，回调后估值合理"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "煤铝一体化对冲周期，治理结构一般"
+  },
+  {
+   "ticker": "601600.SS",
+   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤电铝一体化运营平稳，板块整体承压无明显瑕疵"
+   "ai_note": "央企背景稳定但效率偏低缺乏弹性"
   },
   {
-   "ticker": "600546.SS",
-   "ai_view": "caution",
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "月跌幅近15%，中小煤企流动性偏弱需警惕抛压"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂价暴跌叠加SQM收购遗留高负债，财务风险突出"
+   "ai_note": "煤炭长期需求承压，产量增长受限"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "新疆低电价优势明显，但电力外送通道仍受限"
+   "ai_note": "产能扩张中，新疆电力成本优势待验证"
+  },
+  {
+   "ticker": "600546.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌13.7%信号不佳，煤炭资产质量存疑"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "锂价暴跌叠加SQM高杠杆，资产负债表承压"
   },
   {
    "ticker": "601101.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "小市值煤企流动性不足，机构覆盖有限折价明显"
+   "ai_note": "中小煤企流动性一般，缺乏催化剂"
   },
   {
    "ticker": "600971.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤企跌幅较大，基本面支撑偏弱需回避"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型央企煤企分红稳定，但增长空间有限估值合理"
-  },
-  {
-   "ticker": "600219.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "南山铝业产业链完整，近期表现相对抗跌无隐忧"
-  },
-  {
-   "ticker": "601225.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "陕煤市值大且月跌幅极小，防御属性突出表现稳健"
+   "ai_adjust": -3,
+   "ai_note": "月跌15.5%跌幅靠前，小市值煤企风险偏好低"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "霍林河露天煤业运营稳定，国电投背景信用良好"
+   "ai_note": "月仅跌1.8%相对抗跌，露天煤成本优势稳"
   },
   {
-   "ticker": "600490.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "治理存疑且关联交易频繁，股价暴跌逾19%需高度警惕"
-  },
-  {
-   "ticker": "002192.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "锂盐价格下行周期，中小锂企盈利大幅承压"
-  },
-  {
-   "ticker": "600508.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤企跌幅显著，需关注基本面是否恶化"
-  },
-  {
-   "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "宏桥系治理历史存忧，关联交易与资金占用需跟踪"
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "央企大矿稳健但成长性不足，估值合理"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中孚实业历史财务压力大，资产负债率偏高需谨慎"
+   "ai_adjust": -4,
+   "ai_note": "历史债务问题反复，月跌15%基本面恶化"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "月仅跌1.4%最抗跌，产业链完整治理改善"
+  },
+  {
+   "ticker": "601225.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭龙头稳健，月微涨0.1%资金认可"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌15.9%领跌板块，小市值流动性风险"
+  },
+  {
+   "ticker": "002192.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "锂矿周期下行，中小锂企成本劣势暴露"
+  },
+  {
+   "ticker": "600490.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "月跌20%且有历史财务造假前科，治理风险极高"
+  },
+  {
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "关联交易频繁，铝加工利润率持续承压"
   },
   {
    "ticker": "601899.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "紫金矿业基本面优秀，短期回调属正常波动无需过度悲观"
+   "ai_adjust": 2,
+   "ai_note": "金价历史新高支撑，月跌17%或超调"
   },
   {
    "ticker": "601168.SS",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "西部矿业月跌超两成，运营或存隐忧短期需回避"
+   "ai_adjust": -4,
+   "ai_note": "月跌21%跌幅最大，铜矿运营或存隐忧"
   }
  ]
 }
