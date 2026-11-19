@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T22:08Z",
+ "generated_at": "2026-11-19T22:09Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "TINS.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "国企背景但面临非法采矿与出口管制风险，估值承压。"
+   "ai_note": "印尼打击非法采矿影响国企锡产量，存在治理与合规风险。"
   },
   {
    "ticker": "IFSH.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "股价单月暴跌超50%，小市值镍企存在流动性与治理隐患。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "镍价因印尼产能过剩暴跌，小市值镍企利润受严重挤压。"
   },
   {
    "ticker": "MBAP.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭中盘股短期涨幅较大，需警惕大宗商品价格回调风险。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中小市值煤炭股流动性差，存在大股东侵害小股东利益风险。"
   },
   {
    "ticker": "AADI.JK",
-   "ai_view": "neutral",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "作为分拆实体，需重点关注独立运营后的公司治理与债务结构。"
-  },
-  {
-   "ticker": "MCOL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭物流与贸易业务受运价及煤价波动影响，基本面相对稳健。"
+   "ai_note": "刚从ADRO分拆上市，面临估值重塑及业务结构重组风险。"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国企煤炭龙头分红稳定，但受国内煤价调控及ESG转型压力。"
+   "ai_note": "国企背景分红稳定，但长期面临能源转型带来的结构性压力。"
+  },
+  {
+   "ticker": "MCOL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "煤炭物流与开采成本上升，行业整体利润率面临压缩风险。"
   },
   {
    "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "正从煤炭向镍转型，需关注镍项目资本开支及产能释放进度。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "跨界转型镍业务资本开支巨大，项目执行与资金链风险较高。"
   },
   {
    "ticker": "ADRO.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭主业稳健，积极布局铝与镍等新能源金属，多元化战略清晰。"
+   "ai_note": "公司治理优良但高度依赖煤价，分拆后需关注母公司协同效应。"
   },
   {
    "ticker": "BSSR.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "传统煤炭生产商，业绩受煤价周期影响，缺乏显著的新增长催化剂。"
+   "ai_note": "基本面扎实且治理良好，无明显量化模型未捕捉的重大风险。"
   },
   {
    "ticker": "NCKL.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "镍价低迷拖累业绩，HPAL项目虽推进但需警惕印尼产业政策变动。"
+   "ai_adjust": -4,
+   "ai_note": "镍市场严重供过于求，大型镍企亦难逃利润率大幅下滑命运。"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "小市值镍企股价大幅下挫，需警惕流动性枯竭及大股东质押风险。"
+   "ai_adjust": -5,
+   "ai_note": "小市值镍企在行业寒冬中面临极高的资金链断裂与稀释风险。"
+  },
+  {
+   "ticker": "KKGI.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "公司架构复杂，历史上存在少数股东权益受损的潜在治理风险。"
   },
   {
    "ticker": "DWGL.JK",
-   "ai_view": "caution",
+   "ai_view": "red_flag",
    "ai_adjust": -4,
-   "ai_note": "煤炭小盘股流动性较差，且面临环保合规与矿区特许权续期风险。"
+   "ai_note": "微市值煤炭股流动性极差，极易受资金操纵与概念炒作影响。"
   },
   {
    "ticker": "DKFT.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "短期涨幅较大，但镍行业整体产能过剩，需防范概念炒作后的回调。"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "镍价低迷下逆势大涨，缺乏基本面支撑，疑似资金拉高出货。"
   },
   {
    "ticker": "ITMG.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "背靠Banpu集团，高股息特征明显，但煤炭资产面临长期退出风险。"
-  },
-  {
-   "ticker": "KKGI.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭中盘股表现相对抗跌，需关注其海外资产运营效率及汇率波动。"
-  },
-  {
-   "ticker": "GEMS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭产能扩张带来业绩弹性，但需关注高负债率及ESG融资限制。"
+   "ai_note": "股息率虽高但属传统煤炭，长期面临需求见顶与资产搁浅风险。"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "red_flag",
    "ai_adjust": -6,
-   "ai_note": "锡价波动及小市值特征导致股价重挫，需警惕流动性与合规风险。"
+   "ai_note": "锡价高企但股价暴跌，暗示公司内部存在严重的经营或治理暴雷。"
+  },
+  {
+   "ticker": "GEMS.JK",
+   "ai_view": "caution",
+   "ai_adjust": -1,
+   "ai_note": "虽为大型煤企，但印尼煤炭行业历史上存在一定公司治理瑕疵。"
   },
   {
    "ticker": "ANTM.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "国企背景但治理效率偏低，镍矿出口政策及下游产能过剩是主要隐患。"
+   "ai_adjust": -2,
+   "ai_note": "国企承担镍下游冶炼指令，巨额资本开支可能拖累整体盈利能力。"
   },
   {
    "ticker": "INDY.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "股价单月大跌20%，转型新能源故事尚未兑现，需警惕资金持续流出。"
+   "ai_adjust": -4,
+   "ai_note": "激进向新能源转型导致现金大量消耗，传统煤炭造血能力下降。"
   },
   {
    "ticker": "TOBA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭与电力双主业提供现金流，但需关注新能源转型中的资本开支压力。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "向地热等新能源转型面临较高的执行风险与资本开支压力。"
   }
  ]
 }
