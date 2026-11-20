@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-19T22:23Z",
+ "generated_at": "2026-11-20T22:22Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000807.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "水电铝ESG优势突出，回调后估值合理"
+   "ai_adjust": 0,
+   "ai_note": "量化高分但月跌近12%，铝板块整体回调，无异常信号"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤铝一体化对冲周期，治理结构一般"
+   "ai_adjust": 0,
+   "ai_note": "与云铝同步下跌，行业系统性调整，无个股利空"
+  },
+  {
+   "ticker": "601001.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型煤企表现平稳，无新闻驱动，维持中性判断"
   },
   {
    "ticker": "601600.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企背景稳定但效率偏低缺乏弹性"
-  },
-  {
-   "ticker": "601001.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "煤炭长期需求承压，产量增长受限"
+   "ai_note": "中铝大盘股随板块调整，无独立利空消息"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "产能扩张中，新疆电力成本优势待验证"
+   "ai_note": "天山铝业跌幅温和，一体化布局提供缓冲"
   },
   {
    "ticker": "600546.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌13.7%信号不佳，煤炭资产质量存疑"
-  },
-  {
-   "ticker": "002466.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锂价暴跌叠加SQM高杠杆，资产负债表承压"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "山西国际能源跌幅偏大但无新闻，煤企普遍承压"
   },
   {
    "ticker": "601101.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中小煤企流动性一般，缺乏催化剂"
+   "ai_note": "昊华能源市值偏小，流动性风险需关注但无明确利空"
+  },
+  {
+   "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "天齐锂业高负债收购SQM后遗症犹存，锂价下行周期承压"
   },
   {
    "ticker": "600971.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌15.5%跌幅靠前，小市值煤企风险偏好低"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "恒源煤电市值小且跌幅超12%，需警惕流动性折价"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "月仅跌1.8%相对抗跌，露天煤成本优势稳"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "央企大矿稳健但成长性不足，估值合理"
+   "ai_note": "霍林河煤业月跌幅仅1.7%，大盘煤企相对抗跌"
   },
   {
    "ticker": "600595.SS",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "历史债务问题反复，月跌15%基本面恶化"
+   "ai_adjust": -3,
+   "ai_note": "中孚实业月跌15.5%且无新闻，可能存在未披露经营风险"
   },
   {
-   "ticker": "600219.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "月仅跌1.4%最抗跌，产业链完整治理改善"
-  },
-  {
-   "ticker": "601225.SS",
+   "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭龙头稳健，月微涨0.1%资金认可"
-  },
-  {
-   "ticker": "600508.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌15.9%领跌板块，小市值流动性风险"
+   "ai_note": "中煤能源大盘蓝筹，跌幅温和，行业beta主导"
   },
   {
    "ticker": "002192.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂矿周期下行，中小锂企成本劣势暴露"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "融捷股份锂矿概念，锂价低迷期估值承压"
   },
   {
    "ticker": "600490.SS",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "月跌20%且有历史财务造假前科，治理风险极高"
+   "ai_note": "鹏欣资源单月暴跌24%且零新闻，高度疑似未披露重大利空"
+  },
+  {
+   "ticker": "600219.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "南山铝业月跌不足1%，铝企中最抗跌，基本面稳健"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大屯能源跌幅偏大且市值小，关注煤价下行风险"
+  },
+  {
+   "ticker": "601225.SS",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "陕煤逆势上涨3.9%为唯一正收益，龙头溢价显现"
   },
   {
    "ticker": "002379.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "关联交易频繁，铝加工利润率持续承压"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中国宏桥大盘铝企，跌幅在合理范围内"
   },
   {
    "ticker": "601899.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "金价历史新高支撑，月跌17%或超调"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "紫金矿业市值最大却跌14.8%，铜价拖累或存治理隐忧"
   },
   {
-   "ticker": "601168.SS",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌21%跌幅最大，铜矿运营或存隐忧"
+   "ticker": "601958.SS",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "金钼股份月跌超10%，钼价承压但无明确利空"
   }
  ]
 }
