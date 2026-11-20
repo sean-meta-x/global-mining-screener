@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T22:15Z",
+ "generated_at": "2026-11-20T22:13Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "1712.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "港股小盘金矿流动性极差，需警惕治理与估值陷阱。"
-  },
-  {
-   "ticker": "1303.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极小且曾有债务重组历史，流动性与治理风险极高。"
+   "ai_note": "金价强势但股价大跌，或存隐性运营或成本问题"
   },
   {
    "ticker": "0433.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "公司长期面临清盘与除牌风险，治理极度混乱，切勿触碰。"
+   "ai_adjust": -7,
+   "ai_note": "微型市值，历史治理问题多，壳股特征明显"
+  },
+  {
+   "ticker": "1303.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "曾有可转债稀释问题，微型煤企流动性极差"
   },
   {
    "ticker": "2489.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "核心资产在埃塞俄比亚，需警惕当地地缘政治与基建风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "次新股上市后大幅回调，需关注运营实质"
   },
   {
    "ticker": "9696.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂价处于周期底部，前期高杠杆并购带来的财务压力仍在消化。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "天量债务收购SQM，锂价暴跌下偿债压力巨大"
   },
   {
    "ticker": "1208.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "核心铜矿频发当地社区抗议封路，生产连续性与成本存疑。"
-  },
-  {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "央企治理稳健，但国内电解铝产能天花板限制了长期增长。"
+   "ai_adjust": -4,
+   "ai_note": "拉斯班巴斯社区阻塞为长期运营隐患"
   },
   {
    "ticker": "1258.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "赞比亚严重干旱导致电力短缺，直接威胁旗下铜矿正常生产。"
+   "ai_adjust": -3,
+   "ai_note": "月跌幅达25%，刚果金等高风险矿区运营"
+  },
+  {
+   "ticker": "2600.HK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型国企铝企，盈利波动大但体量稳定"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "民营铝业龙头，成本管控优秀，估值合理"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "南非矿业环境恶化，严重限电与治安问题致命，典型仙股。"
+   "ai_adjust": -6,
+   "ai_note": "勘探阶段微型金矿，历史上有炒作嫌疑"
   },
   {
    "ticker": "3636.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "作为次新股流通盘较小，需持续观察其刚果金项目实际产出。"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "成本控制极佳且分红慷慨，前期财务质疑已彻底消除。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "次新铜企大幅回调，需验证产能持续性"
   },
   {
    "ticker": "1898.HK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "央企高股息标的，长协煤价稳定为其提供坚实的现金流。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型国企煤炭，分红稳定，防御属性强"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "市值不足一亿港元，流动性枯竭，存在典型老千股特征。"
+   "ai_adjust": -7,
+   "ai_note": "市值不足一亿，极度缺乏流动性，治理存疑"
+  },
+  {
+   "ticker": "2099.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌超25%，加拿大及西藏项目需关注进展"
+  },
+  {
+   "ticker": "0975.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "蒙古国政策风险高，曾经历债务重组"
   },
   {
    "ticker": "1029.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "受地缘制裁影响深远，且历史上存在严重审计与治理瑕疵。"
-  },
-  {
-   "ticker": "0975.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "债务重组后基本面改善，但需警惕蒙古国政策与口岸通关风险。"
+   "ai_adjust": -5,
+   "ai_note": "铁货长期财务困难，多次债务重组"
   },
   {
    "ticker": "2302.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "受益于铀价上行周期，但海外矿山开发进度与成本存不确定性。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "铀矿概念小盘股，流动性有限"
   },
   {
    "ticker": "3833.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "港股流动性极差，且地处新疆导致运输成本高企侵蚀利润。"
+   "ai_note": "印尼镍供应冲击下镍价承压，新疆镍企受累"
   },
   {
    "ticker": "2610.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "母公司治理良好，但H股流动性一般且受关联交易制约。"
-  },
-  {
-   "ticker": "2099.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "加拿大核心矿山面临品位下降与高成本困境，拖累整体盈利。"
+   "ai_adjust": -2,
+   "ai_note": "铝价走弱叠加月跌18%，中期承压"
   },
   {
    "ticker": "2362.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "钴价暴跌导致业绩大幅承压，需等待钴市场供需基本面见底。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "镍价受印尼供应压制，但大股东背景较强"
   }
  ]
 }
