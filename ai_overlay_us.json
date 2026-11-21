@@ -1,127 +1,121 @@
 {
- "generated_at": "2026-11-20T21:49Z",
+ "generated_at": "2026-11-21T21:49Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
   {
+   "ticker": "JAGU",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型矿企无消息且暴跌，极可能遭遇增发稀释或炒作崩盘。"
+  },
+  {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Rhyolite Ridge项目面临濒危物种许可风险，开发进度存疑"
+   "ai_adjust": -5,
+   "ai_note": "锂矿开发商面临严重的联邦土地许可与濒危物种审批风险。"
   },
   {
    "ticker": "REA",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型勘探股单月暴跌逾半，疑似融资稀释或钻探失败"
+   "ai_adjust": -9,
+   "ai_note": "稀土勘探股跌幅超半数且无消息，典型的炒作退潮与稀释风险。"
   },
   {
    "ticker": "CMCL",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -3,
-   "ai_note": "津巴布韦运营面临政策与汇兑风险，治理隐患大"
+   "ai_note": "津巴布韦金矿生产商面临地缘政治与外汇管制等隐性治理风险。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "千万市值铀矿勘探商暴跌，高度疑似稀释或炒作退潮"
+   "ai_note": "铀矿微型勘探股无利好却暴跌，大概率存在隐蔽增发或资金链断裂。"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "拉美中型银矿商运营稳定，无重大异常信号"
-  },
-  {
-   "ticker": "ALOY",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "稀土开发商单月跌近半且无消息，融资或技术风险大"
-  },
-  {
-   "ticker": "GRML",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "格陵兰PGM勘探商腰斩，政策变动与资金风险并存"
-  },
-  {
-   "ticker": "ELVR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锂矿生产商跌幅温和，暂无明显异常信号"
+   "ai_adjust": -2,
+   "ai_note": "白银中型矿企受累于板块轮动与成本通胀，量化模型未充分计价。"
   },
   {
    "ticker": "BVN",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "秘鲁社区冲突频发，运营中断与政策风险偏高"
+   "ai_adjust": -4,
+   "ai_note": "秘鲁大型矿企受当地社区抗议与政策不确定性影响，存在治理盲区。"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "格陵兰岛PGM勘探面临极高的ESG审查与许可审批不确定性。"
+  },
+  {
+   "ticker": "NKOSF",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型金矿勘探股无消息却大跌，需警惕私募融资或增发稀释股权。"
+  },
+  {
+   "ticker": "ELVR",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "锂矿企业跌幅相对较小，但需警惕其实际产能与量化标签不符的风险。"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Thacker Pass遭原住民反对，许可诉讼风险大"
+   "ai_adjust": -5,
+   "ai_note": "旗舰锂矿项目面临巨大的资本开支缺口与复杂的环保许可审批风险。"
   },
   {
    "ticker": "NEXM",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "三千万市值铜矿勘探商跌近四成，稀释风险高"
+   "ai_adjust": -5,
+   "ai_note": "铜矿勘探股暴跌且无消息，暗示早期钻探结果不佳或面临资金稀释。"
   },
   {
    "ticker": "IMPUY",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "PGM价格低迷压制业绩，但公司运营基本面尚可"
-  },
-  {
-   "ticker": "OGC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型金矿商全球资产分散，跌幅温和无异常"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "铂族金属价格暴跌重创基本面，量化模型未能及时反映商品周期反转。"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "石墨开发商融资反复，项目推进存在不确定性"
+   "ai_adjust": -5,
+   "ai_note": "石墨开发商面临严峻的最终投资决定压力及魁北克项目融资风险。"
+  },
+  {
+   "ticker": "OGC",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中型金矿企表现相对抗跌，但需关注其海外矿山的地缘政治治理风险。"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "失去Lanxess合作伙伴，DLE技术商业化存疑"
+   "ai_adjust": -5,
+   "ai_note": "直接提锂技术开发商面临极高的资本开支与商业化落地不确定性。"
   },
   {
    "ticker": "ITRG",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "跌幅较大且无利好消息，需关注运营或融资风险"
+   "ai_adjust": -5,
+   "ai_note": "股价大幅回撤且缺乏消息面支撑，需警惕项目推进不及预期或隐性债务。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "稀土项目长期未决，资金持续消耗风险大"
+   "ai_adjust": -6,
+   "ai_note": "铌钪项目存在巨大的融资缺口且缺乏承购协议，量化模型忽视了资金链风险。"
   },
   {
    "ticker": "IAG",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型金矿商运营平稳，跌幅在合理范围内"
-  },
-  {
-   "ticker": "KGC",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型金矿商管理稳健，跌幅属板块联动"
-  },
-  {
-   "ticker": "SSRM",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "土耳其矿区金锭含砷问题尚未完全解决"
+   "ai_adjust": -2,
+   "ai_note": "中型金矿企受累于行业整体回调，需关注其核心矿山的品位与成本管控。"
   }
  ]
 }
