@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T22:08Z",
+ "generated_at": "2026-11-21T22:08Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "TINS.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "国企背景，锡矿出口配额政策存不确定性，压制估值。"
+   "ai_note": "国有锡企跌18%无消息，警惕治理或锡价结构性风险"
   },
   {
    "ticker": "IFSH.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "镍价持续低迷，产能过剩严重，短期难见业绩拐点。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "小盘镍企暴跌35%无消息，流动性或经营存重大隐患"
   },
   {
    "ticker": "MBAP.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭产销量稳健，但需关注中小矿企环保合规成本上升。"
+   "ai_note": "中型煤企动量正向，暂无明显隐藏风险"
   },
   {
    "ticker": "AADI.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "作为新分拆实体，需警惕与母公司的关联交易及初期治理磨合风险。"
+   "ai_adjust": -3,
+   "ai_note": "Adaro新分拆煤炭实体，限售到期抛压风险未反映"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "国企分红稳定，但RKAB采矿配额审批进度可能影响产量。"
+   "ai_note": "国有煤矿高股息稳定，长期能源转型压力尚温和"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "次新股流动性较好，但需防范大股东股权质押及解禁抛压。"
+   "ai_adjust": 0,
+   "ai_note": "煤炭物流兼生产表现平稳，无异常信号"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "跨界转型镍金属，面临技术路线验证及镍价低迷双重风险。"
+   "ai_adjust": -2,
+   "ai_note": "中型煤企跌近10%，治理透明度存疑"
   },
   {
    "ticker": "ADRO.JK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "治理结构优化，铝土矿与新能源布局提供实质性第二增长曲线。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "更名Alamtri转型期，跌幅温和但战略执行待观察"
   },
   {
    "ticker": "BSSR.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "家族企业治理较传统，需关注中小股东权益保护及分红持续性。"
+   "ai_adjust": 0,
+   "ai_note": "家族控股煤矿运营稳健，无突出风险"
   },
   {
    "ticker": "KKGI.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "核心资产KPC面临矿区移交风险，长期储量接续存在隐患。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型煤企正收益，动量健康"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "镍矿加工产能扩张激进，在镍价下行周期易遭现金流反噬。"
-  },
-  {
-   "ticker": "DKFT.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "镍项目投产进度不及预期，需警惕资本开支超支与稀释风险。"
+   "ai_note": "镍企跌17%，印尼镍过剩压力未充分定价"
   },
   {
    "ticker": "DWGL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "小型煤企跌7.5%，信息透明度不足需警惕"
+  },
+  {
+   "ticker": "DKFT.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "体量较小且业务单一，抗周期波动能力弱，缺乏核心护城河。"
+   "ai_adjust": 0,
+   "ai_note": "镍企涨12%动量良好，但镍板块波动大需持续跟踪"
   },
   {
    "ticker": "ITMG.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "股息率虽高，但近期产量指引下调，需防范价值陷阱。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Banpu旗下煤矿分红稳定，跌幅温和无异常"
   },
   {
    "ticker": "NCKL.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "HPAL扩产激进叠加镍价崩盘，高杠杆下现金流断裂风险剧增。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "大型镍企RKEF产能面临镍价过剩持续压制"
   },
   {
    "ticker": "NICL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锡矿品位下降且面临环保督查，复产进度与合规成本存疑。"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "锡企暴跌25%无消息，高度怀疑治理或稀释问题"
   },
   {
    "ticker": "GEMS.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭资产质量尚可，但需警惕印尼国内DMO政策对利润的挤压。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "大型煤企跌7%，APAC系治理折价持续存在"
   },
   {
    "ticker": "INDY.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "激进转型新能源致资本开支失控，现金流恶化且存在股权稀释风险。"
+   "ai_adjust": -8,
+   "ai_note": "暴跌31%极其异常，战略转型非煤执行风险巨大"
   },
   {
    "ticker": "ANTM.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "国企治理效率偏低，且镍业务受累于全球过剩，黄金占比有限。"
+   "ai_adjust": -3,
+   "ai_note": "国有镍企治理效率低，镍过剩叠加政策不确定性"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "地热能转型尚处早期，传统煤炭业务受印尼政策及煤价双重压制。"
+   "ai_adjust": -5,
+   "ai_note": "跌20%无消息，中型煤企现金流或融资承压"
   }
  ]
 }
