@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-21T22:13Z",
+ "generated_at": "2026-11-22T22:15Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1712.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "金价走强却跑输20%，小盘金矿运营或治理存隐忧"
+   "ai_adjust": -5,
+   "ai_note": "量化高分但月跌20%，小盘金矿需警惕运营或治理隐患"
   },
   {
    "ticker": "0433.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "历史治理问题频发，微型市值流动性差，高评分不可信"
+   "ai_adjust": -8,
+   "ai_note": "微型市值钼矿股，历史治理劣迹多，谨防壳股陷阱"
   },
   {
    "ticker": "1303.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型市值煤炭股，历史关联交易存疑，流动性风险大"
+   "ai_adjust": -3,
+   "ai_note": "市值不足三亿煤炭股，流动性差且治理风险高"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "次新金矿股上市后即跌近18%，产能释放或不及预期"
+   "ai_adjust": -4,
+   "ai_note": "次新黄金股上市后大跌，需关注产能兑现与解禁压力"
   },
   {
    "ticker": "9696.HK",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "锂价下行周期叠加SQM收购高负债，跌幅属合理调整"
+   "ai_note": "锂价低迷叠加高负债，下行风险已被市场充分定价"
   },
   {
    "ticker": "1208.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Las Bambas矿区社区阻塞反复，运营中断风险持续压制估值"
+   "ai_adjust": -5,
+   "ai_note": "秘鲁Las Bambas社区冲突频发，运营中断风险持续"
   },
   {
    "ticker": "1258.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "赞比亚铜矿政策风险高，月跌25%反映市场对主权风险的担忧"
+   "ai_adjust": -4,
+   "ai_note": "月跌25%远超同行，铜价之外或存未反映的运营问题"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "央企铝业龙头，表现平稳，无显著隐藏风险"
+   "ai_note": "央企铝业龙头跌幅温和，基本面稳健无需过度担忧"
   },
   {
    "ticker": "1378.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "全球最大民营铝企，跌幅最小，基本面相对扎实"
+   "ai_note": "民营铝业龙头表现抗跌，估值合理无重大隐忧"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "纯勘探阶段金矿公司，南非项目屡次受挫，壳股特征明显"
+   "ai_note": "金矿勘探壳股长期无产出，promoter痕迹明显"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "次新铜矿股跌幅超20%，刚果(金)运营不确定性高"
+   "ai_adjust": -4,
+   "ai_note": "次新铜矿股上市即大跌，警惕解禁减持与估值泡沫"
   },
   {
    "ticker": "1898.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企煤炭龙头，正收益表现稳健，无重大隐藏风险"
+   "ai_note": "央企煤炭龙头逆势微涨，高股息防御属性突出"
   },
   {
    "ticker": "1229.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值不足8000万，微型壳股特征，跌20%流动性堪忧"
+   "ai_adjust": -8,
+   "ai_note": "市值不足一亿典型壳股，治理混乱应坚决回避"
   },
   {
    "ticker": "2099.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金价强势下仍跌近26%，长停矿山复产进度存疑"
+   "ai_adjust": -5,
+   "ai_note": "月跌26%为板块最差，海外矿山运营存重大不确定性"
   },
   {
    "ticker": "0975.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "蒙古煤炭出口依赖单一通道，政策与物流风险持续"
+   "ai_note": "蒙古煤炭股面临政策与跨境运输双重风险溢价"
   },
   {
    "ticker": "1029.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "伊朗铁矿项目受制裁影响，小盘股债务与运营压力并存"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "俄罗斯铁矿股受制裁风险压制，小市值流动性堪忧"
   },
   {
    "ticker": "2302.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铀矿概念炒作后回落，实际产量有限，估值支撑不足"
+   "ai_adjust": -4,
+   "ai_note": "铀矿概念小盘股实际产量有限，题材炒作成分大"
   },
   {
    "ticker": "3833.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "新疆镍矿受环保限产影响，跌幅大于同行反映运营压力"
+   "ai_note": "镍矿小盘股跌幅较大，需关注海外项目实际进展"
   },
   {
    "ticker": "2610.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "南山铝业子公司，铝加工业务稳定，跌幅属板块联动"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "铝业中游跌幅偏大，需关注与母公司关联交易风险"
   },
   {
    "ticker": "2362.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "刚果(金)镍钴矿跌幅24%，资源国政策变动风险突出"
+   "ai_note": "镍价下行叠加月跌24%，资产注入预期或已落空"
   }
  ]
 }
