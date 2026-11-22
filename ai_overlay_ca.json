@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-21T22:47Z",
+ "generated_at": "2026-11-22T22:46Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "MRZL.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型稀土勘探股暴跌且无新闻，警惕未披露的融资稀释或钻探失败。"
-  },
-  {
    "ticker": "VIO.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿勘探股跌幅异常，量化模型可能忽略了潜在的流动性枯竭风险。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型金矿勘探商无新闻且暴跌，警惕 promoter 耗尽与隐性稀释。"
   },
   {
    "ticker": "LIFT.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "锂矿勘探商名称怪异且无新闻，暴跌暗示融资失败或 promoter 撤退。"
+  },
+  {
+   "ticker": "MJS.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂电勘探股单月暴跌超三成且无公告，高度怀疑存在隐性增发或项目受阻。"
+   "ai_adjust": -5,
+   "ai_note": "所谓生产商市值极低且无新闻，需核实资产真实性与流动性枯竭风险。"
   },
   {
    "ticker": "MMY.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "作为小型生产商跌幅温和，量化高分可能忽略了当前金价波动对利润的侵蚀。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小型金矿生产商近期大幅回调且无利好支撑，警惕运营或资金链问题。"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "市值最大的黄金生产商跌幅最小，基本面相对稳健，量化评分较为合理。"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "小型金矿生产商单月大跌25%却无新闻，极可能存在未公开的运营或合规危机。"
+   "ai_adjust": -2,
+   "ai_note": "中型金矿生产商跌幅相对温和，但缺乏新闻催化，暂作中性观望。"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中型黄金生产商跌幅偏大，需警惕量化模型未能捕捉到的矿山品位下降风险。"
+   "ai_adjust": -4,
+   "ai_note": "小型生产商单月大跌超两成且无新闻，需防范潜在的隐性运营风险。"
   },
   {
    "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型铀矿勘探股暴跌近三成，缺乏新闻掩护下需防范内部人抛售或融资陷阱。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅千万且暴跌近三成，典型的铀矿壳公司 promoter 撤退特征。"
   },
   {
    "ticker": "OC.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型多元化勘探股市值极低，量化高分纯属数据滞后，实际流动性风险极大。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "极低市值多元化勘探商缺乏新闻关注，流动性枯竭与退市风险极高。"
   },
   {
    "ticker": "STGO.TO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "中型黄金生产商跌幅在合理区间，量化模型对宏观周期因子的定价略显不足。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "蒙古金矿生产商大幅下挫，需警惕地缘政治或许可证相关的隐性风险。"
   },
   {
    "ticker": "YMC.CN",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型金矿勘探股跌幅超30%，无新闻配合的暴跌通常是钻探失败的前兆。"
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "代码与名称拼凑感强，暴跌且无新闻，高度疑似劣质 promoter 操盘。"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型铀矿股单月暴跌近40%且无公告，典型的死亡螺旋特征，严防隐蔽稀释。"
-  },
-  {
-   "ticker": "IPT.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小型白银生产商跌幅较大，量化模型可能忽略了银价疲软及高成本矿山的压力。"
+   "ai_adjust": -10,
+   "ai_note": "公司名称与主营业务矛盾，暴跌且无新闻，存在严重的治理或信息误导。"
   },
   {
    "ticker": "UTWO.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型铀矿股单月腰斩且零新闻，极大概率存在未披露的定向增发或项目流产。"
+   "ai_adjust": -10,
+   "ai_note": "单月暴跌近腰斩且毫无新闻，典型的铀矿概念股 promoter 爆仓或稀释。"
+  },
+  {
+   "ticker": "IPT.V",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "小型银矿生产商大幅回调，需关注墨西哥当地社区或环保许可风险。"
   },
   {
    "ticker": "FUU.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "铀矿勘探股暴跌40%毫无动静，量化模型失效，需立刻排查是否有隐性利空。"
+   "ai_adjust": -8,
+   "ai_note": "铀矿勘探商单月暴跌四成且无新闻，极可能遭遇 drilling 失败或稀释。"
   },
   {
    "ticker": "IBAT.V",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型电池金属勘探股暴跌近40%，无新闻掩护的闪崩往往意味着核心资产出问题。"
+   "ai_adjust": -8,
+   "ai_note": "电池金属概念微盘股暴跌且无新闻，警惕概念炒作退潮与资金盘破裂。"
   },
   {
    "ticker": "AFM.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "锡业中型生产商市值最大，跌幅主要受锡价周期影响，量化评分基本有效。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中型锡矿生产商显著回调，需防范刚果金矿区运营或出口许可风险。"
   },
   {
    "ticker": "APM.TO",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "大型黄金生产商市值超5亿，跌幅属于正常板块回调，无需过度调整量化得分。"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "玻利维亚金矿生产商大跌，需警惕当地政策变化或社区阻工等治理风险。"
   },
   {
    "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿勘探股量化高分源于历史数据，当前无新闻的阴跌暗示资金在撤离。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "极低市值且名称缺乏辨识度，无新闻伴随下跌，流动性与 promoter 风险高。"
   },
   {
    "ticker": "LAB.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型金矿勘探股市值仅千万，单月跌20%且无公告，需警惕管理层套现或融资。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "千万级市值金矿勘探商无新闻且大跌，需防范 drilling 失败或资金断裂。"
+  },
+  {
+   "ticker": "FVI.TO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "大型银金矿生产商随板块回调，基本面尚可，缺乏新闻故保持中性。"
   }
  ]
 }
