@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T21:50Z",
+ "generated_at": "2026-11-23T21:50Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,115 +7,115 @@
    "ticker": "JAGU",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微型铀矿企单月暴跌且无新闻，极可能遭遇静默稀释或融资失败。"
+   "ai_note": "微盘铀矿股暴跌且无消息，疑似资金链断裂或严重稀释。"
   },
   {
    "ticker": "IONR",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锂矿开发商面临严峻的许可审批与资金缺口，量化未计入尾部风险。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "锂价低迷拖累开发项目，但美国本土资产具长期战略价值。"
   },
   {
    "ticker": "REA",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "稀土勘探股单月腰斩且毫无音讯，高度疑似钻探失败或股权稀释。"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦金矿生产商面临国家风险与运营不确定性，需下调预期。"
+   "ai_adjust": -7,
+   "ai_note": "稀土勘探股单月暴跌近半，缺乏实质性进展，警惕融资稀释。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型核矿股暴跌近半且无公告，典型的静默稀释或项目停滞特征。"
+   "ai_adjust": -10,
+   "ai_note": "市值仅千万且股价腰斩，典型的壳公司或遭遇严重稀释风险。"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型银矿企随贵金属板块回调，无重大基本面恶化，保持中性观察。"
+   "ai_adjust": -2,
+   "ai_note": "白银产量稳健，但受宏观金属价格回调影响，短期承压。"
+  },
+  {
+   "ticker": "CMCL",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "津巴布韦矿区运营稳定，但地缘政治与汇兑风险需持续警惕。"
   },
   {
    "ticker": "BVN",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂族金属价格崩盘重创基本面，量化模型严重滞后于宏观商品周期。"
+   "ai_adjust": -3,
+   "ai_note": "秘鲁社区抗议与环保审批频繁干扰生产，地缘风险溢价高。"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "格陵兰PGM勘探股腰斩且无消息，极可能遭遇钻探不及预期或稀释。"
-  },
-  {
-   "ticker": "NKOSF",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "微型金矿股暴跌且无公告，流动性枯竭叠加静默稀释风险极高。"
+   "ai_note": "格陵兰岛环保政策严苛，PGM项目面临极高的许可否决风险。"
   },
   {
    "ticker": "ELVR",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂矿生产商受累于锂价低迷与高成本，量化未充分反映盈利恶化。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "锂行业处于周期底部，早期项目融资困难，短期缺乏催化剂。"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "锂矿开发商面临巨大的资本开支与稀释风险，单月大跌已现端倪。"
-  },
-  {
-   "ticker": "NEXM",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "铜矿勘探股单月大跌且无新闻，高度疑似钻探失败或资金链断裂。"
+   "ai_adjust": -5,
+   "ai_note": "萨克帕斯项目资本开支巨大，DOE贷款落地前稀释风险极高。"
   },
   {
    "ticker": "IMPUY",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铂族金属巨头受困于南非电力危机与价格暴跌，量化评分严重虚高。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "铂族金属价格持续低迷，但公司成本控制较好，跌幅相对有限。"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "石墨开发商面临严峻的融资环境与下游需求疲软，需警惕稀释风险。"
+   "ai_note": "魁北克石墨项目融资环境恶化，高昂的资本开支带来稀释风险。"
   },
   {
    "ticker": "OGC",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型金矿企随大盘回调，基本面暂无重大瑕疵，量化评分基本合理。"
+   "ai_note": "黄金产量稳定，Didipio铜金矿贡献增量，基本面相对扎实。"
+  },
+  {
+   "ticker": "AABB",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "典型的微盘仙股，基本面极差且常有炒作嫌疑，治理风险极高。"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "锂矿开发商受累于行业寒冬与项目延期，量化未计入资金链风险。"
-  },
-  {
-   "ticker": "ITRG",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "贵金属生产商单月大跌，需警惕隐性运营成本超支或矿区社区风险。"
+   "ai_note": "DLE技术尚未在大规模商业化中验证，高现金消耗加剧稀释。"
   },
   {
    "ticker": "NB",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "稀土开发商面临复杂的环保审批与融资困境，量化模型过于乐观。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "历史融资频繁导致严重稀释，内布拉斯加州环保审批阻力巨大。"
   },
   {
    "ticker": "IAG",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型金矿企表现相对抗跌，无重大负面催化剂，维持中性评级。"
+   "ai_note": "核心矿山运营平稳，金价高企提供支撑，短期无重大利空。"
+  },
+  {
+   "ticker": "ITRG",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "被误标为PGM生产商，实为金银勘探商，微盘股面临融资压力。"
+  },
+  {
+   "ticker": "SSRM",
+   "ai_view": "caution",
+   "ai_adjust": -6,
+   "ai_note": "土耳其矿区事故引发停产担忧，叠加当地政策风险，短期承压。"
   }
  ]
 }
