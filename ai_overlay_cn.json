@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T22:23Z",
+ "generated_at": "2026-11-23T22:24Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "云南水电依赖导致枯水期限电风险，量化未充分定价"
+   "ai_note": "水电铝企受干旱影响产能，但基本面尚可"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤电铝一体化对冲部分风险，治理尚可"
+   "ai_note": "煤铝双主业格局稳健，无显著隐藏风险"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西国资煤企，经营稳健但缺乏催化剂"
+   "ai_note": "山西国资煤企重组后运营平稳"
   },
   {
    "ticker": "601600.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中铝历史资本回报率差、负债高，治理折价"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型国企铝企盈利偏弱但估值合理"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "天山铝产能扩张中，成本优势尚可"
+   "ai_note": "产能有序扩张，无重大治理隐患"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "山煤国际资产注入预期已消化，估值合理"
+   "ai_adjust": 0,
+   "ai_note": "中型煤企运营正常，无特别风险"
   },
   {
    "ticker": "601101.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "小市值煤企，流动性一般但无重大瑕疵"
+   "ai_note": "小市值煤企基本面平稳"
   },
   {
    "ticker": "002466.SZ",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "天齐锂业SQM并购遗留高负债，锂价下行期风险大"
+   "ai_adjust": -3,
+   "ai_note": "锂价暴跌叠加收购高负债，财务风险被低估"
   },
   {
    "ticker": "600971.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "恒源煤电市值偏小，跌幅居前，基本面存疑"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "小型煤企经营平稳，无突出风险"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "霍林河露天煤业背靠国电投，经营稳定"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中孚实业月跌15.5%，资产负债率高、盈利弱"
+   "ai_note": "露天开采成本优势明显，运营稳健"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中煤能源大型国企，分红稳定但增长有限"
+   "ai_note": "大型国企煤企经营稳健"
   },
   {
-   "ticker": "002192.SZ",
+   "ticker": "600595.SS",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "融捷股份锂矿体量小，受锂价波动冲击大"
-  },
-  {
-   "ticker": "600490.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "鹏欣资源月跌24%，历史治理争议多、海外矿风险高"
+   "ai_adjust": -3,
+   "ai_note": "持续亏损且负债率高，治理风险较大"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南山铝一体化布局完整，月跌不到1%相对抗跌"
-  },
-  {
-   "ticker": "600508.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "大屯能源月跌14%，虽为中煤子公司但动能弱"
+   "ai_note": "一体化铝企产业链完整，运营稳定"
   },
   {
    "ticker": "601225.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "陕煤逆势上涨3.9%，高分红龙头动量最强"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "唯一正收益标的，管理优秀分红丰厚"
+  },
+  {
+   "ticker": "002192.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "锂价下行周期业绩承压，关注现金流"
+  },
+  {
+   "ticker": "600490.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "月跌幅最大，历史存治理及合规问题"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中煤旗下子公司运营正常"
   },
   {
    "ticker": "002379.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "中国宏桥曾遭做空质疑，财务透明度存疑"
+   "ai_adjust": -2,
+   "ai_note": "关联交易复杂，公司治理存疑"
   },
   {
    "ticker": "601899.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "紫金矿业金价强势期回调或为布局机会"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "金价历史新高叠加超跌，配置价值凸显"
   },
   {
    "ticker": "601958.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金钼股份钼单品集中，周期波动大但无治理问题"
+   "ai_note": "国企钼企经营稳健，无突出风险"
   }
  ]
 }
