@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T22:47Z",
+ "generated_at": "2026-11-24T22:48Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "稀土微盘股无新闻支撑，警惕融资稀释与流动性风险。"
+   "ai_note": "微型稀土勘探股无量阴跌，需警惕隐性融资或项目停滞风险。"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "黄金勘探微盘股单月暴跌且无利好，量化得分或存在过拟合。"
+   "ai_adjust": -2,
+   "ai_note": "黄金勘探股近期大幅回撤且无新闻，可能存在未披露的利空。"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "锂矿勘探处于行业寒冬，微盘股流动性枯竭，量化高分不可靠。"
-  },
-  {
-   "ticker": "MJS.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "虽标为生产商但市值极小且暴跌，疑似空壳或存在严重运营隐患。"
+   "ai_adjust": -4,
+   "ai_note": "锂矿勘探股遭遇重挫且缺乏消息面支撑，警惕资金出逃或稀释。"
   },
   {
    "ticker": "MMY.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "马来西亚矿山面临环保与许可合规风险，高成本压制长期盈利。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "黄金生产商股价温和回调，暂无明显基本面恶化迹象。"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "尼日利亚矿区运营尚可，但需警惕非洲地缘政治与政策变动风险。"
+   "ai_note": "大型黄金生产商抗跌性较好，量价表现相对稳健。"
+  },
+  {
+   "ticker": "MJS.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值黄金生产商跌幅较大且无消息，需防范流动性或运营风险。"
   },
   {
    "ticker": "SBI.TO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "巴西矿山成本偏高，虽为生产商但缺乏短期催化剂，表现平庸。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "黄金生产商近期走势疲软，需关注海外矿山运营及成本压力。"
   },
   {
    "ticker": "V.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀矿微盘股单月跌幅超两成，需防范壳公司炒作后的价值回归。"
+   "ai_adjust": -3,
+   "ai_note": "微型铀矿勘探股缩量下跌，警惕私募融资稀释或勘探不及预期。"
   },
   {
    "ticker": "OC.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "多元化勘探微盘股缺乏实质资产与新闻，极大概率为壳公司。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "多元化微型勘探股缺乏消息催化，需防范壳公司炒作退潮风险。"
   },
   {
    "ticker": "STGO.TO",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "蒙古国矿山面临地缘与政策风险，虽为生产商但估值受压制。"
+   "ai_adjust": -1,
+   "ai_note": "中型黄金生产商随板块回调，基本面暂无重大瑕疵。"
   },
   {
    "ticker": "YMC.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "CSE上市微盘股名称泛化且无新闻，高度疑似缺乏实质业务的壳。"
-  },
-  {
-   "ticker": "STUD.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "名称与行业分类不符且单月暴跌，微盘股存在极高壳公司风险。"
+   "ai_adjust": -6,
+   "ai_note": "微型金矿股单月暴跌近四成且毫无音讯，极大概率遭遇隐性融资。"
   },
   {
    "ticker": "UTWO.V",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "单月暴跌近半的铀矿微盘股流动性极差，量化高分纯属失真。"
+   "ai_note": "微型铀矿股单月腰斩且无新闻，典型的死亡螺旋与稀释特征。"
+  },
+  {
+   "ticker": "STUD.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "标的名称与行业分类矛盾且暴跌，微型股无消息下跌多为融资。"
+  },
+  {
+   "ticker": "FUU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "铀矿勘探股单月大跌四成且无消息，需高度警惕买断式融资稀释。"
   },
   {
    "ticker": "IPT.V",
    "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "白银生产商跟随贵金属板块回调，需关注墨西哥矿区政策风险。"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "墨西哥银矿生产商面临当地社区与政策阻力，小市值抗风险弱。"
+   "ai_note": "微型金矿股持续阴跌且无新闻，需防范流动性枯竭或隐性增发。"
+  },
+  {
+   "ticker": "MANU.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "标的分类存疑且股价大跌，微型勘探股无消息下跌多为隐性融资。"
   },
   {
    "ticker": "AFM.V",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "刚果金锡矿虽有现金流，但地缘政治与ESG风险长期压制估值。"
+   "ai_adjust": -1,
+   "ai_note": "大型锡矿生产商随大宗商品回调，基本面相对扎实。"
   },
   {
    "ticker": "APM.TO",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "玻利维亚矿山面临极高的国有化与出口限制风险，需大幅下调评分。"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "CSE微盘股名称像占位符且无新闻，需警惕壳公司炒作与稀释。"
-  },
-  {
-   "ticker": "LAB.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "黄金勘探微盘股单月大跌缺乏实质钻探利好，量化得分虚高。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "中型黄金生产商温和调整，暂无明显治理或运营负面信号。"
   },
   {
    "ticker": "FVI.TO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型银金生产商基本面稳健，但墨秘两国政策风险限制上行空间。"
-  },
-  {
-   "ticker": "JUGR.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "黄金勘探微盘股近期大幅回调缺乏核心催化剂，警惕流动性风险。"
+   "ai_adjust": -1,
+   "ai_note": "大型银金矿生产商抗跌性尚可，跟随板块正常波动。"
   }
  ]
 }
