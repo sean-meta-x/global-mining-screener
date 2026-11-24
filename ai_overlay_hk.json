@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-23T22:15Z",
+ "generated_at": "2026-11-24T22:15Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1712.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金价上涨但股价逆势大跌，警惕海外矿山成本失控或隐性治理风险。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "澳洲小盘金矿商，流动性偏低但运营正常，回调幅度偏大需关注。"
   },
   {
    "ticker": "0433.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值极小且历史上有过配股摊薄前科，量化高分可能是流动性陷阱。"
+   "ai_adjust": -10,
+   "ai_note": "历史存在财务造假及停牌记录，市值极小，治理风险极高。"
   },
   {
    "ticker": "1303.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "市值仅2.5亿港元，流动性极差，量化高分缺乏实际交易意义，警惕老千股特征。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型煤炭股，流动性差且信息透明度低，估值难以验证。"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "次新股黄金标的，近期跌幅显著，需警惕上市初期估值泡沫破裂及解禁抛压。"
+   "ai_note": "次新黄金股，上市时间短缺乏业绩验证，短期跌幅较大。"
   },
   {
    "ticker": "9696.HK",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "收购SQM背负高额债务，锂价低迷周期下偿债压力显著。"
+  },
+  {
+   "ticker": "2600.HK",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "锂价周期底部导致业绩承压，量化模型滞后于商品现货价格暴跌。"
+   "ai_note": "央企铝业龙头，受铝价周期及产能过剩影响，但底部支撑较强。"
   },
   {
    "ticker": "1208.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "核心矿山Las Bambas频发社区堵路事件，社区关系与permit风险被量化忽略。"
-  },
-  {
-   "ticker": "2600.HK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "央企铝龙头，基本面稳健但缺乏弹性，铝价波动对利润边际影响有限。"
+   "ai_note": "Las Bambas铜矿频繁遭社区封路停产，运营中断风险持续。"
   },
   {
    "ticker": "1258.HK",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "赞比亚铜矿面临潜在税务审查与外汇管制风险，地缘政治溢价未体现。"
+   "ai_note": "央企铜矿平台，基本面稳健但月内跌幅偏大，关注铜价走势。"
   },
   {
    "ticker": "1378.HK",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "民营铝巨头产能合规性与高负债率是隐患，量化未充分计入环保限产风险。"
+   "ai_note": "全球最大民营铝企，历史存会计争议但近年治理已有改善。"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "纯勘探阶段金矿，无现金流且市值微小，极易受promoter炒作与配股稀释。"
-  },
-  {
-   "ticker": "1898.HK",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "唯一正收益的煤炭央企，高股息提供安全垫，基本面优于同行。"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "市值不足8000万港元的仙股，面临极大的退市与流动性枯竭风险。"
+   "ai_note": "勘探阶段金矿公司，长期无产出且反复融资稀释，推广嫌疑大。"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "刚上市不久的铜企，量化高分或源于次新股动量，需警惕估值透支。"
+   "ai_note": "次新铜矿股，上市时间短，运营记录有限，需更多数据验证。"
+  },
+  {
+   "ticker": "1898.HK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "央企煤炭龙头，月内跌幅温和，基本面与估值相对匹配。"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值不足一亿港元，月内暴跌三成，治理与流动性风险极高。"
+  },
+  {
+   "ticker": "2099.HK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中加双地运营黄金商，海外矿山面临地缘及政策不确定性。"
   },
   {
    "ticker": "1029.HK",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "核心资产在俄罗斯，受西方制裁与跨境结算限制，存在严重的流动性折价。"
+   "ai_note": "俄罗斯铁矿商，曾涉财务困境及退市警告，信用风险突出。"
   },
   {
    "ticker": "0975.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "蒙古煤炭出口依赖单一跨境物流通道，口岸拥堵与政策变动风险被低估。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "债务重组后蒙古煤炭商，中蒙口岸通关波动仍影响出货节奏。"
   },
   {
    "ticker": "2302.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铀价虽强但该股流动性差且业务边缘化，量化高分系错配，实为流动性陷阱。"
+   "ai_adjust": -3,
+   "ai_note": "铀矿概念小盘股，实际产量有限，股价易受主题炒作驱动。"
   },
   {
    "ticker": "3833.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "镍价低迷叠加历史治理瑕疵，小市值镍企缺乏机构关注，警惕阴跌风险。"
-  },
-  {
-   "ticker": "2099.HK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金价大涨但股价重挫，海外矿山运营效率低下或存在未披露的减值风险。"
-  },
-  {
-   "ticker": "2610.HK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铝加工业务利润率微薄且母公司债务问题可能波及，量化未计入信用风险。"
+   "ai_note": "新疆镍矿小盘股，流动性不足且镍价承压，下行风险偏大。"
   },
   {
    "ticker": "2362.HK",
    "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "央企背景镍矿平台，基本面尚可但近期数据缺失需补充验证。"
+  },
+  {
+   "ticker": "2610.HK",
+   "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "镍价崩盘重创业绩，作为国企海外资源平台，运营效率与成本控制存疑。"
+   "ai_note": "中型铝企，估值合理但行业产能过剩，月内回调幅度偏大。"
   }
  ]
 }
