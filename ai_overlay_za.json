@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T22:04Z",
+ "generated_at": "2026-11-24T22:04Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MRF.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "微型矿企流动性差，治理不透明，高评分存疑"
+   "ai_note": "高度依赖Eskom电力且缺乏独立融资能力，治理风险被低估。"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "铁矿巨头基本面稳健，短期价格承压属周期波动"
+   "ai_note": "基本面稳健且分红慷慨，但受宏观需求疲软压制，维持中性。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "PGM价格暴跌重创盈利，南非运营风险叠加"
+   "ai_adjust": -4,
+   "ai_note": "铂族金属价格持续暴跌，量化模型未能充分反映商品周期下行风险。"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "刚果金管辖风险大，月跌逾两成需警惕"
+   "ai_note": "刚果金物流瓶颈与地缘政治风险高，量化模型忽视了供应链脆弱性。"
   },
   {
    "ticker": "IMP.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "PGM龙头但行业逆风明显，估值已部分反映"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "深井开采成本居高不下，南非电力危机严重拖累生产与利润率。"
   },
   {
    "ticker": "SSW.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "激进并购稀释频繁，管理层执行力存疑"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "激进并购导致高负债与频繁稀释，管理层资本配置存在严重治理争议。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "月跌42%微型股，历史有推广炒作和频繁融资劣迹"
+   "ai_adjust": -8,
+   "ai_note": "管理层具炒作前科且市值极小，近期暴跌暗示流动性枯竭与稀释风险。"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤炭现金流尚可但ESG转型压力长期存在"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "关联方交易和治理隐忧，PGM敞口加大风险"
+   "ai_adjust": -1,
+   "ai_note": "煤炭资产长期受ESG资金撤出压制，但短期现金流依然稳健。"
   },
   {
    "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型煤矿流动性极差，信息不透明风险高"
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "极小市值煤炭企业，流动性极差且存在潜在的公司治理与财务透明度风险。"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "资产组合多元化有效对冲单一商品风险，近期表现相对抗跌。"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金生产商运营稳定，南非风险已定价"
+   "ai_adjust": -1,
+   "ai_note": "在南非金矿中成本控制较优，但仍无法完全规避国家系统性风险。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "动力煤ESG抛弃风险大，月跌近17%势头恶化"
+   "ai_note": "煤炭价格回落叠加失去大集团支持，分拆后的独立运营风险正在显现。"
   },
   {
-   "ticker": "HAR.JO",
+   "ticker": "NPH.JO",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "金矿成本改善中，但历史高成本仍需观察"
+   "ai_note": "运营效率在南非铂族金属矿企中相对较高，基本面表现较为稳健。"
   },
   {
    "ticker": "VAL.JO",
    "ai_view": "caution",
    "ai_adjust": -2,
-   "ai_note": "Anglo分拆新上市，PGM行业逆风叠加不确定性"
+   "ai_note": "作为分拆资产，项目尚处开发或整合期，面临较高的资本支出与执行风险。"
+  },
+  {
+   "ticker": "HAR.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "产量虽稳步增长，但深井开采成本上升抵消了部分金价上涨红利。"
   },
   {
    "ticker": "GFI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "全球化金矿龙头，治理良好资产多元"
-  },
-  {
-   "ticker": "NPH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "PGM优质运营商但行业beta下行拖累"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "资产组合高度国际化，有效规避南非本土风险，充分受益于金价上涨。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "市值仅3200万月跌50%，典型仙股特征极度危险"
+   "ai_note": "市值极小且近期暴跌，流动性完全枯竭，存在严重的退市或壳资源炒作风险。"
   },
   {
    "ticker": "ANG.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "全球金矿巨头治理规范，短期回调属正常"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "迁册美国后治理显著改善，资产质量提升，量化模型低估了其基本面反转。"
   },
   {
    "ticker": "DRD.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "尾矿低品位运营边际效益差，金价下跌即亏损"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "尾矿回收具备显著成本优势，但资源寿命受限且受南非电力危机拖累。"
   },
   {
-   "ticker": "BHG.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 2,
-   "ai_note": "全球顶级矿企量化评分偏低或有模型偏差"
+   "ticker": "EPS.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "基本面疲弱且市值极小，近期逆势微涨多为游资炒作，缺乏实质催化剂。"
   }
  ]
 }
