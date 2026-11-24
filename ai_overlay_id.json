@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-23T22:09Z",
+ "generated_at": "2026-11-24T22:09Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
   {
    "ticker": "TINS.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "国企锡矿龙头但月跌逾两成且无任何消息支撑"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "国企治理风险，动量与评分严重背离，短期承压"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值镍企月跌近四成缺乏信息覆盖风险极高"
+   "ai_adjust": -5,
+   "ai_note": "月跌近三七成，小市值镍企无消息面解释，警惕基本面恶化"
   },
   {
    "ticker": "MBAP.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "逆势上涨但无新闻验证基本面是否有实质催化"
+   "ai_adjust": 0,
+   "ai_note": "逆势上涨但煤炭行业长期承压，中性观望"
   },
   {
    "ticker": "AADI.JK",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "Adaro分拆新实体架构复杂量化难以准确定价"
+   "ai_note": "新分拆上市，煤炭行业逆风，估值尚待验证"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国企煤炭高分红标的稳健但无额外催化信号"
+   "ai_adjust": -1,
+   "ai_note": "国企煤炭稳健但行业长期承压，分红尚可"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "月跌幅极小表现稳健无异常信号可观察"
+   "ai_note": "表现平稳，煤炭行业结构性风险未消"
   },
   {
    "ticker": "HRUM.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中型煤企跟随板块回调无特殊风险暴露"
-  },
-  {
-   "ticker": "BSSR.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "跌幅温和基本面未见异常信息真空期"
-  },
-  {
-   "ticker": "ADRO.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型煤企转型Alamtri多元化估值尚合理"
+   "ai_note": "中型煤企，行业逆风下表现平庸无亮点"
   },
   {
    "ticker": "SMGA.JK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "极小市值镍企月跌逾两成流动性与稀释堪忧"
+   "ai_note": "月跌逾两成，小市值镍企无利好支撑，警惕稀释风险"
   },
   {
-   "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "大型镍企回调幅度可控无重大利空暴露"
-  },
-  {
-   "ticker": "DKFT.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "逆势上涨但缺乏新闻确认是否为实质催化剂"
-  },
-  {
-   "ticker": "DWGL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小市值煤企跌幅偏大信息不透明需警惕"
-  },
-  {
-   "ticker": "ITMG.JK",
+   "ticker": "BSSR.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "Banpu旗下煤企表现抗跌无异常信号"
+   "ai_note": "煤炭股表现相对抗跌，基本面稳定"
+  },
+  {
+   "ticker": "ADRO.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "转型Alamtri，煤炭主业稳健，多元化待观察"
   },
   {
    "ticker": "KKGI.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "小幅正收益无新闻驱动需持续观察"
+   "ai_note": "中型煤企表现平稳，无明显催化剂"
   },
   {
-   "ticker": "GEMS.JK",
+   "ticker": "NCKL.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "大型煤企温和回调无特殊风险暴露"
+   "ai_note": "镍业龙头但行业供应过剩，短期承压"
+  },
+  {
+   "ticker": "DKFT.JK",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "逆势上涨，或有特定催化剂，镍企中相对强势"
+  },
+  {
+   "ticker": "DWGL.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌逾一成四，小型煤企流动性与治理风险"
+  },
+  {
+   "ticker": "ITMG.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Banpu子公司治理规范，分红稳定，煤炭承压"
   },
   {
    "ticker": "NICL.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "小市值锡企月跌逾两成缺乏分析师覆盖"
+   "ai_note": "锡企月跌近两成，无消息面支撑，警惕基本面问题"
+  },
+  {
+   "ticker": "GEMS.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型煤企，行业逆风下跌幅可控"
   },
   {
    "ticker": "INDY.JK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌近三成转型新能源执行风险大"
+   "ai_adjust": -5,
+   "ai_note": "月跌近三成，历史治理问题叠加转型不确定性"
   },
   {
    "ticker": "ANTM.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国企镍业龙头回调温和估值合理"
+   "ai_note": "国企镍业龙头，政府支持但效率偏低"
   },
   {
    "ticker": "TOBA.JK",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "量化最低分叠加月跌三成一票否决"
+   "ai_adjust": -6,
+   "ai_note": "月跌超三成，激进转型新能源致战略不确定性极高"
   }
  ]
 }
