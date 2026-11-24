@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-23T21:59Z",
+ "generated_at": "2026-11-24T21:59Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
    "ticker": "THX.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "塞内加尔矿业法修改及地缘风险被量化模型低估。"
+   "ai_adjust": -2,
+   "ai_note": "尼日利亚Segilola金矿运营，国家风险被量化模型低估"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "市值极小且近期逆势大跌，需警惕流动性枯竭或隐性运营问题。"
+   "ai_note": "高量化分却月跌17.6%，巴西小矿企治理及流动性存疑"
   },
   {
    "ticker": "YCA.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "纯实物铀持有，无采矿风险，走势主要跟随铀价，量化评分合理。"
+   "ai_note": "实物铀信托结构清晰，铀价敏感但无运营风险"
   },
   {
    "ticker": "POW.L",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "镍价低迷且市值极小，勘探期面临极高稀释与融资断裂风险。"
+   "ai_adjust": -7,
+   "ai_note": "市值仅1100万的镍矿勘探者，极高稀释与推广风险"
   },
   {
    "ticker": "THS.L",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "铂族金属价格持续低迷，且南非电力与运营风险未在量化中充分体现。"
+   "ai_adjust": -3,
+   "ai_note": "南非PGM矿企面临电价、罢工及铂族金属价格低迷"
   },
   {
    "ticker": "ZIOC.L",
    "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "处于开发阶段且市值微小，近期暴跌暗示融资困难或项目推进存疑。"
+   "ai_adjust": -8,
+   "ai_note": "刚果(布)铁矿开发者月跌43%，无收入且融资存疑"
   },
   {
    "ticker": "SLP.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "虽为尾矿回收成本较低，但PGM价格下行周期及南非宏观风险仍存。"
+   "ai_adjust": -3,
+   "ai_note": "南非PGM生产商，行业逆风下利润率承压明显"
   },
   {
    "ticker": "CMCL.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "津巴布韦政策与外汇管制风险极高，量化模型往往低估此类主权风险。"
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "津巴布韦运营，政策与汇兑风险长期被市场折价"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "基本面稳健但近期随铜价回调，北马其顿社区关系偶有扰动。"
+   "ai_adjust": -1,
+   "ai_note": "保加利亚及北马其顿铜矿，铜价下跌拖累但运营尚可"
   },
   {
    "ticker": "KAP.L",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "全球最大铀企，但受哈萨克斯坦硫酸供应短缺及地缘政治制约。"
+   "ai_adjust": 0,
+   "ai_note": "全球最大铀矿商，哈萨克地缘风险已充分定价"
   },
   {
    "ticker": "RSG.L",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "资产组合分散，近期表现平稳，无明显量化遗漏的重大单一风险。"
+   "ai_adjust": -1,
+   "ai_note": "澳洲中型金矿商，西非资产略有地缘折价"
   },
   {
    "ticker": "GGP.L",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "Havieron项目推进及Newmont合资背书提供强催化剂，量化未完全定价。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Havieron项目已并入Newmont，需确认标的存续性"
   },
   {
    "ticker": "ATYM.L",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "欧洲优质资产，运营稳定，近期回调属正常市场波动，无重大隐患。"
-  },
-  {
-   "ticker": "MET1.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "早期铀矿勘探，市值极小且近期大跌，存在严重的流动性与稀释风险。"
+   "ai_note": "西班牙Riotinto铜矿运营稳定，司法管辖区风险低"
   },
   {
    "ticker": "EDV.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "西非资产占比高，地缘政治与社区干扰风险在量化模型中权重不足。"
-  },
-  {
-   "ticker": "JLP.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "股价单月暴跌超40%，暗示存在严重的治理、稀释或运营暴雷风险。"
-  },
-  {
-   "ticker": "AAZ.L",
-   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "阿塞拜疆单一国家风险较高，且近期回调显示市场对治理结构存疑。"
-  },
-  {
-   "ticker": "ALTN.L",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "哈萨克斯坦运营环境尚可，近期随金价回调，无明显量化外重大风险。"
+   "ai_note": "西非大型金矿商，萨赫勒地区安全与政治风险上升"
   },
   {
    "ticker": "VALT.L",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "刚分拆上市，PGM价格低迷且南非电力与劳资风险对基本面压制明显。"
+   "ai_adjust": -3,
+   "ai_note": "从Sibanye分拆的PGM巨头，南非行业逆风持续"
   },
   {
    "ticker": "PAF.L",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "南非深部开采成本上升及宏观风险存在，但整体运营相对稳健。"
+   "ai_adjust": -1,
+   "ai_note": "南非金矿商运营稳健，但ESG与电力风险需关注"
+  },
+  {
+   "ticker": "JLP.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "市值仅4200万月跌42%，微盘PGM股流动性极差"
+  },
+  {
+   "ticker": "AAZ.L",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "阿塞拜疆金矿商，关联交易与治理历史问题突出"
+  },
+  {
+   "ticker": "ALTN.L",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "乌兹别克小型金矿商，信息披露不足且流动性差"
+  },
+  {
+   "ticker": "KEFI.L",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "埃塞俄比亚及土耳其勘探阶段，资金与许可风险高"
   }
  ]
 }
