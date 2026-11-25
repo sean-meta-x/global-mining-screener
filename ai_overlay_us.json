@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T21:50Z",
+ "generated_at": "2026-11-25T21:49Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,109 @@
    "ticker": "JAGU",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值仅1200万的微型铀矿勘探商，无新闻无催化剂，暴跌近40%或暗示稀释或融资"
+   "ai_note": "微型铀矿勘探股暴跌42%却无新闻，极可能已配股稀释或钻探失败"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Rhyolite Ridge项目长期受环保诉讼和许可延迟困扰，锂价低迷加剧下行风险"
+   "ai_adjust": -3,
+   "ai_note": "锂矿开发商面临锂价低迷与再融资风险，量化模型难以捕捉资金链压力"
   },
   {
    "ticker": "REA",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "稀土勘探商月跌超52%且零新闻，极可能存在融资稀释或钻探失利"
-  },
-  {
-   "ticker": "FNUC",
-   "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "市值仅1100万，腰斩式下跌无任何公告，高度疑似私募融资或项目受阻"
-  },
-  {
-   "ticker": "CMCL",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "津巴布韦Blanket金矿运营，治理与汇回风险长期存在， jurisdiction折价"
+   "ai_note": "稀土勘探股一月暴跌近57%无任何公告，高度疑似稀释或项目受阻"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型银矿生产商基本面尚可，板块整体回调所致，无重大个体风险"
+   "ai_adjust": -1,
+   "ai_note": "中型银矿生产商基本面尚可，跌幅属板块联动，无重大隐藏风险"
   },
   {
-   "ticker": "GRML",
+   "ticker": "CMCL",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "格陵兰PGM勘探商面临极端许可与政治风险，跌幅大且无正面消息"
+   "ai_adjust": -2,
+   "ai_note": "津巴布韦金矿运营商存在治理与管辖权风险，量化模型未充分定价"
   },
   {
    "ticker": "BVN",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "秘鲁大型矿商受社区封锁与劳工问题困扰，社区关系风险持续压制估值"
+   "ai_note": "秘鲁大型矿企受社区冲突与政策不确定性困扰，跌幅超量化预期"
+  },
+  {
+   "ticker": "GRML",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "格陵兰PGM勘探股暴跌46%无消息，极地许可证风险极高且流动性差"
   },
   {
    "ticker": "ELVR",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锂矿生产商受板块拖累，基本面暂无明显恶化迹象，需关注锂价走势"
-  },
-  {
-   "ticker": "ALOY",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "稀土开发商月跌42%无公告，可能隐含融资需求或项目进展不及预期"
+   "ai_adjust": -3,
+   "ai_note": "标称锂生产商但市值仅4亿，实际产能与分类存疑，需核实真实性"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "Thacker Pass项目持续面临原住民诉讼与许可挑战，开发 timeline不确定性高"
-  },
-  {
-   "ticker": "IMPUY",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非PGM龙头受铂族金属价格暴跌与电力成本上升双重打击"
+   "ai_adjust": -4,
+   "ai_note": "Thacker Pass项目成本超支与融资缺口严重，锂价下行放大风险"
   },
   {
    "ticker": "NMG",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "魁北克石墨开发商管辖权优良但仍在开发期，需等待融资与建设催化"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "魁北克石墨开发商仍需大量资本支出，电池级石墨需求不及预期"
+  },
+  {
+   "ticker": "AABB",
+   "ai_view": "red_flag",
+   "ai_adjust": -9,
+   "ai_note": "公司名称与实际业务严重不符，微型金矿股治理风险极高，典型炒作标的"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "DLE技术路线尚未大规模验证，锂价低迷下开发商融资环境恶化"
+   "ai_note": "DLE技术尚未完全验证，阿肯色项目仍需大额融资，锂价低迷加剧压力"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "Nioboard项目资本密集且开发周期极长，持续稀释风险是核心隐患"
+   "ai_note": "NioCorp项目拖延多年反复融资，稀土与铌开发进度远落后于同行"
   },
   {
    "ticker": "OGC",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "多元化金矿生产商运营稳健，菲律宾与新西兰资产分散风险，跌幅温和"
-  },
-  {
-   "ticker": "AABB",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "微型金矿股有推广炒作历史，公司治理存疑，需警惕人为拉高出货"
+   "ai_note": "大型金矿商跌幅仅4.5%，菲律宾与新西兰资产运营相对稳定"
   },
   {
    "ticker": "ITRG",
    "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "标称PGM生产商但实际仍以开发为主，分类误导且跌幅异常偏大"
+  },
+  {
+   "ticker": "SSRM",
+   "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌近35%幅度异常，需排查是否存在未披露的运营问题或融资计划"
+   "ai_note": "玻利维亚矿山政策风险持续发酵，量化模型未充分反映管辖权折价"
   },
   {
    "ticker": "IAG",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中型金矿商Côté Gold投产爬坡中，整体运营改善但仍需验证产量指引"
+   "ai_note": "中型金矿商跌幅温和，Côté Gold投产改善基本面，无重大隐藏利空"
   },
   {
-   "ticker": "SSRM",
+   "ticker": "SQM",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "玻利维亚矿难与运营中断持续影响产量，管理层执行力受市场质疑"
+   "ai_note": "智利锂矿国有化阴影叠加公司治理争议，锂价下行周期中风险放大"
   }
  ]
 }
