@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-24T22:23Z",
+ "generated_at": "2026-11-25T22:20Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
   {
    "ticker": "000807.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "水电铝成本优势，无重大负面，板块系统性回调"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "云南枯水期限电频发，绿色水电铝产能利用率存疑。"
   },
   {
-   "ticker": "000933.SZ",
+   "ticker": "601600.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "煤电铝一体化经营，基本面稳健，随板块调整"
+   "ai_adjust": -2,
+   "ai_note": "作为老牌央企历史包袱重，资产回报率长期低于行业均值。"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西动力煤龙头，业绩稳定，无显著催化或风险"
+   "ai_note": "晋能控股基本面稳健，但缺乏超预期催化剂，维持中性。"
   },
   {
-   "ticker": "601600.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "国企治理效率偏低，历史资本配置记录欠佳"
+   "ticker": "000933.SZ",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤电铝一体化抗风险能力强，估值合理，无显著治理瑕疵。"
   },
   {
    "ticker": "002532.SZ",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "新疆低电价铝企，成本端有优势，暂无异常"
+   "ai_adjust": -1,
+   "ai_note": "新疆自备电厂优势明显，但地处偏远物流成本压制长期溢价。"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西焦煤企业，估值合理，无突出风险信号"
-  },
-  {
-   "ticker": "601101.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "北京国资煤炭平台，体量偏小，无重大异常"
+   "ai_note": "山煤国际生产成本低，分红稳定，量化模型未体现其管理优势。"
   },
   {
    "ticker": "002466.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "收购SQM遗留巨额债务，锂价下行周期财务费用严重侵蚀利润。"
+  },
+  {
+   "ticker": "601101.SS",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "锂价崩塌叠加收购SQM巨额债务，财务压力极大"
+   "ai_adjust": -8,
+   "ai_note": "曾爆出重大财务造假丑闻，公司治理存在严重历史瑕疵与信任危机。"
   },
   {
    "ticker": "002128.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "蒙东褐煤露天矿，成本可控，随板块波动"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "煤电铝新能源一体化转型顺畅，绿电资产注入预期提供安全边际。"
   },
   {
    "ticker": "600971.SS",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "安徽中小煤企，市值偏小，流动性一般"
+   "ai_adjust": 0,
+   "ai_note": "恒源煤电主业纯粹，但体量较小且缺乏产能扩张的明确规划。"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "历史上有过财务违规及ST风险，管理层诚信度低，需规避治理风险。"
+  },
+  {
+   "ticker": "002379.SZ",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "与大股东存在频繁关联交易，独立性较弱，需警惕利益输送风险。"
+  },
+  {
+   "ticker": "601898.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "央企煤炭龙头，长协煤占比高盈利稳定，高股息具备防御价值。"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "南山铝产业链完整，月跌幅最小，相对抗跌"
-  },
-  {
-   "ticker": "601898.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "央企煤炭龙头，分红稳定，无显著治理风险"
-  },
-  {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌超20%异常，历史财务压力大，需警惕"
+   "ai_note": "南山铝产业链完整且航空板材放量，但近期受宏观需求疲软拖累。"
   },
   {
    "ticker": "002192.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "锂矿板块承压，体量较小，跟随行业调整"
-  },
-  {
-   "ticker": "002379.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "负债率偏高，历史治理争议，需关注债务风险"
-  },
-  {
-   "ticker": "601225.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "板块中唯一正收益，相对强势，资金偏好明显"
+   "ai_note": "甲基卡锂矿推进缓慢，产能释放不及预期，且面临环保审批压力。"
   },
   {
    "ticker": "600490.SS",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌22%为全场最惨，治理与项目执行存疑"
+   "ai_adjust": -8,
+   "ai_note": "海外矿产收购屡遭挫折，资产减值频发，管理层战略执行力极差。"
+  },
+  {
+   "ticker": "601225.SS",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "陕北优质煤炭资源禀赋极佳，高分红与低成本构筑极强护城河。"
   },
   {
    "ticker": "600508.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中煤旗下子公司，经营稳定，无突出风险"
+   "ai_note": "中煤旗下老牌企业，经营稳健但缺乏成长性，估值处于合理区间。"
+  },
+  {
+   "ticker": "601699.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "潞安环煤喷吹煤优势明显，但化工板块拖累整体盈利弹性。"
   },
   {
    "ticker": "601899.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "海外项目扩张激进，地缘与执行风险不容忽视"
-  },
-  {
-   "ticker": "601958.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "钼业龙头，细分领域稳定，无重大异常信号"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "全球化矿业巨头，铜金产量持续高增，短期回调不改长期成长逻辑。"
   }
  ]
 }
