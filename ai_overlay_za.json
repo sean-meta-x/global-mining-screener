@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-24T22:04Z",
+ "generated_at": "2026-11-25T22:01Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "MRF.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "高度依赖Eskom电力且缺乏独立融资能力，治理风险被低估。"
+   "ai_adjust": -5,
+   "ai_note": "治理存疑且持续亏损，量化高分缺乏基本面支撑"
   },
   {
    "ticker": "KIO.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "基本面稳健且分红慷慨，但受宏观需求疲软压制，维持中性。"
+   "ai_adjust": -2,
+   "ai_note": "铁矿价格承压但公司治理稳健，基本面扎实"
   },
   {
    "ticker": "THA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "铂族金属价格持续暴跌，量化模型未能充分反映商品周期下行风险。"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "铂族金属价格低迷，运营面临一定压力"
   },
   {
    "ticker": "APH.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "刚果金物流瓶颈与地缘政治风险高，量化模型忽视了供应链脆弱性。"
+   "ai_adjust": -5,
+   "ai_note": "刚果金政治风险显著，量化模型难以充分定价"
   },
   {
    "ticker": "IMP.JO",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "深井开采成本居高不下，南非电力危机严重拖累生产与利润率。"
+   "ai_note": "铂族金属行业逆风，但运营基本面尚可"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "激进并购导致高负债与频繁稀释，管理层资本配置存在严重治理争议。"
+   "ai_adjust": -8,
+   "ai_note": "治理问题频发、股权稀释严重、管理层动荡"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "管理层具炒作前科且市值极小，近期暴跌暗示流动性枯竭与稀释风险。"
+   "ai_adjust": -10,
+   "ai_note": "一月暴跌近四成，微型市值且疑似炒作推广"
+  },
+  {
+   "ticker": "ARI.JO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "大股东治理争议及铂族金属敞口带来风险"
+  },
+  {
+   "ticker": "SLG.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "微型市值煤炭股流动性差，信息透明度低"
   },
   {
    "ticker": "EXX.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭资产长期受ESG资金撤出压制，但短期现金流依然稳健。"
-  },
-  {
-   "ticker": "SLG.JO",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "极小市值煤炭企业，流动性极差且存在潜在的公司治理与财务透明度风险。"
-  },
-  {
-   "ticker": "ARI.JO",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "资产组合多元化有效对冲单一商品风险，近期表现相对抗跌。"
+   "ai_note": "管理优秀治理规范，煤炭转型风险可控"
   },
   {
    "ticker": "PAN.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "在南非金矿中成本控制较优，但仍无法完全规避国家系统性风险。"
+   "ai_adjust": 0,
+   "ai_note": "黄金生产商运营稳健，无明显治理瑕疵"
   },
   {
-   "ticker": "TGA.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭价格回落叠加失去大集团支持，分拆后的独立运营风险正在显现。"
+   "ticker": "VAL.JO",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "大型铂族金属生产商，行业周期风险需关注"
+  },
+  {
+   "ticker": "GFI.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型金矿公司治理良好，基本面稳健"
   },
   {
    "ticker": "NPH.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "运营效率在南非铂族金属矿企中相对较高，基本面表现较为稳健。"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "作为分拆资产，项目尚处开发或整合期，面临较高的资本支出与执行风险。"
+   "ai_adjust": -1,
+   "ai_note": "管理良好的中型铂族金属矿，基本面扎实"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "产量虽稳步增长，但深井开采成本上升抵消了部分金价上涨红利。"
+   "ai_adjust": 0,
+   "ai_note": "管理层改善显著，运营效率持续提升"
   },
   {
-   "ticker": "GFI.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 2,
-   "ai_note": "资产组合高度国际化，有效规避南非本土风险，充分受益于金价上涨。"
+   "ticker": "TGA.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "煤炭转型风险叠加大幅下跌，基本面存疑"
+  },
+  {
+   "ticker": "ANG.JO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "全球大型金矿商，治理规范基本面稳健"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
    "ai_adjust": -10,
-   "ai_note": "市值极小且近期暴跌，流动性完全枯竭，存在严重的退市或壳资源炒作风险。"
-  },
-  {
-   "ticker": "ANG.JO",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "迁册美国后治理显著改善，资产质量提升，量化模型低估了其基本面反转。"
+   "ai_note": "微型市值暴跌近四成，信息极度不透明"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "尾矿回收具备显著成本优势，但资源寿命受限且受南非电力危机拖累。"
+   "ai_adjust": 0,
+   "ai_note": "尾矿回收运营稳定，管理良好无明显风险"
   },
   {
    "ticker": "EPS.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "基本面疲弱且市值极小，近期逆势微涨多为游资炒作，缺乏实质催化剂。"
+   "ai_adjust": -5,
+   "ai_note": "微型市值铂族金属矿，流动性差信息有限"
   }
  ]
 }
