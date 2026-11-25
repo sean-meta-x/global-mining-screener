@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-24T22:15Z",
+ "generated_at": "2026-11-25T22:11Z",
  "model": "qwen3.7-plus",
  "market": "hk",
  "items": [
   {
    "ticker": "1712.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "澳洲小盘金矿商，流动性偏低但运营正常，回调幅度偏大需关注。"
-  },
-  {
-   "ticker": "0433.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "历史存在财务造假及停牌记录，市值极小，治理风险极高。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "澳籍小盘金矿商，零新闻且流动性差，治理存疑"
   },
   {
    "ticker": "1303.HK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型煤炭股，流动性差且信息透明度低，估值难以验证。"
+   "ai_adjust": -2,
+   "ai_note": "微型煤炭股，市值不足3亿港元，流动性风险突出"
+  },
+  {
+   "ticker": "1229.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值仅8000万，历史壳股特征明显，治理风险极高"
+  },
+  {
+   "ticker": "0433.HK",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "北方矿业历史上有重大治理丑闻和运营失败记录"
   },
   {
    "ticker": "2489.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "次新黄金股，上市时间短缺乏业绩验证，短期跌幅较大。"
+   "ai_adjust": -2,
+   "ai_note": "次新黄金股，上市时间短，业绩持续性待验证"
   },
   {
    "ticker": "9696.HK",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "收购SQM背负高额债务，锂价低迷周期下偿债压力显著。"
+   "ai_note": "天齐收购SQM后债务沉重，锂价下行周期压力大"
   },
   {
    "ticker": "2600.HK",
    "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "央企铝业龙头，受铝价周期及产能过剩影响，但底部支撑较强。"
+   "ai_adjust": -1,
+   "ai_note": "国企铝企，产能过剩结构性问题，但政策支持托底"
   },
   {
    "ticker": "1208.HK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "Las Bambas铜矿频繁遭社区封路停产，运营中断风险持续。"
+   "ai_adjust": -3,
+   "ai_note": "五矿资源Las Bambas矿区社区冲突反复，运营中断风险高"
   },
   {
    "ticker": "1258.HK",
    "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "央企铜矿平台，基本面稳健但月内跌幅偏大，关注铜价走势。"
-  },
-  {
-   "ticker": "1378.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "全球最大民营铝企，历史存会计争议但近年治理已有改善。"
+   "ai_note": "有色矿业非洲资产地缘风险，但国企背景提供支撑"
   },
   {
    "ticker": "0621.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "勘探阶段金矿公司，长期无产出且反复融资稀释，推广嫌疑大。"
+   "ai_adjust": -6,
+   "ai_note": "勘探阶段金矿公司，市值小且南非/印尼许可风险大"
+  },
+  {
+   "ticker": "1378.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "宏桥曾遭做空质疑，负债率高，但产能规模全球领先"
   },
   {
    "ticker": "3636.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "次新铜矿股，上市时间短，运营记录有限，需更多数据验证。"
+   "ai_adjust": -2,
+   "ai_note": "金浔资源上市时间短，铜矿项目运营历史有限"
   },
   {
    "ticker": "1898.HK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企煤炭龙头，月内跌幅温和，基本面与估值相对匹配。"
-  },
-  {
-   "ticker": "1229.HK",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值不足一亿港元，月内暴跌三成，治理与流动性风险极高。"
+   "ai_note": "中煤能源为大型国企煤企，跌幅温和，基本面稳健"
   },
   {
    "ticker": "2099.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "中加双地运营黄金商，海外矿山面临地缘及政策不确定性。"
+   "ai_note": "中国黄金国际Jiama矿曾遇运营问题，海外资产风险"
   },
   {
    "ticker": "1029.HK",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "俄罗斯铁矿商，曾涉财务困境及退市警告，信用风险突出。"
+   "ai_adjust": -6,
+   "ai_note": "铁货伊朗资产面临制裁风险，历史财务困境严重"
+  },
+  {
+   "ticker": "2302.HK",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中核国际铀矿资产在哈萨克斯坦，治理透明度不足"
   },
   {
    "ticker": "0975.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "债务重组后蒙古煤炭商，中蒙口岸通关波动仍影响出货节奏。"
+   "ai_note": "蒙古矿业经历债务重组，蒙古国政策及汇率风险大"
   },
   {
-   "ticker": "2302.HK",
+   "ticker": "2362.HK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "铀矿概念小盘股，实际产量有限，股价易受主题炒作驱动。"
+   "ai_note": "金川国际月跌近30%，镍价下行叠加国企效率问题"
   },
   {
    "ticker": "3833.HK",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "新疆镍矿小盘股，流动性不足且镍价承压，下行风险偏大。"
-  },
-  {
-   "ticker": "2362.HK",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "央企背景镍矿平台，基本面尚可但近期数据缺失需补充验证。"
+   "ai_adjust": -2,
+   "ai_note": "新疆新鑫矿业为小型镍生产商，流动性和关注度低"
   },
   {
    "ticker": "2610.HK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "中型铝企，估值合理但行业产能过剩，月内回调幅度偏大。"
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "南山铝业国际估值偏低，铝业务一体化但增长有限"
   }
  ]
 }
