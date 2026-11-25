@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-24T22:48Z",
+ "generated_at": "2026-11-25T22:47Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
   {
-   "ticker": "MRZL.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型稀土勘探股无量阴跌，需警惕隐性融资或项目停滞风险。"
+   "ticker": "V.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型铀矿勘探商月跌逾三成且无任何消息，疑似稀释或钻探失败"
   },
   {
    "ticker": "VIO.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "黄金勘探股近期大幅回撤且无新闻，可能存在未披露的利空。"
+   "ai_adjust": -5,
+   "ai_note": "小型金矿勘探商持续下跌无消息支撑，高分存疑"
   },
   {
    "ticker": "LIFT.V",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "锂矿勘探股遭遇重挫且缺乏消息面支撑，警惕资金出逃或稀释。"
+   "ai_adjust": -5,
+   "ai_note": "锂矿勘探商月跌超三成，行业遇冷且无催化剂"
   },
   {
    "ticker": "MMY.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "黄金生产商股价温和回调，暂无明显基本面恶化迹象。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中型金矿生产商下跌但市值尚可，需关注运营面"
   },
   {
    "ticker": "THX.V",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型黄金生产商抗跌性较好，量价表现相对稳健。"
+   "ai_adjust": -2,
+   "ai_note": "较大市值金矿生产商跌幅温和，基本面相对稳健"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "小市值黄金生产商跌幅较大且无消息，需防范流动性或运营风险。"
+   "ai_adjust": -5,
+   "ai_note": "小市值所谓生产商月跌四分之一，产量真实性存疑"
   },
   {
    "ticker": "SBI.TO",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "黄金生产商近期走势疲软，需关注海外矿山运营及成本压力。"
-  },
-  {
-   "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型铀矿勘探股缩量下跌，警惕私募融资稀释或勘探不及预期。"
+   "ai_note": "中型金矿生产商跌幅可控，但缺乏新闻催化"
   },
   {
    "ticker": "OC.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "多元化微型勘探股缺乏消息催化，需防范壳公司炒作退潮风险。"
-  },
-  {
-   "ticker": "STGO.TO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型黄金生产商随板块回调，基本面暂无重大瑕疵。"
+   "ai_adjust": -5,
+   "ai_note": "微型多元化勘探商市值极低，流动性和稀释风险大"
   },
   {
    "ticker": "YMC.CN",
    "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "微型金矿股单月暴跌近四成且毫无音讯，极大概率遭遇隐性融资。"
+   "ai_adjust": -8,
+   "ai_note": "微型金矿勘探商月跌超四成无消息，高度警惕"
+  },
+  {
+   "ticker": "STGO.TO",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "中型金矿生产商跌幅较大，需核实蒙古运营状况"
   },
   {
    "ticker": "UTWO.V",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型铀矿股单月腰斩且无新闻，典型的死亡螺旋与稀释特征。"
+   "ai_adjust": -10,
+   "ai_note": "微型铀矿勘探商月跌五成且零消息，极可能已稀释或钻探失败"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "标的名称与行业分类矛盾且暴跌，微型股无消息下跌多为融资。"
-  },
-  {
-   "ticker": "FUU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "铀矿勘探股单月大跌四成且无消息，需高度警惕买断式融资稀释。"
+   "ai_note": "名称与行业不符且月跌近三成，微型股风险极高"
   },
   {
    "ticker": "IPT.V",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "白银生产商跟随贵金属板块回调，需关注墨西哥矿区政策风险。"
-  },
-  {
-   "ticker": "IRV.CN",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型金矿股持续阴跌且无新闻，需防范流动性枯竭或隐性增发。"
+   "ai_adjust": -4,
+   "ai_note": "小型银矿生产商跌幅较大，墨西哥运营风险需关注"
   },
   {
    "ticker": "MANU.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "标的分类存疑且股价大跌，微型勘探股无消息下跌多为隐性融资。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "名称为铀矿却归类金矿且月跌三成，微型股信号极差"
   },
   {
    "ticker": "AFM.V",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "大型锡矿生产商随大宗商品回调，基本面相对扎实。"
+   "ai_note": "大型锡矿生产商基本面尚可，跌幅属正常波动"
+  },
+  {
+   "ticker": "IRV.CN",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型金矿勘探商月跌两成无消息，高风险标的"
   },
   {
    "ticker": "APM.TO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "中型黄金生产商温和调整，暂无明显治理或运营负面信号。"
+   "ai_note": "大型金矿生产商跌幅温和，玻利维亚政治风险需留意"
   },
   {
    "ticker": "FVI.TO",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "大型银金矿生产商抗跌性尚可，跟随板块正常波动。"
+   "ai_note": "最大市值银金矿生产商，跌幅属板块联动正常调整"
+  },
+  {
+   "ticker": "JUGR.V",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "微型金矿勘探商月跌近两成无新闻，警惕稀释"
+  },
+  {
+   "ticker": "AUAU.V",
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "小型金矿开发商月跌近半无消息，融资或许可或已出问题"
   }
  ]
 }
