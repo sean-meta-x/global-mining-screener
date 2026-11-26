@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-24T21:59Z",
+ "generated_at": "2026-11-26T21:59Z",
  "model": "qwen3.7-plus",
  "market": "uk",
  "items": [
   {
    "ticker": "THX.L",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "尼日利亚Segilola金矿运营，国家风险被量化模型低估"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "新晋产金商科特迪瓦风险可控，大盘下跌中表现最为抗跌"
   },
   {
    "ticker": "SRB.L",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "高量化分却月跌17.6%，巴西小矿企治理及流动性存疑"
-  },
-  {
-   "ticker": "YCA.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "实物铀信托结构清晰，铀价敏感但无运营风险"
-  },
-  {
-   "ticker": "POW.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "市值仅1100万的镍矿勘探者，极高稀释与推广风险"
-  },
-  {
-   "ticker": "THS.L",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "南非PGM矿企面临电价、罢工及铂族金属价格低迷"
-  },
-  {
-   "ticker": "ZIOC.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "刚果(布)铁矿开发者月跌43%，无收入且融资存疑"
+   "ai_adjust": -2,
+   "ai_note": "小市值巴西金矿商流动性差，运营波动大且月跌幅显著"
   },
   {
    "ticker": "SLP.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "南非PGM生产商，行业逆风下利润率承压明显"
+   "ai_note": "南非PGM面临电力与劳工系统性风险，板块承压严重"
+  },
+  {
+   "ticker": "POW.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型镍矿勘探商市值极低，稀释与推广风险极高"
+  },
+  {
+   "ticker": "YCA.L",
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "实物铀信托结构清晰无采矿风险，铀供应缺口提供催化"
+  },
+  {
+   "ticker": "THS.L",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "南非PGM生产商存在关联交易治理隐忧，板块逆风"
+  },
+  {
+   "ticker": "ZIOC.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "刚果铁矿开发商零收入阶段，高稀释与管辖风险并存"
   },
   {
    "ticker": "CMCL.L",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "津巴布韦运营，政策与汇兑风险长期被市场折价"
+   "ai_adjust": -4,
+   "ai_note": "津巴布韦金矿面临极高政治与汇率风险，治理环境恶劣"
   },
   {
    "ticker": "CAML.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "保加利亚及北马其顿铜矿，铜价下跌拖累但运营尚可"
-  },
-  {
-   "ticker": "KAP.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "全球最大铀矿商，哈萨克地缘风险已充分定价"
+   "ai_note": "巴尔干铜矿商管辖尚可，运营偶有波折但无重大红旗"
   },
   {
    "ticker": "RSG.L",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "澳洲中型金矿商，西非资产略有地缘折价"
-  },
-  {
-   "ticker": "GGP.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Havieron项目已并入Newmont，需确认标的存续性"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "马里矿区安全形势严峻，西非运营风险持续上升"
   },
   {
    "ticker": "ATYM.L",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "西班牙Riotinto铜矿运营稳定，司法管辖区风险低"
+   "ai_view": "bullish",
+   "ai_adjust": 2,
+   "ai_note": "西班牙铜矿管辖优良治理规范，超跌后具反弹价值"
+  },
+  {
+   "ticker": "GGP.L",
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "已被纽蒙特收购标的，分类存疑需核实交易与退市状态"
+  },
+  {
+   "ticker": "MET1.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "微型铀矿勘探商市值不足千万英镑，稀释风险极大"
   },
   {
    "ticker": "EDV.L",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "西非大型金矿商，萨赫勒地区安全与政治风险上升"
+   "ai_adjust": -2,
+   "ai_note": "西非多国运营，布基纳法索安全与政治风险突出"
   },
   {
    "ticker": "VALT.L",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "大型PGM生产商受南非系统性风险拖累，板块整体承压"
+  },
+  {
+   "ticker": "ALTN.L",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "从Sibanye分拆的PGM巨头，南非行业逆风持续"
+   "ai_note": "哈萨克斯坦小市值金矿商，流动性差且管辖风险中等偏高"
+  },
+  {
+   "ticker": "JLP.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "南非PGM小盘股历史推广激进稀释严重，月跌幅近四成"
+  },
+  {
+   "ticker": "AAZ.L",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "阿塞拜疆金矿政府纠纷频发，治理与管辖风险突出"
   },
   {
    "ticker": "PAF.L",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "南非金矿商运营稳健，但ESG与电力风险需关注"
-  },
-  {
-   "ticker": "JLP.L",
-   "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "市值仅4200万月跌42%，微盘PGM股流动性极差"
-  },
-  {
-   "ticker": "AAZ.L",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "阿塞拜疆金矿商，关联交易与治理历史问题突出"
-  },
-  {
-   "ticker": "ALTN.L",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "乌兹别克小型金矿商，信息披露不足且流动性差"
+   "ai_note": "南非大型金矿商运营相对稳健，受板块与宏观情绪拖累"
   },
   {
    "ticker": "KEFI.L",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "埃塞俄比亚及土耳其勘探阶段，资金与许可风险高"
+   "ai_adjust": -4,
+   "ai_note": "埃塞俄比亚项目政治风险高，资金与许可不确定性大"
   }
  ]
 }
