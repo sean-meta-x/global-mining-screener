@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T22:06Z",
+ "generated_at": "2026-11-26T22:08Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "TINS.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "国企锡矿月跌21%无消息，治理风险与锡价下行并存"
+   "ai_note": "国企治理与运营效率低下拖累业绩，锡价上涨难掩基本面瑕疵。"
   },
   {
    "ticker": "IFSH.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "小盘镍矿月跌33%无任何消息，疑似稀释或经营暴雷"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "镍矿结构性过剩加剧，小市值企业缺乏定价权与流动性支撑。"
   },
   {
    "ticker": "MBAP.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "中小盘煤炭逆势涨14%，动量正面但缺乏消息验证"
+   "ai_adjust": 0,
+   "ai_note": "中型煤企经营稳健，但缺乏显著催化剂，估值已充分反映。"
   },
   {
    "ticker": "AADI.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "Adaro分拆新上市，价格发现期波动大，基本面待验证"
+   "ai_adjust": -5,
+   "ai_note": "动力煤资产分拆上市面临机构抛售压力与结构性估值折价。"
   },
   {
    "ticker": "PTBA.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "国企煤炭稳健，分红预期支撑，无显著异常"
+   "ai_note": "国有煤炭巨头股息率高，但煤价中枢下移限制上行空间。"
   },
   {
    "ticker": "MCOL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "大盘煤炭走平但历史上有推广争议，治理存疑"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤炭物流业务现金流稳定，但受限于行业整体资本开支周期。"
   },
   {
    "ticker": "HRUM.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤炭转型镍业，跌幅温和，无显著风险信号"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "向镍业务转型资本开支大，在镍价低迷期易拖累整体ROE。"
   },
   {
    "ticker": "SMGA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型镍矿月跌19%，流动性差且无消息，风险极高"
+   "ai_view": "red_flag",
+   "ai_adjust": -6,
+   "ai_note": "极小市值镍企面临严重的流动性风险与潜在的股权稀释隐患。"
   },
   {
    "ticker": "BSSR.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤炭稳健，跌幅有限，无显著异常"
-  },
-  {
-   "ticker": "ADRO.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "更名Alamtri转型中，分拆AADI后估值重估，整体中性"
+   "ai_note": "传统煤企基本面平稳，无明显治理瑕疵或重大潜在催化剂。"
   },
   {
    "ticker": "KKGI.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "小盘煤炭微涨，无显著催化或风险"
+   "ai_note": "中型煤企产量稳定，但缺乏低成本优势，难以获得超额溢价。"
+  },
+  {
+   "ticker": "ADRO.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "重组后资产负债表改善，但动力煤长期需求见顶压制估值。"
   },
   {
    "ticker": "NCKL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型镍业跌幅温和，行业地位稳固"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "镍产能集中释放导致价格承压，高成本冶炼项目面临盈利风险。"
   },
   {
    "ticker": "DKFT.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘镍矿月涨17%无消息，疑似炒作拉升需警惕"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "镍价短期反弹带动股价，但长期供需格局未改，维持中性。"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘煤炭月跌15%，无消息解释下跌，流动性风险"
+   "ai_adjust": -4,
+   "ai_note": "小市值煤企抗风险能力弱，需警惕环保合规成本上升及现金流断裂。"
   },
   {
    "ticker": "ITMG.JK",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "Banpu子公司，分红稳定，走势平稳无异常"
+   "ai_adjust": 1,
+   "ai_note": "高股息防御属性强，管理层分红意愿明确，具备一定安全边际。"
   },
   {
    "ticker": "NICL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "小盘锡矿月跌14%，无消息支撑，关注稀释风险"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "锡价受供给扰动支撑，但公司体量较小，业绩弹性受限。"
   },
   {
    "ticker": "GEMS.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "大盘煤炭跌幅温和，无显著异常"
+   "ai_note": "煤炭资产质量尚可，但缺乏新能源转型故事，估值难有突破。"
   },
   {
    "ticker": "INDY.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌28%幅度极大，转型绿色能源尚未见效，煤炭承压"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "历史治理记录不佳，激进跨界新能源与科技导致主业现金流失血。"
   },
   {
    "ticker": "ANTM.JK",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "国企镍业受政策影响大，跌幅温和但治理风险长期存在"
+   "ai_note": "国企背景提供资源保障，但冗员与低效运营长期侵蚀股东回报。"
   },
   {
    "ticker": "TOBA.JK",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "月跌近30%且无消息，小盘煤炭基本面或存重大问题"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型煤企经营中规中矩，无突出亮点亦无明显暴雷风险。"
   }
  ]
 }
