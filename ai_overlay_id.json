@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T22:08Z",
+ "generated_at": "2026-11-27T22:08Z",
  "model": "qwen3.7-plus",
  "market": "id",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "TINS.JK",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "国企治理与运营效率低下拖累业绩，锡价上涨难掩基本面瑕疵。"
+   "ai_note": "国企锡企，历史治理腐败问题频发，近期跌幅异常需警惕"
   },
   {
    "ticker": "IFSH.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "镍矿结构性过剩加剧，小市值企业缺乏定价权与流动性支撑。"
+   "ai_adjust": -3,
+   "ai_note": "小市值镍企月跌近24%无消息解释，流动性与治理风险高"
   },
   {
    "ticker": "MBAP.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤企经营稳健，但缺乏显著催化剂，估值已充分反映。"
+   "ai_note": "中型煤企走势平稳，无明显异常信号"
   },
   {
    "ticker": "AADI.JK",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "动力煤资产分拆上市面临机构抛售压力与结构性估值折价。"
-  },
-  {
-   "ticker": "PTBA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "国有煤炭巨头股息率高，但煤价中枢下移限制上行空间。"
+   "ai_adjust": -4,
+   "ai_note": "从ADRO分拆的劣质煤资产，治理结构复杂，分拆风险被模型忽略"
   },
   {
    "ticker": "MCOL.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭物流业务现金流稳定，但受限于行业整体资本开支周期。"
-  },
-  {
-   "ticker": "HRUM.JK",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "向镍业务转型资本开支大，在镍价低迷期易拖累整体ROE。"
-  },
-  {
-   "ticker": "SMGA.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -6,
-   "ai_note": "极小市值镍企面临严重的流动性风险与潜在的股权稀释隐患。"
+   "ai_note": "大型煤企运行平稳，量价无异常"
   },
   {
    "ticker": "BSSR.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "传统煤企基本面平稳，无明显治理瑕疵或重大潜在催化剂。"
+   "ai_note": "大型煤企走势稳定，暂无需调整"
   },
   {
-   "ticker": "KKGI.JK",
+   "ticker": "PTBA.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型煤企产量稳定，但缺乏低成本优势，难以获得超额溢价。"
+   "ai_note": "国企煤矿分红稳定，政策风险已被市场消化"
+  },
+  {
+   "ticker": "HRUM.JK",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "煤企向镍转型中，执行风险存在但可控"
+  },
+  {
+   "ticker": "SMGA.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小市值镍企月跌12%，治理与流动性风险突出"
   },
   {
    "ticker": "ADRO.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "重组后资产负债表改善，但动力煤长期需求见顶压制估值。"
+   "ai_note": "更名转型中，多元化布局市场已有预期"
   },
   {
    "ticker": "NCKL.JK",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "镍产能集中释放导致价格承压，高成本冶炼项目面临盈利风险。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型镍企走势平稳，无异常信号"
   },
   {
    "ticker": "DKFT.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "镍价短期反弹带动股价，但长期供需格局未改，维持中性。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "月涨21%涨幅异常，中小市值镍企存炒作嫌疑"
   },
   {
    "ticker": "DWGL.JK",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "小市值煤企抗风险能力弱，需警惕环保合规成本上升及现金流断裂。"
+   "ai_adjust": -3,
+   "ai_note": "小市值煤企月跌13%无消息支撑，警惕基本面恶化"
   },
   {
    "ticker": "ITMG.JK",
    "ai_view": "neutral",
-   "ai_adjust": 1,
-   "ai_note": "高股息防御属性强，管理层分红意愿明确，具备一定安全边际。"
+   "ai_adjust": 0,
+   "ai_note": "大型煤企运营稳健，万浦集团背景提供支撑"
   },
   {
-   "ticker": "NICL.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "锡价受供给扰动支撑，但公司体量较小，业绩弹性受限。"
+   "ticker": "KKGI.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月涨15%涨幅可疑，该公司历史上有推广炒作前科"
   },
   {
    "ticker": "GEMS.JK",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭资产质量尚可，但缺乏新能源转型故事，估值难有突破。"
+   "ai_note": "大型煤企小幅回调，无重大风险信号"
   },
   {
-   "ticker": "INDY.JK",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "历史治理记录不佳，激进跨界新能源与科技导致主业现金流失血。"
+   "ticker": "NICL.JK",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "锡企小幅回调，行业承压但无重大异常"
   },
   {
    "ticker": "ANTM.JK",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "国企背景提供资源保障，但冗员与低效运营长期侵蚀股东回报。"
+   "ai_adjust": 0,
+   "ai_note": "国企镍企，镍价承压但政策支撑明显"
+  },
+  {
+   "ticker": "INDY.JK",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "月跌近19%跌幅显著，绿色转型执行存疑"
   },
   {
    "ticker": "TOBA.JK",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "中型煤企经营中规中矩，无突出亮点亦无明显暴雷风险。"
+   "ai_view": "caution",
+   "ai_adjust": -2,
+   "ai_note": "中型煤企持续下跌，转型可再生能源增添不确定性"
   }
  ]
 }
