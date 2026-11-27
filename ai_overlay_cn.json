@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T22:23Z",
+ "generated_at": "2026-11-27T22:22Z",
  "model": "qwen3.7-plus",
  "market": "cn",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "000807.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "量化高分但月跌近两成，行业逆风无催化"
+   "ai_note": "云南国企铝电一体化运营稳健，无突出风险"
   },
   {
    "ticker": "000933.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤电铝一体化但月跌明显，缺乏近期催化"
+   "ai_note": "基本面尚可，治理偶有争议但无重大问题"
   },
   {
    "ticker": "601001.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭中坚力量，跌幅温和无异常"
+   "ai_note": "山西国企运营平稳，无特殊风险信号"
   },
   {
    "ticker": "601600.SS",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "央企铝业龙头，大盘股波动可控"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "大型国企但历史效率偏低负债较重，量化或高估"
   },
   {
    "ticker": "002532.SZ",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "月跌超16%且无新闻，中小铝企承压"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "新疆低成本电力优势，运营正常"
   },
   {
    "ticker": "600546.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "山西煤炭中坚，跌幅可控无异常"
+   "ai_note": "山西国企运营平稳，无特殊风险"
   },
   {
    "ticker": "002466.SZ",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "锂价低迷行业下行，量化难捕捉周期风险"
+   "ai_note": "收购SQM背负巨额债务，财务压力较大"
   },
   {
    "ticker": "601101.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "煤炭小盘股，跌幅温和无异常信号"
+   "ai_note": "京能旗下煤企运营正常，无突出问题"
   },
   {
    "ticker": "002128.SZ",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "露天煤业大盘股，跌幅正常范围"
+   "ai_note": "国电投旗下运营稳健，无特殊风险"
   },
   {
    "ticker": "600971.SS",
    "ai_view": "neutral",
    "ai_adjust": -1,
-   "ai_note": "小盘煤炭流动性风险，月跌偏大"
+   "ai_note": "中小型煤企规模有限，流动性一般"
   },
   {
    "ticker": "601898.SS",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "央企煤炭龙头，防御性较好跌幅最小"
+   "ai_note": "大型央企运营稳健，估值合理"
+  },
+  {
+   "ticker": "600595.SS",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "财务状况堪忧，历史曾有退市风险警示"
   },
   {
    "ticker": "600219.SS",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铝业中跌幅较小，基本面尚可"
+   "ai_adjust": 1,
+   "ai_note": "月跌幅仅0.5%显示抗跌性强，基本面扎实"
   },
   {
-   "ticker": "600595.SS",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "月跌超22%为铝业最差，中小企风险暴露"
+   "ticker": "601225.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "大型国企产量稳定分红良好"
   },
   {
    "ticker": "002192.SZ",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "锂业寒冬叠加小盘，下行风险被低估"
+   "ai_adjust": -2,
+   "ai_note": "锂盐业务受周期波动影响大，小市值风险偏高"
+  },
+  {
+   "ticker": "600508.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中煤旗下运营正常，无突出问题"
   },
   {
    "ticker": "600490.SS",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "月跌超21%且无新闻，铜企基本面存疑"
+   "ai_note": "公司治理存疑，曾受监管关注"
   },
   {
    "ticker": "002379.SZ",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "民营铝业龙头，大盘股跌幅可控"
-  },
-  {
-   "ticker": "600508.SS",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "小盘煤炭股流动性不足"
-  },
-  {
-   "ticker": "601225.SS",
-   "ai_view": "bullish",
-   "ai_adjust": 3,
-   "ai_note": "唯一正收益煤炭龙头，相对强势或有催化"
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "负债率极高，债务风险不容忽视"
   },
   {
    "ticker": "601899.SS",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金价高位却大跌，或存治理与估值隐忧"
+   "ai_view": "neutral",
+   "ai_adjust": 1,
+   "ai_note": "矿业龙头治理良好，近期回调或过度"
   },
   {
-   "ticker": "600961.SS",
-   "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "月跌25%全场最差，锌企或存基本面恶化"
+   "ticker": "601958.SS",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "钼业国企运营平稳，无特殊风险"
   }
  ]
 }
