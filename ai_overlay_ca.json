@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T22:46Z",
+ "generated_at": "2026-11-27T22:48Z",
  "model": "qwen3.7-plus",
  "market": "ca",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "MRZL.V",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "稀土微型勘探股无新闻支撑，股价与高分严重背离"
-  },
-  {
-   "ticker": "VIO.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型金矿勘探股零新闻配合高分，量价背离明显"
-  },
-  {
-   "ticker": "LIFT.V",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "锂矿勘探股月跌逾三成，行业逆风下高分不可信"
-  },
-  {
-   "ticker": "MMY.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "金矿生产商月跌12%，历史运营问题需警惕"
-  },
-  {
-   "ticker": "THX.V",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "最大市值生产商跌幅最小，基本面相对稳健"
+   "ai_note": "稀土勘探小盘股无新闻，疑似壳公司或推广标的"
   },
   {
    "ticker": "MJS.V",
    "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "标为生产商但市值仅9千万，分类存疑跌幅显著"
+   "ai_adjust": -4,
+   "ai_note": "标注为生产商但市值过小且无消息，存疑"
+  },
+  {
+   "ticker": "MMY.V",
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "Monument为合法生产商但近期无催化，中性"
+  },
+  {
+   "ticker": "THX.V",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "Seguela金矿产金正常，正收益合理"
   },
   {
    "ticker": "SBI.TO",
    "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "巴西运营有治理历史包袱，下行风险未充分反映"
+  },
+  {
+   "ticker": "VIO.V",
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "小盘勘探股无新闻流，流动性风险高"
+  },
+  {
+   "ticker": "LIFT.V",
+   "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "巴西金矿生产商月跌20%，产量指引问题频发"
+   "ai_note": "锂板块整体承压，公司无新进展，跌幅偏大"
   },
   {
    "ticker": "OC.V",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "微型多元勘探股市值过小，流动性风险高"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "名称含Capital疑似资金池壳公司，无实质业务"
   },
   {
    "ticker": "V.V",
-   "ai_view": "caution",
-   "ai_adjust": -5,
-   "ai_note": "微型铀矿勘探股月跌20%，推广炒作风险大"
-  },
-  {
-   "ticker": "YMC.CN",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "月暴跌43%代码名称异常，疑似壳公司特征"
+   "ai_note": "铀矿勘探暴跌32%无消息，极小市值高风险"
   },
   {
    "ticker": "STGO.TO",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "蒙古国金矿生产商，地缘风险叠加股价下行"
+   "ai_adjust": -3,
+   "ai_note": "蒙古运营有地缘及治理风险，跌幅反映担忧"
+  },
+  {
+   "ticker": "YMC.CN",
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "名称似占位符，暴跌29%无任何公告，高度可疑"
   },
   {
    "ticker": "UTWO.V",
    "ai_view": "red_flag",
    "ai_adjust": -9,
-   "ai_note": "月暴跌49%微型铀矿股，名称具推广性极高风险"
+   "ai_note": "暴跌45%无消息，极小市值铀矿壳股，红旗"
   },
   {
    "ticker": "STUD.V",
    "ai_view": "red_flag",
    "ai_adjust": -7,
-   "ai_note": "名称为铀矿却标注金矿，数据矛盾且月跌25%"
+   "ai_note": "公司名铀矿但分类为金矿，数据矛盾或转型未披露"
   },
   {
    "ticker": "IPT.V",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "墨西哥银矿生产商运营历史波折，温和调整中"
+   "ai_view": "neutral",
+   "ai_adjust": -2,
+   "ai_note": "墨西哥银矿生产商运营正常，跌幅温和"
   },
   {
-   "ticker": "TITI.V",
-   "ai_view": "caution",
-   "ai_adjust": -6,
-   "ai_note": "名称可疑的微型银矿勘探股月跌28%推广嫌疑大"
+   "ticker": "AFM.V",
+   "ai_view": "neutral",
+   "ai_adjust": -1,
+   "ai_note": "刚果Bisie锡矿合法中盘，小幅回调正常"
   },
   {
    "ticker": "IRV.CN",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "代码名称格式异常，微型金矿股月跌20%"
+   "ai_note": "名称似占位符，小盘无消息，数据质量存疑"
   },
   {
-   "ticker": "AFM.V",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "正规中型锡生产商，刚果金管辖风险为主要隐忧"
-  },
-  {
-   "ticker": "MANU.V",
-   "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "名称含铀却标注金矿分类矛盾，具推广特征"
-  },
-  {
-   "ticker": "APM.TO",
+   "ticker": "JUGR.V",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "玻利维亚金矿生产商，国有化历史构成管辖风险"
+   "ai_note": "育空勘探小盘无新进展，跌幅偏大但行业常见"
   },
   {
    "ticker": "NVO.TO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "历史复杂多次转型，高分零回报说明模型失效"
+   "ai_adjust": -2,
+   "ai_note": "虽有正收益但Novo历史推广争议大，需警惕"
+  },
+  {
+   "ticker": "FVI.TO",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中盘银金生产商运营稳定，波动在合理范围"
+  },
+  {
+   "ticker": "LAC.TO",
+   "ai_view": "caution",
+   "ai_adjust": -5,
+   "ai_note": "Thacker Pass融资稀释风险大，GM合作存变数"
   }
  ]
 }
