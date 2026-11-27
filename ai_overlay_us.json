@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T21:50Z",
+ "generated_at": "2026-11-27T21:50Z",
  "model": "qwen3.7-plus",
  "market": "us",
  "items": [
@@ -7,121 +7,121 @@
    "ticker": "JAGU",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "微型铀矿企暴跌且无新闻，警惕隐性稀释或流动性枯竭。"
+   "ai_note": "微型铀矿勘探商，无新闻却暴跌，警惕融资稀释或钻探失败。"
   },
   {
    "ticker": "IONR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "Rhyolite Ridge项目面临BLM审批延迟，量化模型未计入许可风险。"
+   "ai_note": "锂矿开发商，项目面临融资与许可双重压力，估值承压。"
   },
   {
    "ticker": "REA",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "稀土微型探险企单月暴跌超半数，无新闻掩盖了极高的资金链断裂风险。"
+   "ai_adjust": -7,
+   "ai_note": "稀土勘探股单月腰斩且无消息，极大概率遭遇融资或技术挫折。"
   },
   {
    "ticker": "FNUC",
    "ai_view": "red_flag",
-   "ai_adjust": -8,
-   "ai_note": "微型铀矿企暴跌且零新闻，典型的高位派发或隐性融资特征。"
+   "ai_adjust": -9,
+   "ai_note": "市值仅千万且暴跌近六成，典型的高风险微盘股，谨防稀释。"
   },
   {
    "ticker": "CMCL",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "津巴布韦金矿面临地缘与治理风险，量化模型易忽略当地政策变动。"
+   "ai_adjust": -3,
+   "ai_note": "津巴布韦资产面临地缘与政策风险，金价上涨未能抵消国别折价。"
   },
   {
    "ticker": "FSM",
    "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "中型银矿企基本面稳健，近期下跌属板块轮动，无重大隐藏风险。"
+   "ai_note": "中型银矿商基本面稳健，近期下跌主要受贵金属板块整体回调拖累。"
   },
   {
    "ticker": "GRML",
    "ai_view": "red_flag",
-   "ai_adjust": -7,
-   "ai_note": "格陵兰PGM微型探险企暴跌，当地严苛的ESG与采矿许可风险被模型忽视。"
+   "ai_adjust": -8,
+   "ai_note": "格陵兰岛采矿面临极高环保与政治阻力，勘探股暴跌属预期内风险。"
   },
   {
    "ticker": "ELVR",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "锂企单月大跌且缺乏新闻催化，需警惕项目延期或隐性股本稀释。"
+   "ai_note": "锂价持续低迷，作为生产商若成本偏高则利润空间将被严重挤压。"
   },
   {
    "ticker": "BVN",
-   "ai_view": "neutral",
-   "ai_adjust": -2,
-   "ai_note": "秘鲁大型矿企受社区干扰及宏观影响，量化模型未充分计入地缘风险。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "秘鲁矿区社区关系与罢工风险频发，地缘政治溢价压制估值。"
   },
   {
    "ticker": "ALOY",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "稀土开发商单月暴跌近半，缺乏新闻支撑，需警惕融资困难或项目受阻。"
+   "ai_adjust": -5,
+   "ai_note": "稀土开发项目资本开支大，在缺乏明确包销协议下暴跌暗示融资受阻。"
   },
   {
    "ticker": "LAC",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "Thacker Pass项目面临巨额资金缺口与审批延期，模型未反映开发进度风险。"
+   "ai_adjust": -4,
+   "ai_note": "依赖政府巨额贷款且锂价低迷，资本开支压力导致股价持续承压。"
   },
   {
    "ticker": "IMPUY",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "PGM价格低迷导致股价承压，但作为大型矿企资产质量较好，无需额外调整。"
+   "ai_adjust": -2,
+   "ai_note": "铂钯价格持续疲软导致基本面承压，但作为龙头具备一定抗跌韧性。"
+  },
+  {
+   "ticker": "AABB",
+   "ai_view": "red_flag",
+   "ai_adjust": -10,
+   "ai_note": "公司名称与主业脱节且市值极小，典型的问题股与炒作标的，规避。"
   },
   {
    "ticker": "NMG",
    "ai_view": "caution",
    "ai_adjust": -4,
-   "ai_note": "石墨开发商面临项目融资与魁北克审批双重压力，量化模型未能捕捉。"
-  },
-  {
-   "ticker": "AABB",
-   "ai_view": "red_flag",
-   "ai_adjust": -9,
-   "ai_note": "典型的高稀释微型金矿股，长期依赖增发与炒作，量化模型极易被其误导。"
-  },
-  {
-   "ticker": "OGC",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "大型金矿企运营平稳，近期跌幅属于正常市场波动，无重大治理或许可风险。"
+   "ai_note": "石墨项目面临融资瓶颈与电池级产品认证延迟，现金流压力显现。"
   },
   {
    "ticker": "SLI",
    "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "阿肯色州锂项目面临技术验证与资金压力，模型未计入商业化落地的不确定性。"
+   "ai_adjust": -5,
+   "ai_note": "失去重要合作伙伴后需独自承担巨额资本开支，项目推进风险骤增。"
   },
   {
    "ticker": "NB",
    "ai_view": "caution",
    "ai_adjust": -5,
-   "ai_note": "NioCorp项目历史悠久但屡遭延期，融资困难与执行风险是量化模型盲区。"
+   "ai_note": "项目历经多年延期与冶金技术挑战，融资落地前股价难有实质性反转。"
+  },
+  {
+   "ticker": "OGC",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "唯一逆势上涨，矿产储量替换与成本控制优异，具备基本面溢价。"
+  },
+  {
+   "ticker": "SQM",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "智利锂矿国有化政策阴云未散，叠加锂价下行，长期估值受压制。"
+  },
+  {
+   "ticker": "GAU",
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "中型金矿商产量稳定，近期跌幅小于板块均值，基本面表现相对平稳。"
   },
   {
    "ticker": "ITRG",
    "ai_view": "caution",
    "ai_adjust": -3,
-   "ai_note": "秘鲁中小型矿企面临社区与政策风险，近期大跌反映市场对当地环境的担忧。"
-  },
-  {
-   "ticker": "SSRM",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "中型金矿企基本面良好，近期下跌主要受金价波动影响，无重大隐藏利空。"
-  },
-  {
-   "ticker": "SQM",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "智利锂矿国有化阴影及锂价暴跌重创业绩，量化模型可能低估了政策风险。"
+   "ai_note": "量化模型误判其为PGM生产商，实为金银勘探商，项目推进仍存不确定性。"
   }
  ]
 }
