@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-26T22:03Z",
+ "generated_at": "2026-11-27T22:04Z",
  "model": "qwen3.7-plus",
  "market": "za",
  "items": [
   {
    "ticker": "MRF.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "铬价平稳但小盘股流动性差，无额外催化剂。"
+   "ai_adjust": -2,
+   "ai_note": "微型盘流动性差，电力成本侵蚀利润。"
   },
   {
    "ticker": "KIO.JO",
-   "ai_view": "caution",
+   "ai_view": "neutral",
    "ai_adjust": -2,
-   "ai_note": "铁矿石需求疲软，中国宏观逆风压制估值。"
+   "ai_note": "铁矿石需求疲软，量化未充分反映宏观下行风险。"
   },
   {
    "ticker": "THA.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "铂族金属价格暴跌，南非电力与物流风险加剧。"
+   "ai_adjust": -4,
+   "ai_note": "铂族金属价格深度熊市，盈利预期需大幅下修。"
   },
   {
    "ticker": "APH.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "刚果(金)运营存地缘风险，锡价波动大。"
+   "ai_view": "neutral",
+   "ai_adjust": 0,
+   "ai_note": "锡价有支撑，但刚果金运营与地缘风险被模型忽略。"
   },
   {
    "ticker": "IMP.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "PGM行业寒冬，高成本结构拖累盈利预期。"
+   "ai_adjust": -5,
+   "ai_note": "PGM价格暴跌叠加南非高成本，利润承压严重。"
   },
   {
    "ticker": "SSW.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -5,
-   "ai_note": "历史治理瑕疵频出，高成本叠加PGM暴跌风险大。"
+   "ai_adjust": -6,
+   "ai_note": "美国资产减值风险高，管理层资本配置与治理屡受质疑。"
   },
   {
    "ticker": "JBL.JO",
    "ai_view": "red_flag",
    "ai_adjust": -8,
-   "ai_note": "无利好却单月暴跌近四成，警惕项目失败或稀释。"
+   "ai_note": "单月暴跌超三成，警惕激进扩张带来的股权稀释与现金流断裂。"
   },
   {
    "ticker": "ARI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "多元化资产抗跌，但PGM板块整体承压。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "PGM板块整体拖累，且南非矿业面临持续的电力与罢工风险。"
   },
   {
    "ticker": "SLG.JO",
-   "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "微型煤企流动性极差，治理与合规风险高。"
+   "ai_view": "red_flag",
+   "ai_adjust": -7,
+   "ai_note": "市值不足4亿兰特，流动性枯竭且煤炭面临长期ESG封杀。"
   },
   {
    "ticker": "EXX.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "煤炭长期需求逻辑走弱，仅靠短期现金流支撑。"
+   "ai_view": "caution",
+   "ai_adjust": -3,
+   "ai_note": "煤炭业务受ESG长期压制，模型未计入能源转型带来的估值折价。"
   },
   {
    "ticker": "PAN.JO",
-   "ai_view": "caution",
-   "ai_adjust": -2,
-   "ai_note": "金价高位却逆势大跌，需警惕成本超支或事故。"
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "金价高企提供强支撑，量化得分低估了黄金股的避险与盈利弹性。"
   },
   {
    "ticker": "TGA.JO",
    "ai_view": "caution",
-   "ai_adjust": -3,
-   "ai_note": "煤炭出口受物流瓶颈限制，长期转型压力大。"
+   "ai_adjust": -4,
+   "ai_note": "高分红难掩长期需求萎缩，ESG逆风导致估值持续受压。"
   },
   {
-   "ticker": "NPH.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "PGM成本曲线较优，但难挡行业整体下行。"
-  },
-  {
-   "ticker": "VAL.JO",
-   "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "分拆重组预期存在不确定性，短期缺乏催化。"
+   "ticker": "GFI.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 4,
+   "ai_note": "全球资产组合稳健，金价牛市下量化得分显著低估其重估潜力。"
   },
   {
    "ticker": "HAR.JO",
    "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "黄金业务稳健，但南非整体运营环境偏弱。"
+   "ai_adjust": 1,
+   "ai_note": "深井矿成本偏高，金价上涨部分被通胀抵消，表现或弱于同行。"
   },
   {
-   "ticker": "GFI.JO",
-   "ai_view": "neutral",
-   "ai_adjust": 0,
-   "ai_note": "全球资产分布分散，抗风险能力较强。"
+   "ticker": "VAL.JO",
+   "ai_view": "red_flag",
+   "ai_adjust": -5,
+   "ai_note": "代码与市值数据异常，疑似未上市实体或数据错误，存在极高误导风险。"
+  },
+  {
+   "ticker": "NPH.JO",
+   "ai_view": "caution",
+   "ai_adjust": -4,
+   "ai_note": "虽为低成本生产商，但PGM价格跌破部分矿山盈亏平衡点。"
   },
   {
    "ticker": "MTU.JO",
    "ai_view": "red_flag",
-   "ai_adjust": -10,
-   "ai_note": "市值极小且单月暴跌近四成，极高退市或稀释风险。"
+   "ai_adjust": -9,
+   "ai_note": "市值仅数千万兰特，流动性完全丧失，存在退市或老千股风险。"
+  },
+  {
+   "ticker": "ANG.JO",
+   "ai_view": "bullish",
+   "ai_adjust": 3,
+   "ai_note": "全球优质黄金资产，金价上行周期中量化模型未能给予足够溢价。"
   },
   {
    "ticker": "DRD.JO",
    "ai_view": "neutral",
-   "ai_adjust": -1,
-   "ai_note": "尾矿回收成本敏感，金价高位但涨幅受限。"
-  },
-  {
-   "ticker": "ANG.JO",
-   "ai_view": "neutral",
    "ai_adjust": 0,
-   "ai_note": "全球布局对冲单一国家风险，基本面尚可。"
+   "ai_note": "尾矿回收受限于南非电力与通胀，成本优势被削弱。"
   },
   {
    "ticker": "EPS.JO",
-   "ai_view": "caution",
-   "ai_adjust": -4,
-   "ai_note": "长期横盘且市值微小，资金链断裂或项目停滞风险高。"
+   "ai_view": "red_flag",
+   "ai_adjust": -8,
+   "ai_note": "微型盘流动性极差，基本面边缘化，需防范估值陷阱。"
   }
  ]
 }
